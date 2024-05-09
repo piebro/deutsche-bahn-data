@@ -27,16 +27,10 @@ jobs:
           CLIENT_ID: ${{ secrets.CLIENT_ID }}
         run: python fetch_data.py
 
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v4
-        with:
-          branch: create-pull-request/patch
-          branch-suffix: timestamp
-          add-paths: |
-            data/*
-          commit-message: data update
-          committer: GitHub <noreply@github.com>
-          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
-          delete-branch: true
-          title: 'Update Deutsche Bahn data'
-          body: ''
+      - name: Commit and Push
+        run: |
+          git config --local user.email "noreply@github.com"
+          git config --local user.name "Piet Brömmel"
+          git add data/*
+          git commit -m "data update"
+          git push
