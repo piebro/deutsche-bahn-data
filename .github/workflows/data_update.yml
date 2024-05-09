@@ -2,8 +2,8 @@ name: update data
 
 on:
   schedule:
-    # Should run at 0:00, 6:00, 12:00, and 16:00 every day (UTC).
-    - cron: '0 0,6,12,16 * * *'
+    # Should run at 0:00 and then every 3 hours every day in UTC time.
+    - cron: '0 0,3,6,9,12,15,18,21 * * *'
   workflow_dispatch:
 
 jobs:

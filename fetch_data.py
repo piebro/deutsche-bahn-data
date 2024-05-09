@@ -36,7 +36,6 @@ def main():
     plan_url = "https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/{eva}/{date}/{hour}"
     fchg_url = "https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/fchg/{eva}"
 
-    # 
     date_str = datetime.now().strftime("%Y-%m-%d")
     date_str_url = date_str.replace("-", "")[2:]
 
@@ -50,7 +49,9 @@ def main():
     for eva, name in eva_name_list:
         formatted_fchg_url = fchg_url.format(eva=eva)
         save_api_data(formatted_fchg_url, save_folder / f"{eva}_fchg_{curent_hour:02}.xml", prettify=False)
-        for hour in range(curent_hour, curent_hour + 6):
+    
+    for eva, name in eva_name_list:
+        for hour in range(curent_hour, curent_hour + 3):
             hour = hour % 24
             formatted_plan_url = plan_url.format(eva=eva, date=date_str_url, hour=f"{hour:02}")
             save_api_data(formatted_plan_url, save_folder / f"{eva}_plan_{hour:02}.xml")
