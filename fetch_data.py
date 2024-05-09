@@ -47,7 +47,7 @@ def main():
         eva_name_list = [line.split(",") for line in f.read().split("\n")]
 
     curent_hour = datetime.now().hour
-    for eva, name in eva_name_list[:3]:
+    for eva, name in eva_name_list:
         formatted_fchg_url = fchg_url.format(eva=eva)
         save_api_data(formatted_fchg_url, save_folder / f"{eva}_fchg_{curent_hour:02}.xml", prettify=False)
         for hour in range(curent_hour, curent_hour + 6):
