@@ -56,5 +56,7 @@ def main():
             formatted_plan_url = plan_url.format(eva=eva, date=date_str_url, hour=f"{hour:02}")
             save_api_data(formatted_plan_url, save_folder / f"{eva}_plan_{hour:02}.xml")
 
+    print("Done")
+
 if __name__ == "__main__":
     main()
