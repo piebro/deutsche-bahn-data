@@ -2,8 +2,8 @@ name: update data
 
 on:
   schedule:
-    # TODO: should run at 0:00 6:00 12:00 and 16:00 o'clock every day.
-    - cron: '0 8 * * 1'
+    # Should run at 0:00, 6:00, 12:00, and 16:00 every day (UTC).
+    - cron: '0 0,6,12,16 * * *'
   workflow_dispatch:
 
 jobs:
@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-      - uses: actions/checkout@v3
+        uses: actions/checkout@v3
 
       - name: Setup Python
         uses: actions/setup-python@v4
