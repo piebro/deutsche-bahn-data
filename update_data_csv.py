@@ -49,6 +49,7 @@ def get_plan_xml_rows(xml_path, eva_to_name):
             'train_name': train_name,
             'destination_station': destination_station,
             'train_number': int(train_number),
+            'train_type': train_type,
             'arrival_planned_time': s.find('ar').get('pt') if s.find('ar') is not None else None,
             'departure_planned_time': s.find('dp').get('pt') if s.find('dp') is not None else None,
             'planned_platform': planned_platform,
@@ -130,6 +131,17 @@ def main():
 
     df.loc[df["arrival_planned_time"] == df["arrival_change_time"], "arrival_change_time"] = None
     df.loc[df["departure_planned_time"] == df["departure_change_time"], "departure_change_time"] = None
+    
+    # Calculate time deltas
+    df["arrival_time_delta"] = df["arrival_change_time"] - df["arrival_planned_time"]
+    df["arrival_time_delta"] = df["arrival_time_delta"].fillna(pd.Timedelta(0))
+    df["arrival_time_delta"] = pd.to_timedelta(df["arrival_time_delta"])
+    df["departure_time_delta"] = df["departure_change_time"] - df["departure_planned_time"]
+    df["departure_time_delta"] = df["departure_time_delta"].fillna(pd.Timedelta(0))
+    df["departure_time_delta"] = pd.to_timedelta(df["departure_time_delta"])
+
+    df.loc[df["stop_canceled"].isna(), "stop_canceled"] = False
+
     df.loc[df["stop_canceled"].isna(), "stop_canceled"] = False
     df = df.drop("id", axis=1)
     df.to_csv("data.csv", index=False)
