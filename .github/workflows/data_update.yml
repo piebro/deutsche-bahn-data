@@ -30,7 +30,7 @@ jobs:
       - name: Commit and Push
         run: |
           git config --local user.email "noreply@github.com"
-          git config --local user.name "Piet Brömmel"
+          git config --local user.name "Bot"
           git add data/*
           git commit -m "data update"
           git push
