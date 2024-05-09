@@ -28,3 +28,6 @@ python3 save_eva_name_list.py
 
 Wenn jemand eine aktuelle Liste von Bahnhöfen und ihrer eva nummer findet erstellt gerne ein issue.
 
+
+
+https://editor.swagger.io/

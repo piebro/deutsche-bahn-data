@@ -50,6 +50,7 @@ def main():
         formatted_fchg_url = fchg_url.format(eva=eva)
         save_api_data(formatted_fchg_url, save_folder / f"{eva}_fchg_{curent_hour:02}.xml", prettify=False)
     
+    print("curent_hour:", curent_hour)
     for eva, name in eva_name_list:
         for hour in range(curent_hour, curent_hour + 3):
             hour = hour % 24
