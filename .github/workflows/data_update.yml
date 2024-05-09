@@ -30,6 +30,8 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
         with:
+          branch: create-pull-request/patch
+          branch-suffix: timestamp
           add-paths: |
             data/*
           commit-message: data update
