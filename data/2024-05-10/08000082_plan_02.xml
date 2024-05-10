@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<timetable station="Düsseldorf Flughafen">
+	<s id="8503777394879306018-2405092324-8">
+		<tl f="F" t="p" o="80" c="ICE" n="920"/>
+		<ar pt="2405100239" pp="1" ppth="Frankfurt(Main)Hbf|Bingen(Rhein) Hbf|Koblenz Hbf|Remagen|Bonn Hbf|Köln Hbf|Düsseldorf Hbf"/>
+		<dp pt="2405100241" pp="1" ppth="Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Münster(Westf)Hbf|Osnabrück Hbf|Diepholz|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-606634680874092581-2405100210-7">
+		<tl t="p" o="B2" c="Bus" n="3500"/>
+		<ar pt="2405100259" pp="" l="S1" ppth="Duisburg Hbf|Duisburg-Schlenk|Duisburg-Buchholz|Duisburg-Großenbaum|Duisburg-Rahm|Angermund"/>
+		<dp pt="2405100259" pp="" l="S1" ppth="Düsseldorf-Unterrath"/>
+	</s>
+	<s id="9077547315696676873-2405100200-2">
+		<tl t="p" o="NX" c="Bus" n="2744"/>
+		<ar pt="2405100224" pp="" l="RE6" ppth="Duisburg Hbf"/>
+		<dp pt="2405100227" pp="" l="RE6" ppth="Düsseldorf Hbf"/>
+	</s>
+	<s id="-4068911222865023920-2405100222-2">
+		<tl f="N" t="p" o="NXRE" c="RE" n="26845"/>
+		<ar pt="2405100227" pp="1" l="1" ppth="Düsseldorf Hbf"/>
+		<dp pt="2405100228" pp="1" l="1" ppth="Duisburg Hbf|Mülheim(Ruhr)Hbf|Essen Hbf|Wattenscheid|Bochum Hbf|Dortmund Hbf"/>
+	</s>
+	<s id="3171596298398851968-2405100156-2">
+		<tl t="p" o="B2" c="Bus" n="3503"/>
+		<ar pt="2405100203" pp="" l="S1" ppth="Düsseldorf-Unterrath"/>
+		<dp pt="2405100203" pp="" l="S1" ppth="Angermund|Duisburg-Rahm|Duisburg-Großenbaum|Duisburg-Buchholz|Duisburg-Schlenk|Duisburg Hbf"/>
+	</s>
+</timetable>
