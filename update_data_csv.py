@@ -4,8 +4,8 @@ from pathlib import Path
 
 def get_eva_to_name_dict():
     with Path("eva_name_list.txt").open("r") as f:
-        eva_to_list = {line.split(",")[0]: line.split(",")[1] for line in f.read().split("\n")}
-    return eva_to_list
+        eva_to_name = {line.split(",")[0]: line.split(",")[1] for line in f.read().split("\n")}
+    return eva_to_name
 
 def get_plan_xml_rows(xml_path, eva_to_name):
     eva = xml_path.name.split("_")[0]
@@ -37,9 +37,9 @@ def get_plan_xml_rows(xml_path, eva_to_name):
 
         dp_ppth = s.find('dp').get('ppth') if s.find('dp') is not None else None # departure planed path
         if dp_ppth is None:
-            destination_station = station
+            final_destination_station = station
         else:
-            destination_station = dp_ppth.split("|")[-1]
+            final_destination_station = dp_ppth.split("|")[-1]
         
         s_id_split = s_id.split('-')
 
@@ -47,15 +47,14 @@ def get_plan_xml_rows(xml_path, eva_to_name):
             'id': s_id,
             'station': station,
             'train_name': train_name,
-            'destination_station': destination_station,
-            'train_number': int(train_number),
+            'final_destination_station': final_destination_station,
+            #'train_number': int(train_number),
             'train_type': train_type,
             'arrival_planned_time': s.find('ar').get('pt') if s.find('ar') is not None else None,
             'departure_planned_time': s.find('dp').get('pt') if s.find('dp') is not None else None,
             'planned_platform': planned_platform,
-            'train_line_id': '-'.join(s_id_split[:-1]),
+            'train_line_ride_id': '-'.join(s_id_split[:-1]),
             'train_line_station_num': int(s_id_split[-1]),
-            
             # 'arrival_planned_path': s.find('ar').get('ppth') if s.find('ar') is not None else None,
             # 'departure_planned_path': s.find('dp').get('ppth') if s.find('dp') is not None else None,
 
@@ -114,8 +113,12 @@ def get_fchg_xml_rows(xml_path, id_to_data):
 def get_fchg_db():
     id_to_data = {}
     for date_folder_path in Path("data").iterdir():
+        # if date_folder_path.name != "2024-05-10":
+        #     continue
         for xml_path in sorted(date_folder_path.iterdir()): # get the oldest data first
             if "fchg" in xml_path.name:
+                # if "06" in xml_path.name:
+                #     continue
                 get_fchg_xml_rows(xml_path, id_to_data)
     
     out_df = pd.DataFrame(id_to_data.values())
@@ -127,23 +130,29 @@ def get_fchg_db():
 def main():
     plan_df = get_plan_db()
     fchg_df = get_fchg_db()
+    # print(len(plan_df), len(fchg_df)) # TODO: why is fchg_df bigger?
     df = pd.merge(plan_df, fchg_df, on='id', how='left')
 
     df.loc[df["arrival_planned_time"] == df["arrival_change_time"], "arrival_change_time"] = None
     df.loc[df["departure_planned_time"] == df["departure_change_time"], "departure_change_time"] = None
-    
-    # Calculate time deltas
-    df["arrival_time_delta"] = df["arrival_change_time"] - df["arrival_planned_time"]
-    df["arrival_time_delta"] = df["arrival_time_delta"].fillna(pd.Timedelta(0))
-    df["arrival_time_delta"] = pd.to_timedelta(df["arrival_time_delta"])
-    df["departure_time_delta"] = df["departure_change_time"] - df["departure_planned_time"]
-    df["departure_time_delta"] = df["departure_time_delta"].fillna(pd.Timedelta(0))
-    df["departure_time_delta"] = pd.to_timedelta(df["departure_time_delta"])
 
-    df.loc[df["stop_canceled"].isna(), "stop_canceled"] = False
+    # Calculate time deltas
+    for prefix in ["arrival", "departure"]:
+        time_delta = df[f"{prefix}_change_time"] - df[f"{prefix}_planned_time"]
+        time_delta = time_delta.fillna(pd.Timedelta(0))
+        df[f"{prefix}_time_delta_in_min"] = time_delta.dt.total_seconds() / 60
 
     df.loc[df["stop_canceled"].isna(), "stop_canceled"] = False
     df = df.drop("id", axis=1)
+
+    # Reorder columns as per the new order specified
+    df = df[[
+        'station', 'train_name', 'final_destination_station', 'arrival_planned_time',
+        'arrival_time_delta_in_min', 'departure_planned_time', 'departure_time_delta_in_min',
+        'planned_platform', 'changed_platform', 'stop_canceled', 'train_type',
+        'train_line_ride_id', 'train_line_station_num'
+    ]]
+
     df.to_csv("data.csv", index=False)
 
 if __name__ == "__main__":
