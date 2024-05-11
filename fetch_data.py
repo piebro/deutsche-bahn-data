@@ -52,7 +52,7 @@ def main():
     
     print("curent_hour:", curent_hour)
     for eva, name in eva_name_list:
-        for hour in range(curent_hour, curent_hour + 3):
+        for hour in range(curent_hour, curent_hour + 6): # fetch this hour and the next 5 hours
             hour = hour % 24
             formatted_plan_url = plan_url.format(eva=eva, date=date_str_url, hour=f"{hour:02}")
             save_api_data(formatted_plan_url, save_folder / f"{eva}_plan_{hour:02}.xml")

@@ -10,6 +10,7 @@ def get_eva_to_name_dict():
 def get_plan_xml_rows(xml_path, eva_to_name):
     eva = xml_path.name.split("_")[0]
     station = eva_to_name[eva]
+    # TODO: get station name from the plan file. Then I always have the "official names". Delete the names from the eva list.
 
     tree = ET.parse(xml_path)
     root = tree.getroot()
@@ -100,6 +101,9 @@ def get_fchg_xml_rows(xml_path, id_to_data):
         
         if ar_ct is None and dp_ct is None and changed_platform is None and not stop_canceled:
             continue
+
+        if s_id == "2399764757688153611-2405090622-2":
+            print(ar_ct, dp_ct, stop_canceled)
         
         # overwrite older data with new data
         id_to_data[s_id] = {
@@ -113,12 +117,8 @@ def get_fchg_xml_rows(xml_path, id_to_data):
 def get_fchg_db():
     id_to_data = {}
     for date_folder_path in Path("data").iterdir():
-        # if date_folder_path.name != "2024-05-10":
-        #     continue
         for xml_path in sorted(date_folder_path.iterdir()): # get the oldest data first
             if "fchg" in xml_path.name:
-                # if "06" in xml_path.name:
-                #     continue
                 get_fchg_xml_rows(xml_path, id_to_data)
     
     out_df = pd.DataFrame(id_to_data.values())
@@ -130,7 +130,6 @@ def get_fchg_db():
 def main():
     plan_df = get_plan_db()
     fchg_df = get_fchg_db()
-    # print(len(plan_df), len(fchg_df)) # TODO: why is fchg_df bigger?
     df = pd.merge(plan_df, fchg_df, on='id', how='left')
 
     df.loc[df["arrival_planned_time"] == df["arrival_change_time"], "arrival_change_time"] = None
