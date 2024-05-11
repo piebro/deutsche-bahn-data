@@ -12,15 +12,15 @@ for df in tables:
 with open('20141001_IBNR.pdf', 'rb') as file:
     reader = PyPDF2.PdfReader(file)
     num_pages = len(reader.pages)
-    all_text = ""
+    IBNR_text = ""
 
     for i in range(num_pages):
         page = reader.pages[i]
-        all_text += page.extract_text() + "\n"
+        IBNR_text += page.extract_text() + "\n"
 
 # create name and eva list and do some sting manupulations to match the different names in the PDFs
-eva_name_list = []
-for eva_name in all_text.split("\n")[2:-1]:
+eva_list = []
+for eva_name in IBNR_text.split("\n")[2:-1]:
     eva_name_split = eva_name.split(" ")
     name = " ".join(eva_name_split[:-1])
     # TODO: do better fuzzy matching of the names
@@ -32,14 +32,12 @@ for eva_name in all_text.split("\n")[2:-1]:
         name = name.replace("-", " ").replace("(", " (").replace(")", ") ").replace(")  ", ") ").rstrip()
     
     eva = eva_name_split[-1]
-    if name in biggest_stations:
-        eva_name_list.append((f"{eva},{name}"))
-    elif name.replace(" Hbf", "") in biggest_stations:
-        eva_name_list.append((f"{eva},{name.replace(' Hbf', '')}"))
-    elif f"{name} Hbf" in biggest_stations:
-        eva_name_list.append((f"{eva},{name} Hbf"))
+    if eva == "08005589": # this is an error, there are two "Solingen Hbf"
+        continue
     
-    # TODO: there is a but that there are two "Solingen Hbf, only the lower number is right"
+    if (name in biggest_stations) or (name.replace(" Hbf", "") in biggest_stations) or (f"{name} Hbf" in biggest_stations):
+        eva_list.append(eva)
+    
 
 with open("eva_name_list.txt", "w") as f:
-    f.write("\n".join(eva_name_list))
+    f.write("\n".join(eva_list))

@@ -42,16 +42,16 @@ def main():
     save_folder = Path("data") / date_str
     save_folder.mkdir(exist_ok=True)
 
-    with Path("eva_name_list.txt").open("r") as f:
-        eva_name_list = [line.split(",") for line in f.read().split("\n")]
+    with Path("eva_list.txt").open("r") as f:
+        eva_list = f.read().split("\n")
 
     curent_hour = datetime.now().hour
-    for eva, name in eva_name_list:
+    for eva in eva_list:
         formatted_fchg_url = fchg_url.format(eva=eva)
         save_api_data(formatted_fchg_url, save_folder / f"{eva}_fchg_{curent_hour:02}.xml", prettify=False)
     
     print("curent_hour:", curent_hour)
-    for eva, name in eva_name_list:
+    for eva in eva_list:
         for hour in range(curent_hour, curent_hour + 6): # fetch this hour and the next 5 hours
             hour = hour % 24
             formatted_plan_url = plan_url.format(eva=eva, date=date_str_url, hour=f"{hour:02}")
