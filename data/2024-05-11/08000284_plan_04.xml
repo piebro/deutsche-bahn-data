@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<timetable station="Nürnberg Hbf">
+	<s id="404093264521093771-2405110428-1">
+		<tl f="N" t="p" o="800714" c="RB" n="58202"/>
+		<dp pt="2405110428" pp="6 C-F" l="RE10" ppth="Fürth(Bay)Hbf|Fürth-Unterfürberg|Fürth-Burgfarrnbach|Siegelsdorf|Puschendorf|Hagenbüchach|Emskirchen|Neustadt(Aisch)Mitte|Neustadt(Aisch)Bahnhof|Markt Bibart|Iphofen|Kitzingen|Buchbrunn-Mainstockheim|Dettelbach Bahnhof|Rottendorf|Würzburg Hbf"/>
+	</s>
+	<s id="6992012378128167215-2405101956-7">
+		<tl t="p" o="81" c="NJ" n="40491"/>
+		<ar pt="2405110336" pp="9" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Würzburg Hbf"/>
+		<dp pt="2405110436" pp="9" ppth="Augsburg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="1158930178477391191-2405110459-1">
+		<tl f="N" t="p" o="800720" c="RB" n="58501"/>
+		<dp pt="2405110459" pp="20" l="30" ppth="Nürnberg Ost|Nürnberg-Erlenstegen|Behringersdorf|Rückersdorf(Mfr)|Ludwigshöhe|Lauf(rechts Pegnitz)|Neunkirchen a Sand|Reichenschwand|Hersbruck(r Pegnitz)|Hohenstadt(Mittelfr)|Vorra(Pegnitz)|Rupprechtstegen|Velden(b Hersbruck)|Neuhaus(Pegnitz)"/>
+	</s>
+	<s id="-4272298498907669914-2405101900-7">
+		<tl t="p" o="81" c="NJ" n="40421"/>
+		<ar pt="2405110328" pp="8" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Düsseldorf Hbf|Köln Messe/Deutz Gl.11-12|Würzburg Hbf"/>
+		<dp pt="2405110426" pp="8" ppth="Regensburg Hbf|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="-2044723357159653206-2405101956-7">
+		<tl t="p" o="81" c="NJ" n="491"/>
+		<ar pt="2405110336" pp="8" wings="6992012378128167215-2405101956" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Würzburg Hbf"/>
+		<dp pt="2405110426" pp="8" wings="-4272298498907669914-2405101900" ppth="Regensburg Hbf|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="-253842045100561472-2405110443-1">
+		<tl f="S" t="p" o="800721" c="S" n="39571"/>
+		<dp pt="2405110443" pp="3" l="2" ppth="Nürnberg-Dürrenhof|Nürnberg Ostring|Nürnberg-Mögeldorf|Nürnberg-Rehhof|Nürnberg-Laufamholz|Schwaig|Röthenbach(Pegnitz)|Röthenbach-Steinberg|Röthenbach-Seespitze|Lauf West|Lauf(links Pegnitz)|Ottensoos|Henfenfeld|Hersbruck(l Pegnitz)|Happurg|Pommelsbrunn|Hartmannshof"/>
+	</s>
+	<s id="-3823254010841261196-2405101900-7">
+		<tl t="p" o="84" c="NJ" n="421"/>
+		<ar pt="2405110328" pp="9" wings="-4272298498907669914-2405101900" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Düsseldorf Hbf|Köln Messe/Deutz Gl.11-12|Würzburg Hbf"/>
+		<dp pt="2405110436" pp="9" wings="6992012378128167215-2405101956" ppth="Augsburg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="-5186097909177522919-2405110433-12">
+		<tl f="S" t="p" o="800721" c="S" n="39574"/>
+		<ar pt="2405110457" pp="1" l="2" ppth="Lauf(links Pegnitz)|Lauf West|Röthenbach-Seespitze|Röthenbach-Steinberg|Röthenbach(Pegnitz)|Schwaig|Nürnberg-Laufamholz|Nürnberg-Rehhof|Nürnberg-Mögeldorf|Nürnberg Ostring|Nürnberg-Dürrenhof"/>
+		<dp pt="2405110501" pp="1" l="2" ppth="Nürnberg-Steinbühl|Nürnberg-Sandreuth|Nürnberg-Eibach|Nürnberg-Reichelsdorf|Reichelsdorfer Keller|Katzwang|Schwabach-Limbach|Schwabach|Rednitzhembach|Büchenbach|Roth"/>
+	</s>
+</timetable>
