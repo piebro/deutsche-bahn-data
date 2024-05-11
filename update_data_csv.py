@@ -2,18 +2,10 @@ import pandas as pd
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-def get_eva_to_name_dict():
-    with Path("eva_name_list.txt").open("r") as f:
-        eva_to_name = {line.split(",")[0]: line.split(",")[1] for line in f.read().split("\n")}
-    return eva_to_name
-
-def get_plan_xml_rows(xml_path, eva_to_name):
-    eva = xml_path.name.split("_")[0]
-    station = eva_to_name[eva]
-    # TODO: get station name from the plan file. Then I always have the "official names". Delete the names from the eva list.
-
+def get_plan_xml_rows(xml_path):
     tree = ET.parse(xml_path)
     root = tree.getroot()
+    station = root.get('station')
     rows = []
     for s in root.findall('s'):
         s_id = s.get('id')
@@ -63,12 +55,11 @@ def get_plan_xml_rows(xml_path, eva_to_name):
     return rows
 
 def get_plan_db():
-    eva_to_name = get_eva_to_name_dict()
     rows = []
     for date_folder_path in Path("data").iterdir():
         for xml_path in sorted(date_folder_path.iterdir()):
             if "plan" in xml_path.name:
-                rows.extend(get_plan_xml_rows(xml_path, eva_to_name))
+                rows.extend(get_plan_xml_rows(xml_path))
     
     out_df = pd.DataFrame(rows)
     out_df['arrival_planned_time'] = pd.to_datetime(out_df['arrival_planned_time'], format='%y%m%d%H%M', errors='coerce')
@@ -101,9 +92,6 @@ def get_fchg_xml_rows(xml_path, id_to_data):
         
         if ar_ct is None and dp_ct is None and changed_platform is None and not stop_canceled:
             continue
-
-        if s_id == "2399764757688153611-2405090622-2":
-            print(ar_ct, dp_ct, stop_canceled)
         
         # overwrite older data with new data
         id_to_data[s_id] = {
