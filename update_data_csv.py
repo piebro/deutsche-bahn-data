@@ -82,8 +82,6 @@ def get_fchg_xml_rows(xml_path, id_to_data):
             stop_canceled = False
         else:
             stop_canceled = True
-            ar_ct = None
-            dp_ct = None
         
         # arrival or departure changed platform
         ar_cp = s.find('ar').get('cp') if s.find('ar') is not None else None
@@ -115,6 +113,24 @@ def get_fchg_db():
     out_df = out_df.drop_duplicates()
     return out_df
 
+# If a train is canceled there should be a delay for the statistics,
+# that compensates the cancel with a predefinded delay per train type.
+# The default 
+DEFAULT_COMPENSATED_DELAY_FOR_CANCEL = 60
+TRAIN_TYPE_TO_COMPENSATED_DELAY_FOR_CANCEL = {
+    "RE": 60,
+    "RB": 40,
+    "Bus": 30,
+    "S": 30,
+    "ICE": 180,
+    "IC": 120,
+    "FLX": 180,
+    "TGV": 180,
+}
+
+def get_compensated_delay(train_type):
+    return TRAIN_TYPE_TO_COMPENSATED_DELAY_FOR_CANCEL.get(train_type, DEFAULT_COMPENSATED_DELAY_FOR_CANCEL)
+
 def main():
     plan_df = get_plan_db()
     fchg_df = get_fchg_db()
@@ -130,6 +146,11 @@ def main():
         df[f"{prefix}_time_delta_in_min"] = time_delta.dt.total_seconds() / 60
 
     df.loc[df["stop_canceled"].isna(), "stop_canceled"] = False
+    
+    # Apply the compensated delay to arrival and departure times if the stop is canceled
+    df.loc[(df['stop_canceled']) & (~df['arrival_planned_time'].isna()), 'arrival_time_delta_in_min'] = df['train_type'].apply(get_compensated_delay)
+    df.loc[(df['stop_canceled']) & (~df['departure_planned_time'].isna()), 'departure_time_delta_in_min'] = df['train_type'].apply(get_compensated_delay)
+
     df = df.drop("id", axis=1)
 
     # Reorder columns as per the new order specified
