@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<timetable station="Rosenheim">
+	<s id="-7945859993924137481-2405120653-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79053"/>
+		<dp pt="2405120653" pp="5" l="RB54" ppth="Raubling|Brannenburg|Flintsbach|Oberaudorf|Kiefersfelden|Kufstein"/>
+	</s>
+	<s id="-6521297757411943526-2405120640-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79560"/>
+		<dp pt="2405120640" pp="6" l="RB58" ppth="Rosenheim Aicherpark|Kolbermoor|Bad Aibling Kurpark|Bad Aibling|Heufeld|Hinrichssegen|Heufeldmühle|Bruckmühl|Feldolling|Westerham|Kreuzstraße|Holzkirchen"/>
+	</s>
+	<s id="-4687086716156899070-2405120603-6">
+		<tl f="D" t="p" o="M8" c="BRB" n="79005"/>
+		<ar pt="2405120637" pp="4" l="RE5" ppth="München Ost|Grafing Bahnhof|Aßling(Oberbay)|Ostermünchen|Großkarolinenfeld"/>
+		<dp pt="2405120639" pp="4" l="RE5" ppth="Bad Endorf|Prien am Chiemsee|Bernau a Chiemsee|Übersee|Bergen(Oberbay)|Traunstein|Teisendorf|Freilassing|Salzburg Hbf"/>
+	</s>
+	<s id="-7557726268333950362-2405112110-8">
+		<tl t="p" o="81" c="NJ" n="40425"/>
+		<ar pt="2405120616" pp="4" ppth="Aachen Hbf|Köln Hbf|Bonn-Beuel|Koblenz Hbf|Mainz Hbf|Mannheim Hbf|München Ost"/>
+		<dp pt="2405120618" pp="4" ppth="Freilassing|Salzburg Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="2512296643368996801-2405120600-7">
+		<tl f="D" t="p" o="M8" c="BRB" n="79058"/>
+		<ar pt="2405120627" pp="7" l="RB54" ppth="Kufstein|Kiefersfelden|Oberaudorf|Flintsbach|Brannenburg|Raubling"/>
+		<dp pt="2405120632" pp="7" l="RB54" ppth="Großkarolinenfeld|Ostermünchen|Aßling(Oberbay)|Grafing Bahnhof"/>
+	</s>
+	<s id="2445748007328325452-2405111912-5">
+		<tl t="p" o="81" c="NJ" n="469"/>
+		<ar pt="2405120616" pp="4" wings="-7557726268333950362-2405112110" ppth="Paris Est|Strasbourg|Mannheim Hbf|München Ost"/>
+		<dp pt="2405120618" pp="4" wings="-7557726268333950362-2405112110" ppth="Freilassing|Salzburg Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="-3558209705404887939-2405120505-10">
+		<tl f="D" t="p" o="M8" c="BRB" n="79004"/>
+		<ar pt="2405120625" pp="1" l="RE5" ppth="Salzburg Hbf|Freilassing|Teisendorf|Traunstein|Bergen(Oberbay)|Übersee|Bernau a Chiemsee|Prien am Chiemsee|Bad Endorf"/>
+		<dp pt="2405120629" pp="1" l="RE5" ppth="München Ost"/>
+	</s>
+</timetable>
