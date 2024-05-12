@@ -76,6 +76,10 @@ pip3 install tabula-py PyPDF2
 python3 save_eva_name_list.py
 ```
 
+### Canceled trains and delay average
+
+How to handle canceled trains that when calculating the mean delay of trains? If a train or a stop is canceled there is no delay of the train. One way to handle those trains is to just filter them before calculating the average delay, but I think that would not be very honest, because a canceled train is for the user of the train normaly at least as bad as waiting for the next train. How long on is waiting for the next train dependes of the the type of train. That's why the the most common train types are mapped to an estimated `COMPENSATED_DELAY_FOR_CANCEL`. If somebody has a better approximation for these, feel free to open an issue.
+
 ## Contributing
 
 Contriutions are welcome. Open an Issue if you want to report a bug, have an idea or want to propose a change.
