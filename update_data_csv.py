@@ -56,7 +56,8 @@ def get_plan_xml_rows(xml_path):
 
 def get_plan_db():
     rows = []
-    for date_folder_path in Path("data").iterdir():
+    for date_folder_path in sorted(Path("data").iterdir()):
+        print(date_folder_path)
         for xml_path in sorted(date_folder_path.iterdir()):
             if "plan" in xml_path.name:
                 rows.extend(get_plan_xml_rows(xml_path))
@@ -79,16 +80,16 @@ def get_fchg_xml_rows(xml_path, id_to_data):
         dp_clt = s.find('dp').get('clt') if s.find('dp') is not None else None    # departure cancellation time 
 
         if ar_clt is None and dp_clt is None:
-            stop_canceled = False
+            is_canceled = False
         else:
-            stop_canceled = True
+            is_canceled = True
         
         # arrival or departure changed platform
         ar_cp = s.find('ar').get('cp') if s.find('ar') is not None else None
         dp_cp = s.find('dp').get('cp') if s.find('dp') is not None else None
         changed_platform = ar_cp or dp_cp
         
-        if ar_ct is None and dp_ct is None and changed_platform is None and not stop_canceled:
+        if ar_ct is None and dp_ct is None and changed_platform is None and not is_canceled:
             continue
         
         # overwrite older data with new data
@@ -96,7 +97,7 @@ def get_fchg_xml_rows(xml_path, id_to_data):
             'id': s_id,
             'arrival_change_time': ar_ct,
             'departure_change_time': dp_ct,
-            'stop_canceled': stop_canceled,
+            'is_canceled': is_canceled,
             'changed_platform': changed_platform,
         }
 
@@ -145,11 +146,11 @@ def main():
         time_delta = time_delta.fillna(pd.Timedelta(0))
         df[f"{prefix}_time_delta_in_min"] = time_delta.dt.total_seconds() / 60
 
-    df.loc[df["stop_canceled"].isna(), "stop_canceled"] = False
+    df.loc[df["is_canceled"].isna(), "is_canceled"] = False
     
     # Apply the compensated delay to arrival and departure times if the stop is canceled
-    df.loc[(df['stop_canceled']) & (~df['arrival_planned_time'].isna()), 'arrival_time_delta_in_min'] = df['train_type'].apply(get_compensated_delay)
-    df.loc[(df['stop_canceled']) & (~df['departure_planned_time'].isna()), 'departure_time_delta_in_min'] = df['train_type'].apply(get_compensated_delay)
+    df.loc[(df['is_canceled']) & (~df['arrival_planned_time'].isna()), 'arrival_time_delta_in_min'] = df['train_type'].apply(get_compensated_delay)
+    df.loc[(df['is_canceled']) & (~df['departure_planned_time'].isna()), 'departure_time_delta_in_min'] = df['train_type'].apply(get_compensated_delay)
 
     df = df.drop("id", axis=1)
 
@@ -157,7 +158,7 @@ def main():
     df = df[[
         'station', 'train_name', 'final_destination_station', 'arrival_planned_time',
         'arrival_time_delta_in_min', 'departure_planned_time', 'departure_time_delta_in_min',
-        'planned_platform', 'changed_platform', 'stop_canceled', 'train_type',
+        'planned_platform', 'changed_platform', 'is_canceled', 'train_type',
         'train_line_ride_id', 'train_line_station_num'
     ]]
 

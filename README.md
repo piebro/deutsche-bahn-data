@@ -2,9 +2,9 @@
 
 A german version of this readme is [here](README_de.md).
 
-This is a repository with accumulated public data from "Deutsche Bahn", the biggest german train company and a website with some generated interactive plots and tables using the data.
+This is a repository with accumulated public data from "Deutsche Bahn", the biggest german train company and a (german) [website](piebro.github.io/deutsche-bahn-data) with generated interactive plots and tables using the data.
 
-TODO: example plot image?
+TODO: example plot image as a link to the website?
 
 ## The Data
 
