@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<timetable station="Rosenheim">
+	<s id="-3320698072279210265-2405131808-11">
+		<tl f="D" t="p" o="3236" c="WB" n="982"/>
+		<ar pt="2405132130" pp="3" ppth="Wien Westbahnhof|Wien Hütteldorf|St.Pölten Hbf|Amstetten NÖ|Linz Hbf|Wels Hbf|Attnang-Puchheim|Vöcklabruck|Salzburg Hbf|Freilassing"/>
+		<dp pt="2405132132" pp="3" ppth="München Hbf Gl.5-10"/>
+	</s>
+	<s id="-3341117925818028704-2405132005-10">
+		<tl f="D" t="p" o="M8" c="BRB" n="79044"/>
+		<ar pt="2405132125" pp="2" l="RE5" ppth="Salzburg Hbf|Freilassing|Teisendorf|Traunstein|Bergen(Oberbay)|Übersee|Bernau a Chiemsee|Prien am Chiemsee|Bad Endorf"/>
+		<dp pt="2405132135" pp="2" l="RE5" ppth="Großkarolinenfeld|Ostermünchen|Aßling(Oberbay)|Grafing Bahnhof|München Ost"/>
+	</s>
+	<s id="-1947704534047367992-2405131550-13">
+		<tl f="F" t="p" o="80" c="EC" n="80"/>
+		<ar pt="2405132147" pp="3" ppth="Bologna Centrale|Verona Porta Nuova|Rovereto|Trento|Bolzano/Bozen|Bressanone/Brixen|Fortezza/Franzensfeste|Brennero/Brenner|Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein"/>
+		<dp pt="2405132155" pp="3" ppth="München Hbf"/>
+	</s>
+	<s id="-8677182982400525824-2405132044-5">
+		<tl t="p" o="81" c="NJ" n="40420"/>
+		<ar pt="2405132156" pp="5" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein"/>
+		<dp pt="2405132159" pp="5" ppth="München Hbf|Augsburg Hbf|Nürnberg Hbf|Würzburg Hbf|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg-Altona"/>
+	</s>
+	<s id="-2858491348469624440-2405132043-7">
+		<tl f="N" t="p" o="8013D" c="RB" n="27588"/>
+		<ar pt="2405132120" pp="1" l="52" ppth="Aschau(Chiemgau)|Umrathshausen Ort|Vachendorf|Urschalling|Prien am Chiemsee|Bad Endorf"/>
+	</s>
+	<s id="-1211240558580121676-2405132037-13">
+		<tl f="D" t="p" o="M8" c="BRB" n="79553"/>
+		<ar pt="2405132125" pp="6" l="RB58" ppth="Holzkirchen|Kreuzstraße|Westerham|Feldolling|Bruckmühl|Heufeldmühle|Hinrichssegen|Heufeld|Bad Aibling|Bad Aibling Kurpark|Kolbermoor|Rosenheim Aicherpark"/>
+	</s>
+	<s id="-3391534905880055353-2405132059-7">
+		<tl f="D" t="p" o="M8" c="BRB" n="79092"/>
+		<ar pt="2405132126" pp="7" l="RB54" ppth="Kufstein|Kiefersfelden|Oberaudorf|Flintsbach|Brannenburg|Raubling"/>
+	</s>
+	<s id="1758673474611098970-2405132106-5">
+		<tl f="D" t="p" o="M8" c="BRB" n="79091"/>
+		<ar pt="2405132127" pp="5" l="RB54" ppth="Grafing Bahnhof|Aßling(Oberbay)|Ostermünchen|Großkarolinenfeld"/>
+		<dp pt="2405132135" pp="5" l="RB54" ppth="Raubling|Brannenburg|Flintsbach|Oberaudorf|Kiefersfelden|Kufstein"/>
+	</s>
+	<s id="3272146161175325165-2405132044-5">
+		<tl t="p" o="81" c="NJ" n="420"/>
+		<ar pt="2405132156" pp="5" wings="-8677182982400525824-2405132044" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein"/>
+		<dp pt="2405132159" pp="5" wings="-8677182982400525824-2405132044" ppth="München Hbf|Augsburg Hbf|Nürnberg Hbf|Würzburg Hbf|Köln Hbf|s-Hertogenbosch|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="8433647612880255595-2405132140-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79552"/>
+		<dp pt="2405132140" pp="6" l="RB58" ppth="Rosenheim Aicherpark|Kolbermoor|Bad Aibling Kurpark|Bad Aibling|Heufeld|Hinrichssegen|Heufeldmühle|Bruckmühl|Feldolling|Westerham|Kreuzstraße|Holzkirchen"/>
+	</s>
+	<s id="1555202410238642524-2405131937-18">
+		<tl f="N" t="p" o="8013D" c="RB" n="27133"/>
+		<ar pt="2405132125" pp="1a" l="44" ppth="Landshut(Bay)Hbf|Landshut(Bay)Süd|Geisenhausen|Vilsbiburg|Aich(Niederbay)|Egglkofen|Neumarkt-St Veit|Mühldorf(Oberbay)|Waldkraiburg-Kraiburg|Jettenbach|Gars(Inn)|Soyen|Wasserburg(Inn)Bf|Ramerberg|Rott(Inn)|Schechen|Rosenheim Hochschule"/>
+	</s>
+	<s id="-7911753228633891317-2405132134-1">
+		<tl f="N" t="p" o="8013D" c="RB" n="27320"/>
+		<dp pt="2405132134" pp="1" l="44" ppth="Rosenheim Hochschule|Schechen|Rott(Inn)|Ramerberg|Wasserburg(Inn)Bf|Gars(Inn)|Waldkraiburg-Kraiburg|Mühldorf(Oberbay)"/>
+	</s>
+	<s id="7303878084452443722-2405132100-2">
+		<tl f="D" t="p" o="M8" c="BRB" n="79043"/>
+		<ar pt="2405132132" pp="4" l="RE5" ppth="München Ost"/>
+		<dp pt="2405132135" pp="4" l="RE5" ppth="Bad Endorf|Prien am Chiemsee|Bernau a Chiemsee|Übersee|Bergen(Oberbay)|Traunstein|Teisendorf|Freilassing|Salzburg Hbf"/>
+	</s>
+</timetable>
