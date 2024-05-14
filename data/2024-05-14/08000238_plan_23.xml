@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<timetable station="Lüneburg">
+	<s id="-4550435493069381661-2405142306-4">
+		<tl f="D" t="p" o="R1" c="ME" n="81642"/>
+		<ar pt="2405142327" pp="3" l="RB31" ppth="Uelzen|Bad Bevensen|Bienenbüttel"/>
+		<dp pt="2405142338" pp="3" l="RB31" ppth="Bardowick|Radbruch|Winsen(Luhe)|Ashausen|Stelle|Maschen|Meckelfeld|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="2487889493565298359-2405142315-4">
+		<tl t="p" o="R1" c="Bus" n="3145"/>
+		<ar pt="2405142357" pp="" l="EV" ppth="Winsen(Luhe)|Radbruch|Bardowick"/>
+	</s>
+	<s id="-3610997654178704736-2405141848-13">
+		<tl f="F" t="p" o="80" c="ICE" n="55922"/>
+		<ar pt="2405142332" pp="2" ppth="Frankfurt(Main)Hbf|Frankfurt(Main)West|Friedberg(Hess)|Gießen|Marburg(Lahn)|Treysa|Wabern(Bz Kassel)|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen"/>
+		<dp pt="2405142335" pp="2" ppth="Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="1645690183033695457-2405142234-7">
+		<tl f="D" t="p" o="R1" c="ME" n="81643"/>
+		<ar pt="2405142323" pp="1" l="RB31" ppth="Hamburg Hbf|Hamburg-Harburg|Meckelfeld|Maschen|Stelle|Winsen(Luhe)"/>
+		<dp pt="2405142324" pp="1" l="RB31" ppth="Bienenbüttel|Bad Bevensen|Uelzen"/>
+	</s>
+	<s id="-776270658940385442-2405142345-1">
+		<tl f="D" t="p" o="X1" c="erx" n="21140"/>
+		<dp pt="2405142345" pp="5" l="RE83" pde="Kiel Hbf" ppth="Echem|Lauenburg(Elbe)|Büchen|Mölln(Lauenb)|Ratzeburg|Lübeck Flughafen|Lübeck Hochschulstadtteil|Lübeck Hbf"/>
+	</s>
+	<s id="-8941932149309778658-2405141723-10">
+		<tl f="F" t="p" o="80" c="ICE" n="572"/>
+		<ar pt="2405142347" pp="2" ppth="Stuttgart Hbf|Mannheim Hbf|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf|Hanau Hbf|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Uelzen"/>
+		<dp pt="2405142349" pp="2" ppth="Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="-3481569940476114473-2405142210-9">
+		<tl f="D" t="p" o="X1" c="erx" n="21137"/>
+		<ar pt="2405142328" pp="5" l="RE83" pde="Kiel Hbf" ppth="Lübeck Hbf|Lübeck Hochschulstadtteil|Lübeck Flughafen|Ratzeburg|Mölln(Lauenb)|Büchen|Lauenburg(Elbe)|Echem"/>
+	</s>
+</timetable>
