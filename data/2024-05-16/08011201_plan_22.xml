@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="4475416547975001603-2405162209-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18687"/>
+		<dp pt="2405162209" pp="4" l="32" tra="-5315333728424243977-2405162121-4" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+	<s id="-5315333728424243977-2405162121-4">
+		<tl t="p" o="800165" c="FEX" n="19875"/>
+		<ar pt="2405162200" pp="4" tra="4475416547975001603-2405162209-1" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="-7477137136863483975-2405162148-8">
+		<tl f="N" t="p" o="800165" c="RB" n="18136"/>
+		<ar pt="2405162236" pp="1" l="22" ppth="Potsdam Hbf|Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Potsdam Pirschheide|Saarmund|Ludwigsfelde-Struveshof"/>
+		<dp pt="2405162238" pp="1" l="22" ppth="Königs Wusterhausen"/>
+	</s>
+	<s id="5642810231813658934-2405162211-2">
+		<tl f="N" t="p" o="800165" c="RB" n="18137"/>
+		<ar pt="2405162224" pp="4" l="22" ppth="Königs Wusterhausen"/>
+		<dp pt="2405162226" pp="4" l="22" ppth="Ludwigsfelde-Struveshof|Saarmund|Potsdam Pirschheide|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof|Potsdam Hbf"/>
+	</s>
+	<s id="-7834030075966481511-2405162228-1">
+		<tl t="p" o="800165" c="FEX" n="19872"/>
+		<dp pt="2405162228" pp="1" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="3915243977715581229-2405162213-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18174"/>
+		<dp pt="2405162213" pp="3" l="23" ppth="Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Charlottenburg"/>
+	</s>
+	<s id="-9032773524213761460-2405162239-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18686"/>
+		<ar pt="2405162255" pp="1" l="32" tra="5267890398427216546-2405162258-1" ppth="Ludwigsfelde|Birkengrund"/>
+	</s>
+	<s id="6860290104622435511-2405162151-4">
+		<tl t="p" o="800165" c="FEX" n="19877"/>
+		<ar pt="2405162230" pp="4" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="5267890398427216546-2405162258-1">
+		<tl t="p" o="800165" c="FEX" n="19874"/>
+		<dp pt="2405162258" pp="1" tra="-9032773524213761460-2405162239-3" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+</timetable>
