@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<timetable station="Bonn Hbf">
+	<s id="7474414276230536927-2405151838-15">
+		<tl f="F" t="p" o="80" c="ICE" n="619"/>
+		<ar pt="2405160029" pp="" ppth="Kiel Hbf|Neumünster|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Osnabrück Hbf|Münster(Westf)Hbf|Dortmund Hbf|Bochum Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Hbf"/>
+		<dp pt="2405160031" pp="" ppth="Frankfurt(Main)Hbf|Mannheim Hbf|Heidelberg Hbf|Stuttgart Hbf|Ulm Hbf|Günzburg|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-2491163276465116170-2405152338-9">
+		<tl f="N" t="p" o="TR" c="RB" n="25447"/>
+		<ar pt="2405160025" pp="3" l="26" ppth="Köln/Bonn Flughafen|Köln Messe/Deutz|Köln Hbf|Köln West|Hürth-Kalscheuren|Brühl|Sechtem|Roisdorf"/>
+		<dp pt="2405160027" pp="3" l="26" ppth="Bonn UN Campus|Bonn-Bad Godesberg|Bonn-Mehlem|Rolandseck|Oberwinter|Remagen"/>
+	</s>
+	<s id="-3074360763218373139-2405160040-1">
+		<tl f="S" t="p" o="800352" c="S" n="32416"/>
+		<dp pt="2405160040" pp="5" l="23" ppth="Bonn-Endenich Nord|Bonn Helmholtzstraße|Bonn-Duisdorf|Alfter-Impekoven|Alfter-Witterschlick|Meckenheim Industriepark|Meckenheim(Bz Köln)|Rheinbach Römerkanal|Rheinbach"/>
+	</s>
+	<s id="6128682396897665944-2405152350-10">
+		<tl f="S" t="p" o="800352" c="S" n="32413"/>
+		<ar pt="2405160019" pp="5" l="23" ppth="Rheinbach|Rheinbach Römerkanal|Meckenheim(Bz Köln)|Meckenheim Industriepark|Alfter-Witterschlick|Alfter-Impekoven|Bonn-Duisdorf|Bonn Helmholtzstraße|Bonn-Endenich Nord"/>
+	</s>
+	<s id="-4310995180962388424-2405160010-1">
+		<tl f="S" t="p" o="800352" c="S" n="32414"/>
+		<dp pt="2405160010" pp="5" l="23" ppth="Bonn-Endenich Nord|Bonn Helmholtzstraße|Bonn-Duisdorf|Alfter-Impekoven|Alfter-Witterschlick|Meckenheim Industriepark|Meckenheim(Bz Köln)|Rheinbach Römerkanal|Rheinbach"/>
+	</s>
+	<s id="-4903518102083689040-2405160011-7">
+		<tl f="N" t="p" o="TR" c="RB" n="25448"/>
+		<ar pt="2405160031" pp="1" l="26" ppth="Remagen|Oberwinter|Rolandseck|Bonn-Mehlem|Bonn-Bad Godesberg|Bonn UN Campus"/>
+		<dp pt="2405160033" pp="1" l="26" ppth="Roisdorf|Sechtem|Brühl|Hürth-Kalscheuren|Köln Süd|Köln West|Köln Hbf|Köln Messe/Deutz|Köln/Bonn Flughafen"/>
+	</s>
+</timetable>
