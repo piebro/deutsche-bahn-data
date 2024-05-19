@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<timetable station="Offenburg">
+	<s id="6158813696004313014-2405190626-11">
+		<tl f="N" t="p" o="8006C5" c="RE" n="17004"/>
+		<ar pt="2405190712" pp="5" l="7" tra="4670134261824964121-2405190734-1" ppth="Freiburg(Breisgau) Hbf|Denzlingen|Emmendingen|Riegel-Malterdingen|Kenzingen|Herbolzheim(Breisg)|Ringsheim/Europa-Park|Orschweier|Lahr(Schwarzw)|Friesenheim(Baden)"/>
+	</s>
+	<s id="-8720823085809177771-2405190741-1">
+		<tl f="D" t="p" o="S6" c="SWE" n="87509"/>
+		<dp pt="2405190741" pp="7" l="RB20" ppth="Offenburg Kreisschulzentrum|Gengenbach|Biberach(Baden)|Steinach(Baden)|Haslach|Hausach|Gutach Freilichtmuseum|Hornberg(Schwarzw)"/>
+	</s>
+	<s id="4670134261824964121-2405190734-1">
+		<tl f="N" t="p" o="8006C5" c="RE" n="17036"/>
+		<dp pt="2405190734" pp="5" l="7" tra="6158813696004313014-2405190626-11" ppth="Appenweier|Renchen|Achern|Bühl(Baden)|Baden-Baden|Rastatt|Karlsruhe Hbf"/>
+	</s>
+	<s id="3523985456613382508-2405190727-7">
+		<tl f="D" t="p" o="S6" c="SWE" n="87362"/>
+		<ar pt="2405190753" pp="7" l="RB20" ppth="Hausach|Haslach|Steinach(Baden)|Biberach(Baden)|Gengenbach|Offenburg Kreisschulzentrum"/>
+		<dp pt="2405190757" pp="7" l="RB20" ppth="Appenweier|Zusenhofen|Oberkirch|Oberkirch-Köhlersiedlung|Lautenbach(Baden)|Hubacker|Ramsbach Höfle|Ramsbach Birkhof|Oppenau|Ibach|Löcherberg|Bad Peterstal|Bad Griesbach(Schwarzwald)"/>
+	</s>
+	<s id="-4554142996363352815-2405190606-4">
+		<tl f="F" t="p" o="80" c="ICE" n="374"/>
+		<ar pt="2405190722" pp="6" ppth="Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf"/>
+		<dp pt="2405190723" pp="6" ppth="Baden-Baden|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Hanau Hbf|Erfurt Hbf|Leipzig Hbf|Lutherstadt Wittenberg Hbf|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="1224467193226997688-2405190706-1">
+		<tl f="N" t="p" o="8006C4" c="RB" n="17107"/>
+		<dp pt="2405190706" pp="5" l="26" ppth="Friesenheim(Baden)|Lahr(Schwarzw)|Orschweier|Ringsheim/Europa-Park|Herbolzheim(Breisg)|Kenzingen|Riegel-Malterdingen|Köndringen|Teningen-Mundingen|Emmendingen|Kollmarsreute|Denzlingen|Gundelfingen(Breisgau)|Freiburg(Breisgau) Hbf"/>
+	</s>
+	<s id="6071724277135878196-2405190639-10">
+		<tl f="D" t="p" o="S6" c="SWE" n="87360"/>
+		<ar pt="2405190713" pp="6" l="RB20" ppth="Oberharmersbach-Riersbach|Oberharmersbach Dorf|Kirnbach-Grün|Unterharmersbach|Birach|Zell(Harmersbach)|Biberach(Baden)|Gengenbach|Offenburg Kreisschulzentrum"/>
+		<dp pt="2405190716" pp="6" l="RB20" ppth="Appenweier|Zusenhofen|Oberkirch|Oberkirch-Köhlersiedlung|Lautenbach(Baden)|Hubacker|Ramsbach Höfle|Ramsbach Birkhof|Oppenau|Ibach|Löcherberg|Bad Peterstal|Bad Griesbach(Schwarzwald)"/>
+	</s>
+	<s id="845868217789304578-2405190712-1">
+		<tl f="D" t="p" o="S6" c="SWE" n="87473"/>
+		<dp pt="2405190712" pp="7" l="RB22" tra="-5864975540059207971-2405190642-4" ppth="Offenburg Kreisschulzentrum|Gengenbach|Biberach(Baden)|Zell(Harmersbach)|Birach|Unterharmersbach|Kirnbach-Grün|Oberharmersbach Dorf|Oberharmersbach-Riersbach"/>
+	</s>
+	<s id="-2293708380295905980-2405190702-8">
+		<tl f="N" t="p" o="800647" c="RE" n="4713"/>
+		<ar pt="2405190755" pp="5" l="2" ppth="Karlsruhe Hbf|Rastatt|Baden-Baden|Bühl(Baden)|Achern|Renchen|Appenweier"/>
+		<dp pt="2405190759" pp="5" l="2" ppth="Gengenbach|Haslach|Hausach|Hornberg(Schwarzw)|Triberg|St Georgen(Schwarzw)|Villingen(Schwarzw)|Donaueschingen|Immendingen|Engen|Singen(Hohentwiel)|Radolfzell|Allensbach|Konstanz-Petershausen|Konstanz"/>
+	</s>
+	<s id="4497822641991074242-2405190735-1">
+		<tl f="D" t="p" o="S6" c="SWE" n="87404"/>
+		<dp pt="2405190735" pp="6" l="RB25" ppth="Appenweier|Legelshurst|Kork|Kehl|Krimmeri-Meinau|Strasbourg"/>
+	</s>
+	<s id="3111310063298862757-2405190520-17">
+		<tl f="N" t="p" o="800647" c="RE" n="4710"/>
+		<ar pt="2405190744" pp="6" l="2" ppth="Konstanz|Allensbach|Radolfzell|Böhringen-Rickelshausen|Singen Industriegebiet|Singen(Hohentwiel)|Engen|Immendingen|Donaueschingen|Villingen(Schwarzw)|St Georgen(Schwarzw)|Triberg|Hornberg(Schwarzw)|Hausach|Biberach(Baden)|Gengenbach"/>
+		<dp pt="2405190753" pp="6" l="2" ppth="Appenweier|Renchen|Achern|Bühl(Baden)|Baden-Baden|Rastatt|Karlsruhe Hbf"/>
+	</s>
+</timetable>
