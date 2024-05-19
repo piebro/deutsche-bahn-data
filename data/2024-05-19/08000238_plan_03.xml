@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<timetable station="Lüneburg">
+	<s id="6076441428955181141-2405190203-9">
+		<tl t="p" o="R1" c="Bus" n="3103"/>
+		<ar pt="2405190331" pp="" l="EV" ppth="Hamburg-Harburg|Meckelfeld|Maschen|Stelle|Ashausen|Winsen(Luhe)|Radbruch|Bardowick"/>
+	</s>
+	<s id="-2089016474012037953-2405190340-1">
+		<tl t="p" o="R1" c="Bus" n="3202"/>
+		<dp pt="2405190340" pp="" l="EV" ppth="Bardowick|Radbruch|Winsen(Luhe)|Ashausen|Stelle|Maschen|Meckelfeld|Hamburg-Harburg"/>
+	</s>
+	<s id="1974750696360792221-2405190309-4">
+		<tl f="D" t="p" o="R1" c="ME" n="81602"/>
+		<ar pt="2405190331" pp="2" l="RB31" ppth="Uelzen|Bad Bevensen|Bienenbüttel"/>
+	</s>
+	<s id="5371178063141163269-2405190340-1">
+		<tl f="D" t="p" o="R1" c="ME" n="82142"/>
+		<dp pt="2405190340" pp="6" l="RB31" ppth="Bienenbüttel|Bad Bevensen|Uelzen"/>
+	</s>
+</timetable>
