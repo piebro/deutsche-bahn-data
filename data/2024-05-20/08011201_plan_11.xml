@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="-3563947890093914670-2405201100-8">
+		<tl f="N" t="p" o="800165" c="RB" n="18153"/>
+		<ar pt="2405201146" pp="3" l="23" ppth="Berlin-Charlottenburg|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz"/>
+	</s>
+	<s id="5658297647256092992-2405201026-3">
+		<tl f="N" t="p" o="NZ" c="RE" n="52175"/>
+		<ar pt="2405201053" pp="3 A-D" l="17" ppth="Berlin Hbf|Berlin Südkreuz"/>
+		<dp pt="2405201101" pp="" l="17" ppth="Doberlug-Kirchhain|Elsterwerda"/>
+	</s>
+	<s id="-7909132823050569300-2405201139-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18664"/>
+		<ar pt="2405201155" pp="1" l="32" tra="-6267694711720463803-2405201158-1" ppth="Ludwigsfelde|Birkengrund"/>
+	</s>
+	<s id="5834016043406903972-2405201051-4">
+		<tl t="p" o="800165" c="FEX" n="19833"/>
+		<ar pt="2405201130" pp="4" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="-8233461540627145719-2405200733-31">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62010"/>
+		<ar pt="2405201115" pp="2" l="8" ppth="Wismar|Dorf Mecklenburg|Bad Kleinen|Lübstorf|Schwerin Hbf|Schwerin Mitte|Schwerin Süd|Holthusen|Sülstorf|Rastow|Lüblow(Meckl)|Ludwigslust|Grabow(Meckl)|Karstädt|Wittenberge|Bad Wilsnack|Glöwen|Breddin|Neustadt(Dosse)|Friesack(Mark)|Paulinenaue|Nauen|Falkensee|Berlin-Spandau|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz"/>
+	</s>
+	<s id="-8639608035380892689-2405201108-2">
+		<tl f="N" t="p" o="800165" c="RB" n="18115"/>
+		<ar pt="2405201121" pp="4" l="22" ppth="Königs Wusterhausen"/>
+		<dp pt="2405201123" pp="4" l="22" ppth="Ludwigsfelde-Struveshof|Saarmund|Potsdam Pirschheide|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof|Potsdam Hbf"/>
+	</s>
+	<s id="6633746457586502774-2405201106-5">
+		<tl t="p" o="080001" c="Bus" n="5193"/>
+		<ar pt="2405201140" pp="" l="S9X" ppth="Berlin Baumschulenweg|Schöneweide (S)/Sterndamm, Berlin|Benno-König-Str., Berlin|Berlin-Adlershof"/>
+	</s>
+	<s id="-3486198949395985140-2405201150-1">
+		<tl t="p" o="080001" c="Bus" n="95200"/>
+		<dp pt="2405201150" pp="" l="S9X" ppth="Berlin-Adlershof|Benno-König-Str., Berlin|Berlin-Schöneweide|Berlin Baumschulenweg"/>
+	</s>
+	<s id="5658604267895752792-2405201120-1">
+		<tl t="p" o="080001" c="Bus" n="95194"/>
+		<dp pt="2405201120" pp="" l="S9X" ppth="Berlin-Adlershof|Benno-König-Str., Berlin|Berlin-Schöneweide|Berlin Baumschulenweg"/>
+	</s>
+	<s id="8211005156495413590-2405201021-4">
+		<tl t="p" o="800165" c="FEX" n="19831"/>
+		<ar pt="2405201100" pp="4" tra="-3789886827529615803-2405201109-1" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="-905793307415672161-2405200756-9">
+		<tl f="F" t="p" o="80" c="IC" n="2175"/>
+		<ar pt="2405201053" pp="3 A-D" wings="5658297647256092992-2405201026" ppth="Warnemünde|Rostock Hbf|Waren(Müritz)|Neustrelitz Hbf|Oranienburg|Berlin Gesundbrunnen|Berlin Hbf|Berlin Südkreuz"/>
+		<dp pt="2405201101" pp="" wings="5658297647256092992-2405201026" ppth="Doberlug-Kirchhain|Elsterwerda|Dresden-Neustadt|Dresden Hbf"/>
+	</s>
+	<s id="2436051672603816365-2405201056-5">
+		<tl t="p" o="080001" c="Bus" n="5191"/>
+		<ar pt="2405201130" pp="" l="S9X" ppth="Berlin Baumschulenweg|Schöneweide (S)/Sterndamm, Berlin|Benno-König-Str., Berlin|Berlin-Adlershof"/>
+	</s>
+	<s id="-4250776295477638006-2405201004-3">
+		<tl f="N" t="p" o="NZ" c="RE" n="52270"/>
+		<ar pt="2405201058" pp="2" l="17" ppth="Elsterwerda|Doberlug-Kirchhain"/>
+		<dp pt="2405201105" pp="2" l="17" ppth="Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="-1760207367303502931-2405200821-7">
+		<tl f="F" t="p" o="80" c="IC" n="2270"/>
+		<ar pt="2405201058" pp="2" wings="-4250776295477638006-2405201004" ppth="Chemnitz Hbf|Freiberg(Sachs)|Dresden Hbf|Dresden-Neustadt|Elsterwerda|Doberlug-Kirchhain"/>
+		<dp pt="2405201105" pp="2" wings="-4250776295477638006-2405201004" ppth="Berlin Südkreuz|Berlin Hbf|Berlin Gesundbrunnen|Oranienburg|Neustrelitz Hbf|Waren(Müritz)|Rostock Hbf|Warnemünde"/>
+	</s>
+	<s id="-3789886827529615803-2405201109-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18665"/>
+		<dp pt="2405201109" pp="4" l="32" tra="8211005156495413590-2405201021-4" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+	<s id="7325021252185545467-2405201130-1">
+		<tl t="p" o="080001" c="Bus" n="95196"/>
+		<dp pt="2405201130" pp="" l="S9X" ppth="Berlin-Adlershof|Benno-König-Str., Berlin|Berlin-Schöneweide|Berlin Baumschulenweg"/>
+	</s>
+	<s id="502506140178151316-2405201026-5">
+		<tl t="p" o="080001" c="Bus" n="5185"/>
+		<ar pt="2405201100" pp="" l="S9X" ppth="Berlin Baumschulenweg|Schöneweide (S)/Sterndamm, Berlin|Benno-König-Str., Berlin|Berlin-Adlershof"/>
+	</s>
+	<s id="1973741992211126353-2405201036-5">
+		<tl t="p" o="080001" c="Bus" n="5187"/>
+		<ar pt="2405201110" pp="" l="S9X" ppth="Berlin Baumschulenweg|Schöneweide (S)/Sterndamm, Berlin|Benno-König-Str., Berlin|Berlin-Adlershof"/>
+	</s>
+	<s id="-6267694711720463803-2405201158-1">
+		<tl t="p" o="800165" c="FEX" n="19830"/>
+		<dp pt="2405201158" pp="1" tra="-7909132823050569300-2405201139-3" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="6484739238016304640-2405201128-1">
+		<tl t="p" o="800165" c="FEX" n="19828"/>
+		<dp pt="2405201128" pp="1" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="-5295249840898718876-2405201046-5">
+		<tl t="p" o="080001" c="Bus" n="5189"/>
+		<ar pt="2405201120" pp="" l="S9X" ppth="Berlin Baumschulenweg|Schöneweide (S)/Sterndamm, Berlin|Benno-König-Str., Berlin|Berlin-Adlershof"/>
+	</s>
+	<s id="-7235488886220028132-2405201140-1">
+		<tl t="p" o="080001" c="Bus" n="95198"/>
+		<dp pt="2405201140" pp="" l="S9X" ppth="Berlin-Adlershof|Benno-König-Str., Berlin|Berlin-Schöneweide|Berlin Baumschulenweg"/>
+	</s>
+	<s id="-4129528892956638430-2405201144-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62017"/>
+		<dp pt="2405201144" pp="2" l="8" ppth="Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Spandau|Falkensee|Nauen|Paulinenaue|Friesack(Mark)|Neustadt(Dosse)|Breddin|Glöwen|Bad Wilsnack|Wittenberge"/>
+	</s>
+	<s id="5319974267055661422-2405201048-8">
+		<tl f="N" t="p" o="800165" c="RB" n="18114"/>
+		<ar pt="2405201136" pp="1" l="22" ppth="Potsdam Hbf|Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Potsdam Pirschheide|Saarmund|Ludwigsfelde-Struveshof"/>
+		<dp pt="2405201138" pp="1" l="22" ppth="Königs Wusterhausen"/>
+	</s>
+	<s id="-8256433629653404925-2405201110-1">
+		<tl t="p" o="080001" c="Bus" n="95192"/>
+		<dp pt="2405201110" pp="" l="S9X" ppth="Berlin-Adlershof|Benno-König-Str., Berlin|Berlin-Schöneweide|Berlin Baumschulenweg"/>
+	</s>
+	<s id="5124072296212685246-2405201113-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18152"/>
+		<dp pt="2405201113" pp="3 D-G" l="23" ppth="Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Charlottenburg"/>
+	</s>
+	<s id="-2470961007833150991-2405201100-1">
+		<tl t="p" o="080001" c="Bus" n="95190"/>
+		<dp pt="2405201100" pp="" l="S9X" ppth="Berlin-Adlershof|Benno-König-Str., Berlin|Berlin-Schöneweide|Berlin Baumschulenweg"/>
+	</s>
+	<s id="8267003536584736275-2405201116-5">
+		<tl t="p" o="080001" c="Bus" n="5195"/>
+		<ar pt="2405201150" pp="" l="S9X" ppth="Berlin Baumschulenweg|Schöneweide (S)/Sterndamm, Berlin|Benno-König-Str., Berlin|Berlin-Adlershof"/>
+	</s>
+</timetable>
