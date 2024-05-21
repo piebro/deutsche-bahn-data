@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<timetable station="Hannover Hbf">
+	<s id="7990396791094350225-2405210335-1">
+		<tl f="S" t="p" o="TDHS" c="S" n="34514"/>
+		<dp pt="2405210335" pp="2" l="5" ppth="Hannover-Nordstadt|Hannover-Ledeburg|Hannover-Vinnhorst|Langenhagen Mitte|Langenhagen Pferdemarkt|Hannover Flughafen"/>
+	</s>
+	<s id="3199623009169073885-2405210011-9">
+		<tl f="F" t="p" o="80" c="ICE" n="101"/>
+		<ar pt="2405210309" pp="12" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Wannsee|Potsdam Hbf|Brandenburg Hbf|Magdeburg Hbf|Braunschweig Hbf"/>
+		<dp pt="2405210313" pp="12" ppth="Minden(Westf)|Bielefeld Hbf|Hamm(Westf)Hbf|Dortmund Hbf|Bochum Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Hbf|Frankfurt(M) Flughafen Fernbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB"/>
+	</s>
+	<s id="-5627857843278415410-2405210056-7">
+		<tl t="p" o="B1" c="Bus" n="4445"/>
+		<ar pt="2405210313" pp="" l="RE8" ppth="Verden(Aller)|Dörverden|Eystrup|Nienburg(Weser)|Neustadt am Rübenberge|Wunstorf"/>
+	</s>
+	<s id="3824396230027883844-2405210306-7">
+		<tl f="S" t="p" o="TDHS" c="S" n="34513"/>
+		<ar pt="2405210324" pp="2" l="5" ppth="Hannover Flughafen|Langenhagen Pferdemarkt|Langenhagen Mitte|Hannover-Vinnhorst|Hannover-Ledeburg|Hannover-Nordstadt"/>
+	</s>
+</timetable>
