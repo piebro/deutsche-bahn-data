@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin-Lichtenberg">
+	<s id="2788490644732395840-2405220519-4">
+		<tl f="N" t="p" o="800165" c="RB" n="18200"/>
+		<ar pt="2405220541" pp="20" l="32" ppth="Schönefeld(bei Berlin)|Berlin-Schöneweide|Berlin Ostkreuz"/>
+		<dp pt="2405220542" pp="20" l="32" ppth="Berlin-Hohenschönhausen|Oranienburg"/>
+	</s>
+	<s id="5842603866761991340-2405220501-1">
+		<tl f="N" t="p" o="NB" c="RB" n="83705"/>
+		<dp pt="2405220501" pp="21" l="TES" ppth="Erkner|Fangschleuse Tesla Süd"/>
+	</s>
+	<s id="6784204322807426460-2405220517-2">
+		<tl f="N" t="p" o="NBRB25" c="RB" n="61143"/>
+		<ar pt="2405220520" pp="15" l="25" ppth="Berlin Ostkreuz"/>
+		<dp pt="2405220525" pp="15" l="25" ppth="Ahrensfelde|Ahrensfelde Friedhof|Ahrensfelde Nord|Blumberg-Rehhahn|Blumberg(b Berlin)|Seefeld(Mark)|Werneuchen"/>
+	</s>
+	<s id="-7696884223977076179-2405220432-14">
+		<tl f="N" t="p" o="NBRB12" c="RB" n="61102"/>
+		<ar pt="2405220558" pp="17" l="12" ppth="Templin Stadt|Templin|Hammelspring|Vogelsang(Kr Oberhavel)|Zehdenick-Neuhof|Zehdenick(Mark)|Bergsdorf|Löwenberg(Mark)|Grüneberg|Nassenheide|Sachsenhausen(Nordb)|Oranienburg|Berlin-Hohenschönhausen"/>
+		<dp pt="2405220600" pp="17" l="12" ppth="Berlin Ostkreuz"/>
+	</s>
+	<s id="906598229050857189-2405220502-8">
+		<tl f="N" t="p" o="NBRB25" c="RB" n="61142"/>
+		<ar pt="2405220532" pp="17" l="25" ppth="Werneuchen|Seefeld(Mark)|Blumberg(b Berlin)|Blumberg-Rehhahn|Ahrensfelde Nord|Ahrensfelde Friedhof|Ahrensfelde"/>
+		<dp pt="2405220538" pp="17" l="25" ppth="Berlin Ostkreuz"/>
+	</s>
+	<s id="1587664332490671964-2405220458-2">
+		<tl t="p" o="800165" c="FEX" n="19802"/>
+		<ar pt="2405220528" pp="20" pde="Ludwigsfelde" ppth="Flughafen BER"/>
+		<dp pt="2405220530" pp="20" ppth="Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="3633817248942545111-2405220550-2">
+		<tl f="N" t="p" o="NBRB12" c="RB" n="61103"/>
+		<ar pt="2405220553" pp="15" l="12" ppth="Berlin Ostkreuz"/>
+		<dp pt="2405220554" pp="15" l="12" ppth="Berlin-Hohenschönhausen|Oranienburg|Sachsenhausen(Nordb)|Nassenheide|Grüneberg|Löwenberg(Mark)|Bergsdorf|Zehdenick(Mark)|Zehdenick-Neuhof|Vogelsang(Kr Oberhavel)|Hammelspring|Templin|Templin Stadt"/>
+	</s>
+	<s id="2626487540790602472-2405220508-7">
+		<tl f="N" t="p" o="800165" c="RB" n="18303"/>
+		<ar pt="2405220547" pp="22" l="24" ppth="Eberswalde Hbf|Melchow|Biesenthal|Rüdnitz|Bernau(b Berlin)|Berlin-Hohenschönhausen"/>
+		<dp pt="2405220548" pp="22" l="24" ppth="Berlin Ostkreuz|Berlin-Schöneweide|Schönefeld(bei Berlin)"/>
+	</s>
+	<s id="6485660881107865393-2405220542-2">
+		<tl f="N" t="p" o="NZ" c="RE" n="50257"/>
+		<ar pt="2405220556" pp="20" l="27" ppth="Berlin Gesundbrunnen"/>
+		<dp pt="2405220601" pp="20" l="27" ppth="Doberlug-Kirchhain|Elsterwerda"/>
+	</s>
+	<s id="-7630020359962664358-2405220410-14">
+		<tl f="N" t="p" o="NBRB26" c="RB" n="5150"/>
+		<ar pt="2405220524" pp="17" l="26" ppth="Küstrin-Kietz|Gorgast|Golzow(Oderbruch)|Werbig|Seelow-Gusow|Alt Rosenthal|Trebnitz(Mark)|Obersdorf|Müncheberg(Mark)|Rehfelde|Herrensee|Strausberg|Berlin-Mahlsdorf"/>
+		<dp pt="2405220525" pp="17" l="26" ppth="Berlin Ostkreuz"/>
+	</s>
+	<s id="1808693832510471581-2405220533-2">
+		<tl f="N" t="p" o="NBRB26" c="RB" n="5151"/>
+		<ar pt="2405220536" pp="15" l="26" ppth="Berlin Ostkreuz"/>
+		<dp pt="2405220538" pp="15" l="26" ppth="Berlin-Mahlsdorf|Strausberg|Herrensee|Rehfelde|Müncheberg(Mark)|Obersdorf|Trebnitz(Mark)|Alt Rosenthal|Seelow-Gusow|Werbig|Golzow(Oderbruch)|Gorgast|Küstrin-Kietz"/>
+	</s>
+	<s id="-6988578751382458510-2405220542-2">
+		<tl t="p" o="80" c="RJ" n="257"/>
+		<ar pt="2405220556" pp="20" hi="1" wings="6485660881107865393-2405220542" ppth="Berlin Gesundbrunnen"/>
+		<dp pt="2405220601" pp="20" wings="6485660881107865393-2405220542" ppth="Doberlug-Kirchhain|Elsterwerda|Dresden-Neustadt|Dresden Hbf|Bad Schandau|Decin hl.n.|Usti nad Labem hl.n.|Praha-Holesovice|Praha hl.n.|Pardubice hl.n.|Ceska Trebova|Brno hl.n.|Breclav|Wien Hbf|Wien Meidling|Wiener Neustadt Hbf|Mürzzuschlag|Kapfenberg|Bruck/Mur|Graz Hbf"/>
+	</s>
+	<s id="3210654541221591362-2405220521-3">
+		<tl t="p" o="800165" c="FEX" n="19811"/>
+		<ar pt="2405220540" pp="15" ppth="Berlin Hbf|Berlin Gesundbrunnen"/>
+		<dp pt="2405220542" pp="15" pde="Ludwigsfelde" ppth="Flughafen BER"/>
+	</s>
+	<s id="-6434598859761228421-2405220445-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18203"/>
+		<ar pt="2405220512" pp="20" l="32" ppth="Oranienburg|Berlin-Hohenschönhausen"/>
+		<dp pt="2405220513" pp="20" l="32" ppth="Berlin Ostkreuz|Berlin-Schöneweide|Schönefeld(bei Berlin)"/>
+	</s>
+	<s id="8043302214047657692-2405220449-4">
+		<tl f="N" t="p" o="800165" c="RB" n="18300"/>
+		<ar pt="2405220512" pp="15" l="24" ppth="Schönefeld(bei Berlin)|Berlin-Schöneweide|Berlin Ostkreuz"/>
+		<dp pt="2405220514" pp="15" l="24" ppth="Berlin-Hohenschönhausen|Bernau(b Berlin)|Rüdnitz|Biesenthal|Melchow|Eberswalde Hbf"/>
+	</s>
+</timetable>
