@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<timetable station="Mannheim Hbf">
+	<s id="2686007473625185344-2405230001-7">
+		<tl f="F" t="p" o="80" c="ICE" n="618"/>
+		<ar pt="2405230355" pp="7" ppth="München Hbf|Augsburg Hbf|Günzburg|Ulm Hbf|Stuttgart Hbf|Heidelberg Hbf"/>
+		<dp pt="2405230401" pp="7" ppth="Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Siegburg/Bonn|Köln Hbf|Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Münster(Westf)Hbf|Osnabrück Hbf|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Neumünster|Kiel Hbf"/>
+	</s>
+	<s id="-5851721557238592488-2405221944-7">
+		<tl t="p" o="84" c="NJ" n="403"/>
+		<ar pt="2405230331" pp="5" hi="1" wings="7582314568044505717-2405221944" ppth="Amsterdam Centraal|Utrecht Centraal|Köln Hbf|Bonn-Beuel|Koblenz Hbf|Frankfurt(Main)Hbf"/>
+		<dp pt="2405230333" pp="5" hi="1" wings="7582314568044505717-2405221944" ppth="Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="3178546308999030105-2405221938-9">
+		<tl t="p" o="81" c="NJ" n="40468"/>
+		<ar pt="2405230313" pp="3" hi="1" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Salzburg Hbf|Freilassing|Rosenheim|München Ost"/>
+		<dp pt="2405230410" pp="2" hi="1" ppth="Mainz Hbf|Koblenz Hbf|Bonn-Beuel|Aachen Hbf|Liège-Guillemins|Bruxelles-Nord|Bruxelles Midi"/>
+	</s>
+	<s id="-8413702927124024000-2405221907-4">
+		<tl t="p" o="81" c="NJ" n="424"/>
+		<ar pt="2405230311" pp="2" hi="1" wings="8633487569083947263-2405221907" ppth="Berlin Hbf|Berlin Südkreuz|Frankfurt(Main)Süd"/>
+		<dp pt="2405230410" pp="2" hi="1" wings="3178546308999030105-2405221938" ppth="Mainz Hbf|Koblenz Hbf|Bonn-Beuel|Aachen Hbf|Liège-Guillemins|Bruxelles-Nord|Bruxelles Midi"/>
+	</s>
+	<s id="8633487569083947263-2405221907-4">
+		<tl t="p" o="81" c="NJ" n="40424"/>
+		<ar pt="2405230311" pp="2" hi="1" ppth="Berlin Hbf|Berlin Südkreuz|Frankfurt(Main)Süd"/>
+		<dp pt="2405230420" pp="2" hi="1" ppth="Strasbourg"/>
+	</s>
+	<s id="7582314568044505717-2405221944-7">
+		<tl f="F" t="p" o="NZ" c="IC" n="60403"/>
+		<ar pt="2405230331" pp="5" ppth="Amsterdam Centraal|Utrecht Centraal|Köln Hbf|Bonn-Beuel|Koblenz Hbf|Frankfurt(Main)Hbf"/>
+		<dp pt="2405230333" pp="5" ppth="Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="8016523767626847908-2405221938-9">
+		<tl t="p" o="81" c="NJ" n="468"/>
+		<ar pt="2405230313" pp="3" hi="1" wings="3178546308999030105-2405221938" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Salzburg Hbf|Freilassing|Rosenheim|München Ost"/>
+		<dp pt="2405230420" pp="3" hi="1" wings="8633487569083947263-2405221907" ppth="Strasbourg"/>
+	</s>
+</timetable>
