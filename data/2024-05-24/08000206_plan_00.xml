@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<timetable station="Koblenz Hbf">
+	<s id="7791566758703806508-2405232229-25">
+		<tl f="N" t="p" o="TR" c="RB" n="25445"/>
+		<ar pt="2405240026" pp="8" l="26" ppth="Köln/Bonn Flughafen|Köln Messe/Deutz|Köln Hbf|Köln West|Hürth-Kalscheuren|Brühl|Sechtem|Roisdorf|Bonn Hbf|Bonn UN Campus|Bonn-Bad Godesberg|Bonn-Mehlem|Rolandseck|Oberwinter|Remagen|Sinzig(Rhein)|Bad Breisig|Brohl|Namedy|Andernach|Weißenthurm|Mülheim-Kärlich|Koblenz-Lützel|Koblenz Stadtmitte"/>
+	</s>
+	<s id="8435873983308723652-2405240008-1">
+		<tl f="N" t="p" o="801512" c="RB" n="12134"/>
+		<dp pt="2405240008" pp="9" l="81" ppth="Koblenz-Moselweiß|Koblenz-Güls|Winningen(Mosel)|Kobern-Gondorf|Lehmen|Kattenes|Löf|Hatzenport|Moselkern|Müden(Mosel)|Treis-Karden|Pommern(Mosel)|Klotten|Cochem(Mosel)"/>
+	</s>
+	<s id="5078737997455806676-2405232302-21">
+		<tl f="N" t="p" o="TR" c="RB" n="25450"/>
+		<ar pt="2405240026" pp="3" l="26" ppth="Mainz Hbf|Mainz-Mombach|Budenheim|Uhlerborn|Heidesheim(Rheinhess)|Ingelheim|Gau Algesheim|Bingen-Gaulsheim|Bingen(Rhein) Stadt|Bingen(Rhein) Hbf|Trechtingshausen|Niederheimbach|Bacharach|Oberwesel|St Goar|Boppard-Hirzenach|Boppard-Bad Salzig|Boppard Hbf|Spay|Rhens"/>
+		<dp pt="2405240030" pp="3" l="26" ppth="Koblenz Stadtmitte|Koblenz-Lützel|Mülheim-Kärlich|Weißenthurm|Andernach|Namedy|Brohl|Bad Breisig|Sinzig(Rhein)|Remagen"/>
+	</s>
+	<s id="7582314568044505717-2405231944-5">
+		<tl f="F" t="p" o="NZ" c="IC" n="60403"/>
+		<ar pt="2405240047" pp="4" ppth="Amsterdam Centraal|Utrecht Centraal|Köln Hbf|Bonn-Beuel"/>
+		<dp pt="2405240049" pp="4" ppth="Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="8503777394879306018-2405232324-3">
+		<tl f="F" t="p" o="80" c="ICE" n="920"/>
+		<ar pt="2405240056" pp="3" ppth="Frankfurt(Main)Hbf|Bingen(Rhein) Hbf"/>
+		<dp pt="2405240058" pp="3" ppth="Remagen|Bonn Hbf|Köln Hbf|Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Münster(Westf)Hbf|Osnabrück Hbf|Diepholz|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-6813847718653179839-2405232141-33">
+		<tl f="N" t="p" o="8003H5" c="RB" n="10641"/>
+		<ar pt="2405240019" pp="109" l="27" ppth="Mönchengladbach Hbf|Rheydt Hbf|Hochneukirch|Jüchen|Grevenbroich|Rommerskirchen|Stommeln|Pulheim|Köln-Ehrenfeld|Köln Hbf|Köln Messe/Deutz|Köln/Bonn Flughafen|Troisdorf|Friedrich Wilhelmshütte|Menden(Rheinl)|Bonn-Beuel|Bonn-Oberkassel|Niederdollendorf|Königswinter|Rhöndorf|Bad Honnef(Rhein)|Unkel|Erpel(Rhein)|Linz(Rhein)|Leubsdorf(Rhein)|Bad Hönningen|Rheinbrohl|Leutesdorf(Rhein)|Neuwied|Engers|Vallendar|Koblenz-Ehrenbreitstein"/>
+	</s>
+	<s id="-5851721557238592488-2405231944-5">
+		<tl t="p" o="84" c="NJ" n="403"/>
+		<ar pt="2405240047" pp="4" hi="1" wings="7582314568044505717-2405231944" ppth="Amsterdam Centraal|Utrecht Centraal|Köln Hbf|Bonn-Beuel"/>
+		<dp pt="2405240049" pp="4" hi="1" wings="7582314568044505717-2405231944" ppth="Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+</timetable>
