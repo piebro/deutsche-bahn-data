@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Lüneburg">
+	<s id="-6026100001913276581-2405250605-4">
+		<tl f="D" t="p" o="R1" c="ME" n="82108"/>
+		<ar pt="2405250628" pp="2" l="RE3" tra="-8254610297767882258-2405250632-1" ppth="Uelzen|Bad Bevensen|Bienenbüttel"/>
+	</s>
+	<s id="-4286732875746580384-2405250624-3">
+		<tl f="F" t="p" o="80" c="ICE" n="73"/>
+		<ar pt="2405250653" pp="1" ppth="Hamburg Hbf|Hamburg-Harburg"/>
+		<dp pt="2405250655" pp="1" ppth="Uelzen|Celle|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-8254610297767882258-2405250632-1">
+		<tl f="D" t="p" o="R1" c="ME" n="81608"/>
+		<dp pt="2405250632" pp="2" l="RB31" tra="-6026100001913276581-2405250605-4" ppth="Bardowick|Radbruch|Winsen(Luhe)|Ashausen|Stelle|Maschen|Meckelfeld|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="-4168693373835425356-2405250510-9">
+		<tl f="D" t="p" o="X1" c="erx" n="21103"/>
+		<ar pt="2405250615" pp="5" l="RE83" ppth="Lübeck Hbf|Lübeck Hochschulstadtteil|Lübeck Flughafen|Ratzeburg|Mölln(Lauenb)|Büchen|Lauenburg(Elbe)|Echem"/>
+	</s>
+	<s id="-591740966552182182-2405250634-1">
+		<tl f="D" t="p" o="R1" c="ME" n="82109"/>
+		<dp pt="2405250634" pp="6" l="RE3" tra="6786330195269430117-2405250533-9" ppth="Bienenbüttel|Bad Bevensen|Uelzen"/>
+	</s>
+	<s id="3476924354915365047-2405250630-1">
+		<tl f="D" t="p" o="X1" c="erx" n="21106"/>
+		<dp pt="2405250630" pp="5" l="RE83" pde="Kiel Hbf" ppth="Echem|Lauenburg(Elbe)|Büchen|Mölln(Lauenb)|Ratzeburg|Lübeck Flughafen|Lübeck Hochschulstadtteil|Lübeck Hbf"/>
+	</s>
+	<s id="6786330195269430117-2405250533-9">
+		<tl f="D" t="p" o="R1" c="ME" n="81609"/>
+		<ar pt="2405250623" pp="6" l="RB31" tra="-591740966552182182-2405250634-1" ppth="Hamburg Hbf|Hamburg-Harburg|Maschen|Stelle|Ashausen|Winsen(Luhe)|Radbruch|Bardowick"/>
+	</s>
+	<s id="-1412234408698859525-2405250619-3">
+		<tl f="F" t="p" o="80" c="ICE" n="583"/>
+		<ar pt="2405250646" pp="1" ppth="Hamburg Hbf|Hamburg-Harburg"/>
+		<dp pt="2405250648" pp="1" ppth="Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf|München Hbf"/>
+	</s>
+</timetable>
