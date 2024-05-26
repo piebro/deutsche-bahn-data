@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="Würzburg Hbf">
+	<s id="6992012378128167215-2405251956-6">
+		<tl t="p" o="81" c="NJ" n="40491"/>
+		<ar pt="2405260241" pp="5" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen"/>
+		<dp pt="2405260243" pp="5" ppth="Nürnberg Hbf|Augsburg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="-3823254010841261196-2405251900-5">
+		<tl t="p" o="84" c="NJ" n="421"/>
+		<ar pt="2405260215" pp="5" wings="-4272298498907669914-2405251900" ppth="Amsterdam Centraal|Utrecht Centraal|s-Hertogenbosch|Köln Hbf"/>
+		<dp pt="2405260218" pp="5" wings="-4272298498907669914-2405251900" ppth="Nürnberg Hbf|Augsburg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="-2044723357159653206-2405251956-6">
+		<tl t="p" o="81" c="NJ" n="491"/>
+		<ar pt="2405260241" pp="5" wings="6992012378128167215-2405251956" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen"/>
+		<dp pt="2405260243" pp="5" wings="6992012378128167215-2405251956" ppth="Nürnberg Hbf|Regensburg Hbf|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="-4272298498907669914-2405251900-5">
+		<tl t="p" o="81" c="NJ" n="40421"/>
+		<ar pt="2405260215" pp="5" ppth="Amsterdam Centraal|Utrecht Centraal|s-Hertogenbosch|Köln Hbf"/>
+		<dp pt="2405260218" pp="5" ppth="Nürnberg Hbf|Regensburg Hbf|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+</timetable>
