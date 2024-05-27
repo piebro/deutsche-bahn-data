@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<timetable station="Hannover Hbf">
+	<s id="4275385698506401374-2405270209-7">
+		<tl f="S" t="p" o="TDHS" c="S" n="34509"/>
+		<ar pt="2405270226" pp="1" l="5" ppth="Hannover Flughafen|Langenhagen Pferdemarkt|Langenhagen Mitte|Hannover-Vinnhorst|Hannover-Ledeburg|Hannover-Nordstadt"/>
+	</s>
+	<s id="-7943794576343768944-2405270232-1">
+		<tl f="S" t="p" o="TDHS" c="S" n="34510"/>
+		<dp pt="2405270232" pp="2" l="5" ppth="Hannover-Nordstadt|Hannover-Ledeburg|Hannover-Vinnhorst|Langenhagen Mitte|Langenhagen Pferdemarkt|Hannover Flughafen"/>
+	</s>
+	<s id="8850452489523868017-2405262102-15">
+		<tl f="F" t="p" o="80" c="ICE" n="100"/>
+		<ar pt="2405270223" pp="9" ppth="Karlsruhe Hbf|Mannheim Hbf|Frankfurt(M) Flughafen Fernbf|Siegburg/Bonn|Köln Hbf|Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Bielefeld Hbf|Minden(Westf)"/>
+		<dp pt="2405270240" pp="9" ppth="Braunschweig Hbf|Magdeburg Hbf|Brandenburg Hbf|Potsdam Hbf|Berlin-Wannsee|Berlin Zoologischer Garten|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="5727710383152211205-2405270130-3">
+		<tl t="p" o="B1" c="Bus" n="9445"/>
+		<ar pt="2405270223" pp="" l="RE8" ppth="Neustadt am Rübenberge|Wunstorf"/>
+	</s>
+	<s id="4940837073131544062-2405270257-1">
+		<tl f="F" t="p" o="80" c="ICE" n="591"/>
+		<dp pt="2405270257" pp="4" ppth="Kassel-Wilhelmshöhe|Hanau Hbf|Frankfurt(Main)Hbf|Mannheim Hbf|Stuttgart Hbf|Ulm Hbf|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-3549492120276892940-2405262328-5">
+		<tl t="p" o="B1" c="Bus" n="9439"/>
+		<ar pt="2405270211" pp="" l="RE8" ppth="Bremen Hbf|Nienburg(Weser)|Neustadt am Rübenberge|Wunstorf"/>
+	</s>
+</timetable>
