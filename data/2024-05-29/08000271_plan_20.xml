@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<timetable station="Neumünster">
+	<s id="2997100402468411230-2405292025-2">
+		<tl t="p" o="A0" c="Bus" n="2457"/>
+		<ar pt="2405292035" pp="" l="EV" ppth="Neumünster Süd AKN"/>
+	</s>
+	<s id="-1199948685037004152-2405292002-5">
+		<tl f="N" t="p" o="800201" c="RE" n="11285"/>
+		<ar pt="2405292026" pp="5" l="7" ppth="Kiel Hbf|Flintbek|Bordesholm|Einfeld"/>
+		<dp pt="2405292028" pp="5" l="7" ppth="Elmshorn|Pinneberg|Hamburg Dammtor|Hamburg Hbf"/>
+	</s>
+	<s id="990977481173555186-2405292021-1">
+		<tl t="p" o="A0" c="Bus" n="2458"/>
+		<dp pt="2405292021" pp="" l="EV" ppth="Neumünster Süd AKN"/>
+	</s>
+	<s id="-488282862807054426-2405291937-10">
+		<tl f="D" t="p" o="O0" c="NBE" n="82190"/>
+		<ar pt="2405292026" pp="2" l="RB82" ppth="Bad Oldesloe|Fresenburg|Wakendorf|Altengörs|Bad Segeberg|Fahrenkrug|Wahlstedt|Rickling|Neumünster Süd AKN"/>
+	</s>
+	<s id="7649182447134048178-2405291943-4">
+		<tl f="N" t="p" o="800201" c="RE" n="11280"/>
+		<ar pt="2405292030" pp="3" l="7" ppth="Hamburg Hbf|Hamburg Dammtor|Elmshorn"/>
+		<dp pt="2405292034" pp="3" l="7" ppth="Einfeld|Bordesholm|Flintbek|Kiel Hbf"/>
+	</s>
+	<s id="-2209744017972947883-2405291228-14">
+		<tl f="F" t="p" o="54" c="EC" n="378"/>
+		<ar pt="2405292003" pp="3" ppth="Praha hl.n.|Praha-Holesovice|Usti nad Labem hl.n.|Decin hl.n.|Bad Schandau|Dresden Hbf|Dresden-Neustadt|Berlin Gesundbrunnen|Berlin-Spandau|Wittenberge|Ludwigslust|Büchen|Hamburg Hbf"/>
+		<dp pt="2405292004" pp="3" ppth="Kiel Hbf"/>
+	</s>
+	<s id="-7757501526113845489-2405292035-1">
+		<tl f="D" t="p" o="O0" c="NBE" n="83786"/>
+		<dp pt="2405292035" pp="6" l="RB63" ppth="Neumünster Stadtwald|Wasbek|Aukrug|Hohenwestedt"/>
+	</s>
+	<s id="5280451766042449982-2405291943-4">
+		<tl f="N" t="p" o="800201" c="RE" n="11180"/>
+		<ar pt="2405292030" pp="3" l="7" wings="7649182447134048178-2405291943" ppth="Hamburg Hbf|Hamburg Dammtor|Elmshorn"/>
+		<dp pt="2405292032" pp="3" l="7" ppth="Nortorf|Rendsburg|Owschlag|Schleswig|Jübek|Tarp|Flensburg"/>
+	</s>
+	<s id="-7595984326106049483-2405291922-6">
+		<tl f="N" t="p" o="800201" c="RE" n="11230"/>
+		<ar pt="2405292013" pp="3" l="70" ppth="Hamburg Hbf|Hamburg Dammtor|Elmshorn|Wrist|Brokstedt"/>
+		<dp pt="2405292014" pp="3" l="70" ppth="Bordesholm|Kiel Hbf"/>
+	</s>
+	<s id="-6968895459807678055-2405291915-8">
+		<tl f="N" t="p" o="800201" c="RE" n="11185"/>
+		<ar pt="2405292022" pp="5" l="7" ppth="Flensburg|Tarp|Jübek|Schleswig|Owschlag|Rendsburg|Nortorf"/>
+		<dp pt="2405292028" pp="5" l="7" wings="-1199948685037004152-2405292002" ppth="Elmshorn|Pinneberg|Hamburg Dammtor|Hamburg Hbf"/>
+	</s>
+	<s id="8772619248153816013-2405291831-19">
+		<tl f="D" t="p" o="O0" c="NBE" n="83825"/>
+		<ar pt="2405292025" pp="6" l="RB63" ppth="Büsum|Reinsbüttel|Süderdeich|Wesselburen|Jarrenwisch|Tiebensee|Heide(Holst)|Nordhastedt|Albersdorf|Beldorf|Hademarschen|Gokels|Beringstedt|Osterstedt|Hohenwestedt|Aukrug|Wasbek|Neumünster Stadtwald"/>
+	</s>
+	<s id="2125648005524986325-2405292025-3">
+		<tl f="N" t="p" o="800201" c="RE" n="11235"/>
+		<ar pt="2405292044" pp="4" l="70" ppth="Kiel Hbf|Bordesholm"/>
+		<dp pt="2405292045" pp="4" l="70" ppth="Brokstedt|Wrist|Elmshorn|Hamburg Dammtor|Hamburg Hbf"/>
+	</s>
+</timetable>
