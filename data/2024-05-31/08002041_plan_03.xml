@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="Frankfurt(Main)Süd">
+	<s id="-8441776821296139917-2405310319-3">
+		<tl f="S" t="p" o="800528" c="S" n="35895"/>
+		<ar pt="2405310342" pp="8" l="8" ppth="Raunheim|Frankfurt(M) Flughafen Fernbf"/>
+		<dp pt="2405310342" pp="8" l="8" ppth="Offenbach(Main)Hbf|Offenbach(Main)Ost|Mühlheim(Main)|Mühlheim(Main)-Dietesheim|Steinheim(Main)|Hanau Hbf"/>
+	</s>
+	<s id="8864827325846342282-2405310246-7">
+		<tl f="S" t="p" o="800528" c="S" n="35894"/>
+		<ar pt="2405310313" pp="7" l="8" ppth="Hanau Hbf|Steinheim(Main)|Mühlheim(Main)-Dietesheim|Mühlheim(Main)|Offenbach(Main)Ost|Offenbach(Main)Hbf"/>
+		<dp pt="2405310313" pp="7" l="8" ppth="Frankfurt(M) Flughafen Fernbf|Raunheim"/>
+	</s>
+	<s id="6287334847899834053-2405302145-3">
+		<tl t="p" o="81" c="NJ" n="40469"/>
+		<ar pt="2405310317" pp="8" ppth="Strasbourg|Mannheim Hbf"/>
+		<dp pt="2405310319" pp="8" ppth="Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="-9061060548328880741-2405301907-10">
+		<tl t="p" o="88" c="NJ" n="425"/>
+		<ar pt="2405310317" pp="8" wings="6287334847899834053-2405302145" ppth="Bruxelles Midi|Bruxelles-Nord|Liège-Guillemins|Aachen Hbf|Köln Hbf|Bonn Hbf|Koblenz Hbf|Mainz Hbf|Mannheim Hbf"/>
+		<dp pt="2405310319" pp="8" wings="6287334847899834053-2405302145" ppth="Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+</timetable>
