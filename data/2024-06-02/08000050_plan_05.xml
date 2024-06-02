@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Bremen Hbf">
+	<s id="7152046210696401911-2406020421-5">
+		<tl f="F" t="p" o="80" c="EC" n="7"/>
+		<ar pt="2406020534" pp="9" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg"/>
+		<dp pt="2406020540" pp="9" ppth="Diepholz|Osnabrück Hbf|Münster(Westf)Hbf|Dortmund Hbf|Solingen Hbf|Köln Hbf|Bonn Hbf|Koblenz Hbf|Mainz Hbf|Mannheim Hbf|Karlsruhe Hbf|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Liestal|Olten|Bern|Thun|Spiez|Interlaken West|Interlaken Ost"/>
+	</s>
+	<s id="-1242935073022339718-2406020504-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="83192"/>
+		<dp pt="2406020504" pp="5" l="RS1" ppth="Bremen-Walle|Bremen-Oslebshausen|Bremen-Burg|Bremen-Lesum|Bremen-St Magnus|Bremen-Schönebeck|Bremen-Vegesack"/>
+	</s>
+	<s id="-2219451915632335541-2406020517-1">
+		<tl f="N" t="p" o="800295" c="RE" n="4443"/>
+		<dp pt="2406020517" pp="5" l="1" ppth="Bremen-Mahndorf|Achim|Verden(Aller)|Dörverden|Eystrup|Nienburg(Weser)|Neustadt am Rübenberge|Wunstorf|Hannover Hbf"/>
+	</s>
+	<s id="-4048894307014005282-2406020547-1">
+		<tl t="p" o="RS" c="Bus" n="86353"/>
+		<dp pt="2406020547" pp="" l="EV" ppth="Bremen-Mahndorf|Achim|Langwedel"/>
+	</s>
+	<s id="-135934637287446585-2406020558-1">
+		<tl f="D" t="p" o="R1" c="ME" n="81908"/>
+		<dp pt="2406020558" pp="9" l="RB41" ppth="Bremen-Oberneuland|Sagehorn|Ottersberg(Han)|Sottrum|Rotenburg(Wümme)|Scheeßel|Lauenbrück|Tostedt|Sprötze|Buchholz(Nordheide)|Klecken|Hittfeld|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="8503777394879306018-2406012310-9">
+		<tl f="F" t="p" o="80" c="ICE" n="920"/>
+		<ar pt="2406020550" pp="10" ppth="Frankfurt(Main)Hbf|Köln Messe/Deutz Gl.11-12|Solingen Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Münster(Westf)Hbf|Osnabrück Hbf|Diepholz"/>
+		<dp pt="2406020553" pp="10" ppth="Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="5730796502908319929-2406020535-8">
+		<tl f="D" t="p" o="N1" c="NWB" n="83189"/>
+		<ar pt="2406020554" pp="5" l="RS1" ppth="Bremen-Vegesack|Bremen-Schönebeck|Bremen-St Magnus|Bremen-Lesum|Bremen-Burg|Bremen-Oslebshausen|Bremen-Walle"/>
+	</s>
+	<s id="6934699668924356050-2406020417-14">
+		<tl f="N" t="p" o="800295" c="RE" n="4448"/>
+		<ar pt="2406020540" pp="7" l="8" ppth="Hannover Hbf|Wunstorf|Poggenhagen|Neustadt am Rübenberge|Eilvese|Hagen(Han)|Linsburg|Nienburg(Weser)|Eystrup|Dörverden|Verden(Aller)|Achim|Bremen-Mahndorf"/>
+	</s>
+</timetable>
