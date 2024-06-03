@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<timetable station="Regensburg Hbf">
+	<s id="-1941895341269285263-2406032050-1">
+		<tl t="p" o="O9" c="OPB" n="79746"/>
+		<dp pt="2406032050" pp="101" l="RB23" ppth="Regenstauf|Maxhütte-Haidhof|Schwandorf|Irrenlohe|Schwarzenfeld(Opf)|Nabburg|Pfreimd|Wernberg|Luhe|Luhe-Wildenau|Weiden(Oberpf)"/>
+	</s>
+	<s id="-4905758660096184217-2406031900-12">
+		<tl t="p" o="O9" c="OPB" n="79739"/>
+		<ar pt="2406032011" pp="101" l="RB23" ppth="Weiden(Oberpf)|Luhe-Wildenau|Luhe|Wernberg|Pfreimd|Nabburg|Schwarzenfeld(Opf)|Irrenlohe|Schwandorf|Maxhütte-Haidhof|Regenstauf"/>
+	</s>
+	<s id="-2877465942167002797-2406031844-6">
+		<tl f="D" t="p" o="A8N" c="ALX" n="79865"/>
+		<ar pt="2406032010" pp="4" l="RE25" ppth="München Hbf|Freising|Landshut(Bay)Hbf|Ergoldsbach|Neufahrn(Niederbay)"/>
+		<dp pt="2406032018" pp="4" l="RE25" ppth="Regenstauf|Maxhütte-Haidhof|Schwandorf"/>
+	</s>
+	<s id="5903101010412136106-2406031713-8">
+		<tl f="F" t="p" o="81" c="ICE" n="20"/>
+		<ar pt="2406032033" pp="5" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Passau Hbf|Plattling"/>
+		<dp pt="2406032035" pp="5" ppth="Nürnberg Hbf|Würzburg Hbf|Aschaffenburg Hbf|Hanau Hbf|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="4980283990517617661-2406031843-11">
+		<tl f="N" t="p" o="800759" c="RE" n="3429"/>
+		<ar pt="2406032026" pp="1" l="40" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)|Hartmannshof|Etzelwang|Neukirchen(b Sulzb)|Sulzbach-Rosenberg|Amberg|Schwandorf|Maxhütte-Haidhof|Regenstauf"/>
+	</s>
+	<s id="-5136100522727751163-2406031916-12">
+		<tl f="N" t="p" o="800767" c="RE" n="57934"/>
+		<ar pt="2406032041" pp="108" l="22" ppth="München Flughafen Terminal|München Flughafen Besucherpark|Freising|Moosburg|Landshut(Bay)Hbf|Ergoldsbach|Neufahrn(Niederbay)|Eggmühl|Hagelstadt|Köfering|Obertraubling"/>
+	</s>
+	<s id="-8948332870921884472-2406032053-1">
+		<tl f="D" t="p" o="A9" c="ag" n="84346"/>
+		<dp pt="2406032053" pp="5" l="RB17" ppth="Regensburg-Prüfening|Sinzing|Poikam|Bad Abbach|Saal(Donau)|Abensberg|Neustadt(Donau)|Münchsmünster|Vohburg|Ernsgaden|Ingolstadt Hbf|Ingolstadt Nord"/>
+	</s>
+	<s id="-103451079362623176-2406032024-1">
+		<tl f="D" t="p" o="A9" c="ag" n="84238"/>
+		<dp pt="2406032024" pp="5" l="RB51" ppth="Regensburg-Prüfening|Etterzhausen|Undorf|Deuerling|Laaber|Beratzhausen|Mausheim|Parsberg|Seubersdorf|Batzhausen|Deining(Oberpf)|Neumarkt(Oberpf)"/>
+	</s>
+	<s id="5180885733832133637-2406031859-13">
+		<tl f="D" t="p" o="A9" c="ag" n="84341"/>
+		<ar pt="2406032013" pp="8" l="RB17" ppth="Ingolstadt Nord|Ingolstadt Hbf|Ernsgaden|Vohburg|Münchsmünster|Neustadt(Donau)|Abensberg|Saal(Donau)|Bad Abbach|Gundelshausen|Sinzing|Regensburg-Prüfening"/>
+	</s>
+	<s id="4709498527252226242-2406032019-1">
+		<tl f="N" t="p" o="800767" c="RE" n="57935"/>
+		<dp pt="2406032019" pp="8 A-C" l="22" ppth="Obertraubling|Köfering|Hagelstadt|Eggmühl|Neufahrn(Niederbay)|Ergoldsbach|Landshut(Bay)Hbf|Moosburg|Freising|München Flughafen Terminal"/>
+	</s>
+	<s id="310825111682375240-2406031938-13">
+		<tl f="D" t="p" o="A9" c="ag" n="84211"/>
+		<ar pt="2406032031" pp="8" l="RB51" ppth="Neumarkt(Oberpf)|Deining(Oberpf)|Batzhausen|Seubersdorf|Parsberg|Mausheim|Beratzhausen|Laaber|Deuerling|Undorf|Etterzhausen|Regensburg-Prüfening"/>
+	</s>
+	<s id="1704997047906839039-2406031911-5">
+		<tl f="N" t="p" o="800746" c="RE" n="58427"/>
+		<ar pt="2406032013" pp="109" l="50" ppth="Nürnberg Hbf|Neumarkt(Oberpf)|Parsberg|Beratzhausen"/>
+	</s>
+	<s id="4451657705904975193-2406032004-1">
+		<tl f="D" t="p" o="A9" c="ag" n="84208"/>
+		<dp pt="2406032004" pp="5" l="RB51" ppth="Regensburg-Prüfening|Etterzhausen|Undorf|Deuerling|Laaber|Beratzhausen|Mausheim|Parsberg|Seubersdorf|Batzhausen|Deining(Oberpf)|Neumarkt(Oberpf)"/>
+	</s>
+	<s id="3635919844831333288-2406031944-3">
+		<tl f="N" t="p" o="8007H3" c="RE" n="4869"/>
+		<ar pt="2406032038" pp="1" l="2" ppth="Weiden(Oberpf)|Schwandorf"/>
+		<dp pt="2406032046" pp="1" l="2" ppth="Eggmühl|Neufahrn(Niederbay)|Ergoldsbach|Landshut(Bay)Hbf|Moosburg|Freising|München Hbf"/>
+	</s>
+</timetable>
