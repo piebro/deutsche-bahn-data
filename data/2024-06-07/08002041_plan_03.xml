@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<timetable station="Frankfurt(Main)Süd">
+	<s id="6287334847899834053-2406062145-3">
+		<tl t="p" o="81" c="NJ" n="40469"/>
+		<ar pt="2406070317" pp="8" ppth="Strasbourg|Mannheim Hbf"/>
+		<dp pt="2406070319" pp="8" ppth="Halle(Saale)Hbf|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="-9061060548328880741-2406061907-10">
+		<tl t="p" o="88" c="NJ" n="425"/>
+		<ar pt="2406070317" pp="8" wings="6287334847899834053-2406062145" ppth="Bruxelles Midi|Bruxelles-Nord|Liège-Guillemins|Aachen Hbf|Köln Hbf|Bonn-Beuel|Koblenz Hbf|Mainz Hbf|Mannheim Hbf"/>
+		<dp pt="2406070319" pp="8" wings="6287334847899834053-2406062145" ppth="Halle(Saale)Hbf|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="-5671562569667632750-2406070248-15">
+		<tl f="S" t="p" o="800528" c="S" n="35895"/>
+		<ar pt="2406070341" pp="8" l="8" ppth="Wiesbaden Hbf|Wiesbaden Ost|Mainz Nord|Mainz Hbf|Mainz Römisches Theater|Mainz-Gustavsburg|Mainz-Bischofsheim|Rüsselsheim Opelwerk|Rüsselsheim|Raunheim|Kelsterbach|Frankfurt(M) Flughafen Regionalbf|Frankfurt(Main)-Gateway Gardens|Frankfurt am Main - Stadion"/>
+		<dp pt="2406070342" pp="8" l="8" ppth="Offenbach(Main)Hbf|Offenbach(Main)Ost|Mühlheim(Main)|Mühlheim(Main)-Dietesheim|Steinheim(Main)|Hanau Hbf"/>
+	</s>
+</timetable>

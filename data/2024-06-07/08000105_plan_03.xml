@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<timetable station="Frankfurt(Main)Hbf">
+	<s id="-1197270886930040789-2406062101-9">
+		<tl f="F" t="p" o="NZ" c="IC" n="60408"/>
+		<ar pt="2406070346" pp="8" ppth="Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Bitterfeld|Halle(Saale)Hbf|Leipzig Hbf|Erfurt Hbf|Fulda"/>
+		<dp pt="2406070358" pp="8" ppth="Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="5331894847185138451-2406062101-9">
+		<tl t="p" o="81" c="NJ" n="408"/>
+		<ar pt="2406070346" pp="8" wings="-1197270886930040789-2406062101" ppth="Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Bitterfeld|Halle(Saale)Hbf|Leipzig Hbf|Erfurt Hbf|Fulda"/>
+		<dp pt="2406070358" pp="8" hi="1" wings="-1197270886930040789-2406062101" ppth="Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-6908165203220049035-2406062346-4">
+		<tl f="F" t="p" o="80" c="EC" n="458"/>
+		<ar pt="2406070346" pp="8" wings="5331894847185138451-2406062101" ppth="Leipzig Hbf|Erfurt Hbf|Fulda"/>
+		<dp pt="2406070358" pp="8" hi="1" wings="5331894847185138451-2406062101" ppth="Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="4753870957390372842-2406062134-9">
+		<tl f="F" t="p" o="NZ" c="IC" n="60402"/>
+		<ar pt="2406070245" pp="18" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf"/>
+		<dp pt="2406070313" pp="18" ppth="Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf|Bonn-Beuel|Köln Hbf|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="8868050453695511606-2406062134-9">
+		<tl t="p" o="85" c="NJ" n="402"/>
+		<ar pt="2406070245" pp="18" hi="1" wings="4753870957390372842-2406062134" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf"/>
+		<dp pt="2406070313" pp="18" hi="1" wings="4753870957390372842-2406062134" ppth="Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf|Bonn-Beuel|Köln Hbf|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+</timetable>
