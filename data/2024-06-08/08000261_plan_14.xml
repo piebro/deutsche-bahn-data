@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf">
+	<s id="3182974613310989751-2406081408-1">
+		<tl f="F" t="p" o="80" c="ICE" n="1002"/>
+		<dp pt="2406081408" pp="19" ppth="Nürnberg Hbf|Erfurt Hbf|Berlin Südkreuz|Berlin Hbf|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="-3509575308917348525-2406081420-1">
+		<tl f="N" t="p" o="GYRE" c="RE" n="78941"/>
+		<dp pt="2406081420" pp="28" l="72" ppth="München-Pasing|Geltendorf|Kaufering|Buchloe|Türkheim(Bay)Bf|Rammingen(Bay)|Mindelheim|Stetten(Schwab)|Sontheim(Schwab)|Memmingen"/>
+	</s>
+	<s id="2538182502677792528-2406080740-14">
+		<tl t="p" o="55" c="RJX" n="60"/>
+		<ar pt="2406081440" pp="11" ppth="Budapest-Keleti|Budapest-Kelenföld|Tatabanya|Györ|Mosonmagyarovar|Hegyeshalom|Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Salzburg Hbf|Freilassing|Traunstein"/>
+	</s>
+	<s id="-3783829201967449571-2406080617-12">
+		<tl f="F" t="p" o="80" c="ICE" n="505"/>
+		<ar pt="2406081424" pp="15" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Leipzig Hbf|Erfurt Hbf|Würzburg Hbf|Nürnberg Hbf"/>
+	</s>
+	<s id="-388051095427691659-2406081119-15">
+		<tl f="N" t="p" o="GYRE" c="RE" n="78926"/>
+		<ar pt="2406081405" pp="31" l="96" ppth="Lindau-Reutin|Lindau-Insel|Hergatz|Wangen(Allgäu)|Kißlegg|Leutkirch|Aichstetten|Marstetten-Aitrach|Tannheim(Württ)|Memmingen|Mindelheim|Türkheim(Bay)Bf|Buchloe|München-Pasing"/>
+	</s>
+	<s id="4851193275654738180-2406081432-1">
+		<tl f="F" t="p" o="80" c="ICE" n="1104"/>
+		<dp pt="2406081432" pp="12" ppth="Augsburg Hbf|Donauwörth|Würzburg Hbf|Erfurt Hbf|Halle(Saale)Hbf|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="-1244506323428825924-2406080602-12">
+		<tl f="F" t="p" o="80" c="ICE" n="115"/>
+		<ar pt="2406081413" pp="6" ppth="Münster(Westf)Hbf|Dortmund Hbf|Solingen Hbf|Köln Hbf|Bonn Hbf|Remagen|Andernach|Koblenz Hbf|Bingen(Rhein) Hbf|Mainz Hbf|Augsburg Hbf"/>
+		<dp pt="2406081415" pp="6" ppth="München Ost|Rosenheim|Prien am Chiemsee|Traunstein|Freilassing|Salzburg Hbf|Golling-Abtenau|Bischofshofen|St. Johann im Pongau|Schwarzach-St.Veit|Bad Hofgastein|Mallnitz-Obervellach|Spittal-Millstättersee|Villach Hbf|Velden am Wörther See|Pörtschach am Wörther See|Krumpendorf/Wörthersee|Klagenfurt Hbf"/>
+	</s>
+	<s id="6512354943507599026-2406080529-19">
+		<tl f="F" t="p" o="80" c="ICE" n="515"/>
+		<ar pt="2406081435" pp="14" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Osnabrück Hbf|Münster(Westf)Hbf|Dortmund Hbf|Hagen Hbf|Wuppertal Hbf|Solingen Hbf|Köln Hbf|Frankfurt(M) Flughafen Fernbf|Mannheim Hbf|Stuttgart Hbf|Ulm Hbf|Augsburg Hbf|München-Pasing"/>
+	</s>
+	<s id="-8965117659663328208-2406080842-11">
+		<tl f="F" t="p" o="80" c="ICE" n="535"/>
+		<ar pt="2406081440" pp="23" ppth="Oldenburg(Oldb)Hbf|Delmenhorst|Bremen Hbf|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf"/>
+	</s>
+	<s id="486583059417690094-2406080816-11">
+		<tl f="F" t="p" o="80" c="ICE" n="585"/>
+		<ar pt="2406081440" pp="23" wings="-8965117659663328208-2406080842" ppth="Lübeck Hbf|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf"/>
+	</s>
+	<s id="1550064943351130967-2406081404-1">
+		<tl f="N" t="p" o="800765" c="RE" n="57876"/>
+		<dp pt="2406081404" pp="25" l="1" ppth="Roth|Nürnberg Hbf"/>
+	</s>
+	<s id="5063306491620712599-2406081040-13">
+		<tl f="N" t="p" o="8007H3" c="RE" n="4861"/>
+		<ar pt="2406081416" pp="35" l="2" ppth="Hof Hbf|Marktredwitz|Wiesau(Oberpf)|Weiden(Oberpf)|Schwandorf|Regensburg Hbf|Eggmühl|Neufahrn(Niederbay)|Ergoldsbach|Landshut(Bay)Hbf|Moosburg|Freising"/>
+	</s>
+	<s id="-2142784246140329213-2406081449-1">
+		<tl f="F" t="p" o="80" c="ICE" n="622"/>
+		<dp pt="2406081449" pp="22" ppth="Nürnberg Hbf|Würzburg Hbf|Aschaffenburg Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Siegburg/Bonn|Köln Messe/Deutz Gl.11-12|Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf"/>
+	</s>
+	<s id="-2584037702944629812-2406081444-1">
+		<tl f="D" t="p" o="A8N" c="ALX" n="361"/>
+		<dp pt="2406081444" pp="24" l="RE25" pde="Praha hl.n." ppth="Freising|Landshut(Bay)Hbf|Neufahrn(Niederbay)|Regensburg Hbf|Schwandorf|Cham(Oberpf)|Furth im Wald"/>
+	</s>
+	<s id="-2521696256132503788-2406080858-8">
+		<tl f="F" t="p" o="80" c="ICE" n="621"/>
+		<ar pt="2406081407" pp="22" ppth="Düsseldorf Hbf|Köln Messe/Deutz Gl.11-12|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf|Aschaffenburg Hbf|Würzburg Hbf|Nürnberg Hbf"/>
+	</s>
+</timetable>

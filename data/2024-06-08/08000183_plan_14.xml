@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<timetable station="Ingolstadt Hbf">
+	<s id="2714910158503375326-2406081314-5">
+		<tl f="N" t="p" o="800765" c="RE" n="4020"/>
+		<ar pt="2406081351" pp="7" l="1" ppth="Dachau Bahnhof|Petershausen(Obb)|Pfaffenhofen(Ilm)|Rohrbach(Ilm)"/>
+		<dp pt="2406081404" pp="7" l="1" ppth="Ingolstadt Nord|Kinding(Altmühltal)|Allersberg(Rothsee)|Nürnberg Hbf"/>
+	</s>
+	<s id="-2307919218186410793-2406081307-5">
+		<tl f="N" t="p" o="800765" c="RE" n="4023"/>
+		<ar pt="2406081355" pp="2" l="1" ppth="Nürnberg Hbf|Allersberg(Rothsee)|Kinding(Altmühltal)|Ingolstadt Nord"/>
+		<dp pt="2406081404" pp="2" l="1" ppth="Rohrbach(Ilm)|Pfaffenhofen(Ilm)|Petershausen(Obb)|Dachau Bahnhof"/>
+	</s>
+	<s id="1360461261455514278-2406081147-22">
+		<tl f="D" t="p" o="A9" c="ag" n="84131"/>
+		<ar pt="2406081347" pp="6" l="RB15" ppth="Ulm Hbf|Neu-Ulm|Nersingen|Leipheim|Günzburg|Gundelfingen(Bay)|Lauingen|Dillingen(Donau)|Höchstädt(Donau)|Blindheim|Schwenningen(Bay)|Tapfheim|Donauwörth|Genderkingen|Rain|Burgheim|Straß-Moos|Unterhausen(Bay)|Neuburg(Donau)|Rohrenfeld|Weichering"/>
+		<dp pt="2406081405" pp="6" l="RB17" ppth="Ernsgaden|Vohburg|Münchsmünster|Neustadt(Donau)|Abensberg|Saal(Donau)|Bad Abbach|Poikam|Sinzing|Regensburg-Prüfening|Regensburg Hbf"/>
+	</s>
+	<s id="1700269915963890585-2406081357-8">
+		<tl f="D" t="p" o="A9" c="ag" n="84132"/>
+		<ar pt="2406081454" pp="5" l="RE18" ppth="Regensburg Hbf|Regensburg-Prüfening|Sinzing|Gundelshausen|Saal(Donau)|Abensberg|Neustadt(Donau)"/>
+		<dp pt="2406081511" pp="5" l="RB15" ppth="Weichering|Rohrenfeld|Neuburg(Donau)|Unterhausen(Bay)|Straß-Moos|Burgheim|Rain|Genderkingen|Donauwörth|Tapfheim|Schwenningen(Bay)|Blindheim|Höchstädt(Donau)|Dillingen(Donau)|Lauingen|Gundelfingen(Bay)|Günzburg|Leipheim|Nersingen|Neu-Ulm|Ulm Hbf"/>
+	</s>
+	<s id="4375779107096106461-2406081336-8">
+		<tl f="N" t="p" o="800765" c="RB" n="59098"/>
+		<ar pt="2406081423" pp="6" l="16" ppth="Dachau Bahnhof|Petershausen(Obb)|Paindorf|Reichertshausen(Ilm)|Pfaffenhofen(Ilm)|Rohrbach(Ilm)|Baar-Ebenhausen"/>
+		<dp pt="2406081428" pp="6" l="16" ppth="Ingolstadt Nord|Ingolstadt Audi|Gaimersheim|Eitensheim|Tauberfeld|Adelschlag|Eichstätt Bahnhof|Dollnstein|Solnhofen|Pappenheim|Treuchtlingen|Weißenburg(Bay)|Ellingen(Bay)|Pleinfeld|Mühlstetten|Georgensgmünd|Unterheckenhofen|Roth|Schwabach|Nürnberg Hbf"/>
+	</s>
+	<s id="3436483785969000846-2406081345-11">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86696"/>
+		<ar pt="2406081446" pp="1" l="RB13" ppth="Augsburg Hbf|Augsburg Haunstetterstraße|Augsburg-Hochzoll|Friedberg(Augsburg)|Dasing|Obergriesbach|Aichach|Radersdorf|Schrobenhausen|Brunnen(Oberbay)"/>
+	</s>
+	<s id="-8965117659663328208-2406080842-10">
+		<tl f="F" t="p" o="80" c="ICE" n="535"/>
+		<ar pt="2406081359" pp="3" ppth="Oldenburg(Oldb)Hbf|Delmenhorst|Bremen Hbf|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2406081401" pp="3" ppth="München Hbf"/>
+	</s>
+	<s id="486583059417690094-2406080816-10">
+		<tl f="F" t="p" o="80" c="ICE" n="585"/>
+		<ar pt="2406081359" pp="3" wings="-8965117659663328208-2406080842" ppth="Lübeck Hbf|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2406081401" pp="3" wings="-8965117659663328208-2406080842" ppth="München Hbf"/>
+	</s>
+	<s id="-7220664969033849264-2406081415-2">
+		<tl t="p" o="B7" c="Bus" n="94025"/>
+		<ar pt="2406081455" pp="" l="EV" ppth="Kinding(Altmühltal)"/>
+	</s>
+	<s id="-948047861794523790-2406081247-22">
+		<tl f="D" t="p" o="A9" c="ag" n="84133"/>
+		<ar pt="2406081447" pp="7" l="RB15" ppth="Ulm Hbf|Neu-Ulm|Nersingen|Leipheim|Günzburg|Gundelfingen(Bay)|Lauingen|Dillingen(Donau)|Höchstädt(Donau)|Blindheim|Schwenningen(Bay)|Tapfheim|Donauwörth|Genderkingen|Rain|Burgheim|Straß-Moos|Unterhausen(Bay)|Neuburg(Donau)|Rohrenfeld|Weichering"/>
+		<dp pt="2406081505" pp="7" l="RE18" ppth="Neustadt(Donau)|Abensberg|Saal(Donau)|Gundelshausen|Sinzing|Regensburg-Prüfening|Regensburg Hbf"/>
+	</s>
+	<s id="-7290833863469225102-2406081408-1">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86705"/>
+		<dp pt="2406081408" pp="1" l="RB13" ppth="Brunnen(Oberbay)|Schrobenhausen|Radersdorf|Aichach|Obergriesbach|Dasing|Friedberg(Augsburg)|Augsburg-Hochzoll|Augsburg Haunstetterstraße|Augsburg Hbf"/>
+	</s>
+	<s id="190465565340599634-2406081336-12">
+		<tl f="N" t="p" o="800765" c="RB" n="59153"/>
+		<ar pt="2406081439" pp="1" l="16" ppth="Treuchtlingen|Pappenheim|Solnhofen|Dollnstein|Eichstätt Bahnhof|Adelschlag|Tauberfeld|Eitensheim|Gaimersheim|Ingolstadt Audi|Ingolstadt Nord"/>
+		<dp pt="2406081440" pp="1" l="16" ppth="Baar-Ebenhausen|Rohrbach(Ilm)|Pfaffenhofen(Ilm)|Reichertshausen(Ilm)|Paindorf|Petershausen(Obb)|Dachau Bahnhof"/>
+	</s>
+	<s id="8856531870934723559-2406081253-12">
+		<tl f="D" t="p" o="A9" c="ag" n="84130"/>
+		<ar pt="2406081354" pp="5" l="RB17" ppth="Regensburg Hbf|Regensburg-Prüfening|Sinzing|Poikam|Bad Abbach|Saal(Donau)|Abensberg|Neustadt(Donau)|Münchsmünster|Vohburg|Ernsgaden"/>
+		<dp pt="2406081411" pp="5" l="RB15" ppth="Weichering|Rohrenfeld|Neuburg(Donau)|Unterhausen(Bay)|Straß-Moos|Burgheim|Rain|Genderkingen|Donauwörth|Tapfheim|Schwenningen(Bay)|Blindheim|Höchstädt(Donau)|Dillingen(Donau)|Lauingen|Gundelfingen(Bay)|Günzburg|Leipheim|Nersingen|Neu-Ulm|Ulm Hbf"/>
+	</s>
+</timetable>
