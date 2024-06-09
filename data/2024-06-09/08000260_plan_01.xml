@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<timetable station="Würzburg Hbf">
+	<s id="6992012378128167215-2406081956-5">
+		<tl t="p" o="81" c="NJ" n="40491"/>
+		<ar pt="2406090132" pp="" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf"/>
+		<dp pt="2406090148" pp="" ppth="Nürnberg Hbf|Augsburg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="7500668147462712463-2406081913-13">
+		<tl f="F" t="p" o="81" c="IC" n="296"/>
+		<ar pt="2406090107" pp="" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Schärding|Passau Hbf|Plattling|Straubing|Regensburg Hbf|Nürnberg Hbf|Fürth(Bay)Hbf"/>
+		<dp pt="2406090109" pp="" ppth="Fulda|Halle(Saale)Hbf|Bitterfeld|Lutherstadt Wittenberg Hbf|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="-2044723357159653206-2406081956-5">
+		<tl t="p" o="81" c="NJ" n="491"/>
+		<ar pt="2406090132" pp="" wings="6992012378128167215-2406081956" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf"/>
+		<dp pt="2406090148" pp="" wings="6992012378128167215-2406081956" ppth="Nürnberg Hbf|Regensburg Hbf|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="8873875152210480639-2406090108-4">
+		<tl t="p" o="B7" c="Bus" n="94645"/>
+		<ar pt="2406090159" pp="" l="EV" ppth="Gemünden(Main)|Karlstadt(Main)|Retzbach-Zellingen"/>
+	</s>
+</timetable>
