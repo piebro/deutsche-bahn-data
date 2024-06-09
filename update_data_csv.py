@@ -1,6 +1,8 @@
 import pandas as pd
 import xml.etree.ElementTree as ET
 from pathlib import Path
+import numpy as np
+from tqdm import tqdm
 
 def get_plan_xml_rows(xml_path):
     tree = ET.parse(xml_path)
@@ -26,7 +28,19 @@ def get_plan_xml_rows(xml_path):
         
         ar_pp = s.find('ar').get('pp') if s.find('ar') is not None else None
         dp_pp = s.find('dp').get('pp') if s.find('dp') is not None else None
-        planned_platform = ar_pp or dp_pp # `or` to select the first non-None value
+        planned_platform = dp_pp or ar_pp # `or` to select the first non-None value
+
+        arrival_planned_path = s.find('ar').get('ppth') if s.find('ar') is not None else None
+        departure_planned_path = s.find('dp').get('ppth') if s.find('dp') is not None else None
+        if arrival_planned_path is None:
+            train_path = f"{station}|{departure_planned_path}"
+        elif departure_planned_path is None:
+            train_path = f"{arrival_planned_path}|{station}"
+        else:
+            train_path = f"{arrival_planned_path}|{station}|{departure_planned_path}"
+
+        #print(station, ".....", arrival_planned_path, "---------", departure_planned_path)
+        # planned_path = departure_planned_path or arrival_planned_path
 
         dp_ppth = s.find('dp').get('ppth') if s.find('dp') is not None else None # departure planed path
         if dp_ppth is None:
@@ -48,16 +62,18 @@ def get_plan_xml_rows(xml_path):
             'planned_platform': planned_platform,
             'train_line_ride_id': '-'.join(s_id_split[:-1]),
             'train_line_station_num': int(s_id_split[-1]),
+            'train_path': train_path,
+            #'planned_path': planned_path,
             # 'arrival_planned_path': s.find('ar').get('ppth') if s.find('ar') is not None else None,
             # 'departure_planned_path': s.find('dp').get('ppth') if s.find('dp') is not None else None,
+            
 
         })
     return rows
 
 def get_plan_db():
     rows = []
-    for date_folder_path in sorted(Path("data").iterdir()):
-        print(date_folder_path)
+    for date_folder_path in tqdm(sorted(Path("data").iterdir())):
         for xml_path in sorted(date_folder_path.iterdir()):
             if "plan" in xml_path.name:
                 rows.extend(get_plan_xml_rows(xml_path))
@@ -103,8 +119,8 @@ def get_fchg_xml_rows(xml_path, id_to_data):
 
 def get_fchg_db():
     id_to_data = {}
-    for date_folder_path in Path("data").iterdir():
-        for xml_path in sorted(date_folder_path.iterdir()): # get the oldest data first
+    for date_folder_path in tqdm(sorted(Path("data").iterdir())):
+        for xml_path in sorted(date_folder_path.iterdir()):
             if "fchg" in xml_path.name:
                 get_fchg_xml_rows(xml_path, id_to_data)
     
@@ -146,20 +162,23 @@ def main():
         time_delta = time_delta.fillna(pd.Timedelta(0))
         df[f"{prefix}_time_delta_in_min"] = time_delta.dt.total_seconds() / 60
 
+    df["is_endstation"] = (df["station"] == df["final_destination_station"])
     df.loc[df["is_canceled"].isna(), "is_canceled"] = False
     
     # Apply the compensated delay to arrival and departure times if the stop is canceled
     df.loc[(df['is_canceled']) & (~df['arrival_planned_time'].isna()), 'arrival_time_delta_in_min'] = df['train_type'].apply(get_compensated_delay)
     df.loc[(df['is_canceled']) & (~df['departure_planned_time'].isna()), 'departure_time_delta_in_min'] = df['train_type'].apply(get_compensated_delay)
 
+    df['delay_in_min'] = np.where(df['is_endstation'], df['arrival_time_delta_in_min'], df['departure_time_delta_in_min'])
+
     df = df.drop("id", axis=1)
 
     # Reorder columns as per the new order specified
     df = df[[
-        'station', 'train_name', 'final_destination_station', 'arrival_planned_time',
+        'station', 'train_name', 'final_destination_station', 'delay_in_min', 'arrival_planned_time',
         'arrival_time_delta_in_min', 'departure_planned_time', 'departure_time_delta_in_min',
         'planned_platform', 'changed_platform', 'is_canceled', 'train_type',
-        'train_line_ride_id', 'train_line_station_num'
+        'train_line_ride_id', 'train_line_station_num', 'is_endstation', 'train_path'
     ]]
 
     df.to_csv("data.csv", index=False)

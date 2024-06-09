@@ -1,10 +1,32 @@
 # Deutsche Bahn Data
 
+
+
+
+
 A german version of this readme is [here](README_de.md).
 
 This is a repository with accumulated public data from "Deutsche Bahn", the biggest german train company and a (german) [website](piebro.github.io/deutsche-bahn-data) with generated interactive plots and tables using the data.
 
-TODO: example plot image as a link to the website?
+TODO: add example plot image as a link to the website?
+
+<!-- Idee: die bhf zu den evas bekommen indem ich einfach alle evas durchgehe bei plan und gucken ob die exzistiert und dann gucken wie das Bhf heißt. Wenn ich dann alle möglichen Evas habe kann ich auch überlegen ob es möglich wäre mal für einen kleinere Zeitraum alle Bahnhöfe mit change und plan ab zu fragen. Wenn das nicht viel zu viele sind wäre das vielleicht cool. Mal gucken ob ich das noch austesten will.
+
+Außerdem will ich die Möglichkeit haben eine Linie, oder combo von Linie mit Start und End Bhf an zu geben und dann zu gucken welche eigentlich besser ist weil sie im Schnitt weniger verspätung hat. Das wird aber dann schon ein bisschen kompliziert bei der Umsetzung. Dann müsste ich alle Pläne haben und müsste eine Routing Engine irgendwie implementieren. Vielleicht ist das erstmal out-of-scope. Mal gucken.
+-->
+
+## TODO: ideas
+
+- data + data processing in a different repo refactoring
+
+- Zu jedem "re1 nach Aachen": stats, avg delay, avg cancel, delay time histogram, sample size Plan, avg delay der zwischenstops, die Tabelle gesplittet nach ice, ich, re, s und other
+- Alle Bhf und da sie delays und cancelled, das gleiche wie oben? + Visualisierung als Karte.
+- Auf welchem Teilabschnitt gibt es am meisten dazugekommene Verspätung? + Visualisierung als Karte 
+- Histogram Zeit, Verspätung (nur Endstationen?)
+- Wie oft fahren Züge am Anfang zu spät los, wie viel Verspätung haben sie am Ende? Histogram?
+- An welchen Stationen/Strecken wird Zeit wieder eingeholt, oder verpätet sich Züge in der Regel weiter?
+- von wo startet der RE1 wie oft?
+- Wie bekomme ich die "normale" Strecke von den Zügen? Die Bräuchte ich für Visualisierungen.
 
 ## The Data
 
@@ -58,6 +80,10 @@ You can look at the api using the website https://editor.swagger.io/ together wi
 
 ### How to get the biggest train stations and their eva number?
 
+<!--
+Um die aktuelle Stationspreisliste zu bekommen: https://www.dbinfrago.com/web/bahnhoefe/leistungen/stationsnutzung/stationshalt/Stationspreise-10995752 
+-->
+
 There are [german railway station categories](https://en.wikipedia.org/wiki/German_railway_station_categories) ([german link](https://de.wikipedia.org/wiki/Preisklasse)) we can use to get the biggest train stations. There is a table of each german train station with its category [here](https://www.deutschebahn.com/resource/blob/11895816/ef4ecf6dd8196c7db3ab45609d8a2034/Stationspreisliste-2024-data.pdf). This is used to get all train stations in catgory 1 and 2.
 
 Next the eva number is needed for these train stations to use them in the API. There is an older list of train stations and their evas from 2014 [here](https://wiki.openstreetmap.org/w/images/c/c2/20141001_IBNR.pdf) and I could find a newer one. If you know of a new one, please write me or open an issue.
@@ -80,6 +106,12 @@ python3 save_eva_name_list.py
 
 How to handle canceled trains that when calculating the mean delay of trains? If a train or a stop is canceled there is no delay of the train. One way to handle those trains is to just filter them before calculating the average delay, but I think that would not be very honest, because a canceled train is for the user of the train normaly at least as bad as waiting for the next train. How long on is waiting for the next train dependes of the the type of train. That's why the the most common train types are mapped to an estimated `COMPENSATED_DELAY_FOR_CANCEL`. If somebody has a better approximation for these, feel free to open an issue.
 
+## Related Project
+
+Live Bahnhofstafeln von Bahnhöfen: https://bahn.expert/
+Bahnverbindungen checken und gucken ob umstiege erreicht werden: https://next.bahnvorhersage.de/
+Live gucken wo welche Züge fahren: https://www.zugfinder.net/de/start
+
 ## Contributing
 
 Contriutions are welcome. Open an Issue if you want to report a bug, have an idea or want to propose a change.
@@ -92,4 +124,4 @@ There is lightweight tracking with [Plausible](https://plausible.io/about) for t
 
 ## License
 
-All code in this project is licensed under the MIT License. The [data](https://developers.deutschebahn.com/db-api-marketplace/apis/product/timetables) is licensed under [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+All code in this project is licensed under the MIT License. The [data](https://developers.deutschebahn.com/db-api-marketplace/apis/product/timetables) is licensed under [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) by Deutsche Bahn.
