@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<timetable station="Oberhausen Hbf">
+	<s id="416421628433793880-2406130408-1">
+		<tl f="D" t="p" o="R4NRN" c="VIA" n="20003"/>
+		<dp pt="2406130408" pp="12" l="RE19" ppth="Duisburg Hbf"/>
+	</s>
+	<s id="-1111819534425162433-2406130429-5">
+		<tl t="p" o="TDRR" c="Bus" n="69261"/>
+		<ar pt="2406130458" pp="" l="EV" ppth="Duisburg-Ruhrort|Duisburg-Meiderich Süd|Duisburg-Meiderich Ost|Duisburg-Obermeiderich"/>
+	</s>
+	<s id="-2032678443070124994-2406130417-1">
+		<tl t="p" o="TDRR" c="Bus" n="69260"/>
+		<dp pt="2406130417" pp="" l="EV" ppth="Duisburg-Obermeiderich|Duisburg-Meiderich Ost|Duisburg-Meiderich Süd|Duisburg-Ruhrort"/>
+	</s>
+	<s id="7788362055895268656-2406130434-2">
+		<tl f="N" t="p" o="8003L1" c="RB" n="31242"/>
+		<ar pt="2406130440" pp="9" l="32" ppth="Duisburg Hbf"/>
+		<dp pt="2406130441" pp="9" l="32" ppth="Essen-Dellwig|Essen-Bergeborbeck|Essen-Altenessen|Essen-Zollverein Nord|Gelsenkirchen Hbf|Wanne-Eickel Hbf|Herne|Castrop-Rauxel Hbf|Dortmund-Mengede|Dortmund Hbf"/>
+	</s>
+	<s id="645585488965120329-2406130444-2">
+		<tl f="D" t="p" o="R4NRN" c="VIA" n="92970"/>
+		<ar pt="2406130450" pp="12" l="RE19" ppth="Duisburg Hbf"/>
+	</s>
+	<s id="1317380909558712015-2406130437-1">
+		<tl t="p" o="R4NRN" c="Bus" n="5000"/>
+		<dp pt="2406130437" pp="" l="RE5" ppth="Oberhausen-Sterkrade|Oberhausen-Holten|Dinslaken|Voerde(Niederrhein)|Friedrichsfeld(Niederrhein)|Wesel"/>
+	</s>
+	<s id="5169140490269121951-2406130448-1">
+		<tl f="S" t="p" o="8003L1" c="S" n="30304"/>
+		<dp pt="2406130448" pp="11" l="3" ppth="Mülheim(Ruhr)Styrum|Mülheim(Ruhr)West|Mülheim(Ruhr)Hbf|Essen-Frohnhausen|Essen West|Essen Hbf|Essen-Steele|Essen-Steele Ost|Essen-Horst|Bochum-Dahlhausen|Hattingen(Ruhr)|Hattingen(Ruhr) Mitte"/>
+	</s>
+	<s id="5603980756681061981-2406130245-14">
+		<tl t="p" o="R4NRN" c="Bus" n="19003"/>
+		<ar pt="2406130458" pp="" l="RE19" ppth="Emmerich|Praest|Millingen(b Rees)|Empel-Rees|Haldern(Rheinl)|Mehrhoog|Wesel Feldmark|Wesel|Friedrichsfeld(Niederrhein)|Voerde(Niederrhein)|Dinslaken|Oberhausen-Holten|Oberhausen-Sterkrade"/>
+	</s>
+</timetable>
