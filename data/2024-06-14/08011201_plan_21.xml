@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="-1486898991092341358-2406142026-3">
+		<tl f="N" t="p" o="NZ" c="RE" n="52275"/>
+		<ar pt="2406142053" pp="3 A-D" l="17" ppth="Berlin Hbf|Berlin Südkreuz"/>
+		<dp pt="2406142101" pp="3 A-D" l="17" ppth="Doberlug-Kirchhain|Elsterwerda"/>
+	</s>
+	<s id="8883652730926797595-2406141752-9">
+		<tl f="F" t="p" o="80" c="IC" n="2275"/>
+		<ar pt="2406142053" pp="3 A-D" wings="-1486898991092341358-2406142026" ppth="Warnemünde|Rostock Hbf|Waren(Müritz)|Neustrelitz Hbf|Oranienburg|Berlin Gesundbrunnen|Berlin Hbf|Berlin Südkreuz"/>
+		<dp pt="2406142101" pp="3 A-D" wings="-1486898991092341358-2406142026" ppth="Doberlug-Kirchhain|Elsterwerda|Dresden-Neustadt"/>
+	</s>
+	<s id="7535029924397126426-2406142109-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18685"/>
+		<dp pt="2406142109" pp="4" l="32" tra="-1945655569292342665-2406142018-4" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+	<s id="6670631784435320551-2406142048-8">
+		<tl f="N" t="p" o="800165" c="RB" n="18134"/>
+		<ar pt="2406142136" pp="1" l="22" ppth="Potsdam Hbf|Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Potsdam Pirschheide|Saarmund|Ludwigsfelde-Struveshof"/>
+		<dp pt="2406142138" pp="1" l="22" ppth="Königs Wusterhausen"/>
+	</s>
+	<s id="-1945655569292342665-2406142018-4">
+		<tl t="p" o="800165" c="FEX" n="19871"/>
+		<ar pt="2406142100" pp="4" tra="7535029924397126426-2406142109-1" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+</timetable>
