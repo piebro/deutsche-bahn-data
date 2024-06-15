@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<timetable station="Lüneburg">
+	<s id="-691048836761689376-2406151332-1">
+		<tl f="D" t="p" o="R1" c="ME" n="81622"/>
+		<dp pt="2406151332" pp="6" l="RB31" ppth="Bardowick|Radbruch|Winsen(Luhe)|Ashausen|Stelle|Maschen|Meckelfeld|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="-5345756847556552176-2406151301-4">
+		<tl f="D" t="p" o="R1" c="ME" n="82122"/>
+		<ar pt="2406151324" pp="3" l="RE3" pde="Hannover Hbf" ppth="Uelzen|Bad Bevensen|Bienenbüttel"/>
+		<dp pt="2406151328" pp="3" l="RE3" ppth="Winsen(Luhe)|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="-6429018127095498689-2406151345-1">
+		<tl f="D" t="p" o="X1" c="erx" n="21120"/>
+		<dp pt="2406151345" pp="5" l="RE83" pde="Kiel Hbf" ppth="Echem|Lauenburg(Elbe)|Büchen|Mölln(Lauenb)|Ratzeburg|Lübeck Flughafen|Lübeck Hochschulstadtteil|Lübeck Hbf"/>
+	</s>
+	<s id="-1326017191040114353-2406151233-10">
+		<tl f="D" t="p" o="R1" c="ME" n="81623"/>
+		<ar pt="2406151323" pp="6" l="RB31" ppth="Hamburg Hbf|Hamburg-Harburg|Meckelfeld|Maschen|Stelle|Ashausen|Winsen(Luhe)|Radbruch|Bardowick"/>
+	</s>
+	<s id="-8083149921796760583-2406151210-10">
+		<tl f="D" t="p" o="X2" c="erx" n="81544"/>
+		<ar pt="2406151318" pp="7" l="RB32" ppth="Dannenberg Ost|Hitzacker|Leitstade|Göhrde|Neetzendorf|Dahlenburg|Bavendorf|Vastorf|Wendisch Evern"/>
+	</s>
+	<s id="-7321351663330059354-2406151210-9">
+		<tl f="D" t="p" o="X1" c="erx" n="21117"/>
+		<ar pt="2406151328" pp="5" l="RE83" pde="Kiel Hbf" ppth="Lübeck Hbf|Lübeck Hochschulstadtteil|Lübeck Flughafen|Ratzeburg|Mölln(Lauenb)|Büchen|Lauenburg(Elbe)|Echem"/>
+	</s>
+	<s id="982094486498391280-2406151018-9">
+		<tl f="F" t="p" o="80" c="ICE" n="1176"/>
+		<ar pt="2406151356" pp="2" ppth="Frankfurt(Main)Hbf|Hanau Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen"/>
+		<dp pt="2406151358" pp="2" ppth="Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-1721771494675524237-2406151257-4">
+		<tl f="D" t="p" o="R1" c="ME" n="82123"/>
+		<ar pt="2406151331" pp="1" l="RE3" ppth="Hamburg Hbf|Hamburg-Harburg|Winsen(Luhe)"/>
+		<dp pt="2406151332" pp="1" l="RE3" pde="Hannover Hbf" ppth="Bienenbüttel|Bad Bevensen|Uelzen"/>
+	</s>
+	<s id="421488409225434002-2406151341-1">
+		<tl f="D" t="p" o="X2" c="erx" n="81545"/>
+		<dp pt="2406151341" pp="7" l="RB32" ppth="Wendisch Evern|Vastorf|Bavendorf|Dahlenburg|Neetzendorf|Göhrde|Leitstade|Hitzacker|Dannenberg Ost"/>
+	</s>
+</timetable>
