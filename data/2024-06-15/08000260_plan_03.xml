@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="Würzburg Hbf">
+	<s id="-6813803786124510421-2406141838-8">
+		<tl t="p" o="81" c="NJ" n="40490"/>
+		<ar pt="2406150302" pp="6" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Salzburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2406150304" pp="6" ppth="Köln Messe/Deutz Gl.11-12|Düsseldorf Hbf|Duisburg Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="-8941351012210795872-2406142009-5">
+		<tl t="p" o="NYUEX" c="UEX" n="349"/>
+		<ar pt="2406150305" pp="2" hi="1" ppth="Hamburg-Altona|Hamburg Hbf|Hannover Hbf|Gemünden(Main)"/>
+		<dp pt="2406150307" pp="2" hi="1" ppth="München Ost|Kufstein|Wörgl Hbf|Innsbruck Hbf"/>
+	</s>
+	<s id="3272146161175325165-2406142044-9">
+		<tl t="p" o="81" c="NJ" n="420"/>
+		<ar pt="2406150302" pp="6" wings="-6813803786124510421-2406141838" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Hbf|Augsburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2406150304" pp="6" wings="-6813803786124510421-2406141838" ppth="Köln Messe/Deutz Gl.11-12|Düsseldorf Hbf|Duisburg Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="1983981787191650824-2406142228-9">
+		<tl f="F" t="p" o="80" c="ICE" n="1081"/>
+		<ar pt="2406150352" pp="5" ppth="Hamburg Hbf|Hamburg-Harburg|Lüneburg|Uelzen|Celle|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe"/>
+		<dp pt="2406150353" pp="5" ppth="Nürnberg Hbf|Ingolstadt Hbf|München Hbf"/>
+	</s>
+</timetable>

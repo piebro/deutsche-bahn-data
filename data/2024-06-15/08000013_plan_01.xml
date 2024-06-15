@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<timetable station="Augsburg Hbf">
+	<s id="-3854034860779162810-2406150101-1">
+		<tl f="N" t="p" o="GYRB" c="RB" n="57001"/>
+		<dp pt="2406150101" pp="9 A-C" l="87" ppth="Augsburg Haunstetterstraße|Augsburg-Hochzoll|Kissing|Mering-St Afra|Mering|Althegnenberg|Haspelmoor|Mammendorf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="858400870057926771-2406150105-10">
+		<tl f="N" t="p" o="GYRE" c="RE" n="82148"/>
+		<ar pt="2406150146" pp="5" l="9" ppth="München-Pasing|Mammendorf|Haspelmoor|Althegnenberg|Mering|Mering-St Afra|Kissing|Augsburg-Hochzoll|Augsburg Haunstetterstraße"/>
+		<dp pt="2406150149" pp="5" l="9" ppth="Augsburg-Oberhausen|Neusäß|Westheim(Schwab)|Diedorf(Schwab)|Gessertshausen|Kutzenhausen|Dinkelscherben|Freihalden|Jettingen|Burgau(Schwab)|Mindelaltheim|Offingen|Günzburg|Leipheim|Nersingen|Neu-Ulm|Ulm Hbf"/>
+	</s>
+	<s id="5284862617009162683-2406150036-9">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86606"/>
+		<ar pt="2406150107" pp="8 A-C" l="RB67" ppth="Egling|Schmiechen(Schwab)|Merching|Mering|Mering-St Afra|Kissing|Augsburg-Hochzoll|Augsburg Haunstetterstraße"/>
+	</s>
+	<s id="7933665795874796417-2406150038-11">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86762"/>
+		<ar pt="2406150134" pp="2 A-B" l="RB13" ppth="Ingolstadt Hbf|Brunnen(Oberbay)|Schrobenhausen|Radersdorf|Aichach|Obergriesbach|Dasing|Friedberg(Augsburg)|Augsburg-Hochzoll|Augsburg Haunstetterstraße"/>
+	</s>
+	<s id="-9167720142418455719-2406150129-3">
+		<tl f="F" t="p" o="80" c="ICE" n="714"/>
+		<ar pt="2406150159" pp="1" ppth="München Hbf|München-Pasing"/>
+		<dp pt="2406150201" pp="1" ppth="Günzburg|Ulm Hbf|Stuttgart Hbf"/>
+	</s>
+	<s id="-2452779279955682836-2406150105-10">
+		<tl f="N" t="p" o="GYRE" c="RE" n="56954"/>
+		<ar pt="2406150146" pp="5" l="87" wings="858400870057926771-2406150105" ppth="München-Pasing|Mammendorf|Haspelmoor|Althegnenberg|Mering|Mering-St Afra|Kissing|Augsburg-Hochzoll|Augsburg Haunstetterstraße"/>
+		<dp pt="2406150154" pp="5" l="87" ppth="Augsburg-Oberhausen|Gersthofen|Gablingen|Langweid(Lech)|Herbertshofen|Meitingen|Westendorf|Nordendorf|Mertingen Bahnhof|Bäumenheim|Donauwörth"/>
+	</s>
+</timetable>
