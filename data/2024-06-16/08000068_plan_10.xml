@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<timetable station="Darmstadt Hbf">
+	<s id="8385732764714623624-2406160936-10">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="28711"/>
+		<ar pt="2406161021" pp="8" l="RB75" ppth="Wiesbaden Hbf|Mainz Hbf|Mainz Römisches Theater|Mainz-Gustavsburg|Mainz-Bischofsheim|Nauheim(b Gr.Gerau)|Groß Gerau|Klein Gerau|Weiterstadt"/>
+		<dp pt="2406161031" pp="8" l="RB75" ppth="Darmstadt Nord|Darmstadt-Kranichstein|Messel|Dieburg|Altheim(Hess)|Hergershausen|Babenhausen(Hess)|Stockstadt(Main)|Mainaschaff|Aschaffenburg Hbf"/>
+	</s>
+	<s id="4406802909663005598-2406161042-6">
+		<tl f="S" t="p" o="800528" c="S" n="56127"/>
+		<ar pt="2406161056" pp="3" l="3" ppth="Langen(Hess)|Egelsbach|Erzhausen|Darmstadt-Wixhausen|Darmstadt-Arheilgen"/>
+	</s>
+	<s id="8763035887492402563-2406161043-2">
+		<tl f="N" t="p" o="800574" c="RE" n="4661"/>
+		<ar pt="2406161051" pp="10" l="60" ppth="Langen(Hess)"/>
+		<dp pt="2406161053" pp="10" l="60" ppth="Bickenbach(Bergstr)|Zwingenberg(Bergstr)|Bensheim|Heppenheim(Bergstr)|Hemsbach|Weinheim(Bergstr)Hbf|Ladenburg|Neu-Edingen/Friedrichsfeld|Mannheim Hbf"/>
+	</s>
+	<s id="1121839741656569052-2406161035-1">
+		<tl f="S" t="p" o="800528" c="S" n="56130"/>
+		<dp pt="2406161035" pp="3" l="3" ppth="Darmstadt-Arheilgen|Darmstadt-Wixhausen|Erzhausen|Egelsbach|Langen(Hess)"/>
+	</s>
+	<s id="1670511570345728630-2406161012-6">
+		<tl f="S" t="p" o="800528" c="S" n="56125"/>
+		<ar pt="2406161026" pp="3" l="3" ppth="Langen(Hess)|Egelsbach|Erzhausen|Darmstadt-Wixhausen|Darmstadt-Arheilgen"/>
+	</s>
+	<s id="5565432730075394214-2406161000-1">
+		<tl t="p" o="R4" c="Bus" n="1484"/>
+		<dp pt="2406161000" pp="" l="RB66" ppth="Darmstadt Süd|Darmstadt-Eberstadt|Pfungstadt"/>
+	</s>
+	<s id="5948556836374607080-2406161016-2">
+		<tl f="N" t="p" o="800574" c="RB" n="15313"/>
+		<ar pt="2406161025" pp="10" l="68" wings="-4584027792185196535-2406161016" ppth="Langen(Hess)"/>
+		<dp pt="2406161030" pp="10" l="68" wings="-4584027792185196535-2406161016" ppth="Darmstadt Süd|Darmstadt-Eberstadt|Bickenbach(Bergstr)|Hähnlein-Alsbach|Zwingenberg(Bergstr)|Bensheim-Auerbach|Bensheim|Heppenheim(Bergstr)|Laudenbach(Bergstr)|Hemsbach|Weinheim-Sulzbach|Weinheim(Bergstr)Hbf|Weinheim-Lützelsachsen|Heddesheim/Hirschberg|Ladenburg|Neu-Edingen/Friedrichsfeld|Heidelberg-Pfaffengrund/Wieblingen|Heidelberg Hbf"/>
+	</s>
+	<s id="-1876997644196450711-2406160915-10">
+		<tl f="N" t="p" o="800574" c="RE" n="4658"/>
+		<ar pt="2406161003" pp="5" l="60" ppth="Mannheim Hbf|Neu-Edingen/Friedrichsfeld|Ladenburg|Weinheim(Bergstr)Hbf|Hemsbach|Heppenheim(Bergstr)|Bensheim|Zwingenberg(Bergstr)|Bickenbach(Bergstr)"/>
+		<dp pt="2406161005" pp="5" l="60" ppth="Langen(Hess)"/>
+	</s>
+	<s id="-318123300877591073-2406160947-11">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="28712"/>
+		<ar pt="2406161027" pp="9" l="RB75" ppth="Aschaffenburg Hbf|Mainaschaff|Stockstadt(Main)|Babenhausen(Hess)|Hergershausen|Altheim(Hess)|Dieburg|Messel|Darmstadt-Kranichstein|Darmstadt Nord"/>
+		<dp pt="2406161038" pp="9" l="RB75" ppth="Weiterstadt|Klein Gerau|Groß Gerau|Nauheim(b Gr.Gerau)|Mainz-Bischofsheim|Mainz-Gustavsburg|Mainz Römisches Theater|Mainz Hbf|Wiesbaden Hbf"/>
+	</s>
+	<s id="-4584027792185196535-2406161016-2">
+		<tl f="N" t="p" o="800574" c="RB" n="15413"/>
+		<ar pt="2406161025" pp="10" l="67" ppth="Langen(Hess)"/>
+		<dp pt="2406161030" pp="10" l="67" ppth="Darmstadt Süd|Darmstadt-Eberstadt|Bickenbach(Bergstr)|Hähnlein-Alsbach|Zwingenberg(Bergstr)|Bensheim-Auerbach|Bensheim|Heppenheim(Bergstr)|Laudenbach(Bergstr)|Hemsbach|Weinheim-Sulzbach|Weinheim(Bergstr)Hbf|Weinheim-Lützelsachsen|Heddesheim/Hirschberg|Ladenburg|Neu-Edingen/Friedrichsfeld|Schwetzingen"/>
+	</s>
+	<s id="2240728155198282862-2406161033-4">
+		<tl t="p" o="R4" c="Bus" n="1485"/>
+		<ar pt="2406161053" pp="" l="RB66" ppth="Pfungstadt|Darmstadt-Eberstadt|Darmstadt Süd"/>
+	</s>
+	<s id="-3784895122604317592-2406160913-18">
+		<tl f="N" t="p" o="800574" c="RB" n="15410"/>
+		<ar pt="2406161028" pp="7" l="67" wings="469745354003051413-2406160920" ppth="Schwetzingen|Neu-Edingen/Friedrichsfeld|Ladenburg|Heddesheim/Hirschberg|Weinheim-Lützelsachsen|Weinheim(Bergstr)Hbf|Weinheim-Sulzbach|Hemsbach|Laudenbach(Bergstr)|Heppenheim(Bergstr)|Bensheim|Bensheim-Auerbach|Zwingenberg(Bergstr)|Hähnlein-Alsbach|Bickenbach(Bergstr)|Darmstadt-Eberstadt|Darmstadt Süd"/>
+		<dp pt="2406161030" pp="7" l="67" wings="469745354003051413-2406160920" ppth="Langen(Hess)"/>
+	</s>
+	<s id="7220789210513074270-2406161005-1">
+		<tl f="S" t="p" o="800528" c="S" n="56128"/>
+		<dp pt="2406161005" pp="3" l="3" ppth="Darmstadt-Arheilgen|Darmstadt-Wixhausen|Erzhausen|Egelsbach|Langen(Hess)"/>
+	</s>
+	<s id="469745354003051413-2406160920-19">
+		<tl f="N" t="p" o="800574" c="RB" n="15310"/>
+		<ar pt="2406161028" pp="7" l="68" ppth="Heidelberg Hbf|Heidelberg-Pfaffengrund/Wieblingen|Neu-Edingen/Friedrichsfeld|Ladenburg|Heddesheim/Hirschberg|Weinheim-Lützelsachsen|Weinheim(Bergstr)Hbf|Weinheim-Sulzbach|Hemsbach|Laudenbach(Bergstr)|Heppenheim(Bergstr)|Bensheim|Bensheim-Auerbach|Zwingenberg(Bergstr)|Hähnlein-Alsbach|Bickenbach(Bergstr)|Darmstadt-Eberstadt|Darmstadt Süd"/>
+		<dp pt="2406161030" pp="7" l="68" ppth="Langen(Hess)"/>
+	</s>
+</timetable>
