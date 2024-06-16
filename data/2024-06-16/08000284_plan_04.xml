@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<timetable station="Nürnberg Hbf">
+	<s id="9016323075961445062-2406160455-1">
+		<tl t="p" o="B7" c="Bus" n="58780"/>
+		<dp pt="2406160455" pp="" l="EV" ppth="Fürth(Bay)Hbf|Fürth-Unterfürberg|Fürth-Burgfarrnbach|Siegelsdorf|Puschendorf|Hagenbüchach|Emskirchen|Neustadt(Aisch)Mitte|Neustadt(Aisch)Bahnhof"/>
+	</s>
+	<s id="6992012378128167215-2406151956-7">
+		<tl t="p" o="81" c="NJ" n="40491"/>
+		<ar pt="2406160315" pp="9" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Würzburg Hbf"/>
+		<dp pt="2406160436" pp="9" ppth="Augsburg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="-3823254010841261196-2406151900-7">
+		<tl t="p" o="84" c="NJ" n="421"/>
+		<ar pt="2406160328" pp="8" wings="-4272298498907669914-2406151900" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Düsseldorf Hbf|Köln Messe/Deutz Gl.11-12|Würzburg Hbf"/>
+		<dp pt="2406160436" pp="8" wings="6992012378128167215-2406151956" ppth="Augsburg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="-2044723357159653206-2406151956-7">
+		<tl t="p" o="81" c="NJ" n="491"/>
+		<ar pt="2406160315" pp="9" wings="6992012378128167215-2406151956" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Würzburg Hbf"/>
+		<dp pt="2406160408" pp="9" wings="-4272298498907669914-2406151900" ppth="Salzburg Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="-4272298498907669914-2406151900-7">
+		<tl t="p" o="81" c="NJ" n="40421"/>
+		<ar pt="2406160328" pp="8" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Düsseldorf Hbf|Köln Messe/Deutz Gl.11-12|Würzburg Hbf"/>
+		<dp pt="2406160408" pp="8" ppth="Salzburg Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="5345924912571245273-2406152134-15">
+		<tl f="F" t="p" o="80" c="ICE" n="1507"/>
+		<ar pt="2406160453" pp="9" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Büchen|Ludwigslust|Wittenberge|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Leipzig Hbf|Saalfeld(Saale)|Bamberg|Erlangen"/>
+		<dp pt="2406160458" pp="9" ppth="Ingolstadt Hbf|München Hbf"/>
+	</s>
+	<s id="4825127128022961026-2406160441-1">
+		<tl f="N" t="p" o="800765" c="RB" n="59143"/>
+		<dp pt="2406160441" pp="5 C-F" l="16" ppth="Schwabach|Roth|Unterheckenhofen|Georgensgmünd|Mühlstetten|Pleinfeld|Ellingen(Bay)|Weißenburg(Bay)|Treuchtlingen|Pappenheim|Solnhofen|Dollnstein|Eichstätt Bahnhof|Adelschlag|Tauberfeld|Eitensheim|Gaimersheim|Ingolstadt Audi|Ingolstadt Nord|Ingolstadt Hbf|Baar-Ebenhausen|Rohrbach(Ilm)|Pfaffenhofen(Ilm)|Reichertshausen(Ilm)|Paindorf|Petershausen(Obb)|Dachau Bahnhof|München Hbf"/>
+	</s>
+</timetable>
