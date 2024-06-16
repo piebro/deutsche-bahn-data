@@ -1,0 +1,131 @@
+<?xml version="1.0" ?>
+<timetable station="Bremen Hbf">
+	<s id="2578853214387423011-2406161945-12">
+		<tl f="D" t="p" o="N1" c="NWB" n="89701"/>
+		<ar pt="2406162041" pp="2" l="RS3" ppth="Bad Zwischenahn|Oldenburg-Wechloy|Oldenburg(Oldb)Hbf|Wüsting|Hude|Bookholzberg|Schierbrok|Hoykenkamp|Delmenhorst|Heidkrug|Bremen Neustadt"/>
+	</s>
+	<s id="8695976099909132378-2406162013-1">
+		<tl f="N" t="p" o="NZ" c="RE" n="51934"/>
+		<dp pt="2406162013" pp="3" l="56" ppth="Delmenhorst|Oldenburg(Oldb)Hbf|Bad Zwischenahn|Westerstede-Ocholt|Augustfehn|Leer(Ostfriesl)|Emden Hbf"/>
+	</s>
+	<s id="-3985235801434847238-2406161904-4">
+		<tl t="p" o="NWBus" c="Bus" n="4343"/>
+		<ar pt="2406162032" pp="" l="EV" ppth="Oldenburg(Oldb)Hbf|Hude|Delmenhorst"/>
+	</s>
+	<s id="-3818795511362247389-2406162019-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="82272"/>
+		<dp pt="2406162019" pp="2" l="RB58" ppth="Bremen Neustadt|Delmenhorst|Ganderkesee|Brettorf|Wildeshausen|Rechterfeld|Goldenstedt(Oldb)|Lutten|Vechta|Lohne(Oldb)|Mühlen(Oldb)|Steinfeld(Oldb)|Holdorf(Oldb)|Neuenkirchen(Oldb)|Rieste|Hesepe|Bramsche|Achmer|Halen|Osnabrück Altstadt|Osnabrück Hbf"/>
+	</s>
+	<s id="7474414276230536927-2406161838-6">
+		<tl f="F" t="p" o="80" c="ICE" n="619"/>
+		<ar pt="2406162041" pp="8" ppth="Kiel Hbf|Neumünster|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg"/>
+		<dp pt="2406162044" pp="8" ppth="Osnabrück Hbf|Münster(Westf)Hbf|Dortmund Hbf|Bochum Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Hbf|Siegburg/Bonn|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf|Mannheim Hbf|Heidelberg Hbf|Stuttgart Hbf|Ulm Hbf|Günzburg|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-4349015102085839296-2406162011-15">
+		<tl f="D" t="p" o="N1" c="NWB" n="83165"/>
+		<ar pt="2406162054" pp="5" l="RS1" ppth="Bremen-Farge|Bremen Turnerstraße|Bremen Kreinsloger|Bremen Mühlenstraße|Bremen-Blumenthal|Klinikum Bremen-Nord/Beckedorf|Bremen-Aumund|Bremen-Vegesack|Bremen-Schönebeck|Bremen-St Magnus|Bremen-Lesum|Bremen-Burg|Bremen-Oslebshausen|Bremen-Walle"/>
+		<dp pt="2406162057" pp="5" l="RS1" ppth="Bremen-Sebaldsbrück|Bremen-Mahndorf|Achim|Baden(Verden)|Etelsen|Langwedel|Verden(Aller)"/>
+	</s>
+	<s id="-398130470374677095-2406161430-12">
+		<tl f="F" t="p" o="80" c="IC" n="1934"/>
+		<ar pt="2406162009" pp="3" ppth="Dresden Hbf|Dresden-Neustadt|Riesa|Leipzig Hbf|Bitterfeld|Dessau Hbf|Magdeburg Hbf|Braunschweig Hbf|Hannover Hbf|Nienburg(Weser)|Verden(Aller)"/>
+		<dp pt="2406162013" pp="3" wings="8695976099909132378-2406162013" ppth="Delmenhorst|Oldenburg(Oldb)Hbf|Bad Zwischenahn|Westerstede-Ocholt|Augustfehn|Leer(Ostfriesl)|Emden Hbf"/>
+	</s>
+	<s id="-864761064640401490-2406161941-15">
+		<tl f="D" t="p" o="N1" c="NWB" n="83163"/>
+		<ar pt="2406162024" pp="5" l="RS1" ppth="Bremen-Farge|Bremen Turnerstraße|Bremen Kreinsloger|Bremen Mühlenstraße|Bremen-Blumenthal|Klinikum Bremen-Nord/Beckedorf|Bremen-Aumund|Bremen-Vegesack|Bremen-Schönebeck|Bremen-St Magnus|Bremen-Lesum|Bremen-Burg|Bremen-Oslebshausen|Bremen-Walle"/>
+	</s>
+	<s id="2764402865143925696-2406162047-1">
+		<tl f="N" t="p" o="RSNM" c="RB" n="16367"/>
+		<dp pt="2406162047" pp="5" l="37" ppth="Bremen-Mahndorf|Achim|Langwedel|Visselhövede|Soltau(Han)|Munster(Örtze)|Brockhöfe|Ebstorf(Uelzen)|Uelzen"/>
+	</s>
+	<s id="1057094482269858707-2406162040-1">
+		<tl t="p" o="NWBus" c="Bus" n="3432"/>
+		<dp pt="2406162040" pp="" l="EV" ppth="Bremen Neustadt|Heidkrug|Delmenhorst|Hoykenkamp|Schierbrok|Bookholzberg|Hude"/>
+	</s>
+	<s id="-8824998166797602196-2406161837-15">
+		<tl f="D" t="p" o="R1" c="ME" n="81935"/>
+		<ar pt="2406162006" pp="9" l="RB41" ppth="Hamburg Hbf|Hamburg-Harburg|Hittfeld|Klecken|Buchholz(Nordheide)|Sprötze|Tostedt|Lauenbrück|Scheeßel|Rotenburg(Wümme)|Sottrum|Ottersberg(Han)|Sagehorn|Bremen-Oberneuland"/>
+	</s>
+	<s id="-2965611148333169006-2406161937-12">
+		<tl f="D" t="p" o="N1" c="NWB" n="83231"/>
+		<ar pt="2406162030" pp="7" l="RS2" ppth="Bremerhaven-Lehe|Bremerhaven Hbf|Bremerhaven-Wulsdorf|Loxstedt|Lunestedt|Stubben|Lübberstedt|Oldenbüttel|Osterholz-Scharmbeck|Ritterhude|Bremen-Burg"/>
+		<dp pt="2406162033" pp="7" l="RS2" ppth="Bremen-Hemelingen|Dreye|Kirchweyhe|Barrien|Syke|Bramstedt(b Syke)|Bassum|Twistringen"/>
+	</s>
+	<s id="2204602666211380032-2406161824-22">
+		<tl f="D" t="p" o="N1" c="NWB" n="82271"/>
+		<ar pt="2406162039" pp="1" l="RB58" ppth="Osnabrück Hbf|Osnabrück Altstadt|Halen|Achmer|Bramsche|Hesepe|Rieste|Neuenkirchen(Oldb)|Holdorf(Oldb)|Steinfeld(Oldb)|Mühlen(Oldb)|Lohne(Oldb)|Vechta|Lutten|Goldenstedt(Oldb)|Rechterfeld|Wildeshausen|Brettorf|Ganderkesee|Delmenhorst|Bremen Neustadt"/>
+	</s>
+	<s id="-6232061938091683844-2406161932-8">
+		<tl t="p" o="NWBus" c="Bus" n="3429"/>
+		<ar pt="2406162031" pp="" l="EV" ppth="Hude|Bookholzberg|Schierbrok|Hoykenkamp|Delmenhorst|Heidkrug|Bremen Neustadt"/>
+	</s>
+	<s id="6702237421805835196-2406162026-1">
+		<tl t="p" o="NWBus" c="Bus" n="4344"/>
+		<dp pt="2406162026" pp="" l="EV" ppth="Delmenhorst|Hude|Oldenburg(Oldb)Hbf"/>
+	</s>
+	<s id="-4264667736652787982-2406162034-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="83166"/>
+		<dp pt="2406162034" pp="5" l="RS1" ppth="Bremen-Walle|Bremen-Oslebshausen|Bremen-Burg|Bremen-Lesum|Bremen-St Magnus|Bremen-Schönebeck|Bremen-Vegesack|Bremen-Aumund|Klinikum Bremen-Nord/Beckedorf|Bremen-Blumenthal|Bremen Mühlenstraße|Bremen Kreinsloger|Bremen Turnerstraße|Bremen-Farge"/>
+	</s>
+	<s id="5587922004740547299-2406161816-9">
+		<tl f="F" t="p" o="80" c="IC" n="2437"/>
+		<ar pt="2406162005" pp="1" wings="-2857691491347164832-2406161816" ppth="Emden Hbf|Leer(Ostfriesl)|Augustfehn|Westerstede-Ocholt|Bad Zwischenahn|Oldenburg(Oldb)Hbf|Hude|Delmenhorst"/>
+		<dp pt="2406162009" pp="1" ppth="Verden(Aller)|Nienburg(Weser)|Hannover Hbf|Peine|Braunschweig Hbf|Helmstedt|Magdeburg Hbf"/>
+	</s>
+	<s id="-3188587443341545354-2406162017-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="89752"/>
+		<dp pt="2406162017" pp="2" l="RS3" ppth="Bremen Neustadt|Heidkrug|Delmenhorst|Hoykenkamp|Schierbrok|Bookholzberg|Hude|Wüsting|Oldenburg(Oldb)Hbf|Oldenburg-Wechloy|Bad Zwischenahn"/>
+	</s>
+	<s id="5790672125460812679-2406161920-10">
+		<tl f="N" t="p" o="800295" c="RE" n="4430"/>
+		<ar pt="2406162039" pp="2" l="1" ppth="Hannover Hbf|Wunstorf|Neustadt am Rübenberge|Nienburg(Weser)|Eystrup|Dörverden|Verden(Aller)|Achim|Bremen-Mahndorf"/>
+		<dp pt="2406162054" pp="2" l="1" ppth="Delmenhorst|Hude|Oldenburg(Oldb)Hbf|Bad Zwischenahn|Westerstede-Ocholt|Augustfehn|Leer(Ostfriesl)|Emden Hbf|Marienhafe|Norden|Norddeich"/>
+	</s>
+	<s id="-7646897072759743527-2406161923-4">
+		<tl f="N" t="p" o="800295" c="RE" n="4433"/>
+		<ar pt="2406162003" pp="7" l="8" ppth="Bremerhaven-Lehe|Bremerhaven Hbf|Osterholz-Scharmbeck"/>
+		<dp pt="2406162017" pp="7" l="8" ppth="Bremen-Mahndorf|Achim|Verden(Aller)|Dörverden|Eystrup|Nienburg(Weser)|Neustadt am Rübenberge|Wunstorf|Hannover Hbf"/>
+	</s>
+	<s id="-2857691491347164832-2406161816-9">
+		<tl f="N" t="p" o="NZ" c="RE" n="52437"/>
+		<ar pt="2406162005" pp="1" l="56" ppth="Emden Hbf|Leer(Ostfriesl)|Augustfehn|Westerstede-Ocholt|Bad Zwischenahn|Oldenburg(Oldb)Hbf|Hude|Delmenhorst"/>
+	</s>
+	<s id="-1309662995930200381-2406161701-8">
+		<tl f="F" t="p" o="80" c="ICE" n="776"/>
+		<ar pt="2406162047" pp="3" ppth="Frankfurt(Main)Hbf|Frankfurt(Main)Süd|Hanau Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf"/>
+		<dp pt="2406162050" pp="3" ppth="Oldenburg(Oldb)Hbf"/>
+	</s>
+	<s id="3653171024574346218-2406161943-9">
+		<tl f="D" t="p" o="N1" c="NWB" n="83230"/>
+		<ar pt="2406162027" pp="6" l="RS2" ppth="Twistringen|Bassum|Bramstedt(b Syke)|Syke|Barrien|Kirchweyhe|Dreye|Bremen-Hemelingen"/>
+		<dp pt="2406162040" pp="6" l="RS2" ppth="Bremen-Burg|Ritterhude|Osterholz-Scharmbeck|Oldenbüttel|Lübberstedt|Stubben|Lunestedt|Loxstedt|Bremerhaven-Wulsdorf|Bremerhaven Hbf|Bremerhaven-Lehe"/>
+	</s>
+	<s id="-5152250315486012851-2406161927-10">
+		<tl f="N" t="p" o="800295" c="RE" n="4464"/>
+		<ar pt="2406162044" pp="7" l="9" ppth="Osnabrück Hbf|Bohmte|Lemförde|Diepholz|Barnstorf(Han)|Twistringen|Bassum|Syke|Kirchweyhe"/>
+		<dp pt="2406162057" pp="7" l="9" ppth="Osterholz-Scharmbeck|Bremerhaven Hbf|Bremerhaven-Lehe"/>
+	</s>
+	<s id="7259678277311246435-2406161932-8">
+		<tl f="D" t="p" o="N1" c="NWB" n="83164"/>
+		<ar pt="2406162001" pp="5" l="RS1" ppth="Verden(Aller)|Langwedel|Etelsen|Baden(Verden)|Achim|Bremen-Mahndorf|Bremen-Sebaldsbrück"/>
+		<dp pt="2406162004" pp="5" l="RS1" ppth="Bremen-Walle|Bremen-Oslebshausen|Bremen-Burg|Bremen-Lesum|Bremen-St Magnus|Bremen-Schönebeck|Bremen-Vegesack|Bremen-Aumund|Klinikum Bremen-Nord/Beckedorf|Bremen-Blumenthal|Bremen Mühlenstraße|Bremen Kreinsloger|Bremen Turnerstraße|Bremen-Farge"/>
+	</s>
+	<s id="-2991242414688689415-2406162058-1">
+		<tl f="D" t="p" o="R1" c="ME" n="81938"/>
+		<dp pt="2406162058" pp="10" l="RB41" ppth="Bremen-Oberneuland|Sagehorn|Ottersberg(Han)|Sottrum|Rotenburg(Wümme)|Scheeßel|Lauenbrück|Tostedt|Sprötze|Buchholz(Nordheide)|Klecken|Hittfeld|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="2939000719071523666-2406162014-1">
+		<tl f="N" t="p" o="800295" c="RE" n="14069"/>
+		<dp pt="2406162014" pp="8" l="9" ppth="Kirchweyhe|Syke|Bassum|Twistringen|Barnstorf(Han)|Diepholz|Lemförde|Bohmte|Osnabrück Hbf"/>
+	</s>
+	<s id="8882233225615859060-2406161059-19">
+		<tl f="F" t="p" o="85" c="EC" n="8"/>
+		<ar pt="2406162015" pp="10" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf|Mainz Hbf|Koblenz Hbf|Bonn Hbf|Köln Hbf|Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Münster(Westf)Hbf|Osnabrück Hbf"/>
+		<dp pt="2406162017" pp="10" ppth="Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="6579752722245921932-2406161915-6">
+		<tl f="D" t="p" o="R1" c="ME" n="82035"/>
+		<ar pt="2406162024" pp="9" l="RE4" ppth="Hamburg Hbf|Hamburg-Harburg|Buchholz(Nordheide)|Tostedt|Rotenburg(Wümme)"/>
+	</s>
+</timetable>
