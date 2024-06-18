@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<timetable station="Hildesheim Hbf">
+	<s id="-8203578369052827954-2406181817-6">
+		<tl f="F" t="p" o="80" c="ICE" n="877"/>
+		<ar pt="2406182018" pp="3" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin-Spandau|Wolfsburg Hbf|Braunschweig Hbf"/>
+		<dp pt="2406182019" pp="3" ppth="Göttingen|Kassel-Wilhelmshöhe|Fulda|Hanau Hbf|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="4961379719230993157-2406181948-3">
+		<tl f="D" t="p" o="X2" c="erx" n="83481"/>
+		<ar pt="2406182013" pp="2" l="RE10" ppth="Hannover Hbf|Sarstedt"/>
+		<dp pt="2406182014" pp="2" l="RE10" ppth="Hildesheim Ost|Derneburg(Han)|Baddeckenstedt|Salzgitter-Ringelheim|Goslar|Bad Harzburg"/>
+	</s>
+	<s id="-5978303486513211708-2406181809-7">
+		<tl f="F" t="p" o="80" c="ICE" n="792"/>
+		<ar pt="2406182036" pp="2" ppth="Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Süd|Hanau Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen"/>
+		<dp pt="2406182037" pp="2" ppth="Braunschweig Hbf|Wolfsburg Hbf|Berlin-Spandau|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="6614366294975492065-2406182043-1">
+		<tl f="S" t="p" o="TDHS" c="S" n="34332"/>
+		<dp pt="2406182043" pp="5" l="3" ppth="Harsum|Algermissen|Sehnde|Lehrte|Ahlten|Hannover Anderten-Misburg|Hannover Karl-Wiechert-Allee|Hannover-Kleefeld|Hannover Hbf"/>
+	</s>
+	<s id="6184154017925335529-2406181951-17">
+		<tl f="S" t="p" o="TDHS" c="S" n="34463"/>
+		<ar pt="2406182049" pp="5" l="4" ppth="Bennemühlen|Mellendorf|Bissendorf|Langenhagen-Kaltenweide|Langenhagen Pferdemarkt|Langenhagen Mitte|Hannover-Vinnhorst|Hannover-Ledeburg|Hannover-Nordstadt|Hannover Hbf|Hannover Bismarckstr.|Hannover Messe/Laatzen|Rethen(Leine)|Sarstedt|Barnten|Emmerke"/>
+	</s>
+	<s id="8962756680051024040-2406181934-10">
+		<tl f="S" t="p" o="TDHS" c="S" n="34331"/>
+		<ar pt="2406182013" pp="5" l="3" ppth="Hannover Hbf|Hannover-Kleefeld|Hannover Karl-Wiechert-Allee|Hannover Anderten-Misburg|Ahlten|Lehrte|Sehnde|Algermissen|Harsum"/>
+	</s>
+	<s id="-5142545862825481724-2406182034-1">
+		<tl f="N" t="p" o="RSNM" c="RB" n="56382"/>
+		<dp pt="2406182034" pp="4" l="77" ppth="Emmerke|Nordstemmen|Elze(Han)"/>
+	</s>
+	<s id="7794548228057322713-2406182002-7">
+		<tl f="N" t="p" o="RSNM" c="RB" n="14482"/>
+		<ar pt="2406182026" pp="4" l="79" ppth="Bodenburg|Bad Salzdetfurth|Bad Salzdetfurth Solebad|Wesseln|Groß Düngen|Hildesheim Ost"/>
+	</s>
+	<s id="5270998905588748805-2406181918-8">
+		<tl t="p" o="R0" c="ENO" n="83578"/>
+		<ar pt="2406182008" pp="4" l="RE50" ppth="Wolfsburg Hbf|Fallersleben|Weddel(Braunschw)|Braunschweig Hbf|Lengede-Broistedt|Woltwiesche|Hoheneggelsen"/>
+	</s>
+	<s id="-7486001363110110590-2406182002-4">
+		<tl f="N" t="p" o="RSNM" c="RB" n="56379"/>
+		<ar pt="2406182020" pp="1" l="77" ppth="Elze(Han)|Nordstemmen|Emmerke"/>
+	</s>
+	<s id="-2685943978175423235-2406181948-7">
+		<tl f="D" t="p" o="X2" c="erx" n="83482"/>
+		<ar pt="2406182042" pp="3" l="RE10" ppth="Bad Harzburg|Goslar|Salzgitter-Ringelheim|Baddeckenstedt|Derneburg(Han)|Hildesheim Ost"/>
+		<dp pt="2406182044" pp="3" l="RE10" ppth="Sarstedt|Hannover Hbf"/>
+	</s>
+	<s id="5534381725604797880-2406182050-1">
+		<tl t="p" o="R0" c="ENO" n="83583"/>
+		<dp pt="2406182050" pp="4" l="RE50" ppth="Hoheneggelsen|Woltwiesche|Lengede-Broistedt|Braunschweig Hbf|Weddel(Braunschw)|Fallersleben|Wolfsburg Hbf"/>
+	</s>
+	<s id="4876078774529304572-2406182006-1">
+		<tl f="S" t="p" o="TDHS" c="S" n="34466"/>
+		<dp pt="2406182006" pp="5" l="4" ppth="Emmerke|Barnten|Sarstedt|Rethen(Leine)|Hannover Messe/Laatzen|Hannover Bismarckstr.|Hannover Hbf|Hannover-Nordstadt|Hannover-Ledeburg|Hannover-Vinnhorst|Langenhagen Mitte|Langenhagen Pferdemarkt|Langenhagen-Kaltenweide|Bissendorf|Mellendorf|Bennemühlen"/>
+	</s>
+	<s id="-7453032704048313757-2406182034-1">
+		<tl f="N" t="p" o="RSNM" c="RB" n="14479"/>
+		<dp pt="2406182034" pp="1" l="79" ppth="Hildesheim Ost|Groß Düngen|Wesseln|Bad Salzdetfurth Solebad|Bad Salzdetfurth|Bodenburg"/>
+	</s>
+</timetable>
