@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="Mannheim Hbf">
+	<s id="7474414276230536927-2406191838-18">
+		<tl f="F" t="p" o="80" c="ICE" n="619"/>
+		<ar pt="2406200202" pp="8" ppth="Kiel Hbf|Neumünster|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Osnabrück Hbf|Münster(Westf)Hbf|Dortmund Hbf|Bochum Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Hbf|Siegburg/Bonn|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf"/>
+		<dp pt="2406200204" pp="8" ppth="Heidelberg Hbf|Stuttgart Hbf|Ulm Hbf|Günzburg|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="8633487569083947263-2406191843-5">
+		<tl t="p" o="81" c="NJ" n="40424"/>
+		<ar pt="2406200207" pp="2" hi="1" ppth="Berlin Hbf|Berlin Südkreuz|Halle(Saale)Hbf|Frankfurt(Main)Süd"/>
+		<dp pt="2406200420" pp="2" hi="1" ppth="Strasbourg"/>
+	</s>
+	<s id="-8413702927124024000-2406191843-5">
+		<tl t="p" o="81" c="NJ" n="424"/>
+		<ar pt="2406200207" pp="2" hi="1" wings="8633487569083947263-2406191843" ppth="Berlin Hbf|Berlin Südkreuz|Halle(Saale)Hbf|Frankfurt(Main)Süd"/>
+		<dp pt="2406200410" pp="2" hi="1" wings="3178546308999030105-2406191938" ppth="Mainz Hbf|Koblenz Hbf|Bonn Hbf|Köln-Ehrenfeld|Aachen Hbf|Liège-Guillemins|Bruxelles-Nord|Bruxelles Midi"/>
+	</s>
+	<s id="-8865138777081149183-2406192352-5">
+		<tl f="F" t="p" o="80" c="ICE" n="1017"/>
+		<ar pt="2406200227" pp="4" ppth="Düsseldorf Hbf|Köln Hbf|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf"/>
+		<dp pt="2406200230" pp="4" ppth="Stuttgart Hbf"/>
+	</s>
+</timetable>
