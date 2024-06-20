@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<timetable station="Worms Hbf">
+	<s id="-2220307653560372716-2406201732-3">
+		<tl f="N" t="p" o="8015A6" c="RB" n="13877"/>
+		<ar pt="2406201742" pp="4" l="35" ppth="Monsheim|Worms-Pfeddersheim"/>
+	</s>
+	<s id="-4958497016134066715-2406201743-1">
+		<tl f="N" t="p" o="8015A6" c="RB" n="13676"/>
+		<dp pt="2406201743" pp="9" l="62" ppth="Hofheim (Ried)|Biblis"/>
+	</s>
+	<s id="-3673978590357122971-2406201602-16">
+		<tl f="N" t="p" o="8015A6" c="RB" n="13849"/>
+		<ar pt="2406201709" pp="4" l="35" ppth="Bingen(Rhein) Stadt|Gensingen-Horrweiler|Welgesheim-Zotzenheim|Sprendlingen(Rheinhess)|Gau Bickelheim|Wallertheim|Armsheim|Albig|Alzey|Alzey Süd|Eppelsheim(Rheinhess)|Gundersheim(Rheinhess)|Nieder Flörsheim-Dalsheim|Monsheim|Worms-Pfeddersheim"/>
+	</s>
+	<s id="5865983887646370329-2406201755-1">
+		<tl f="N" t="p" o="8015A6" c="RB" n="13736"/>
+		<dp pt="2406201755" pp="8" l="63" ppth="Hofheim (Ried)|Bürstadt|Riedrode|Lorsch|Bensheim"/>
+	</s>
+	<s id="-7805904342308313864-2406201715-8">
+		<tl f="N" t="p" o="8015A6" c="RB" n="13858"/>
+		<ar pt="2406201749" pp="4" l="35" ppth="Ludwigshafen(Rhein) BASF Nord|Ludwigshafen(Rhein) BASF Mitte|Ludwigshafen(Rhein) BASF Süd|Ludwigshafen(Rh)Hbf|Frankenthal Süd|Frankenthal Hbf|Bobenheim"/>
+		<dp pt="2406201753" pp="4" l="35" ppth="Worms-Pfeddersheim|Monsheim|Nieder Flörsheim-Dalsheim|Gundersheim(Rheinhess)|Eppelsheim(Rheinhess)|Alzey Süd|Alzey|Albig|Armsheim|Wallertheim|Gau Bickelheim|Sprendlingen(Rheinhess)|Welgesheim-Zotzenheim|Gensingen-Horrweiler|Bingen(Rhein) Stadt"/>
+	</s>
+	<s id="-940035628142522529-2406200842-26">
+		<tl f="F" t="p" o="81" c="ICE" n="114"/>
+		<ar pt="2406201712" pp="1" ppth="Klagenfurt Hbf|Krumpendorf/Wörthersee|Pörtschach am Wörther See|Velden am Wörther See|Villach Hbf|Spittal-Millstättersee|Mallnitz-Obervellach|Bad Hofgastein|Schwarzach-St.Veit|St. Johann im Pongau|Bischofshofen|Golling-Abtenau|Salzburg Hbf|Freilassing|Traunstein|Prien am Chiemsee|Rosenheim|München Ost|München Hbf|Augsburg Hbf|Günzburg|Ulm Hbf|Stuttgart Hbf|Vaihingen(Enz)|Mannheim Hbf"/>
+		<dp pt="2406201714" pp="1" ppth="Mainz Hbf|Bingen(Rhein) Hbf|Koblenz Hbf|Andernach|Remagen|Bonn Hbf|Köln Hbf|Düsseldorf Hbf|Duisburg Hbf|Mülheim(Ruhr)Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf"/>
+	</s>
+	<s id="3398467503357707540-2406201753-1">
+		<tl t="p" o="801518" c="Bus" n="8757"/>
+		<dp pt="2406201753" pp="" l="S6" ppth="Bobenheim|Frankenthal Hbf"/>
+	</s>
+	<s id="4254421639690320955-2406201638-5">
+		<tl f="N" t="p" o="800640" c="RE" n="4487"/>
+		<ar pt="2406201744" pp="2" l="4" ppth="Frankfurt(Main)Hbf|Frankfurt-Höchst|Hochheim(Main)|Mainz Hbf"/>
+		<dp pt="2406201745" pp="2" l="4" ppth="Frankenthal Hbf|Ludwigshafen(Rh)Hbf|Schifferstadt|Speyer Hbf|Germersheim"/>
+	</s>
+	<s id="8953644173785799007-2406201710-8">
+		<tl f="S" t="p" o="801518" c="S" n="38666"/>
+		<ar pt="2406201737" pp="5" l="6" pde="Aglasterhausen" ppth="Mannheim Hbf|Ludwigshafen(Rhein) Mitte|Ludwigshafen(Rh)Hbf|Ludwigshafen-Oggersheim|Frankenthal Süd|Frankenthal Hbf|Bobenheim"/>
+		<dp pt="2406201755" pp="5" l="6" ppth="Osthofen|Mettenheim|Alsheim|Guntersblum|Dienheim|Oppenheim|Nierstein|Nackenheim|Bodenheim|Mainz-Laubenheim|Mainz Römisches Theater|Mainz Hbf"/>
+	</s>
+	<s id="-5531436379575812981-2406201725-1">
+		<tl f="S" t="p" o="801518" c="S" n="38664"/>
+		<dp pt="2406201725" pp="5" l="6" ppth="Osthofen|Mettenheim|Alsheim|Guntersblum|Dienheim|Oppenheim|Nierstein|Nackenheim|Bodenheim|Mainz-Laubenheim|Mainz Römisches Theater|Mainz Hbf"/>
+	</s>
+	<s id="-4189641148792928904-2406201642-14">
+		<tl f="S" t="p" o="801518" c="S" n="38665"/>
+		<ar pt="2406201736" pp="3" l="6" ppth="Wiesbaden Hbf|Mainz Hbf|Mainz Römisches Theater|Mainz-Laubenheim|Bodenheim|Nackenheim|Nierstein|Oppenheim|Dienheim|Guntersblum|Alsheim|Mettenheim|Osthofen"/>
+	</s>
+	<s id="8502020989535808039-2406201705-3">
+		<tl f="N" t="p" o="8015A6" c="RB" n="13675"/>
+		<ar pt="2406201714" pp="9" l="62" ppth="Biblis|Hofheim (Ried)"/>
+	</s>
+	<s id="-2916770088084969645-2406201644-3">
+		<tl t="p" o="801518" c="Bus" n="86330"/>
+		<ar pt="2406201713" pp="" l="S6" ppth="Frankenthal Hbf|Bobenheim"/>
+	</s>
+	<s id="2564327853544984776-2406201710-1">
+		<tl f="N" t="p" o="8015A6" c="RB" n="13732"/>
+		<dp pt="2406201710" pp="11" l="63" ppth="Hofheim (Ried)|Bürstadt|Riedrode|Lorsch|Bensheim"/>
+	</s>
+	<s id="-7133899159347076370-2406201606-9">
+		<tl f="N" t="p" o="800640" c="RE" n="4478"/>
+		<ar pt="2406201719" pp="1" l="4" ppth="Karlsruhe Hbf|Graben-Neudorf|Philippsburg(Baden)|Germersheim|Speyer Hbf|Schifferstadt|Ludwigshafen(Rh)Hbf|Frankenthal Hbf"/>
+		<dp pt="2406201720" pp="1" l="4" ppth="Mainz Hbf"/>
+	</s>
+	<s id="-6228486162369352712-2406201713-6">
+		<tl f="N" t="p" o="8015A6" c="RB" n="13731"/>
+		<ar pt="2406201739" pp="8" l="63" ppth="Bensheim|Lorsch|Riedrode|Bürstadt|Hofheim (Ried)"/>
+	</s>
+	<s id="4424567162372964078-2406201718-1">
+		<tl f="N" t="p" o="8015A6" c="RB" n="13878"/>
+		<dp pt="2406201718" pp="4" l="35" ppth="Worms-Pfeddersheim|Monsheim"/>
+	</s>
+	<s id="-8210742491863153741-2406201624-13">
+		<tl f="S" t="p" o="801518" c="S" n="38663"/>
+		<ar pt="2406201719" pp="2" l="6" ppth="Mainz Hbf|Mainz Römisches Theater|Mainz-Laubenheim|Bodenheim|Nackenheim|Nierstein|Oppenheim|Dienheim|Guntersblum|Alsheim|Mettenheim|Osthofen"/>
+		<dp pt="2406201719" pp="2" l="6" ppth="Bobenheim|Frankenthal Hbf|Frankenthal Süd|Ludwigshafen-Oggersheim|Ludwigshafen(Rh)Hbf|Ludwigshafen(Rhein) Mitte|Mannheim Hbf|Mannheim ARENA/Maimarkt|Mannheim-Seckenheim|Neu-Edingen/Friedrichsfeld|Ladenburg|Heddesheim/Hirschberg|Weinheim-Lützelsachsen|Weinheim(Bergstr)Hbf|Weinheim-Sulzbach|Hemsbach|Laudenbach(Bergstr)|Heppenheim(Bergstr)|Bensheim"/>
+	</s>
+</timetable>
