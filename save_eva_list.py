@@ -32,7 +32,6 @@ def extract_tables_to_df(pdf_path):
                 all_tables.append(df)
     
     combined_df = pd.concat(all_tables, ignore_index=True)
-    #combined_df['Bahnhof '] = combined_df['Bahnhof'].str.replace(' (', '(', regex=False)
     return combined_df
 
 print("getting 'Bahnhof' names")
@@ -64,7 +63,6 @@ def get_eva(station_name):
 # Create or open the file to write EVA numbers
 with open('eva_list.txt', 'w') as eva_file:
     for train_station_name in train_station_names:
-        train_station_name = train_station_name.replace("Hauptbahnhof", "Hbf")
         train_station_name = train_station_name.replace(" (", "(")
         train_station_name = train_station_name.replace(") ", ")")
         eva = get_eva(train_station_name)
