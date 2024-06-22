@@ -6,19 +6,20 @@ from xml.dom.minidom import parseString
 from pathlib import Path
 
 # Retrieve the secret API key from the environment variable
-api_key = os.getenv('API_KEY')
+api_key = os.getenv("API_KEY")
 if not api_key:
     raise ValueError("No API Key provided!")
 
-client_id = os.getenv('CLIENT_ID')
+client_id = os.getenv("CLIENT_ID")
 if not client_id:
     raise ValueError("No Client Id provided!")
 
 headers = {
-    'DB-Api-Key': api_key,
-    'DB-Client-Id': client_id,
-    'accept': 'application/xml'
+    "DB-Api-Key": api_key,
+    "DB-Client-Id": client_id,
+    "accept": "application/xml",
 }
+
 
 def save_api_data(formatted_url, save_path, prettify=True):
     response = requests.get(formatted_url, headers=headers)
@@ -30,11 +31,12 @@ def save_api_data(formatted_url, save_path, prettify=True):
             f.write(parseString(response.content).toprettyxml())
         else:
             f.write(parseString(response.content).toxml())
-    time.sleep(1/60) # because the can be a maximum of 60 requests per minute
+    time.sleep(1 / 60)  # because the can be a maximum of 60 requests per minute
+
 
 def main():
     plan_url = "https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/{eva}/{date}/{hour}"
-    fchg_url = "https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/fchg/{eva}"
+    fchg_url = ("https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/fchg/{eva}")
 
     date_str = datetime.now().strftime("%Y-%m-%d")
     date_str_url = date_str.replace("-", "")[2:]
@@ -48,16 +50,25 @@ def main():
     curent_hour = datetime.now().hour
     for eva in eva_list:
         formatted_fchg_url = fchg_url.format(eva=eva)
-        save_api_data(formatted_fchg_url, save_folder / f"{eva}_fchg_{curent_hour:02}.xml", prettify=False)
-    
+        save_api_data(
+            formatted_fchg_url,
+            save_folder / f"{eva}_fchg_{curent_hour:02}.xml",
+            prettify=False,
+        )
+
     print("curent_hour:", curent_hour)
     for eva in eva_list:
-        for hour in range(curent_hour, curent_hour + 6): # fetch this hour and the next 5 hours
+        for hour in range(
+            curent_hour, curent_hour + 6
+        ):  # fetch this hour and the next 5 hours
             hour = hour % 24
-            formatted_plan_url = plan_url.format(eva=eva, date=date_str_url, hour=f"{hour:02}")
+            formatted_plan_url = plan_url.format(
+                eva=eva, date=date_str_url, hour=f"{hour:02}"
+            )
             save_api_data(formatted_plan_url, save_folder / f"{eva}_plan_{hour:02}.xml")
 
     print("Done")
+
 
 if __name__ == "__main__":
     main()
