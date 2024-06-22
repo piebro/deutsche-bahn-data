@@ -1,53 +1,74 @@
-# import tabula
-import PyPDF2
+import os
+import time
+import requests
+from xml.dom.minidom import parseString
 
-# get biggest station using the "Preisklasse"
-# tables = tabula.read_pdf("Stationspreisliste-2024-data.pdf", pages='all')
-# stations = []
-# for df in tables:
-#    stations.extend(df["Preis-\rklasse"])
-#    stations.extend(df["Bahnhof"])
+import pandas as pd
+import pdfplumber
+
+# Retrieve the secret API key from the environment variable
+api_key = os.getenv('API_KEY')
+if not api_key:
+    raise ValueError("No API Key provided!")
+
+client_id = os.getenv('CLIENT_ID')
+if not client_id:
+    raise ValueError("No Client Id provided!")
+
+headers = {
+    'DB-Api-Key': api_key,
+    'DB-Client-Id': client_id,
+    'accept': 'application/xml'
+}
 
 
-   
-
-
-#    for _, row in df[df["Preis-\rklasse"] <= 2].iterrows():
-#     stations.extend(df["Preis-\rklasse"])
-#        stations.append(row["Bahnhof"].replace("-", " ").replace(" Hauptbahnhof", " Hbf"))
-
-
-
-# read IBNR/eva PDFs as text
-# with open('20141001_IBNR.pdf', 'rb') as file:
-#     reader = PyPDF2.PdfReader(file)
-#     num_pages = len(reader.pages)
-#     IBNR_text = ""
-
-#     for i in range(num_pages):
-#         page = reader.pages[i]
-#         IBNR_text += page.extract_text() + "\n"
-
-# create name and eva list and do some sting manupulations to match the different names in the PDFs
-# eva_list = []
-# for eva_name in IBNR_text.split("\n")[2:-1]:
-#     eva_name_split = eva_name.split(" ")
-#     name = " ".join(eva_name_split[:-1])
-#     # TODO: do better fuzzy matching of the names
-#     if name == "Ludwigshafen(Rh)Hbf":
-#         name = "Ludwigshafen (Rhein) Hbf"
-#     elif name == "Berlin Brandenburg Flughafen":
-#         name = "Flughafen BER"
-#     else:
-#         name = name.replace("-", " ").replace("(", " (").replace(")", ") ").replace(")  ", ") ").rstrip()
+def extract_tables_to_df(pdf_path):
+    all_tables = []
+    with pdfplumber.open(pdf_path) as pdf:
+        for page in pdf.pages:
+            tables = page.extract_tables()
+            for table in tables:
+                df = pd.DataFrame(table[1:], columns=table[0])
+                all_tables.append(df)
     
-#     eva = eva_name_split[-1]
-#     if eva == "08005589": # this is an error, there are two "Solingen Hbf"
-#         continue
-    
-#     if (name in biggest_stations) or (name.replace(" Hbf", "") in biggest_stations) or (f"{name} Hbf" in biggest_stations):
-#         eva_list.append(eva)
-    
+    combined_df = pd.concat(all_tables, ignore_index=True)
+    #combined_df['Bahnhof '] = combined_df['Bahnhof'].str.replace(' (', '(', regex=False)
+    return combined_df
 
-# with open("eva_name_list.txt", "w") as f:
-#     f.write("\n".join(eva_list))
+print("getting 'Bahnhof' names")
+df = extract_tables_to_df('Stationspreisliste-2024-data.pdf')
+print("getting the eva for each 'Bahnhof' name")
+
+df["Preis-\nklasse"] = df["Preis-\nklasse"].astype(int)
+train_station_names = list(df[df["Preis-\nklasse"]<=2]["Bahnhof"])
+
+def get_eva(station_name):
+    formatted_url = f"https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/station/{station_name}"
+    response = requests.get(formatted_url, headers=headers)
+    time.sleep(1/60)  # because there can be a maximum of 60 requests per minute
+    
+    if response.status_code != 200:
+        print(f"error {response.status_code}: {formatted_url}")
+        return None
+    
+    dom = parseString(response.content)
+
+    if len(dom.getElementsByTagName('station')) == 0:
+        print(f"empty response for station name: {station_name}")
+        return None
+
+    station = dom.getElementsByTagName('station')[0]
+    eva = station.getAttribute('eva')
+    return eva
+
+# Create or open the file to write EVA numbers
+with open('eva_list.txt', 'w') as eva_file:
+    for train_station_name in train_station_names:
+        train_station_name = train_station_name.replace("Hauptbahnhof", "Hbf")
+        train_station_name = train_station_name.replace(" (", "(")
+        train_station_name = train_station_name.replace(") ", ")")
+        eva = get_eva(train_station_name)
+        if eva:
+            eva_file.write(f"0{eva}\n")
+
+print("EVA numbers have been saved to eva_list.txt")
