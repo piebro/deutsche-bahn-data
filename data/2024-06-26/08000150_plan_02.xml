@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<timetable station="Hanau Hbf">
+	<s id="-4243524316418153466-2406260216-1">
+		<tl t="p" o="B4" c="Bus" n="890"/>
+		<dp pt="2406260216" pp="" l="S8" ppth="Steinheim(Main)|Mühlheim(Main)-Dietesheim|Bahnhof Nordseite, Mühlheim am Main|Offenbach(Main)Ost|Offenbach(Main) Marktplatz|Offenbach(Main) Ledermuseum|Offenbach(Main) Kaiserlei"/>
+	</s>
+	<s id="-6757863032657832895-2406260128-8">
+		<tl t="p" o="B4" c="Bus" n="885"/>
+		<ar pt="2406260206" pp="" l="S8" ppth="Offenbach(Main) Kaiserlei|Offenbach(Main) Ledermuseum|Offenbach(Main) Marktplatz|Offenbach(Main)Ost|Bahnhof Nordseite, Mühlheim am Main|Mühlheim(Main)-Dietesheim|Steinheim(Main)"/>
+	</s>
+	<s id="-5591597380485360579-2406252059-12">
+		<tl f="F" t="p" o="NZ" c="IC" n="60470"/>
+		<ar pt="2406260229" pp="7" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Bruchsal|Heidelberg Hbf|Darmstadt Hbf|Frankfurt(Main)Süd"/>
+		<dp pt="2406260231" pp="7" ppth="Göttingen|Hannover Hbf|Nienburg(Weser)|Verden(Aller)|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-1082288808760899571-2406260208-8">
+		<tl t="p" o="B4" c="Bus" n="887"/>
+		<ar pt="2406260246" pp="" l="S8" ppth="Offenbach(Main) Kaiserlei|Offenbach(Main) Ledermuseum|Offenbach(Main) Marktplatz|Offenbach(Main)Ost|Bahnhof Nordseite, Mühlheim am Main|Mühlheim(Main)-Dietesheim|Steinheim(Main)"/>
+	</s>
+	<s id="1003446772902483359-2406252059-12">
+		<tl t="p" o="85" c="NJ" n="470"/>
+		<ar pt="2406260229" pp="7" hi="1" wings="-5591597380485360579-2406252059" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Bruchsal|Heidelberg Hbf|Darmstadt Hbf|Frankfurt(Main)Süd"/>
+		<dp pt="2406260231" pp="7" hi="1" wings="-5591597380485360579-2406252059" ppth="Göttingen|Hannover Hbf|Nienburg(Weser)|Verden(Aller)|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+</timetable>
