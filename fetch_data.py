@@ -46,6 +46,7 @@ def main():
 
     with Path("eva_list.txt").open("r") as f:
         eva_list = f.read().split("\n")
+        eva_list = [line.split(" ")[-1] for line in eva_list]
 
     curent_hour = datetime.now().hour
     for eva in eva_list:
