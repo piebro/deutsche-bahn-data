@@ -1,0 +1,116 @@
+<?xml version="1.0" ?>
+<timetable station="Bremen Hbf">
+	<s id="9011011619156863439-2406290927-15">
+		<tl f="F" t="p" o="80" c="ICE" n="610"/>
+		<ar pt="2406291715" pp="10" ppth="München Hbf|München-Pasing|Augsburg Hbf|Ulm Hbf|Stuttgart Hbf|Mannheim Hbf|Frankfurt(M) Flughafen Fernbf|Köln Hbf|Solingen Hbf|Wuppertal Hbf|Hagen Hbf|Dortmund Hbf|Münster(Westf)Hbf|Osnabrück Hbf"/>
+		<dp pt="2406291717" pp="10" ppth="Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-6364364010955178729-2406291439-13">
+		<tl f="N" t="p" o="800295" c="RE" n="4427"/>
+		<ar pt="2406291705" pp="1" l="1" ppth="Norddeich Mole|Norddeich|Norden|Marienhafe|Emden Hbf|Leer(Ostfriesl)|Augustfehn|Westerstede-Ocholt|Bad Zwischenahn|Oldenburg(Oldb)Hbf|Hude|Delmenhorst"/>
+		<dp pt="2406291717" pp="1" l="1" ppth="Bremen-Mahndorf|Achim|Verden(Aller)|Dörverden|Eystrup|Nienburg(Weser)|Neustadt am Rübenberge|Wunstorf|Hannover Hbf"/>
+	</s>
+	<s id="-3235146818380066482-2406291507-10">
+		<tl f="N" t="p" o="RSNM" c="RB" n="16360"/>
+		<ar pt="2406291713" pp="8" l="37" ppth="Uelzen|Ebstorf(Uelzen)|Brockhöfe|Munster(Örtze)|Soltau(Han)|Visselhövede|Langwedel|Achim|Bremen-Mahndorf"/>
+	</s>
+	<s id="5723512830700480294-2406291620-10">
+		<tl f="N" t="p" o="800295" c="RE" n="4424"/>
+		<ar pt="2406291739" pp="7" l="8" ppth="Hannover Hbf|Wunstorf|Neustadt am Rübenberge|Nienburg(Weser)|Eystrup|Dörverden|Verden(Aller)|Achim|Bremen-Mahndorf"/>
+		<dp pt="2406291757" pp="7" l="8" ppth="Osterholz-Scharmbeck|Bremerhaven Hbf|Bremerhaven-Lehe"/>
+	</s>
+	<s id="8071817757494821175-2406291627-10">
+		<tl f="N" t="p" o="800295" c="RE" n="14062"/>
+		<ar pt="2406291745" pp="8 Süd" l="9" ppth="Osnabrück Hbf|Bohmte|Lemförde|Diepholz|Barnstorf(Han)|Twistringen|Bassum|Syke|Kirchweyhe"/>
+	</s>
+	<s id="-3796606775871758732-2406291719-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="82266"/>
+		<dp pt="2406291719" pp="2" l="RB58" ppth="Bremen Neustadt|Delmenhorst|Ganderkesee|Brettorf|Wildeshausen|Rechterfeld|Goldenstedt(Oldb)|Lutten|Vechta|Lohne(Oldb)|Mühlen(Oldb)|Steinfeld(Oldb)|Holdorf(Oldb)|Neuenkirchen(Oldb)|Rieste|Hesepe|Bramsche|Achmer|Halen|Osnabrück Altstadt|Osnabrück Hbf"/>
+	</s>
+	<s id="-7053557267756658428-2406291537-15">
+		<tl f="D" t="p" o="R1" c="ME" n="81929"/>
+		<ar pt="2406291707" pp="9" l="RB41" ppth="Hamburg Hbf|Hamburg-Harburg|Hittfeld|Klecken|Buchholz(Nordheide)|Sprötze|Tostedt|Lauenbrück|Scheeßel|Rotenburg(Wümme)|Sottrum|Ottersberg(Han)|Sagehorn|Bremen-Oberneuland"/>
+	</s>
+	<s id="5996894033054335133-2406291646-9">
+		<tl f="D" t="p" o="N1" c="NWB" n="83224"/>
+		<ar pt="2406291727" pp="6" l="RS2" ppth="Twistringen|Bassum|Bramstedt(b Syke)|Syke|Barrien|Kirchweyhe|Dreye|Bremen-Hemelingen"/>
+		<dp pt="2406291740" pp="6" l="RS2" ppth="Bremen-Burg|Ritterhude|Osterholz-Scharmbeck|Oldenbüttel|Lübberstedt|Stubben|Lunestedt|Loxstedt|Bremerhaven-Wulsdorf|Bremerhaven Hbf|Bremerhaven-Lehe"/>
+	</s>
+	<s id="-6235789055676348186-2406291629-5">
+		<tl f="F" t="p" o="80" c="ICE" n="205"/>
+		<ar pt="2406291741" pp="9" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg"/>
+		<dp pt="2406291744" pp="9" ppth="Osnabrück Hbf|Münster(Westf)Hbf|Dortmund Hbf|Hagen Hbf|Wuppertal Hbf|Solingen Hbf|Köln Hbf|Frankfurt(M) Flughafen Fernbf|Mannheim Hbf|Karlsruhe Hbf"/>
+	</s>
+	<s id="-902331470884402360-2406291637-12">
+		<tl f="D" t="p" o="N1" c="NWB" n="83225"/>
+		<ar pt="2406291730" pp="7" l="RS2" ppth="Bremerhaven-Lehe|Bremerhaven Hbf|Bremerhaven-Wulsdorf|Loxstedt|Lunestedt|Stubben|Lübberstedt|Oldenbüttel|Osterholz-Scharmbeck|Ritterhude|Bremen-Burg"/>
+		<dp pt="2406291733" pp="7" l="RS2" ppth="Bremen-Hemelingen|Dreye|Kirchweyhe|Barrien|Syke|Bramstedt(b Syke)|Bassum|Twistringen"/>
+	</s>
+	<s id="4166751851055811224-2406291323-7">
+		<tl f="F" t="p" o="80" c="IC" n="2215"/>
+		<ar pt="2406291746" pp="10" wings="-5150630006505627740-2406291340" ppth="Westerland(Sylt)|Niebüll|Husum|Heide(Holst)|Itzehoe|Hamburg Hbf"/>
+		<dp pt="2406291749" pp="10" wings="-5150630006505627740-2406291340" ppth="Osnabrück Hbf|Münster(Westf)Hbf|Recklinghausen Hbf|Gelsenkirchen Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Hbf"/>
+	</s>
+	<s id="-5480216728665880670-2406291706-1">
+		<tl t="p" o="B1" c="Bus" n="4460"/>
+		<dp pt="2406291706" pp="" l="RE9" ppth="Bremerhaven Hbf|Bremerhaven-Lehe"/>
+	</s>
+	<s id="3652573252515177200-2406291758-1">
+		<tl f="D" t="p" o="R1" c="ME" n="81932"/>
+		<dp pt="2406291758" pp="10" l="RB41" ppth="Bremen-Oberneuland|Sagehorn|Ottersberg(Han)|Sottrum|Rotenburg(Wümme)|Scheeßel|Lauenbrück|Tostedt|Sprötze|Buchholz(Nordheide)|Klecken|Hittfeld|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="4790644167379000318-2406291645-12">
+		<tl f="D" t="p" o="N1" c="NWB" n="89665"/>
+		<ar pt="2406291743" pp="1" l="RS3" ppth="Bad Zwischenahn|Oldenburg-Wechloy|Oldenburg(Oldb)Hbf|Wüsting|Hude|Bookholzberg|Schierbrok|Hoykenkamp|Delmenhorst|Heidkrug|Bremen Neustadt"/>
+	</s>
+	<s id="-412940709064787513-2406291715-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="89670"/>
+		<dp pt="2406291715" pp="2" l="RS3" ppth="Bremen Neustadt|Heidkrug|Delmenhorst|Hoykenkamp|Schierbrok|Bookholzberg|Hude|Wüsting|Oldenburg(Oldb)Hbf|Oldenburg-Wechloy|Bad Zwischenahn"/>
+	</s>
+	<s id="9118315743465066320-2406291632-8">
+		<tl f="D" t="p" o="N1" c="NWB" n="83152"/>
+		<ar pt="2406291701" pp="5" l="RS1" ppth="Verden(Aller)|Langwedel|Etelsen|Baden(Verden)|Achim|Bremen-Mahndorf|Bremen-Sebaldsbrück"/>
+	</s>
+	<s id="5743843196482679211-2406291714-1">
+		<tl f="N" t="p" o="800295" c="RE" n="4463"/>
+		<dp pt="2406291714" pp="7" l="9" ppth="Kirchweyhe|Syke|Bassum|Twistringen|Barnstorf(Han)|Diepholz|Lemförde|Bohmte|Osnabrück Hbf"/>
+	</s>
+	<s id="-5150630006505627740-2406291340-8">
+		<tl f="F" t="p" o="80" c="IC" n="2217"/>
+		<ar pt="2406291746" pp="10" ppth="Dagebüll Mole|Niebüll neg|Niebüll|Husum|Heide(Holst)|Itzehoe|Hamburg Hbf"/>
+		<dp pt="2406291749" pp="10" ppth="Osnabrück Hbf|Münster(Westf)Hbf|Recklinghausen Hbf|Gelsenkirchen Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Hbf"/>
+	</s>
+	<s id="-2968437926361446640-2406291615-6">
+		<tl f="D" t="p" o="R1" c="ME" n="82029"/>
+		<ar pt="2406291724" pp="9" l="RE4" ppth="Hamburg Hbf|Hamburg-Harburg|Buchholz(Nordheide)|Tostedt|Rotenburg(Wümme)"/>
+	</s>
+	<s id="-9085290573223992650-2406291733-1">
+		<tl f="D" t="p" o="R1" c="ME" n="82032"/>
+		<dp pt="2406291733" pp="10" l="RE4" ppth="Rotenburg(Wümme)|Tostedt|Buchholz(Nordheide)|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="-272386616503331631-2406291524-22">
+		<tl f="D" t="p" o="N1" c="NWB" n="82265"/>
+		<ar pt="2406291738" pp="3" l="RB58" ppth="Osnabrück Hbf|Osnabrück Altstadt|Halen|Achmer|Bramsche|Hesepe|Rieste|Neuenkirchen(Oldb)|Holdorf(Oldb)|Steinfeld(Oldb)|Mühlen(Oldb)|Lohne(Oldb)|Vechta|Lutten|Goldenstedt(Oldb)|Rechterfeld|Wildeshausen|Brettorf|Ganderkesee|Delmenhorst|Bremen Neustadt"/>
+	</s>
+	<s id="-1154466046196233813-2406291342-10">
+		<tl f="F" t="p" o="80" c="IC" n="2036"/>
+		<ar pt="2406291750" pp="3" ppth="Leipzig Hbf|Halle(Saale)Hbf|Köthen|Magdeburg Hbf|Helmstedt|Braunschweig Hbf|Hannover Hbf|Nienburg(Weser)|Verden(Aller)"/>
+		<dp pt="2406291753" pp="3" wings="-2491477092514266634-2406291753" ppth="Delmenhorst|Hude|Oldenburg(Oldb)Hbf|Bad Zwischenahn|Westerstede-Ocholt|Augustfehn|Leer(Ostfriesl)|Emden Hbf"/>
+	</s>
+	<s id="9083737735171088638-2406291711-1">
+		<tl t="p" o="B1" c="Bus" n="9460"/>
+		<dp pt="2406291711" pp="" l="RE9" ppth="Osterholz-Scharmbeck|Bremerhaven Hbf"/>
+	</s>
+	<s id="434699660439512752-2406291715-1">
+		<tl f="F" t="p" o="80" c="ICE" n="633"/>
+		<dp pt="2406291715" pp="6" ppth="Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf|München Hbf"/>
+	</s>
+	<s id="-2491477092514266634-2406291753-1">
+		<tl f="N" t="p" o="NZ" c="RE" n="52036"/>
+		<dp pt="2406291753" pp="3" l="56" ppth="Delmenhorst|Hude|Oldenburg(Oldb)Hbf|Bad Zwischenahn|Westerstede-Ocholt|Augustfehn|Leer(Ostfriesl)|Emden Hbf"/>
+	</s>
+	<s id="-1933615010063033965-2406291757-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="83153"/>
+		<dp pt="2406291757" pp="5" l="RS1" ppth="Bremen-Sebaldsbrück|Bremen-Mahndorf|Achim|Baden(Verden)|Etelsen|Langwedel|Verden(Aller)"/>
+	</s>
+</timetable>
