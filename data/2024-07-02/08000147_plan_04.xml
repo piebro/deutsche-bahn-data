@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg-Harburg">
+	<s id="8322424274180843926-2407011928-17">
+		<tl f="F" t="p" o="80" c="ICE" n="510"/>
+		<ar pt="2407020403" pp="1" ppth="München Hbf|München-Pasing|Augsburg Hbf|Ulm Hbf|Stuttgart Hbf|Mannheim Hbf|Frankfurt(M) Flughafen Fernbf|Siegburg/Bonn|Köln Hbf|Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Dortmund Hbf|Münster(Westf)Hbf|Osnabrück Hbf|Bremen Hbf"/>
+		<dp pt="2407020405" pp="1" ppth="Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="7152046210696401911-2407020421-4">
+		<tl f="F" t="p" o="80" c="EC" n="7"/>
+		<ar pt="2407020447" pp="3" hi="1" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf"/>
+		<dp pt="2407020449" pp="3" ppth="Bremen Hbf|Diepholz|Osnabrück Hbf|Münster(Westf)Hbf|Dortmund Hbf|Bochum Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Hbf|Bonn Hbf|Koblenz Hbf|Mainz Hbf|Mannheim Hbf|Karlsruhe Hbf|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Liestal|Olten|Bern|Thun|Spiez|Interlaken West|Interlaken Ost"/>
+	</s>
+	<s id="-543546577685322737-2407020445-1">
+		<tl f="D" t="p" o="R1" c="ME" n="81607"/>
+		<dp pt="2407020445" pp="4" l="RB31" ppth="Meckelfeld|Maschen|Stelle|Ashausen|Winsen(Luhe)|Radbruch|Bardowick|Lüneburg|Bienenbüttel|Bad Bevensen|Uelzen"/>
+	</s>
+	<s id="4988394628288684850-2407020415-2">
+		<tl t="p" o="R1" c="Bus" n="3107"/>
+		<ar pt="2407020435" pp="" l="EV" ppth="Hamburg Hbf (Kirchenallee)"/>
+	</s>
+	<s id="9011218217436282603-2407020346-9">
+		<tl f="D" t="p" o="R1" c="ME" n="81902"/>
+		<ar pt="2407020429" pp="2" l="RB41" ppth="Rotenburg(Wümme)|Scheeßel|Lauenbrück|Tostedt|Sprötze|Buchholz(Nordheide)|Klecken|Hittfeld"/>
+		<dp pt="2407020432" pp="2" l="RB41" ppth="Hamburg Hbf"/>
+	</s>
+</timetable>
