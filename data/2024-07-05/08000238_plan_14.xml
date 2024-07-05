@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<timetable station="Lüneburg">
+	<s id="-3211680008745977457-2407051401-3">
+		<tl f="F" t="p" o="80" c="ICE" n="881"/>
+		<ar pt="2407051427" pp="1" ppth="Hamburg Hbf|Hamburg-Harburg"/>
+		<dp pt="2407051429" pp="1" ppth="Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Augsburg Hbf|München Hbf"/>
+	</s>
+	<s id="-3281432353838358850-2407051053-9">
+		<tl f="F" t="p" o="80" c="IC" n="2375"/>
+		<ar pt="2407051456" pp="1" wings="-6128794431067673992-2407051105" ppth="Westerland(Sylt)|Niebüll|Husum|Heide(Holst)|Itzehoe|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg"/>
+		<dp pt="2407051458" pp="1" wings="-6128794431067673992-2407051105" ppth="Uelzen|Celle|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Wabern(Bz Kassel)|Treysa|Marburg(Lahn)|Gießen|Friedberg(Hess)|Frankfurt(Main)Hbf|Darmstadt Hbf|Bensheim|Weinheim(Bergstr)Hbf|Heidelberg Hbf|Stuttgart Hbf"/>
+	</s>
+	<s id="-3808537382756600095-2407051310-9">
+		<tl f="D" t="p" o="X1" c="erx" n="21119"/>
+		<ar pt="2407051415" pp="5" l="RE83" pde="Kiel Hbf" ppth="Lübeck Hbf|Lübeck Hochschulstadtteil|Lübeck Flughafen|Ratzeburg|Mölln(Lauenb)|Büchen|Lauenburg(Elbe)|Echem"/>
+	</s>
+	<s id="-1247361980182113009-2407051430-1">
+		<tl f="D" t="p" o="X1" c="erx" n="21122"/>
+		<dp pt="2407051430" pp="5" l="RE83" pde="Kiel Hbf" ppth="Echem|Lauenburg(Elbe)|Büchen|Mölln(Lauenb)|Ratzeburg|Lübeck Flughafen|Lübeck Hochschulstadtteil|Lübeck Hbf"/>
+	</s>
+	<s id="-4102711972533821453-2407051357-4">
+		<tl f="D" t="p" o="R1" c="ME" n="82125"/>
+		<ar pt="2407051433" pp="1" l="RE3" ppth="Hamburg Hbf|Hamburg-Harburg|Winsen(Luhe)"/>
+		<dp pt="2407051434" pp="1" l="RE3" ppth="Bienenbüttel|Bad Bevensen|Uelzen"/>
+	</s>
+	<s id="-6128794431067673992-2407051105-10">
+		<tl f="F" t="p" o="80" c="IC" n="2395"/>
+		<ar pt="2407051456" pp="1" ppth="Dagebüll Mole|Niebüll neg|Niebüll|Husum|Heide(Holst)|Itzehoe|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg"/>
+		<dp pt="2407051458" pp="1" ppth="Uelzen|Celle|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Wabern(Bz Kassel)|Treysa|Marburg(Lahn)|Gießen|Friedberg(Hess)|Frankfurt(Main)Hbf|Darmstadt Hbf|Bensheim|Weinheim(Bergstr)Hbf|Heidelberg Hbf|Stuttgart Hbf"/>
+	</s>
+	<s id="6680342960452230153-2407051432-1">
+		<tl f="D" t="p" o="R1" c="ME" n="81624"/>
+		<dp pt="2407051432" pp="6" l="RB31" ppth="Bardowick|Radbruch|Winsen(Luhe)|Ashausen|Stelle|Maschen|Meckelfeld|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="-8674838902493379360-2407050857-18">
+		<tl f="F" t="p" o="80" c="IC" n="2374"/>
+		<ar pt="2407051457" pp="2" wings="6980398750542004684-2407050857" ppth="Stuttgart Hbf|Wiesloch-Walldorf|Heidelberg Hbf|Weinheim(Bergstr)Hbf|Bensheim|Darmstadt Hbf|Frankfurt(Main)Hbf|Friedberg(Hess)|Gießen|Marburg(Lahn)|Treysa|Wabern(Bz Kassel)|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen"/>
+		<dp pt="2407051459" pp="2" wings="6980398750542004684-2407050857" ppth="Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Itzehoe|Heide(Holst)|Husum|Niebüll|Westerland(Sylt)"/>
+	</s>
+	<s id="6980398750542004684-2407050857-18">
+		<tl f="F" t="p" o="80" c="IC" n="2394"/>
+		<ar pt="2407051457" pp="2" ppth="Stuttgart Hbf|Wiesloch-Walldorf|Heidelberg Hbf|Weinheim(Bergstr)Hbf|Bensheim|Darmstadt Hbf|Frankfurt(Main)Hbf|Friedberg(Hess)|Gießen|Marburg(Lahn)|Treysa|Wabern(Bz Kassel)|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen"/>
+		<dp pt="2407051459" pp="2" ppth="Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Itzehoe|Heide(Holst)|Husum|Niebüll|Niebüll neg|Deezbüll|Maasbüll(b Niebüll)|Dagebüll Kirche|Dagebüll Mole"/>
+	</s>
+	<s id="-5599998702057193678-2407051401-4">
+		<tl f="D" t="p" o="R1" c="ME" n="82124"/>
+		<ar pt="2407051424" pp="3" l="RE3" ppth="Uelzen|Bad Bevensen|Bienenbüttel"/>
+		<dp pt="2407051428" pp="3" l="RE3" ppth="Winsen(Luhe)|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="-7172464133829905329-2407051333-10">
+		<tl f="D" t="p" o="R1" c="ME" n="81625"/>
+		<ar pt="2407051423" pp="6" l="RB31" ppth="Hamburg Hbf|Hamburg-Harburg|Meckelfeld|Maschen|Stelle|Ashausen|Winsen(Luhe)|Radbruch|Bardowick"/>
+	</s>
+</timetable>
