@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="9173904781348194045-2407112009-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18683"/>
+		<dp pt="2407112009" pp="4" l="32" tra="4795003599783466511-2407111921-4" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+	<s id="4795003599783466511-2407111921-4">
+		<tl t="p" o="800165" c="FEX" n="19867"/>
+		<ar pt="2407112000" pp="4" tra="9173904781348194045-2407112009-1" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="3463567788174894893-2407111951-4">
+		<tl t="p" o="800165" c="FEX" n="19869"/>
+		<ar pt="2407112030" pp="4" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="-1486898991092341358-2407112026-3">
+		<tl f="N" t="p" o="NZ" c="RE" n="52275"/>
+		<ar pt="2407112053" pp="3 A-D" l="17" ppth="Berlin Hbf|Berlin Südkreuz"/>
+		<dp pt="2407112101" pp="3 A-D" l="17" ppth="Doberlug-Kirchhain|Elsterwerda"/>
+	</s>
+	<s id="8883652730926797595-2407111752-9">
+		<tl f="F" t="p" o="80" c="IC" n="2275"/>
+		<ar pt="2407112053" pp="3 A-D" wings="-1486898991092341358-2407112026" ppth="Warnemünde|Rostock Hbf|Waren(Müritz)|Neustrelitz Hbf|Oranienburg|Berlin Gesundbrunnen|Berlin Hbf|Berlin Südkreuz"/>
+		<dp pt="2407112101" pp="3 A-D" wings="-1486898991092341358-2407112026" ppth="Doberlug-Kirchhain|Elsterwerda|Dresden-Neustadt|Dresden Hbf"/>
+	</s>
+	<s id="-931498101353786183-2407112028-1">
+		<tl t="p" o="800165" c="FEX" n="19864"/>
+		<dp pt="2407112028" pp="1" tra="-9066760140762331544-2407111927-6" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="5397373307535384538-2407112000-8">
+		<tl f="N" t="p" o="800165" c="RB" n="18171"/>
+		<ar pt="2407112046" pp="3 D-G" l="23" ppth="Berlin-Charlottenburg|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz"/>
+	</s>
+	<s id="-2788148152395474867-2407112013-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18170"/>
+		<dp pt="2407112013" pp="3" l="23" ppth="Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Charlottenburg"/>
+	</s>
+	<s id="-1958728093294620143-2407111940-9">
+		<tl f="N" t="p" o="800165" c="RB" n="18132"/>
+		<ar pt="2407112036" pp="1" l="22" ppth="Potsdam Griebnitzsee|Potsdam Hbf|Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Potsdam Pirschheide|Saarmund|Ludwigsfelde-Struveshof"/>
+		<dp pt="2407112038" pp="1" l="22" ppth="Königs Wusterhausen"/>
+	</s>
+	<s id="-18559954009091354-2407111806-17">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62028"/>
+		<ar pt="2407112015" pp="2" l="8" ppth="Wittenberge|Bad Wilsnack|Glöwen|Breddin|Neustadt(Dosse)|Friesack(Mark)|Paulinenaue|Nauen|Falkensee|Berlin-Spandau|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz"/>
+	</s>
+	<s id="-8957490933478893554-2407112032-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18682"/>
+		<ar pt="2407112047" pp="1" l="32" tra="-4981931327532836719-2407112058-1" ppth="Ludwigsfelde|Birkengrund"/>
+	</s>
+	<s id="-4981931327532836719-2407112058-1">
+		<tl t="p" o="800165" c="FEX" n="19866"/>
+		<dp pt="2407112058" pp="1" tra="-8957490933478893554-2407112032-3" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="-9066760140762331544-2407111927-6">
+		<tl f="N" t="p" o="800165" c="RB" n="18374"/>
+		<ar pt="2407112003" pp="1" l="24" tra="-931498101353786183-2407112028-1" ppth="Wünsdorf-Waldstadt|Dabendorf|Rangsdorf|Dahlewitz|Blankenfelde(Teltow-Fläming)"/>
+	</s>
+	<s id="-6113856399621150210-2407112008-2">
+		<tl f="N" t="p" o="800165" c="RB" n="18133"/>
+		<ar pt="2407112021" pp="4" l="22" ppth="Königs Wusterhausen"/>
+		<dp pt="2407112023" pp="4" l="22" ppth="Ludwigsfelde-Struveshof|Saarmund|Potsdam Pirschheide|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof|Potsdam Hbf"/>
+	</s>
+	<s id="-1815896018063012568-2407112044-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62035"/>
+		<dp pt="2407112044" pp="2" l="8" ppth="Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Spandau|Falkensee|Nauen|Paulinenaue|Friesack(Mark)|Neustadt(Dosse)|Breddin|Glöwen|Bad Wilsnack|Wittenberge|Karstädt|Grabow(Meckl)|Ludwigslust|Lüblow(Meckl)|Rastow|Sülstorf|Holthusen|Schwerin Süd|Schwerin Mitte|Schwerin Hbf|Lübstorf|Bad Kleinen|Dorf Mecklenburg|Wismar"/>
+	</s>
+</timetable>
