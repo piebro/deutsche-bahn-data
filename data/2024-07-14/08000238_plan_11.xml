@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<timetable station="Lüneburg">
+	<s id="-3212205364154915817-2407140555-8">
+		<tl f="F" t="p" o="80" c="ICE" n="886"/>
+		<ar pt="2407141125" pp="2" ppth="München Hbf|Augsburg Hbf|Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf"/>
+		<dp pt="2407141127" pp="2" ppth="Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="4151582524336383046-2407141100-9">
+		<tl t="p" o="BO" c="TEL" n="636"/>
+		<ar pt="2407141156" pp="4" ppth="Bleckede|Neu Neetze|Neetze|Boltersen|Rullstorf|Scharnebeck|Erbstorf|Erbstorf Ziegelei"/>
+	</s>
+	<s id="3802822263510141639-2407141111-4">
+		<tl f="F" t="p" o="80" c="ICE" n="1683"/>
+		<ar pt="2407141153" pp="1" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf"/>
+		<dp pt="2407141155" pp="1" ppth="Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Hanau Hbf|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="6229593701195627276-2407141057-4">
+		<tl f="D" t="p" o="R1" c="ME" n="82119"/>
+		<ar pt="2407141133" pp="1" l="RE3" ppth="Hamburg Hbf|Hamburg-Harburg|Winsen(Luhe)"/>
+		<dp pt="2407141134" pp="1" l="RE3" ppth="Bienenbüttel|Bad Bevensen|Uelzen"/>
+	</s>
+	<s id="3366745046516608616-2407141010-9">
+		<tl f="D" t="p" o="X1" c="erx" n="21113"/>
+		<ar pt="2407141128" pp="5" l="RE83" pde="Kiel Hbf" ppth="Lübeck Hbf|Lübeck Hochschulstadtteil|Lübeck Flughafen|Ratzeburg|Mölln(Lauenb)|Büchen|Lauenburg(Elbe)|Echem"/>
+	</s>
+	<s id="3659451569801342679-2407141132-1">
+		<tl f="D" t="p" o="R1" c="ME" n="81618"/>
+		<dp pt="2407141132" pp="6" l="RB31" ppth="Bardowick|Radbruch|Winsen(Luhe)|Ashausen|Stelle|Maschen|Meckelfeld|Hamburg-Harburg"/>
+	</s>
+	<s id="-3712646127344890736-2407141010-10">
+		<tl f="D" t="p" o="X2" c="erx" n="81592"/>
+		<ar pt="2407141118" pp="7" l="RB32" ppth="Dannenberg Ost|Hitzacker|Leitstade|Göhrde|Neetzendorf|Dahlenburg|Bavendorf|Vastorf|Wendisch Evern"/>
+	</s>
+	<s id="-1041756504713975150-2407141145-1">
+		<tl f="D" t="p" o="X1" c="erx" n="21116"/>
+		<dp pt="2407141145" pp="5" l="RE83" pde="Kiel Hbf" ppth="Echem|Lauenburg(Elbe)|Büchen|Mölln(Lauenb)|Ratzeburg|Lübeck Flughafen|Lübeck Hochschulstadtteil|Lübeck Hbf"/>
+	</s>
+	<s id="-3538634011716407378-2407141141-1">
+		<tl f="D" t="p" o="X2" c="erx" n="81593"/>
+		<dp pt="2407141141" pp="7" l="RB32" ppth="Wendisch Evern|Vastorf|Bavendorf|Dahlenburg|Neetzendorf|Göhrde|Leitstade|Hitzacker|Dannenberg Ost"/>
+	</s>
+	<s id="1526194876276388981-2407141101-4">
+		<tl f="D" t="p" o="R1" c="ME" n="82118"/>
+		<ar pt="2407141124" pp="3" l="RE3" ppth="Uelzen|Bad Bevensen|Bienenbüttel"/>
+		<dp pt="2407141130" pp="3" l="RE3" ppth="Winsen(Luhe)|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="690636475631235659-2407141045-9">
+		<tl f="D" t="p" o="R1" c="ME" n="81619"/>
+		<ar pt="2407141123" pp="6" l="RB31" ppth="Hamburg-Harburg|Meckelfeld|Maschen|Stelle|Ashausen|Winsen(Luhe)|Radbruch|Bardowick"/>
+	</s>
+	<s id="2474076290441674812-2407141111-4">
+		<tl f="F" t="p" o="80" c="ICE" n="1285"/>
+		<ar pt="2407141153" pp="1" wings="3802822263510141639-2407141111" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf"/>
+		<dp pt="2407141155" pp="1" wings="3802822263510141639-2407141111" ppth="Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda"/>
+	</s>
+</timetable>
