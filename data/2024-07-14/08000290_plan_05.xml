@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<timetable station="Offenburg">
+	<s id="-7933222209613530264-2407140557-1">
+		<tl f="N" t="p" o="800647" c="RE" n="4707"/>
+		<dp pt="2407140557" pp="4" l="2" tra="-6780728349443800314-2407140456-9" ppth="Gengenbach|Biberach(Baden)|Steinach(Baden)|Haslach|Hausach|Hornberg(Schwarzw)|Triberg|St Georgen(Schwarzw)|Villingen(Schwarzw)|Donaueschingen|Immendingen|Engen|Singen(Hohentwiel)|Radolfzell|Allensbach|Konstanz-Petershausen|Konstanz"/>
+	</s>
+	<s id="-6780728349443800314-2407140456-9">
+		<tl f="N" t="p" o="800647" c="RE" n="4701"/>
+		<ar pt="2407140540" pp="4" l="2" tra="-7933222209613530264-2407140557-1" ppth="Karlsruhe Hbf|Muggensturm|Rastatt|Baden-Baden|Bühl(Baden)|Achern|Renchen|Appenweier"/>
+	</s>
+	<s id="3207394584663061518-2407140552-1">
+		<tl f="N" t="p" o="8006C4" c="RB" n="5333"/>
+		<dp pt="2407140552" pp="3" l="27" ppth="Friesenheim(Baden)|Lahr(Schwarzw)|Orschweier|Ringsheim/Europa-Park|Herbolzheim(Breisg)|Kenzingen|Riegel-Malterdingen|Köndringen|Teningen-Mundingen|Emmendingen|Kollmarsreute|Denzlingen|Gundelfingen(Breisgau)|Freiburg(Breisgau) Hbf|Freiburg-St Georgen|Ebringen|Schallstadt|Norsingen|Bad Krozingen|Heitersheim|Buggingen|Müllheim(Baden)|Auggen|Schliengen|Bad Bellingen|Rheinweiler|Kleinkems|Istein|Efringen-Kirchen|Eimeldingen|Haltingen|Weil am Rhein|Basel Bad Bf"/>
+	</s>
+	<s id="208439591345516036-2407140451-17">
+		<tl f="N" t="p" o="8006C4" c="RB" n="17100"/>
+		<ar pt="2407140545" pp="3" l="26" ppth="Freiburg(Breisgau) Hbf|Freiburg-Herdern|Freiburg-Zähringen|Gundelfingen(Breisgau)|Denzlingen|Kollmarsreute|Emmendingen|Teningen-Mundingen|Köndringen|Riegel-Malterdingen|Kenzingen|Herbolzheim(Breisg)|Ringsheim/Europa-Park|Orschweier|Lahr(Schwarzw)|Friesenheim(Baden)"/>
+	</s>
+	<s id="-549887549245793870-2407140549-1">
+		<tl f="D" t="p" o="S6" c="SWE" n="87623"/>
+		<dp pt="2407140549" pp="7" l="RB20" ppth="Offenburg Kreisschulzentrum|Gengenbach|Biberach(Baden)|Steinach(Baden)|Haslach|Hausach|Wolfach|Halbmeil|Schiltach|Schiltach Mitte|Schenkenzell|Alpirsbach|Loßburg-Rodt|Freudenstadt Hbf"/>
+	</s>
+	<s id="-8716776747589038458-2407131828-16">
+		<tl f="F" t="p" o="81" c="EN" n="40458"/>
+		<ar pt="2407140545" pp="1" ppth="Praha hl.n.|Praha-Holesovice|Usti nad Labem hl.n.|Decin hl.n.|Bad Schandau|Dresden Hbf|Dresden-Neustadt|Riesa|Leipzig Hbf|Erfurt Hbf|Fulda|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden"/>
+		<dp pt="2407140547" pp="1" hi="1" ppth="Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="5331894847185138451-2407132101-13">
+		<tl t="p" o="81" c="NJ" n="408"/>
+		<ar pt="2407140545" pp="1" wings="-1197270886930040789-2407132101" ppth="Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Bitterfeld|Halle(Saale)Hbf|Leipzig Hbf|Erfurt Hbf|Fulda|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden"/>
+		<dp pt="2407140547" pp="1" hi="1" wings="-1197270886930040789-2407132101" ppth="Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-1197270886930040789-2407132101-13">
+		<tl f="F" t="p" o="NZ" c="IC" n="60408"/>
+		<ar pt="2407140545" pp="1" ppth="Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Bitterfeld|Halle(Saale)Hbf|Leipzig Hbf|Erfurt Hbf|Fulda|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden"/>
+		<dp pt="2407140547" pp="1" ppth="Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-8572647521164952896-2407131828-16">
+		<tl f="F" t="p" o="54" c="EC" n="458"/>
+		<ar pt="2407140545" pp="1" wings="-8716776747589038458-2407131828|5331894847185138451-2407132101" ppth="Praha hl.n.|Praha-Holesovice|Usti nad Labem hl.n.|Decin hl.n.|Bad Schandau|Dresden Hbf|Dresden-Neustadt|Riesa|Leipzig Hbf|Erfurt Hbf|Fulda|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden"/>
+		<dp pt="2407140547" pp="1" hi="1" wings="-8716776747589038458-2407131828|5331894847185138451-2407132101" ppth="Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-5676428147416065355-2407140547-1">
+		<tl f="N" t="p" o="800647" c="RE" n="4702"/>
+		<dp pt="2407140547" pp="6" l="2" ppth="Appenweier|Renchen|Achern|Bühl(Baden)|Baden-Baden|Rastatt|Muggensturm|Malsch|Bruchhausen(b Ettlingen)|Ettlingen West|Karlsruhe Hbf"/>
+	</s>
+</timetable>
