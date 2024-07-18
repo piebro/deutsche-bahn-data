@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<timetable station="Augsburg Hbf">
+	<s id="5069589255347072550-2407172246-3">
+		<tl f="F" t="p" o="80" c="IC" n="461"/>
+		<ar pt="2407180021" pp="4" ppth="Stuttgart Hbf|Ulm Hbf"/>
+		<dp pt="2407180023" pp="4" ppth="München-Pasing|München Ost|Rosenheim|Traunstein|Freilassing|Salzburg Hbf|Neumarkt am Wallersee|Vöcklabruck|Attnang-Puchheim|Wels Hbf|Linz Hbf|St. Valentin|Amstetten NÖ|St.Pölten Hbf|Tullnerfeld|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="2686007473625185344-2407180001-2">
+		<tl f="F" t="p" o="80" c="ICE" n="618"/>
+		<ar pt="2407180045" pp="1" ppth="München Hbf"/>
+		<dp pt="2407180047" pp="1" ppth="Günzburg|Ulm Hbf|Stuttgart Hbf|Heidelberg Hbf|Mannheim Hbf|Mainz Hbf|Koblenz Hbf|Köln Hbf"/>
+	</s>
+	<s id="-8506992454186612126-2407172346-8">
+		<tl f="D" t="p" o="Y8" c="BRB" n="62955"/>
+		<ar pt="2407180013" pp="8 C-E" l="RB69" ppth="Lagerlechfeld|Graben(Lechfeld)Gewerbepark|Oberottmarshausen|Bobingen|Inningen|Augsburg Messe|Augsburg Morellstr."/>
+		<dp pt="2407180014" pp="8 C-E" l="RB69" ppth="Augsburg-Oberhausen"/>
+	</s>
+	<s id="6526500943120584903-2407180001-1">
+		<tl f="N" t="p" o="GYRB" c="RB" n="57188"/>
+		<dp pt="2407180001" pp="8 C-E" l="87" ppth="Augsburg-Oberhausen|Gersthofen|Gablingen|Langweid(Lech)|Herbertshofen|Meitingen|Westendorf|Nordendorf|Mertingen Bahnhof|Bäumenheim|Donauwörth"/>
+	</s>
+	<s id="-2117726194312836395-2407172308-13">
+		<tl f="N" t="p" o="8007D5" c="RE" n="57521"/>
+		<ar pt="2407180046" pp="9 A-C" l="71" ppth="Memmingen|Sontheim(Schwab)|Stetten(Schwab)|Mindelheim|Rammingen(Bay)|Türkheim(Bay)Bf|Buchloe|Schwabmünchen|Bobingen|Inningen|Augsburg Messe|Augsburg Morellstr."/>
+	</s>
+	<s id="-8498467652613556647-2407172326-12">
+		<tl f="N" t="p" o="GYRB" c="RB" n="57193"/>
+		<ar pt="2407180006" pp="7" l="87" ppth="Donauwörth|Bäumenheim|Mertingen Bahnhof|Nordendorf|Westendorf|Meitingen|Herbertshofen|Langweid(Lech)|Gablingen|Gersthofen|Augsburg-Oberhausen"/>
+	</s>
+	<s id="5484611133080919955-2407180009-3">
+		<tl t="p" o="Y8" c="Bus" n="60407"/>
+		<ar pt="2407180025" pp="" l="EV" ppth="Augsburg-Hochzoll|Augsburg Haunstetterstraße"/>
+	</s>
+	<s id="-6711944245409804133-2407180018-1">
+		<tl f="D" t="p" o="Y8" c="BRB" n="62790"/>
+		<dp pt="2407180018" pp="9 A-C" l="RB77" ppth="Augsburg Morellstr.|Augsburg Messe|Inningen|Bobingen|Schwabmünchen|Buchloe"/>
+	</s>
+</timetable>
