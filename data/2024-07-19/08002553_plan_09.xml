@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg-Altona">
+	<s id="4410207958846637111-2407190620-14">
+		<tl f="N" t="p" o="8002B5" c="RE" n="11011"/>
+		<ar pt="2407190921" pp="11" l="6" ppth="Westerland(Sylt)|Keitum|Morsum|Klanxbüll|Niebüll|Langenhorn(Schlesw)|Bredstedt|Husum|Friedrichstadt|Lunden|Heide(Holst)|Itzehoe|Elmshorn"/>
+	</s>
+	<s id="-3603929278044236541-2407190904-5">
+		<tl f="D" t="p" o="O0" c="NBE" n="81831"/>
+		<ar pt="2407190929" pp="9" l="RB71" ppth="Elmshorn|Tornesch|Prisdorf|Pinneberg"/>
+	</s>
+	<s id="-6838828473082291492-2407190936-1">
+		<tl f="N" t="p" o="8002B5" c="RE" n="11010"/>
+		<dp pt="2407190936" pp="11" l="6" ppth="Elmshorn|Itzehoe|Heide(Holst)|Lunden|Friedrichstadt|Husum|Bredstedt|Langenhorn(Schlesw)|Niebüll|Klanxbüll|Keitum|Westerland(Sylt)"/>
+	</s>
+	<s id="549042959956713624-2407190657-8">
+		<tl f="F" t="p" o="80" c="IC" n="2070"/>
+		<ar pt="2407190924" pp="5" ppth="Berlin Südkreuz|Berlin Hbf|Berlin-Spandau|Wittenberge|Ludwigslust|Büchen|Hamburg Hbf"/>
+	</s>
+	<s id="-7547304040443208216-2407182010-15">
+		<tl t="p" o="81" c="NJ" n="490"/>
+		<ar pt="2407190905" pp="7" wings="-8677182982400525824-2407182044" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Passau Hbf|Regensburg Hbf|Nürnberg Hbf|Würzburg Hbf|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor"/>
+	</s>
+	<s id="-8677182982400525824-2407182044-15">
+		<tl t="p" o="81" c="NJ" n="40420"/>
+		<ar pt="2407190905" pp="7" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Hbf|Augsburg Hbf|Nürnberg Hbf|Würzburg Hbf|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor"/>
+	</s>
+	<s id="-2481200008976717546-2407190840-5">
+		<tl f="D" t="p" o="O0" c="NBE" n="81863"/>
+		<ar pt="2407190904" pp="8" l="RB71" ppth="Elmshorn|Tornesch|Prisdorf|Pinneberg"/>
+	</s>
+	<s id="6884804026314721935-2407190955-1">
+		<tl f="D" t="p" o="O0" c="NBE" n="81862"/>
+		<dp pt="2407190955" pp="8" l="RB71" ppth="Pinneberg|Prisdorf|Tornesch|Elmshorn"/>
+	</s>
+	<s id="8793213226106504000-2407190919-1">
+		<tl f="F" t="p" o="80" c="ICE" n="705"/>
+		<dp pt="2407190919" pp="9" ppth="Hamburg Dammtor|Hamburg Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz|Bitterfeld|Halle(Saale)Hbf|Erfurt Hbf|Bamberg|Nürnberg Hbf|Donauwörth|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-4190357709828800313-2407190528-9">
+		<tl f="F" t="p" o="80" c="ICE" n="1606"/>
+		<ar pt="2407190939" pp="7" ppth="Erfurt Hbf|Leipzig Hbf|Lutherstadt Wittenberg Hbf|Berlin Südkreuz|Berlin Hbf|Berlin-Spandau|Hamburg Hbf|Hamburg Dammtor"/>
+	</s>
+</timetable>
