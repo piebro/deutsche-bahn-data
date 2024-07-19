@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<timetable station="Oberhausen Hbf">
+	<s id="2426088310060548445-2407190001-6">
+		<tl f="N" t="p" o="8003L1" c="RB" n="31281"/>
+		<ar pt="2407190018" pp="7" l="32" ppth="Gelsenkirchen Hbf|Essen-Zollverein Nord|Essen-Altenessen|Essen-Bergeborbeck|Essen-Dellwig"/>
+		<dp pt="2407190019" pp="7" l="32" ppth="Duisburg Hbf"/>
+	</s>
+	<s id="-4615536472310719044-2407190010-2">
+		<tl t="p" o="B2" c="Bus" n="3204"/>
+		<ar pt="2407190030" pp="" l="RB32" ppth="Duisburg Hbf"/>
+	</s>
+	<s id="8395850335250741432-2407190020-2">
+		<tl t="p" o="R2" c="Bus" n="3007"/>
+		<ar pt="2407190040" pp="" l="RE3" ppth="Duisburg Hbf"/>
+		<dp pt="2407190040" pp="" l="RE3" ppth="Essen-Altenessen|Gelsenkirchen Hbf"/>
+	</s>
+	<s id="-4444867576672218174-2407190026-7">
+		<tl f="S" t="p" o="8003L1" c="S" n="30301"/>
+		<ar pt="2407190045" pp="10" l="3" ppth="Essen Hbf|Essen West|Essen-Frohnhausen|Mülheim(Ruhr)Hbf|Mülheim(Ruhr)West|Mülheim(Ruhr)Styrum"/>
+	</s>
+	<s id="8508930744013894031-2407190017-1">
+		<tl f="S" t="p" o="8003L1" c="S" n="30300"/>
+		<dp pt="2407190017" pp="10" l="3" ppth="Mülheim(Ruhr)Styrum|Mülheim(Ruhr)West|Mülheim(Ruhr)Hbf|Essen-Frohnhausen|Essen West|Essen Hbf"/>
+	</s>
+	<s id="-7194614378562342411-2407190000-1">
+		<tl t="p" o="R4NRN" c="Bus" n="1990"/>
+		<dp pt="2407190000" pp="" l="RE19" ppth="Oberhausen-Sterkrade|Oberhausen-Holten|Dinslaken"/>
+	</s>
+	<s id="1653339467455007266-2407182359-5">
+		<tl t="p" o="TDRR" c="Bus" n="63331"/>
+		<ar pt="2407190028" pp="" l="EV" ppth="Duisburg-Ruhrort|Duisburg-Meiderich Süd|Duisburg-Meiderich Ost|Duisburg-Obermeiderich"/>
+	</s>
+	<s id="680223402267180819-2407190034-2">
+		<tl f="N" t="p" o="8003L1" c="RB" n="31240"/>
+		<ar pt="2407190040" pp="6" l="32" ppth="Duisburg Hbf"/>
+		<dp pt="2407190041" pp="6" l="32" ppth="Essen-Dellwig|Essen-Bergeborbeck|Essen-Altenessen|Essen-Zollverein Nord|Gelsenkirchen Hbf"/>
+	</s>
+	<s id="2223525023327732411-2407190006-4">
+		<tl t="p" o="R4NRN" c="Bus" n="1943"/>
+		<ar pt="2407190048" pp="" l="RE19" ppth="Dinslaken|Oberhausen-Holten|Oberhausen-Sterkrade"/>
+	</s>
+	<s id="-8115313466801252965-2407190008-1">
+		<tl f="D" t="p" o="R4NRN" c="VIA" n="94593"/>
+		<dp pt="2407190008" pp="12" l="RE19" ppth="Duisburg Hbf"/>
+	</s>
+	<s id="1145559423566949418-2407190044-2">
+		<tl f="D" t="p" o="R4NRN" c="VIA" n="94592"/>
+		<ar pt="2407190052" pp="12" l="RE19" ppth="Duisburg Hbf"/>
+	</s>
+	<s id="3528210109253036757-2407190020-5">
+		<tl t="p" o="TDRR" c="Bus" n="64331"/>
+		<ar pt="2407190049" pp="" l="EV" ppth="Duisburg-Ruhrort|Duisburg-Meiderich Süd|Duisburg-Meiderich Ost|Duisburg-Obermeiderich"/>
+	</s>
+	<s id="8059398388313390389-2407182340-4">
+		<tl t="p" o="TDRR" c="RRB" n="63246"/>
+		<ar pt="2407190007" pp="" l="RE44" ppth="Bottrop Hbf|Bottrop-Vonderort|Oberhausen-Osterfeld Süd"/>
+		<dp pt="2407190008" pp="" l="RE44" ppth="Duisburg Hbf"/>
+	</s>
+	<s id="3003212708758550514-2407182339-3">
+		<tl t="p" o="R2" c="Bus" n="3004"/>
+		<ar pt="2407190024" pp="" l="RE3" ppth="Gelsenkirchen Hbf|Essen-Altenessen"/>
+		<dp pt="2407190024" pp="" l="RE3" ppth="Duisburg Hbf"/>
+	</s>
+</timetable>

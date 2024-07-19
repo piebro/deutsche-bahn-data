@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<timetable station="Kiel Hbf">
+	<s id="-527291053674496399-2407190005-1">
+		<tl f="D" t="p" o="X1" c="erx" n="21095"/>
+		<dp pt="2407190005" pp="1" l="RB84" ppth="Kiel-Elmschenhagen|Raisdorf|Preetz|Ascheberg(Holst)|Plön|Bad Malente-Gremsmühlen|Eutin|Pönitz(Holst)|Pansdorf|Bad Schwartau|Lübeck Hbf"/>
+	</s>
+	<s id="-8856675705576977923-2407190016-3">
+		<tl f="N" t="p" o="800201" c="RE" n="11238"/>
+		<ar pt="2407190036" pp="4" l="70" ppth="Neumünster|Bordesholm"/>
+	</s>
+	<s id="-268398599806961378-2407190043-1">
+		<tl f="D" t="p" o="X1" c="erx" n="21045"/>
+		<dp pt="2407190043" pp="1" l="RE83" ppth="Raisdorf|Preetz|Ascheberg(Holst)|Plön|Bad Malente-Gremsmühlen|Eutin|Bad Schwartau|Lübeck Hbf"/>
+	</s>
+	<s id="-5431105109679105522-2407182306-9">
+		<tl f="D" t="p" o="X1" c="erx" n="21036"/>
+		<ar pt="2407190016" pp="1" l="RE83" pde="Lüneburg" ppth="Lübeck Hbf|Bad Schwartau|Eutin|Bad Malente-Gremsmühlen|Plön|Ascheberg(Holst)|Preetz|Raisdorf"/>
+	</s>
+	<s id="6109077175066149143-2407182328-12">
+		<tl f="D" t="p" o="X1" c="erx" n="21086"/>
+		<ar pt="2407190056" pp="1" l="RB84" ppth="Lübeck Hbf|Bad Schwartau|Pansdorf|Pönitz(Holst)|Eutin|Bad Malente-Gremsmühlen|Plön|Ascheberg(Holst)|Preetz|Raisdorf|Kiel-Elmschenhagen"/>
+	</s>
+	<s id="5164747124263286774-2407182340-5">
+		<tl f="N" t="p" o="800201" c="RE" n="11286"/>
+		<ar pt="2407190003" pp="3" l="7" ppth="Neumünster|Einfeld|Bordesholm|Flintbek"/>
+	</s>
+	<s id="-6711307188089838742-2407190005-1">
+		<tl f="N" t="p" o="800201" c="RE" n="11293"/>
+		<dp pt="2407190005" pp="4" l="7" ppth="Flintbek|Bordesholm|Einfeld|Neumünster"/>
+	</s>
+	<s id="1750400869108564376-2407182313-2">
+		<tl t="p" o="B1" c="Bus" n="91236"/>
+		<ar pt="2407190023" pp="" l="RE7" ppth="Bad Oldesloe"/>
+	</s>
+	<s id="8880215536052822163-2407190040-4">
+		<tl f="D" t="p" o="X1" c="erx" n="21186"/>
+		<ar pt="2407190051" pp="2b" l="RB76" ppth="Kiel-Oppendorf|Kiel-Ellerbek|Kiel Schulen am Langsee"/>
+	</s>
+	<s id="7296207220120755519-2407182341-2">
+		<tl t="p" o="B1" c="Bus" n="11286"/>
+		<ar pt="2407190051" pp="" l="RE7" ppth="Bad Oldesloe"/>
+	</s>
+	<s id="-6961676436949326930-2407190008-1">
+		<tl f="D" t="p" o="X1" c="erx" n="21195"/>
+		<dp pt="2407190008" pp="2b" l="RB76" ppth="Kiel Schulen am Langsee|Kiel-Ellerbek|Kiel-Oppendorf"/>
+	</s>
+</timetable>
