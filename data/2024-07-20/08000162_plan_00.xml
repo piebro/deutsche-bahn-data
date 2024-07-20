@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<timetable station="Herford">
+	<s id="-1610566651633192037-2407200036-1">
+		<tl f="N" t="p" o="R2RB" c="RB" n="83025"/>
+		<dp pt="2407200036" pp="3" l="61" ppth="Brake(b Bielefeld)|Bielefeld Hbf"/>
+	</s>
+	<s id="-6511024700606682069-2407200029-3">
+		<tl f="N" t="p" o="R2RE" c="RE" n="52293"/>
+		<ar pt="2407200039" pp="4" l="78" ppth="Bielefeld Hbf|Brake(b Bielefeld)"/>
+		<dp pt="2407200040" pp="4" l="78" ppth="Löhne(Westf)|Bad Oeynhausen|Porta Westfalica|Minden(Westf)"/>
+	</s>
+	<s id="6816633585900855025-2407200030-1">
+		<tl t="p" o="R2" c="Bus" n="6131"/>
+		<dp pt="2407200030" pp="" l="RB61" ppth="Hiddenhausen-Schweicheln|Kirchlengern|Bünde(Westf)|Bruchmühlen|Melle|Westerhausen|Wissingen|Osnabrück Hbf"/>
+	</s>
+	<s id="6656233419488757116-2407200012-3">
+		<tl f="N" t="p" o="R2RB" c="RB" n="20392"/>
+		<ar pt="2407200023" pp="1" l="61" ppth="Bielefeld Hbf|Brake(b Bielefeld)"/>
+	</s>
+	<s id="67273429190528841-2407191845-14">
+		<tl f="F" t="p" o="80" c="IC" n="2448"/>
+		<ar pt="2407200025" pp="6" ppth="Dresden Hbf|Dresden-Neustadt|Elsterwerda|Riesa|Leipzig Hbf|Leipzig/Halle Flughafen|Halle(Saale)Hbf|Köthen|Magdeburg Hbf|Braunschweig Hbf|Hannover Hbf|Minden(Westf)|Bad Oeynhausen"/>
+		<dp pt="2407200025" pp="6" ppth="Bielefeld Hbf|Gütersloh Hbf|Hamm(Westf)Hbf|Dortmund Hbf"/>
+	</s>
+	<s id="3332797177951381353-2407200030-5">
+		<tl f="N" t="p" o="R2RE" c="RE" n="52292"/>
+		<ar pt="2407200053" pp="6" l="78" ppth="Minden(Westf)|Porta Westfalica|Bad Oeynhausen|Löhne(Westf)"/>
+		<dp pt="2407200054" pp="6" l="78" ppth="Brake(b Bielefeld)|Bielefeld Hbf"/>
+	</s>
+</timetable>

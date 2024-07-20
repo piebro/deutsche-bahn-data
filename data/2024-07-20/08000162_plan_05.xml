@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<timetable station="Herford">
+	<s id="5135893588205014602-2407200536-1">
+		<tl f="N" t="p" o="R2RB" c="RB" n="20351"/>
+		<dp pt="2407200536" pp="3" l="61" ppth="Brake(b Bielefeld)|Bielefeld Hbf"/>
+	</s>
+	<s id="4581065981821157946-2407200503-5">
+		<tl f="D" t="p" o="W3" c="WFB" n="95842"/>
+		<ar pt="2407200525" pp="6" l="RE70" ppth="Minden(Westf)|Porta Westfalica|Bad Oeynhausen|Löhne(Westf)"/>
+		<dp pt="2407200527" pp="6" l="RE70" ppth="Bielefeld Hbf"/>
+	</s>
+	<s id="4522844135346233638-2407200530-1">
+		<tl t="p" o="R2" c="Bus" n="6103"/>
+		<dp pt="2407200530" pp="" l="RB61" ppth="Hiddenhausen-Schweicheln|Kirchlengern|Bünde(Westf)|Bruchmühlen|Melle|Westerhausen"/>
+	</s>
+	<s id="2118841595509522566-2407200511-3">
+		<tl f="N" t="p" o="R2RB" c="RB" n="83026"/>
+		<ar pt="2407200521" pp="1" l="61" ppth="Bielefeld Hbf|Brake(b Bielefeld)"/>
+	</s>
+	<s id="-2720914657590777809-2407200337-9">
+		<tl t="p" o="R2" c="Bus" n="6100"/>
+		<ar pt="2407200530" pp="" l="RB61" ppth="Osnabrück Hbf|Wissingen|Westerhausen|Melle|Bruchmühlen|Bünde(Westf)|Kirchlengern|Hiddenhausen-Schweicheln"/>
+	</s>
+</timetable>
