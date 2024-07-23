@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="7535029924397126426-2407232109-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18685"/>
+		<dp pt="2407232109" pp="4" l="32" tra="-1945655569292342665-2407232018-4" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+	<s id="8883652730926797595-2407231752-9">
+		<tl f="F" t="p" o="80" c="IC" n="2275"/>
+		<ar pt="2407232053" pp="3 A-D" wings="-1486898991092341358-2407232026" ppth="Warnemünde|Rostock Hbf|Waren(Müritz)|Neustrelitz Hbf|Oranienburg|Berlin Gesundbrunnen|Berlin Hbf|Berlin Südkreuz"/>
+		<dp pt="2407232101" pp="3 A-D" wings="-1486898991092341358-2407232026" ppth="Doberlug-Kirchhain|Elsterwerda|Dresden-Neustadt|Dresden Hbf"/>
+	</s>
+	<s id="-1486898991092341358-2407232026-3">
+		<tl f="N" t="p" o="NZ" c="RE" n="52275"/>
+		<ar pt="2407232053" pp="3 A-D" l="17" ppth="Berlin Hbf|Berlin Südkreuz"/>
+		<dp pt="2407232101" pp="3 A-D" l="17" ppth="Doberlug-Kirchhain|Elsterwerda"/>
+	</s>
+	<s id="1139779810323429879-2407232139-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18684"/>
+		<ar pt="2407232155" pp="1" l="32" ppth="Ludwigsfelde|Birkengrund"/>
+	</s>
+	<s id="1945124315890020696-2407232051-4">
+		<tl t="p" o="800165" c="FEX" n="19873"/>
+		<ar pt="2407232130" pp="4" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="-1945655569292342665-2407232018-4">
+		<tl t="p" o="800165" c="FEX" n="19871"/>
+		<ar pt="2407232100" pp="4" tra="7535029924397126426-2407232109-1" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+</timetable>
