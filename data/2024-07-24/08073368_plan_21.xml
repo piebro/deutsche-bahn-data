@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<timetable station="Köln Messe/Deutz Gl.11-12">
+	<s id="-4272298498907669914-2407241900-5">
+		<tl t="p" o="81" c="NJ" n="40421"/>
+		<ar pt="2407242156" pp="11" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Düsseldorf Hbf"/>
+		<dp pt="2407242159" pp="11" ppth="Würzburg Hbf|Nürnberg Hbf|Regensburg Hbf|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="-903121789782397735-2407242148-2">
+		<tl f="N" t="p" o="NXRE" c="RE" n="89741"/>
+		<ar pt="2407242158" pp="12" l="6" ppth="Köln/Bonn Flughafen"/>
+		<dp pt="2407242202" pp="12" l="6" ppth="Köln-Mülheim|Leverkusen Mitte|Düsseldorf-Benrath|Düsseldorf Hbf"/>
+	</s>
+	<s id="1572076872181380894-2407242118-5">
+		<tl f="N" t="p" o="NXRE" c="RE" n="89734"/>
+		<ar pt="2407242146" pp="12" l="6" ppth="Düsseldorf Hbf|Düsseldorf-Benrath|Leverkusen Mitte|Köln-Mülheim"/>
+		<dp pt="2407242151" pp="12" l="6" ppth="Köln/Bonn Flughafen"/>
+	</s>
+	<s id="2444314634072177884-2407242048-2">
+		<tl f="N" t="p" o="NXRE" c="RE" n="89739"/>
+		<ar pt="2407242057" pp="11" l="6" ppth="Köln/Bonn Flughafen"/>
+		<dp pt="2407242107" pp="11" l="6" ppth="Köln-Mülheim|Leverkusen Mitte|Düsseldorf-Benrath|Düsseldorf Hbf"/>
+	</s>
+	<s id="-7056878515633598205-2407241838-6">
+		<tl f="F" t="p" o="84" c="ICE" n="221"/>
+		<ar pt="2407242126" pp="11" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Oberhausen-Sterkrade|Düsseldorf Hbf"/>
+	</s>
+	<s id="-3823254010841261196-2407241900-5">
+		<tl t="p" o="84" c="NJ" n="421"/>
+		<ar pt="2407242156" pp="11" wings="-4272298498907669914-2407241900" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Düsseldorf Hbf"/>
+		<dp pt="2407242159" pp="11" wings="-4272298498907669914-2407241900" ppth="Würzburg Hbf|Nürnberg Hbf|Augsburg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+</timetable>
