@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<timetable station="Düsseldorf Hbf">
+	<s id="-74416348617923736-2407250308-1">
+		<tl t="p" o="NX" c="Bus" n="4001"/>
+		<dp pt="2407250308" pp="" l="SEVA" ppth="Essen Hbf"/>
+	</s>
+	<s id="3646559143861574448-2407250315-1">
+		<tl f="N" t="p" o="NXRE" c="RE" n="89746"/>
+		<dp pt="2407250315" pp="4" l="6" ppth="Düsseldorf-Benrath|Leverkusen Mitte|Köln-Mülheim|Köln Messe/Deutz Gl.11-12|Köln/Bonn Flughafen"/>
+	</s>
+	<s id="3445051130085952877-2407250340-1">
+		<tl f="N" t="p" o="NXRE" c="RE" n="26848"/>
+		<dp pt="2407250340" pp="16" l="1" ppth="Düsseldorf-Benrath|Leverkusen Mitte|Köln-Mülheim|Köln Messe/Deutz|Köln Hbf"/>
+	</s>
+	<s id="-4964921095657007412-2407250335-1">
+		<tl f="S" t="p" o="800354" c="S" n="31848"/>
+		<dp pt="2407250335" pp="12" l="8" tra="-7077376547267783966-2407250216-26" ppth="Düsseldorf Flughafen Terminal"/>
+	</s>
+	<s id="670945273612265149-2407250338-1">
+		<tl t="p" o="NX" c="Bus" n="4003"/>
+		<dp pt="2407250338" pp="" l="SEVA" ppth="Essen Hbf"/>
+	</s>
+	<s id="664888112203869416-2407250208-2">
+		<tl t="p" o="NX" c="Bus" n="4230"/>
+		<ar pt="2407250308" pp="" l="SEVA" ppth="Essen Hbf"/>
+	</s>
+	<s id="7992457600918716518-2407250313-9">
+		<tl f="S" t="p" o="800337" c="S" n="21495"/>
+		<ar pt="2407250335" pp="14" l="1" ppth="Solingen Hbf|Solingen Vogelpark|Hilden Süd|Hilden|Düsseldorf-Eller|Düsseldorf-Eller Mitte|Düsseldorf-Oberbilk|Düsseldorf Volksgarten"/>
+		<dp pt="2407250337" pp="14" l="1" ppth="Düsseldorf Wehrhahn|Düsseldorf-Zoo|Düsseldorf-Derendorf|Düsseldorf-Unterrath|Düsseldorf Flughafen|Angermund|Duisburg-Rahm|Duisburg-Großenbaum|Duisburg-Buchholz|Duisburg-Schlenk|Duisburg Hbf"/>
+	</s>
+	<s id="-7077376547267783966-2407250216-26">
+		<tl f="S" t="p" o="800354" c="S" n="31846"/>
+		<ar pt="2407250330" pp="12" l="8" tra="-4964921095657007412-2407250335-1" ppth="Hagen Hbf|Hagen-Wehringhausen|Hagen-Heubing|Hagen-Westerbauer|Gevelsberg-Knapp|Gevelsberg Hbf|Gevelsberg-Kipp|Gevelsberg West|Schwelm|Schwelm West|Wuppertal-Langerfeld|Wuppertal-Oberbarmen|Wuppertal-Barmen|Wuppertal-Unterbarmen|Wuppertal Hbf|Wuppertal-Steinbeck|Wuppertal-Zoologischer Garten|Wuppertal-Sonnborn|Wuppertal-Vohwinkel|Haan-Gruiten|Hochdahl-Millrath|Hochdahl|Erkrath|Düsseldorf-Gerresheim|Düsseldorf-Flingern"/>
+	</s>
+	<s id="3701778199675587073-2407250238-2">
+		<tl t="p" o="NX" c="Bus" n="4232"/>
+		<ar pt="2407250338" pp="" l="SEVA" ppth="Essen Hbf"/>
+	</s>
+</timetable>
