@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<timetable station="Bonn Hbf">
+	<s id="1521914912699173320-2407260406-13">
+		<tl f="S" t="p" o="800352" c="S" n="32301"/>
+		<ar pt="2407260447" pp="5" l="23" ppth="Euskirchen|Euskirchen-Kuchenheim|Swisttal-Odendorf|Rheinbach|Rheinbach Römerkanal|Meckenheim(Bz Köln)|Meckenheim Industriepark|Alfter-Witterschlick|Alfter-Impekoven|Bonn-Duisdorf|Bonn Helmholtzstraße|Bonn-Endenich Nord"/>
+	</s>
+	<s id="7133833328435323261-2407260411-7">
+		<tl f="N" t="p" o="TR" c="RB" n="25406"/>
+		<ar pt="2407260431" pp="1" l="26" ppth="Remagen|Oberwinter|Rolandseck|Bonn-Mehlem|Bonn-Bad Godesberg|Bonn UN Campus"/>
+		<dp pt="2407260433" pp="1" l="26" ppth="Roisdorf|Sechtem|Brühl|Hürth-Kalscheuren|Köln Süd|Köln West|Köln Hbf|Köln Messe/Deutz"/>
+	</s>
+	<s id="8750662293308172020-2407260349-2">
+		<tl f="F" t="p" o="80" c="ICE" n="921"/>
+		<ar pt="2407260411" pp="3" ppth="Köln Hbf"/>
+		<dp pt="2407260413" pp="3" ppth="Remagen|Koblenz Hbf|Bingen(Rhein) Hbf|Mainz Hbf|Frankfurt(M) Flughafen Regionalbf|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="7683642177198866111-2407260338-10">
+		<tl f="N" t="p" o="TR" c="RB" n="25407"/>
+		<ar pt="2407260425" pp="3" l="26" ppth="Köln/Bonn Flughafen|Köln Messe/Deutz|Köln Hbf|Köln West|Köln Süd|Hürth-Kalscheuren|Brühl|Sechtem|Roisdorf"/>
+		<dp pt="2407260427" pp="3" l="26" ppth="Bonn UN Campus|Bonn-Bad Godesberg|Bonn-Mehlem|Rolandseck|Oberwinter|Remagen|Sinzig(Rhein)|Bad Breisig|Brohl|Namedy|Andernach|Weißenthurm|Mülheim-Kärlich|Koblenz-Lützel|Koblenz Stadtmitte|Koblenz Hbf"/>
+	</s>
+	<s id="3849774974937611477-2407260443-4">
+		<tl f="N" t="p" o="NXRB" c="RB" n="17306"/>
+		<ar pt="2407260452" pp="1" l="48" ppth="Bonn-Mehlem|Bonn-Bad Godesberg|Bonn UN Campus"/>
+		<dp pt="2407260453" pp="1" l="48" ppth="Roisdorf|Sechtem|Brühl|Hürth-Kalscheuren|Köln Süd|Köln West|Köln Hbf|Köln Messe/Deutz|Köln-Mülheim|Leverkusen-Manfort|Opladen|Leichlingen|Solingen Hbf|Haan|Haan-Gruiten|Wuppertal-Vohwinkel|Wuppertal Hbf|Wuppertal-Barmen|Wuppertal-Oberbarmen"/>
+	</s>
+</timetable>

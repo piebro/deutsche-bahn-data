@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<timetable station="Frankfurt(Main)Süd">
+	<s id="5331894847185138451-2407252020-7">
+		<tl t="p" o="81" c="NJ" n="408"/>
+		<ar pt="2407260341" pp="5" wings="-1197270886930040789-2407252020" ppth="Berlin Hbf|Berlin Südkreuz|Bitterfeld|Leipzig Hbf|Erfurt Hbf|Fulda"/>
+		<dp pt="2407260343" pp="5" hi="1" wings="-1197270886930040789-2407252020" ppth="Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-9061060548328880741-2407251907-10">
+		<tl t="p" o="88" c="NJ" n="425"/>
+		<ar pt="2407260317" pp="8" wings="3673026080162824134-2407251912" ppth="Bruxelles Midi|Bruxelles-Nord|Liège-Guillemins|Aachen Hbf|Köln Hbf|Bonn-Beuel|Koblenz Hbf|Mainz Hbf|Mannheim Hbf"/>
+		<dp pt="2407260319" pp="8" wings="3673026080162824134-2407251912" ppth="Erfurt Hbf|Halle(Saale)Hbf|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="3673026080162824134-2407251912-3">
+		<tl t="p" o="81" c="NJ" n="40469"/>
+		<ar pt="2407260317" pp="8" ppth="Paris Est|Mannheim Hbf"/>
+		<dp pt="2407260319" pp="8" ppth="Erfurt Hbf|Halle(Saale)Hbf|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="-1197270886930040789-2407252020-7">
+		<tl f="F" t="p" o="NZ" c="IC" n="60408"/>
+		<ar pt="2407260341" pp="5" ppth="Berlin Hbf|Berlin Südkreuz|Bitterfeld|Leipzig Hbf|Erfurt Hbf|Fulda"/>
+		<dp pt="2407260343" pp="5" ppth="Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-8572647521164952896-2407251828-12">
+		<tl f="F" t="p" o="54" c="EC" n="458"/>
+		<ar pt="2407260341" pp="5" wings="-8716776747589038458-2407251828|5331894847185138451-2407252020" ppth="Praha hl.n.|Praha-Holesovice|Usti nad Labem hl.n.|Decin hl.n.|Bad Schandau|Dresden Hbf|Dresden-Neustadt|Riesa|Leipzig Hbf|Erfurt Hbf|Fulda"/>
+		<dp pt="2407260343" pp="5" hi="1" wings="-8716776747589038458-2407251828|5331894847185138451-2407252020" ppth="Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-8716776747589038458-2407251828-12">
+		<tl f="F" t="p" o="81" c="EN" n="40458"/>
+		<ar pt="2407260341" pp="5" ppth="Praha hl.n.|Praha-Holesovice|Usti nad Labem hl.n.|Decin hl.n.|Bad Schandau|Dresden Hbf|Dresden-Neustadt|Riesa|Leipzig Hbf|Erfurt Hbf|Fulda"/>
+		<dp pt="2407260343" pp="5" hi="1" ppth="Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="8864827325846342282-2407260246-7">
+		<tl f="S" t="p" o="800528" c="S" n="35894"/>
+		<ar pt="2407260306" pp="5" l="8" ppth="Hanau Hbf|Steinheim(Main)|Mühlheim(Main)-Dietesheim|Mühlheim(Main)|Offenbach(Main)Ost|Offenbach(Main)Hbf"/>
+		<dp pt="2407260306" pp="5" l="8" ppth="Frankfurt(Main)Hbf|Frankfurt-Niederrad|Frankfurt am Main - Stadion|Frankfurt(Main)-Gateway Gardens|Frankfurt(M) Flughafen Fernbf|Raunheim"/>
+	</s>
+	<s id="-8441776821296139917-2407260319-8">
+		<tl f="S" t="p" o="800528" c="S" n="35895"/>
+		<ar pt="2407260357" pp="6" l="8" ppth="Raunheim|Kelsterbach|Frankfurt(M) Flughafen Regionalbf|Frankfurt(Main)-Gateway Gardens|Frankfurt am Main - Stadion|Frankfurt-Niederrad|Frankfurt(Main)Hbf"/>
+		<dp pt="2407260357" pp="6" l="8" ppth="Offenbach(Main)Hbf|Offenbach(Main)Ost|Mühlheim(Main)|Mühlheim(Main)-Dietesheim|Steinheim(Main)|Hanau Hbf"/>
+	</s>
+</timetable>
