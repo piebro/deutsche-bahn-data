@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<timetable station="Ingolstadt Hbf">
+	<s id="4772849352819251172-2407261339-21">
+		<tl f="N" t="p" o="800765" c="RB" n="59097"/>
+		<ar pt="2407261536" pp="2" l="16" ppth="Nürnberg Hbf|Schwabach|Roth|Unterheckenhofen|Georgensgmünd|Mühlstetten|Pleinfeld|Ellingen(Bay)|Weißenburg(Bay)|Treuchtlingen|Pappenheim|Solnhofen|Dollnstein|Eichstätt Bahnhof|Adelschlag|Tauberfeld|Eitensheim|Gaimersheim|Ingolstadt Audi|Ingolstadt Nord"/>
+		<dp pt="2407261537" pp="2" l="16" ppth="Baar-Ebenhausen|Rohrbach(Ilm)|Pfaffenhofen(Ilm)|Reichertshausen(Ilm)|Paindorf|Petershausen(Obb)|Dachau Bahnhof|München Hbf"/>
+	</s>
+	<s id="4984733192048627414-2407261504-1">
+		<tl f="N" t="p" o="800765" c="RE" n="59165"/>
+		<dp pt="2407261504" pp="2" l="1" ppth="Rohrbach(Ilm)|Pfaffenhofen(Ilm)|Petershausen(Obb)|München Hbf"/>
+	</s>
+	<s id="7468334744528629490-2407261512-2">
+		<tl f="F" t="p" o="80" c="ICE" n="584"/>
+		<ar pt="2407261547" pp="4" wings="-6425682665605104894-2407261512" ppth="München Hbf"/>
+		<dp pt="2407261550" pp="4" wings="-6425682665605104894-2407261512" ppth="Nürnberg Hbf|Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Lüneburg|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="5616787913028880958-2407261408-19">
+		<tl f="D" t="p" o="A9" c="ag" n="84334"/>
+		<ar pt="2407261553" pp="5" l="RB17" ppth="Plattling|Straßkirchen|Straubing|Radldorf(Niederbay)|Sünching|Obertraubling|Regensburg-Burgweinting|Regensburg Hbf|Regensburg-Prüfening|Sinzing|Poikam|Bad Abbach|Saal(Donau)|Abensberg|Neustadt(Donau)|Münchsmünster|Vohburg|Ernsgaden"/>
+		<dp pt="2407261554" pp="5" l="RB17" ppth="Ingolstadt Nord"/>
+	</s>
+	<s id="-5023902995770073206-2407261347-22">
+		<tl f="D" t="p" o="A9" c="ag" n="84285"/>
+		<ar pt="2407261547" pp="2 D-G" l="RB15" ppth="Ulm Hbf|Neu-Ulm|Nersingen|Leipheim|Günzburg|Gundelfingen(Bay)|Lauingen|Dillingen(Donau)|Höchstädt(Donau)|Blindheim|Schwenningen(Bay)|Tapfheim|Donauwörth|Genderkingen|Rain|Burgheim|Straß-Moos|Unterhausen(Bay)|Neuburg(Donau)|Rohrenfeld|Weichering"/>
+	</s>
+	<s id="8999201779717204412-2407261504-5">
+		<tl f="N" t="p" o="800765" c="RE" n="4026"/>
+		<ar pt="2407261551" pp="7" l="1" ppth="München Hbf|Petershausen(Obb)|Pfaffenhofen(Ilm)|Rohrbach(Ilm)"/>
+		<dp pt="2407261604" pp="7" l="1" ppth="Ingolstadt Nord|Kinding(Altmühltal)|Allersberg(Rothsee)|Nürnberg Hbf"/>
+	</s>
+	<s id="5439808080795220879-2407261404-5">
+		<tl f="N" t="p" o="800765" c="RE" n="4024"/>
+		<ar pt="2407261451" pp="5" l="1" ppth="München Hbf|Petershausen(Obb)|Pfaffenhofen(Ilm)|Rohrbach(Ilm)"/>
+		<dp pt="2407261504" pp="5" l="1" ppth="Ingolstadt Nord|Kinding(Altmühltal)|Allersberg(Rothsee)|Nürnberg Hbf"/>
+	</s>
+	<s id="-6425682665605104894-2407261512-2">
+		<tl f="F" t="p" o="80" c="ICE" n="984"/>
+		<ar pt="2407261547" pp="4" ppth="München Hbf"/>
+		<dp pt="2407261550" pp="4" ppth="Nürnberg Hbf|Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Lüneburg|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-28636392280668573-2407261516-10">
+		<tl f="D" t="p" o="Y8" c="BRB" n="84065"/>
+		<ar pt="2407261553" pp="2 A-C" l="RB14" ppth="Eichstätt Stadt|Rebdorf-Hofmühle|Wasserzell(b Eichstätt)|Eichstätt Bahnhof|Adelschlag|Eitensheim|Gaimersheim|Ingolstadt Audi|Ingolstadt Nord"/>
+	</s>
+	<s id="2085684327767920612-2407261508-1">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86713"/>
+		<dp pt="2407261508" pp="1 D-E" l="RB13" ppth="Brunnen(Oberbay)|Schrobenhausen|Radersdorf|Aichach|Obergriesbach|Dasing|Friedberg(Augsburg)|Augsburg-Hochzoll|Augsburg Haunstetterstraße|Augsburg Hbf"/>
+	</s>
+	<s id="-8410925947695584863-2407261511-1">
+		<tl f="D" t="p" o="A9" c="ag" n="84282"/>
+		<dp pt="2407261511" pp="6" l="RB15" ppth="Weichering|Rohrenfeld|Neuburg(Donau)|Unterhausen(Bay)|Straß-Moos|Burgheim|Rain|Genderkingen|Donauwörth|Tapfheim|Schwenningen(Bay)|Blindheim|Höchstädt(Donau)|Dillingen(Donau)|Lauingen|Gundelfingen(Bay)|Günzburg|Leipheim|Nersingen|Neu-Ulm|Ulm Hbf"/>
+	</s>
+	<s id="8511978692893146560-2407261535-1">
+		<tl t="p" o="B7" c="Bus" n="94026"/>
+		<dp pt="2407261535" pp="" l="EV" ppth="Kinding(Altmühltal)|Allersberg(Rothsee)|Roth"/>
+	</s>
+	<s id="1184971491498604817-2407261538-1">
+		<tl f="D" t="p" o="A9" c="ag" n="84159"/>
+		<dp pt="2407261538" pp="7" l="RB17" ppth="Ernsgaden|Vohburg|Münchsmünster|Neustadt(Donau)"/>
+	</s>
+	<s id="-8483210532685931151-2407261507-5">
+		<tl f="N" t="p" o="800765" c="RE" n="4027"/>
+		<ar pt="2407261556" pp="1" l="1" ppth="Nürnberg Hbf|Allersberg(Rothsee)|Kinding(Altmühltal)|Ingolstadt Nord"/>
+		<dp pt="2407261604" pp="1" l="1" ppth="Rohrbach(Ilm)|Pfaffenhofen(Ilm)|Petershausen(Obb)|München Hbf"/>
+	</s>
+	<s id="352760544966315660-2407261505-1">
+		<tl f="D" t="p" o="Y8" c="BRB" n="84066"/>
+		<dp pt="2407261505" pp="1 A-C" l="RB14" tra="3436483785969000846-2407261345-11" ppth="Ingolstadt Nord|Gaimersheim|Eitensheim|Tauberfeld|Adelschlag|Eichstätt Bahnhof|Wasserzell(b Eichstätt)|Rebdorf-Hofmühle|Eichstätt Stadt"/>
+	</s>
+	<s id="2745129652647772283-2407261426-9">
+		<tl f="N" t="p" o="800765" c="RB" n="59156"/>
+		<ar pt="2407261523" pp="5" l="16" ppth="München Hbf|Dachau Bahnhof|Petershausen(Obb)|Paindorf|Reichertshausen(Ilm)|Pfaffenhofen(Ilm)|Rohrbach(Ilm)|Baar-Ebenhausen"/>
+		<dp pt="2407261525" pp="5" l="16" ppth="Ingolstadt Nord|Ingolstadt Audi|Gaimersheim|Eitensheim|Tauberfeld|Adelschlag|Eichstätt Bahnhof|Dollnstein|Solnhofen|Pappenheim|Treuchtlingen"/>
+	</s>
+	<s id="3341068584313131676-2407261459-2">
+		<tl f="D" t="p" o="A9" c="ag" n="84333"/>
+		<ar pt="2407261503" pp="7" l="RB17" ppth="Ingolstadt Nord"/>
+		<dp pt="2407261505" pp="7" l="RB17" ppth="Ernsgaden|Vohburg|Münchsmünster|Neustadt(Donau)|Abensberg|Saal(Donau)|Bad Abbach|Gundelshausen|Sinzing|Regensburg-Prüfening|Regensburg Hbf"/>
+	</s>
+	<s id="-5747421127692212874-2407261442-11">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86704"/>
+		<ar pt="2407261546" pp="6" l="RB13" ppth="Augsburg Hbf|Augsburg Haunstetterstraße|Augsburg-Hochzoll|Friedberg(Augsburg)|Dasing|Obergriesbach|Aichach|Radersdorf|Schrobenhausen|Brunnen(Oberbay)"/>
+	</s>
+</timetable>
