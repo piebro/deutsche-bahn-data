@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<timetable station="Pforzheim Hbf">
+	<s id="-9156268319199357342-2407280914-1">
+		<tl t="p" o="SBSMEX" c="MEX" n="19511"/>
+		<dp pt="2407280914" pp="2" l="17a" ppth="Eutingen(Baden)|Niefern|Enzberg|Mühlacker|Mühlacker Rößlesweg|Illingen(Württ)|Vaihingen(Enz)|Sersheim|Sachsenheim|Ellental|Bietigheim-Bissingen"/>
+	</s>
+	<s id="-1360861594370411682-2407280946-1">
+		<tl f="S" t="p" o="A6S5" c="S" n="85054"/>
+		<dp pt="2407280946" pp="4" l="5" tra="-7381821727594584814-2407280905-19" ppth="Ispringen|Ersingen|Ersingen West|Bilfingen|Königsbach(Baden)|Wilferdingen-Singen"/>
+	</s>
+	<s id="-398700640434871034-2407280905-12">
+		<tl t="p" o="SBSMEX" c="MEX" n="19506"/>
+		<ar pt="2407280942" pp="2" l="17a" ppth="Bietigheim-Bissingen|Ellental|Sachsenheim|Sersheim|Vaihingen(Enz)|Illingen(Württ)|Mühlacker Rößlesweg|Mühlacker|Enzberg|Niefern|Eutingen(Baden)"/>
+		<dp pt="2407280944" pp="2" l="17a" ppth="Neuenbürg(Enz)|Bad Wildbad Bf"/>
+	</s>
+	<s id="5301242790303779761-2407280855-2">
+		<tl t="p" o="GA" c="Bus" n="58"/>
+		<ar pt="2407280936" pp="" l="EV" ppth="Karlsruhe Hbf"/>
+	</s>
+	<s id="-1749603407078346613-2407280955-1">
+		<tl t="p" o="GA" c="Bus" n="59"/>
+		<dp pt="2407280955" pp="" l="EV" ppth="Karlsruhe Hbf"/>
+	</s>
+	<s id="4613413604153541901-2407280936-1">
+		<tl f="N" t="p" o="800632" c="RB" n="17917"/>
+		<dp pt="2407280936" pp="103" l="74" ppth="Pforzheim Maihälden|Brötzingen Mitte|Pforzheim-Weißenstein|Unterreichenbach|Monbach-Neuhausen|Bad Liebenzell|Hirsau|Calw|Bad Teinach-Neubulach|Wildberg(Württ)|Nagold|Nagold Stadtmitte|Nagold-Steinberg|Nagold-Iselshausen|Hochdorf(b Horb)|Eutingen Nord|Horb"/>
+	</s>
+	<s id="4754533272026068425-2407280854-7">
+		<tl f="S" t="p" o="A6S5" c="S" n="85055"/>
+		<ar pt="2407280910" pp="3" l="5" tra="6671940146296987902-2407280917-1" ppth="Wilferdingen-Singen|Königsbach(Baden)|Bilfingen|Ersingen West|Ersingen|Ispringen"/>
+	</s>
+	<s id="3321257229993301414-2407280756-18">
+		<tl f="N" t="p" o="800632" c="RB" n="17914"/>
+		<ar pt="2407280922" pp="103" l="74" pde="Tübingen Hbf" ppth="Horb|Eutingen Nord|Hochdorf(b Horb)|Nagold-Iselshausen|Nagold-Steinberg|Nagold Stadtmitte|Nagold|Wildberg(Württ)|Bad Teinach-Neubulach|Calw|Hirsau|Bad Liebenzell|Monbach-Neuhausen|Unterreichenbach|Pforzheim-Weißenstein|Brötzingen Mitte|Pforzheim Maihälden"/>
+	</s>
+	<s id="6671940146296987902-2407280917-1">
+		<tl f="S" t="p" o="A6S6" c="S" n="85055"/>
+		<dp pt="2407280917" pp="3" l="6" tra="4754533272026068425-2407280854-7" ppth="Pforzheim Maihälden|Brötzingen Mitte|Brötzingen Sandweg|Brötzingen Wohnlichstraße|Birkenfeld(Enz)|Neuenbürg(Enz)|Neuenbürg(Enz) Süd|Neuenbürg(Enz) Freibad|Rotenbach(Enz)|Neuenbürg(Enz)-Rotenbach Eyachbrücke|Höfen(Enz) Nord|Höfen(Enz) Bf|Calmbach Bahnhof|Calmbach Süd|Bad Wildbad Nord|Bad Wildbad Bf|Bad Wildbad Uhlandplatz|Bad Wildbad Kurpark"/>
+	</s>
+	<s id="6690756078063907250-2407280944-1">
+		<tl t="p" o="SBSMEX" c="MEX" n="19551"/>
+		<dp pt="2407280944" pp="3" l="17a" ppth="Eutingen(Baden)|Niefern|Enzberg|Mühlacker|Mühlacker Rößlesweg|Illingen(Württ)|Vaihingen(Enz)|Sersheim|Sachsenheim|Ellental|Bietigheim-Bissingen"/>
+	</s>
+	<s id="-7381821727594584814-2407280905-19">
+		<tl f="S" t="p" o="A6S6" c="S" n="85054"/>
+		<ar pt="2407280940" pp="4" l="6" tra="-1360861594370411682-2407280946-1" ppth="Bad Wildbad Kurpark|Bad Wildbad Uhlandplatz|Bad Wildbad Bf|Bad Wildbad Nord|Calmbach Süd|Calmbach Bahnhof|Höfen(Enz) Bf|Höfen(Enz) Nord|Neuenbürg(Enz)-Rotenbach Eyachbrücke|Rotenbach(Enz)|Neuenbürg(Enz) Freibad|Neuenbürg(Enz) Süd|Neuenbürg(Enz)|Birkenfeld(Enz)|Brötzingen Wohnlichstraße|Brötzingen Sandweg|Brötzingen Mitte|Pforzheim Maihälden"/>
+	</s>
+</timetable>
