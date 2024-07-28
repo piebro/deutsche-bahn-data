@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<timetable station="Mainz Hbf">
+	<s id="8503777394879306018-2407272322-3">
+		<tl f="F" t="p" o="80" c="ICE" n="920"/>
+		<ar pt="2407272359" pp="3a/b" ppth="Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Regionalbf"/>
+		<dp pt="2407280001" pp="3a/b" ppth="Bingen(Rhein) Hbf|Koblenz Hbf|Remagen|Bonn Hbf|Köln Hbf"/>
+	</s>
+	<s id="-4809222427286728266-2407272341-9">
+		<tl f="N" t="p" o="V6RB" c="RB" n="29589"/>
+		<ar pt="2407280019" pp="8" l="33" pde="Saarbrücken Hbf" ppth="Bad Kreuznach|Gensingen-Horrweiler|Ockenheim|Gau Algesheim|Ingelheim|Heidesheim(Rheinhess)|Uhlerborn|Budenheim"/>
+	</s>
+	<s id="4646652656987426902-2407280005-1">
+		<tl f="N" t="p" o="TR" c="RB" n="25454"/>
+		<dp pt="2407280005" pp="11" l="26" ppth="Mainz-Mombach|Budenheim|Uhlerborn|Heidesheim(Rheinhess)|Ingelheim|Gau Algesheim|Bingen-Gaulsheim|Bingen(Rhein) Stadt|Bingen(Rhein) Hbf|Trechtingshausen|Niederheimbach|Bacharach|Oberwesel|St Goar|Boppard-Hirzenach|Boppard-Bad Salzig|Boppard Hbf|Spay|Rhens|Koblenz Hbf|Koblenz Stadtmitte|Koblenz-Lützel|Mülheim-Kärlich|Weißenthurm|Andernach|Namedy|Brohl|Bad Breisig|Sinzig(Rhein)|Remagen"/>
+	</s>
+	<s id="-4775919377312079274-2407271855-8">
+		<tl t="p" o="81" c="NJ" n="40425"/>
+		<ar pt="2407280022" pp="4a/b" ppth="Bruxelles Midi|Bruxelles-Nord|Liège-Guillemins|Aachen Hbf|Köln Hbf|Bonn-Beuel|Koblenz Hbf"/>
+		<dp pt="2407280029" pp="4a/b" ppth="Mannheim Hbf|München Ost|Rosenheim|Freilassing|Salzburg Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="-2320340282101811304-2407272043-7">
+		<tl f="F" t="p" o="80" c="ICE" n="990"/>
+		<ar pt="2407280016" pp="1a/b" ppth="München Hbf|München-Pasing|Augsburg Hbf|Ulm Hbf|Stuttgart Hbf|Mannheim Hbf"/>
+		<dp pt="2407280018" pp="1a/b" ppth="Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-8061247609116052278-2407280004-2">
+		<tl f="N" t="p" o="V6RB" c="RB" n="29590"/>
+		<ar pt="2407280031" pp="3a/b" l="33" ppth="Frankfurt(Main)Hbf"/>
+		<dp pt="2407280037" pp="3a/b" l="33" ppth="Budenheim|Heidesheim(Rheinhess)|Ingelheim|Gau Algesheim|Ockenheim|Gensingen-Horrweiler|Bad Kreuznach|Bad Münster a Stein|Norheim|Staudernheim|Bad Sobernheim|Monzingen|Martinstein|Hochstetten(Nahe)|Kirn|Kirnsulzbach|Fischbach-Weierbach|Idar-Oberstein"/>
+	</s>
+	<s id="477558261709148762-2407280010-1">
+		<tl f="N" t="p" o="V6RB" c="RB" n="29278"/>
+		<dp pt="2407280010" pp="8" l="31" ppth="Mainz Waggonfabrik|Mainz-Gonsenheim|Mainz-Marienborn|Klein Winternheim-Ober Olm|Nieder Olm|Saulheim|Wörrstadt|Armsheim|Albig|Alzey|Alzey West|Wahlheim|Freimersheim(Rheinh)|Kirchheimbolanden"/>
+	</s>
+	<s id="-9061060548328880741-2407271855-8">
+		<tl t="p" o="88" c="NJ" n="425"/>
+		<ar pt="2407280022" pp="4a/b" wings="-4775919377312079274-2407271855" ppth="Bruxelles Midi|Bruxelles-Nord|Liège-Guillemins|Aachen Hbf|Köln Hbf|Bonn-Beuel|Koblenz Hbf"/>
+		<dp pt="2407280029" pp="4a/b" wings="-4775919377312079274-2407271855" ppth="Mannheim Hbf|Frankfurt(Main)Süd|Erfurt Hbf|Halle(Saale)Hbf|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="8701286456892320958-2407272247-2">
+		<tl f="F" t="p" o="80" c="ICE" n="619"/>
+		<ar pt="2407280034" pp="5a/b" ppth="Köln Hbf"/>
+		<dp pt="2407280036" pp="5a/b" ppth="Mannheim Hbf|Heidelberg Hbf|Stuttgart Hbf|Ulm Hbf|Günzburg|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+</timetable>
