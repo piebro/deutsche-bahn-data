@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<timetable station="Köln Messe/Deutz Gl.11-12">
+	<s id="-4272298498907669914-2407291732-5">
+		<tl t="p" o="81" c="NJ" n="40421"/>
+		<ar pt="2407292135" pp="11" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Düsseldorf Hbf"/>
+		<dp pt="2407292145" pp="11" ppth="Würzburg Hbf|Nürnberg Hbf|Regensburg Hbf|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="-3823254010841261196-2407291732-5">
+		<tl t="p" o="84" c="NJ" n="421"/>
+		<ar pt="2407292135" pp="11" wings="-4272298498907669914-2407291732" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Düsseldorf Hbf"/>
+		<dp pt="2407292145" pp="11" wings="-4272298498907669914-2407291732" ppth="Würzburg Hbf|Nürnberg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="-7056878515633598205-2407291808-6">
+		<tl f="F" t="p" o="84" c="ICE" n="221"/>
+		<ar pt="2407292126" pp="11" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Oberhausen-Sterkrade|Düsseldorf Hbf"/>
+	</s>
+	<s id="-9042812343850933976-2407292103-1">
+		<tl f="N" t="p" o="NXRE" c="RE" n="19939"/>
+		<dp pt="2407292103" pp="" l="6" ppth="Köln-Mülheim|Leverkusen Mitte|Düsseldorf-Benrath|Düsseldorf Hbf"/>
+	</s>
+	<s id="-8054884577149772020-2407292119-5">
+		<tl f="N" t="p" o="NXRE" c="RE" n="19934"/>
+		<ar pt="2407292149" pp="" l="6" ppth="Düsseldorf Hbf|Düsseldorf-Benrath|Leverkusen Mitte|Köln-Mülheim"/>
+	</s>
+</timetable>
