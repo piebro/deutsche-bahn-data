@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg Hbf">
+	<s id="-72395636281014700-2407300036-1">
+		<tl f="N" t="p" o="800155" c="RE" n="4323"/>
+		<dp pt="2407300036" pp="8" l="1" ppth="Hamburg-Bergedorf|Schwarzenbek|Müssen|Büchen|Schwanheide|Boizenburg(Elbe)|Brahlstorf|Pritzier|Ludwigslust|Schwerin Süd|Schwerin Mitte|Schwerin Hbf"/>
+	</s>
+	<s id="-4550435493069381661-2407292306-13">
+		<tl f="D" t="p" o="R1" c="ME" n="81642"/>
+		<ar pt="2407300027" pp="11A-C" l="RB31" ppth="Uelzen|Bad Bevensen|Bienenbüttel|Lüneburg|Bardowick|Radbruch|Winsen(Luhe)|Ashausen|Stelle|Maschen|Meckelfeld|Hamburg-Harburg"/>
+	</s>
+	<s id="8218544619443085427-2407291655-12">
+		<tl f="F" t="p" o="80" c="ICE" n="502"/>
+		<ar pt="2407300033" pp="5" ppth="München Hbf|Nürnberg Hbf|Erlangen|Bamberg|Erfurt Hbf|Leipzig Hbf|Bitterfeld|Berlin Hbf|Berlin-Spandau|Wittenberge|Ludwigslust"/>
+		<dp pt="2407300036" pp="5" hi="1" ppth="Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+</timetable>
