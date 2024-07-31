@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<timetable station="Offenburg">
+	<s id="-856105500002572781-2407302320-15">
+		<tl f="N" t="p" o="8006C4" c="RB" n="17136"/>
+		<ar pt="2407310010" pp="6" l="27" ppth="Freiburg(Breisgau) Hbf|Gundelfingen(Breisgau)|Denzlingen|Kollmarsreute|Emmendingen|Teningen-Mundingen|Köndringen|Riegel-Malterdingen|Kenzingen|Herbolzheim(Breisg)|Ringsheim/Europa-Park|Orschweier|Lahr(Schwarzw)|Friesenheim(Baden)"/>
+	</s>
+	<s id="-1864087516321090386-2407302308-12">
+		<tl f="N" t="p" o="8006C5" c="RE" n="17031"/>
+		<ar pt="2407310003" pp="5" l="7" ppth="Karlsruhe Hbf|Ettlingen West|Bruchhausen(b Ettlingen)|Malsch|Muggensturm|Rastatt|Baden-Baden|Bühl(Baden)|Achern|Renchen|Appenweier"/>
+		<dp pt="2407310007" pp="5" l="7" ppth="Lahr(Schwarzw)|Orschweier|Ringsheim/Europa-Park|Herbolzheim(Breisg)|Kenzingen|Riegel-Malterdingen|Emmendingen|Denzlingen|Freiburg(Breisgau) Hbf"/>
+	</s>
+	<s id="4753870957390372842-2407302159-5">
+		<tl f="F" t="p" o="NZ" c="IC" n="60402"/>
+		<ar pt="2407310039" pp="6" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf"/>
+		<dp pt="2407310041" pp="6" ppth="Baden-Baden|Karlsruhe Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf|Bonn Hbf|Köln Hbf|Düsseldorf Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="8868050453695511606-2407302159-5">
+		<tl t="p" o="85" c="NJ" n="402"/>
+		<ar pt="2407310039" pp="6" hi="1" wings="4753870957390372842-2407302159" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf"/>
+		<dp pt="2407310041" pp="6" wings="4753870957390372842-2407302159" ppth="Baden-Baden|Karlsruhe Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf|Bonn Hbf|Köln Hbf|Düsseldorf Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="5020092755340026746-2407302300-15">
+		<tl f="D" t="p" o="S6" c="SWE" n="88608"/>
+		<ar pt="2407310014" pp="7" l="RB20" ppth="Freudenstadt Hbf|Loßburg-Rodt|Alpirsbach|Schenkenzell|Schiltach Mitte|Schiltach|Halbmeil|Wolfach|Hausach|Haslach|Steinach(Baden)|Biberach(Baden)|Gengenbach|Offenburg Kreisschulzentrum"/>
+	</s>
+</timetable>

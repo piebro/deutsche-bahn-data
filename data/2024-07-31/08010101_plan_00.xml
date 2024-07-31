@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<timetable station="Erfurt Hbf">
+	<s id="6586195664112347121-2407302344-4">
+		<tl f="N" t="p" o="AMRB" c="RB" n="21736"/>
+		<ar pt="2407310001" pp="3a" l="20" ppth="Weimar|Hopfgarten(Weimar)|Vieselbach"/>
+	</s>
+	<s id="-354358819527274421-2407310003-1">
+		<tl f="N" t="p" o="SB" c="RB" n="81289"/>
+		<dp pt="2407310003" pp="7" l="44" ppth="Erfurt-Bischleben|Neudietendorf|Sülzenbrücken|Haarhausen|Arnstadt Hbf|Arnstadt Süd|Plaue(Thür)|Gräfenroda|Dörrberg|Gehlberg|Zella-Mehlis|Suhl|Suhl-Heinrichs|Dietzhausen|Rohr(Thür)|Grimmenthal|Untermaßfeld|Meiningen"/>
+	</s>
+	<s id="6047326717910200158-2407310037-1">
+		<tl t="p" o="EB" c="Bus" n="60915"/>
+		<dp pt="2407310037" pp="" l="EV" ppth="Vieselbach|Hopfgarten(Weimar)|Weimar"/>
+	</s>
+	<s id="6411876671020775734-2407310003-1">
+		<tl f="N" t="p" o="SB" c="RB" n="81225"/>
+		<dp pt="2407310003" pp="7" l="46" wings="-354358819527274421-2407310003" ppth="Erfurt-Bischleben|Neudietendorf|Sülzenbrücken|Haarhausen|Arnstadt Hbf|Arnstadt Süd|Plaue(Thür)|Martinroda|Geraberg|Elgersburg|Ilmenau-Roda|Ilmenau Pörlitzer Höhe|Ilmenau"/>
+	</s>
+</timetable>

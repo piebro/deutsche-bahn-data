@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<timetable station="Heidelberg Hbf">
+	<s id="8701286456892320958-2407302247-4">
+		<tl f="F" t="p" o="80" c="ICE" n="619"/>
+		<ar pt="2407310150" pp="7" ppth="Köln Hbf|Mainz Hbf|Mannheim Hbf"/>
+		<dp pt="2407310152" pp="7" ppth="Stuttgart Hbf|Ulm Hbf|Günzburg|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="7108274583246193747-2407302151-6">
+		<tl f="F" t="p" o="80" c="ICE" n="698"/>
+		<ar pt="2407310123" pp="5" ppth="München Hbf|Augsburg Hbf|Günzburg|Ulm Hbf|Stuttgart Hbf"/>
+		<dp pt="2407310127" pp="5" ppth="Darmstadt Hbf|Frankfurt(Main)Hbf|Eisenach|Erfurt Hbf|Halle(Saale)Hbf|Bitterfeld|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="7479964783882811425-2407310111-8">
+		<tl f="S" t="p" o="801539" c="S" n="38385"/>
+		<ar pt="2407310140" pp="8" l="3" ppth="Ludwigshafen(Rh)Hbf|Ludwigshafen(Rhein) Mitte|Mannheim Hbf|Mannheim ARENA/Maimarkt|Mannheim-Seckenheim|Mannheim-Friedrichsfeld Süd|Heidelberg-Pfaffengrund/Wieblingen"/>
+		<dp pt="2407310141" pp="8" l="3" ppth="Heidelberg-Kirchheim/Rohrbach|St Ilgen-Sandhausen|Wiesloch-Walldorf|Rot-Malsch|Bad Schönborn-Kronau|Bad Schönborn Süd|Stettfeld-Weiher|Ubstadt-Weiher|Bruchsal|Bruchsal Bildungszentrum|Untergrombach|Weingarten(Baden)|Karlsruhe-Durlach|Karlsruhe Hbf"/>
+	</s>
+	<s id="1003446772902483359-2407302059-9">
+		<tl t="p" o="85" c="NJ" n="470"/>
+		<ar pt="2407310104" pp="5" hi="1" wings="-5591597380485360579-2407302059" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Bruchsal"/>
+		<dp pt="2407310108" pp="5" hi="1" wings="-5591597380485360579-2407302059" ppth="Darmstadt Hbf|Frankfurt(Main)Süd|Hanau Hbf|Göttingen|Hannover Hbf|Nienburg(Weser)|Verden(Aller)|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-5591597380485360579-2407302059-9">
+		<tl f="F" t="p" o="NZ" c="IC" n="60470"/>
+		<ar pt="2407310104" pp="5" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Bruchsal"/>
+		<dp pt="2407310108" pp="5" ppth="Darmstadt Hbf|Frankfurt(Main)Süd|Hanau Hbf|Göttingen|Hannover Hbf|Nienburg(Weser)|Verden(Aller)|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+</timetable>

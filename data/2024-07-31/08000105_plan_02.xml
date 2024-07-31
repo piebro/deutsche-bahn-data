@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Frankfurt(Main)Hbf">
+	<s id="7108274583246193747-2407302151-8">
+		<tl f="F" t="p" o="80" c="ICE" n="698"/>
+		<ar pt="2407310236" pp="8" ppth="München Hbf|Augsburg Hbf|Günzburg|Ulm Hbf|Stuttgart Hbf|Heidelberg Hbf|Darmstadt Hbf"/>
+		<dp pt="2407310249" pp="8" ppth="Eisenach|Erfurt Hbf|Halle(Saale)Hbf|Bitterfeld|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="-7138074359361066746-2407301819-11">
+		<tl f="F" t="p" o="80" c="ICE" n="699"/>
+		<ar pt="2407310211" pp="8" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz|Bitterfeld|Leipzig Hbf|Erfurt Hbf|Eisenach"/>
+		<dp pt="2407310225" pp="8" ppth="Darmstadt Hbf|Heidelberg Hbf|Stuttgart Hbf|Ulm Hbf|Günzburg|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="8868050453695511606-2407302159-8">
+		<tl t="p" o="85" c="NJ" n="402"/>
+		<ar pt="2407310243" pp="18" hi="1" wings="4753870957390372842-2407302159" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf"/>
+		<dp pt="2407310313" pp="18" hi="1" wings="4753870957390372842-2407302159" ppth="Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf|Bonn Hbf|Köln Hbf|Düsseldorf Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="4753870957390372842-2407302159-8">
+		<tl f="F" t="p" o="NZ" c="IC" n="60402"/>
+		<ar pt="2407310243" pp="18" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf"/>
+		<dp pt="2407310313" pp="18" ppth="Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf|Bonn Hbf|Köln Hbf|Düsseldorf Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="3514472050270834834-2407310146-8">
+		<tl f="S" t="p" o="800528" c="S" n="35890"/>
+		<ar pt="2407310217" pp="19" l="8" ppth="Hanau Hbf|Steinheim(Main)|Mühlheim(Main)-Dietesheim|Mühlheim(Main)|Offenbach(Main)Ost|Offenbach(Main)Hbf|Frankfurt(Main)Süd"/>
+		<dp pt="2407310225" pp="19" l="8" ppth="Frankfurt-Niederrad|Frankfurt am Main - Stadion|Frankfurt(M) Flughafen Fernbf|Raunheim|Rüsselsheim|Rüsselsheim Opelwerk|Mainz-Bischofsheim|Mainz-Gustavsburg|Mainz Römisches Theater|Mainz Hbf|Mainz Nord|Wiesbaden Ost|Wiesbaden Hbf"/>
+	</s>
+	<s id="-4826584964964001816-2407310148-16">
+		<tl f="S" t="p" o="800528" c="S" n="35891"/>
+		<ar pt="2407310245" pp="19" l="8" ppth="Wiesbaden Hbf|Wiesbaden Ost|Mainz Nord|Mainz Hbf|Mainz Römisches Theater|Mainz-Gustavsburg|Mainz-Bischofsheim|Rüsselsheim Opelwerk|Rüsselsheim|Raunheim|Kelsterbach|Frankfurt(M) Flughafen Regionalbf|Frankfurt(Main)-Gateway Gardens|Frankfurt am Main - Stadion|Frankfurt-Niederrad"/>
+		<dp pt="2407310253" pp="19" l="8" ppth="Frankfurt(Main)Süd|Offenbach(Main)Hbf|Offenbach(Main)Ost|Mühlheim(Main)|Mühlheim(Main)-Dietesheim|Steinheim(Main)|Hanau Hbf"/>
+	</s>
+</timetable>

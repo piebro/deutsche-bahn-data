@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<timetable station="Singen(Hohentwiel)">
+	<s id="6787092299889453682-2407310550-1">
+		<tl f="N" t="p" o="NZ" c="RE" n="51184"/>
+		<dp pt="2407310550" pp="5" l="87" ppth="Engen|Tuttlingen|Spaichingen|Rottweil|Oberndorf(Neckar)|Sulz(Neckar)|Horb|Herrenberg|Böblingen"/>
+	</s>
+	<s id="-775244220373788191-2407310530-2">
+		<tl f="F" t="p" o="85" c="IC" n="1184"/>
+		<ar pt="2407310544" pp="5" ppth="Schaffhausen"/>
+		<dp pt="2407310550" pp="5" wings="6787092299889453682-2407310550" ppth="Engen|Tuttlingen|Spaichingen|Rottweil|Oberndorf(Neckar)|Sulz(Neckar)|Horb|Herrenberg|Böblingen"/>
+	</s>
+	<s id="3875439953947615116-2407310541-1">
+		<tl f="N" t="p" o="800693" c="IRE" n="3040"/>
+		<dp pt="2407310541" pp="1" l="3" tra="-425458271754434697-2407310417-16" ppth="Schaffhausen|Erzingen(Baden)|Lauchringen|Tiengen(Hochrhein)|Waldshut|Bad Säckingen|Rheinfelden(Baden)|Basel Bad Bf"/>
+	</s>
+	<s id="-6927262243726920702-2407310521-6">
+		<tl t="p" o="85L7" c="SBB" n="19701"/>
+		<ar pt="2407310539" pp="4" l="S62" ppth="Schaffhausen|Herblingen|Thayngen|Bietingen|Gottmadingen"/>
+	</s>
+	<s id="-6073625747762568934-2407310436-12">
+		<tl t="p" o="L7" c="SBB" n="87652"/>
+		<ar pt="2407310507" pp="3" l="S6" ppth="Konstanz|Konstanz-Petershausen|Konstanz-Fürstenberg|Konstanz-Wollmatingen|Reichenau(Baden)|Hegne|Allensbach|Markelfingen|Radolfzell|Böhringen-Rickelshausen|Singen Industriegebiet"/>
+		<dp pt="2407310516" pp="3" l="S6" ppth="Singen Landesgartenschau|Mühlhausen(b Engen)|Welschingen-Neuhausen|Engen"/>
+	</s>
+	<s id="969253261716302246-2407310527-1">
+		<tl f="N" t="p" o="800693" c="RB" n="32471"/>
+		<dp pt="2407310527" pp="4" l="31" ppth="Radolfzell|Ludwigshafen(Bodensee)|Sipplingen|Überlingen Therme|Überlingen|Überlingen-Nußdorf|Uhldingen-Mühlhofen|Salem|Bermatingen-Ahausen|Markdorf(Baden)|Friedrichshafen-Kluftern|Friedrichshafen-Fischbach|Friedrichshafen-Manzell|Friedrichshafen Landratsamt|Friedrichshafen Stadt"/>
+	</s>
+	<s id="3111310063298862757-2407310520-6">
+		<tl f="N" t="p" o="800647" c="RE" n="4710"/>
+		<ar pt="2407310545" pp="1" l="2" ppth="Konstanz|Allensbach|Radolfzell|Böhringen-Rickelshausen|Singen Industriegebiet"/>
+		<dp pt="2407310546" pp="1" l="2" ppth="Engen|Immendingen|Donaueschingen|Villingen(Schwarzw)|St Georgen(Schwarzw)|Triberg|Hornberg(Schwarzw)|Hausach|Biberach(Baden)|Gengenbach|Offenburg|Appenweier|Renchen|Achern|Bühl(Baden)|Baden-Baden|Rastatt|Karlsruhe Hbf"/>
+	</s>
+	<s id="6758974703359180187-2407310451-4">
+		<tl f="N" t="p" o="800647" c="RE" n="4706"/>
+		<ar pt="2407310511" pp="1" l="2" ppth="Konstanz|Allensbach|Radolfzell"/>
+		<dp pt="2407310512" pp="1" l="2" ppth="Engen|Immendingen|Geisingen|Donaueschingen|Villingen(Schwarzw)|St Georgen(Schwarzw)|Triberg|Hornberg(Schwarzw)|Hausach|Haslach|Steinach(Baden)|Biberach(Baden)|Gengenbach|Offenburg Kreisschulzentrum|Offenburg"/>
+	</s>
+	<s id="-338218436059636400-2407310456-5">
+		<tl t="p" o="L7" c="SBB" n="87651"/>
+		<ar pt="2407310509" pp="2" l="S6" ppth="Engen|Welschingen-Neuhausen|Mühlhausen(b Engen)|Singen Landesgartenschau"/>
+		<dp pt="2407310510" pp="2" l="S6" ppth="Singen Industriegebiet|Böhringen-Rickelshausen|Radolfzell|Markelfingen|Allensbach|Hegne|Reichenau(Baden)|Konstanz-Wollmatingen|Konstanz-Fürstenberg|Konstanz-Petershausen|Konstanz"/>
+	</s>
+	<s id="-6964624205596180593-2407310538-1">
+		<tl t="p" o="L7" c="SBB" n="87654"/>
+		<dp pt="2407310538" pp="3" ppth="Singen Landesgartenschau|Mühlhausen(b Engen)|Welschingen-Neuhausen|Engen"/>
+	</s>
+	<s id="-2466380881020268534-2407310534-5">
+		<tl t="p" o="L7" c="SBB" n="87653"/>
+		<ar pt="2407310547" pp="2" l="S6" ppth="Engen|Welschingen-Neuhausen|Mühlhausen(b Engen)|Singen Landesgartenschau"/>
+		<dp pt="2407310557" pp="2" l="S6" ppth="Singen Industriegebiet|Böhringen-Rickelshausen|Radolfzell|Markelfingen|Allensbach|Hegne|Reichenau(Baden)|Konstanz-Wollmatingen|Konstanz-Fürstenberg|Konstanz-Petershausen|Konstanz"/>
+	</s>
+	<s id="-5815828714229911026-2407310532-1">
+		<tl t="p" o="L7" c="SBB" n="19700"/>
+		<dp pt="2407310532" pp="5" l="S62" ppth="Gottmadingen|Bietingen|Thayngen|Herblingen|Schaffhausen"/>
+	</s>
+	<s id="-425458271754434697-2407310417-16">
+		<tl f="N" t="p" o="800693" c="RB" n="32470"/>
+		<ar pt="2407310536" pp="1" l="3" tra="3875439953947615116-2407310541-1" ppth="Friedrichshafen Stadt|Friedrichshafen Landratsamt|Friedrichshafen-Manzell|Friedrichshafen-Fischbach|Friedrichshafen-Kluftern|Markdorf(Baden)|Bermatingen-Ahausen|Salem|Uhldingen-Mühlhofen|Überlingen-Nußdorf|Überlingen|Überlingen Therme|Sipplingen|Ludwigshafen(Bodensee)|Radolfzell"/>
+	</s>
+</timetable>

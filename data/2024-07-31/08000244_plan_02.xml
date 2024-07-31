@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="Mannheim Hbf">
+	<s id="2445748007328325452-2407301912-2">
+		<tl t="p" o="81" c="NJ" n="469"/>
+		<ar pt="2407310056" pp="5" hi="1" wings="3673026080162824134-2407301912" ppth="Paris Est"/>
+		<dp pt="2407310225" pp="5" hi="1" wings="-4775919377312079274-2407301907" ppth="München Ost|Rosenheim|Freilassing|Salzburg Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="-9061060548328880741-2407301907-9">
+		<tl t="p" o="88" c="NJ" n="425"/>
+		<ar pt="2407310121" pp="4" hi="1" wings="-4775919377312079274-2407301907" ppth="Bruxelles Midi|Bruxelles-Nord|Liège-Guillemins|Aachen Hbf|Köln-Ehrenfeld|Bonn-Beuel|Koblenz Hbf|Mainz Hbf"/>
+		<dp pt="2407310223" pp="4" hi="1" wings="3673026080162824134-2407301912" ppth="Frankfurt(Main)Süd|Erfurt Hbf|Halle(Saale)Hbf|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="-4775919377312079274-2407301907-9">
+		<tl t="p" o="81" c="NJ" n="40425"/>
+		<ar pt="2407310121" pp="4" hi="1" ppth="Bruxelles Midi|Bruxelles-Nord|Liège-Guillemins|Aachen Hbf|Köln-Ehrenfeld|Bonn-Beuel|Koblenz Hbf|Mainz Hbf"/>
+		<dp pt="2407310225" pp="4" hi="1" ppth="München Ost|Rosenheim|Freilassing|Salzburg Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="3673026080162824134-2407301912-2">
+		<tl t="p" o="81" c="NJ" n="40469"/>
+		<ar pt="2407310056" pp="4" hi="1" ppth="Paris Est"/>
+		<dp pt="2407310223" pp="4" hi="1" ppth="Frankfurt(Main)Süd|Erfurt Hbf|Halle(Saale)Hbf|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+</timetable>
