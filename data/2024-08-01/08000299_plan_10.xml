@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<timetable station="Pforzheim Hbf">
+	<s id="-7589939909818221823-2408010853-18">
+		<tl f="N" t="p" o="800632" c="RB" n="17920"/>
+		<ar pt="2408011022" pp="103" l="74" ppth="Horb|Eutingen Nord|Hochdorf(b Horb)|Nagold-Iselshausen|Nagold-Steinberg|Nagold Stadtmitte|Nagold|Wildberg(Württ)|Bad Teinach-Neubulach|Calw|Hirsau|Bad Liebenzell|Monbach-Neuhausen|Unterreichenbach|Pforzheim-Weißenstein|Brötzingen Mitte|Pforzheim Maihälden"/>
+	</s>
+	<s id="-24159166540903798-2408011014-1">
+		<tl t="p" o="SBSMEX" c="MEX" n="19513"/>
+		<dp pt="2408011014" pp="2" l="17a" ppth="Eutingen(Baden)|Niefern|Enzberg|Mühlacker|Mühlacker Rößlesweg|Illingen(Württ)|Vaihingen(Enz)|Sersheim|Sachsenheim|Ellental|Bietigheim-Bissingen"/>
+	</s>
+	<s id="-3034943574162815576-2408011017-1">
+		<tl f="S" t="p" o="A6S6" c="S" n="85057"/>
+		<dp pt="2408011017" pp="3" l="6" tra="-6642524161399108748-2408010954-7" ppth="Pforzheim Maihälden|Brötzingen Mitte|Brötzingen Sandweg|Brötzingen Wohnlichstraße|Birkenfeld(Enz)|Neuenbürg(Enz)|Neuenbürg(Enz) Süd|Neuenbürg(Enz) Freibad|Rotenbach(Enz)|Neuenbürg(Enz)-Rotenbach Eyachbrücke|Höfen(Enz) Nord|Höfen(Enz) Bf|Calmbach Bahnhof|Calmbach Süd|Bad Wildbad Nord|Bad Wildbad Bf|Bad Wildbad Uhlandplatz|Bad Wildbad Kurpark"/>
+	</s>
+	<s id="2048549938011258452-2408011004-12">
+		<tl t="p" o="SBSMEX" c="MEX" n="19508"/>
+		<ar pt="2408011042" pp="1" l="17a" ppth="Bietigheim-Bissingen|Ellental|Sachsenheim|Sersheim|Vaihingen(Enz)|Illingen(Württ)|Mühlacker Rößlesweg|Mühlacker|Enzberg|Niefern|Eutingen(Baden)"/>
+	</s>
+	<s id="8081592822069822238-2408011036-1">
+		<tl f="N" t="p" o="800632" c="RB" n="17919"/>
+		<dp pt="2408011036" pp="103" l="74" pde="Tübingen Hbf" ppth="Pforzheim Maihälden|Brötzingen Mitte|Pforzheim-Weißenstein|Unterreichenbach|Monbach-Neuhausen|Bad Liebenzell|Hirsau|Calw|Bad Teinach-Neubulach|Wildberg(Württ)|Nagold|Nagold Stadtmitte|Nagold-Steinberg|Nagold-Iselshausen|Hochdorf(b Horb)|Eutingen Nord|Horb"/>
+	</s>
+	<s id="-7643782808407453433-2408011025-1">
+		<tl t="p" o="GA" c="Bus" n="2390"/>
+		<dp pt="2408011025" pp="" l="EV" ppth="Karlsruhe Hbf"/>
+	</s>
+	<s id="-6642524161399108748-2408010954-7">
+		<tl f="S" t="p" o="A6S5" c="S" n="85057"/>
+		<ar pt="2408011010" pp="3" l="5" tra="-3034943574162815576-2408011017-1" ppth="Wilferdingen-Singen|Königsbach(Baden)|Bilfingen|Ersingen West|Ersingen|Ispringen"/>
+	</s>
+	<s id="4839003128476509841-2408010925-2">
+		<tl t="p" o="GA" c="Bus" n="332"/>
+		<ar pt="2408011005" pp="" l="EV" ppth="Karlsruhe Hbf"/>
+	</s>
+	<s id="-1344880451557447282-2408011046-1">
+		<tl f="S" t="p" o="A6S5" c="S" n="85056"/>
+		<dp pt="2408011046" pp="4" l="5" tra="-96575164398149071-2408011005-19" ppth="Ispringen|Ersingen|Ersingen West|Bilfingen|Königsbach(Baden)|Wilferdingen-Singen"/>
+	</s>
+	<s id="1233928431274812790-2408010932-12">
+		<tl t="p" o="SBSMEX" c="MEX" n="19556"/>
+		<ar pt="2408011013" pp="5" l="17a" ppth="Bietigheim-Bissingen|Ellental|Sachsenheim|Sersheim|Vaihingen(Enz)|Illingen(Württ)|Mühlacker Rößlesweg|Mühlacker|Enzberg|Niefern|Eutingen(Baden)"/>
+	</s>
+	<s id="3530465131402703188-2408011044-1">
+		<tl t="p" o="SBSMEX" c="MEX" n="19553"/>
+		<dp pt="2408011044" pp="5" l="17a" ppth="Eutingen(Baden)|Niefern|Enzberg|Mühlacker|Mühlacker Rößlesweg|Illingen(Württ)|Vaihingen(Enz)|Sersheim|Sachsenheim|Ellental|Bietigheim-Bissingen"/>
+	</s>
+	<s id="-3730449648233837586-2408010955-2">
+		<tl t="p" o="GA" c="Bus" n="60"/>
+		<ar pt="2408011036" pp="" l="EV" ppth="Karlsruhe Hbf"/>
+	</s>
+	<s id="-2397244485118556145-2408011055-1">
+		<tl t="p" o="GA" c="Bus" n="61"/>
+		<dp pt="2408011055" pp="" l="EV" ppth="Karlsruhe Hbf"/>
+	</s>
+	<s id="-96575164398149071-2408011005-19">
+		<tl f="S" t="p" o="A6S6" c="S" n="85056"/>
+		<ar pt="2408011040" pp="4" l="6" tra="-1344880451557447282-2408011046-1" ppth="Bad Wildbad Kurpark|Bad Wildbad Uhlandplatz|Bad Wildbad Bf|Bad Wildbad Nord|Calmbach Süd|Calmbach Bahnhof|Höfen(Enz) Bf|Höfen(Enz) Nord|Neuenbürg(Enz)-Rotenbach Eyachbrücke|Rotenbach(Enz)|Neuenbürg(Enz) Freibad|Neuenbürg(Enz) Süd|Neuenbürg(Enz)|Birkenfeld(Enz)|Brötzingen Wohnlichstraße|Brötzingen Sandweg|Brötzingen Mitte|Pforzheim Maihälden"/>
+	</s>
+</timetable>
