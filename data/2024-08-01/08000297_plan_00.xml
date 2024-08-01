@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="Paderborn Hbf">
+	<s id="1493833463762639976-2407312309-12">
+		<tl f="N" t="p" o="R2RB" c="RB" n="90041"/>
+		<ar pt="2408010003" pp="3" l="89" ppth="Hamm(Westf)Hbf|Welver|Borgeln|Soest|Bad Sassendorf|Lippstadt|Dedinghausen|Ehringhausen(Kr Lippstadt)|Geseke|Salzkotten|Scharmede"/>
+	</s>
+	<s id="8758338426940652502-2408010021-4">
+		<tl t="p" o="NWBus" c="Bus" n="6089"/>
+		<ar pt="2408010056" pp="" l="EV" ppth="Hövelhof|Paderborn-Sennelager|Paderborn-Schloss Neuhaus"/>
+	</s>
+	<s id="4966482044780410099-2408010023-3">
+		<tl f="D" t="p" o="N2" c="NWB" n="93939"/>
+		<ar pt="2408010028" pp="5" l="RB74" ppth="Paderborn Nord|Paderborn Kasseler Tor"/>
+	</s>
+	<s id="-7995803475278001402-2408010032-1">
+		<tl f="D" t="p" o="N2" c="NWB" n="93842"/>
+		<dp pt="2408010032" pp="5" l="RB74" ppth="Paderborn Kasseler Tor|Paderborn Nord"/>
+	</s>
+	<s id="-6725426308915019299-2408010015-1">
+		<tl f="N" t="p" o="R2RB" c="RB" n="90044"/>
+		<dp pt="2408010015" pp="3" l="89" ppth="Scharmede|Salzkotten|Geseke|Ehringhausen(Kr Lippstadt)|Dedinghausen|Lippstadt|Bad Sassendorf|Soest|Borgeln|Welver|Hamm(Westf)Hbf"/>
+	</s>
+</timetable>
