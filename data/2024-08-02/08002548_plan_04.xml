@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg Dammtor">
+	<s id="-5871080021891991810-2408020440-2">
+		<tl f="S" t="p" o="0S" c="S" n="45022"/>
+		<ar pt="2408020442" pp="1" l="5" ppth="Hamburg Hbf (S-Bahn)"/>
+		<dp pt="2408020443" pp="1" l="5" ppth="Hamburg-Sternschanze|Hamburg Holstenstraße|Hamburg-Altona(S)"/>
+	</s>
+	<s id="7735061632491701536-2408020451-4">
+		<tl f="S" t="p" o="0S" c="S" n="45025"/>
+		<ar pt="2408020458" pp="2" l="5" ppth="Hamburg-Altona(S)|Hamburg Holstenstraße|Hamburg-Sternschanze"/>
+		<dp pt="2408020500" pp="2" l="5" pde="Stade" ppth="Hamburg Hbf (S-Bahn)|Hamburg-Hammerbrook|Hamburg Elbbrücken|Hamburg-Veddel|Hamburg-Wilhelmsburg|Hamburg-Harburg(S)|Hamburg-Harburg Rathaus|Hamburg-Heimfeld|Hamburg Neuwiedenthal|Hamburg-Neugraben"/>
+	</s>
+	<s id="6178329184277023949-2408020433-2">
+		<tl f="F" t="p" o="80" c="ICE" n="701"/>
+		<ar pt="2408020439" pp="4" hi="1" ppth="Hamburg-Altona"/>
+		<dp pt="2408020440" pp="4" ppth="Hamburg Hbf|Ludwigslust|Wittenberge|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz|Bitterfeld|Leipzig Hbf|Erfurt Hbf|Bamberg|Donauwörth|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-5967924537871298080-2408020314-7">
+		<tl f="N" t="p" o="800201" c="RE" n="11201"/>
+		<ar pt="2408020421" pp="4" l="70" ppth="Kiel Hbf|Bordesholm|Neumünster|Brokstedt|Wrist|Elmshorn"/>
+		<dp pt="2408020422" pp="4" l="70" hi="1" ppth="Hamburg Hbf"/>
+	</s>
+	<s id="6429184803042562792-2408020436-2">
+		<tl f="N" t="p" o="800201" c="RE" n="11250"/>
+		<ar pt="2408020439" pp="3" l="7" hi="1" ppth="Hamburg Hbf"/>
+		<dp pt="2408020440" pp="3" l="7" ppth="Pinneberg|Elmshorn|Wrist|Brokstedt|Neumünster|Einfeld|Bordesholm|Flintbek|Kiel Hbf"/>
+	</s>
+	<s id="107990046467281990-2408020431-4">
+		<tl f="S" t="p" o="0S" c="S" n="45021"/>
+		<ar pt="2408020438" pp="2" l="5" ppth="Hamburg-Altona(S)|Hamburg Holstenstraße|Hamburg-Sternschanze"/>
+		<dp pt="2408020440" pp="2" l="5" pde="Stade" ppth="Hamburg Hbf (S-Bahn)|Hamburg-Hammerbrook|Hamburg Elbbrücken|Hamburg-Veddel|Hamburg-Wilhelmsburg|Hamburg-Harburg(S)|Hamburg-Harburg Rathaus|Hamburg-Heimfeld|Hamburg Neuwiedenthal|Hamburg-Neugraben"/>
+	</s>
+</timetable>
