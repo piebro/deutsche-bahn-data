@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<timetable station="Oldenburg(Oldb)Hbf">
+	<s id="-7650809746071574059-2408032310-1">
+		<tl t="p" o="NWBus" c="Bus" n="3387"/>
+		<dp pt="2408032310" pp="" l="EV" ppth="Wüsting|Hude"/>
+	</s>
+	<s id="1282899926668995600-2408032315-10">
+		<tl f="D" t="p" o="N1" c="NWB" n="83386"/>
+		<ar pt="2408032353" pp="7" l="RS3" ppth="Bremen Hbf|Bremen Neustadt|Heidkrug|Delmenhorst|Hoykenkamp|Schierbrok|Bookholzberg|Hude|Wüsting"/>
+	</s>
+	<s id="-5558360799253050120-2408032310-6">
+		<tl f="D" t="p" o="N1" c="NWB" n="82336"/>
+		<ar pt="2408032357" pp="3" l="RE18" ppth="Wilhelmshaven|Sande|Varel(Oldb)|Jaderberg|Rastede"/>
+		<dp pt="2408032359" pp="3" l="RE18" ppth="Sandkrug|Huntlosen|Großenkneten|Ahlhorn|Cloppenburg"/>
+	</s>
+	<s id="9152119205772083089-2408032232-7">
+		<tl t="p" o="NWBus" c="Bus" n="3384"/>
+		<ar pt="2408032336" pp="" l="EV" ppth="Delmenhorst|Hoykenkamp|Schierbrok|Bookholzberg|Hude|Wüsting"/>
+		<dp pt="2408032336" pp="" l="EV" ppth="Oldenburg-Wechloy|Bad Zwischenahn"/>
+	</s>
+	<s id="-1491077561497992764-2408032345-3">
+		<tl f="D" t="p" o="N1" c="NWB" n="83389"/>
+		<ar pt="2408032357" pp="1" l="RS3" ppth="Bad Zwischenahn|Oldenburg-Wechloy"/>
+	</s>
+	<s id="-70978164191387634-2408032218-10">
+		<tl f="D" t="p" o="N1" c="NWB" n="82337"/>
+		<ar pt="2408032329" pp="8" l="RE18" ppth="Bramsche|Bersenbrück|Quakenbrück|Essen(Oldb)|Cloppenburg|Ahlhorn|Großenkneten|Huntlosen|Sandkrug"/>
+		<dp pt="2408032336" pp="8" l="RE18" ppth="Rastede|Jaderberg|Varel(Oldb)|Sande|Wilhelmshaven"/>
+	</s>
+	<s id="-7123580108217034731-2408032120-13">
+		<tl f="N" t="p" o="800295" c="RE" n="4434"/>
+		<ar pt="2408032358" pp="7" l="1" ppth="Hannover Hbf|Wunstorf|Neustadt am Rübenberge|Nienburg(Weser)|Eystrup|Dörverden|Verden(Aller)|Achim|Bremen-Mahndorf|Bremen Hbf|Delmenhorst|Hude"/>
+	</s>
+	<s id="-8590034997284652380-2408032234-2">
+		<tl f="N" t="p" o="800295" c="RE" n="4439"/>
+		<ar pt="2408032244" pp="3" l="1" ppth="Bad Zwischenahn"/>
+		<dp pt="2408032300" pp="3" l="1" ppth="Hude|Delmenhorst|Bremen Hbf|Bremen-Sebaldsbrück|Bremen-Mahndorf|Achim|Baden(Verden)|Etelsen|Langwedel|Verden(Aller)|Dörverden|Eystrup|Nienburg(Weser)|Neustadt am Rübenberge|Wunstorf|Hannover Hbf"/>
+	</s>
+</timetable>

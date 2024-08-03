@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<timetable station="Worms Hbf">
+	<s id="4523665727558269955-2408032013-8">
+		<tl f="S" t="p" o="801518" c="S" n="38630"/>
+		<ar pt="2408032039" pp="3" l="6" pde="Aglasterhausen" ppth="Mannheim Hbf|Ludwigshafen(Rhein) Mitte|Ludwigshafen(Rh)Hbf|Ludwigshafen-Oggersheim|Frankenthal Süd|Frankenthal Hbf|Bobenheim"/>
+	</s>
+	<s id="87920793195798372-2408032017-1">
+		<tl f="S" t="p" o="801518" c="S" n="38631"/>
+		<dp pt="2408032017" pp="3" l="6" ppth="Bobenheim|Frankenthal Hbf|Frankenthal Süd|Ludwigshafen-Oggersheim|Ludwigshafen(Rh)Hbf|Ludwigshafen(Rhein) Mitte|Mannheim Hbf"/>
+	</s>
+	<s id="1448098444854437324-2408031950-6">
+		<tl t="p" o="B5" c="Bus" n="93449"/>
+		<ar pt="2408032041" pp="" l="RB35" ppth="Eppelsheim(Rheinhess)|Gundersheim(Rheinhess)|Nieder Flörsheim-Dalsheim|Monsheim|Worms-Pfeddersheim"/>
+	</s>
+	<s id="5360680897387999548-2408031938-11">
+		<tl t="p" o="800640" c="N" n="12771"/>
+		<ar pt="2408032047" pp="2" l="SE14" ppth="Frankfurt(Main)Hbf|Frankfurt-Höchst|Hochheim(Main)|Mainz Hbf|Mainz Römisches Theater|Bodenheim|Nierstein|Oppenheim|Guntersblum|Osthofen"/>
+		<dp pt="2408032048" pp="2" l="SE14" ppth="Frankenthal Hbf|Frankenthal Süd|Ludwigshafen(Rh)Hbf|Ludwigshafen(Rhein) Mitte|Mannheim Hbf"/>
+	</s>
+	<s id="-6318364050920967610-2408031955-3">
+		<tl f="N" t="p" o="8015A6" c="RB" n="63443"/>
+		<ar pt="2408032005" pp="4" l="35" pde="Frankenthal Hbf" ppth="Monsheim|Worms-Pfeddersheim"/>
+	</s>
+	<s id="-206704400835051737-2408031949-6">
+		<tl t="p" o="800640" c="N" n="12772"/>
+		<ar pt="2408032011" pp="1" l="SE14" ppth="Mannheim Hbf|Ludwigshafen(Rhein) Mitte|Ludwigshafen(Rh)Hbf|Frankenthal Süd|Frankenthal Hbf"/>
+		<dp pt="2408032012" pp="1" l="SE14" ppth="Osthofen|Mettenheim|Alsheim|Guntersblum|Dienheim|Oppenheim|Nierstein|Nackenheim|Bodenheim|Mainz-Laubenheim|Mainz Römisches Theater|Mainz Hbf"/>
+	</s>
+	<s id="-1214470607522956894-2408031955-6">
+		<tl t="p" o="8015A6" c="Bus" n="4739"/>
+		<ar pt="2408032053" pp="" l="RB63" ppth="Bensheim|Lorsch|Riedrode|Bürstadt|Hofheim (Ried)"/>
+	</s>
+	<s id="190559952917455084-2408032022-2">
+		<tl t="p" o="8015A6" c="Bus" n="3755"/>
+		<ar pt="2408032040" pp="" l="RB63" ppth="Bürstadt"/>
+	</s>
+	<s id="-702837896044460525-2408032034-1">
+		<tl t="p" o="8015A6" c="Bus" n="4738"/>
+		<dp pt="2408032034" pp="" l="RB63" ppth="Hofheim (Ried)|Bürstadt|Riedrode|Lorsch|Bensheim"/>
+	</s>
+	<s id="6754320814222838268-2408032017-1">
+		<tl t="p" o="B5" c="Bus" n="93450"/>
+		<dp pt="2408032017" pp="" l="RB35" ppth="Worms-Pfeddersheim|Monsheim|Nieder Flörsheim-Dalsheim|Gundersheim(Rheinhess)|Eppelsheim(Rheinhess)|Alzey"/>
+	</s>
+</timetable>
