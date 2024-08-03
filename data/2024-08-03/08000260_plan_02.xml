@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<timetable station="Würzburg Hbf">
+	<s id="-7547304040443208216-2408021940-9">
+		<tl t="p" o="81" c="NJ" n="490"/>
+		<ar pt="2408030234" pp="7" wings="-8677182982400525824-2408022044" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Passau Hbf|Regensburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2408030236" pp="7" wings="-8677182982400525824-2408022044" ppth="Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-6813803786124510421-2408021940-9">
+		<tl t="p" o="81" c="NJ" n="40490"/>
+		<ar pt="2408030230" pp="6" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Passau Hbf|Regensburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2408030232" pp="6" ppth="Düsseldorf Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="3272146161175325165-2408022044-8">
+		<tl t="p" o="81" c="NJ" n="420"/>
+		<ar pt="2408030230" pp="6" wings="-6813803786124510421-2408021940" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Hbf|Nürnberg Hbf"/>
+		<dp pt="2408030232" pp="6" wings="-6813803786124510421-2408021940" ppth="Düsseldorf Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="-3600156621397103215-2408022043-6">
+		<tl t="p" o="NYUEX" c="UEX" n="329"/>
+		<ar pt="2408030243" pp="3" hi="1" ppth="Düsseldorf Hbf|Köln Hbf|Koblenz Hbf|Aschaffenburg Hbf|Gemünden(Main)"/>
+		<dp pt="2408030245" pp="3" hi="1" ppth="München Ost|Kufstein|Wörgl Hbf|Innsbruck Hbf"/>
+	</s>
+	<s id="6992012378128167215-2408021956-5">
+		<tl t="p" o="81" c="NJ" n="40491"/>
+		<ar pt="2408030213" pp="5" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf"/>
+		<dp pt="2408030215" pp="5" ppth="Nürnberg Hbf|Augsburg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="-8677182982400525824-2408022044-8">
+		<tl t="p" o="81" c="NJ" n="40420"/>
+		<ar pt="2408030234" pp="7" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Hbf|Nürnberg Hbf"/>
+		<dp pt="2408030236" pp="7" ppth="Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-2044723357159653206-2408021956-5">
+		<tl t="p" o="81" c="NJ" n="491"/>
+		<ar pt="2408030213" pp="5" wings="6992012378128167215-2408021956" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf"/>
+		<dp pt="2408030215" pp="5" wings="6992012378128167215-2408021956" ppth="Nürnberg Hbf|Regensburg Hbf|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+</timetable>
