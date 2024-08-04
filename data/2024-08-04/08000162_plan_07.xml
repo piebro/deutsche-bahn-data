@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<timetable station="Herford">
+	<s id="-1438638852494108292-2408040712-3">
+		<tl f="N" t="p" o="R2RB" c="RB" n="32984"/>
+		<ar pt="2408040723" pp="1" l="61" ppth="Bielefeld Hbf|Brake(b Bielefeld)"/>
+	</s>
+	<s id="4261348716579953731-2408040520-16">
+		<tl f="D" t="p" o="W3" c="WFB" n="95822"/>
+		<ar pt="2408040716" pp="7" l="RE70" ppth="Braunschweig Hbf|Vechelde|Peine|Vöhrum|Hämelerwald|Lehrte|Hannover Hbf|Wunstorf|Haste|Stadthagen|Bückeburg|Minden(Westf)|Porta Westfalica|Bad Oeynhausen|Löhne(Westf)"/>
+		<dp pt="2408040719" pp="7" l="RE70" ppth="Bielefeld Hbf"/>
+	</s>
+	<s id="-7008200561205147742-2408040726-2">
+		<tl f="N" t="p" o="R2RE" c="RE" n="52275"/>
+		<ar pt="2408040733" pp="4" l="78" ppth="Bielefeld Hbf"/>
+		<dp pt="2408040734" pp="4" l="78" ppth="Löhne(Westf)|Bad Oeynhausen|Porta Westfalica|Minden(Westf)"/>
+	</s>
+	<s id="727166578553020517-2408040733-1">
+		<tl f="N" t="p" o="R2RB" c="RB" n="90649"/>
+		<dp pt="2408040733" pp="2" l="72" ppth="Bad Salzuflen|Schötmar|Bad Salzuflen-Sylbach|Lage(Lippe)|Detmold|Horn-Bad Meinberg|Leopoldstal|Steinheim-Sandebeck|Altenbeken|Paderborn Hbf"/>
+	</s>
+	<s id="-2831916410056996086-2408040621-11">
+		<tl f="N" t="p" o="R2RB" c="RB" n="90652"/>
+		<ar pt="2408040727" pp="2" l="72" ppth="Paderborn Hbf|Altenbeken|Steinheim-Sandebeck|Leopoldstal|Horn-Bad Meinberg|Detmold|Lage(Lippe)|Bad Salzuflen-Sylbach|Schötmar|Bad Salzuflen"/>
+	</s>
+	<s id="5354055523533710651-2408040647-8">
+		<tl f="N" t="p" o="R2RB" c="RB" n="20355"/>
+		<ar pt="2408040739" pp="3" l="61" ppth="Osnabrück Hbf|Wissingen|Westerhausen|Melle|Bruchmühlen|Bünde(Westf)|Kirchlengern"/>
+		<dp pt="2408040741" pp="3" l="61" ppth="Brake(b Bielefeld)|Bielefeld Hbf"/>
+	</s>
+	<s id="-3497309688074819546-2408040628-5">
+		<tl f="F" t="p" o="80" c="IC" n="2445"/>
+		<ar pt="2408040727" pp="4" ppth="Dortmund Hbf|Hamm(Westf)Hbf|Gütersloh Hbf|Bielefeld Hbf"/>
+		<dp pt="2408040729" pp="4" ppth="Bad Oeynhausen|Minden(Westf)|Hannover Hbf|Braunschweig Hbf|Magdeburg Hbf|Köthen|Halle(Saale)Hbf|Leipzig/Halle Flughafen|Leipzig Hbf|Riesa|Elsterwerda|Dresden-Neustadt|Dresden Hbf"/>
+	</s>
+</timetable>
