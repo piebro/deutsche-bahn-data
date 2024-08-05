@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg Dammtor">
+	<s id="6178329184277023949-2408050426-2">
+		<tl f="F" t="p" o="80" c="ICE" n="701"/>
+		<ar pt="2408050433" pp="4" hi="1" ppth="Hamburg-Altona"/>
+		<dp pt="2408050434" pp="4" ppth="Hamburg Hbf|Ludwigslust|Wittenberge|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz|Bitterfeld|Leipzig Hbf|Erfurt Hbf|Bamberg|Donauwörth|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="6429184803042562792-2408050436-2">
+		<tl f="N" t="p" o="800201" c="RE" n="11250"/>
+		<ar pt="2408050439" pp="3" l="7" hi="1" ppth="Hamburg Hbf"/>
+		<dp pt="2408050440" pp="3" l="7" ppth="Pinneberg|Elmshorn|Wrist|Brokstedt|Neumünster|Einfeld|Bordesholm|Flintbek|Kiel Hbf"/>
+	</s>
+	<s id="-5967924537871298080-2408050314-7">
+		<tl f="N" t="p" o="800201" c="RE" n="11201"/>
+		<ar pt="2408050421" pp="4" l="70" ppth="Kiel Hbf|Bordesholm|Neumünster|Brokstedt|Wrist|Elmshorn"/>
+		<dp pt="2408050422" pp="4" l="70" hi="1" ppth="Hamburg Hbf"/>
+	</s>
+	<s id="1541274018536053535-2408050406-13">
+		<tl f="S" t="p" o="0S" c="S" n="42020"/>
+		<ar pt="2408050440" pp="1" l="2" ppth="Aumühle|Wohltorf|Reinbek|Hamburg-Bergedorf|Hamburg-Nettelnburg|Hamburg-Allermöhe|Hamburg Mittlerer Landweg|Hamburg Billwerder-Moorfleet|Hamburg-Tiefstack|Hamburg-Rothenburgsort|Hamburg Berliner Tor|Hamburg Hbf (S-Bahn)"/>
+		<dp pt="2408050441" pp="1" l="2" ppth="Hamburg-Sternschanze|Hamburg Holstenstraße|Hamburg-Altona(S)"/>
+	</s>
+	<s id="7902468318354159746-2408050432-4">
+		<tl f="S" t="p" o="0S" c="S" n="42021"/>
+		<ar pt="2408050440" pp="2" l="2" ppth="Hamburg-Altona(S)|Hamburg Holstenstraße|Hamburg-Sternschanze"/>
+		<dp pt="2408050441" pp="2" l="2" ppth="Hamburg Hbf (S-Bahn)|Hamburg Berliner Tor|Hamburg-Rothenburgsort|Hamburg-Tiefstack|Hamburg Billwerder-Moorfleet|Hamburg Mittlerer Landweg|Hamburg-Allermöhe|Hamburg-Nettelnburg|Hamburg-Bergedorf|Reinbek|Wohltorf|Aumühle"/>
+	</s>
+</timetable>

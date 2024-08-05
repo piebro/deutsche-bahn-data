@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<timetable station="Bremen Hbf">
+	<s id="329426603784678228-2408050049-4">
+		<tl t="p" o="NWBus" c="Bus" n="3439"/>
+		<ar pt="2408050117" pp="" l="EV" ppth="Delmenhorst|Heidkrug|Bremen Neustadt"/>
+	</s>
+	<s id="8991210418572699482-2408042349-14">
+		<tl f="D" t="p" o="R1" c="ME" n="81945"/>
+		<ar pt="2408050107" pp="9" l="RB41" ppth="Hamburg-Harburg|Hittfeld|Klecken|Buchholz(Nordheide)|Sprötze|Tostedt|Lauenbrück|Scheeßel|Rotenburg(Wümme)|Sottrum|Ottersberg(Han)|Sagehorn|Bremen-Oberneuland"/>
+	</s>
+	<s id="2742198030005395524-2408042304-11">
+		<tl t="p" o="B1" c="Bus" n="4442"/>
+		<ar pt="2408050136" pp="" l="RE8" ppth="Nienburg(Weser)|Eystrup|Dörverden|Verden(Aller)|Langwedel|Etelsen|Baden(Verden)|Achim|Bremen-Mahndorf|Bremen-Sebaldsbrück"/>
+	</s>
+	<s id="7368471649233656905-2408042349-4">
+		<tl f="F" t="p" o="80" c="ICE" n="1130"/>
+		<ar pt="2408050117" pp="3" ppth="Hannover Hbf|Nienburg(Weser)|Verden(Aller)"/>
+		<dp pt="2408050125" pp="3" ppth="Oldenburg(Oldb)Hbf"/>
+	</s>
+	<s id="-7901056942738152788-2408050043-4">
+		<tl t="p" o="B1" c="Bus" n="9444"/>
+		<ar pt="2408050129" pp="" l="RE8" ppth="Achim|Bremen-Mahndorf|Bremen-Sebaldsbrück"/>
+	</s>
+</timetable>
