@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<timetable station="Paderborn Hbf">
+	<s id="5367236167721192989-2408062136-23">
+		<tl f="S" t="p" o="TDHS" c="S" n="34587"/>
+		<ar pt="2408062346" pp="3" l="5" ppth="Hannover Flughafen|Langenhagen Pferdemarkt|Langenhagen Mitte|Hannover-Vinnhorst|Hannover-Ledeburg|Hannover-Nordstadt|Hannover Hbf|Hannover Bismarckstr.|Hannover-Linden/Fischerhof|Weetzen|Holtensen/Linderte|Bennigsen|Völksen/Eldagsen|Springe|Bad Münder(Deister)|Hameln|Emmerthal|Bad Pyrmont|Lügde|Schieder|Steinheim(Westf)|Altenbeken"/>
+	</s>
+	<s id="-4273966077368737817-2408062302-1">
+		<tl t="p" o="NWBus" c="Bus" n="6088"/>
+		<dp pt="2408062302" pp="" l="EV" ppth="Paderborn-Schloss Neuhaus|Paderborn-Sennelager|Hövelhof"/>
+	</s>
+	<s id="-3719982820367997836-2408062315-1">
+		<tl f="N" t="p" o="R2RB" c="RB" n="90042"/>
+		<dp pt="2408062315" pp="2" l="89" ppth="Scharmede|Salzkotten|Geseke|Ehringhausen(Kr Lippstadt)|Dedinghausen|Lippstadt|Bad Sassendorf|Soest|Borgeln|Welver|Hamm(Westf)Hbf|Hamm-Bockum-Hövel|Mersch(Westf)|Drensteinfurt|Rinkerode|Münster-Hiltrup|Münster(Westf)Hbf"/>
+	</s>
+	<s id="-7668229572420232040-2408062203-6">
+		<tl f="N" t="p" o="NXRE" c="RE" n="26738"/>
+		<ar pt="2408062310" pp="1" l="11" ppth="Kassel-Wilhelmshöhe|Hofgeismar|Warburg(Westf)|Willebadessen|Altenbeken"/>
+		<dp pt="2408062312" pp="1" l="11" ppth="Lippstadt|Soest|Hamm(Westf)Hbf"/>
+	</s>
+	<s id="7643928719136820228-2408062110-15">
+		<tl f="D" t="p" o="N2" c="NWB" n="74934"/>
+		<ar pt="2408062305" pp="5" l="RB85" ppth="Göttingen|Lenglern|Lödingsen|Adelebsen|Offensen(Kr North)|Vernawahlshausen|Bodenfelde|Bad Karlshafen|Lauenförde-Beverungen|Beverungen-Wehrden|Höxter-Ottbergen|Brakel(Höxter)|Bad Driburg(Westf)|Altenbeken"/>
+	</s>
+	<s id="3352815867064348438-2408062321-4">
+		<tl t="p" o="NWBus" c="Bus" n="6087"/>
+		<ar pt="2408062356" pp="" l="EV" ppth="Hövelhof|Paderborn-Sennelager|Paderborn-Schloss Neuhaus"/>
+	</s>
+	<s id="3407748365940290007-2408062127-11">
+		<tl f="D" t="p" o="N2" c="NWB" n="74979"/>
+		<ar pt="2408062305" pp="5" l="RB84" wings="7643928719136820228-2408062110" ppth="Kreiensen|Stadtoldendorf|Holzminden|Höxter-Lüchtringen|Höxter Rathaus|Höxter-Godelheim|Höxter-Ottbergen|Brakel(Höxter)|Bad Driburg(Westf)|Altenbeken"/>
+	</s>
+	<s id="7354792064720411275-2408062332-1">
+		<tl f="D" t="p" o="N2" c="NWB" n="93940"/>
+		<dp pt="2408062332" pp="5" l="RB74" ppth="Paderborn Kasseler Tor|Paderborn Nord"/>
+	</s>
+</timetable>

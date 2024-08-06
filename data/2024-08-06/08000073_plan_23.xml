@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<timetable station="Singen(Hohentwiel)">
+	<s id="4366264323136401268-2408062306-1">
+		<tl t="p" o="L7" c="Bus" n="9770"/>
+		<dp pt="2408062306" pp="" l="EV" ppth="Gottmadingen|Bietingen|Thayngen|Herblingen|Schaffhausen"/>
+	</s>
+	<s id="6413319551723959065-2408062152-22">
+		<tl f="N" t="p" o="800693" c="IRE" n="3077"/>
+		<ar pt="2408062333" pp="3" l="3" ppth="Basel Bad Bf|Grenzach|Wyhlen|Herten(Baden)|Rheinfelden(Baden)|Beuggen|Schwörstadt|Wehr-Brennet|Bad Säckingen|Murg(Baden)|Laufenburg(Baden)|Laufenburg(Baden)Ost|Albbruck|Dogern|Waldshut|Tiengen(Hochrhein)|Lauchringen West|Lauchringen|Erzingen(Baden)|Schaffhausen|Gottmadingen"/>
+	</s>
+	<s id="802315791184745117-2408062307-6">
+		<tl t="p" o="L7" c="Bus" n="9771"/>
+		<ar pt="2408062350" pp="" l="EV" ppth="Schaffhausen|Herblingen|Thayngen|Bietingen|Gottmadingen"/>
+	</s>
+	<s id="8357206333431226217-2408062323-12">
+		<tl t="p" o="L7" c="SBB" n="87722"/>
+		<ar pt="2408062356" pp="1" l="S6" ppth="Konstanz|Konstanz-Petershausen|Konstanz-Fürstenberg|Konstanz-Wollmatingen|Reichenau(Baden)|Hegne|Allensbach|Markelfingen|Radolfzell|Böhringen-Rickelshausen|Singen Industriegebiet"/>
+		<dp pt="2408070000" pp="1" l="S6" ppth="Singen Landesgartenschau|Mühlhausen(b Engen)|Welschingen-Neuhausen|Engen"/>
+	</s>
+	<s id="3778737616681407940-2408062336-1">
+		<tl t="p" o="L7" c="SBB" n="87719"/>
+		<dp pt="2408062336" pp="1" l="S6" ppth="Singen Industriegebiet|Böhringen-Rickelshausen|Radolfzell|Markelfingen|Allensbach|Hegne|Reichenau(Baden)|Konstanz-Wollmatingen|Konstanz-Fürstenberg|Konstanz-Petershausen|Konstanz"/>
+	</s>
+	<s id="2678114262282747483-2408062237-6">
+		<tl t="p" o="L7" c="Bus" n="9769"/>
+		<ar pt="2408062320" pp="" l="EV" ppth="Schaffhausen|Herblingen|Thayngen|Bietingen|Gottmadingen"/>
+	</s>
+	<s id="3193980873023401552-2408062128-13">
+		<tl f="N" t="p" o="NZ" c="RE" n="52385"/>
+		<ar pt="2408062326" pp="2" l="87" ppth="Stuttgart-Vaihingen|Böblingen|Herrenberg|Gäufelden|Bondorf(b Herrenberg)|Horb|Sulz(Neckar)|Oberndorf(Neckar)|Rottweil|Spaichingen|Tuttlingen|Engen"/>
+		<dp pt="2408062328" pp="2" l="87" ppth="Radolfzell|Konstanz"/>
+	</s>
+	<s id="3580503990382438116-2408062107-21">
+		<tl f="N" t="p" o="800647" c="RE" n="4743"/>
+		<ar pt="2408062350" pp="2" l="2" ppth="Karlsruhe Hbf|Malsch|Rastatt|Baden-Baden|Bühl(Baden)|Achern|Renchen|Appenweier|Offenburg|Gengenbach|Biberach(Baden)|Haslach|Hausach|Hornberg(Schwarzw)|Triberg|St Georgen(Schwarzw)|Villingen(Schwarzw)|Donaueschingen|Geisingen|Immendingen"/>
+		<dp pt="2408062352" pp="2" l="2" ppth="Radolfzell|Allensbach|Konstanz"/>
+	</s>
+	<s id="-2817354692248616738-2408062128-13">
+		<tl f="F" t="p" o="80" c="IC" n="2385"/>
+		<ar pt="2408062326" pp="2" wings="3193980873023401552-2408062128" ppth="Stuttgart-Vaihingen|Böblingen|Herrenberg|Gäufelden|Bondorf(b Herrenberg)|Horb|Sulz(Neckar)|Oberndorf(Neckar)|Rottweil|Spaichingen|Tuttlingen|Engen"/>
+		<dp pt="2408062328" pp="2" wings="3193980873023401552-2408062128" ppth="Radolfzell|Konstanz"/>
+	</s>
+	<s id="-5289500766875385367-2408062336-1">
+		<tl t="p" o="L7" c="Bus" n="9772"/>
+		<dp pt="2408062336" pp="" l="EV" ppth="Gottmadingen|Bietingen|Thayngen|Herblingen|Schaffhausen"/>
+	</s>
+</timetable>
