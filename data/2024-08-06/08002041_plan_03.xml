@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<timetable station="Frankfurt(Main)Süd">
+	<s id="-8716776747589038458-2408051828-11">
+		<tl f="F" t="p" o="81" c="EN" n="40458"/>
+		<ar pt="2408060341" pp="5" ppth="Praha hl.n.|Praha-Holesovice|Usti nad Labem hl.n.|Decin hl.n.|Bad Schandau|Dresden Hbf|Riesa|Leipzig Hbf|Erfurt Hbf|Fulda"/>
+		<dp pt="2408060343" pp="5" hi="1" ppth="Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-8572647521164952896-2408051828-11">
+		<tl f="F" t="p" o="54" c="EC" n="458"/>
+		<ar pt="2408060341" pp="5" wings="-8716776747589038458-2408051828|3878615570649056658-2408051952" ppth="Praha hl.n.|Praha-Holesovice|Usti nad Labem hl.n.|Decin hl.n.|Bad Schandau|Dresden Hbf|Riesa|Leipzig Hbf|Erfurt Hbf|Fulda"/>
+		<dp pt="2408060343" pp="5" hi="1" wings="-8716776747589038458-2408051828|3878615570649056658-2408051952" ppth="Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="3878615570649056658-2408051952-8">
+		<tl t="p" o="81" c="NJ" n="408"/>
+		<ar pt="2408060341" pp="5" wings="-3254228852258009131-2408051952" ppth="Berlin Hbf|Berlin Ostbahnhof|Bitterfeld|Halle(Saale)Hbf|Leipzig Hbf|Erfurt Hbf|Fulda"/>
+		<dp pt="2408060343" pp="5" hi="1" wings="-3254228852258009131-2408051952" ppth="Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-8441776821296139917-2408060319-4">
+		<tl f="S" t="p" o="800528" c="S" n="35895"/>
+		<ar pt="2408060348" pp="" l="8" ppth="Raunheim|Frankfurt(M) Flughafen Fernbf|Frankfurt am Main - Stadion"/>
+		<dp pt="2408060348" pp="" l="8" ppth="Offenbach(Main)Hbf|Offenbach(Main)Ost|Mühlheim(Main)|Mühlheim(Main)-Dietesheim|Steinheim(Main)|Hanau Hbf"/>
+	</s>
+	<s id="-3254228852258009131-2408051952-8">
+		<tl f="F" t="p" o="NZ" c="IC" n="60408"/>
+		<ar pt="2408060341" pp="5" ppth="Berlin Hbf|Berlin Ostbahnhof|Bitterfeld|Halle(Saale)Hbf|Leipzig Hbf|Erfurt Hbf|Fulda"/>
+		<dp pt="2408060343" pp="5" ppth="Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+</timetable>
