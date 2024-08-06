@@ -4,6 +4,7 @@ import requests
 from datetime import datetime
 from xml.dom.minidom import parseString
 from pathlib import Path
+from requests.exceptions import RequestException
 
 # Retrieve the secret API key from the environment variable
 api_key = os.getenv("API_KEY")
@@ -21,17 +22,31 @@ headers = {
 }
 
 
-def save_api_data(formatted_url, save_path, prettify=True):
-    response = requests.get(formatted_url, headers=headers)
-    if response.status_code != 200:
-        print(f"error {response.status_code}: {formatted_url}")
-        return
-    with (save_path).open("w") as f:
-        if prettify:
-            f.write(parseString(response.content).toprettyxml())
-        else:
-            f.write(parseString(response.content).toxml())
-    time.sleep(1 / 60)  # because the can be a maximum of 60 requests per minute
+def save_api_data(formatted_url, save_path, prettify=True, max_retries=10):
+    for attempt in range(max_retries):
+        try:
+            response = requests.get(formatted_url, headers=headers, timeout=10)
+            response.raise_for_status()  # Raises an HTTPError for bad responses
+
+            with save_path.open("w") as f:
+                if prettify:
+                    f.write(parseString(response.content).toprettyxml())
+                else:
+                    f.write(parseString(response.content).toxml())
+            
+            time.sleep(1 / 60)  # Rate limiting
+            return  # Success, exit the function
+
+        except (RequestException, ConnectionError) as e:
+            print(f"Attempt {attempt + 1} failed: {e}")
+            if attempt < max_retries - 1:
+                print("Retrying in 5 seconds...")
+                time.sleep(5)
+            else:
+                print(f"Failed to fetch data after {max_retries} attempts: {formatted_url}")
+
+    # If all retries fail, you might want to log this or handle it in some way
+    print(f"error: Could not retrieve data for {formatted_url}")
 
 
 def main():
@@ -59,9 +74,7 @@ def main():
 
     print("curent_hour:", curent_hour)
     for eva in eva_list:
-        for hour in range(
-            curent_hour, curent_hour + 6
-        ):  # fetch this hour and the next 5 hours
+        for hour in range(curent_hour, curent_hour + 6):  # fetch this hour and the next 5 hours
             hour = hour % 24
             formatted_plan_url = plan_url.format(
                 eva=eva, date=date_str_url, hour=f"{hour:02}"
@@ -69,7 +82,6 @@ def main():
             save_api_data(formatted_plan_url, save_folder / f"{eva}_plan_{hour:02}.xml")
 
     print("Done")
-
 
 if __name__ == "__main__":
     main()
