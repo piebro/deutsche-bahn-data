@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<timetable station="Würzburg Hbf">
+	<s id="-1867925676059496202-2408110051-6">
+		<tl f="N" t="p" o="800772" c="RE" n="57897"/>
+		<ar pt="2408110128" pp="9" l="54" ppth="Lohr Bahnhof|Langenprozelten|Gemünden(Main)|Karlstadt(Main)|Retzbach-Zellingen"/>
+	</s>
+	<s id="6992012378128167215-2408101956-6">
+		<tl t="p" o="81" c="NJ" n="40491"/>
+		<ar pt="2408110132" pp="5" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen"/>
+		<dp pt="2408110148" pp="5" ppth="Nürnberg Hbf|Augsburg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="67681408536754467-2408102100-5">
+		<tl t="p" o="NYUEX" c="UEX" n="348"/>
+		<ar pt="2408110143" pp="" hi="1" ppth="Innsbruck Hbf|Wörgl Hbf|Kufstein|München Ost"/>
+		<dp pt="2408110143" pp="" ppth="Gemünden(Main)|Fulda|Hannover Hbf|Lüneburg|Hamburg Hbf|Hamburg-Altona"/>
+	</s>
+	<s id="-2044723357159653206-2408101956-6">
+		<tl t="p" o="81" c="NJ" n="491"/>
+		<ar pt="2408110132" pp="5" wings="6992012378128167215-2408101956" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen"/>
+		<dp pt="2408110148" pp="5" wings="6992012378128167215-2408101956" ppth="Nürnberg Hbf|Regensburg Hbf|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="-7595690847575811712-2408110034-6">
+		<tl f="N" t="p" o="800772" c="RE" n="57895"/>
+		<ar pt="2408110110" pp="9" l="54" ppth="Lohr Bahnhof|Langenprozelten|Gemünden(Main)|Karlstadt(Main)|Retzbach-Zellingen"/>
+	</s>
+</timetable>
