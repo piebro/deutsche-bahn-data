@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<timetable station="Neumünster">
+	<s id="-7574230488399422111-2408122247-1">
+		<tl t="p" o="B1" c="Bus" n="11184"/>
+		<dp pt="2408122247" pp="" l="RE7" ppth="Nortorf|Rendsburg"/>
+	</s>
+	<s id="-7660996614876419019-2408122146-5">
+		<tl f="N" t="p" o="800201" c="RE" n="11184"/>
+		<ar pt="2408122235" pp="3" l="7" tra="7548859809289649772-2408122240-1" ppth="Hamburg Hbf|Hamburg Dammtor|Pinneberg|Elmshorn"/>
+	</s>
+	<s id="573841601175746681-2408122205-5">
+		<tl f="N" t="p" o="800201" c="RE" n="11289"/>
+		<ar pt="2408122228" pp="5" l="7" ppth="Kiel Hbf|Flintbek|Bordesholm|Einfeld"/>
+		<dp pt="2408122233" pp="5" l="7" ppth="Brokstedt|Wrist|Elmshorn|Pinneberg|Hamburg Dammtor|Hamburg Hbf"/>
+	</s>
+	<s id="-7284620432797668730-2408122122-6">
+		<tl f="N" t="p" o="800201" c="RE" n="11234"/>
+		<ar pt="2408122212" pp="3" l="70" ppth="Hamburg Hbf|Hamburg Dammtor|Elmshorn|Wrist|Brokstedt"/>
+		<dp pt="2408122213" pp="3" l="70" ppth="Bordesholm|Kiel Hbf"/>
+	</s>
+	<s id="-7078873671777081231-2408122201-3">
+		<tl t="p" o="B1" c="Bus" n="11189"/>
+		<ar pt="2408122245" pp="" l="RE7" ppth="Rendsburg|Nortorf"/>
+	</s>
+	<s id="7548859809289649772-2408122240-1">
+		<tl f="N" t="p" o="800201" c="RE" n="11284"/>
+		<dp pt="2408122240" pp="3" l="7" tra="-7660996614876419019-2408122146-5" ppth="Einfeld|Bordesholm|Flintbek|Kiel Hbf"/>
+	</s>
+	<s id="1006066592351903842-2408122235-1">
+		<tl f="D" t="p" o="O0" c="NBE" n="83788"/>
+		<dp pt="2408122235" pp="6" l="RB63" ppth="Neumünster Stadtwald|Wasbek|Aukrug|Hohenwestedt"/>
+	</s>
+	<s id="4985843510649323098-2408122225-2">
+		<tl t="p" o="A0" c="Bus" n="2463"/>
+		<ar pt="2408122235" pp="" l="EV" ppth="Neumünster Süd AKN"/>
+	</s>
+	<s id="9056485735636037609-2408122221-1">
+		<tl t="p" o="A0" c="Bus" n="2464"/>
+		<dp pt="2408122221" pp="" l="EV" ppth="Neumünster Süd AKN"/>
+	</s>
+	<s id="-6446679145033872816-2408122032-19">
+		<tl f="D" t="p" o="O0" c="NBE" n="83827"/>
+		<ar pt="2408122225" pp="6" l="RB63" ppth="Büsum|Reinsbüttel|Süderdeich|Wesselburen|Jarrenwisch|Tiebensee|Heide(Holst)|Nordhastedt|Albersdorf|Beldorf|Hademarschen|Gokels|Beringstedt|Osterstedt|Hohenwestedt|Aukrug|Wasbek|Neumünster Stadtwald"/>
+	</s>
+</timetable>
