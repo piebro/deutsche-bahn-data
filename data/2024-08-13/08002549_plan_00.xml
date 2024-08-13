@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg Hbf">
+	<s id="7454363727815266449-2408130009-5">
+		<tl f="N" t="p" o="800292" c="RE" n="11441"/>
+		<ar pt="2408130053" pp="8" l="8" ppth="Lübeck Hbf|Lübeck-Moisling|Reinfeld(Holst)|Bad Oldesloe"/>
+	</s>
+	<s id="-770764286954243101-2408130006-1">
+		<tl f="N" t="p" o="800292" c="RE" n="11440"/>
+		<dp pt="2408130006" pp="7A-D" l="8" ppth="Bad Oldesloe|Reinfeld(Holst)|Lübeck-Moisling|Lübeck Hbf"/>
+	</s>
+	<s id="8218544619443085427-2408121655-13">
+		<tl f="F" t="p" o="80" c="ICE" n="502"/>
+		<ar pt="2408130033" pp="5" ppth="München Hbf|Nürnberg Hbf|Erlangen|Bamberg|Erfurt Hbf|Leipzig Hbf|Bitterfeld|Dessau Hbf|Berlin Hbf|Berlin-Spandau|Wittenberge|Ludwigslust"/>
+		<dp pt="2408130036" pp="5" ppth="Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-72395636281014700-2408130036-1">
+		<tl f="N" t="p" o="800155" c="RE" n="4323"/>
+		<dp pt="2408130036" pp="8" l="1" ppth="Hamburg-Bergedorf|Schwarzenbek|Müssen|Büchen|Schwanheide|Boizenburg(Elbe)|Brahlstorf|Pritzier|Ludwigslust|Schwerin Süd|Schwerin Mitte|Schwerin Hbf"/>
+	</s>
+	<s id="-4628348148824899042-2408130043-1">
+		<tl f="N" t="p" o="800201" c="RE" n="11290"/>
+		<dp pt="2408130043" pp="7G-I" l="7" ppth="Hamburg Dammtor|Pinneberg|Elmshorn|Wrist|Brokstedt|Neumünster|Einfeld|Bordesholm|Flintbek|Kiel Hbf"/>
+	</s>
+	<s id="4222817464971087397-2408122305-11">
+		<tl f="N" t="p" o="800201" c="RE" n="11291"/>
+		<ar pt="2408130025" pp="7G-I" l="7" ppth="Kiel Hbf|Flintbek|Bordesholm|Einfeld|Neumünster|Brokstedt|Wrist|Elmshorn|Pinneberg|Hamburg Dammtor"/>
+	</s>
+</timetable>
