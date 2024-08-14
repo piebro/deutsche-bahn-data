@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<timetable station="Oldenburg(Oldb)Hbf">
+	<s id="-7123580108217034731-2408142120-13">
+		<tl f="N" t="p" o="800295" c="RE" n="4434"/>
+		<ar pt="2408142323" pp="7" l="1" ppth="Hannover Hbf|Wunstorf|Neustadt am Rübenberge|Nienburg(Weser)|Eystrup|Dörverden|Verden(Aller)|Achim|Bremen-Mahndorf|Bremen Hbf|Delmenhorst|Hude"/>
+	</s>
+	<s id="-5558360799253050120-2408142310-6">
+		<tl f="D" t="p" o="N1" c="NWB" n="82336"/>
+		<ar pt="2408142357" pp="3" l="RE18" ppth="Wilhelmshaven|Sande|Varel(Oldb)|Jaderberg|Rastede"/>
+	</s>
+	<s id="-7789808556718102930-2408142144-5">
+		<tl t="p" o="B1" c="Bus" n="4439"/>
+		<ar pt="2408142334" pp="" l="RE1" ppth="Leer(Ostfriesl)|Augustfehn|Westerstede-Ocholt|Bad Zwischenahn"/>
+	</s>
+	<s id="-4498532330426324655-2408142201-12">
+		<tl f="D" t="p" o="N1" c="NWB" n="82337"/>
+		<ar pt="2408142329" pp="8" l="RE18" ppth="Osnabrück Hbf|Osnabrück Altstadt|Bramsche|Bersenbrück|Quakenbrück|Essen(Oldb)|Cloppenburg|Ahlhorn|Großenkneten|Huntlosen|Sandkrug"/>
+		<dp pt="2408142336" pp="8" l="RE18" ppth="Rastede|Jaderberg|Varel(Oldb)|Sande|Wilhelmshaven"/>
+	</s>
+	<s id="730540791619901852-2408142305-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="83387"/>
+		<dp pt="2408142305" pp="1" l="RS3" ppth="Wüsting|Hude"/>
+	</s>
+	<s id="9196934110673960750-2408142340-3">
+		<tl f="D" t="p" o="N1" c="NWB" n="83386"/>
+		<ar pt="2408142353" pp="7" l="RS3" ppth="Hude|Wüsting"/>
+	</s>
+	<s id="-8138362163861218620-2408141709-13">
+		<tl f="F" t="p" o="80" c="ICE" n="532"/>
+		<ar pt="2408142347" pp="4" ppth="München Hbf|Ingolstadt Hbf|Nürnberg Hbf|Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Nienburg(Weser)|Verden(Aller)|Bremen Hbf|Delmenhorst"/>
+	</s>
+	<s id="178838665156988268-2408142300-1">
+		<tl t="p" o="NWBus" c="Bus" n="3384"/>
+		<dp pt="2408142300" pp="" l="EV" ppth="Oldenburg-Wechloy|Bad Zwischenahn"/>
+	</s>
+	<s id="8114813564864573531-2408142329-3">
+		<tl t="p" o="NWBus" c="Bus" n="3389"/>
+		<ar pt="2408142359" pp="" l="EV" ppth="Bad Zwischenahn|Oldenburg-Wechloy"/>
+	</s>
+</timetable>
