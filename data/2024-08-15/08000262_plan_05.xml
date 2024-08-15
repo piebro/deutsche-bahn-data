@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<timetable station="München Ost">
+	<s id="6406586649286876666-2408141938-18">
+		<tl f="F" t="p" o="78" c="EN" n="414"/>
+		<ar pt="2408150550" pp="6" ppth="Zagreb Glavni kolodvor|Zapresic|Dobova|Sevnica|Zidani Most|Ljubljana|Kranj|Lesce-Bled|Jesenice(SL)|Villach Hbf|Spittal-Millstättersee|Mallnitz-Obervellach|Bad Gastein|Bad Hofgastein|Schwarzach-St.Veit|Salzburg Hbf|Rosenheim"/>
+		<dp pt="2408150552" pp="6" hi="1" ppth="Augsburg Hbf|Ulm Hbf|Göppingen|Stuttgart Hbf"/>
+	</s>
+	<s id="8258495970941561047-2408142105-12">
+		<tl t="p" o="81" c="NJ" n="236"/>
+		<ar pt="2408150550" pp="6" wings="-1309200402864878586-2408141857|4919409081459587886-2408142001|6406586649286876666-2408141938" ppth="Venezia Santa Lucia|Venezia Mestre|Treviso Centrale|Conegliano|Pordenone|Udine|Tarvisio Boscoverde|Villach Hbf|Bischofshofen|Salzburg Hbf|Rosenheim"/>
+		<dp pt="2408150552" pp="6" hi="1" wings="-1309200402864878586-2408141857|4919409081459587886-2408142001|6406586649286876666-2408141938" ppth="Augsburg Hbf|Ulm Hbf|Göppingen|Stuttgart Hbf"/>
+	</s>
+	<s id="-1805596517269355072-2408150429-7">
+		<tl f="N" t="p" o="8013D" c="RB" n="27010"/>
+		<ar pt="2408150524" pp="6" l="40" ppth="Mühldorf(Oberbay)|Ampfing|Schwindegg|Dorfen Bahnhof|Hörlkofen|Markt Schwaben"/>
+		<dp pt="2408150525" pp="6" l="40" ppth="München Hbf"/>
+	</s>
+	<s id="4919409081459587886-2408142001-14">
+		<tl f="F" t="p" o="55" c="EN" n="50462"/>
+		<ar pt="2408150550" pp="6" ppth="Budapest-Keleti|Budapest-Kelenföld|Tatabanya|Györ|Mosonmagyarovar|Hegyeshalom|Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Salzburg Hbf|Rosenheim"/>
+		<dp pt="2408150552" pp="6" hi="1" ppth="Augsburg Hbf|Ulm Hbf|Göppingen|Stuttgart Hbf"/>
+	</s>
+	<s id="-1309200402864878586-2408141857-3">
+		<tl f="F" t="p" o="78" c="D" n="480"/>
+		<ar pt="2408150550" pp="6" pde="Rijeka" ppth="Salzburg Hbf|Rosenheim"/>
+		<dp pt="2408150552" pp="6" hi="1" ppth="Augsburg Hbf|Ulm Hbf|Göppingen|Stuttgart Hbf"/>
+	</s>
+</timetable>
