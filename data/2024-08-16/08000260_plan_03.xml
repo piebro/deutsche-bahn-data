@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<timetable station="Würzburg Hbf">
+	<s id="1983981787191650824-2408152228-8">
+		<tl f="F" t="p" o="80" c="ICE" n="1081"/>
+		<ar pt="2408160352" pp="5" ppth="Hamburg Hbf|Hamburg-Harburg|Lüneburg|Uelzen|Celle|Hannover Hbf|Göttingen"/>
+		<dp pt="2408160353" pp="5" ppth="Nürnberg Hbf|Ingolstadt Hbf|München Hbf"/>
+	</s>
+	<s id="-192038262793222732-2408152031-6">
+		<tl f="F" t="p" o="NZ" c="IC" n="60478"/>
+		<ar pt="2408160335" pp="2" ppth="Berlin Hbf|Berlin Ostbahnhof|Bitterfeld|Halle(Saale)Hbf|Fulda"/>
+		<dp pt="2408160337" pp="2" ppth="Ludwigsburg|Böblingen|Singen(Hohentwiel)|Schaffhausen|Zürich HB"/>
+	</s>
+	<s id="1805792757674502605-2408152031-6">
+		<tl t="p" o="81" c="NJ" n="478"/>
+		<ar pt="2408160335" pp="2" wings="-192038262793222732-2408152031" ppth="Berlin Hbf|Berlin Ostbahnhof|Bitterfeld|Halle(Saale)Hbf|Fulda"/>
+		<dp pt="2408160337" pp="2" wings="-192038262793222732-2408152031" ppth="Ludwigsburg|Böblingen|Singen(Hohentwiel)|Schaffhausen|Zürich HB"/>
+	</s>
+</timetable>

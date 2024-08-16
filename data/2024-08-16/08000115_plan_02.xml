@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<timetable station="Fulda">
+	<s id="-192038262793222732-2408152031-5">
+		<tl f="F" t="p" o="NZ" c="IC" n="60478"/>
+		<ar pt="2408160222" pp="4" ppth="Berlin Hbf|Berlin Ostbahnhof|Bitterfeld|Halle(Saale)Hbf"/>
+		<dp pt="2408160224" pp="4" ppth="Würzburg Hbf|Ludwigsburg|Böblingen|Singen(Hohentwiel)|Schaffhausen|Zürich HB"/>
+	</s>
+	<s id="1805792757674502605-2408152031-5">
+		<tl t="p" o="81" c="NJ" n="478"/>
+		<ar pt="2408160222" pp="4" wings="-192038262793222732-2408152031" ppth="Berlin Hbf|Berlin Ostbahnhof|Bitterfeld|Halle(Saale)Hbf"/>
+		<dp pt="2408160224" pp="4" wings="-192038262793222732-2408152031" ppth="Würzburg Hbf|Ludwigsburg|Böblingen|Singen(Hohentwiel)|Schaffhausen|Zürich HB"/>
+	</s>
+</timetable>
