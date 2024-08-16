@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="-3316492101447301048-2408162226-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18137"/>
+		<dp pt="2408162226" pp="3" l="22" ppth="Ludwigsfelde-Struveshof|Saarmund|Potsdam Pirschheide|Golm"/>
+	</s>
+	<s id="4475416547975001603-2408162209-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18687"/>
+		<dp pt="2408162209" pp="4" l="32" tra="-5315333728424243977-2408162121-4" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+	<s id="-5315333728424243977-2408162121-4">
+		<tl t="p" o="800165" c="FEX" n="19875"/>
+		<ar pt="2408162200" pp="4" tra="4475416547975001603-2408162209-1" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="5267890398427216546-2408162258-1">
+		<tl t="p" o="800165" c="FEX" n="19874"/>
+		<dp pt="2408162258" pp="1" tra="-9032773524213761460-2408162239-3" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="-7834030075966481511-2408162228-1">
+		<tl t="p" o="800165" c="FEX" n="19872"/>
+		<dp pt="2408162228" pp="1" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="-261672802178622251-2408162208-5">
+		<tl f="N" t="p" o="800165" c="RB" n="18136"/>
+		<ar pt="2408162236" pp="3" l="22" ppth="Golm|Potsdam Pirschheide|Saarmund|Ludwigsfelde-Struveshof"/>
+	</s>
+	<s id="6860290104622435511-2408162151-4">
+		<tl t="p" o="800165" c="FEX" n="19877"/>
+		<ar pt="2408162230" pp="4" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="-9032773524213761460-2408162239-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18686"/>
+		<ar pt="2408162255" pp="1" l="32" tra="5267890398427216546-2408162258-1" ppth="Ludwigsfelde|Birkengrund"/>
+	</s>
+</timetable>

@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="8883652730926797595-2408161752-9">
+		<tl f="F" t="p" o="80" c="IC" n="2275"/>
+		<ar pt="2408162053" pp="3 A-D" wings="-1486898991092341358-2408162026" ppth="Warnemünde|Rostock Hbf|Waren(Müritz)|Neustrelitz Hbf|Oranienburg|Berlin Gesundbrunnen|Berlin Hbf|Berlin Südkreuz"/>
+		<dp pt="2408162101" pp="3 A-D" wings="-1486898991092341358-2408162026" ppth="Doberlug-Kirchhain|Elsterwerda|Dresden-Neustadt|Dresden Hbf"/>
+	</s>
+	<s id="7535029924397126426-2408162109-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18685"/>
+		<dp pt="2408162109" pp="4" l="32" tra="-1945655569292342665-2408162018-4" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+	<s id="-1486898991092341358-2408162026-3">
+		<tl f="N" t="p" o="NZ" c="RE" n="52275"/>
+		<ar pt="2408162053" pp="3 A-D" l="17" ppth="Berlin Hbf|Berlin Südkreuz"/>
+		<dp pt="2408162101" pp="3 A-D" l="17" ppth="Doberlug-Kirchhain|Elsterwerda"/>
+	</s>
+	<s id="-7704358330040186143-2408162158-1">
+		<tl t="p" o="800165" c="FEX" n="19870"/>
+		<dp pt="2408162158" pp="1" tra="1139779810323429879-2408162139-3" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="1945124315890020696-2408162051-4">
+		<tl t="p" o="800165" c="FEX" n="19873"/>
+		<ar pt="2408162130" pp="4" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="1598808178025376297-2408162123-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18135"/>
+		<dp pt="2408162123" pp="3" l="22" ppth="Ludwigsfelde-Struveshof|Saarmund|Potsdam Pirschheide|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof|Potsdam Hbf"/>
+	</s>
+	<s id="5505348089403655832-2408162128-1">
+		<tl t="p" o="800165" c="FEX" n="19868"/>
+		<dp pt="2408162128" pp="1" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="1139779810323429879-2408162139-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18684"/>
+		<ar pt="2408162155" pp="1" l="32" tra="-7704358330040186143-2408162158-1" ppth="Ludwigsfelde|Birkengrund"/>
+	</s>
+	<s id="-1945655569292342665-2408162018-4">
+		<tl t="p" o="800165" c="FEX" n="19871"/>
+		<ar pt="2408162100" pp="4" tra="7535029924397126426-2408162109-1" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="6670631784435320551-2408162048-8">
+		<tl f="N" t="p" o="800165" c="RB" n="18134"/>
+		<ar pt="2408162136" pp="3" l="22" ppth="Potsdam Hbf|Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Potsdam Pirschheide|Saarmund|Ludwigsfelde-Struveshof"/>
+		<dp pt="2408162138" pp="3" l="22" ppth="Königs Wusterhausen"/>
+	</s>
+</timetable>
