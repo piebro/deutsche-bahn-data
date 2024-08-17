@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<timetable station="Uelzen">
+	<s id="-6609999379800383078-2408172316-1">
+		<tl t="p" o="R1" c="Bus" n="2141"/>
+		<dp pt="2408172316" pp="" l="EV" ppth="Suderburg|Unterlüß|Eschede|Celle|Hannover Hbf"/>
+	</s>
+	<s id="-688237797022921588-2408172307-1">
+		<tl f="N" t="p" o="RSNM" c="RB" n="16368"/>
+		<dp pt="2408172307" pp="302" l="37" ppth="Ebstorf(Uelzen)|Brockhöfe|Munster(Örtze)|Soltau(Han)"/>
+	</s>
+	<s id="-2167438544370822717-2408172236-4">
+		<tl f="F" t="p" o="80" c="ICE" n="809"/>
+		<ar pt="2408172334" pp="" hi="1" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg"/>
+		<dp pt="2408172334" pp="" hi="1" ppth="Stendal Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz"/>
+	</s>
+	<s id="-4550435493069381661-2408172306-1">
+		<tl f="D" t="p" o="R1" c="ME" n="81642"/>
+		<dp pt="2408172306" pp="301" l="RB31" ppth="Bad Bevensen|Bienenbüttel|Lüneburg|Bardowick|Radbruch|Winsen(Luhe)|Ashausen|Stelle|Maschen|Meckelfeld|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="1983981787191650824-2408172228-4">
+		<tl f="F" t="p" o="80" c="ICE" n="1081"/>
+		<ar pt="2408172313" pp="101" ppth="Hamburg Hbf|Hamburg-Harburg|Lüneburg"/>
+		<dp pt="2408172315" pp="101" ppth="Celle|Hannover Hbf|Göttingen|Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf|München Hbf"/>
+	</s>
+	<s id="-5171745847115165394-2408172138-3">
+		<tl t="p" o="R1" c="Bus" n="2250"/>
+		<ar pt="2408172336" pp="" l="EV" ppth="Hannover Hbf|Celle"/>
+	</s>
+	<s id="-5524995972399206622-2408172140-5">
+		<tl t="p" o="R1" c="Bus" n="2260"/>
+		<ar pt="2408172310" pp="" l="EV" ppth="Celle|Eschede|Unterlüß|Suderburg"/>
+	</s>
+	<s id="4760651137475633059-2408172359-1">
+		<tl f="D" t="p" o="R1" c="ME" n="81644"/>
+		<dp pt="2408172359" pp="103" l="RB31" ppth="Bad Bevensen|Bienenbüttel|Lüneburg|Bardowick|Radbruch|Winsen(Luhe)|Ashausen|Stelle|Maschen|Meckelfeld|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="1645690183033695457-2408172234-13">
+		<tl f="D" t="p" o="R1" c="ME" n="81643"/>
+		<ar pt="2408172346" pp="302" l="RB31" ppth="Hamburg Hbf|Hamburg-Harburg|Meckelfeld|Maschen|Stelle|Ashausen|Winsen(Luhe)|Radbruch|Bardowick|Lüneburg|Bienenbüttel|Bad Bevensen"/>
+		<dp pt="2408172349" pp="302" l="RB31" ppth="Suderburg|Unterlüß|Eschede|Celle|Großburgwedel|Isernhagen|Langenhagen Mitte|Hannover Hbf"/>
+	</s>
+</timetable>

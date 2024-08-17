@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Uelzen">
+	<s id="4966825592039783790-2408172122-4">
+		<tl f="F" t="p" o="80" c="ICE" n="907"/>
+		<ar pt="2408172225" pp="301" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg"/>
+		<dp pt="2408172226" pp="301" ppth="Celle|Stendal Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz"/>
+	</s>
+	<s id="-7193636000516531658-2408172201-1">
+		<tl f="D" t="p" o="R1" c="ME" n="82140"/>
+		<dp pt="2408172201" pp="103" l="RE3" pde="Hamburg Hbf" ppth="Bad Bevensen|Bienenbüttel|Lüneburg"/>
+	</s>
+	<s id="-4716448794900451059-2408172133-13">
+		<tl f="D" t="p" o="R1" c="ME" n="81641"/>
+		<ar pt="2408172257" pp="301" l="RB31" ppth="Hamburg Hbf|Hamburg-Harburg|Meckelfeld|Maschen|Stelle|Ashausen|Winsen(Luhe)|Radbruch|Bardowick|Lüneburg|Bienenbüttel|Bad Bevensen"/>
+	</s>
+	<s id="2764402865143925696-2408172047-10">
+		<tl f="N" t="p" o="RSNM" c="RB" n="16367"/>
+		<ar pt="2408172252" pp="302" l="37" ppth="Bremen Hbf|Bremen-Mahndorf|Achim|Langwedel|Visselhövede|Soltau(Han)|Munster(Örtze)|Brockhöfe|Ebstorf(Uelzen)"/>
+	</s>
+	<s id="3041927078802443488-2408172200-1">
+		<tl t="p" o="R1" c="Bus" n="2189"/>
+		<dp pt="2408172200" pp="" l="EV" ppth="Suderburg|Unterlüß|Eschede|Celle"/>
+	</s>
+	<s id="-6110913436432337169-2408172103-16">
+		<tl f="D" t="p" o="X2" c="erx" n="83632"/>
+		<ar pt="2408172253" pp="303" l="RB47" ppth="Braunschweig Hbf|Braunschweig-Gliesmarode|Meine|Rötgesbüttel|Gifhorn|Gifhorn Stadt|Triangel|Wahrenholz|Schönewörde|Vorhop|Knesebeck|Wittingen|Bad Bodenteich|Wieren|Stederdorf(Kr Uelzen)"/>
+	</s>
+	<s id="-1588936129122896413-2408171457-13">
+		<tl f="F" t="p" o="80" c="ICE" n="504"/>
+		<ar pt="2408172236" pp="102" ppth="München Hbf|Nürnberg Hbf|Erlangen|Bamberg|Erfurt Hbf|Leipzig Hbf|Lutherstadt Wittenberg Hbf|Berlin Südkreuz|Berlin Hbf|Berlin-Spandau|Stendal Hbf|Hannover Hbf"/>
+		<dp pt="2408172238" pp="102" ppth="Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-2767528763784739998-2408172136-4">
+		<tl t="p" o="X2" c="Bus" n="3630"/>
+		<ar pt="2408172212" pp="" l="RB47" ppth="Bad Bodenteich|Wieren|Stederdorf(Kr Uelzen)"/>
+	</s>
+</timetable>

@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Hbf">
+	<s id="8019655126053885291-2408172106-10">
+		<tl f="N" t="p" o="800158" c="RE" n="93057"/>
+		<ar pt="2408172228" pp="4" l="3" ppth="Schwedt(Oder)|Schwedt(Oder)Mitte|Pinnow(Uckermark)|Angermünde|Chorin|Britz|Eberswalde Hbf|Bernau(b Berlin)|Berlin Gesundbrunnen"/>
+		<dp pt="2408172231" pp="4" l="3" ppth="Berlin Potsdamer Platz|Berlin Südkreuz|Berlin-Lichterfelde Ost|Teltow|Großbeeren|Birkengrund|Ludwigsfelde|Thyrow|Trebbin"/>
+	</s>
+	<s id="6281486420573721544-2408172100-16">
+		<tl f="N" t="p" o="800158" c="RE" n="3320"/>
+		<ar pt="2408172231" pp="6" l="3" ppth="Lutherstadt Wittenberg Hbf|Zörnigall|Bülzig|Zahna|Blönsdorf|Niedergörsdorf|Jüterbog|Luckenwalde|Ludwigsfelde|Birkengrund|Großbeeren|Teltow|Berlin-Lichterfelde Ost|Berlin Südkreuz|Berlin Potsdamer Platz"/>
+		<dp pt="2408172233" pp="6" l="3" ppth="Berlin Gesundbrunnen|Bernau(b Berlin)|Rüdnitz|Biesenthal|Melchow|Eberswalde Hbf|Britz|Chorin|Angermünde|Wilmersdorf(Angerm)|Warnitz(Uckermark)|Seehausen(Uckermark)|Prenzlau|Nechlin|Pasewalk"/>
+	</s>
+	<s id="-6488165301808617795-2408172245-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62088"/>
+		<dp pt="2408172245" pp="1" l="8" ppth="Berlin Potsdamer Platz|Berlin Südkreuz|Berlin-Lichterfelde Ost|Blankenfelde(Teltow-Fläming)|Dahlewitz|Rangsdorf|Dabendorf|Zossen|Wünsdorf-Waldstadt|Neuhof(b Zossen)|Baruth(Mark)"/>
+	</s>
+	<s id="-7704358330040186143-2408172158-4">
+		<tl t="p" o="800165" c="FEX" n="19870"/>
+		<ar pt="2408172233" pp="3" pde="Ludwigsfelde" ppth="Flughafen BER|Berlin Ostkreuz|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="-5364412040590659447-2408171651-10">
+		<tl f="F" t="p" o="80" c="ICE" n="2372"/>
+		<ar pt="2408172232" pp="7" ppth="Karlsruhe Hbf|Darmstadt Hbf|Frankfurt(Main)Hbf|Fulda|Eisenach|Erfurt Hbf|Leipzig Hbf|Lutherstadt Wittenberg Hbf|Berlin Südkreuz"/>
+		<dp pt="2408172237" pp="7" hi="1" ppth="Berlin Gesundbrunnen"/>
+	</s>
+	<s id="6987458193696451661-2408171944-8">
+		<tl f="F" t="p" o="80" c="ICE" n="1975"/>
+		<ar pt="2408172221" pp="1" ppth="Warnemünde|Rostock Hbf|Laage(Meckl)|Waren(Müritz)|Neustrelitz Hbf|Oranienburg|Berlin-Spandau"/>
+		<dp pt="2408172225" pp="1" ppth="Berlin Südkreuz"/>
+	</s>
+	<s id="-5242198403931029577-2408172202-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18534"/>
+		<ar pt="2408172209" pp="7" l="10" ppth="Berlin Südkreuz|Berlin Potsdamer Platz"/>
+		<dp pt="2408172212" pp="7" l="10" ppth="Berlin Jungfernheide|Berlin-Spandau|Albrechtshof|Seegefeld|Falkensee|Finkenkrug|Brieselang|Nauen"/>
+	</s>
+	<s id="-6234777855822703665-2408171852-6">
+		<tl f="F" t="p" o="80" c="ICE" n="1102"/>
+		<ar pt="2408172257" pp="5" ppth="München Hbf|Nürnberg Hbf|Erfurt Hbf|Halle(Saale)Hbf|Berlin Südkreuz"/>
+	</s>
+	<s id="-7724390263517347378-2408171709-12">
+		<tl f="F" t="p" o="80" c="ICE" n="702"/>
+		<ar pt="2408172222" pp="8" ppth="München Hbf|München-Pasing|Augsburg Hbf|Donauwörth|Treuchtlingen|Nürnberg Hbf|Bamberg|Erfurt Hbf|Halle(Saale)Hbf|Bitterfeld|Berlin Südkreuz"/>
+		<dp pt="2408172225" pp="8" hi="1" ppth="Berlin Gesundbrunnen"/>
+	</s>
+	<s id="5047163500574364103-2408172112-8">
+		<tl f="N" t="p" o="800158" c="RE" n="3180"/>
+		<ar pt="2408172201" pp="2" l="4" ppth="Rathenow|Wustermark|Elstal|Dallgow-Döberitz|Berlin-Staaken|Berlin-Spandau|Berlin Jungfernheide"/>
+		<dp pt="2408172203" pp="2" l="4" ppth="Berlin Potsdamer Platz|Berlin Südkreuz|Berlin-Lichterfelde Ost|Ludwigsfelde|Thyrow|Trebbin|Woltersdorf/Nuthe-Urstromtal|Luckenwalde|Jüterbog"/>
+	</s>
+	<s id="-7157796485323859125-2408172228-1">
+		<tl f="F" t="p" o="80" c="IC" n="297"/>
+		<dp pt="2408172228" pp="2" ppth="Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Bitterfeld|Leipzig Hbf|Halle(Saale)Hbf|Naumburg(Saale)Hbf|Jena Paradies|Jena-Göschwitz|Saalfeld(Saale)|Lichtenfels|Bamberg|Erlangen|Fürth(Bay)Hbf|Nürnberg Hbf|Regensburg Hbf|Straubing|Plattling|Passau Hbf|Schärding|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="-6272353519131270189-2408172005-21">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62085"/>
+		<ar pt="2408172207" pp="8" l="8" ppth="Elsterwerda|Hohenleipisch|Rückersdorf|Doberlug-Kirchhain|Walddrehna|Luckau-Uckro|Drahnsdorf|Golßen(Niederlausitz)|Klasdorf Glashütte|Baruth(Mark)|Neuhof(b Zossen)|Wünsdorf-Waldstadt|Zossen|Dabendorf|Rangsdorf|Dahlewitz|Blankenfelde(Teltow-Fläming)|Berlin-Lichterfelde Ost|Berlin Südkreuz|Berlin Potsdamer Platz"/>
+	</s>
+	<s id="5505348089403655832-2408172128-4">
+		<tl t="p" o="800165" c="FEX" n="19868"/>
+		<ar pt="2408172203" pp="6" ppth="Flughafen BER|Berlin Ostkreuz|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="3499338043235512572-2408171938-5">
+		<tl f="F" t="p" o="80" c="ICE" n="609"/>
+		<ar pt="2408172247" pp="1" ppth="Hamburg-Altona|Hamburg Hbf|Uelzen|Berlin-Spandau"/>
+		<dp pt="2408172252" pp="1" hi="1" ppth="Berlin Südkreuz"/>
+	</s>
+	<s id="4527502747804446727-2408172220-2">
+		<tl f="F" t="p" o="80" c="ICE" n="700"/>
+		<ar pt="2408172225" pp="5" hi="1" ppth="Berlin Südkreuz"/>
+		<dp pt="2408172229" pp="5" ppth="Berlin-Spandau|Stendal Hbf|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="4643200487976114923-2408172221-1">
+		<tl t="p" o="800165" c="FEX" n="19879"/>
+		<dp pt="2408172221" pp="6" ppth="Berlin Gesundbrunnen|Berlin Ostkreuz|Schönefeld(bei Berlin)"/>
+	</s>
+</timetable>

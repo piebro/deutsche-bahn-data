@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<timetable station="Wolfsburg Hbf">
+	<s id="-1653210131841273505-2408172248-11">
+		<tl t="p" o="R0" c="ENO" n="83537"/>
+		<ar pt="2408172343" pp="4" l="RE30" ppth="Hannover Hbf|Lehrte|Immensen-Arpke|Dollbergen|Dedenhausen|Meinersen|Leiferde(b Gifhorn)|Gifhorn|Calberlah|Fallersleben"/>
+	</s>
+	<s id="6449712940702787504-2408172330-1">
+		<tl t="p" o="R0" c="Bus" n="5288"/>
+		<dp pt="2408172330" pp="" l="EV" ppth="Fallersleben|Weddel(Braunschw)|Braunschweig Hbf"/>
+	</s>
+	<s id="5451168124038622870-2408172320-1">
+		<tl f="N" t="p" o="AMRB" c="RB" n="80385"/>
+		<dp pt="2408172320" pp="9" l="36" ppth="Oebisfelde|Bösdorf(Sachs-Anh)|Rätzlingen|Wegenstedt|Flechtingen|Haldensleben|Vahldorf|Groß Ammensleben|Meitzendorf|Barleben|Magdeburg-Eichenweiler|Magdeburg-Neustadt|Magdeburg Hbf"/>
+	</s>
+	<s id="-7260953034263185039-2408172009-9">
+		<tl f="F" t="p" o="80" c="ICE" n="790"/>
+		<ar pt="2408172343" pp="5" ppth="Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Süd|Hanau Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hildesheim Hbf|Braunschweig Hbf"/>
+		<dp pt="2408172344" pp="5" ppth="Stendal Hbf|Berlin-Spandau|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="2495224407053131128-2408172314-1">
+		<tl t="p" o="R0" c="ENO" n="83536"/>
+		<dp pt="2408172314" pp="4" l="RE30" ppth="Fallersleben|Calberlah|Gifhorn|Leiferde(b Gifhorn)|Meinersen|Dedenhausen|Dollbergen|Immensen-Arpke|Lehrte|Hannover Hbf"/>
+	</s>
+	<s id="-2451771813568964797-2408171845-6">
+		<tl f="F" t="p" o="80" c="ICE" n="957"/>
+		<ar pt="2408172303" pp="5" wings="3778695356863398992-2408171900" ppth="Köln Hbf|Wuppertal Hbf|Hagen Hbf|Hamm(Westf)Hbf|Hannover Hbf"/>
+		<dp pt="2408172304" pp="5" wings="3778695356863398992-2408171900" ppth="Berlin-Spandau|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="3778695356863398992-2408171900-9">
+		<tl f="F" t="p" o="80" c="ICE" n="947"/>
+		<ar pt="2408172303" pp="5" ppth="Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Hannover Hbf"/>
+		<dp pt="2408172304" pp="5" ppth="Berlin-Spandau|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+</timetable>

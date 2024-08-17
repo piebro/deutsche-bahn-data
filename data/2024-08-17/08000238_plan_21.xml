@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<timetable station="Lüneburg">
+	<s id="2351802209419071159-2408172033-10">
+		<tl f="D" t="p" o="R1" c="ME" n="81639"/>
+		<ar pt="2408172123" pp="6" l="RB31" ppth="Hamburg Hbf|Hamburg-Harburg|Meckelfeld|Maschen|Stelle|Ashausen|Winsen(Luhe)|Radbruch|Bardowick"/>
+		<dp pt="2408172130" pp="6" l="RB31" ppth="Bienenbüttel|Bad Bevensen|Uelzen"/>
+	</s>
+	<s id="5934575629537714195-2408172101-4">
+		<tl f="D" t="p" o="R1" c="ME" n="82138"/>
+		<ar pt="2408172124" pp="3" l="RE3" tra="-8573984535168492837-2408172132-1" ppth="Uelzen|Bad Bevensen|Bienenbüttel"/>
+	</s>
+	<s id="504054489810646314-2408172118-4">
+		<tl f="D" t="p" o="X1" c="erx" n="28183"/>
+		<ar pt="2408172144" pp="5" l="RE83" ppth="Büchen|Lauenburg(Elbe)|Echem"/>
+	</s>
+	<s id="7281129451118771128-2408172117-1">
+		<tl f="D" t="p" o="X1" c="erx" n="28186"/>
+		<dp pt="2408172117" pp="5" l="RE83" ppth="Echem|Lauenburg(Elbe)|Büchen"/>
+	</s>
+	<s id="-8573984535168492837-2408172132-1">
+		<tl f="D" t="p" o="R1" c="ME" n="81638"/>
+		<dp pt="2408172132" pp="3" l="RB31" tra="5934575629537714195-2408172101-4" ppth="Bardowick|Radbruch|Winsen(Luhe)|Ashausen|Stelle|Maschen|Meckelfeld|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+</timetable>
