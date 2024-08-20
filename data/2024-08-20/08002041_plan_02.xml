@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="Frankfurt(Main)Süd">
+	<s id="-5591597380485360579-2408192034-5">
+		<tl f="F" t="p" o="NZ" c="IC" n="60470"/>
+		<ar pt="2408200257" pp="" ppth="Zürich HB|Schaffhausen|Singen(Hohentwiel)|Ludwigsburg"/>
+		<dp pt="2408200259" pp="" ppth="Göttingen|Hannover Hbf|Nienburg(Weser)|Verden(Aller)|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="8971547127002069842-2408192021-8">
+		<tl t="p" o="81" c="NJ" n="471"/>
+		<ar pt="2408200213" pp="5" hi="1" wings="-2517670308480836234-2408192021" ppth="Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Verden(Aller)|Nienburg(Weser)|Hannover Hbf|Göttingen"/>
+		<dp pt="2408200215" pp="5" hi="1" wings="-2517670308480836234-2408192021" ppth="Ludwigsburg|Singen(Hohentwiel)|Schaffhausen|Zürich HB"/>
+	</s>
+	<s id="-2517670308480836234-2408192021-8">
+		<tl f="F" t="p" o="NZ" c="IC" n="60471"/>
+		<ar pt="2408200213" pp="5" ppth="Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Verden(Aller)|Nienburg(Weser)|Hannover Hbf|Göttingen"/>
+		<dp pt="2408200215" pp="5" ppth="Ludwigsburg|Singen(Hohentwiel)|Schaffhausen|Zürich HB"/>
+	</s>
+	<s id="1003446772902483359-2408192034-5">
+		<tl t="p" o="85" c="NJ" n="470"/>
+		<ar pt="2408200257" pp="" hi="1" wings="-5591597380485360579-2408192034" ppth="Zürich HB|Schaffhausen|Singen(Hohentwiel)|Ludwigsburg"/>
+		<dp pt="2408200259" pp="" hi="1" wings="-5591597380485360579-2408192034" ppth="Göttingen|Hannover Hbf|Nienburg(Weser)|Verden(Aller)|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+</timetable>

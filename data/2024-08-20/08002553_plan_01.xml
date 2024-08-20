@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg-Altona">
+	<s id="-5030805675749971422-2408200107-1">
+		<tl f="D" t="p" o="O0" c="NBE" n="81748"/>
+		<dp pt="2408200107" pp="9" l="RB71" ppth="Pinneberg|Prisdorf|Tornesch|Elmshorn|Herzhorn|Glückstadt|Krempe|Kremperheide|Itzehoe"/>
+	</s>
+	<s id="-788148263949053048-2408200110-1">
+		<tl f="N" t="p" o="800201" c="RE" n="11302"/>
+		<dp pt="2408200110" pp="11" l="7" ppth="Pinneberg|Elmshorn|Wrist|Neumünster|Einfeld|Bordesholm|Flintbek|Kiel Hbf"/>
+	</s>
+	<s id="587808251542418278-2408200005-10">
+		<tl f="N" t="p" o="800201" c="RE" n="11393"/>
+		<ar pt="2408200124" pp="11" l="7" ppth="Kiel Hbf|Flintbek|Bordesholm|Einfeld|Neumünster|Brokstedt|Wrist|Elmshorn|Pinneberg"/>
+	</s>
+	<s id="-4729294927861037262-2408200134-1">
+		<tl t="p" o="B1" c="Bus" n="11393"/>
+		<dp pt="2408200134" pp="" l="RE7" ppth="Hamburg Dammtor|Hamburg Hbf ZOB"/>
+	</s>
+	<s id="4527502747804446727-2408192230-9">
+		<tl f="F" t="p" o="80" c="ICE" n="700"/>
+		<ar pt="2408200116" pp="5" ppth="Berlin Südkreuz|Berlin Hbf|Berlin-Spandau|Stendal Hbf|Salzwedel|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor"/>
+	</s>
+	<s id="3781512900006519772-2408200044-2">
+		<tl t="p" o="B1" c="Bus" n="11300"/>
+		<ar pt="2408200101" pp="" l="RE7" ppth="Hamburg Hbf ZOB"/>
+	</s>
+	<s id="377916917112555014-2408191854-14">
+		<tl f="F" t="p" o="80" c="ICE" n="1904"/>
+		<ar pt="2408200109" pp="5" ppth="Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Köln Hbf|Solingen Hbf|Wuppertal Hbf|Hagen Hbf|Dortmund Hbf|Münster(Westf)Hbf|Osnabrück Hbf|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor"/>
+	</s>
+	<s id="5094895348680294044-2408200110-1">
+		<tl f="N" t="p" o="800201" c="RE" n="11300"/>
+		<dp pt="2408200110" pp="11" l="7" ppth="Pinneberg|Elmshorn|Wrist|Brokstedt|Neumünster|Einfeld|Bordesholm|Flintbek|Kiel Hbf"/>
+	</s>
+</timetable>

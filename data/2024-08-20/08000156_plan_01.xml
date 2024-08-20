@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<timetable station="Heidelberg Hbf">
+	<s id="3262789786381653246-2408192343-10">
+		<tl t="p" o="801539" c="Bus" n="8412"/>
+		<ar pt="2408200111" pp="" l="S3" ppth="Bruchsal|Ubstadt-Weiher|Stettfeld-Weiher|Bad Schönborn Süd|Bad Schönborn-Kronau|Rot-Malsch|Wiesloch-Walldorf|St Ilgen-Sandhausen|Heidelberg-Kirchheim/Rohrbach"/>
+	</s>
+	<s id="7479964783882811425-2408200111-8">
+		<tl f="S" t="p" o="801539" c="S" n="38385"/>
+		<ar pt="2408200140" pp="8" l="3" ppth="Ludwigshafen(Rh)Hbf|Ludwigshafen(Rhein) Mitte|Mannheim Hbf|Mannheim ARENA/Maimarkt|Mannheim-Seckenheim|Mannheim-Friedrichsfeld Süd|Heidelberg-Pfaffengrund/Wieblingen"/>
+	</s>
+	<s id="1933142301919568743-2408192331-4">
+		<tl f="F" t="p" o="80" c="ICE" n="619"/>
+		<ar pt="2408200150" pp="7" ppth="Siegburg/Bonn|Wiesbaden Hbf|Mannheim Hbf"/>
+		<dp pt="2408200152" pp="7" ppth="Stuttgart Hbf|Ulm Hbf|Günzburg|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="7108274583246193747-2408192051-7">
+		<tl f="F" t="p" o="80" c="ICE" n="698"/>
+		<ar pt="2408200123" pp="5" ppth="München Hbf|Augsburg Hbf|Donauwörth|Günzburg|Ulm Hbf|Stuttgart Hbf"/>
+		<dp pt="2408200127" pp="5" ppth="Darmstadt Hbf|Frankfurt(Main)Hbf|Eisenach|Erfurt Hbf|Halle(Saale)Hbf|Bitterfeld|Berlin Südkreuz|Berlin Hbf|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="-4665408080099258157-2408200150-1">
+		<tl t="p" o="801539" c="Bus" n="7385"/>
+		<dp pt="2408200150" pp="" l="S3" ppth="Heidelberg-Kirchheim/Rohrbach|St Ilgen-Sandhausen|Wiesloch-Walldorf|Rot-Malsch|Bad Schönborn-Kronau|Bad Schönborn Süd|Stettfeld-Weiher|Ubstadt-Weiher|Bruchsal|Bruchsal Bildungszentrum|Untergrombach|Weingarten(Baden)|Karlsruhe-Durlach|Karlsruhe Hbf Südausgang"/>
+	</s>
+	<s id="-8600621439541799618-2408192256-15">
+		<tl t="p" o="801539" c="Bus" n="8260"/>
+		<ar pt="2408200123" pp="" l="S3" ppth="Karlsruhe Hbf Südausgang|Karlsruhe-Durlach|Weingarten(Baden)|Untergrombach|Bruchsal Bildungszentrum|Bruchsal|Ubstadt-Weiher|Stettfeld-Weiher|Bad Schönborn Süd|Bad Schönborn-Kronau|Rot-Malsch|Wiesloch-Walldorf|St Ilgen-Sandhausen|Heidelberg-Kirchheim/Rohrbach"/>
+	</s>
+</timetable>
