@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<timetable station="Hannover Hbf">
+	<s id="3824396230027883844-2408210306-7">
+		<tl f="S" t="p" o="TDHS" c="S" n="34513"/>
+		<ar pt="2408210324" pp="2" l="5" ppth="Hannover Flughafen|Langenhagen Pferdemarkt|Langenhagen Mitte|Hannover-Vinnhorst|Hannover-Ledeburg|Hannover-Nordstadt"/>
+	</s>
+	<s id="7990396791094350225-2408210335-1">
+		<tl f="S" t="p" o="TDHS" c="S" n="34514"/>
+		<dp pt="2408210335" pp="2" l="5" ppth="Hannover-Nordstadt|Hannover-Ledeburg|Hannover-Vinnhorst|Langenhagen Mitte|Langenhagen Pferdemarkt|Hannover Flughafen"/>
+	</s>
+	<s id="-8790401867370198034-2408202005-10">
+		<tl f="F" t="p" o="80" c="ICE" n="2400"/>
+		<ar pt="2408210310" pp="10" ppth="Stuttgart Hbf|Heidelberg Hbf|Darmstadt Hbf|Frankfurt(M) Flughafen Fernbf|Siegburg/Bonn|Köln Hbf|Solingen Hbf|Dortmund Hbf|Hamm(Westf)Hbf"/>
+		<dp pt="2408210329" pp="10" ppth="Braunschweig Hbf|Magdeburg Hbf|Brandenburg Hbf|Potsdam Hbf|Berlin-Wannsee|Berlin Zoologischer Garten|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="2625137238235520637-2408210011-9">
+		<tl f="F" t="p" o="80" c="ICE" n="2401"/>
+		<ar pt="2408210309" pp="12" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Wannsee|Potsdam Hbf|Brandenburg Hbf|Magdeburg Hbf|Braunschweig Hbf"/>
+		<dp pt="2408210313" pp="12" ppth="Hamm(Westf)Hbf|Dortmund Hbf|Bochum Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Hbf|Frankfurt(M) Flughafen Fernbf|Darmstadt Hbf|Heidelberg Hbf|Stuttgart Hbf"/>
+	</s>
+</timetable>
