@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<timetable station="Neumünster">
+	<s id="2648435496848007442-2408220525-3">
+		<tl f="N" t="p" o="800201" c="RE" n="11205"/>
+		<ar pt="2408220544" pp="5" l="70" ppth="Kiel Hbf|Bordesholm"/>
+		<dp pt="2408220545" pp="5" l="70" ppth="Brokstedt|Wrist|Elmshorn|Hamburg Dammtor|Hamburg Hbf"/>
+	</s>
+	<s id="-5770660081774832670-2408220533-1">
+		<tl f="N" t="p" o="800201" c="RE" n="11150"/>
+		<dp pt="2408220533" pp="4" l="7" ppth="Nortorf|Rendsburg|Owschlag|Schleswig|Jübek|Tarp|Flensburg"/>
+	</s>
+	<s id="662099313761592881-2408220502-5">
+		<tl f="D" t="p" o="O0" c="NBE" n="83771"/>
+		<ar pt="2408220525" pp="6" l="RB63" ppth="Hohenwestedt|Aukrug|Wasbek|Neumünster Stadtwald"/>
+	</s>
+	<s id="2279582255458866245-2408220509-2">
+		<tl t="p" o="A0" c="Bus" n="2421"/>
+		<ar pt="2408220519" pp="" l="EV" ppth="Neumünster Süd AKN"/>
+	</s>
+	<s id="6429184803042562792-2408220436-7">
+		<tl f="N" t="p" o="800201" c="RE" n="11250"/>
+		<ar pt="2408220530" pp="3" l="7" ppth="Hamburg Hbf|Hamburg Dammtor|Pinneberg|Elmshorn|Wrist|Brokstedt"/>
+		<dp pt="2408220532" pp="3" l="7" ppth="Einfeld|Bordesholm|Flintbek|Kiel Hbf"/>
+	</s>
+	<s id="-7072649047449056949-2408220526-1">
+		<tl f="N" t="p" o="800201" c="RE" n="11155"/>
+		<dp pt="2408220526" pp="5" l="7" tra="-9105898598852946278-2408220502-5" ppth="Elmshorn|Hamburg Hbf"/>
+	</s>
+	<s id="4126045676644259124-2408220539-1">
+		<tl t="p" o="A0" c="Bus" n="2422"/>
+		<dp pt="2408220539" pp="" l="EV" ppth="Neumünster Süd AKN"/>
+	</s>
+	<s id="-7862425078993404222-2408220535-1">
+		<tl f="D" t="p" o="O0" c="NBE" n="83810"/>
+		<dp pt="2408220535" pp="6" l="RB63" ppth="Neumünster Stadtwald|Wasbek|Aukrug|Hohenwestedt|Osterstedt|Beringstedt|Gokels|Hademarschen|Beldorf|Albersdorf|Nordhastedt|Heide(Holst)|Tiebensee|Jarrenwisch|Wesselburen|Süderdeich|Reinsbüttel|Büsum"/>
+	</s>
+	<s id="7710557926436562042-2408220534-2">
+		<tl t="p" o="A0" c="Bus" n="2423"/>
+		<ar pt="2408220544" pp="" l="EV" ppth="Neumünster Süd AKN"/>
+	</s>
+	<s id="-2691905196904011443-2408220502-1">
+		<tl t="p" o="A0" c="Bus" n="2420"/>
+		<dp pt="2408220502" pp="" l="EV" ppth="Neumünster Süd AKN"/>
+	</s>
+	<s id="-6988753872300600031-2408220332-4">
+		<tl t="p" o="B1" c="Bus" n="81155"/>
+		<ar pt="2408220516" pp="" l="RE7" ppth="Flensburg|Rendsburg|Nortorf"/>
+	</s>
+	<s id="-9105898598852946278-2408220502-5">
+		<tl f="N" t="p" o="800201" c="RE" n="11255"/>
+		<ar pt="2408220524" pp="5" l="7" tra="-7072649047449056949-2408220526-1" ppth="Kiel Hbf|Flintbek|Bordesholm|Einfeld"/>
+	</s>
+</timetable>
