@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<timetable station="Uelzen">
+	<s id="2011312559727747204-2408220942-19">
+		<tl f="F" t="p" o="80" c="IC" n="2084"/>
+		<ar pt="2408221741" pp="102" ppth="Oberstdorf|Fischen|Sonthofen|Immenstadt|Kempten(Allgäu)Hbf|Kaufbeuren|Buchloe|Augsburg Hbf|Donauwörth|Treuchtlingen|Ansbach|Steinach(b Rothenburg ob der Tauber)|Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle"/>
+		<dp pt="2408221743" pp="102" ppth="Lüneburg|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-717130987072405751-2408221707-1">
+		<tl f="N" t="p" o="RSNM" c="RB" n="16362"/>
+		<dp pt="2408221707" pp="302" l="37" ppth="Ebstorf(Uelzen)|Brockhöfe|Munster(Örtze)|Soltau(Han)|Visselhövede|Langwedel|Achim|Bremen-Mahndorf|Bremen Hbf"/>
+	</s>
+	<s id="3520459826486736427-2408221610-5">
+		<tl f="F" t="p" o="80" c="ICE" n="1675"/>
+		<ar pt="2408221713" pp="101" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Lüneburg"/>
+		<dp pt="2408221715" pp="101" ppth="Celle|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Wabern(Bz Kassel)|Treysa|Marburg(Lahn)|Gießen|Friedberg(Hess)|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="758859835085650931-2408221657-7">
+		<tl f="D" t="p" o="R1" c="ME" n="82131"/>
+		<ar pt="2408221756" pp="301" l="RE3" ppth="Hamburg Hbf|Hamburg-Harburg|Winsen(Luhe)|Lüneburg|Bienenbüttel|Bad Bevensen"/>
+	</s>
+	<s id="-4382352578512903050-2408221701-1">
+		<tl f="D" t="p" o="R1" c="ME" n="82130"/>
+		<dp pt="2408221701" pp="103" l="RE3" ppth="Bad Bevensen|Bienenbüttel|Lüneburg|Winsen(Luhe)|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="6813622135553308823-2408221708-1">
+		<tl f="D" t="p" o="X2" c="erx" n="83627"/>
+		<dp pt="2408221708" pp="303" l="RB47" ppth="Stederdorf(Kr Uelzen)|Wieren|Bad Bodenteich|Wittingen|Knesebeck|Vorhop|Schönewörde|Wahrenholz|Triangel|Gifhorn Stadt|Gifhorn|Rötgesbüttel|Meine|Braunschweig-Gliesmarode|Braunschweig Hbf"/>
+	</s>
+	<s id="8290912034684684315-2408221617-6">
+		<tl f="F" t="p" o="80" c="ICE" n="803"/>
+		<ar pt="2408221734" pp="101" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Lüneburg"/>
+		<dp pt="2408221735" pp="101" ppth="Salzwedel|Stendal Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz|Bitterfeld|Halle(Saale)Hbf|Erfurt Hbf|Coburg|Bamberg|Erlangen|Nürnberg Hbf"/>
+	</s>
+	<s id="3608898790185845911-2408221709-1">
+		<tl f="D" t="p" o="R1" c="ME" n="75859"/>
+		<dp pt="2408221709" pp="103" l="RE2" ppth="Suderburg|Unterlüß|Eschede|Celle|Großburgwedel|Isernhagen|Langenhagen Mitte|Hannover Hbf"/>
+	</s>
+	<s id="7044310250143278202-2408221748-1">
+		<tl t="p" o="X2" c="Bus" n="3629"/>
+		<dp pt="2408221748" pp="" l="RB47" ppth="Stederdorf(Kr Uelzen)|Wieren|Bad Bodenteich"/>
+	</s>
+	<s id="1566824174906970036-2408221640-9">
+		<tl f="D" t="p" o="R1" c="ME" n="75862"/>
+		<ar pt="2408221738" pp="103" l="RE2" ppth="Hannover Hbf|Langenhagen Mitte|Isernhagen|Großburgwedel|Celle|Eschede|Unterlüß|Suderburg"/>
+	</s>
+	<s id="-5981141401498695982-2408221057-13">
+		<tl f="F" t="p" o="80" c="ICE" n="508"/>
+		<ar pt="2408221727" pp="102" ppth="München Hbf|Nürnberg Hbf|Erlangen|Bamberg|Erfurt Hbf|Leipzig Hbf|Lutherstadt Wittenberg Hbf|Berlin Südkreuz|Berlin Hbf|Berlin-Spandau|Stendal Hbf|Salzwedel"/>
+		<dp pt="2408221729" pp="102" ppth="Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-8593658168921970782-2408220826-20">
+		<tl f="F" t="p" o="80" c="IC" n="2082"/>
+		<ar pt="2408221741" pp="102" wings="2011312559727747204-2408220942" pde="Berchtesgaden Hbf" ppth="Freilassing|Traunstein|Übersee|Prien am Chiemsee|Bad Endorf|Rosenheim|München Ost|München-Pasing|Augsburg Hbf|Donauwörth|Treuchtlingen|Ansbach|Steinach(b Rothenburg ob der Tauber)|Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle"/>
+		<dp pt="2408221743" pp="102" wings="2011312559727747204-2408220942" ppth="Lüneburg|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+</timetable>
