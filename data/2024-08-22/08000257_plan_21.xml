@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<timetable station="Worms Hbf">
+	<s id="-2745120920237478276-2408222117-1">
+		<tl f="S" t="p" o="801518" c="S" n="38633"/>
+		<dp pt="2408222117" pp="3" l="6" tra="6584342202601450554-2408222054-3" ppth="Bobenheim|Frankenthal Hbf|Frankenthal Süd|Ludwigshafen-Oggersheim|Ludwigshafen(Rh)Hbf|Ludwigshafen(Rhein) Mitte|Mannheim Hbf"/>
+	</s>
+	<s id="8625848592712382093-2408222133-6">
+		<tl f="N" t="p" o="8015A6" c="RB" n="33779"/>
+		<ar pt="2408222159" pp="3" l="63" ppth="Bensheim|Lorsch|Riedrode|Bürstadt|Hofheim (Ried)"/>
+	</s>
+	<s id="5272696511819521477-2408222126-3">
+		<tl f="N" t="p" o="8015A6" c="RB" n="63453"/>
+		<ar pt="2408222136" pp="4" l="35" ppth="Monsheim|Worms-Pfeddersheim"/>
+	</s>
+	<s id="-1749627365456715235-2408222122-1">
+		<tl f="N" t="p" o="8015A6" c="RB" n="63454"/>
+		<dp pt="2408222122" pp="4" l="35" ppth="Worms-Pfeddersheim|Monsheim"/>
+	</s>
+	<s id="6584342202601450554-2408222054-3">
+		<tl f="N" t="p" o="8015A6" c="RB" n="33777"/>
+		<ar pt="2408222104" pp="3" l="63" tra="-2745120920237478276-2408222117-1" ppth="Bürstadt|Hofheim (Ried)"/>
+	</s>
+	<s id="5272002791275607156-2408222155-1">
+		<tl f="N" t="p" o="8015A6" c="RB" n="63456"/>
+		<dp pt="2408222155" pp="4" l="35" ppth="Worms-Pfeddersheim|Monsheim"/>
+	</s>
+	<s id="-7920224447335309951-2408222113-8">
+		<tl f="S" t="p" o="801518" c="S" n="38632"/>
+		<ar pt="2408222139" pp="3" l="6" pde="Meckesheim" ppth="Mannheim Hbf|Ludwigshafen(Rhein) Mitte|Ludwigshafen(Rh)Hbf|Ludwigshafen-Oggersheim|Frankenthal Süd|Frankenthal Hbf|Bobenheim"/>
+	</s>
+	<s id="7265836752114079954-2408222111-3">
+		<tl t="p" o="801518" c="Bus" n="2774"/>
+		<ar pt="2408222140" pp="" l="S6" ppth="Frankenthal Hbf|Bobenheim"/>
+		<dp pt="2408222140" pp="" l="S6" ppth="Osthofen"/>
+	</s>
+	<s id="-4122506876764562490-2408222112-1">
+		<tl t="p" o="800640" c="N" n="26182"/>
+		<dp pt="2408222112" pp="1" l="SE14" ppth="Osthofen|Mettenheim|Alsheim|Guntersblum|Dienheim|Oppenheim|Nierstein|Nackenheim|Bodenheim|Mainz-Laubenheim|Mainz Römisches Theater|Mainz Hbf"/>
+	</s>
+</timetable>

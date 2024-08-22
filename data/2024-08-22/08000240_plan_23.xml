@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<timetable station="Mainz Hbf">
+	<s id="3864375000992578991-2408222137-26">
+		<tl f="D" t="p" o="R4RH" c="VIA" n="25037"/>
+		<ar pt="2408222340" pp="" l="RB10" ppth="Neuwied|Koblenz Stadtmitte|Koblenz Hbf|Niederlahnstein|Oberlahnstein|Braubach|Osterspai|Filsen|Kamp-Bornhofen|Kestert|St Goarshausen|Kaub|Lorchhausen|Lorch(Rhein)|Assmannshausen|Rüdesheim(Rhein)|Geisenheim|Oestrich-Winkel|Hattenheim|Erbach(Rheingau)|Eltville|Niederwalluf|Wiesbaden-Schierstein|Wiesbaden-Biebrich|Wiesbaden Hbf"/>
+		<dp pt="2408222341" pp="" l="RB10" ppth="Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-6717839496730661081-2408222253-2">
+		<tl f="D" t="p" o="R4RH" c="VIA" n="25036"/>
+		<ar pt="2408222319" pp="" l="RB10" ppth="Frankfurt(Main)Hbf"/>
+		<dp pt="2408222320" pp="" l="RB10" ppth="Wiesbaden Hbf|Wiesbaden-Biebrich|Wiesbaden-Schierstein|Niederwalluf|Eltville|Erbach(Rheingau)|Hattenheim|Oestrich-Winkel|Geisenheim|Rüdesheim(Rhein)"/>
+	</s>
+	<s id="-2747435270774906120-2408222256-5">
+		<tl f="N" t="p" o="V6RB" c="RB" n="29588"/>
+		<ar pt="2408222336" pp="3a/b" l="33" ppth="Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Regionalbf|Rüsselsheim|Mainz-Bischofsheim"/>
+	</s>
+	<s id="-347223542937763608-2408222335-1">
+		<tl t="p" o="TR" c="Bus" n="65350"/>
+		<dp pt="2408222335" pp="" l="EV" ppth="Mainz-Mombach|Budenheim|Uhlerborn|Heidesheim(Rheinhess)|Ingelheim|Gau Algesheim|Bingen-Gaulsheim|Bingen(Rhein) Stadt|Bingen(Rhein) Hbf"/>
+	</s>
+	<s id="6636770932364581144-2408222308-11">
+		<tl f="N" t="p" o="V6RB" c="RB" n="29281"/>
+		<ar pt="2408222353" pp="8" l="31" ppth="Alzey|Albig|Armsheim|Wörrstadt|Saulheim|Nieder Olm|Klein Winternheim-Ober Olm|Mainz-Marienborn|Mainz-Gonsenheim|Mainz Waggonfabrik"/>
+	</s>
+	<s id="5347558440602030488-2408222310-1">
+		<tl f="N" t="p" o="V6RB" c="RB" n="29276"/>
+		<dp pt="2408222310" pp="8" l="31" ppth="Mainz Waggonfabrik|Mainz-Gonsenheim|Mainz-Marienborn|Klein Winternheim-Ober Olm|Nieder Olm|Saulheim|Wörrstadt|Armsheim|Albig|Alzey"/>
+	</s>
+	<s id="8503777394879306018-2408222324-3">
+		<tl f="F" t="p" o="80" c="ICE" n="920"/>
+		<ar pt="2408222359" pp="3a/b" ppth="Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf"/>
+		<dp pt="2408230003" pp="3a/b" ppth="Koblenz Hbf|Köln Messe/Deutz Gl.11-12|Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Münster(Westf)Hbf|Osnabrück Hbf|Diepholz|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-4273944087619870546-2408222253-6">
+		<tl t="p" o="TR" c="Bus" n="65541"/>
+		<ar pt="2408222334" pp="" l="EV" ppth="Ingelheim|Heidesheim(Rheinhess)|Uhlerborn|Budenheim|Mainz-Mombach"/>
+	</s>
+	<s id="8322424274180843926-2408221928-7">
+		<tl f="F" t="p" o="80" c="ICE" n="510"/>
+		<ar pt="2408222315" pp="1a/b" ppth="München Hbf|München-Pasing|Augsburg Hbf|Ulm Hbf|Stuttgart Hbf|Mannheim Hbf"/>
+		<dp pt="2408222321" pp="1a/b" ppth="Wiesbaden Hbf|Köln Hbf"/>
+	</s>
+</timetable>
