@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Bonn Hbf">
+	<s id="-6975290333654948892-2408240832-1">
+		<tl f="N" t="p" o="800352" c="RB" n="10854"/>
+		<dp pt="2408240847" pp="4" l="30" tra="3494358241119085211-2408240832-3" ppth="Bonn UN Campus|Bonn-Bad Godesberg|Bonn-Mehlem|Oberwinter|Remagen"/>
+	</s>
+	<s id="3494358241119085211-2408240832-3">
+		<tl f="N" t="p" o="800352" c="RB" n="92232"/>
+		<ar pt="2408240845" pp="4" l="30" tra="-6975290333654948892-2408240832-1" ppth="Brühl|Sechtem"/>
+	</s>
+	<s id="-6952455876914643802-2408240809-1">
+		<tl f="S" t="p" o="800352" c="S" n="31906"/>
+		<dp pt="2408240809" pp="5" l="23" ppth="Bonn-Endenich Nord|Bonn Helmholtzstraße|Bonn-Duisdorf|Alfter-Impekoven|Alfter-Witterschlick|Meckenheim Kottenforst|Meckenheim Industriepark|Meckenheim(Bz Köln)|Rheinbach Römerkanal|Rheinbach|Swisttal-Odendorf|Euskirchen-Kuchenheim|Euskirchen"/>
+	</s>
+	<s id="2982633784035678160-2408240751-1">
+		<tl f="N" t="p" o="800352" c="RB" n="92233"/>
+		<dp pt="2408240815" pp="1" l="30" tra="5158269646080256225-2408240751-6" ppth="Sechtem|Brühl"/>
+	</s>
+	<s id="2925577723395026239-2408240808-14">
+		<tl f="S" t="p" o="800352" c="S" n="31907"/>
+		<ar pt="2408240850" pp="5" l="23" ppth="Euskirchen|Euskirchen-Kuchenheim|Swisttal-Odendorf|Rheinbach|Rheinbach Römerkanal|Meckenheim(Bz Köln)|Meckenheim Industriepark|Meckenheim Kottenforst|Alfter-Witterschlick|Alfter-Impekoven|Bonn-Duisdorf|Bonn Helmholtzstraße|Bonn-Endenich Nord"/>
+	</s>
+	<s id="6460478767089018119-2408240547-36">
+		<tl f="N" t="p" o="TR" c="RB" n="25414"/>
+		<ar pt="2408240831" pp="1" l="26" ppth="Mainz Hbf|Mainz-Mombach|Uhlerborn|Heidesheim(Rheinhess)|Ingelheim|Gau Algesheim|Bingen-Gaulsheim|Bingen(Rhein) Stadt|Bingen(Rhein) Hbf|Trechtingshausen|Niederheimbach|Bacharach|Oberwesel|St Goar|Boppard-Hirzenach|Boppard-Bad Salzig|Boppard Hbf|Spay|Rhens|Koblenz Hbf|Koblenz Stadtmitte|Koblenz-Lützel|Mülheim-Kärlich|Weißenthurm|Andernach|Namedy|Brohl|Bad Breisig|Sinzig(Rhein)|Remagen|Oberwinter|Rolandseck|Bonn-Mehlem|Bonn-Bad Godesberg|Bonn UN Campus"/>
+		<dp pt="2408240833" pp="1" l="26" ppth="Roisdorf|Sechtem|Brühl"/>
+	</s>
+	<s id="5158269646080256225-2408240751-6">
+		<tl f="N" t="p" o="800352" c="RB" n="10855"/>
+		<ar pt="2408240813" pp="1" l="30" tra="2982633784035678160-2408240751-1" ppth="Remagen|Oberwinter|Bonn-Mehlem|Bonn-Bad Godesberg|Bonn UN Campus"/>
+	</s>
+	<s id="-1884697572758015097-2408240812-4">
+		<tl f="N" t="p" o="TR" c="RB" n="25415"/>
+		<ar pt="2408240825" pp="3" l="26" ppth="Brühl|Sechtem|Roisdorf"/>
+		<dp pt="2408240827" pp="3" l="26" ppth="Bonn UN Campus|Bonn-Bad Godesberg|Bonn-Mehlem|Rolandseck|Oberwinter|Remagen|Bad Breisig|Brohl|Namedy|Andernach|Weißenthurm|Mülheim-Kärlich|Koblenz-Lützel|Koblenz Stadtmitte|Koblenz Hbf|Rhens|Spay|Boppard Hbf|Boppard-Bad Salzig|Boppard-Hirzenach|St Goar|Oberwesel|Bacharach|Niederheimbach|Trechtingshausen|Bingen(Rhein) Hbf|Bingen(Rhein) Stadt|Bingen-Gaulsheim|Gau Algesheim|Ingelheim|Heidesheim(Rheinhess)|Uhlerborn|Budenheim|Mainz-Mombach|Mainz Hbf"/>
+	</s>
+</timetable>
