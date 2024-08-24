@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<timetable station="Göttingen">
+	<s id="1745625120706026859-2408240026-1">
+		<tl f="N" t="p" o="N4" c="RB" n="24041"/>
+		<dp pt="2408240026" pp="5" l="83" ppth="Friedland(Han)|Eichenberg|Witzenhausen Nord|Gertenbach|Hedemünden|Hann Münden|Speele|Fuldatal-Ihringshausen|Vellmar-Niedervellmar|Kassel Hbf"/>
+	</s>
+	<s id="6252347552889792227-2408232336-12">
+		<tl f="D" t="p" o="R1" c="ME" n="82839"/>
+		<ar pt="2408240049" pp="6" l="RE2" ppth="Hannover Hbf|Sarstedt|Nordstemmen|Elze(Han)|Banteln|Alfeld(Leine)|Freden(Leine)|Kreiensen|Einbeck-Salzderhelden|Northeim(Han)|Nörten-Hardenberg"/>
+	</s>
+	<s id="8845287307209024824-2408232326-7">
+		<tl f="N" t="p" o="8002A3" c="RB" n="14026"/>
+		<ar pt="2408240008" pp="7" l="80" ppth="Herzberg(Harz)|Hattorf|Wulften|Katlenburg|Northeim(Han)|Nörten-Hardenberg"/>
+	</s>
+	<s id="-8859366065824771350-2408232346-11">
+		<tl f="N" t="p" o="N4" c="RB" n="24038"/>
+		<ar pt="2408240041" pp="5" l="83" ppth="Kassel Hbf|Vellmar-Niedervellmar|Fuldatal-Ihringshausen|Speele|Hann Münden|Hedemünden|Gertenbach|Witzenhausen Nord|Eichenberg|Friedland(Han)"/>
+	</s>
+	<s id="-2517670308480836234-2408232021-7">
+		<tl f="F" t="p" o="NZ" c="IC" n="60471"/>
+		<ar pt="2408240001" pp="6" ppth="Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Verden(Aller)|Nienburg(Weser)|Hannover Hbf"/>
+		<dp pt="2408240003" pp="6" ppth="Würzburg Hbf|Ludwigsburg|Singen(Hohentwiel)|Schaffhausen|Zürich HB"/>
+	</s>
+	<s id="-3384441829922174828-2408232315-2">
+		<tl t="p" o="SD" c="Bus" n="5676"/>
+		<ar pt="2408240000" pp="" l="RE1" ppth="Heilbad Heiligenstadt"/>
+	</s>
+	<s id="8971547127002069842-2408232021-7">
+		<tl t="p" o="81" c="NJ" n="471"/>
+		<ar pt="2408240001" pp="6" hi="1" wings="-2517670308480836234-2408232021" ppth="Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Verden(Aller)|Nienburg(Weser)|Hannover Hbf"/>
+		<dp pt="2408240003" pp="6" wings="-2517670308480836234-2408232021" ppth="Würzburg Hbf|Ludwigsburg|Singen(Hohentwiel)|Schaffhausen|Zürich HB"/>
+	</s>
+	<s id="-362716968352481972-2408240000-1">
+		<tl t="p" o="SD" c="Bus" n="3651"/>
+		<dp pt="2408240000" pp="" l="RE1" ppth="Heilbad Heiligenstadt"/>
+	</s>
+	<s id="-9150029195751981009-2408240022-1">
+		<tl f="N" t="p" o="8002A3" c="RB" n="14031"/>
+		<dp pt="2408240022" pp="7" l="80" ppth="Nörten-Hardenberg|Northeim(Han)"/>
+	</s>
+</timetable>
