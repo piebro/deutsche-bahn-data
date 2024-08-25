@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<timetable station="Fulda">
+	<s id="-2548994183414850777-2408250314-7">
+		<tl f="N" t="p" o="N4" c="RB" n="24201"/>
+		<ar pt="2408250353" pp="4" l="5" ppth="Bebra|Ludwigsau-Friedlos|Bad Hersfeld|Haunetal-Neukirchen|Burghaun(Hünfeld)|Hünfeld"/>
+	</s>
+	<s id="1641451803310412587-2408241911-7">
+		<tl t="p" o="85" c="NJ" n="479"/>
+		<ar pt="2408250358" pp="6" wings="-8752649922601863967-2408241911" ppth="Zürich HB|Schaffhausen|Singen(Hohentwiel)|Böblingen|Ludwigsburg|Würzburg Hbf"/>
+		<dp pt="2408250400" pp="6" wings="-8752649922601863967-2408241911" ppth="Leipzig Hbf|Bitterfeld|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="-8752649922601863967-2408241911-7">
+		<tl f="F" t="p" o="NZ" c="IC" n="60479"/>
+		<ar pt="2408250358" pp="6" ppth="Zürich HB|Schaffhausen|Singen(Hohentwiel)|Böblingen|Ludwigsburg|Würzburg Hbf"/>
+		<dp pt="2408250400" pp="6" ppth="Leipzig Hbf|Bitterfeld|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="67681408536754467-2408242100-7">
+		<tl t="p" o="NYUEX" c="UEX" n="348"/>
+		<ar pt="2408250307" pp="6" ppth="Innsbruck Hbf|Wörgl Hbf|Kufstein|München Ost|Würzburg Hbf|Gemünden(Main)"/>
+		<dp pt="2408250307" pp="6" hi="1" ppth="Hannover Hbf|Lüneburg|Hamburg Hbf|Hamburg-Altona"/>
+	</s>
+</timetable>
