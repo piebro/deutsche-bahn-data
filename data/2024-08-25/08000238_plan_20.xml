@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<timetable station="Lüneburg">
+	<s id="-6243849605446872567-2408252041-1">
+		<tl f="D" t="p" o="X2" c="erx" n="81549"/>
+		<dp pt="2408252041" pp="7" l="RB32" ppth="Wendisch Evern|Vastorf|Bavendorf|Dahlenburg|Neetzendorf|Göhrde|Leitstade|Hitzacker|Dannenberg Ost"/>
+	</s>
+	<s id="-4776595268609006900-2408251615-8">
+		<tl f="F" t="p" o="80" c="ICE" n="1594"/>
+		<ar pt="2408252013" pp="2" ppth="Frankfurt(Main)Hbf|Hanau Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle"/>
+		<dp pt="2408252015" pp="2" ppth="Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-6425682665605104894-2408251512-9">
+		<tl f="F" t="p" o="80" c="ICE" n="984"/>
+		<ar pt="2408252026" pp="2" ppth="München Hbf|Ingolstadt Hbf|Nürnberg Hbf|Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf"/>
+		<dp pt="2408252028" pp="2" ppth="Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-1029849874658194215-2408252018-4">
+		<tl f="D" t="p" o="X1" c="erx" n="28181"/>
+		<ar pt="2408252046" pp="5" l="RE83" ppth="Büchen|Lauenburg(Elbe)|Echem"/>
+	</s>
+	<s id="4628797216718709444-2408251354-13">
+		<tl f="F" t="p" o="80" c="ICE" n="706"/>
+		<ar pt="2408252034" pp="2" ppth="München Hbf|Ingolstadt Hbf|Nürnberg Hbf|Bamberg|Erfurt Hbf|Halle(Saale)Hbf|Bitterfeld|Berlin Südkreuz|Berlin Hbf|Berlin-Spandau|Stendal Hbf|Salzwedel"/>
+		<dp pt="2408252036" pp="2" ppth="Hamburg Hbf|Hamburg-Altona"/>
+	</s>
+	<s id="7617087916692894326-2408251957-4">
+		<tl f="D" t="p" o="R1" c="ME" n="82137"/>
+		<ar pt="2408252033" pp="1" l="RE3" ppth="Hamburg Hbf|Hamburg-Harburg|Winsen(Luhe)"/>
+		<dp pt="2408252034" pp="1" l="RE3" ppth="Bienenbüttel|Bad Bevensen|Uelzen"/>
+	</s>
+	<s id="-108038817241346025-2408251910-10">
+		<tl f="D" t="p" o="X2" c="erx" n="81548"/>
+		<ar pt="2408252018" pp="7" l="RB32" ppth="Dannenberg Ost|Hitzacker|Leitstade|Göhrde|Neetzendorf|Dahlenburg|Bavendorf|Vastorf|Wendisch Evern"/>
+	</s>
+	<s id="7468334744528629490-2408251512-9">
+		<tl f="F" t="p" o="80" c="ICE" n="584"/>
+		<ar pt="2408252026" pp="2" wings="-6425682665605104894-2408251512" ppth="München Hbf|Ingolstadt Hbf|Nürnberg Hbf|Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf"/>
+		<dp pt="2408252028" pp="2" wings="-6425682665605104894-2408251512" ppth="Hamburg-Harburg|Hamburg Hbf|Lübeck Hbf"/>
+	</s>
+	<s id="-8631361224774257822-2408251648-7">
+		<tl f="F" t="p" o="80" c="ICE" n="1514"/>
+		<ar pt="2408252026" pp="2" ppth="Frankfurt(Main)Hbf|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen"/>
+		<dp pt="2408252028" pp="2" ppth="Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="3570875832687589701-2408252024-2">
+		<tl f="F" t="p" o="80" c="ICE" n="1679"/>
+		<ar pt="2408252049" pp="1" ppth="Hamburg Hbf"/>
+		<dp pt="2408252051" pp="1" ppth="Uelzen|Celle|Hannover Hbf"/>
+	</s>
+	<s id="179418091046235315-2408252001-2">
+		<tl f="F" t="p" o="80" c="ICE" n="887"/>
+		<ar pt="2408252026" pp="1" ppth="Hamburg Hbf"/>
+		<dp pt="2408252028" pp="1" ppth="Uelzen|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Hanau Hbf|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-5033423880624192770-2408252002-4">
+		<tl f="D" t="p" o="R1" c="ME" n="82136"/>
+		<ar pt="2408252025" pp="3" l="RE3" tra="-1621849622641880552-2408252033-1" ppth="Uelzen|Bad Bevensen|Bienenbüttel"/>
+	</s>
+	<s id="-421109597482609897-2408251933-10">
+		<tl f="D" t="p" o="R1" c="ME" n="81637"/>
+		<ar pt="2408252023" pp="6" l="RB31" ppth="Hamburg Hbf|Hamburg-Harburg|Meckelfeld|Maschen|Stelle|Ashausen|Winsen(Luhe)|Radbruch|Bardowick"/>
+	</s>
+	<s id="-1621849622641880552-2408252033-1">
+		<tl f="D" t="p" o="R1" c="ME" n="81636"/>
+		<dp pt="2408252033" pp="3" l="RB31" tra="-5033423880624192770-2408252002-4" ppth="Bardowick|Radbruch|Winsen(Luhe)|Ashausen|Stelle|Maschen|Meckelfeld|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="4991757473978825945-2408252016-1">
+		<tl f="D" t="p" o="X1" c="erx" n="28184"/>
+		<dp pt="2408252016" pp="5" l="RE83" ppth="Echem|Lauenburg(Elbe)|Büchen"/>
+	</s>
+</timetable>
