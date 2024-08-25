@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<timetable station="Göttingen">
+	<s id="458111751689512243-2408250610-4">
+		<tl t="p" o="SD" c="Bus" n="3672"/>
+		<ar pt="2408250657" pp="" l="RE1" ppth="Heilbad Heiligenstadt|Uder|Arenshausen"/>
+	</s>
+	<s id="3049382533670169655-2408250659-1">
+		<tl f="N" t="p" o="N4" c="RB" n="24067"/>
+		<dp pt="2408250659" pp="5" l="87" pde="Bebra" ppth="Friedland(Han)|Eichenberg|Bad Sooden-Allendorf|Eschwege-Niederhone|Eschwege"/>
+	</s>
+	<s id="8388284206224174823-2408250648-1">
+		<tl f="N" t="p" o="8002A3" c="RB" n="14105"/>
+		<dp pt="2408250648" pp="4" l="82" ppth="Nörten-Hardenberg|Northeim(Han)|Einbeck-Salzderhelden|Kreiensen|Bad Gandersheim|Seesen|Langelsheim|Goslar|Oker|Bad Harzburg"/>
+	</s>
+	<s id="8902317930613394728-2408250415-7">
+		<tl f="F" t="p" o="80" c="ICE" n="571"/>
+		<ar pt="2408250650" pp="10" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin-Spandau|Wolfsburg Hbf|Braunschweig Hbf|Hildesheim Hbf"/>
+		<dp pt="2408250652" pp="10" ppth="Kassel-Wilhelmshöhe|Fulda|Hanau Hbf|Frankfurt(Main)Hbf|Darmstadt Hbf|Mannheim Hbf|Stuttgart Hbf"/>
+	</s>
+	<s id="-434131667003887535-2408250659-1">
+		<tl f="N" t="p" o="N4" c="RB" n="24007"/>
+		<dp pt="2408250659" pp="5" l="83" wings="3049382533670169655-2408250659" ppth="Friedland(Han)|Eichenberg|Witzenhausen Nord|Gertenbach|Hedemünden|Hann Münden|Speele|Fuldatal-Ihringshausen|Vellmar-Niedervellmar|Kassel Hbf"/>
+	</s>
+</timetable>
