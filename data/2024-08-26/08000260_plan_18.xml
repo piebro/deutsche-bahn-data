@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<timetable station="Würzburg Hbf">
+	<s id="5311537321398817844-2408261522-6">
+		<tl f="F" t="p" o="80" c="ICE" n="723"/>
+		<ar pt="2408261801" pp="4" ppth="Düsseldorf Hbf|Köln Messe/Deutz Gl.11-12|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf|Aschaffenburg Hbf"/>
+		<dp pt="2408261804" pp="4" ppth="Nürnberg Hbf|München Hbf"/>
+	</s>
+	<s id="3941958275395660636-2408261515-6">
+		<tl f="F" t="p" o="80" c="ICE" n="631"/>
+		<ar pt="2408261828" pp="5" ppth="Bremen Hbf|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda"/>
+		<dp pt="2408261832" pp="5" ppth="Nürnberg Hbf|Ingolstadt Hbf|München Hbf"/>
+	</s>
+	<s id="2086371144951754245-2408261820-1">
+		<tl t="p" o="B7" c="Bus" n="58229"/>
+		<dp pt="2408261820" pp="" l="EV" ppth="Kitzingen"/>
+	</s>
+	<s id="-6502961489494378196-2408261741-14">
+		<tl f="N" t="p" o="800714" c="RB" n="58068"/>
+		<ar pt="2408261851" pp="7" l="53" ppth="Bamberg|Ebelsbach-Eltmann|Zeil|Haßfurt|Schonungen|Schweinfurt Stadt|Schweinfurt Mitte|Schweinfurt Hbf|Waigolshausen|Eßleben|Bergtheim|Seligenstadt(b Würzburg)|Rottendorf"/>
+		<dp pt="2408261901" pp="7" l="53" ppth="Würzburg-Zell|Veitshöchheim|Thüngersheim|Retzbach-Zellingen|Himmelstadt|Karlstadt(Main)|Wernfeld|Gemünden(Main)|Rieneck|Burgsinn|Mittelsinn|Obersinn|Jossa|Sterbfritz|Schlüchtern"/>
+	</s>
+	<s id="-3066280245555736065-2408261825-2">
+		<tl t="p" o="B7" c="Bus" n="58098"/>
+		<ar pt="2408261855" pp="" l="EV" ppth="Kitzingen"/>
+	</s>
+	<s id="7765468405423399411-2408261810-1">
+		<tl t="p" o="B7" c="Bus" n="58097"/>
+		<dp pt="2408261810" pp="" l="EV" ppth="Kitzingen"/>
+	</s>
+	<s id="2006650266683945588-2408261416-8">
+		<tl f="F" t="p" o="80" c="ICE" n="681"/>
+		<ar pt="2408261828" pp="5" wings="3941958275395660636-2408261515" ppth="Lübeck Hbf|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda"/>
+		<dp pt="2408261832" pp="5" wings="3941958275395660636-2408261515" ppth="Nürnberg Hbf|Ingolstadt Hbf|München Hbf"/>
+	</s>
+	<s id="-4583340401728006906-2408261619-9">
+		<tl f="N" t="p" o="GARE" c="RE" n="56724"/>
+		<ar pt="2408261821" pp="2" l="8" ppth="Ludwigsburg|Bietigheim-Bissingen|Heilbronn Hbf|Neckarsulm|Bad Friedrichshall Hbf|Möckmühl|Osterburken|Lauda"/>
+	</s>
+	<s id="1902111262221564262-2408261811-7">
+		<tl f="N" t="p" o="800714" c="RB" n="58065"/>
+		<ar pt="2408261833" pp="10A-C" l="53" ppth="Karlstadt(Main)|Himmelstadt|Retzbach-Zellingen|Thüngersheim|Veitshöchheim|Würzburg-Zell"/>
+	</s>
+	<s id="-7290626053701313767-2408261837-1">
+		<tl f="N" t="p" o="GARE" c="RE" n="56725"/>
+		<dp pt="2408261837" pp="2" l="8" ppth="Lauda|Osterburken|Möckmühl|Bad Friedrichshall Hbf|Neckarsulm|Heilbronn Hbf|Bietigheim-Bissingen"/>
+	</s>
+	<s id="4218053850205204069-2408261552-3">
+		<tl f="F" t="p" o="80" c="ICE" n="1222"/>
+		<ar pt="2408261827" pp="6" ppth="München Hbf|Augsburg Hbf"/>
+		<dp pt="2408261831" pp="6" ppth="Hanau Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf|Köln Messe/Deutz Gl.11-12|Solingen Hbf|Wuppertal Hbf|Hagen Hbf|Dortmund Hbf"/>
+	</s>
+	<s id="2880010093186586362-2408261830-5">
+		<tl f="N" t="p" o="800714" c="RB" n="58166"/>
+		<ar pt="2408261853" pp="3" l="80" ppth="Marktbreit|Ochsenfurt|Winterhausen|Würzburg Süd"/>
+	</s>
+	<s id="1246342218205095403-2408261635-16">
+		<tl f="N" t="p" o="800714" c="RB" n="58061"/>
+		<ar pt="2408261800" pp="5" l="53" ppth="Schlüchtern|Sterbfritz|Jossa|Obersinn|Mittelsinn|Burgsinn|Rieneck|Gemünden(Main)|Wernfeld|Karlstadt(Main)|Himmelstadt|Retzbach-Zellingen|Thüngersheim|Veitshöchheim|Würzburg-Zell"/>
+		<dp pt="2408261808" pp="5" l="53" ppth="Rottendorf|Seligenstadt(b Würzburg)|Bergtheim|Eßleben|Waigolshausen|Schweinfurt Hbf|Schweinfurt Mitte|Schweinfurt Stadt|Schonungen|Haßfurt|Zeil|Ebelsbach-Eltmann|Oberhaid|Bamberg"/>
+	</s>
+	<s id="4362608433923368689-2408261641-14">
+		<tl f="N" t="p" o="800714" c="RB" n="58060"/>
+		<ar pt="2408261751" pp="7" l="53" ppth="Bamberg|Ebelsbach-Eltmann|Zeil|Haßfurt|Schonungen|Schweinfurt Stadt|Schweinfurt Mitte|Schweinfurt Hbf|Waigolshausen|Eßleben|Bergtheim|Seligenstadt(b Würzburg)|Rottendorf"/>
+		<dp pt="2408261801" pp="7" l="53" ppth="Würzburg-Zell|Veitshöchheim|Thüngersheim|Retzbach-Zellingen|Himmelstadt|Karlstadt(Main)|Wernfeld|Gemünden(Main)|Rieneck|Burgsinn|Mittelsinn|Obersinn|Jossa|Sterbfritz|Schlüchtern"/>
+	</s>
+	<s id="-4384291237910028934-2408261726-4">
+		<tl f="N" t="p" o="800772" c="RE" n="4628"/>
+		<ar pt="2408261821" pp="8" l="54" ppth="Bamberg|Haßfurt|Schweinfurt Hbf"/>
+		<dp pt="2408261837" pp="8" l="54" ppth="Retzbach-Zellingen|Karlstadt(Main)|Gemünden(Main)|Langenprozelten|Lohr Bahnhof|Partenstein|Wiesthal|Heigenbrücken|Laufach|Hösbach|Aschaffenburg Hbf|Kleinostheim|Dettingen(Main)|Kahl(Main)|Hanau Hbf|Hanau West|Hanau-Wilhelmsbad|Maintal Ost|Maintal West|Frankfurt-Mainkur|Frankfurt(Main)Ost|Frankfurt(Main)Süd|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="7614041139946674531-2408261822-1">
+		<tl f="N" t="p" o="800714" c="RB" n="58064"/>
+		<dp pt="2408261822" pp="9" l="53" ppth="Würzburg-Zell|Veitshöchheim|Thüngersheim|Retzbach-Zellingen|Himmelstadt|Karlstadt(Main)"/>
+	</s>
+	<s id="-5846889041600799503-2408261805-5">
+		<tl t="p" o="B7" c="Bus" n="58226"/>
+		<ar pt="2408261850" pp="" l="EV" ppth="Kitzingen|Buchbrunn-Mainstockheim|Dettelbach Bahnhof|Rottendorf"/>
+	</s>
+	<s id="6886043851505851497-2408261805-2">
+		<tl t="p" o="B7" c="Bus" n="68226"/>
+		<ar pt="2408261835" pp="" l="EV" ppth="Kitzingen"/>
+	</s>
+	<s id="-5451741172656939686-2408261835-1">
+		<tl f="N" t="p" o="800755" c="RE" n="4793"/>
+		<dp pt="2408261835" pp="10 D-F" l="20" ppth="Schweinfurt Hbf|Haßfurt|Bamberg|Hirschaid|Forchheim(Oberfr)|Erlangen|Fürth(Bay)Hbf|Nürnberg Hbf"/>
+	</s>
+	<s id="-4221892085970556011-2408261807-1">
+		<tl f="N" t="p" o="800714" c="RB" n="57977"/>
+		<dp pt="2408261807" pp="2" l="85" ppth="Würzburg Süd|Reichenberg(Unterfr)|Geroldshausen|Kirchheim(Unterfr)|Gaubüttelbrunn|Wittighausen|Zimmern(Main-Tauber)|Grünsfeld|Gerlachsheim|Lauda|Boxberg-Wölchingen|Eubigheim|Rosenberg(Baden)|Osterburken"/>
+	</s>
+	<s id="1642407459335884057-2408261625-16">
+		<tl f="N" t="p" o="GYRE" c="RE" n="55806"/>
+		<ar pt="2408261816" pp="3" l="80" ppth="Treuchtlingen|Gunzenhausen|Muhr a See|Triesdorf|Ansbach|Oberdachstetten|Burgbernheim-Wildbad|Steinach(b Rothenburg ob der Tauber)|Uffenheim|Marktbreit|Ochsenfurt|Goßmannsdorf|Winterhausen|Würzburg-Heidingsfeld Ost|Würzburg Süd"/>
+	</s>
+	<s id="210151357179493825-2408261737-16">
+		<tl f="N" t="p" o="800714" c="RB" n="57978"/>
+		<ar pt="2408261856" pp="2" l="85" ppth="Osterburken|Rosenberg(Baden)|Eubigheim|Boxberg-Wölchingen|Königshofen(Baden)|Lauda|Gerlachsheim|Grünsfeld|Zimmern(Main-Tauber)|Wittighausen|Gaubüttelbrunn|Kirchheim(Unterfr)|Geroldshausen|Reichenberg(Unterfr)|Würzburg Süd"/>
+	</s>
+	<s id="50770787591072936-2408261643-3">
+		<tl f="F" t="p" o="80" c="ICE" n="528"/>
+		<ar pt="2408261852" pp="6" ppth="München Hbf|Nürnberg Hbf"/>
+		<dp pt="2408261855" pp="6" ppth="Aschaffenburg Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Köln Messe/Deutz Gl.11-12|Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf"/>
+	</s>
+	<s id="-2462049634278711988-2408261203-10">
+		<tl f="F" t="p" o="81" c="ICE" n="90"/>
+		<ar pt="2408261835" pp="6" ppth="Flughafen Wien|Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Passau Hbf|Plattling|Regensburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2408261837" pp="6" ppth="Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="6965005431806324226-2408261841-1">
+		<tl f="N" t="p" o="GYRE" c="RE" n="55807"/>
+		<dp pt="2408261841" pp="3" l="80" ppth="Würzburg Süd|Würzburg-Heidingsfeld Ost|Winterhausen|Goßmannsdorf|Ochsenfurt|Marktbreit|Uffenheim|Steinach(b Rothenburg ob der Tauber)|Burgbernheim-Wildbad|Oberdachstetten|Ansbach|Triesdorf|Muhr a See|Gunzenhausen|Treuchtlingen"/>
+	</s>
+	<s id="-459790740786525693-2408261732-5">
+		<tl f="N" t="p" o="8004NT" c="RE" n="99191"/>
+		<ar pt="2408261838" pp="9" l="7" ppth="Bad Neustadt(Saale)|Münnerstadt|Ebenhausen(Unterfr)|Schweinfurt Hbf"/>
+	</s>
+	<s id="-3292467818332395433-2408261634-17">
+		<tl f="N" t="p" o="800772" c="RE" n="4623"/>
+		<ar pt="2408261821" pp="11" l="55" ppth="Frankfurt(Main)Hbf|Frankfurt(Main)Süd|Offenbach(Main)Hbf|Hanau Hbf|Kahl(Main)|Dettingen(Main)|Kleinostheim|Aschaffenburg Hbf|Heigenbrücken|Wiesthal|Partenstein|Lohr Bahnhof|Langenprozelten|Gemünden(Main)|Karlstadt(Main)|Retzbach-Zellingen"/>
+	</s>
+</timetable>
