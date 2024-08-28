@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<timetable station="Lübeck Hbf">
+	<s id="4840620519341486554-2408272334-6">
+		<tl f="N" t="p" o="800292" c="RE" n="11488"/>
+		<ar pt="2408280024" pp="7" l="80" ppth="Hamburg Hbf|Ahrensburg|Bad Oldesloe|Reinfeld(Holst)|Lübeck-Moisling"/>
+	</s>
+	<s id="-7316606966393455965-2408272306-5">
+		<tl f="N" t="p" o="800292" c="RE" n="11438"/>
+		<ar pt="2408272352" pp="5" l="8" ppth="Hamburg Hbf|Bad Oldesloe|Reinfeld(Holst)|Lübeck-Moisling"/>
+		<dp pt="2408280003" pp="5" l="8" ppth="Lübeck-Dänischburg IKEA|Lübeck-Kücknitz|Lübeck-Travem. Skandinavienkai|Lübeck-Travemünde Hafen|Lübeck-Travemünde Strand"/>
+	</s>
+	<s id="275774863783201005-2408272305-12">
+		<tl f="D" t="p" o="X1" c="erx" n="21093"/>
+		<ar pt="2408280032" pp="6" l="RB84" ppth="Kiel Hbf|Kiel-Elmschenhagen|Raisdorf|Preetz|Ascheberg(Holst)|Plön|Bad Malente-Gremsmühlen|Eutin|Pönitz(Holst)|Pansdorf|Bad Schwartau"/>
+	</s>
+	<s id="4137780767720878431-2408272343-9">
+		<tl f="D" t="p" o="X1" c="erx" n="21043"/>
+		<ar pt="2408280052" pp="6" l="RE83" ppth="Kiel Hbf|Raisdorf|Preetz|Ascheberg(Holst)|Plön|Bad Malente-Gremsmühlen|Eutin|Bad Schwartau"/>
+	</s>
+	<s id="1929678415710729267-2408280009-1">
+		<tl t="p" o="B1" c="Bus" n="91441"/>
+		<dp pt="2408280009" pp="" l="RE80" ppth="Hamburg Hbf ZOB"/>
+	</s>
+	<s id="3350321954158111019-2408280022-5">
+		<tl f="D" t="p" o="X1" c="erx" n="21140"/>
+		<ar pt="2408280052" pp="4" l="RE83" ppth="Mölln(Lauenb)|Ratzeburg|Lübeck Flughafen|Lübeck Hochschulstadtteil"/>
+	</s>
+	<s id="-9218606938380474169-2408280001-2">
+		<tl t="p" o="B1" c="Bus" n="81440"/>
+		<ar pt="2408280056" pp="" l="RE8" ppth="Hamburg Hbf ZOB"/>
+	</s>
+	<s id="-3953708139935826553-2408280034-6">
+		<tl f="N" t="p" o="800292" c="RE" n="11449"/>
+		<ar pt="2408280056" pp="7" l="8" ppth="Lübeck-Travemünde Strand|Lübeck-Travemünde Hafen|Lübeck-Travem. Skandinavienkai|Lübeck-Kücknitz|Lübeck-Dänischburg IKEA"/>
+	</s>
+	<s id="8020114050452310896-2408280010-1">
+		<tl f="D" t="p" o="X1" c="erx" n="21141"/>
+		<dp pt="2408280010" pp="6" l="RE83" ppth="Lübeck Hochschulstadtteil|Lübeck Flughafen|Ratzeburg|Mölln(Lauenb)"/>
+	</s>
+	<s id="-8623493443822830758-2408280006-1">
+		<tl f="D" t="p" o="X1" c="erx" n="21038"/>
+		<dp pt="2408280006" pp="4" l="RE83" ppth="Bad Schwartau|Eutin|Bad Malente-Gremsmühlen|Plön|Ascheberg(Holst)|Preetz|Raisdorf|Kiel Hbf"/>
+	</s>
+	<s id="-119862226176940783-2408280028-1">
+		<tl f="D" t="p" o="X1" c="erx" n="21088"/>
+		<dp pt="2408280028" pp="6" l="RB84" ppth="Bad Schwartau|Pansdorf|Pönitz(Holst)|Eutin|Bad Malente-Gremsmühlen|Plön|Ascheberg(Holst)|Preetz|Raisdorf|Kiel-Elmschenhagen|Kiel Hbf"/>
+	</s>
+	<s id="-4868548804931541720-2408280009-1">
+		<tl t="p" o="B1" c="Bus" n="11441"/>
+		<dp pt="2408280009" pp="" l="RE8" ppth="Lübeck-Moisling|Reinfeld(Holst)|Bad Oldesloe|Hamburg Hbf ZOB"/>
+	</s>
+</timetable>

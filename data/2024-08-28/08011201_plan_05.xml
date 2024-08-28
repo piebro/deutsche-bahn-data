@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="-3289399367241805700-2408280558-1">
+		<tl t="p" o="800165" c="FEX" n="19806"/>
+		<dp pt="2408280558" pp="1" tra="1672294977889446701-2408280539-3" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="5547616819435409899-2408280451-4">
+		<tl t="p" o="800165" c="FEX" n="19809"/>
+		<ar pt="2408280530" pp="4" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="1672294977889446701-2408280539-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18652"/>
+		<ar pt="2408280555" pp="1" l="32" tra="-3289399367241805700-2408280558-1" ppth="Ludwigsfelde|Birkengrund"/>
+	</s>
+	<s id="6587236525069306157-2408280509-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18653"/>
+		<dp pt="2408280509" pp="4" l="32" tra="-717944806167106896-2408280421-4" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+	<s id="3659752465878737902-2408280508-2">
+		<tl f="N" t="p" o="800165" c="RB" n="18103"/>
+		<ar pt="2408280521" pp="4" l="22" ppth="Königs Wusterhausen"/>
+		<dp pt="2408280523" pp="4" l="22" ppth="Ludwigsfelde-Struveshof|Saarmund|Potsdam Pirschheide|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof|Potsdam Hbf|Potsdam Griebnitzsee"/>
+	</s>
+	<s id="-6442665425170021962-2408280513-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18140"/>
+		<dp pt="2408280513" pp="2" l="23" ppth="Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Charlottenburg|Berlin-Wannsee|Potsdam Griebnitzsee|Potsdam Hbf|Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm"/>
+	</s>
+	<s id="-2450694951068715892-2408280401-11">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62048"/>
+		<ar pt="2408280514" pp="3" l="8" ppth="Nauen|Brieselang|Finkenkrug|Falkensee|Seegefeld|Albrechtshof|Berlin-Spandau|Berlin Jungfernheide|Berlin Gesundbrunnen|Berlin-Lichtenberg"/>
+	</s>
+	<s id="-1415362837751121623-2408280447-4">
+		<tl f="N" t="p" o="800165" c="RB" n="18344"/>
+		<ar pt="2408280503" pp="1" l="24" tra="3105587517085278592-2408280528-1" ppth="Rangsdorf|Dahlewitz|Blankenfelde(Teltow-Fläming)"/>
+	</s>
+	<s id="-717944806167106896-2408280421-4">
+		<tl t="p" o="800165" c="FEX" n="19807"/>
+		<ar pt="2408280500" pp="4" tra="6587236525069306157-2408280509-1" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="816544395317894188-2408280538-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18347"/>
+		<dp pt="2408280538" pp="4" l="24" ppth="Blankenfelde(Teltow-Fläming)|Dahlewitz|Rangsdorf|Dabendorf|Zossen|Wünsdorf-Waldstadt"/>
+	</s>
+	<s id="-5981338179990436171-2408280544-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62005"/>
+		<dp pt="2408280544" pp="2" l="8" ppth="Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Spandau|Falkensee|Nauen|Paulinenaue|Friesack(Mark)|Neustadt(Dosse)|Breddin|Glöwen|Bad Wilsnack|Wittenberge"/>
+	</s>
+	<s id="3105587517085278592-2408280528-1">
+		<tl t="p" o="800165" c="FEX" n="19804"/>
+		<dp pt="2408280528" pp="1" tra="-1415362837751121623-2408280447-4" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="-5498503702668754693-2408280457-8">
+		<tl f="N" t="p" o="800165" c="RB" n="18141"/>
+		<ar pt="2408280546" pp="3" l="23" ppth="Berlin-Charlottenburg|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz"/>
+	</s>
+	<s id="-959550895535921869-2408280509-5">
+		<tl f="N" t="p" o="800165" c="RB" n="18102"/>
+		<ar pt="2408280536" pp="1" l="22" ppth="Golm|Potsdam Pirschheide|Saarmund|Ludwigsfelde-Struveshof"/>
+		<dp pt="2408280538" pp="1" l="22" ppth="Königs Wusterhausen"/>
+	</s>
+</timetable>
