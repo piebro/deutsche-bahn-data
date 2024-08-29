@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<timetable station="Wolfsburg Hbf">
+	<s id="5845049446990543970-2408290014-1">
+		<tl t="p" o="R0" c="ENO" n="83538"/>
+		<dp pt="2408290014" pp="4" l="RE30" ppth="Fallersleben|Calberlah|Gifhorn|Leiferde(b Gifhorn)|Meinersen|Dedenhausen|Dollbergen|Immensen-Arpke|Lehrte|Hannover Hbf"/>
+	</s>
+	<s id="-7233155797999363332-2408282348-11">
+		<tl t="p" o="R0" c="ENO" n="83539"/>
+		<ar pt="2408290043" pp="4" l="RE30" ppth="Hannover Hbf|Lehrte|Immensen-Arpke|Dollbergen|Dedenhausen|Meinersen|Leiferde(b Gifhorn)|Gifhorn|Calberlah|Fallersleben"/>
+	</s>
+	<s id="-7260953034263185039-2408282009-9">
+		<tl f="F" t="p" o="80" c="ICE" n="790"/>
+		<ar pt="2408290017" pp="5" ppth="Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Süd|Hanau Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hildesheim Hbf|Braunschweig Hbf"/>
+		<dp pt="2408290018" pp="5" ppth="Stendal Hbf|Berlin-Spandau|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="-8663650328249280950-2408290018-1">
+		<tl t="p" o="R0" c="ENO" n="83588"/>
+		<dp pt="2408290018" pp="8" l="RE50" ppth="Fallersleben|Weddel(Braunschw)|Braunschweig Hbf"/>
+	</s>
+</timetable>
