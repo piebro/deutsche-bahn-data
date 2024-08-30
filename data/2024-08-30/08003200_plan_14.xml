@@ -1,0 +1,132 @@
+<?xml version="1.0" ?>
+<timetable station="Kassel-Wilhelmshöhe">
+	<s id="-8665858537656714806-2408301439-1">
+		<tl f="N" t="p" o="800523" c="RB" n="23019"/>
+		<dp pt="2408301439" pp="4" l="4" ppth="Vellmar-Obervellmar|Ahnatal-Weimar|Zierenberg|Wolfhagen|Ehringen|Volkmarsen|Külte-Wetterburg|Bad Arolsen|Mengeringhausen|Twiste|Korbach Hbf"/>
+	</s>
+	<s id="-7835973095106612663-2408301305-12">
+		<tl f="N" t="p" o="800523" c="RB" n="23018"/>
+		<ar pt="2408301421" pp="4" l="4" ppth="Korbach Hbf|Twiste|Mengeringhausen|Bad Arolsen|Külte-Wetterburg|Volkmarsen|Ehringen|Wolfhagen|Zierenberg|Ahnatal-Weimar|Vellmar-Obervellmar"/>
+	</s>
+	<s id="7719758655801921606-2408301423-2">
+		<tl f="N" t="p" o="8005MW" c="RE" n="4161"/>
+		<ar pt="2408301428" pp="7" l="30" ppth="Kassel Hbf"/>
+		<dp pt="2408301429" pp="7" l="30" ppth="Wabern(Bz Kassel)|Borken(Hess)|Treysa|Neustadt(Kr Marburg)|Stadtallendorf|Kirchhain(Bz Kassel)|Marburg(Lahn)|Gießen|Friedberg(Hess)|Frankfurt(Main)West|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-2543008509222161707-2408300825-10">
+		<tl f="F" t="p" o="80" c="ICE" n="690"/>
+		<ar pt="2408301419" pp="3" ppth="München Hbf|München-Pasing|Augsburg Hbf|Günzburg|Ulm Hbf|Stuttgart Hbf|Mannheim Hbf|Mainz Hbf|Frankfurt(Main)Hbf"/>
+		<dp pt="2408301421" pp="3" ppth="Göttingen|Hannover Hbf|Hamburg Hbf"/>
+	</s>
+	<s id="-5494809838162286659-2408301048-6">
+		<tl f="F" t="p" o="80" c="ICE" n="538"/>
+		<ar pt="2408301434" pp="3" ppth="München Hbf|Ingolstadt Hbf|Nürnberg Hbf|Würzburg Hbf|Fulda"/>
+		<dp pt="2408301436" pp="3" ppth="Göttingen|Hannover Hbf|Bremen Hbf"/>
+	</s>
+	<s id="1184509608867288236-2408301048-6">
+		<tl f="F" t="p" o="80" c="ICE" n="588"/>
+		<ar pt="2408301434" pp="3" wings="-5494809838162286659-2408301048" ppth="München Hbf|Ingolstadt Hbf|Nürnberg Hbf|Würzburg Hbf|Fulda"/>
+		<dp pt="2408301436" pp="3" wings="-5494809838162286659-2408301048" ppth="Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="1778405555935277912-2408301233-14">
+		<tl f="N" t="p" o="800487" c="RE" n="16258"/>
+		<ar pt="2408301454" pp="1" l="2" ppth="Erfurt Hbf|Döllstädt|Bad Langensalza|Mühlhausen(Thür)|Dachrieden|Silberhausen|Leinefelde|Heilbad Heiligenstadt|Uder|Arenshausen|Eichenberg|Witzenhausen Nord|Hann Münden"/>
+	</s>
+	<s id="6276775584692057053-2408301411-2">
+		<tl f="N" t="p" o="N4" c="RB" n="24233"/>
+		<ar pt="2408301414" pp="7" l="5" ppth="Kassel Hbf"/>
+		<dp pt="2408301415" pp="7" l="5" ppth="Guxhagen|Melsungen|Malsfeld|Malsfeld-Beiseförth|Altmorschen|Heinebach|Rotenburg a.d. Fulda|Lispenhausen|Bebra|Ludwigsau-Friedlos|Bad Hersfeld|Haunetal-Neukirchen|Burghaun(Hünfeld)|Hünfeld|Fulda"/>
+	</s>
+	<s id="-331924816684019945-2408301335-10">
+		<tl f="D" t="p" o="H4" c="RT" n="20512"/>
+		<ar pt="2408301405" pp="9" l="5" ppth="Melsungen|Melsungen Bartenwetzerbrücke|Melsungen-Schwarzenberg|Melsungen-Röhrenfurth|Körle|Guxhagen|Baunatal-Guntershausen|Baunatal-Rengershausen|Kassel-Oberzwehren"/>
+		<dp pt="2408301405" pp="9" l="5" ppth="Kassel Hbf (tief)|Scheidemannplatz, Kassel|Wilhelmsstraße/Stadtmuseum, Kassel|Rathaus/Fünffensterstraße, Kassel|Am Weinberg, Kassel|Heinrich-Heine-Straße, Kassel|Auestadion, Kassel"/>
+	</s>
+	<s id="-6182870000015361060-2408301307-9">
+		<tl f="N" t="p" o="NXRE" c="RE" n="26717"/>
+		<ar pt="2408301456" pp="8" l="11" ppth="Hamm(Westf)Hbf|Soest|Lippstadt|Paderborn Hbf|Altenbeken|Willebadessen|Warburg(Westf)|Hofgeismar"/>
+	</s>
+	<s id="-2811786448885568004-2408301322-5">
+		<tl f="N" t="p" o="N4RE" c="RE" n="24272"/>
+		<ar pt="2408301412" pp="9" l="5" ppth="Bad Hersfeld|Bebra|Rotenburg a.d. Fulda|Melsungen"/>
+		<dp pt="2408301413" pp="9" l="5" ppth="Kassel Hbf"/>
+	</s>
+	<s id="2471840222021590754-2408301406-1">
+		<tl f="N" t="p" o="AMRE" c="RE" n="74713"/>
+		<dp pt="2408301406" pp="1" l="9" ppth="Hann Münden|Witzenhausen Nord|Eichenberg|Heilbad Heiligenstadt|Leinefelde|Bleicherode Ost|Wolkramshausen|Nordhausen|Heringen(Helme)|Görsbach|Berga-Kelbra|Roßla|Bennungen|Wallhausen(Helme)|Sangerhausen|Blankenheim(Sangerhausen)|Wolferode|Lutherstadt Eisleben|Röblingen am See|Halle(Saale)Hbf"/>
+	</s>
+	<s id="520326621457631549-2408301201-5">
+		<tl f="F" t="p" o="80" c="ICE" n="789"/>
+		<ar pt="2408301421" pp="2" ppth="Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen"/>
+		<dp pt="2408301423" pp="2" ppth="Fulda|Würzburg Hbf|Augsburg Hbf|München Hbf"/>
+	</s>
+	<s id="-4734858891118302235-2408301438-2">
+		<tl f="N" t="p" o="N4RE" c="RE" n="24279"/>
+		<ar pt="2408301442" pp="7" l="5" ppth="Kassel Hbf"/>
+		<dp pt="2408301443" pp="7" l="5" ppth="Melsungen|Rotenburg a.d. Fulda|Bebra|Bad Hersfeld"/>
+	</s>
+	<s id="81753320558505272-2408301403-1">
+		<tl f="N" t="p" o="NXRE" c="RE" n="26722"/>
+		<dp pt="2408301403" pp="8" l="11" ppth="Hofgeismar|Warburg(Westf)|Willebadessen|Altenbeken|Paderborn Hbf|Lippstadt|Soest|Hamm(Westf)Hbf"/>
+	</s>
+	<s id="4684232132352495455-2408301207-6">
+		<tl f="F" t="p" o="80" c="ICE" n="578"/>
+		<ar pt="2408301443" pp="3" ppth="Mannheim Hbf|Darmstadt Hbf|Frankfurt(Main)Hbf|Hanau Hbf|Fulda"/>
+		<dp pt="2408301445" pp="3" ppth="Göttingen|Hildesheim Hbf|Braunschweig Hbf|Wolfsburg Hbf|Berlin-Spandau|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="2119088642944413505-2408301437-8">
+		<tl f="D" t="p" o="H4" c="RT" n="20521"/>
+		<ar pt="2408301452" pp="7" l="5" ppth="Auestadion, Kassel|Heinrich-Heine-Straße, Kassel|Am Weinberg, Kassel|Rathaus/Fünffensterstraße, Kassel|Wilhelmsstraße/Stadtmuseum, Kassel|Scheidemannplatz, Kassel|Kassel Hbf (tief)"/>
+		<dp pt="2408301453" pp="7" l="5" ppth="Kassel-Oberzwehren|Baunatal-Rengershausen|Baunatal-Guntershausen|Guxhagen|Körle|Melsungen-Röhrenfurth|Melsungen-Schwarzenberg|Melsungen Bartenwetzerbrücke|Melsungen"/>
+	</s>
+	<s id="-2790121391414233897-2408301221-21">
+		<tl f="D" t="p" o="K4RE" c="HLB" n="24412"/>
+		<ar pt="2408301446" pp="10" l="RE98" ppth="Frankfurt(Main)Hbf|Friedberg(Hess)|Gießen|Marburg(Lahn)|Cölbe|Kirchhain(Bz Kassel)|Stadtallendorf|Neustadt(Kr Marburg)|Schwalmstadt-Wiera|Treysa|Schlierbach(Schwalm-Eder-Kr.)|Zimmersrode|Borken(Hess)|Singlis|Wabern(Bz Kassel)|Felsberg-Gensungen|Felsberg-Altenbrunslar|Felsberg-Wolfershausen|Edermünde-Grifte|Baunatal-Guntershausen"/>
+		<dp pt="2408301450" pp="10" l="RE98" ppth="Kassel Hbf"/>
+	</s>
+	<s id="-1814010400350286013-2408301251-6">
+		<tl f="F" t="p" o="80" c="ICE" n="1578"/>
+		<ar pt="2408301454" pp="3" ppth="Frankfurt(Main)Hbf|Friedberg(Hess)|Gießen|Marburg(Lahn)|Treysa"/>
+		<dp pt="2408301456" pp="3" ppth="Göttingen|Hannover Hbf|Celle|Uelzen|Bad Bevensen|Lüneburg|Hamburg-Harburg|Hamburg Hbf|Hamburg-Altona"/>
+	</s>
+	<s id="-68060400039126100-2408301407-8">
+		<tl f="D" t="p" o="H4" c="RT" n="20519"/>
+		<ar pt="2408301422" pp="7" l="5" ppth="Auestadion, Kassel|Heinrich-Heine-Straße, Kassel|Am Weinberg, Kassel|Rathaus/Fünffensterstraße, Kassel|Wilhelmsstraße/Stadtmuseum, Kassel|Scheidemannplatz, Kassel|Kassel Hbf (tief)"/>
+		<dp pt="2408301423" pp="7" l="5" ppth="Kassel-Oberzwehren|Baunatal-Rengershausen|Baunatal-Guntershausen|Guxhagen|Körle|Melsungen-Röhrenfurth|Melsungen-Schwarzenberg|Melsungen Bartenwetzerbrücke|Melsungen"/>
+	</s>
+	<s id="-7871046443810627376-2408301306-14">
+		<tl f="N" t="p" o="800523" c="RB" n="23112"/>
+		<ar pt="2408301409" pp="10" l="39" ppth="Bad Wildungen|Wega|Mandern|Ungedanken|Fritzlar|Zennern|Wabern(Bz Kassel)|Felsberg-Gensungen|Felsberg-Altenbrunslar|Felsberg-Wolfershausen|Edermünde-Grifte|Baunatal-Guntershausen|Baunatal-Rengershausen"/>
+		<dp pt="2408301409" pp="10" l="39" ppth="Kassel Hbf"/>
+	</s>
+	<s id="7684708000691798916-2408301403-2">
+		<tl f="N" t="p" o="800523" c="RB" n="23143"/>
+		<ar pt="2408301408" pp="7" l="38" ppth="Kassel Hbf"/>
+		<dp pt="2408301408" pp="7" l="38" ppth="Kassel-Oberzwehren|Baunatal-Rengershausen|Baunatal-Guntershausen|Edermünde-Grifte|Felsberg-Wolfershausen|Felsberg-Altenbrunslar|Felsberg-Gensungen|Wabern(Bz Kassel)|Singlis|Borken(Hess)|Zimmersrode"/>
+	</s>
+	<s id="-8088537362307746321-2408301405-10">
+		<tl f="D" t="p" o="H4" c="RT" n="20514"/>
+		<ar pt="2408301435" pp="9" l="5" ppth="Melsungen|Melsungen Bartenwetzerbrücke|Melsungen-Schwarzenberg|Melsungen-Röhrenfurth|Körle|Guxhagen|Baunatal-Guntershausen|Baunatal-Rengershausen|Kassel-Oberzwehren"/>
+		<dp pt="2408301435" pp="9" l="5" ppth="Kassel Hbf (tief)|Scheidemannplatz, Kassel|Wilhelmsstraße/Stadtmuseum, Kassel|Rathaus/Fünffensterstraße, Kassel|Am Weinberg, Kassel|Heinrich-Heine-Straße, Kassel|Auestadion, Kassel"/>
+	</s>
+	<s id="7671755399322673223-2408301442-2">
+		<tl f="N" t="p" o="800523" c="RE" n="23113"/>
+		<ar pt="2408301447" pp="7" l="39" ppth="Kassel Hbf"/>
+		<dp pt="2408301448" pp="7" l="39" ppth="Felsberg-Gensungen|Wabern(Bz Kassel)|Zennern|Fritzlar|Ungedanken|Mandern|Wega|Bad Wildungen"/>
+	</s>
+	<s id="8073654544959840302-2408301111-7">
+		<tl f="F" t="p" o="80" c="ICE" n="2277"/>
+		<ar pt="2408301435" pp="2" ppth="Kiel Hbf|Neumünster|Hamburg Dammtor|Hamburg Hbf|Hannover Hbf|Göttingen"/>
+		<dp pt="2408301437" pp="2" ppth="Frankfurt(Main)Hbf|Mainz Hbf|Mannheim Hbf|Karlsruhe Hbf|Rastatt"/>
+	</s>
+	<s id="-883000383170135332-2408301320-16">
+		<tl f="N" t="p" o="N4" c="RB" n="24224"/>
+		<ar pt="2408301442" pp="9" l="5" ppth="Fulda|Hünfeld|Burghaun(Hünfeld)|Haunetal-Neukirchen|Bad Hersfeld|Ludwigsau-Friedlos|Bebra|Lispenhausen|Rotenburg a.d. Fulda|Heinebach|Altmorschen|Malsfeld-Beiseförth|Malsfeld|Melsungen|Guxhagen"/>
+		<dp pt="2408301443" pp="9" l="5" ppth="Kassel Hbf"/>
+	</s>
+	<s id="8196198315689291117-2408301112-9">
+		<tl f="F" t="p" o="80" c="ICE" n="795"/>
+		<ar pt="2408301412" pp="2" ppth="Berlin Südkreuz|Berlin Hbf|Berlin-Spandau|Stendal Hbf|Wolfsburg Hbf|Braunschweig Hbf|Hildesheim Hbf|Göttingen"/>
+		<dp pt="2408301414" pp="2" ppth="Fulda|Hanau Hbf|Frankfurt(Main)Süd|Frankfurt(M) Flughafen Fernbf"/>
+	</s>
+</timetable>
