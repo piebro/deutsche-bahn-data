@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<timetable station="Dresden Hbf">
+	<s id="8196927284932799121-2408311924-1">
+		<tl f="D" t="p" o="LDTLX" c="TLX" n="26909"/>
+		<dp pt="2408311924" pp="14" l="RE1" ppth="Dresden Mitte|Dresden-Neustadt|Dresden-Klotzsche|Radeberg|Arnsdorf(Dresden)|Bischofswerda|Bautzen|Löbau(Sachs)|Görlitz"/>
+	</s>
+	<s id="-4289730199050154121-2408311924-1">
+		<tl f="D" t="p" o="LDTLX" c="TLX" n="20855"/>
+		<dp pt="2408311924" pp="14" l="RE2" wings="8196927284932799121-2408311924" ppth="Dresden Mitte|Dresden-Neustadt|Dresden-Klotzsche|Radeberg|Arnsdorf(Dresden)|Bischofswerda|Neukirch(Lausitz)Ost|Wilthen|Sohland|Ebersbach(Sachs)|Neugersdorf|Oberoderwitz|Zittau|Hradek nad Nisou|Chotyne|Bily Kostel nad Nisou|Chrastava|Liberec"/>
+	</s>
+	<s id="2315868548235782748-2408311726-23">
+		<tl t="p" o="LD" c="TL" n="76526"/>
+		<ar pt="2408311902" pp="13" l="RB60" ppth="Görlitz|Görlitz-Rauschwalde|Gersdorf(Görlitz)|Reichenbach(Oberlausitz)|Zoblitz|Löbau(Sachs)|Breitendorf|Pommritz|Kubschütz|Bautzen|Seitschen|Demitz-Thumitz|Bischofswerda|Weickersdorf(Sachs)|Großharthau|Arnsdorf(Dresden)|Radeberg|Langebrück(Sachs)|Dresden-Klotzsche|Dresden Industriegelände|Dresden-Neustadt|Dresden Mitte"/>
+	</s>
+	<s id="-921591545879737884-2408311020-18">
+		<tl t="p" o="81" c="RJ" n="256"/>
+		<ar pt="2408311950" pp="3" ppth="Graz Hbf|Bruck/Mur|Kapfenberg|Mürzzuschlag|Semmering|Wiener Neustadt Hbf|Wien Meidling|Wien Hbf|Breclav|Brno hl.n.|Ceska Trebova|Pardubice hl.n.|Praha hl.n.|Praha-Holesovice|Usti nad Labem hl.n.|Decin hl.n.|Bad Schandau"/>
+		<dp pt="2408311954" pp="3" ppth="Elsterwerda|Doberlug-Kirchhain|Berlin Ostkreuz|Berlin Hbf|Berlin-Charlottenburg"/>
+	</s>
+	<s id="-6091142929519234475-2408311815-15">
+		<tl f="S" t="p" o="800469" c="S" n="31758"/>
+		<ar pt="2408311858" pp="14" l="1" ppth="Bad Schandau|Königstein(Sächs Schw)|Kurort Rathen|Stadt Wehlen(Sachs)|Obervogelgesang|Pirna|Heidenau-Großsedlitz|Heidenau Süd|Heidenau|Dresden-Zschachwitz|Dresden-Niedersedlitz|Dresden-Dobritz|Dresden-Reick|Dresden-Strehlen"/>
+		<dp pt="2408311900" pp="14" l="1" ppth="Dresden Freiberger Straße|Dresden Mitte|Dresden-Neustadt|Dresden Bischofsplatz|Dresden-Pieschen|Dresden-Trachau|Radebeul Ost|Radebeul-Weintraube|Radebeul-Kötzschenbroda|Radebeul-Zitzschewig|Coswig(b Dresden)|Neusörnewitz|Meißen|Meißen Altstadt"/>
+	</s>
+	<s id="-6291222116202478942-2408311919-15">
+		<tl f="S" t="p" o="800469" c="S" n="31763"/>
+		<ar pt="2408311957" pp="13" l="1" ppth="Meißen Altstadt|Meißen|Neusörnewitz|Coswig(b Dresden)|Radebeul-Zitzschewig|Radebeul-Kötzschenbroda|Radebeul-Weintraube|Radebeul Ost|Dresden-Trachau|Dresden-Pieschen|Dresden Bischofsplatz|Dresden-Neustadt|Dresden Mitte|Dresden Freiberger Straße"/>
+		<dp pt="2408311959" pp="13" l="1" ppth="Dresden-Strehlen|Dresden-Reick|Dresden-Dobritz|Dresden-Niedersedlitz|Dresden-Zschachwitz|Heidenau|Heidenau Süd|Heidenau-Großsedlitz|Pirna|Obervogelgesang|Stadt Wehlen(Sachs)|Kurort Rathen|Königstein(Sächs Schw)|Bad Schandau"/>
+	</s>
+	<s id="5419589606395529893-2408311835-18">
+		<tl f="S" t="p" o="800469" c="S" n="31760"/>
+		<ar pt="2408311928" pp="14" l="1" ppth="Schöna|Schmilka-Hirschmühle|Krippen|Bad Schandau|Königstein(Sächs Schw)|Kurort Rathen|Stadt Wehlen(Sachs)|Obervogelgesang|Pirna|Heidenau-Großsedlitz|Heidenau Süd|Heidenau|Dresden-Zschachwitz|Dresden-Niedersedlitz|Dresden-Dobritz|Dresden-Reick|Dresden-Strehlen"/>
+		<dp pt="2408311930" pp="14" l="1" ppth="Dresden Freiberger Straße|Dresden Mitte|Dresden-Neustadt|Dresden Bischofsplatz|Dresden-Pieschen|Dresden-Trachau|Radebeul Ost|Radebeul-Weintraube|Radebeul-Kötzschenbroda|Radebeul-Zitzschewig|Coswig(b Dresden)|Neusörnewitz|Meißen|Meißen Altstadt"/>
+	</s>
+	<s id="7971168282545508537-2408311716-3">
+		<tl f="F" t="p" o="80" c="EC" n="179"/>
+		<ar pt="2408311909" pp="1" ppth="Berlin Hbf|Berlin Südkreuz"/>
+		<dp pt="2408311913" pp="1" ppth="Bad Schandau|Decin hl.n.|Usti nad Labem hl.n.|Praha-Holesovice|Praha hl.n."/>
+	</s>
+	<s id="4384390371839145436-2408311848-8">
+		<tl f="S" t="p" o="800469" c="S" n="32759"/>
+		<ar pt="2408311908" pp="14" l="2" ppth="Dresden Flughafen|Dresden Grenzstraße|Dresden-Klotzsche|Dresden Industriegelände|Dresden-Neustadt|Dresden Mitte|Dresden Freiberger Straße"/>
+	</s>
+	<s id="-3618870681745488411-2408311518-9">
+		<tl f="F" t="p" o="80" c="ICE" n="1653"/>
+		<ar pt="2408311940" pp="3" ppth="Frankfurt(Main)Hbf|Fulda|Bad Hersfeld|Eisenach|Gotha|Erfurt Hbf|Leipzig Hbf|Riesa"/>
+	</s>
+	<s id="5808637083461016481-2408311915-15">
+		<tl f="S" t="p" o="800469" c="S" n="31762"/>
+		<ar pt="2408311958" pp="14" l="1" ppth="Bad Schandau|Königstein(Sächs Schw)|Kurort Rathen|Stadt Wehlen(Sachs)|Obervogelgesang|Pirna|Heidenau-Großsedlitz|Heidenau Süd|Heidenau|Dresden-Zschachwitz|Dresden-Niedersedlitz|Dresden-Dobritz|Dresden-Reick|Dresden-Strehlen"/>
+		<dp pt="2408312000" pp="14" l="1" ppth="Dresden Freiberger Straße|Dresden Mitte|Dresden-Neustadt|Dresden Bischofsplatz|Dresden-Pieschen|Dresden-Trachau|Radebeul Ost|Radebeul-Weintraube|Radebeul-Kötzschenbroda|Radebeul-Zitzschewig|Coswig(b Dresden)|Neusörnewitz|Meißen|Meißen Altstadt"/>
+	</s>
+	<s id="1942491546857566823-2408311849-15">
+		<tl f="S" t="p" o="800469" c="S" n="31761"/>
+		<ar pt="2408311927" pp="13" l="1" ppth="Meißen Altstadt|Meißen|Neusörnewitz|Coswig(b Dresden)|Radebeul-Zitzschewig|Radebeul-Kötzschenbroda|Radebeul-Weintraube|Radebeul Ost|Dresden-Trachau|Dresden-Pieschen|Dresden Bischofsplatz|Dresden-Neustadt|Dresden Mitte|Dresden Freiberger Straße"/>
+		<dp pt="2408311929" pp="13" l="1" ppth="Dresden-Strehlen|Dresden-Reick|Dresden-Dobritz|Dresden-Niedersedlitz|Dresden-Zschachwitz|Heidenau|Heidenau Süd|Heidenau-Großsedlitz|Pirna|Obervogelgesang|Stadt Wehlen(Sachs)|Kurort Rathen|Königstein(Sächs Schw)|Bad Schandau|Krippen|Schmilka-Hirschmühle|Schöna"/>
+	</s>
+	<s id="-6445681135415653643-2408311918-1">
+		<tl f="S" t="p" o="800469" c="S" n="32762"/>
+		<dp pt="2408311918" pp="14" l="2" ppth="Dresden Freiberger Straße|Dresden Mitte|Dresden-Neustadt|Dresden Industriegelände|Dresden-Klotzsche|Dresden Grenzstraße|Dresden Flughafen"/>
+	</s>
+</timetable>
