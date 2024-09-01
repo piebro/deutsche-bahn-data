@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Bremen Hbf">
+	<s id="8503777394879306018-2408312324-16">
+		<tl f="F" t="p" o="80" c="ICE" n="920"/>
+		<ar pt="2409010546" pp="10" ppth="Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf|Köln Messe/Deutz Gl.11-12|Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Münster(Westf)Hbf|Osnabrück Hbf|Diepholz"/>
+		<dp pt="2409010549" pp="10" ppth="Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="-135934637287446585-2409010558-1">
+		<tl f="D" t="p" o="R1" c="ME" n="81908"/>
+		<dp pt="2409010558" pp="9" l="RB41" ppth="Bremen-Oberneuland|Sagehorn|Ottersberg(Han)|Sottrum|Rotenburg(Wümme)|Scheeßel|Lauenbrück|Tostedt|Sprötze|Buchholz(Nordheide)|Klecken|Hittfeld|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="-3943577931224726539-2409010354-7">
+		<tl t="p" o="R1" c="Bus" n="4103"/>
+		<ar pt="2409010537" pp="" l="EV" ppth="Scheeßel|Rotenburg(Wümme)|Sottrum|Ottersberg(Han)|Sagehorn|Bremen-Oberneuland"/>
+	</s>
+	<s id="-1834385079321189756-2409010421-5">
+		<tl f="F" t="p" o="80" c="ICE" n="2403"/>
+		<ar pt="2409010534" pp="9" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg"/>
+		<dp pt="2409010540" pp="9" ppth="Diepholz|Osnabrück Hbf|Münster(Westf)Hbf|Dortmund Hbf|Bochum Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Hbf|Frankfurt(M) Flughafen Fernbf|Darmstadt Hbf|Heidelberg Hbf|Stuttgart Hbf"/>
+	</s>
+	<s id="-2219451915632335541-2409010517-1">
+		<tl f="N" t="p" o="800295" c="RE" n="4443"/>
+		<dp pt="2409010517" pp="5" l="1" ppth="Bremen-Mahndorf|Achim|Verden(Aller)|Dörverden|Eystrup|Nienburg(Weser)|Neustadt am Rübenberge|Wunstorf|Hannover Hbf"/>
+	</s>
+	<s id="6934699668924356050-2409010417-14">
+		<tl f="N" t="p" o="800295" c="RE" n="4448"/>
+		<ar pt="2409010540" pp="7" l="8" ppth="Hannover Hbf|Wunstorf|Poggenhagen|Neustadt am Rübenberge|Eilvese|Hagen(Han)|Linsburg|Nienburg(Weser)|Eystrup|Dörverden|Verden(Aller)|Achim|Bremen-Mahndorf"/>
+	</s>
+	<s id="5730796502908319929-2409010535-8">
+		<tl f="D" t="p" o="N1" c="NWB" n="83189"/>
+		<ar pt="2409010554" pp="5" l="RS1" ppth="Bremen-Vegesack|Bremen-Schönebeck|Bremen-St Magnus|Bremen-Lesum|Bremen-Burg|Bremen-Oslebshausen|Bremen-Walle"/>
+	</s>
+	<s id="-1242935073022339718-2409010504-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="83192"/>
+		<dp pt="2409010504" pp="5" l="RS1" ppth="Bremen-Walle|Bremen-Oslebshausen|Bremen-Burg|Bremen-Lesum|Bremen-St Magnus|Bremen-Schönebeck|Bremen-Vegesack"/>
+	</s>
+</timetable>

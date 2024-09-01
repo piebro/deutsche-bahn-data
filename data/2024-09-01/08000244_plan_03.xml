@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<timetable station="Mannheim Hbf">
+	<s id="804476360024502708-2409010334-6">
+		<tl f="S" t="p" o="801539" c="S" n="38206"/>
+		<ar pt="2409010351" pp="1" l="2" ppth="Heidelberg Hbf|Heidelberg-Pfaffengrund/Wieblingen|Mannheim-Friedrichsfeld Süd|Mannheim-Seckenheim|Mannheim ARENA/Maimarkt"/>
+	</s>
+	<s id="6769591939355913046-2409010309-4">
+		<tl t="p" o="801518" c="Bus" n="8902"/>
+		<ar pt="2409010334" pp="" l="S9" ppth="Schwetzingen-Hirschacker|Mannheim-Rheinau|Mannheim-Neckarau"/>
+	</s>
+	<s id="6579783742780380168-2409010317-1">
+		<tl f="S" t="p" o="801518" c="S" n="38903"/>
+		<dp pt="2409010317" pp="12" l="9" ppth="Mannheim-Neckarau|Mannheim-Rheinau|Schwetzingen-Hirschacker|Schwetzingen|Oftersheim|Hockenheim|Neulußheim|Waghäusel"/>
+	</s>
+	<s id="3815527731317798076-2409010311-1">
+		<tl f="S" t="p" o="801539" c="S" n="38205"/>
+		<dp pt="2409010311" pp="1" l="2" ppth="Mannheim ARENA/Maimarkt|Mannheim-Seckenheim|Mannheim-Friedrichsfeld Süd|Heidelberg-Pfaffengrund/Wieblingen|Heidelberg Hbf"/>
+	</s>
+	<s id="2069498849749306286-2409010243-8">
+		<tl f="S" t="p" o="801518" c="S" n="38902"/>
+		<ar pt="2409010310" pp="12" l="9" ppth="Waghäusel|Neulußheim|Hockenheim|Oftersheim|Schwetzingen|Schwetzingen-Hirschacker|Mannheim-Neckarau"/>
+	</s>
+	<s id="2686007473625185344-2408312352-7">
+		<tl f="F" t="p" o="80" c="ICE" n="618"/>
+		<ar pt="2409010355" pp="7" ppth="München Hbf|Augsburg Hbf|Günzburg|Ulm Hbf|Stuttgart Hbf|Heidelberg Hbf"/>
+		<dp pt="2409010431" pp="7" ppth="Mainz Hbf|Wiesbaden Hbf|Köln Hbf"/>
+	</s>
+</timetable>
