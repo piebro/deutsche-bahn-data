@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf">
+	<s id="1811066918985459005-2409020031-1">
+		<tl f="N" t="p" o="800765" c="RB" n="59170"/>
+		<dp pt="2409020031" pp="22" l="16" ppth="Dachau Bahnhof|Petershausen(Obb)|Paindorf|Reichertshausen(Ilm)|Pfaffenhofen(Ilm)|Rohrbach(Ilm)|Baar-Ebenhausen|Ingolstadt Hbf|Ingolstadt Nord"/>
+	</s>
+	<s id="2143499115056676952-2409011839-13">
+		<tl f="F" t="p" o="80" c="ICE" n="821"/>
+		<ar pt="2409020040" pp="17" ppth="Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Messe/Deutz Gl.11-12|Montabaur|Limburg Süd|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf|Aschaffenburg Hbf|Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf"/>
+	</s>
+	<s id="3365409376481099659-2409011915-9">
+		<tl f="F" t="p" o="80" c="ICE" n="635"/>
+		<ar pt="2409020045" pp="19" ppth="Bremen Hbf|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf"/>
+	</s>
+	<s id="-5936404401169525278-2409011853-8">
+		<tl f="F" t="p" o="80" c="ICE" n="615"/>
+		<ar pt="2409020051" pp="12" ppth="Düsseldorf Hbf|Köln Messe/Deutz Gl.11-12|Wiesbaden Hbf|Mannheim Hbf|Stuttgart Hbf|Ulm Hbf|Augsburg Hbf"/>
+	</s>
+	<s id="-1696071831161464386-2409012218-12">
+		<tl f="N" t="p" o="800765" c="RE" n="59193"/>
+		<ar pt="2409020041" pp="22" l="1" ppth="Nürnberg Hbf|Roth|Ingolstadt Nord|Ingolstadt Hbf|Baar-Ebenhausen|Rohrbach(Ilm)|Pfaffenhofen(Ilm)|Reichertshausen(Ilm)|Paindorf|Petershausen(Obb)|Dachau Bahnhof"/>
+	</s>
+	<s id="-223421926958290666-2409011634-13">
+		<tl f="F" t="p" o="80" c="ICE" n="885"/>
+		<ar pt="2409020000" pp="18" ppth="Kiel Hbf|Neumünster|Pinneberg|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Augsburg Hbf"/>
+	</s>
+	<s id="5901503104577296136-2409011901-10">
+		<tl f="F" t="p" o="80" c="ICE" n="685"/>
+		<ar pt="2409020045" pp="19" wings="3365409376481099659-2409011915" ppth="Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf"/>
+	</s>
+	<s id="2855938468825645943-2409012340-2">
+		<tl t="p" o="B7" c="Bus" n="64871"/>
+		<ar pt="2409020050" pp="" l="EV" ppth="Landshut(Bay)Hbf"/>
+	</s>
+	<s id="-4320536321048167604-2409012237-3">
+		<tl t="p" o="A8N" c="Bus" n="60364"/>
+		<ar pt="2409020011" pp="" l="RE25" ppth="Landshut(Bay)Hbf|Freising"/>
+	</s>
+	<s id="3008136994813269498-2409020020-1">
+		<tl f="N" t="p" o="GYRE" c="RE" n="78973"/>
+		<dp pt="2409020020" pp="29" l="72" ppth="München-Pasing|Geltendorf|Kaufering|Buchloe"/>
+	</s>
+	<s id="5182348088834051221-2409011951-7">
+		<tl f="F" t="p" o="80" c="ICE" n="1119"/>
+		<ar pt="2409020001" pp="15" ppth="Berlin Gesundbrunnen|Berlin Hbf|Berlin Südkreuz|Halle(Saale)Hbf|Erfurt Hbf|Nürnberg Hbf"/>
+	</s>
+</timetable>
