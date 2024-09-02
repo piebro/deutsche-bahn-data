@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<timetable station="Herford">
+	<s id="4556058216017275168-2409022312-3">
+		<tl f="N" t="p" o="R2RB" c="RB" n="62118"/>
+		<ar pt="2409022323" pp="1" l="61" ppth="Bielefeld Hbf|Brake(b Bielefeld)"/>
+	</s>
+	<s id="1266449787061300218-2409022307-2">
+		<tl f="N" t="p" o="NXRE" c="RE" n="90197"/>
+		<ar pt="2409022314" pp="4" l="6" ppth="Bielefeld Hbf"/>
+		<dp pt="2409022315" pp="4" l="6" ppth="Löhne(Westf)|Bad Oeynhausen|Porta Westfalica|Minden(Westf)"/>
+	</s>
+	<s id="5105231586859523353-2409022327-2">
+		<tl f="N" t="p" o="R2RE" c="RE" n="52291"/>
+		<ar pt="2409022335" pp="4" l="78" ppth="Bielefeld Hbf"/>
+		<dp pt="2409022336" pp="4" l="78" ppth="Löhne(Westf)|Bad Oeynhausen|Porta Westfalica|Minden(Westf)"/>
+	</s>
+	<s id="640717781501600999-2409022336-1">
+		<tl f="N" t="p" o="R2RB" c="RB" n="62117"/>
+		<dp pt="2409022336" pp="3" l="61" ppth="Brake(b Bielefeld)|Bielefeld Hbf"/>
+	</s>
+	<s id="6992638815419571984-2409022333-1">
+		<tl t="p" o="R2" c="Bus" n="6106"/>
+		<dp pt="2409022333" pp="" l="RB61" ppth="Hiddenhausen-Schweicheln|Kirchlengern|Bünde(Westf)|Bruchmühlen"/>
+	</s>
+	<s id="-876254985661224810-2409022120-16">
+		<tl f="D" t="p" o="W3" c="WFB" n="95838"/>
+		<ar pt="2409022325" pp="6" l="RE70" ppth="Braunschweig Hbf|Vechelde|Peine|Vöhrum|Hämelerwald|Lehrte|Hannover Hbf|Wunstorf|Haste|Stadthagen|Bückeburg|Minden(Westf)|Porta Westfalica|Bad Oeynhausen|Löhne(Westf)"/>
+		<dp pt="2409022327" pp="6" l="RE70" ppth="Bielefeld Hbf"/>
+	</s>
+	<s id="-7065070621393688511-2409022223-5">
+		<tl t="p" o="R2" c="Bus" n="6105"/>
+		<ar pt="2409022311" pp="" l="RB61" ppth="Bruchmühlen|Bünde(Westf)|Kirchlengern|Hiddenhausen-Schweicheln"/>
+	</s>
+</timetable>
