@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Hbf">
+	<s id="-2466922833795575942-2409042306-10">
+		<tl f="N" t="p" o="800158" c="RE" n="3182"/>
+		<ar pt="2409050001" pp="2" l="4" ppth="Rathenow|Nennhausen|Buschow|Wustermark|Elstal|Dallgow-Döberitz|Berlin-Staaken|Berlin-Spandau|Berlin Jungfernheide"/>
+	</s>
+	<s id="-5994517840461646746-2409050024-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62090"/>
+		<dp pt="2409050024" pp="1" l="8" ppth="Berlin Potsdamer Platz|Berlin Südkreuz|Berlin-Lichterfelde Ost|Blankenfelde(Teltow-Fläming)|Dahlewitz|Rangsdorf|Dabendorf|Zossen|Wünsdorf-Waldstadt"/>
+	</s>
+	<s id="-9062453103731034880-2409041856-10">
+		<tl f="F" t="p" o="80" c="ICE" n="500"/>
+		<ar pt="2409042358" pp="7" ppth="München Hbf|Nürnberg Hbf|Erlangen|Bamberg|Erfurt Hbf|Leipzig Hbf|Bitterfeld|Michendorf|Berlin Südkreuz"/>
+		<dp pt="2409050003" pp="7" ppth="Berlin Gesundbrunnen"/>
+	</s>
+	<s id="4966825592039783790-2409042122-8">
+		<tl f="F" t="p" o="80" c="ICE" n="907"/>
+		<ar pt="2409050005" pp="1" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Uelzen|Salzwedel|Stendal Hbf|Berlin-Spandau"/>
+		<dp pt="2409050010" pp="1" hi="1" ppth="Berlin Südkreuz"/>
+	</s>
+	<s id="2192436520712598630-2409050027-1">
+		<tl f="N" t="p" o="800158" c="RE" n="3165"/>
+		<dp pt="2409050027" pp="2" l="4" ppth="Berlin Jungfernheide|Berlin-Spandau|Berlin-Staaken|Dallgow-Döberitz|Elstal|Wustermark|Buschow|Nennhausen|Rathenow"/>
+	</s>
+	<s id="-4713259397532046404-2409042328-4">
+		<tl t="p" o="800165" c="FEX" n="19876"/>
+		<ar pt="2409050003" pp="6" ppth="Flughafen BER|Berlin Ostkreuz|Berlin Gesundbrunnen"/>
+	</s>
+</timetable>
