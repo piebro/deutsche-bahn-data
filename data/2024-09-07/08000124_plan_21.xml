@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<timetable station="Gießen">
+	<s id="7909079333769130460-2409072023-10">
+		<tl f="N" t="p" o="8005MW" c="RE" n="4167"/>
+		<ar pt="2409072151" pp="3" l="30" ppth="Kassel Hbf|Kassel-Wilhelmshöhe|Wabern(Bz Kassel)|Borken(Hess)|Treysa|Neustadt(Kr Marburg)|Stadtallendorf|Kirchhain(Bz Kassel)|Marburg(Lahn)"/>
+		<dp pt="2409072154" pp="3" l="30" ppth="Friedberg(Hess)|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-3437858636304851698-2409072049-9">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="15031"/>
+		<ar pt="2409072118" pp="4" l="RB41" tra="-1270955112509650683-2409072122-1" ppth="Marburg(Lahn)|Marburg Süd|Niederweimar|Niederwalgern|Fronhausen(Lahn)|Friedelhausen|Lollar|Gießen Oswaldsgarten"/>
+	</s>
+	<s id="8501084334996637235-2409072135-1">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="15099"/>
+		<dp pt="2409072135" pp="5" l="RB49" ppth="Großen Linden|Lang Göns|Kirch Göns|Butzbach|Ostheim(b Butzbach)|Bad Nauheim|Friedberg(Hess)|Assenheim(Oberhess)|Nidderau|Ostheim(Kr Hanau)|Bruchköbel|Hanau Nord"/>
+	</s>
+	<s id="-1270955112509650683-2409072122-1">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="15131"/>
+		<dp pt="2409072122" pp="4" l="RB40" tra="-3437858636304851698-2409072049-9" ppth="Butzbach|Bad Nauheim|Friedberg(Hess)"/>
+	</s>
+	<s id="4250932910912358235-2409072000-4">
+		<tl t="p" o="B5" c="Bus" n="9293"/>
+		<ar pt="2409072110" pp="" l="RE25" ppth="Limburg(Lahn)|Weilburg|Wetzlar"/>
+	</s>
+	<s id="3159756149065662561-2409072120-4">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="24771"/>
+		<ar pt="2409072137" pp="14" l="RB45" ppth="Albshausen|Wetzlar|Dutenhofen(Wetzlar)"/>
+	</s>
+	<s id="-1644983345572412436-2409072021-3">
+		<tl f="D" t="p" o="K4RE" c="HLB" n="24420"/>
+		<ar pt="2409072102" pp="1" l="RE98" wings="4921421611407831922-2409072021" ppth="Frankfurt(Main)Hbf|Friedberg(Hess)"/>
+		<dp pt="2409072105" pp="1" l="RE98" ppth="Marburg(Lahn)|Cölbe|Kirchhain(Bz Kassel)|Stadtallendorf|Neustadt(Kr Marburg)|Schwalmstadt-Wiera|Treysa|Schlierbach(Schwalm-Eder-Kr.)|Zimmersrode|Borken(Hess)|Singlis|Wabern(Bz Kassel)|Felsberg-Gensungen|Felsberg-Altenbrunslar|Felsberg-Wolfershausen|Edermünde-Grifte|Baunatal-Guntershausen|Kassel-Wilhelmshöhe|Kassel Hbf"/>
+	</s>
+	<s id="4921421611407831922-2409072021-3">
+		<tl f="D" t="p" o="K4RE" c="HLB" n="24520"/>
+		<ar pt="2409072102" pp="1" l="RE99" ppth="Frankfurt(Main)Hbf|Friedberg(Hess)"/>
+		<dp pt="2409072109" pp="1" l="RE99" ppth="Wetzlar|Herborn(Dillkr)|Dillenburg|Haiger|Siegen Hbf"/>
+	</s>
+	<s id="4830452499044021457-2409072112-1">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="24839"/>
+		<dp pt="2409072112" pp="14" l="RB45" ppth="Gießen Licher Str|Großen Buseck|Reiskirchen(Kr Gi)|Saasen|Göbelnrod|Grünberg(Oberhess)|Lehnheim|Mücke(Hess)|Nieder-Ohmen|Burg-u. Nieder Gemünden|Ehringshausen(Oberhess)|Zell-Romrod|Alsfeld(Oberhess)|Lauterbach(Hess)Nord|Angersbach|Bad Salzschlirf|Großenlüder|Oberbimbach|Fulda"/>
+	</s>
+	<s id="-8114365396550049723-2409072145-1">
+		<tl t="p" o="K4" c="Bus" n="40130"/>
+		<dp pt="2409072145" pp="" l="EV" ppth="Dutenhofen(Wetzlar)|Wetzlar|Aßlar|Werdorf|Ehringshausen(Kr Wetzlar)|Katzenfurt|Edingen(Wetzlar)|Sinn|Herborn(Dillkr)|Burg(Dillkr) Nord|Niederscheld(Dillkr)Süd|Dillenburg"/>
+	</s>
+	<s id="1452573334270968176-2409072116-1">
+		<tl f="D" t="p" o="K4RE" c="HLB" n="99168"/>
+		<dp pt="2409072116" pp="9" l="RE24" ppth="Wetzlar"/>
+	</s>
+	<s id="-5846420776853801571-2409072052-6">
+		<tl f="D" t="p" o="K4RE" c="HLB" n="24565"/>
+		<ar pt="2409072147" pp="1" l="RE99" ppth="Siegen Hbf|Haiger|Dillenburg|Herborn(Dillkr)|Wetzlar"/>
+	</s>
+	<s id="8634567865382262654-2409072108-1">
+		<tl t="p" o="K4" c="Bus" n="22774"/>
+		<dp pt="2409072108" pp="" l="EV" ppth="Dutenhofen(Wetzlar)|Wetzlar|Albshausen"/>
+	</s>
+	<s id="3080169175860879112-2409072059-8">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="15030"/>
+		<ar pt="2409072128" pp="1" l="RB41" ppth="Friedberg(Hess)|Bad Nauheim|Ostheim(b Butzbach)|Butzbach|Kirch Göns|Lang Göns|Großen Linden"/>
+		<dp pt="2409072139" pp="1" l="RB41" ppth="Gießen Oswaldsgarten|Lollar|Friedelhausen|Fronhausen(Lahn)|Niederwalgern|Niederweimar|Marburg Süd|Marburg(Lahn)"/>
+	</s>
+	<s id="-9046686733375954079-2409072142-1">
+		<tl t="p" o="K4" c="Bus" n="46645"/>
+		<dp pt="2409072142" pp="" l="EV" ppth="Gießen Erdkauter Weg|Watzenborn-Steinberg|Garbenteich|Lich(Oberhess)|Langsdorf(Oberhess)|Hungen|Trais-Horloff|Ober Widdersheim|Borsdorf(Hess)|Nidda"/>
+	</s>
+	<s id="6687856862783572496-2409072003-11">
+		<tl t="p" o="K4" c="Bus" n="46636"/>
+		<ar pt="2409072116" pp="" l="EV" ppth="Nidda|Borsdorf(Hess)|Ober Widdersheim|Trais-Horloff|Hungen|Langsdorf(Oberhess)|Lich(Oberhess)|Garbenteich|Watzenborn-Steinberg|Gießen Erdkauter Weg"/>
+	</s>
+</timetable>
