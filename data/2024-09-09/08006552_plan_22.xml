@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Wolfsburg Hbf">
+	<s id="2572137271320104639-2409092230-1">
+		<tl t="p" o="R0" c="Bus" n="5584"/>
+		<dp pt="2409092230" pp="" l="EV" ppth="Fallersleben|Weddel(Braunschw)|Braunschweig Hbf"/>
+	</s>
+	<s id="-4082094256228844168-2409092130-4">
+		<tl t="p" o="R0" c="Bus" n="5581"/>
+		<ar pt="2409092226" pp="" l="EV" ppth="Braunschweig Hbf|Weddel(Braunschw)|Fallersleben"/>
+	</s>
+	<s id="-8941932149309778658-2409091723-11">
+		<tl f="F" t="p" o="80" c="ICE" n="572"/>
+		<ar pt="2409092218" pp="5" ppth="Stuttgart Hbf|Mannheim Hbf|Darmstadt Hbf|Frankfurt(Main)Hbf|Hanau Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hildesheim Hbf|Braunschweig Hbf"/>
+		<dp pt="2409092219" pp="5" ppth="Berlin-Spandau|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="6475664807973063317-2409092223-1">
+		<tl f="N" t="p" o="AMRB" c="RB" n="80383"/>
+		<dp pt="2409092223" pp="9" l="36" ppth="Oebisfelde|Bösdorf(Sachs-Anh)|Rätzlingen|Wegenstedt|Flechtingen|Haldensleben|Vahldorf|Groß Ammensleben|Meitzendorf|Barleben|Magdeburg-Eichenweiler|Magdeburg-Neustadt|Magdeburg Hbf"/>
+	</s>
+	<s id="4447890004106418758-2409091852-11">
+		<tl f="F" t="p" o="80" c="ICE" n="645"/>
+		<ar pt="2409092202" pp="5" ppth="Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Bielefeld Hbf|Minden(Westf)|Hannover Hbf"/>
+		<dp pt="2409092203" pp="5" ppth="Berlin-Spandau|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="-6975856009446770554-2409092242-1">
+		<tl t="p" o="R0" c="Bus" n="3136"/>
+		<dp pt="2409092242" pp="" l="EV" ppth="Fallersleben|Calberlah|Gifhorn"/>
+	</s>
+	<s id="-8095335215913169857-2409092130-14">
+		<tl f="N" t="p" o="AMRB" c="RB" n="80382"/>
+		<ar pt="2409092244" pp="9" l="36" ppth="Magdeburg Hbf|Magdeburg-Neustadt|Magdeburg-Eichenweiler|Barleben|Meitzendorf|Groß Ammensleben|Vahldorf|Haldensleben|Flechtingen|Wegenstedt|Rätzlingen|Bösdorf(Sachs-Anh)|Oebisfelde"/>
+	</s>
+</timetable>
