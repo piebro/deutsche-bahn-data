@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Hbf">
+	<s id="1608799031198059101-2409100040-6">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62041"/>
+		<ar pt="2409100113" pp="13" l="8" ppth="Flughafen BER|Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße"/>
+		<dp pt="2409100115" pp="13" l="8" ppth="Berlin Zoologischer Garten|Berlin-Charlottenburg"/>
+	</s>
+	<s id="3916491121868625246-2409100115-6">
+		<tl t="p" o="800165" c="FEX" n="19880"/>
+		<ar pt="2409100146" pp="14" ppth="Flughafen BER|Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße"/>
+		<dp pt="2409100147" pp="14" ppth="Berlin Zoologischer Garten|Berlin-Charlottenburg"/>
+	</s>
+	<s id="2426968161302299329-2409100136-3">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62042"/>
+		<ar pt="2409100145" pp="12" l="8" ppth="Berlin-Charlottenburg|Berlin Zoologischer Garten"/>
+		<dp pt="2409100147" pp="12" l="8" ppth="Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz|Flughafen BER"/>
+	</s>
+	<s id="5597303123860052865-2409091927-12">
+		<tl f="F" t="p" o="80" c="ICE" n="947"/>
+		<ar pt="2409100103" pp="11" ppth="Köln Hbf|Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Bielefeld Hbf|Hannover Hbf|Berlin-Wannsee"/>
+		<dp pt="2409100107" pp="11" hi="1" ppth="Berlin Ostbahnhof"/>
+	</s>
+	<s id="-7260953034263185039-2409092009-10">
+		<tl f="F" t="p" o="80" c="ICE" n="790"/>
+		<ar pt="2409100125" pp="11" ppth="Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Süd|Hanau Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hildesheim Hbf|Braunschweig Hbf|Potsdam Hbf"/>
+		<dp pt="2409100129" pp="11" hi="1" ppth="Berlin Ostbahnhof"/>
+	</s>
+	<s id="58133983524038883-2409092321-22">
+		<tl f="N" t="p" o="OWRE" c="RE" n="73794"/>
+		<ar pt="2409100120" pp="12" l="1" ppth="Magdeburg Hbf|Magdeburg-Neustadt|Magdeburg Herrenkrug|Biederitz|Gerwisch|Möser|Burg(Magdeburg)|Güsen(b Genthin)|Genthin|Wusterwitz|Kirchmöser|Brandenburg Hbf|Götz|Groß Kreutz|Werder(Havel)|Potsdam Park Sanssouci|Potsdam Charlottenhof|Potsdam Hbf|Berlin-Wannsee|Berlin-Charlottenburg|Berlin Zoologischer Garten"/>
+		<dp pt="2409100123" pp="12" l="1" ppth="Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof"/>
+	</s>
+</timetable>

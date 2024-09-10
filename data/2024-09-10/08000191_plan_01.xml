@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Karlsruhe Hbf">
+	<s id="4753870957390372842-2409092134-7">
+		<tl f="F" t="p" o="NZ" c="IC" n="60402"/>
+		<ar pt="2409100119" pp="3" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden"/>
+		<dp pt="2409100121" pp="3" ppth="Frankfurt(Main)Hbf|Koblenz Hbf|Bonn-Beuel|Köln Messe/Deutz Gl.11-12|Düsseldorf Hbf|Duisburg Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="7549242416341637866-2409100020-18">
+		<tl f="S" t="p" o="A6S32" c="S" n="85279"/>
+		<ar pt="2409100112" pp="5" l="32" ppth="Menzingen(Baden)|Bahnbrücken|Gochsheim(Baden)|Münzesheim Ost|Münzesheim|Oberöwisheim|Unteröwisheim Bf|Unteröwisheim M.-Luther-Str.|Ubstadt Salzbrunnenstr|Ubstadt Ort|Bruchsal Stegwiesen|Bruchsal Schloßgarten|Bruchsal|Bruchsal Bildungszentrum|Untergrombach|Weingarten(Baden)|Karlsruhe-Durlach"/>
+	</s>
+	<s id="3846530474941700870-2409100006-12">
+		<tl f="S" t="p" o="801518" c="S" n="38997"/>
+		<ar pt="2409100103" pp="12" l="9" ppth="Mannheim Hbf|Schwetzingen|Oftersheim|Hockenheim|Neulußheim|Waghäusel|Wiesental|Graben-Neudorf|Friedrichstal(Baden)|Blankenloch|Karlsruhe-Hagsfeld"/>
+	</s>
+	<s id="615799156828728797-2409092351-26">
+		<tl f="S" t="p" o="801539" c="S" n="38383"/>
+		<ar pt="2409100131" pp="5" l="3" pde="Neustadt(Weinstr)Hbf" ppth="Schifferstadt|Limburgerhof|Ludwigshafen-Rheingönheim|Ludwigshafen-Mundenheim|Ludwigshafen(Rh)Hbf|Ludwigshafen(Rhein) Mitte|Mannheim Hbf|Mannheim ARENA/Maimarkt|Mannheim-Seckenheim|Mannheim-Friedrichsfeld Süd|Heidelberg-Pfaffengrund/Wieblingen|Heidelberg Hbf|Heidelberg-Kirchheim/Rohrbach|St Ilgen-Sandhausen|Wiesloch-Walldorf|Rot-Malsch|Bad Schönborn-Kronau|Bad Schönborn Süd|Stettfeld-Weiher|Ubstadt-Weiher|Bruchsal|Bruchsal Bildungszentrum|Untergrombach|Weingarten(Baden)|Karlsruhe-Durlach"/>
+	</s>
+	<s id="-7547402411221575024-2409100023-16">
+		<tl f="S" t="p" o="A6S31" c="S" n="85179"/>
+		<ar pt="2409100112" pp="5" l="31" wings="7549242416341637866-2409100020" ppth="Odenheim Bf|Odenheim West|Zeutern Ost|Zeutern Bf|Zeutern Sportplatz|Stettfeld(Baden)|Ubstadt Uhlandstr.|Ubstadt Ort|Bruchsal Stegwiesen|Bruchsal Schloßgarten|Bruchsal|Bruchsal Bildungszentrum|Untergrombach|Weingarten(Baden)|Karlsruhe-Durlach"/>
+	</s>
+	<s id="-1668808461288737081-2409100042-2">
+		<tl f="N" t="p" o="8006C5" c="RE" n="70688"/>
+		<ar pt="2409100100" pp="" l="7" ppth="Rastatt"/>
+	</s>
+	<s id="8868050453695511606-2409092134-7">
+		<tl t="p" o="85" c="NJ" n="402"/>
+		<ar pt="2409100119" pp="3" hi="1" wings="4753870957390372842-2409092134" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden"/>
+		<dp pt="2409100121" pp="3" hi="1" wings="4753870957390372842-2409092134" ppth="Frankfurt(Main)Hbf|Koblenz Hbf|Bonn-Beuel|Köln Messe/Deutz Gl.11-12|Düsseldorf Hbf|Duisburg Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="-8332221861054296360-2409100016-9">
+		<tl f="N" t="p" o="GARE" c="RE" n="19036"/>
+		<ar pt="2409100119" pp="14" l="1" ppth="Stuttgart Hbf|Ludwigsburg|Bietigheim-Bissingen|Vaihingen(Enz)|Mühlacker|Pforzheim Hbf|Wilferdingen-Singen|Karlsruhe-Durlach"/>
+	</s>
+</timetable>
