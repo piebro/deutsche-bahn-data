@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<timetable station="Düsseldorf Flughafen">
+	<s id="2774174590951633862-2409112228-13">
+		<tl f="F" t="p" o="80" c="ICE" n="921"/>
+		<ar pt="2409120230" pp="6" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Osnabrück Hbf|Münster(Westf)Hbf|Hamm(Westf)Hbf|Dortmund Hbf|Bochum Hbf|Essen Hbf|Duisburg Hbf"/>
+		<dp pt="2409120232" pp="6" ppth="Düsseldorf Hbf|Köln Hbf|Bonn Hbf|Remagen|Andernach|Koblenz Hbf|Bingen(Rhein) Hbf|Mainz Hbf|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="1001746680973915374-2409120135-2">
+		<tl t="p" o="NX" c="Bus" n="6855"/>
+		<ar pt="2409120200" pp="" l="RE1" ppth="Düsseldorf Hbf"/>
+	</s>
+	<s id="2523783130015082046-2409120107-7">
+		<tl f="N" t="p" o="NXRE" c="RE" n="89744"/>
+		<ar pt="2409120208" pp="6" l="6" ppth="Dortmund Hbf|Bochum Hbf|Wattenscheid|Essen Hbf|Mülheim(Ruhr)Hbf|Duisburg Hbf"/>
+		<dp pt="2409120209" pp="6" l="6" ppth="Düsseldorf Hbf"/>
+	</s>
+	<s id="-1546144897228619316-2409120204-7">
+		<tl t="p" o="B2" c="Bus" n="1018"/>
+		<ar pt="2409120253" pp="" l="S1" ppth="Duisburg Hbf|Duisburg-Schlenk|Duisburg-Buchholz|Duisburg-Großenbaum|Duisburg-Rahm|Angermund"/>
+		<dp pt="2409120253" pp="" l="S1" ppth="Düsseldorf-Unterrath|Düsseldorf-Derendorf|Düsseldorf-Zoo|Düsseldorf Wehrhahn|Düsseldorf Hbf|Düsseldorf Volksgarten|Düsseldorf-Oberbilk|Düsseldorf-Eller Mitte|Düsseldorf-Eller|Hilden|Hilden Süd|Solingen Vogelpark|Solingen Hbf"/>
+	</s>
+</timetable>
