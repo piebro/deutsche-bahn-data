@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<timetable station="Freiburg(Breisgau) Hbf">
+	<s id="-1939073885227459762-2409150556-1">
+		<tl f="N" t="p" o="8006C4" c="RB" n="17102"/>
+		<dp pt="2409150556" pp="2" l="26" ppth="Denzlingen|Emmendingen|Teningen-Mundingen|Köndringen|Riegel-Malterdingen|Kenzingen|Herbolzheim(Breisg)|Ringsheim/Europa-Park|Orschweier|Lahr(Schwarzw)|Friesenheim(Baden)|Offenburg"/>
+	</s>
+	<s id="7324599449476517398-2409150406-20">
+		<tl f="N" t="p" o="8006C4" c="RB" n="17150"/>
+		<ar pt="2409150510" pp="4" l="27" ppth="Basel Bad Bf|Weil am Rhein|Haltingen|Eimeldingen|Efringen-Kirchen|Istein|Kleinkems|Rheinweiler|Bad Bellingen|Schliengen|Auggen|Müllheim(Baden)|Buggingen|Heitersheim|Bad Krozingen|Norsingen|Schallstadt|Ebringen|Freiburg-St Georgen"/>
+	</s>
+	<s id="-5851721557238592488-2409141944-10">
+		<tl t="p" o="84" c="NJ" n="403"/>
+		<ar pt="2409150526" pp="2" wings="7582314568044505717-2409141944" ppth="Amsterdam Centraal|Utrecht Centraal|Köln Hbf|Bonn-Beuel|Koblenz Hbf|Frankfurt(Main)Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg"/>
+		<dp pt="2409150528" pp="2" hi="1" wings="7582314568044505717-2409141944" ppth="Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="7582314568044505717-2409141944-10">
+		<tl f="F" t="p" o="NZ" c="IC" n="60403"/>
+		<ar pt="2409150526" pp="2" ppth="Amsterdam Centraal|Utrecht Centraal|Köln Hbf|Bonn-Beuel|Koblenz Hbf|Frankfurt(Main)Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg"/>
+		<dp pt="2409150528" pp="2" ppth="Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="8933445813407839214-2409150542-1">
+		<tl f="F" t="p" o="80" c="ICE" n="474"/>
+		<dp pt="2409150542" pp="3" ppth="Offenburg|Baden-Baden|Karlsruhe Hbf|Darmstadt Hbf|Frankfurt(Main)Hbf|Fulda|Eisenach|Erfurt Hbf|Leipzig Hbf|Lutherstadt Wittenberg Hbf|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+</timetable>

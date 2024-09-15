@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<timetable station="Würzburg Hbf">
+	<s id="5002808764059930451-2409142330-27">
+		<tl f="N" t="p" o="800772" c="RE" n="4645"/>
+		<ar pt="2409150128" pp="9" l="54" ppth="Frankfurt(Main)Hbf|Frankfurt(Main)Süd|Frankfurt(Main)Ost|Frankfurt-Mainkur|Maintal West|Maintal Ost|Hanau-Wilhelmsbad|Hanau West|Hanau Hbf|Großauheim(Kr Hanau)|Großkrotzenburg|Kahl(Main)|Dettingen(Main)|Rückersbacher Schlucht|Kleinostheim|Aschaffenburg Hbf|Hösbach|Laufach|Heigenbrücken|Wiesthal|Partenstein|Lohr Bahnhof|Langenprozelten|Gemünden(Main)|Karlstadt(Main)|Retzbach-Zellingen"/>
+	</s>
+	<s id="6992012378128167215-2409141956-6">
+		<tl t="p" o="81" c="NJ" n="40491"/>
+		<ar pt="2409150132" pp="5" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen"/>
+		<dp pt="2409150148" pp="5" ppth="Nürnberg Hbf|Augsburg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="67681408536754467-2409142100-5">
+		<tl t="p" o="NYUEX" c="UEX" n="348"/>
+		<ar pt="2409150131" pp="2" hi="1" ppth="Innsbruck Hbf|Wörgl Hbf|Kufstein|München Ost"/>
+		<dp pt="2409150131" pp="2" ppth="Gemünden(Main)|Fulda|Hannover Hbf|Lüneburg|Hamburg Hbf|Hamburg-Altona"/>
+	</s>
+	<s id="-2044723357159653206-2409141956-6">
+		<tl t="p" o="81" c="NJ" n="491"/>
+		<ar pt="2409150132" pp="5" wings="6992012378128167215-2409141956" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen"/>
+		<dp pt="2409150148" pp="5" wings="6992012378128167215-2409141956" ppth="Nürnberg Hbf|Regensburg Hbf|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="-4777192331171212214-2409142100-5">
+		<tl t="p" o="NYUEX" c="UEX" n="328"/>
+		<ar pt="2409150131" pp="6" hi="1" ppth="Innsbruck Hbf|Wörgl Hbf|Kufstein|München Ost"/>
+		<dp pt="2409150131" pp="6" ppth="Gemünden(Main)|Gießen|Siegen Hbf|Köln Messe/Deutz Gl.11-12|Düsseldorf Hbf"/>
+	</s>
+</timetable>
