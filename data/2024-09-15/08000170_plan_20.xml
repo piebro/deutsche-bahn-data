@@ -1,0 +1,127 @@
+<?xml version="1.0" ?>
+<timetable station="Ulm Hbf">
+	<s id="8746339635144543983-2409152002-6">
+		<tl f="D" t="p" o="S6" c="SWE" n="26571"/>
+		<ar pt="2409152026" pp="5a" l="RS51" tra="-8461988371850204192-2409152034-1" ppth="Langenau(Württ)|Unterelchingen|Oberelchingen|Thalfingen(b Ulm)|Ulm Ost"/>
+	</s>
+	<s id="6759640336004358692-2409151905-8">
+		<tl f="N" t="p" o="800694" c="RE" n="4230"/>
+		<ar pt="2409152011" pp="8" l="5" ppth="Friedrichshafen Stadt|Meckenbeuren|Ravensburg|Aulendorf|Bad Schussenried|Biberach(Riß)|Laupheim West"/>
+	</s>
+	<s id="2120102657208436969-2409152047-1">
+		<tl f="D" t="p" o="A9" c="ag" n="84149"/>
+		<dp pt="2409152047" pp="28" l="RB15" ppth="Neu-Ulm|Nersingen|Leipheim|Günzburg|Gundelfingen(Bay)|Lauingen|Dillingen(Donau)|Höchstädt(Donau)|Blindheim|Schwenningen(Bay)|Tapfheim|Donauwörth|Genderkingen|Rain|Burgheim|Straß-Moos|Unterhausen(Bay)|Neuburg(Donau)|Rohrenfeld|Weichering|Ingolstadt Hbf|Ernsgaden|Vohburg|Münchsmünster|Neustadt(Donau)|Abensberg|Saal(Donau)|Bad Abbach|Poikam|Gundelshausen|Sinzing|Regensburg-Prüfening|Regensburg Hbf|Regensburg-Burgweinting|Obertraubling|Sünching|Radldorf(Niederbay)|Straubing|Straßkirchen|Plattling"/>
+	</s>
+	<s id="8334837002583079778-2409152017-1">
+		<tl f="N" t="p" o="800693" c="RE" n="3230"/>
+		<dp pt="2409152017" pp="6 Nord" l="55" pde="Villingen(Schwarzw)" ppth="Blaubeuren|Schelklingen|Ehingen(Donau)|Munderkingen|Riedlingen|Herbertingen|Mengen|Sigmaringendorf|Sigmaringen"/>
+	</s>
+	<s id="-4735148297305604678-2409151938-8">
+		<tl t="p" o="800622" c="N" n="32642"/>
+		<ar pt="2409152023" pp="6 Süd" l="RS21" ppth="Biberach(Riß)|Warthausen|Schemmerberg|Laupheim Stadt|Laupheim West|Erbach(Württ)|Ulm-Donautal"/>
+	</s>
+	<s id="1976403945320218368-2409151835-25">
+		<tl f="N" t="p" o="GYRE" c="RE" n="57074"/>
+		<ar pt="2409152041" pp="25" l="9" ppth="München Hbf|München-Pasing|Mering|Mering-St Afra|Kissing|Augsburg-Hochzoll|Augsburg Haunstetterstraße|Augsburg Hbf|Augsburg-Oberhausen|Neusäß|Westheim(Schwab)|Diedorf(Schwab)|Gessertshausen|Kutzenhausen|Dinkelscherben|Freihalden|Jettingen|Burgau(Schwab)|Mindelaltheim|Offingen|Günzburg|Leipheim|Nersingen|Neu-Ulm"/>
+	</s>
+	<s id="7760728842084630903-2409152035-1">
+		<tl t="p" o="800622" c="N" n="32647"/>
+		<dp pt="2409152035" pp="6 Süd" l="RS21" ppth="Ulm-Donautal|Erbach(Württ)|Laupheim West|Laupheim Stadt|Schemmerberg|Warthausen|Biberach(Riß)"/>
+	</s>
+	<s id="5574541719963116684-2409152002-1">
+		<tl f="N" t="p" o="800693" c="IRE" n="3816"/>
+		<dp pt="2409152002" pp="5a" l="50" ppth="Langenau(Württ)|Giengen(Brenz)|Heidenheim|Oberkochen|Aalen Hbf"/>
+	</s>
+	<s id="-8461988371850204192-2409152034-1">
+		<tl f="D" t="p" o="S6" c="SWE" n="26382"/>
+		<dp pt="2409152034" pp="5a" l="RS3" tra="8746339635144543983-2409152002-6" pde="Gammertingen" ppth="Ulm-Söflingen|Blaustein|Herrlingen|Gerhausen|Blaubeuren|Schelklingen|Schmiechen|Allmendingen|Ehingen(Donau)|Rottenacker|Munderkingen|Rechtenstein|Riedlingen|Herbertingen|Mengen|Sigmaringendorf|Sigmaringen"/>
+	</s>
+	<s id="1389111821773363982-2409152011-1">
+		<tl f="D" t="p" o="S6" c="SWE" n="26572"/>
+		<dp pt="2409152011" pp="7 Nord" l="RS5" ppth="Thalfingen(b Ulm)|Langenau(Württ)|Niederstotzingen|Sontheim-Brenz|Hermaringen|Giengen(Brenz)|Herbrechtingen|Heidenheim|Heidenheim-Schnaitheim|Itzelberg|Königsbronn|Oberkochen|Unterkochen|Aalen Hbf"/>
+	</s>
+	<s id="-7610672940066525446-2409151846-4">
+		<tl f="F" t="p" o="80" c="ICE" n="590"/>
+		<ar pt="2409151959" pp="1" ppth="München Hbf|München-Pasing|Augsburg Hbf"/>
+		<dp pt="2409152001" pp="1" ppth="Stuttgart Hbf|Mannheim Hbf|Mainz Hbf|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="2040439884201217295-2409151928-5">
+		<tl f="N" t="p" o="8007D4" c="RE" n="3986"/>
+		<ar pt="2409152038" pp="3 Süd" l="75" ppth="Immenstadt|Kempten(Allgäu)Hbf|Memmingen|Illertissen"/>
+	</s>
+	<s id="1185372484657413173-2409151932-10">
+		<tl t="p" o="8007DU" c="N" n="57792"/>
+		<ar pt="2409152024" pp="4 Süd" l="RS7" ppth="Memmingen|Kellmünz|Altenstadt(Iller)|Illertissen|Bellenberg|Vöhringen|Senden|Finningerstraße|Neu-Ulm"/>
+	</s>
+	<s id="-1895474681646249837-2409151901-5">
+		<tl f="F" t="p" o="80" c="ICE" n="560"/>
+		<ar pt="2409152017" pp="1" ppth="München Hbf|München-Pasing|Augsburg Hbf|Günzburg"/>
+		<dp pt="2409152019" pp="1" ppth="Stuttgart Hbf|Bruchsal|Karlsruhe Hbf"/>
+	</s>
+	<s id="-1659110425125542457-2409151934-16">
+		<tl f="D" t="p" o="S6" c="SWE" n="26573"/>
+		<ar pt="2409152047" pp="6 Nord" l="RS5" ppth="Aalen Hbf|Unterkochen|Oberkochen|Königsbronn|Itzelberg|Heidenheim-Schnaitheim|Heidenheim|Herbrechtingen|Giengen(Brenz)|Hermaringen|Bergenweiler|Sontheim-Brenz|Niederstotzingen|Langenau(Württ)|Thalfingen(b Ulm)"/>
+	</s>
+	<s id="-5883958056772216441-2409151931-9">
+		<tl f="N" t="p" o="800693" c="RE" n="3231"/>
+		<ar pt="2409152041" pp="7 Nord" l="55" ppth="Sigmaringen|Mengen|Herbertingen|Riedlingen|Munderkingen|Ehingen(Donau)|Schelklingen|Blaubeuren"/>
+	</s>
+	<s id="-6743513143723967081-2409151928-2">
+		<tl f="F" t="p" o="80" c="ICE" n="1013"/>
+		<ar pt="2409152010" pp="2" ppth="Stuttgart Hbf"/>
+		<dp pt="2409152012" pp="2" ppth="Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-632780081281037590-2409152047-1">
+		<tl f="N" t="p" o="800694" c="RE" n="4231"/>
+		<dp pt="2409152047" pp="8" l="5" ppth="Laupheim West|Biberach(Riß)|Bad Schussenried|Aulendorf|Ravensburg|Meckenbeuren|Friedrichshafen Stadt"/>
+	</s>
+	<s id="3377191727286980908-2409151905-8">
+		<tl f="N" t="p" o="800693" c="IRE" n="4818"/>
+		<ar pt="2409152040" pp="6 Süd" l="3" ppth="Lindau-Reutin|Wasserburg(Bodensee)|Kressbronn|Friedrichshafen Stadt|Ravensburg|Aulendorf|Biberach(Riß)"/>
+	</s>
+	<s id="-1718326938778319435-2409152045-1">
+		<tl t="p" o="8007DU" c="N" n="57489"/>
+		<dp pt="2409152045" pp="4 Süd" l="RS71" ppth="Neu-Ulm|Finningerstraße|Gerlenhofen|Senden|Wullenstetten|Witzighausen|Weißenhorn-Eschach|Weißenhorn"/>
+	</s>
+	<s id="6327936780914782034-2409152045-1">
+		<tl t="p" o="8007DU" c="N" n="57791"/>
+		<dp pt="2409152045" pp="4 Süd" l="RS7" wings="-1718326938778319435-2409152045" ppth="Neu-Ulm|Finningerstraße|Gerlenhofen|Senden|Vöhringen|Bellenberg|Illertissen|Altenstadt(Iller)|Kellmünz|Memmingen"/>
+	</s>
+	<s id="9012444880470991339-2409152032-1">
+		<tl f="D" t="p" o="S6" c="SWE" n="26574"/>
+		<dp pt="2409152032" pp="7 Nord" l="RS51" tra="-3602869641042279758-2409151930-12" ppth="Ulm Ost|Thalfingen(b Ulm)|Oberelchingen|Unterelchingen|Langenau(Württ)"/>
+	</s>
+	<s id="-2895345692591772492-2409152019-1">
+		<tl f="N" t="p" o="800693" c="IRE" n="4827"/>
+		<dp pt="2409152019" pp="7 Süd" l="3" ppth="Biberach(Riß)|Aulendorf|Ravensburg|Friedrichshafen Stadt|Langenargen|Kressbronn|Nonnenhorn|Wasserburg(Bodensee)|Enzisweiler|Lindau-Aeschach|Lindau-Reutin"/>
+	</s>
+	<s id="8790364043421950990-2409152029-1">
+		<tl f="N" t="p" o="800659" c="IRE" n="16072"/>
+		<dp pt="2409152029" pp="3 Nord" l="200" ppth="Merklingen - Schwäbische Alb|Wendlingen(Neckar)"/>
+	</s>
+	<s id="8322424274180843926-2409151928-4">
+		<tl f="F" t="p" o="80" c="ICE" n="510"/>
+		<ar pt="2409152045" pp="1" ppth="München Hbf|München-Pasing|Augsburg Hbf"/>
+		<dp pt="2409152047" pp="1" ppth="Stuttgart Hbf|Mannheim Hbf|Mainz Hbf|Wiesbaden Hbf|Köln Hbf"/>
+	</s>
+	<s id="-4772567680865854739-2409152017-1">
+		<tl f="N" t="p" o="8007D4" c="RE" n="57609"/>
+		<dp pt="2409152017" pp="3 Süd" l="75" ppth="Illertissen|Memmingen|Bad Grönenbach|Dietmannsried|Kempten(Allgäu)Ost|Kempten(Allgäu)Hbf"/>
+	</s>
+	<s id="-3602869641042279758-2409151930-12">
+		<tl f="D" t="p" o="S6" c="SWE" n="26381"/>
+		<ar pt="2409152026" pp="7 Nord" l="RS3" tra="9012444880470991339-2409152032-1" ppth="Munderkingen|Rottenacker|Ehingen(Donau)|Allmendingen|Schmiechen|Schelklingen|Blaubeuren|Gerhausen|Herrlingen|Blaustein|Ulm-Söflingen"/>
+	</s>
+	<s id="-8234085367482508756-2409152018-1">
+		<tl f="N" t="p" o="GYRE" c="RE" n="57183"/>
+		<dp pt="2409152018" pp="25" l="9" ppth="Neu-Ulm|Nersingen|Leipheim|Günzburg|Offingen|Mindelaltheim|Burgau(Schwab)|Jettingen|Freihalden|Dinkelscherben|Kutzenhausen|Gessertshausen|Diedorf(Schwab)|Westheim(Schwab)|Neusäß|Augsburg-Oberhausen|Augsburg Hbf"/>
+	</s>
+	<s id="4715108862064445963-2409151608-40">
+		<tl f="D" t="p" o="A9" c="ag" n="84138"/>
+		<ar pt="2409152008" pp="28" l="RB15" ppth="Plattling|Straßkirchen|Straubing|Radldorf(Niederbay)|Sünching|Obertraubling|Regensburg-Burgweinting|Regensburg Hbf|Regensburg-Prüfening|Sinzing|Poikam|Bad Abbach|Saal(Donau)|Abensberg|Neustadt(Donau)|Münchsmünster|Vohburg|Ernsgaden|Ingolstadt Hbf|Weichering|Rohrenfeld|Neuburg(Donau)|Unterhausen(Bay)|Straß-Moos|Burgheim|Rain|Genderkingen|Donauwörth|Tapfheim|Schwenningen(Bay)|Blindheim|Höchstädt(Donau)|Dillingen(Donau)|Lauingen|Gundelfingen(Bay)|Günzburg|Leipheim|Nersingen|Neu-Ulm"/>
+	</s>
+	<s id="4294347243358130620-2409152024-3">
+		<tl f="N" t="p" o="800659" c="IRE" n="16071"/>
+		<ar pt="2409152051" pp="3 Nord" l="200" ppth="Wendlingen(Neckar)|Merklingen - Schwäbische Alb"/>
+	</s>
+</timetable>
