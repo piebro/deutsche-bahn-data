@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<timetable station="Hildesheim Hbf">
+	<s id="5993325557577694962-2409191148-7">
+		<tl f="D" t="p" o="X2" c="erx" n="83466"/>
+		<ar pt="2409191242" pp="3" l="RE10" ppth="Bad Harzburg|Goslar|Salzgitter-Ringelheim|Baddeckenstedt|Derneburg(Han)|Hildesheim Ost"/>
+		<dp pt="2409191244" pp="3" l="RE10" ppth="Sarstedt|Hannover Messe/Laatzen|Hannover Hbf"/>
+	</s>
+	<s id="8580532105363537471-2409191118-8">
+		<tl t="p" o="R0" c="ENO" n="83562"/>
+		<ar pt="2409191208" pp="4" l="RE50" ppth="Wolfsburg Hbf|Fallersleben|Weddel(Braunschw)|Braunschweig Hbf|Lengede-Broistedt|Woltwiesche|Hoheneggelsen"/>
+	</s>
+	<s id="-886919495737015388-2409191148-4">
+		<tl f="D" t="p" o="X2" c="erx" n="83465"/>
+		<ar pt="2409191213" pp="2" l="RE10" ppth="Hannover Hbf|Hannover Messe/Laatzen|Sarstedt"/>
+		<dp pt="2409191214" pp="2" l="RE10" ppth="Hildesheim Ost|Derneburg(Han)|Baddeckenstedt|Salzgitter-Ringelheim|Goslar|Bad Harzburg"/>
+	</s>
+	<s id="-7187770431061668947-2409191250-1">
+		<tl t="p" o="R0" c="ENO" n="83567"/>
+		<dp pt="2409191250" pp="4" l="RE50" ppth="Hoheneggelsen|Woltwiesche|Lengede-Broistedt|Braunschweig Hbf|Weddel(Braunschw)|Fallersleben|Wolfsburg Hbf"/>
+	</s>
+	<s id="1948878934792162160-2409191202-7">
+		<tl f="N" t="p" o="RSNM" c="RB" n="14466"/>
+		<ar pt="2409191226" pp="4" l="79" ppth="Bodenburg|Bad Salzdetfurth|Bad Salzdetfurth Solebad|Wesseln|Groß Düngen|Hildesheim Ost"/>
+	</s>
+	<s id="-9128940567987965979-2409191234-1">
+		<tl f="N" t="p" o="RSNM" c="RB" n="14463"/>
+		<dp pt="2409191234" pp="1" l="79" ppth="Hildesheim Ost|Groß Düngen|Wesseln|Bad Salzdetfurth Solebad|Bad Salzdetfurth|Bodenburg"/>
+	</s>
+	<s id="239283131821387546-2409191202-4">
+		<tl f="N" t="p" o="RSNM" c="RB" n="56363"/>
+		<ar pt="2409191220" pp="1" l="77" ppth="Elze(Han)|Nordstemmen|Emmerke"/>
+	</s>
+	<s id="-4465336030385931642-2409191014-6">
+		<tl f="F" t="p" o="80" c="ICE" n="577"/>
+		<ar pt="2409191218" pp="3" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin-Spandau|Wolfsburg Hbf|Braunschweig Hbf"/>
+		<dp pt="2409191219" pp="3" ppth="Göttingen|Kassel-Wilhelmshöhe|Fulda|Hanau Hbf|Frankfurt(Main)Hbf|Darmstadt Hbf|Mannheim Hbf|Stuttgart Hbf"/>
+	</s>
+	<s id="8551486080542108322-2409191234-1">
+		<tl f="N" t="p" o="RSNM" c="RB" n="56366"/>
+		<dp pt="2409191234" pp="4" l="77" ppth="Emmerke|Nordstemmen|Elze(Han)"/>
+	</s>
+</timetable>

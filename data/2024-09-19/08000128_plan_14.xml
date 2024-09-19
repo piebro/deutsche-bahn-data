@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<timetable station="Göttingen">
+	<s id="6917333477019546835-2409191407-1">
+		<tl f="D" t="p" o="R1" c="ME" n="82830"/>
+		<dp pt="2409191407" pp="6" l="RE2" ppth="Nörten-Hardenberg|Northeim(Han)|Einbeck-Salzderhelden|Kreiensen|Freden(Leine)|Alfeld(Leine)|Banteln|Elze(Han)|Nordstemmen|Sarstedt|Hannover Messe/Laatzen|Hannover Hbf"/>
+	</s>
+	<s id="-360557881988462245-2409191239-15">
+		<tl f="N" t="p" o="8002A3" c="RB" n="14014"/>
+		<ar pt="2409191409" pp="7" l="80" ppth="Nordhausen|Nordhausen-Salza|Niedersachswerfen|Woffleben|Ellrich|Walkenried|Bad Sachsa|Bad Lauterberg im Harz Barbis|Herzberg(Harz)|Hattorf|Wulften|Katlenburg|Northeim(Han)|Nörten-Hardenberg"/>
+	</s>
+	<s id="277175714248225050-2409191217-7">
+		<tl f="F" t="p" o="80" c="ICE" n="579"/>
+		<ar pt="2409191447" pp="10" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin-Spandau|Wolfsburg Hbf|Braunschweig Hbf|Hildesheim Hbf"/>
+		<dp pt="2409191449" pp="10" ppth="Kassel-Wilhelmshöhe|Fulda|Hanau Hbf|Frankfurt(Main)Hbf|Darmstadt Hbf|Mannheim Hbf|Stuttgart Hbf"/>
+	</s>
+	<s id="965110926851249117-2409191315-3">
+		<tl f="F" t="p" o="80" c="ICE" n="639"/>
+		<ar pt="2409191457" pp="10" ppth="Bremen Hbf|Hannover Hbf"/>
+		<dp pt="2409191459" pp="10" ppth="Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf|München Hbf"/>
+	</s>
+	<s id="-2682763881499580114-2409191336-13">
+		<tl f="D" t="p" o="R1" c="ME" n="82819"/>
+		<ar pt="2409191451" pp="6" l="RE2" ppth="Hannover Hbf|Hannover Messe/Laatzen|Sarstedt|Nordstemmen|Elze(Han)|Banteln|Alfeld(Leine)|Freden(Leine)|Kreiensen|Einbeck-Salzderhelden|Northeim(Han)|Nörten-Hardenberg"/>
+	</s>
+	<s id="2333354465112561098-2409191414-1">
+		<tl f="N" t="p" o="N4" c="RB" n="24021"/>
+		<dp pt="2409191414" pp="6" l="83" wings="1801564452338095764-2409191414" ppth="Friedland(Han)|Eichenberg|Witzenhausen Nord|Gertenbach|Hedemünden|Hann Münden|Speele|Fuldatal-Ihringshausen|Vellmar-Niedervellmar|Kassel Hbf"/>
+	</s>
+	<s id="-3519048717094179334-2409191448-1">
+		<tl f="N" t="p" o="8002A3" c="RB" n="14125"/>
+		<dp pt="2409191448" pp="4" l="82" ppth="Nörten-Hardenberg|Northeim(Han)|Einbeck-Salzderhelden|Kreiensen|Bad Gandersheim|Seesen|Langelsheim|Goslar|Oker|Bad Harzburg"/>
+	</s>
+	<s id="-6375688586471101923-2409191153-15">
+		<tl f="D" t="p" o="N2" c="NWB" n="74915"/>
+		<ar pt="2409191417" pp="6" l="RB85" ppth="Paderborn Hbf|Altenbeken|Bad Driburg(Westf)|Brakel(Höxter)|Höxter-Ottbergen|Beverungen-Wehrden|Lauenförde-Beverungen|Bad Karlshafen|Bodenfelde|Vernawahlshausen|Offensen(Kr North)|Adelebsen|Lödingsen|Lenglern"/>
+	</s>
+	<s id="642237095496846602-2409191405-6">
+		<tl f="N" t="p" o="N4" c="RB" n="24078"/>
+		<ar pt="2409191445" pp="5" l="87" pde="Bebra" ppth="Eschwege|Eschwege-Niederhone|Bad Sooden-Allendorf|Eichenberg|Friedland(Han)"/>
+	</s>
+	<s id="-5225366604130971375-2409191408-1">
+		<tl f="N" t="p" o="8004NT" c="RE" n="3663"/>
+		<dp pt="2409191408" pp="8" l="1" ppth="Heilbad Heiligenstadt|Leinefelde|Mühlhausen(Thür)|Bad Langensalza|Gotha|Neudietendorf|Erfurt Hbf|Weimar|Jena West|Jena-Göschwitz|Stadtroda|Hermsdorf-Klosterlausnitz|Gera Hbf"/>
+	</s>
+	<s id="-5494809838162286659-2409191109-7">
+		<tl f="F" t="p" o="80" c="ICE" n="538"/>
+		<ar pt="2409191454" pp="9" ppth="München Hbf|Ingolstadt Hbf|Nürnberg Hbf|Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe"/>
+		<dp pt="2409191456" pp="9" ppth="Hannover Hbf|Bremen Hbf"/>
+	</s>
+	<s id="1184509608867288236-2409191109-7">
+		<tl f="F" t="p" o="80" c="ICE" n="588"/>
+		<ar pt="2409191454" pp="9" wings="-5494809838162286659-2409191109" ppth="München Hbf|Ingolstadt Hbf|Nürnberg Hbf|Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe"/>
+		<dp pt="2409191456" pp="9" wings="-5494809838162286659-2409191109" ppth="Hannover Hbf|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="1801564452338095764-2409191414-1">
+		<tl f="N" t="p" o="N4" c="RB" n="24081"/>
+		<dp pt="2409191414" pp="6" l="87" pde="Bebra" ppth="Friedland(Han)|Eichenberg|Bad Sooden-Allendorf|Eschwege-Niederhone|Eschwege"/>
+	</s>
+	<s id="3708952084361331214-2409191346-11">
+		<tl f="N" t="p" o="N4" c="RB" n="24018"/>
+		<ar pt="2409191445" pp="5" l="83" wings="642237095496846602-2409191405" ppth="Kassel Hbf|Vellmar-Niedervellmar|Fuldatal-Ihringshausen|Speele|Hann Münden|Hedemünden|Gertenbach|Witzenhausen Nord|Eichenberg|Friedland(Han)"/>
+	</s>
+	<s id="1649759198008423216-2409191301-4">
+		<tl f="F" t="p" o="80" c="ICE" n="689"/>
+		<ar pt="2409191457" pp="10" wings="965110926851249117-2409191315" ppth="Hamburg Hbf|Hamburg-Harburg|Hannover Hbf"/>
+		<dp pt="2409191459" pp="10" wings="965110926851249117-2409191315" ppth="Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf|München Hbf"/>
+	</s>
+	<s id="-5948620930973506500-2409191425-1">
+		<tl f="N" t="p" o="8002A3" c="RB" n="14209"/>
+		<dp pt="2409191425" pp="4" l="86" ppth="Nörten-Hardenberg|Northeim(Han)|Einbeck-Salzderhelden|Einbeck Otto-Hahn-Straße|Einbeck Mitte"/>
+	</s>
+	<s id="-2543008509222161707-2409190846-10">
+		<tl f="F" t="p" o="80" c="ICE" n="690"/>
+		<ar pt="2409191438" pp="9" ppth="München Hbf|München-Pasing|Augsburg Hbf|Ulm Hbf|Stuttgart Hbf|Mannheim Hbf|Mainz Hbf|Frankfurt(Main)Hbf|Kassel-Wilhelmshöhe"/>
+		<dp pt="2409191440" pp="9" ppth="Hannover Hbf|Hamburg Hbf"/>
+	</s>
+	<s id="1188908030179368912-2409191213-8">
+		<tl f="F" t="p" o="80" c="ICE" n="1671"/>
+		<ar pt="2409191435" pp="10" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Lüneburg|Uelzen|Celle|Hannover Hbf"/>
+		<dp pt="2409191436" pp="10" ppth="Kassel-Wilhelmshöhe|Wabern(Bz Kassel)|Treysa|Marburg(Lahn)|Gießen|Friedberg(Hess)|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-4363138856453226211-2409191111-6">
+		<tl f="F" t="p" o="80" c="ICE" n="373"/>
+		<ar pt="2409191412" pp="10" ppth="Kiel Hbf|Neumünster|Hamburg Dammtor|Hamburg Hbf|Hannover Hbf"/>
+		<dp pt="2409191413" pp="10" ppth="Kassel-Wilhelmshöhe|Frankfurt(Main)Hbf|Mainz Hbf|Mannheim Hbf|Karlsruhe Hbf|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Liestal|Olten|Bern|Thun|Spiez|Interlaken West|Interlaken Ost"/>
+	</s>
+	<s id="1972688194672862143-2409191316-11">
+		<tl f="N" t="p" o="N4" c="RB" n="24054"/>
+		<ar pt="2409191411" pp="5" l="83" ppth="Kassel Hbf|Vellmar-Niedervellmar|Fuldatal-Ihringshausen|Speele|Hann Münden|Hedemünden|Gertenbach|Witzenhausen Nord|Eichenberg|Friedland(Han)"/>
+	</s>
+</timetable>
