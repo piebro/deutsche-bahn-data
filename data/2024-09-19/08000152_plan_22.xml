@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<timetable station="Hannover Hbf">
+	<s id="-4214840516201313153-2409191839-22">
+		<tl f="N" t="p" o="800295" c="RE" n="4435"/>
+		<ar pt="2409192238" pp="9" l="1" ppth="Norddeich Mole|Norddeich|Norden|Marienhafe|Emden Hbf|Leer(Ostfriesl)|Augustfehn|Westerstede-Ocholt|Bad Zwischenahn|Oldenburg(Oldb)Hbf|Hude|Delmenhorst|Bremen Hbf|Bremen-Mahndorf|Achim|Verden(Aller)|Dörverden|Eystrup|Nienburg(Weser)|Neustadt am Rübenberge|Wunstorf"/>
+	</s>
+	<s id="8665047482682038790-2409192220-1">
+		<tl f="N" t="p" o="800295" c="RE" n="4442"/>
+		<dp pt="2409192220" pp="12" l="8" ppth="Wunstorf|Neustadt am Rübenberge|Nienburg(Weser)|Eystrup|Dörverden|Verden(Aller)|Langwedel|Etelsen|Baden(Verden)|Achim|Bremen-Mahndorf|Bremen-Sebaldsbrück|Bremen Hbf"/>
+	</s>
+	<s id="3366415709394720887-2409192114-9">
+		<tl f="D" t="p" o="R1" c="ME" n="82837"/>
+		<ar pt="2409192215" pp="3" l="RE2" ppth="Uelzen|Suderburg|Unterlüß|Eschede|Celle|Großburgwedel|Isernhagen|Langenhagen Mitte"/>
+		<dp pt="2409192236" pp="3" l="RE2" ppth="Sarstedt|Nordstemmen|Elze(Han)|Banteln|Alfeld(Leine)|Freden(Leine)|Kreiensen|Einbeck-Salzderhelden|Northeim(Han)|Nörten-Hardenberg|Göttingen"/>
+	</s>
+	<s id="5925446793945225412-2409191759-11">
+		<tl f="F" t="p" o="84" c="IC" n="243"/>
+		<ar pt="2409192201" pp="9" ppth="Amsterdam Centraal|Hilversum|Amersfoort Centraal|Apeldoorn|Deventer|Hengelo|Bad Bentheim|Rheine|Osnabrück Hbf|Bünde(Westf)"/>
+	</s>
+	<s id="-1290839640796586839-2409191752-7">
+		<tl f="F" t="p" o="80" c="ICE" n="782"/>
+		<ar pt="2409192231" pp="8" ppth="München Hbf|Augsburg Hbf|Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen"/>
+		<dp pt="2409192236" pp="8" ppth="Celle|Uelzen|Lüneburg|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="-1653210131841273505-2409192248-1">
+		<tl t="p" o="R0" c="ENO" n="83537"/>
+		<dp pt="2409192248" pp="14 D-F" l="RE30" ppth="Lehrte|Immensen-Arpke|Dollbergen|Dedenhausen|Meinersen|Leiferde(b Gifhorn)|Gifhorn|Calberlah|Fallersleben|Wolfsburg Hbf"/>
+	</s>
+	<s id="7621373856227750463-2409192248-1">
+		<tl f="D" t="p" o="X2" c="erx" n="83487"/>
+		<dp pt="2409192248" pp="4" l="RE10" ppth="Sarstedt|Hildesheim Hbf|Hildesheim Ost|Derneburg(Han)|Baddeckenstedt|Salzgitter-Ringelheim|Goslar|Bad Harzburg"/>
+	</s>
+	<s id="2869769973922245820-2409192034-6">
+		<tl f="F" t="p" o="80" c="ICE" n="540"/>
+		<ar pt="2409192242" pp="11" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin-Spandau|Stendal Hbf|Wolfsburg Hbf"/>
+		<dp pt="2409192245" pp="11" ppth="Nienburg(Weser)|Verden(Aller)|Bremen Hbf|Delmenhorst|Oldenburg(Oldb)Hbf"/>
+	</s>
+	<s id="-876254985661224810-2409192120-7">
+		<tl f="D" t="p" o="W3" c="WFB" n="95838"/>
+		<ar pt="2409192205" pp="12" l="RE70" ppth="Braunschweig Hbf|Vechelde|Peine|Vöhrum|Hämelerwald|Lehrte"/>
+		<dp pt="2409192209" pp="12" l="RE70" ppth="Wunstorf|Haste|Stadthagen|Bückeburg|Minden(Westf)|Porta Westfalica|Bad Oeynhausen|Löhne(Westf)|Herford|Bielefeld Hbf"/>
+	</s>
+	<s id="7259477456760348006-2409192151-9">
+		<tl f="D" t="p" o="W3" c="WFB" n="95789"/>
+		<ar pt="2409192250" pp="9" l="RE60" ppth="Löhne(Westf)|Bad Oeynhausen|Porta Westfalica|Minden(Westf)|Bückeburg|Stadthagen|Haste|Wunstorf"/>
+		<dp pt="2409192255" pp="9" l="RE60" ppth="Lehrte|Hämelerwald|Vöhrum|Peine|Vechelde|Braunschweig Hbf"/>
+	</s>
+	<s id="-782961286787884039-2409192048-9">
+		<tl f="D" t="p" o="X2" c="erx" n="83484"/>
+		<ar pt="2409192210" pp="7" l="RE10" ppth="Bad Harzburg|Goslar|Salzgitter-Ringelheim|Baddeckenstedt|Derneburg(Han)|Hildesheim Ost|Hildesheim Hbf|Sarstedt"/>
+	</s>
+	<s id="5815742473796794456-2409191800-6">
+		<tl f="F" t="p" o="80" c="ICE" n="274"/>
+		<ar pt="2409192217" pp="8" ppth="Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Kassel-Wilhelmshöhe|Göttingen"/>
+		<dp pt="2409192220" pp="8" ppth="Hamburg Hbf"/>
+	</s>
+	<s id="-6365543450329300214-2409192114-11">
+		<tl t="p" o="R0" c="ENO" n="83532"/>
+		<ar pt="2409192211" pp="14 D-F" l="RE30" ppth="Wolfsburg Hbf|Fallersleben|Calberlah|Gifhorn|Leiferde(b Gifhorn)|Meinersen|Dedenhausen|Dollbergen|Immensen-Arpke|Lehrte"/>
+	</s>
+	<s id="6745484896867284765-2409192104-12">
+		<tl f="D" t="p" o="R1" c="ME" n="82844"/>
+		<ar pt="2409192223" pp="7" l="RE2" ppth="Göttingen|Nörten-Hardenberg|Northeim(Han)|Einbeck-Salzderhelden|Kreiensen|Freden(Leine)|Alfeld(Leine)|Banteln|Elze(Han)|Nordstemmen|Sarstedt"/>
+		<dp pt="2409192248" pp="7" l="RE2" ppth="Langenhagen Mitte|Isernhagen|Großburgwedel|Celle|Eschede|Unterlüß|Suderburg|Uelzen"/>
+	</s>
+	<s id="5597303123860052865-2409191925-10">
+		<tl f="F" t="p" o="80" c="ICE" n="947"/>
+		<ar pt="2409192228" pp="9" ppth="Köln Hbf|Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Bielefeld Hbf"/>
+		<dp pt="2409192231" pp="9" ppth="Wolfsburg Hbf|Berlin-Spandau|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+</timetable>
