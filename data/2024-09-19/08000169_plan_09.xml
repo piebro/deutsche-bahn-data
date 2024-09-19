@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<timetable station="Hildesheim Hbf">
+	<s id="-5585644118056957086-2409190902-7">
+		<tl f="N" t="p" o="RSNM" c="RB" n="14460"/>
+		<ar pt="2409190926" pp="4" l="79" ppth="Bodenburg|Bad Salzdetfurth|Bad Salzdetfurth Solebad|Wesseln|Groß Düngen|Hildesheim Ost"/>
+	</s>
+	<s id="-7680128240669086719-2409190818-8">
+		<tl t="p" o="R0" c="ENO" n="83556"/>
+		<ar pt="2409190908" pp="4" l="RE50" ppth="Wolfsburg Hbf|Fallersleben|Weddel(Braunschw)|Braunschweig Hbf|Lengede-Broistedt|Woltwiesche|Hoheneggelsen"/>
+	</s>
+	<s id="428699380039786739-2409190502-11">
+		<tl f="F" t="p" o="80" c="ICE" n="774"/>
+		<ar pt="2409190935" pp="2" ppth="Stuttgart Hbf|Vaihingen(Enz)|Heidelberg Hbf|Mannheim Hbf|Darmstadt Hbf|Frankfurt(Main)Hbf|Hanau Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen"/>
+		<dp pt="2409190936" pp="2" ppth="Braunschweig Hbf|Wolfsburg Hbf|Berlin-Spandau|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="6371656133655979684-2409190950-1">
+		<tl t="p" o="R0" c="ENO" n="83561"/>
+		<dp pt="2409190950" pp="4" l="RE50" ppth="Hoheneggelsen|Woltwiesche|Lengede-Broistedt|Braunschweig Hbf|Weddel(Braunschw)|Fallersleben|Wolfsburg Hbf"/>
+	</s>
+	<s id="1998201194974445531-2409190848-7">
+		<tl f="D" t="p" o="X2" c="erx" n="83460"/>
+		<ar pt="2409190942" pp="3" l="RE10" ppth="Bad Harzburg|Goslar|Salzgitter-Ringelheim|Baddeckenstedt|Derneburg(Han)|Hildesheim Ost"/>
+		<dp pt="2409190944" pp="3" l="RE10" ppth="Sarstedt|Hannover Messe/Laatzen|Hannover Hbf"/>
+	</s>
+	<s id="6512214245398239996-2409190848-4">
+		<tl f="D" t="p" o="X2" c="erx" n="83459"/>
+		<ar pt="2409190913" pp="2" l="RE10" ppth="Hannover Hbf|Hannover Messe/Laatzen|Sarstedt"/>
+		<dp pt="2409190914" pp="2" l="RE10" ppth="Hildesheim Ost|Derneburg(Han)|Baddeckenstedt|Salzgitter-Ringelheim|Goslar|Bad Harzburg"/>
+	</s>
+	<s id="5454974383063448729-2409190907-4">
+		<tl f="N" t="p" o="RSNM" c="RB" n="56357"/>
+		<ar pt="2409190925" pp="1" l="77" ppth="Elze(Han)|Nordstemmen|Emmerke"/>
+	</s>
+	<s id="3860354175872677116-2409190934-1">
+		<tl f="N" t="p" o="RSNM" c="RB" n="14457"/>
+		<dp pt="2409190934" pp="1" l="79" ppth="Hildesheim Ost|Groß Düngen|Wesseln|Bad Salzdetfurth Solebad|Bad Salzdetfurth|Bodenburg"/>
+	</s>
+	<s id="7692682681093716104-2409190937-1">
+		<tl f="N" t="p" o="RSNM" c="RB" n="56360"/>
+		<dp pt="2409190937" pp="4" l="77" ppth="Emmerke|Nordstemmen|Elze(Han)"/>
+	</s>
+</timetable>
