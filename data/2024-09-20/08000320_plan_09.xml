@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<timetable station="Rosenheim">
+	<s id="-6007066134576475431-2409200932-1">
+		<tl t="p" o="M8" c="Bus" n="60161"/>
+		<dp pt="2409200932" pp="" l="EV" ppth="Raubling|Brannenburg"/>
+	</s>
+	<s id="-1468785462918766075-2409200841-7">
+		<tl f="D" t="p" o="M8" c="BRB" n="77507"/>
+		<ar pt="2409200924" pp="3" l="RB54" ppth="München Hbf Gl.5-10|München Ost|Grafing Bahnhof|Aßling(Oberbay)|Ostermünchen|Großkarolinenfeld"/>
+	</s>
+	<s id="-7091436777592989374-2409191934-20">
+		<tl f="F" t="p" o="NZ" c="IC" n="60407"/>
+		<ar pt="2409200912" pp="2" ppth="Warszawa Wschodnia|Warszawa Centralna|Warszawa Zachodnia|Opoczno Poludnie|Wloszczowa Polnoc|Miechow|Krakow Glowny|Skawina|Oswiecim|Czechowice-Dziedzice|Zebrzydowice|Bohumin|Ostrava hl.n.|Breclav|Wien Hbf|St.Pölten Hbf|Linz Hbf|Attnang-Puchheim|Salzburg Hbf"/>
+		<dp pt="2409200914" pp="2" ppth="München Ost|München Hbf Gl.5-10"/>
+	</s>
+	<s id="5058114512956515493-2409200835-13">
+		<tl f="D" t="p" o="M8" c="BRB" n="79515"/>
+		<ar pt="2409200923" pp="6" l="RB58" ppth="Holzkirchen|Kreuzstraße|Westerham|Feldolling|Bruckmühl|Heufeldmühle|Hinrichssegen|Heufeld|Bad Aibling|Bad Aibling Kurpark|Kolbermoor|Rosenheim Aicherpark"/>
+	</s>
+	<s id="5107145566469186567-2409200608-11">
+		<tl f="D" t="p" o="3236" c="WB" n="948"/>
+		<ar pt="2409200930" pp="1" ppth="Wien Westbahnhof|Wien Hütteldorf|St.Pölten Hbf|Amstetten NÖ|Linz Hbf|Wels Hbf|Attnang-Puchheim|Vöcklabruck|Salzburg Hbf|Freilassing"/>
+		<dp pt="2409200932" pp="1" ppth="München Ost|München Hbf Gl.5-10"/>
+	</s>
+	<s id="6414738295846928746-2409191934-20">
+		<tl f="F" t="p" o="51" c="EN" n="407"/>
+		<ar pt="2409200912" pp="2" wings="-7091436777592989374-2409191934" ppth="Warszawa Wschodnia|Warszawa Centralna|Warszawa Zachodnia|Opoczno Poludnie|Wloszczowa Polnoc|Miechow|Krakow Glowny|Skawina|Oswiecim|Czechowice-Dziedzice|Zebrzydowice|Bohumin|Ostrava hl.n.|Breclav|Wien Hbf|St.Pölten Hbf|Linz Hbf|Attnang-Puchheim|Salzburg Hbf"/>
+		<dp pt="2409200914" pp="2" hi="1" wings="-7091436777592989374-2409191934" ppth="München Ost|München Hbf Gl.5-10"/>
+	</s>
+	<s id="-8653375317839296544-2409200859-3">
+		<tl f="F" t="p" o="80" c="EC" n="2503"/>
+		<ar pt="2409200936" pp="1" ppth="München Hbf|München Ost"/>
+	</s>
+	<s id="-7546488962176627799-2409200808-10">
+		<tl f="D" t="p" o="M8" c="BRB" n="79016"/>
+		<ar pt="2409200925" pp="2" l="RE5" ppth="Salzburg Hbf|Freilassing|Teisendorf|Traunstein|Bergen(Oberbay)|Übersee|Bernau a Chiemsee|Prien am Chiemsee|Bad Endorf"/>
+		<dp pt="2409200929" pp="2" l="RE5" ppth="München Ost|München Hbf Gl.5-10"/>
+	</s>
+	<s id="847783074166533719-2409200935-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="77514"/>
+		<dp pt="2409200935" pp="3" l="RB54" ppth="Großkarolinenfeld|Ostermünchen|Aßling(Oberbay)|Grafing Bahnhof|München Ost|München Hbf Gl.5-10"/>
+	</s>
+	<s id="3983381627357752844-2409200859-3">
+		<tl t="p" o="M8" c="Bus" n="60168"/>
+		<ar pt="2409200924" pp="" l="EV" ppth="Brannenburg|Raubling"/>
+	</s>
+	<s id="8447355569633060280-2409200934-1">
+		<tl f="N" t="p" o="8013D" c="RB" n="27306"/>
+		<dp pt="2409200934" pp="1a" l="44" ppth="Rosenheim Hochschule|Schechen|Rott(Inn)|Ramerberg|Wasserburg(Inn)Bf|Gars(Inn)|Waldkraiburg-Kraiburg|Mühldorf(Oberbay)"/>
+	</s>
+	<s id="-7420712075117702882-2409200944-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79516"/>
+		<dp pt="2409200944" pp="6" l="RB58" ppth="Rosenheim Aicherpark|Kolbermoor|Bad Aibling Kurpark|Bad Aibling|Heufeld|Hinrichssegen|Heufeldmühle|Bruckmühl|Westerham|Kreuzstraße|Holzkirchen"/>
+	</s>
+	<s id="-5244643378637645953-2409200856-3">
+		<tl f="D" t="p" o="M8" c="BRB" n="79011"/>
+		<ar pt="2409200933" pp="4" l="RE5" ppth="München Hbf Gl.5-10|München Ost"/>
+		<dp pt="2409200935" pp="4" l="RE5" ppth="Bad Endorf|Prien am Chiemsee|Bernau a Chiemsee|Übersee|Bergen(Oberbay)|Traunstein|Teisendorf|Freilassing|Salzburg Hbf"/>
+	</s>
+	<s id="-4269321884350482154-2409200738-16">
+		<tl f="N" t="p" o="8013D" c="RB" n="27109"/>
+		<ar pt="2409200925" pp="1a" l="44" ppth="Landshut(Bay)Hbf|Landshut(Bay)Süd|Geisenhausen|Vilsbiburg|Neumarkt-St Veit|Mühldorf(Oberbay)|Waldkraiburg-Kraiburg|Jettenbach|Gars(Inn)|Soyen|Wasserburg(Inn)Bf|Ramerberg|Rott(Inn)|Schechen|Rosenheim Hochschule"/>
+	</s>
+	<s id="-259236942503529562-2409200800-5">
+		<tl f="F" t="p" o="80" c="IC" n="1290"/>
+		<ar pt="2409200901" pp="2" ppth="Salzburg Hbf|Freilassing|Traunstein|Prien am Chiemsee"/>
+		<dp pt="2409200902" pp="2" ppth="München Ost|München Hbf"/>
+	</s>
+</timetable>
