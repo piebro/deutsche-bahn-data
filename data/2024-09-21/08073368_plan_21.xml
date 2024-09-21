@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Köln Messe/Deutz Gl.11-12">
+	<s id="-7625601599561451818-2409211805-5">
+		<tl f="F" t="p" o="80" c="ICE" n="2402"/>
+		<ar pt="2409212103" pp="12" ppth="Stuttgart Hbf|Heidelberg Hbf|Darmstadt Hbf|Frankfurt(M) Flughafen Fernbf"/>
+		<dp pt="2409212109" pp="12" ppth="Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Dortmund Hbf"/>
+	</s>
+	<s id="-4272298498907669914-2409211900-5">
+		<tl t="p" o="81" c="NJ" n="40421"/>
+		<ar pt="2409212143" pp="11" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Düsseldorf Hbf"/>
+		<dp pt="2409212150" pp="11" ppth="Würzburg Hbf|Nürnberg Hbf|Regensburg Hbf|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="2444314634072177884-2409212048-2">
+		<tl f="N" t="p" o="NXRE" c="RE" n="89739"/>
+		<ar pt="2409212104" pp="11" l="6" ppth="Köln/Bonn Flughafen"/>
+		<dp pt="2409212107" pp="11" l="6" ppth="Leverkusen Mitte|Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Mülheim(Ruhr)Hbf|Essen Hbf|Gelsenkirchen Hbf|Herne|Dortmund Hbf|Kamen|Hamm(Westf)Hbf|Hamm-Heessen|Ahlen(Westf)|Beckum-Neubeckum|Oelde|Rheda-Wiedenbrück|Gütersloh Hbf|Bielefeld-Brackwede|Bielefeld Hbf"/>
+	</s>
+	<s id="-7056878515633598205-2409211838-7">
+		<tl f="F" t="p" o="84" c="ICE" n="221"/>
+		<ar pt="2409212117" pp="11" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Oberhausen Hbf|Duisburg Hbf|Düsseldorf Hbf"/>
+		<dp pt="2409212119" pp="11" ppth="Siegburg/Bonn|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-3823254010841261196-2409211900-5">
+		<tl t="p" o="84" c="NJ" n="421"/>
+		<ar pt="2409212143" pp="11" wings="-4272298498907669914-2409211900" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Düsseldorf Hbf"/>
+		<dp pt="2409212150" pp="11" wings="-4272298498907669914-2409211900" ppth="Würzburg Hbf|Nürnberg Hbf|Augsburg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="-9170319321262747816-2409211713-9">
+		<tl f="F" t="p" o="80" c="ICE" n="102"/>
+		<ar pt="2409212129" pp="12" ppth="Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf|Wiesbaden Hbf"/>
+		<dp pt="2409212131" pp="12" ppth="Düsseldorf Hbf"/>
+	</s>
+</timetable>
