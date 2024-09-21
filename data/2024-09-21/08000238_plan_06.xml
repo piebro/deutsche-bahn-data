@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Lüneburg">
+	<s id="-5533211827036222444-2409210640-1">
+		<tl f="D" t="p" o="X1" c="erx" n="28156"/>
+		<dp pt="2409210640" pp="5" l="RE83" ppth="Echem|Lauenburg(Elbe)|Büchen"/>
+	</s>
+	<s id="-8254610297767882258-2409210632-1">
+		<tl f="D" t="p" o="R1" c="ME" n="81608"/>
+		<dp pt="2409210632" pp="2" l="RB31" tra="-6026100001913276581-2409210605-4" ppth="Bardowick|Radbruch|Winsen(Luhe)|Ashausen|Stelle|Maschen|Meckelfeld|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="-5781652695664071516-2409210554-3">
+		<tl f="F" t="p" o="80" c="ICE" n="783"/>
+		<ar pt="2409210623" pp="1" ppth="Hamburg Hbf|Hamburg-Harburg"/>
+		<dp pt="2409210625" pp="1" ppth="Uelzen|Celle|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf|München Hbf"/>
+	</s>
+	<s id="6199339198841317246-2409210618-3">
+		<tl f="F" t="p" o="80" c="ICE" n="277"/>
+		<ar pt="2409210646" pp="1" ppth="Hamburg Hbf|Hamburg-Harburg"/>
+		<dp pt="2409210648" pp="1" ppth="Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Frankfurt(Main)Hbf|Mainz Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB"/>
+	</s>
+	<s id="-3958361457769852150-2409210555-4">
+		<tl f="D" t="p" o="X1" c="erx" n="28153"/>
+		<ar pt="2409210625" pp="5" l="RE83" ppth="Büchen|Lauenburg(Elbe)|Echem"/>
+	</s>
+	<s id="-591740966552182182-2409210634-1">
+		<tl f="D" t="p" o="R1" c="ME" n="82109"/>
+		<dp pt="2409210634" pp="6" l="RE3" tra="6786330195269430117-2409210533-10" ppth="Bienenbüttel|Bad Bevensen|Uelzen"/>
+	</s>
+	<s id="6786330195269430117-2409210533-10">
+		<tl f="D" t="p" o="R1" c="ME" n="81609"/>
+		<ar pt="2409210625" pp="6" l="RB31" tra="-591740966552182182-2409210634-1" ppth="Hamburg Hbf|Hamburg-Harburg|Meckelfeld|Maschen|Stelle|Ashausen|Winsen(Luhe)|Radbruch|Bardowick"/>
+	</s>
+	<s id="-6026100001913276581-2409210605-4">
+		<tl f="D" t="p" o="R1" c="ME" n="82108"/>
+		<ar pt="2409210628" pp="2" l="RE3" tra="-8254610297767882258-2409210632-1" ppth="Uelzen|Bad Bevensen|Bienenbüttel"/>
+	</s>
+</timetable>
