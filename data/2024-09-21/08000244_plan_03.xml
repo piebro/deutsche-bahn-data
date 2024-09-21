@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<timetable station="Mannheim Hbf">
+	<s id="3815527731317798076-2409210311-1">
+		<tl f="S" t="p" o="801539" c="S" n="38205"/>
+		<dp pt="2409210311" pp="1" l="2" ppth="Mannheim ARENA/Maimarkt|Mannheim-Seckenheim|Mannheim-Friedrichsfeld Süd|Heidelberg-Pfaffengrund/Wieblingen|Heidelberg Hbf"/>
+	</s>
+	<s id="6579783742780380168-2409210317-1">
+		<tl f="S" t="p" o="801518" c="S" n="38903"/>
+		<dp pt="2409210317" pp="12" l="9" ppth="Mannheim-Neckarau|Mannheim-Rheinau|Schwetzingen-Hirschacker|Schwetzingen|Oftersheim|Hockenheim|Neulußheim|Waghäusel|Wiesental|Graben-Neudorf|Friedrichstal(Baden)|Blankenloch|Karlsruhe-Hagsfeld|Karlsruhe Hbf"/>
+	</s>
+	<s id="3178546308999030105-2409201938-7">
+		<tl t="p" o="81" c="NJ" n="40468"/>
+		<ar pt="2409210314" pp="3" hi="1" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Rosenheim|München Ost"/>
+		<dp pt="2409210410" pp="3" hi="1" ppth="Mainz Hbf|Koblenz Hbf|Bonn-Beuel|Köln Hbf|Aachen Hbf|Liège-Guillemins|Bruxelles-Nord|Bruxelles Midi"/>
+	</s>
+	<s id="804476360024502708-2409210334-6">
+		<tl f="S" t="p" o="801539" c="S" n="38206"/>
+		<ar pt="2409210351" pp="1" l="2" ppth="Heidelberg Hbf|Heidelberg-Pfaffengrund/Wieblingen|Mannheim-Friedrichsfeld Süd|Mannheim-Seckenheim|Mannheim ARENA/Maimarkt"/>
+	</s>
+	<s id="8016523767626847908-2409201938-7">
+		<tl t="p" o="81" c="NJ" n="468"/>
+		<ar pt="2409210314" pp="3" hi="1" wings="3178546308999030105-2409201938" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Rosenheim|München Ost"/>
+		<dp pt="2409210410" pp="3" hi="1" wings="3178546308999030105-2409201938" ppth="Mainz Hbf|Koblenz Hbf|Bonn-Beuel|Köln Hbf|Aachen Hbf|Liège-Guillemins|Bruxelles-Nord|Bruxelles Midi"/>
+	</s>
+	<s id="-1658711411900732884-2409210218-15">
+		<tl f="S" t="p" o="801518" c="S" n="38902"/>
+		<ar pt="2409210310" pp="12" l="9" ppth="Karlsruhe Hbf|Karlsruhe-Hagsfeld|Blankenloch|Friedrichstal(Baden)|Graben-Neudorf|Wiesental|Waghäusel|Neulußheim|Hockenheim|Oftersheim|Schwetzingen|Schwetzingen-Hirschacker|Mannheim-Rheinau|Mannheim-Neckarau"/>
+	</s>
+	<s id="2686007473625185344-2409210001-8">
+		<tl f="F" t="p" o="80" c="ICE" n="618"/>
+		<ar pt="2409210355" pp="7" ppth="München Hbf|München-Pasing|Augsburg Hbf|Günzburg|Ulm Hbf|Stuttgart Hbf|Heidelberg Hbf"/>
+		<dp pt="2409210431" pp="7" ppth="Mainz Hbf|Wiesbaden Hbf|Siegburg/Bonn"/>
+	</s>
+</timetable>

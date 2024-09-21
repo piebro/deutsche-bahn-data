@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<timetable station="Darmstadt Hbf">
+	<s id="-7520003888100728379-2409210016-19">
+		<tl f="N" t="p" o="800574" c="RE" n="15340"/>
+		<ar pt="2409210126" pp="5" l="60" ppth="Mannheim Hbf|Mannheim ARENA/Maimarkt|Mannheim-Seckenheim|Neu-Edingen/Friedrichsfeld|Ladenburg|Heddesheim/Hirschberg|Weinheim-Lützelsachsen|Weinheim(Bergstr)Hbf|Hemsbach|Laudenbach(Bergstr)|Heppenheim(Bergstr)|Bensheim|Bensheim-Auerbach|Zwingenberg(Bergstr)|Hähnlein-Alsbach|Bickenbach(Bergstr)|Darmstadt-Eberstadt|Darmstadt Süd"/>
+		<dp pt="2409210128" pp="5" l="60" ppth="Langen(Hess)|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-7529240224255471450-2409210108-2">
+		<tl f="D" t="p" o="R4" c="VIA" n="32849"/>
+		<ar pt="2409210124" pp="" l="RB82" ppth="Frankfurt(Main)Süd"/>
+		<dp pt="2409210137" pp="" l="RB82" ppth="Darmstadt Nord|Darmstadt Ost|Darmstadt TU-Lichtwiese|Mühltal|Ober Ramstadt|Reinheim(Odenw)|Otzberg Lengfeld|Groß-Umstadt Wiebelsbach|Höchst Hetschbach|Höchst(Odenw)|Höchst Mümling-Grumbach|Bad König|Bad König Zell|Michelstadt|Erbach(Odenw) Nord|Erbach(Odenw)"/>
+	</s>
+	<s id="-358418227451456221-2409210042-8">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="28743"/>
+		<ar pt="2409210121" pp="9" l="RB75" ppth="Wiesbaden Hbf|Mainz-Kastel|Mainz-Bischofsheim|Nauheim(b Gr.Gerau)|Groß Gerau|Klein Gerau|Weiterstadt"/>
+	</s>
+	<s id="-5591597380485360579-2409202059-10">
+		<tl f="F" t="p" o="NZ" c="IC" n="60470"/>
+		<ar pt="2409210150" pp="5" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Bruchsal|Heidelberg Hbf"/>
+		<dp pt="2409210153" pp="5" ppth="Frankfurt(Main)Süd|Hanau Hbf|Göttingen|Hannover Hbf|Nienburg(Weser)|Verden(Aller)|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-6123673541661587072-2409210142-6">
+		<tl f="S" t="p" o="800528" c="S" n="56187"/>
+		<ar pt="2409210156" pp="" l="3" ppth="Langen(Hess)|Egelsbach|Erzhausen|Darmstadt-Wixhausen|Darmstadt-Arheilgen"/>
+	</s>
+	<s id="6819509199962726651-2409210112-6">
+		<tl f="S" t="p" o="800528" c="S" n="56185"/>
+		<ar pt="2409210126" pp="" l="3" ppth="Langen(Hess)|Egelsbach|Erzhausen|Darmstadt-Wixhausen|Darmstadt-Arheilgen"/>
+	</s>
+	<s id="-7712984893275759538-2409210105-1">
+		<tl f="S" t="p" o="800528" c="S" n="56192"/>
+		<dp pt="2409210105" pp="3" l="3" ppth="Darmstadt-Arheilgen|Darmstadt-Wixhausen|Erzhausen|Egelsbach|Langen(Hess)"/>
+	</s>
+	<s id="-4104575319029680652-2409210135-1">
+		<tl f="S" t="p" o="800528" c="S" n="56188"/>
+		<dp pt="2409210135" pp="3" l="3" ppth="Darmstadt-Arheilgen|Darmstadt-Wixhausen|Erzhausen|Egelsbach|Langen(Hess)"/>
+	</s>
+	<s id="-2586874722130653219-2409210047-11">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="28744"/>
+		<ar pt="2409210129" pp="7" l="RB75" ppth="Aschaffenburg Hbf|Mainaschaff|Stockstadt(Main)|Babenhausen(Hess)|Hergershausen|Altheim(Hess)|Dieburg|Messel|Darmstadt-Kranichstein|Darmstadt Nord"/>
+	</s>
+	<s id="1003446772902483359-2409202059-10">
+		<tl t="p" o="85" c="NJ" n="470"/>
+		<ar pt="2409210150" pp="5" hi="1" wings="-5591597380485360579-2409202059" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Bruchsal|Heidelberg Hbf"/>
+		<dp pt="2409210153" pp="5" hi="1" wings="-5591597380485360579-2409202059" ppth="Frankfurt(Main)Süd|Hanau Hbf|Göttingen|Hannover Hbf|Nienburg(Weser)|Verden(Aller)|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+</timetable>
