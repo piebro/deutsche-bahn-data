@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<timetable station="Darmstadt Hbf">
+	<s id="618539788008519311-2409220235-1">
+		<tl f="S" t="p" o="800528" c="S" n="56190"/>
+		<dp pt="2409220235" pp="3" l="3" ppth="Darmstadt-Arheilgen|Darmstadt-Wixhausen|Erzhausen|Egelsbach|Langen(Hess)"/>
+	</s>
+	<s id="7108274583246193747-2409212151-6">
+		<tl f="F" t="p" o="80" c="ICE" n="698"/>
+		<ar pt="2409220203" pp="5" ppth="München Hbf|Augsburg Hbf|Ulm Hbf|Stuttgart Hbf|Heidelberg Hbf"/>
+		<dp pt="2409220206" pp="5" ppth="Frankfurt(Main)Hbf|Eisenach|Erfurt Hbf|Halle(Saale)Hbf|Bitterfeld|Berlin Südkreuz|Berlin Hbf|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="-3862813920219575205-2409220218-6">
+		<tl f="S" t="p" o="800528" c="S" n="56189"/>
+		<ar pt="2409220231" pp="" l="3" ppth="Langen(Hess)|Egelsbach|Erzhausen|Darmstadt-Wixhausen|Darmstadt-Arheilgen"/>
+	</s>
+	<s id="-7138074359361066746-2409211835-16">
+		<tl f="F" t="p" o="80" c="ICE" n="699"/>
+		<ar pt="2409220246" pp="11" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Lüneburg|Salzwedel|Stendal Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Bitterfeld|Leipzig Hbf|Erfurt Hbf|Eisenach|Frankfurt(Main)Hbf"/>
+		<dp pt="2409220250" pp="11" ppth="Heidelberg Hbf|Vaihingen(Enz)|Stuttgart Hbf|Plochingen|Ulm Hbf|Günzburg|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+</timetable>
