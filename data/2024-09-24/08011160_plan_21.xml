@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Hbf">
+	<s id="2121877044531283563-2409242116-2">
+		<tl f="F" t="p" o="80" c="ICE" n="840"/>
+		<ar pt="2409242123" pp="13" ppth="Berlin Ostbahnhof"/>
+		<dp pt="2409242127" pp="13" ppth="Berlin-Spandau|Stendal Hbf|Wolfsburg Hbf|Hannover Hbf"/>
+	</s>
+	<s id="-921591545879737884-2409241026-23">
+		<tl t="p" o="81" c="RJ" n="256"/>
+		<ar pt="2409242154" pp="13" wings="2059692089558871499-2409242027" ppth="Graz Hbf|Bruck/Mur|Kapfenberg|Mürzzuschlag|Semmering|Wiener Neustadt Hbf|Wien Meidling|Wien Hbf|Breclav|Brno hl.n.|Ceska Trebova|Pardubice hl.n.|Praha hl.n.|Praha-Holesovice|Usti nad Labem hl.n.|Decin hl.n.|Bad Schandau|Dresden Hbf|Dresden-Neustadt|Elsterwerda|Doberlug-Kirchhain|Berlin Ostbahnhof"/>
+		<dp pt="2409242158" pp="13" hi="1" ppth="Berlin-Charlottenburg"/>
+	</s>
+	<s id="-5511541014003594580-2409241652-13">
+		<tl f="F" t="p" o="80" c="ICE" n="643"/>
+		<ar pt="2409242116" pp="12" ppth="Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Bielefeld Hbf|Minden(Westf)|Hannover Hbf|Wolfsburg Hbf|Berlin-Spandau"/>
+		<dp pt="2409242120" pp="12" hi="1" ppth="Berlin Ostbahnhof"/>
+	</s>
+	<s id="620879372970845450-2409241823-6">
+		<tl f="F" t="p" o="80" c="IC" n="2551"/>
+		<ar pt="2409242151" pp="" ppth="Münster(Westf)Hbf|Osnabrück Hbf|Bünde(Westf)|Hannover Hbf|Berlin-Spandau"/>
+		<dp pt="2409242155" pp="" hi="1" ppth="Berlin Ostbahnhof"/>
+	</s>
+	<s id="9120432599921369422-2409241523-13">
+		<tl f="F" t="p" o="80" c="ICE" n="574"/>
+		<ar pt="2409242129" pp="11" ppth="Stuttgart Hbf|Mannheim Hbf|Darmstadt Hbf|Frankfurt(Main)Hbf|Hanau Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hildesheim Hbf|Braunschweig Hbf|Wolfsburg Hbf|Berlin-Spandau"/>
+		<dp pt="2409242133" pp="11" hi="1" ppth="Berlin Ostbahnhof"/>
+	</s>
+	<s id="2059692089558871499-2409242027-4">
+		<tl f="N" t="p" o="NZ" c="RE" n="50256"/>
+		<ar pt="2409242154" pp="13" l="27" ppth="Elsterwerda|Doberlug-Kirchhain|Berlin Ostbahnhof"/>
+	</s>
+</timetable>
