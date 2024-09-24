@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="Frankfurt(Main)Süd">
+	<s id="-8572647521164952896-2409231828-12">
+		<tl f="F" t="p" o="54" c="EC" n="458"/>
+		<ar pt="2409240341" pp="5" wings="-8716776747589038458-2409231828|5331894847185138451-2409232101" ppth="Praha hl.n.|Praha-Holesovice|Usti nad Labem hl.n.|Decin hl.n.|Bad Schandau|Dresden Hbf|Dresden-Neustadt|Riesa|Leipzig Hbf|Erfurt Hbf|Fulda"/>
+		<dp pt="2409240343" pp="5" hi="1" wings="-8716776747589038458-2409231828|5331894847185138451-2409232101" ppth="Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-8716776747589038458-2409231828-12">
+		<tl f="F" t="p" o="81" c="EN" n="40458"/>
+		<ar pt="2409240341" pp="5" ppth="Praha hl.n.|Praha-Holesovice|Usti nad Labem hl.n.|Decin hl.n.|Bad Schandau|Dresden Hbf|Dresden-Neustadt|Riesa|Leipzig Hbf|Erfurt Hbf|Fulda"/>
+		<dp pt="2409240343" pp="5" hi="1" ppth="Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="5331894847185138451-2409232101-8">
+		<tl t="p" o="81" c="NJ" n="408"/>
+		<ar pt="2409240341" pp="5" wings="-1197270886930040789-2409232101" ppth="Berlin Hbf|Lutherstadt Wittenberg Hbf|Bitterfeld|Halle(Saale)Hbf|Leipzig Hbf|Erfurt Hbf|Fulda"/>
+		<dp pt="2409240343" pp="5" hi="1" wings="-1197270886930040789-2409232101" ppth="Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-1197270886930040789-2409232101-8">
+		<tl f="F" t="p" o="NZ" c="IC" n="60408"/>
+		<ar pt="2409240341" pp="5" ppth="Berlin Hbf|Lutherstadt Wittenberg Hbf|Bitterfeld|Halle(Saale)Hbf|Leipzig Hbf|Erfurt Hbf|Fulda"/>
+		<dp pt="2409240343" pp="5" ppth="Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+</timetable>
