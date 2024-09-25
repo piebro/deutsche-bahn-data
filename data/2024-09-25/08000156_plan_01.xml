@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<timetable station="Heidelberg Hbf">
+	<s id="7479964783882811425-2409250111-8">
+		<tl f="S" t="p" o="801539" c="S" n="38385"/>
+		<ar pt="2409250140" pp="4" l="3" ppth="Ludwigshafen(Rh)Hbf|Ludwigshafen(Rhein) Mitte|Mannheim Hbf|Mannheim ARENA/Maimarkt|Mannheim-Seckenheim|Mannheim-Friedrichsfeld Süd|Heidelberg-Pfaffengrund/Wieblingen"/>
+		<dp pt="2409250141" pp="4" l="3" ppth="Heidelberg-Kirchheim/Rohrbach|St Ilgen-Sandhausen|Wiesloch-Walldorf|Rot-Malsch|Bad Schönborn-Kronau|Bad Schönborn Süd|Stettfeld-Weiher|Ubstadt-Weiher|Bruchsal|Bruchsal Bildungszentrum|Untergrombach|Weingarten(Baden)|Karlsruhe-Durlach|Karlsruhe Hbf"/>
+	</s>
+	<s id="7108274583246193747-2409242151-6">
+		<tl f="F" t="p" o="80" c="ICE" n="698"/>
+		<ar pt="2409250123" pp="5" ppth="München Hbf|Augsburg Hbf|Günzburg|Ulm Hbf|Stuttgart Hbf"/>
+		<dp pt="2409250127" pp="5" ppth="Darmstadt Hbf|Frankfurt(Main)Hbf|Eisenach|Erfurt Hbf|Halle(Saale)Hbf|Bitterfeld|Berlin Hbf|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="1933142301919568743-2409242331-4">
+		<tl f="F" t="p" o="80" c="ICE" n="619"/>
+		<ar pt="2409250150" pp="7" ppth="Siegburg/Bonn|Wiesbaden Hbf|Mannheim Hbf"/>
+		<dp pt="2409250152" pp="7" ppth="Stuttgart Hbf|Ulm Hbf|Günzburg|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="1003446772902483359-2409242059-8">
+		<tl t="p" o="85" c="NJ" n="470"/>
+		<ar pt="2409250104" pp="5" hi="1" wings="-5591597380485360579-2409242059" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Karlsruhe Hbf|Bruchsal"/>
+		<dp pt="2409250108" pp="5" hi="1" wings="-5591597380485360579-2409242059" ppth="Darmstadt Hbf|Frankfurt(Main)Süd|Hanau Hbf|Göttingen|Hannover Hbf|Nienburg(Weser)|Verden(Aller)|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="1204232294801939914-2409250043-5">
+		<tl f="N" t="p" o="800572" c="RE" n="26162"/>
+		<ar pt="2409250116" pp="2" l="73" ppth="Karlsruhe-Durlach|Bruchsal|Bad Schönborn-Kronau|Wiesloch-Walldorf"/>
+	</s>
+	<s id="-5591597380485360579-2409242059-8">
+		<tl f="F" t="p" o="NZ" c="IC" n="60470"/>
+		<ar pt="2409250104" pp="5" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Karlsruhe Hbf|Bruchsal"/>
+		<dp pt="2409250108" pp="5" ppth="Darmstadt Hbf|Frankfurt(Main)Süd|Hanau Hbf|Göttingen|Hannover Hbf|Nienburg(Weser)|Verden(Aller)|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+</timetable>
