@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Hbf">
+	<s id="6875703820783636328-2409251940-11">
+		<tl f="N" t="p" o="800158" c="RE" n="3160"/>
+		<ar pt="2409252102" pp="1" l="4" ppth="Stendal Hbf|Rathenow|Nennhausen|Buschow|Wustermark|Elstal|Dallgow-Döberitz|Berlin-Staaken|Berlin-Spandau|Berlin Jungfernheide"/>
+	</s>
+	<s id="-7138074359361066746-2409251835-8">
+		<tl f="F" t="p" o="80" c="ICE" n="699"/>
+		<ar pt="2409252123" pp="3" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Lüneburg|Salzwedel|Stendal Hbf|Berlin-Spandau"/>
+		<dp pt="2409252127" pp="3" ppth="Lutherstadt Wittenberg Hbf|Bitterfeld|Leipzig Hbf|Erfurt Hbf|Eisenach|Frankfurt(Main)Hbf|Darmstadt Hbf|Heidelberg Hbf|Vaihingen(Enz)|Stuttgart Hbf|Plochingen|Ulm Hbf|Günzburg|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-6836417876429418811-2409251751-5">
+		<tl f="F" t="p" o="80" c="ICE" n="1000"/>
+		<ar pt="2409252152" pp="6" ppth="München Hbf|Nürnberg Hbf|Erfurt Hbf|Halle(Saale)Hbf"/>
+		<dp pt="2409252156" pp="6" hi="1" ppth="Berlin Gesundbrunnen"/>
+	</s>
+	<s id="1663571162758413231-2409252157-1">
+		<tl f="N" t="p" o="800158" c="RE" n="3183"/>
+		<dp pt="2409252157" pp="1" l="4" ppth="Berlin Jungfernheide|Berlin-Spandau|Berlin-Staaken|Dallgow-Döberitz|Elstal|Wustermark|Buschow|Nennhausen|Rathenow"/>
+	</s>
+	<s id="-931498101353786183-2409252028-5">
+		<tl t="p" o="800165" c="FEX" n="19864"/>
+		<ar pt="2409252103" pp="2" pde="Wünsdorf-Waldstadt" ppth="Flughafen BER|Berlin-Schöneweide|Berlin Ostkreuz|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="8218544619443085427-2409251655-8">
+		<tl f="F" t="p" o="80" c="ICE" n="502"/>
+		<ar pt="2409252130" pp="8" ppth="München Hbf|Nürnberg Hbf|Erlangen|Bamberg|Erfurt Hbf|Leipzig Hbf|Lutherstadt Wittenberg Hbf"/>
+		<dp pt="2409252138" pp="8" ppth="Berlin-Spandau|Stendal Hbf|Salzwedel|Uelzen|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-1197270886930040789-2409252101-1">
+		<tl f="F" t="p" o="NZ" c="IC" n="60408"/>
+		<dp pt="2409252101" pp="4" ppth="Lutherstadt Wittenberg Hbf|Bitterfeld|Halle(Saale)Hbf|Leipzig Hbf|Erfurt Hbf|Fulda|Frankfurt(Main)Süd|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-2091418130011588760-2409251905-4">
+		<tl f="F" t="p" o="80" c="EC" n="2570"/>
+		<ar pt="2409252115" pp="" ppth="Dresden Hbf|Dresden-Neustadt|Berlin Südkreuz"/>
+	</s>
+	<s id="5331894847185138451-2409252101-1">
+		<tl t="p" o="81" c="NJ" n="408"/>
+		<dp pt="2409252101" pp="4" wings="-1197270886930040789-2409252101" ppth="Lutherstadt Wittenberg Hbf|Bitterfeld|Halle(Saale)Hbf|Leipzig Hbf|Erfurt Hbf|Fulda|Frankfurt(Main)Süd|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="8659669125915829186-2409252112-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18532"/>
+		<dp pt="2409252112" pp="6" l="10" ppth="Berlin Jungfernheide|Berlin-Spandau|Albrechtshof|Seegefeld|Falkensee|Finkenkrug|Brieselang"/>
+	</s>
+	<s id="-1716303270602326467-2409251616-13">
+		<tl t="p" o="FLX30" c="FLX" n="1239"/>
+		<ar pt="2409252128" pp="2" l="30" ppth="Köln Messe/Deutz|Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Gütersloh Hbf|Bielefeld Hbf|Herford|Hannover Hbf|Stendal Hbf"/>
+	</s>
+</timetable>
