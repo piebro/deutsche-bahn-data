@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<timetable station="Bielefeld Hbf">
+	<s id="-3049978124372213666-2409280611-1">
+		<tl f="N" t="p" o="R2RB" c="RB" n="15994"/>
+		<dp pt="2409280611" pp="3 A-C" l="61" ppth="Brake(b Bielefeld)|Herford|Hiddenhausen-Schweicheln|Kirchlengern|Bünde(Westf)|Bruchmühlen|Melle|Westerhausen|Wissingen|Osnabrück Hbf|Osnabrück Altstadt|Ibbenbüren-Laggenbeck|Ibbenbüren"/>
+	</s>
+	<s id="-8727470751332357246-2409280643-1">
+		<tl f="D" t="p" o="N2" c="NWB" n="75011"/>
+		<dp pt="2409280643" pp="8" l="RB74" ppth="Bielefeld-Brackwede|Bielefeld-Senne|Bielefeld-Windelsbleiche|Bielefeld-Sennestadt|Schloß Holte|Hövelriege|Hövelhof|Paderborn-Sennelager|Paderborn-Schloss Neuhaus|Paderborn Nord|Paderborn Kasseler Tor|Paderborn Hbf"/>
+	</s>
+	<s id="1631226851710084722-2409280523-13">
+		<tl f="D" t="p" o="N2" c="NWB" n="75002"/>
+		<ar pt="2409280617" pp="8" l="RB74" ppth="Paderborn Hbf|Paderborn Kasseler Tor|Paderborn Nord|Paderborn-Schloss Neuhaus|Paderborn-Sennelager|Hövelhof|Hövelriege|Schloß Holte|Bielefeld-Sennestadt|Bielefeld-Windelsbleiche|Bielefeld-Senne|Bielefeld-Brackwede"/>
+	</s>
+	<s id="3524549711228293965-2409280600-1">
+		<tl f="N" t="p" o="NXRE" c="RE" n="89708"/>
+		<dp pt="2409280600" pp="4" l="6" ppth="Gütersloh Hbf|Rheda-Wiedenbrück|Oelde|Beckum-Neubeckum|Ahlen(Westf)|Hamm-Heessen|Hamm(Westf)Hbf|Kamen|Dortmund Hbf|Bochum Hbf|Wattenscheid|Essen Hbf|Mülheim(Ruhr)Hbf|Duisburg Hbf|Düsseldorf Flughafen|Düsseldorf Hbf|Leverkusen Mitte|Köln Messe/Deutz Gl.11-12|Köln/Bonn Flughafen"/>
+	</s>
+	<s id="-3987770513815330460-2409280540-5">
+		<tl f="F" t="p" o="80" c="IC" n="2040"/>
+		<ar pt="2409280640" pp="4" ppth="Hannover Hbf|Minden(Westf)|Bad Oeynhausen|Herford"/>
+		<dp pt="2409280641" pp="4" ppth="Gütersloh Hbf|Hamm(Westf)Hbf|Dortmund Hbf"/>
+	</s>
+	<s id="805664887472789036-2409280537-19">
+		<tl f="D" t="p" o="N2" c="NWB" n="75106"/>
+		<ar pt="2409280653" pp="8" l="RB75" ppth="Osnabrück Hbf|Osnabrück-Sutthausen|Oesede|Kloster Oesede|Wellendorf|Hilter|Dissen-Bad Rothenfelde|Westbarthausen|Borgholzhausen|Hesseln|Halle(Westf) OWL-Arena|Halle(Westf)|Künsebeck|Steinhagen(Westf)|Steinhagen(Westf) Bielef. Str.|Quelle|Quelle-Kupferheide|Bielefeld-Brackwede"/>
+	</s>
+	<s id="5957778580398635070-2409280515-8">
+		<tl f="N" t="p" o="NXRE" c="RE" n="89703"/>
+		<ar pt="2409280557" pp="2" l="6" ppth="Hamm(Westf)Hbf|Hamm-Heessen|Ahlen(Westf)|Beckum-Neubeckum|Oelde|Rheda-Wiedenbrück|Gütersloh Hbf"/>
+		<dp pt="2409280600" pp="2" l="6" ppth="Herford|Löhne(Westf)|Bad Oeynhausen|Porta Westfalica|Minden(Westf)"/>
+	</s>
+	<s id="-118775371347779303-2409280631-1">
+		<tl f="D" t="p" o="W3" c="WFB" n="95823"/>
+		<dp pt="2409280631" pp="3 C-E" l="RE70" ppth="Herford|Löhne(Westf)|Bad Oeynhausen|Porta Westfalica|Minden(Westf)|Bückeburg|Stadthagen|Haste|Wunstorf|Hannover Hbf|Lehrte|Hämelerwald|Vöhrum|Peine|Vechelde|Braunschweig Hbf"/>
+	</s>
+	<s id="7689753369496270134-2409280449-9">
+		<tl f="F" t="p" o="80" c="ICE" n="541"/>
+		<ar pt="2409280634" pp="2" ppth="Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Gütersloh Hbf"/>
+		<dp pt="2409280636" pp="2" ppth="Minden(Westf)|Hannover Hbf|Wolfsburg Hbf|Berlin-Spandau|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="2993085047084002136-2409280604-1">
+		<tl f="D" t="p" o="N2" c="NWB" n="75107"/>
+		<dp pt="2409280604" pp="8" l="RB75" ppth="Bielefeld-Brackwede|Quelle-Kupferheide|Quelle|Steinhagen(Westf) Bielef. Str.|Steinhagen(Westf)|Künsebeck|Halle(Westf)|Halle(Westf) OWL-Arena|Hesseln|Borgholzhausen|Westbarthausen|Dissen-Bad Rothenfelde|Hilter|Wellendorf|Kloster Oesede|Oesede|Osnabrück-Sutthausen|Osnabrück Hbf"/>
+	</s>
+	<s id="-301246878184186042-2409280628-6">
+		<tl f="N" t="p" o="NXRE" c="RE" n="89710"/>
+		<ar pt="2409280657" pp="4" l="6" ppth="Minden(Westf)|Porta Westfalica|Bad Oeynhausen|Löhne(Westf)|Herford"/>
+		<dp pt="2409280700" pp="4" l="6" ppth="Gütersloh Hbf|Rheda-Wiedenbrück|Oelde|Beckum-Neubeckum|Ahlen(Westf)|Hamm-Heessen|Hamm(Westf)Hbf|Kamen|Dortmund Hbf|Bochum Hbf|Wattenscheid|Essen Hbf|Mülheim(Ruhr)Hbf|Duisburg Hbf|Düsseldorf Flughafen|Düsseldorf Hbf|Leverkusen Mitte|Köln Messe/Deutz Gl.11-12|Köln/Bonn Flughafen"/>
+	</s>
+	<s id="-6644980661171201435-2409280615-1">
+		<tl f="N" t="p" o="R2RB" c="RB" n="90223"/>
+		<dp pt="2409280615" pp="1" l="73" ppth="Bielefeld Ost|Oldentrup|Ubbedissen|Oerlinghausen|Helpup|Ehlenbruch|Lage(Lippe)|Hörstmar(Lippe)|Lemgo|Lemgo-Lüttfeld"/>
+	</s>
+	<s id="-6649862409107246256-2409280524-14">
+		<tl f="N" t="p" o="R2RB" c="RB" n="20353"/>
+		<ar pt="2409280647" pp="3 A-C" l="61" ppth="Ibbenbüren|Ibbenbüren-Laggenbeck|Osnabrück Altstadt|Osnabrück Hbf|Wissingen|Westerhausen|Melle|Bruchmühlen|Bünde(Westf)|Kirchlengern|Hiddenhausen-Schweicheln|Herford|Brake(b Bielefeld)"/>
+	</s>
+	<s id="-7637371962350283220-2409280555-10">
+		<tl f="N" t="p" o="NXRE" c="RE" n="89705"/>
+		<ar pt="2409280657" pp="2" l="6" ppth="Dortmund Hbf|Kamen|Hamm(Westf)Hbf|Hamm-Heessen|Ahlen(Westf)|Beckum-Neubeckum|Oelde|Rheda-Wiedenbrück|Gütersloh Hbf"/>
+		<dp pt="2409280700" pp="2" l="6" ppth="Herford|Löhne(Westf)|Bad Oeynhausen|Porta Westfalica|Minden(Westf)"/>
+	</s>
+</timetable>
