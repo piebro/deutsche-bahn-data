@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<timetable station="Göttingen">
+	<s id="8849850357444188253-2409281920-8">
+		<tl f="F" t="p" o="80" c="ICE" n="879"/>
+		<ar pt="2409282220" pp="10" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin-Charlottenburg|Berlin-Spandau|Wolfsburg Hbf|Braunschweig Hbf|Hildesheim Hbf"/>
+		<dp pt="2409282222" pp="10" ppth="Kassel-Wilhelmshöhe"/>
+	</s>
+	<s id="7757511831221804438-2409282001-5">
+		<tl f="F" t="p" o="80" c="ICE" n="1087"/>
+		<ar pt="2409282200" pp="10" ppth="Hamburg Hbf|Lüneburg|Uelzen|Hannover Hbf"/>
+		<dp pt="2409282202" pp="10" ppth="Kassel-Wilhelmshöhe|Fulda|Aschaffenburg Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Wiesbaden Hbf"/>
+	</s>
+	<s id="1828768601108687702-2409282214-1">
+		<tl f="N" t="p" o="N4" c="RB" n="24097"/>
+		<dp pt="2409282214" pp="5" l="87" pde="Bebra" ppth="Friedland(Han)|Eichenberg|Bad Sooden-Allendorf|Eschwege-Niederhone|Eschwege"/>
+	</s>
+	<s id="-4528509362927408967-2409282205-6">
+		<tl f="N" t="p" o="N4" c="RB" n="24094"/>
+		<ar pt="2409282243" pp="5" l="87" pde="Bebra" ppth="Eschwege|Eschwege-Niederhone|Bad Sooden-Allendorf|Eichenberg|Friedland(Han)"/>
+	</s>
+	<s id="-7573651573329216408-2409281500-18">
+		<tl f="F" t="p" o="85" c="ICE" n="376"/>
+		<ar pt="2409282209" pp="9" ppth="Interlaken Ost|Interlaken West|Spiez|Thun|Bern|Olten|Liestal|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Baden-Baden|Karlsruhe Hbf|Darmstadt Hbf|Frankfurt(Main)Hbf|Hanau Hbf|Fulda|Kassel-Wilhelmshöhe"/>
+		<dp pt="2409282211" pp="9" ppth="Hildesheim Hbf|Braunschweig Hbf|Wolfsburg Hbf|Stendal Hbf|Berlin-Spandau|Berlin Hbf|Berlin Friedrichstraße|Berlin Ostbahnhof"/>
+	</s>
+	<s id="5913854552999394033-2409282146-11">
+		<tl f="N" t="p" o="N4" c="RB" n="24034"/>
+		<ar pt="2409282243" pp="5" l="83" wings="-4528509362927408967-2409282205" ppth="Kassel Hbf|Vellmar-Niedervellmar|Fuldatal-Ihringshausen|Speele|Hann Münden|Hedemünden|Gertenbach|Witzenhausen Nord|Eichenberg|Friedland(Han)"/>
+	</s>
+	<s id="5505847367836175869-2409282217-1">
+		<tl f="D" t="p" o="R1" c="ME" n="81787"/>
+		<dp pt="2409282217" pp="6" l="RE2" ppth="Nörten-Hardenberg|Northeim(Han)"/>
+	</s>
+	<s id="-5439434250470085249-2409282214-1">
+		<tl f="N" t="p" o="N4" c="RB" n="24037"/>
+		<dp pt="2409282214" pp="5" l="83" wings="1828768601108687702-2409282214" ppth="Friedland(Han)|Eichenberg|Witzenhausen Nord|Gertenbach|Hedemünden|Hann Münden|Speele|Fuldatal-Ihringshausen|Vellmar-Niedervellmar|Kassel Hbf"/>
+	</s>
+	<s id="3766238609968368033-2409282238-3">
+		<tl f="D" t="p" o="R1" c="ME" n="82835"/>
+		<ar pt="2409282251" pp="6" l="RE2" ppth="Northeim(Han)|Nörten-Hardenberg"/>
+	</s>
+	<s id="6992012378128167215-2409281956-5">
+		<tl t="p" o="81" c="NJ" n="40491"/>
+		<ar pt="2409282238" pp="8" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf"/>
+		<dp pt="2409282248" pp="8" ppth="Würzburg Hbf|Nürnberg Hbf|Augsburg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="8258492925720060133-2409282138-5">
+		<tl t="p" o="NWBus" c="Bus" n="4935"/>
+		<ar pt="2409282215" pp="" l="EV" ppth="Adelebsen|Lödingsen Lindenallee|Lödingsen Gartenstraße|Lenglern"/>
+	</s>
+	<s id="-7671002063929779381-2409282225-1">
+		<tl t="p" o="B1" c="Bus" n="14029"/>
+		<dp pt="2409282225" pp="" l="RB82" ppth="Nörten-Hardenberg|Northeim(Han)"/>
+	</s>
+	<s id="-2044723357159653206-2409281956-5">
+		<tl t="p" o="81" c="NJ" n="491"/>
+		<ar pt="2409282238" pp="8" wings="6992012378128167215-2409281956" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf"/>
+		<dp pt="2409282248" pp="8" wings="6992012378128167215-2409281956" ppth="Würzburg Hbf|Nürnberg Hbf|Regensburg Hbf|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="-3782478667157772093-2409282135-2">
+		<tl t="p" o="SD" c="Bus" n="5666"/>
+		<ar pt="2409282220" pp="" l="RE1" ppth="Heilbad Heiligenstadt"/>
+	</s>
+	<s id="-4078520201979776142-2409282155-3">
+		<tl t="p" o="B1" c="Bus" n="14022"/>
+		<ar pt="2409282230" pp="" l="RB82" ppth="Northeim(Han)|Nörten-Hardenberg"/>
+	</s>
+</timetable>
