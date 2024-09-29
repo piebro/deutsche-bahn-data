@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Hbf">
+	<s id="2192436520712598630-2409290054-1">
+		<tl f="N" t="p" o="800158" c="RE" n="3165"/>
+		<dp pt="2409290054" pp="2" l="4" ppth="Berlin Jungfernheide|Berlin-Spandau|Berlin-Staaken|Dallgow-Döberitz|Elstal|Wustermark|Buschow|Nennhausen|Rathenow"/>
+	</s>
+	<s id="-1732309633077905417-2409282248-4">
+		<tl f="F" t="p" o="80" c="ICE" n="2566"/>
+		<ar pt="2409290028" pp="8" ppth="Erfurt Hbf|Halle(Saale)Hbf|Lutherstadt Wittenberg Hbf"/>
+		<dp pt="2409290032" pp="8" ppth="Berlin Gesundbrunnen"/>
+	</s>
+	<s id="-2466922833795575942-2409282306-10">
+		<tl f="N" t="p" o="800158" c="RE" n="3182"/>
+		<ar pt="2409290001" pp="2" l="4" ppth="Rathenow|Nennhausen|Buschow|Wustermark|Elstal|Dallgow-Döberitz|Berlin-Staaken|Berlin-Spandau|Berlin Jungfernheide"/>
+	</s>
+	<s id="-4713259397532046404-2409282328-5">
+		<tl t="p" o="800165" c="FEX" n="19876"/>
+		<ar pt="2409290003" pp="6" ppth="Flughafen BER|Berlin-Schöneweide|Berlin Ostkreuz|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="-5083558051405008269-2409281910-12">
+		<tl f="F" t="p" o="80" c="ICE" n="1500"/>
+		<ar pt="2409290044" pp="6" ppth="München Hbf|München-Pasing|Augsburg Hbf|Donauwörth|Nürnberg Hbf|Erlangen|Bamberg|Coburg|Erfurt Hbf|Leipzig Hbf|Bitterfeld"/>
+		<dp pt="2409290047" pp="6" hi="1" ppth="Berlin Gesundbrunnen"/>
+	</s>
+</timetable>

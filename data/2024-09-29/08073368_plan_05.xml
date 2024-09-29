@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Köln Messe/Deutz Gl.11-12">
+	<s id="1975084024881679406-2409282310-8">
+		<tl t="p" o="NY" c="MSM" n="302"/>
+		<ar pt="2409290536" pp="12" ppth="München Hbf|Frankfurt(Main)Süd|Friedberg(Hess)|Wetzlar|Siegen Hbf|Betzdorf(Sieg)|Siegburg/Bonn"/>
+		<dp pt="2409290536" pp="12" hi="1" ppth="Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Münster(Westf)Hbf|Osnabrück Hbf|Bremen Hbf"/>
+	</s>
+	<s id="4753870957390372842-2409281918-10">
+		<tl f="F" t="p" o="NZ" c="IC" n="60402"/>
+		<ar pt="2409290553" pp="" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Frankfurt(Main)Hbf|Koblenz Hbf"/>
+		<dp pt="2409290556" pp="" ppth="Düsseldorf Hbf|Duisburg Hbf|Arnhem Centraal|Utrecht Centraal|Maarssen|Amsterdam Centraal"/>
+	</s>
+	<s id="8868050453695511606-2409281918-10">
+		<tl t="p" o="85" c="NJ" n="402"/>
+		<ar pt="2409290553" pp="" wings="4753870957390372842-2409281918" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Frankfurt(Main)Hbf|Koblenz Hbf"/>
+		<dp pt="2409290556" pp="" hi="1" wings="4753870957390372842-2409281918" ppth="Düsseldorf Hbf|Duisburg Hbf|Arnhem Centraal|Utrecht Centraal|Maarssen|Amsterdam Centraal"/>
+	</s>
+	<s id="-2800051675385703673-2409290513-3">
+		<tl f="N" t="p" o="NXRE" c="RE" n="89702"/>
+		<ar pt="2409290541" pp="11" l="6" ppth="Düsseldorf Hbf|Leverkusen Mitte"/>
+		<dp pt="2409290543" pp="11" l="6" ppth="Köln/Bonn Flughafen"/>
+	</s>
+	<s id="3596733780499351643-2409290434-6">
+		<tl f="F" t="p" o="80" c="ICE" n="23"/>
+		<ar pt="2409290547" pp="11" ppth="Dortmund Hbf|Bochum Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf"/>
+		<dp pt="2409290549" pp="11" ppth="Koblenz Hbf|Mainz Hbf|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf|Hanau Hbf|Würzburg Hbf|Nürnberg Hbf|Regensburg Hbf|Plattling|Passau Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="970079392613035232-2409290448-2">
+		<tl f="N" t="p" o="NXRE" c="RE" n="89707"/>
+		<ar pt="2409290458" pp="12" l="6" ppth="Köln/Bonn Flughafen"/>
+		<dp pt="2409290502" pp="12" l="6" ppth="Leverkusen Mitte|Düsseldorf Hbf"/>
+	</s>
+</timetable>
