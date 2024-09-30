@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<timetable station="Lüneburg">
+	<s id="4760651137475633059-2409292359-4">
+		<tl f="D" t="p" o="R1" c="ME" n="81644"/>
+		<ar pt="2409300020" pp="2" l="RB31" ppth="Uelzen|Bad Bevensen|Bienenbüttel"/>
+		<dp pt="2409300021" pp="2" l="RB31" ppth="Bardowick|Radbruch|Winsen(Luhe)|Ashausen|Stelle|Maschen|Meckelfeld|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="2927536973448345964-2409300025-1">
+		<tl f="D" t="p" o="X1" c="erx" n="28192"/>
+		<dp pt="2409300025" pp="5" l="RE83" ppth="Echem|Lauenburg(Elbe)|Büchen"/>
+	</s>
+	<s id="5089820149948252230-2409291646-13">
+		<tl f="F" t="p" o="80" c="ICE" n="592"/>
+		<ar pt="2409300012" pp="2" ppth="München Hbf|München-Pasing|Augsburg Hbf|Ulm Hbf|Stuttgart Hbf|Mannheim Hbf|Mainz Hbf|Frankfurt(Main)Hbf|Hanau Hbf|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf"/>
+		<dp pt="2409300014" pp="2" ppth="Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="-3567197610154400697-2409300033-1">
+		<tl t="p" o="R1" c="Bus" n="3145"/>
+		<dp pt="2409300033" pp="" l="EV" ppth="Bienenbüttel|Bad Bevensen|Uelzen"/>
+	</s>
+	<s id="-273734460600783165-2409300026-4">
+		<tl f="D" t="p" o="X1" c="erx" n="28193"/>
+		<ar pt="2409300055" pp="5" l="RE83" ppth="Büchen|Lauenburg(Elbe)|Echem"/>
+	</s>
+	<s id="6460993900723984023-2409292333-10">
+		<tl f="D" t="p" o="R1" c="ME" n="81645"/>
+		<ar pt="2409300023" pp="1" l="RB31" ppth="Hamburg Hbf|Hamburg-Harburg|Meckelfeld|Maschen|Stelle|Ashausen|Winsen(Luhe)|Radbruch|Bardowick"/>
+	</s>
+	<s id="5375326263046654482-2409291918-11">
+		<tl f="F" t="p" o="80" c="ICE" n="580"/>
+		<ar pt="2409300042" pp="2" ppth="München Hbf|Ingolstadt Hbf|Nürnberg Hbf|Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen"/>
+		<dp pt="2409300044" pp="2" ppth="Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="-5872815922691544938-2409292309-4">
+		<tl t="p" o="R1" c="Bus" n="3242"/>
+		<ar pt="2409300014" pp="" l="EV" ppth="Uelzen|Bad Bevensen|Bienenbüttel"/>
+	</s>
+</timetable>
