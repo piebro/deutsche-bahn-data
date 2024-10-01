@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Gesundbrunnen">
+	<s id="4905641909555333254-2410010043-1">
+		<tl f="N" t="p" o="800158" c="RE" n="92366"/>
+		<dp pt="2410010043" pp="9" l="3" ppth="Bernau(b Berlin)|Rüdnitz|Biesenthal|Melchow|Eberswalde Hbf"/>
+	</s>
+	<s id="4017972157379463891-2410010046-2">
+		<tl f="N" t="p" o="800158" c="RE" n="3363"/>
+		<ar pt="2410010050" pp="10" l="3" ppth="Berlin Hbf"/>
+		<dp pt="2410010055" pp="10" l="3" ppth="Berlin Ostkreuz|Schönefeld(bei Berlin)|Birkengrund|Ludwigsfelde|Thyrow|Trebbin|Woltersdorf/Nuthe-Urstromtal|Luckenwalde|Jüterbog"/>
+	</s>
+	<s id="-9062453103731034880-2409301856-9">
+		<tl f="F" t="p" o="80" c="ICE" n="500"/>
+		<ar pt="2410010043" pp="8" ppth="München Hbf|Nürnberg Hbf|Erlangen|Bamberg|Erfurt Hbf|Leipzig Hbf|Riesa|Elsterwerda"/>
+	</s>
+	<s id="8055140796578231506-2409302306-9">
+		<tl f="N" t="p" o="800158" c="RE" n="3361"/>
+		<ar pt="2410010021" pp="6" l="3" ppth="Schwedt(Oder)|Schwedt(Oder)Mitte|Pinnow(Uckermark)|Angermünde|Chorin|Britz|Eberswalde Hbf|Bernau(b Berlin)"/>
+		<dp pt="2410010023" pp="6" l="3" ppth="Berlin Hbf"/>
+	</s>
+</timetable>
