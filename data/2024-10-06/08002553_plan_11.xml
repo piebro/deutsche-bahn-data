@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg-Altona">
+	<s id="235347214713352060-2410061134-1">
+		<tl f="F" t="p" o="80" c="ICE" n="1601"/>
+		<dp pt="2410061134" pp="12" ppth="Hamburg Hbf|Uelzen|Salzwedel|Stendal Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Leipzig Hbf|Erfurt Hbf|Erlangen|Nürnberg Hbf|München Hbf"/>
+	</s>
+	<s id="-511596864634753267-2410060716-10">
+		<tl f="F" t="p" o="80" c="ICE" n="806"/>
+		<ar pt="2410061120" pp="5" ppth="Leipzig Hbf|Lutherstadt Wittenberg Hbf|Berlin Südkreuz|Berlin Hbf|Berlin-Spandau|Stendal Hbf|Salzwedel|Uelzen|Hamburg Hbf"/>
+	</s>
+	<s id="3802822263510141639-2410061111-1">
+		<tl f="F" t="p" o="80" c="ICE" n="1683"/>
+		<dp pt="2410061111" pp="12" ppth="Hamburg Dammtor|Hamburg Hbf|Lüneburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Hanau Hbf|Frankfurt-Niederrad|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-7373100631044865816-2410061136-1">
+		<tl f="N" t="p" o="8002B5" c="RE" n="11014"/>
+		<dp pt="2410061136" pp="9" l="6" ppth="Elmshorn|Itzehoe|Heide(Holst)|Lunden|Friedrichstadt|Husum|Bredstedt|Langenhorn(Schlesw)|Niebüll|Klanxbüll|Morsum|Keitum|Westerland(Sylt)"/>
+	</s>
+	<s id="-2094843924873777042-2410061129-1">
+		<tl f="F" t="p" o="80" c="ICE" n="1911"/>
+		<dp pt="2410061129" pp="10" ppth="Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Osnabrück Hbf|Münster(Westf)Hbf|Dortmund Hbf|Hagen Hbf|Wuppertal Hbf|Solingen Hbf|Köln Hbf|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-4477762228392852858-2410060820-14">
+		<tl f="N" t="p" o="8002B5" c="RE" n="11015"/>
+		<ar pt="2410061121" pp="9" l="6" ppth="Westerland(Sylt)|Keitum|Morsum|Klanxbüll|Niebüll|Langenhorn(Schlesw)|Bredstedt|Husum|Friedrichstadt|Lunden|Heide(Holst)|Itzehoe|Elmshorn"/>
+	</s>
+	<s id="-1497213994658544450-2410061137-1">
+		<tl f="F" t="p" o="80" c="ICE" n="927"/>
+		<dp pt="2410061137" pp="11" ppth="Hamburg Hbf|Bremen Hbf|Münster(Westf)Hbf|Recklinghausen Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Messe/Deutz Gl.11-12|Koblenz Hbf|Mainz Hbf|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf|Aschaffenburg Hbf|Würzburg Hbf|Nürnberg Hbf|Regensburg Hbf|Plattling|Passau Hbf"/>
+	</s>
+	<s id="6189129721681982453-2410061155-1">
+		<tl f="D" t="p" o="O0" c="NBE" n="81866"/>
+		<dp pt="2410061155" pp="8" l="RB71" ppth="Pinneberg|Prisdorf|Tornesch|Elmshorn|Horst(Holst)|Dauenhof|Wrist"/>
+	</s>
+	<s id="8692278081732729076-2410061023-8">
+		<tl f="D" t="p" o="O0" c="NBE" n="81867"/>
+		<ar pt="2410061104" pp="8" l="RB71" ppth="Wrist|Dauenhof|Horst(Holst)|Elmshorn|Tornesch|Prisdorf|Pinneberg"/>
+	</s>
+	<s id="2474076290441674812-2410061111-1">
+		<tl f="F" t="p" o="80" c="ICE" n="1285"/>
+		<dp pt="2410061111" pp="12" wings="3802822263510141639-2410061111" ppth="Hamburg Dammtor|Hamburg Hbf|Lüneburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Ansbach|Treuchtlingen|Donauwörth|Augsburg Hbf|München Hbf"/>
+	</s>
+</timetable>
