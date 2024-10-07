@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<timetable station="Rheine">
+	<s id="882664500836328391-2410070514-7">
+		<tl f="N" t="p" o="R2RB" c="RB" n="20350"/>
+		<ar pt="2410070546" pp="2" l="61" ppth="Osnabrück Hbf|Osnabrück Altstadt|Ibbenbüren-Laggenbeck|Ibbenbüren|Ibbenbüren-Esch|Hörstel"/>
+		<dp pt="2410070549" pp="2" l="61" ppth="Salzbergen|Schüttorf|Bad Bentheim|Oldenzaal|Hengelo"/>
+	</s>
+	<s id="1344516564372516743-2410070553-1">
+		<tl f="N" t="p" o="R2RB" c="RB" n="52305"/>
+		<dp pt="2410070553" pp="5" l="65" ppth="Rheine-Mesum|Emsdetten|Reckenfeld|Greven|Münster-Sprakel|Münster(W)Zentrum Nord|Münster(Westf)Hbf"/>
+	</s>
+	<s id="-783459692724030587-2410070514-1">
+		<tl f="N" t="p" o="R2RB" c="RB" n="20353"/>
+		<dp pt="2410070514" pp="3" l="61" ppth="Hörstel|Ibbenbüren-Esch|Ibbenbüren|Ibbenbüren-Laggenbeck|Osnabrück Altstadt|Osnabrück Hbf|Wissingen|Westerhausen|Melle|Bruchmühlen|Bünde(Westf)|Kirchlengern|Hiddenhausen-Schweicheln|Herford|Brake(b Bielefeld)|Bielefeld Hbf"/>
+	</s>
+	<s id="7480257232673112620-2410070450-4">
+		<tl t="p" o="R2" c="Bus" n="6102"/>
+		<ar pt="2410070541" pp="" l="RB61" ppth="Ibbenbüren|Ibbenbüren-Esch|Hörstel"/>
+	</s>
+	<s id="-3558590691375544865-2410070502-7">
+		<tl f="D" t="p" o="W3" c="WFB" n="90266"/>
+		<ar pt="2410070532" pp="3" l="RE15" ppth="Münster(Westf)Hbf|Münster(W)Zentrum Nord|Greven|Reckenfeld|Emsdetten|Rheine-Mesum"/>
+		<dp pt="2410070534" pp="3" l="RE15" pde="Emden Außenhafen" ppth="Salzbergen|Leschede|Lingen(Ems)|Geeste|Meppen|Haren(Ems)|Lathen|Dörpen|Aschendorf|Papenburg(Ems)|Leer(Ostfriesl)|Emden Hbf"/>
+	</s>
+	<s id="1888496628917284036-2410070526-1">
+		<tl t="p" o="R2" c="Bus" n="6103"/>
+		<dp pt="2410070526" pp="" l="RB61" ppth="Hörstel|Ibbenbüren-Esch|Ibbenbüren"/>
+	</s>
+	<s id="-3170763827464905858-2410070450-6">
+		<tl f="D" t="p" o="W3" c="WFB" n="90265"/>
+		<ar pt="2410070526" pp="5" l="RE15" ppth="Meppen|Geeste|Lingen(Ems)|Leschede|Salzbergen"/>
+		<dp pt="2410070528" pp="5" l="RE15" ppth="Emsdetten|Greven|Münster(W)Zentrum Nord|Münster(Westf)Hbf"/>
+	</s>
+</timetable>
