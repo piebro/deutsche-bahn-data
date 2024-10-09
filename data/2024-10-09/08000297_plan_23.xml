@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="Paderborn Hbf">
+	<s id="2489447290919656135-2410092312-1">
+		<tl f="N" t="p" o="NXRE" c="RE" n="26738"/>
+		<dp pt="2410092312" pp="1" l="11" ppth="Lippstadt|Soest|Hamm(Westf)Hbf"/>
+	</s>
+	<s id="-3719982820367997836-2410092315-1">
+		<tl f="N" t="p" o="R2RB" c="RB" n="90042"/>
+		<dp pt="2410092315" pp="2" l="89" ppth="Scharmede|Salzkotten|Geseke|Ehringhausen(Kr Lippstadt)|Dedinghausen|Lippstadt|Bad Sassendorf|Soest|Borgeln|Welver|Hamm(Westf)Hbf|Hamm-Bockum-Hövel|Mersch(Westf)|Drensteinfurt|Rinkerode|Münster-Hiltrup|Münster(Westf)Hbf"/>
+	</s>
+	<s id="3323221666057752020-2410092307-2">
+		<tl t="p" o="R2" c="Bus" n="9028"/>
+		<ar pt="2410092337" pp="" l="RB89" ppth="Altenbeken"/>
+	</s>
+	<s id="4017768678652905363-2410092234-5">
+		<tl t="p" o="NWBus" c="Bus" n="979"/>
+		<ar pt="2410092356" pp="" l="EV" ppth="Höxter-Ottbergen|Brakel(Höxter)|Bad Driburg(Westf)|Altenbeken"/>
+	</s>
+	<s id="3016447014929288784-2410092243-13">
+		<tl f="D" t="p" o="N2" c="NWB" n="75085"/>
+		<ar pt="2410092337" pp="5" l="RB74" ppth="Bielefeld Hbf|Bielefeld-Brackwede|Bielefeld-Senne|Bielefeld-Windelsbleiche|Bielefeld-Sennestadt|Schloß Holte|Hövelriege|Hövelhof|Paderborn-Sennelager|Paderborn-Schloss Neuhaus|Paderborn Nord|Paderborn Kasseler Tor"/>
+	</s>
+	<s id="4752911292304104722-2410092241-2">
+		<tl t="p" o="R2" c="Bus" n="9026"/>
+		<ar pt="2410092311" pp="" l="RB89" ppth="Altenbeken"/>
+	</s>
+	<s id="-1925068453691323391-2410092323-1">
+		<tl f="D" t="p" o="N2" c="NWB" n="75086"/>
+		<dp pt="2410092323" pp="5" l="RB74" ppth="Paderborn Kasseler Tor|Paderborn Nord|Paderborn-Schloss Neuhaus|Paderborn-Sennelager|Hövelhof|Hövelriege|Schloß Holte|Bielefeld-Sennestadt|Bielefeld-Windelsbleiche|Bielefeld-Senne|Bielefeld-Brackwede|Bielefeld Hbf"/>
+	</s>
+</timetable>
