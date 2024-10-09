@@ -1,0 +1,167 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="1002717078006700774-2410090604-3">
+		<tl f="N" t="p" o="NZ" c="RE" n="52274"/>
+		<ar pt="2410090659" pp="2" l="17" ppth="Elsterwerda|Doberlug-Kirchhain"/>
+		<dp pt="2410090705" pp="2" l="17" ppth="Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="-2664053616472659099-2410090640-7">
+		<tl t="p" o="080001" c="Bus" n="9131"/>
+		<ar pt="2410090725" pp="" l="S9A" ppth="Schöneweide (S)/Sterndamm, Berlin|Benno-König-Str., Berlin|Berlin-Adlershof|Berlin-Altglienicke|Rebenweg, Berlin|Schönefeld(bei Berlin)"/>
+	</s>
+	<s id="581794426212257571-2410090714-1">
+		<tl t="p" o="080001" c="Bus" n="9636"/>
+		<dp pt="2410090714" pp="" l="S9X" ppth="Berlin-Adlershof|Benno-König-Str., Berlin|Berlin-Schöneweide"/>
+	</s>
+	<s id="5768436214440790383-2410090754-1">
+		<tl t="p" o="080001" c="Bus" n="9644"/>
+		<dp pt="2410090754" pp="" l="S9X" ppth="Berlin-Adlershof|Benno-König-Str., Berlin|Berlin-Schöneweide"/>
+	</s>
+	<s id="-6862413056626894740-2410090757-1">
+		<tl t="p" o="080001" c="Bus" n="9144"/>
+		<dp pt="2410090757" pp="" l="S9A" ppth="Schönefeld(bei Berlin)|Rebenweg, Berlin|Berlin-Altglienicke|Berlin-Adlershof|Benno-König-Str., Berlin|Berlin-Schöneweide"/>
+	</s>
+	<s id="-2529231124680797316-2410090651-5">
+		<tl t="p" o="800165" c="FEX" n="19817"/>
+		<ar pt="2410090730" pp="4" tra="4505196499247132901-2410090738-1" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz|Berlin-Schöneweide"/>
+	</s>
+	<s id="4505196499247132901-2410090738-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18351"/>
+		<dp pt="2410090738" pp="4" l="24" tra="-2529231124680797316-2410090651-5" ppth="Blankenfelde(Teltow-Fläming)|Dahlewitz|Rangsdorf|Dabendorf|Zossen|Wünsdorf-Waldstadt"/>
+	</s>
+	<s id="7521704628852262343-2410090717-1">
+		<tl t="p" o="080001" c="Bus" n="9136"/>
+		<dp pt="2410090717" pp="" l="S9A" ppth="Schönefeld(bei Berlin)|Rebenweg, Berlin|Berlin-Altglienicke|Berlin-Adlershof|Benno-König-Str., Berlin|Berlin-Schöneweide"/>
+	</s>
+	<s id="8151880218519225279-2410090707-1">
+		<tl t="p" o="080001" c="Bus" n="9134"/>
+		<dp pt="2410090707" pp="" l="S9A" ppth="Schönefeld(bei Berlin)|Rebenweg, Berlin|Berlin-Altglienicke|Berlin-Adlershof|Benno-König-Str., Berlin|Berlin-Schöneweide"/>
+	</s>
+	<s id="3879179377796470480-2410090744-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62009"/>
+		<dp pt="2410090744" pp="2" l="8" ppth="Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Spandau|Falkensee|Nauen|Paulinenaue|Friesack(Mark)|Neustadt(Dosse)|Breddin|Glöwen|Bad Wilsnack|Wittenberge"/>
+	</s>
+	<s id="7093422489175671832-2410090729-4">
+		<tl t="p" o="080001" c="Bus" n="9641"/>
+		<ar pt="2410090758" pp="" l="S9X" ppth="Schöneweide (S)/Sterndamm, Berlin|Benno-König-Str., Berlin|Berlin-Adlershof"/>
+	</s>
+	<s id="-5498201906789784584-2410090640-9">
+		<tl f="N" t="p" o="800165" c="RB" n="18106"/>
+		<ar pt="2410090736" pp="1" l="22" ppth="Potsdam Griebnitzsee|Potsdam Hbf|Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Potsdam Pirschheide|Saarmund|Ludwigsfelde-Struveshof"/>
+		<dp pt="2410090738" pp="1" l="22" ppth="Königs Wusterhausen"/>
+	</s>
+	<s id="2893431466261682474-2410090530-5">
+		<tl f="F" t="p" o="80" c="IC" n="2274"/>
+		<ar pt="2410090659" pp="2" wings="1002717078006700774-2410090604" ppth="Dresden Hbf|Dresden-Neustadt|Elsterwerda|Doberlug-Kirchhain"/>
+		<dp pt="2410090705" pp="2" wings="1002717078006700774-2410090604" ppth="Berlin Südkreuz|Berlin Hbf|Berlin Gesundbrunnen|Oranienburg|Neustrelitz Hbf|Waren(Müritz)|Rostock Hbf|Warnemünde"/>
+	</s>
+	<s id="7239092183966850169-2410090628-6">
+		<tl f="N" t="p" o="800165" c="RB" n="18348"/>
+		<ar pt="2410090711" pp="1" l="24" tra="4002626204815990302-2410090728-1" ppth="Wünsdorf-Waldstadt|Dabendorf|Rangsdorf|Dahlewitz|Blankenfelde(Teltow-Fläming)"/>
+	</s>
+	<s id="15734464351643568-2410090709-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18657"/>
+		<dp pt="2410090709" pp="4" l="32" tra="7268009675596458782-2410090621-5" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+	<s id="598751725505952260-2410090503-17">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62002"/>
+		<ar pt="2410090715" pp="2" l="8" ppth="Wittenberge|Bad Wilsnack|Glöwen|Breddin|Neustadt(Dosse)|Friesack(Mark)|Paulinenaue|Nauen|Falkensee|Berlin-Spandau|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz"/>
+	</s>
+	<s id="-1720480403867342490-2410090630-7">
+		<tl t="p" o="080001" c="Bus" n="9129"/>
+		<ar pt="2410090715" pp="" l="S9A" ppth="Schöneweide (S)/Sterndamm, Berlin|Benno-König-Str., Berlin|Berlin-Adlershof|Berlin-Altglienicke|Rebenweg, Berlin|Schönefeld(bei Berlin)"/>
+	</s>
+	<s id="6462184253847545564-2410090630-14">
+		<tl f="N" t="p" o="800165" c="RB" n="18145"/>
+		<ar pt="2410090746" pp="3" l="23" ppth="Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof|Potsdam Hbf|Potsdam Griebnitzsee|Berlin-Wannsee|Berlin-Charlottenburg|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz"/>
+	</s>
+	<s id="-2915858794735972321-2410090747-1">
+		<tl t="p" o="080001" c="Bus" n="9142"/>
+		<dp pt="2410090747" pp="" l="S9A" ppth="Schönefeld(bei Berlin)|Rebenweg, Berlin|Berlin-Altglienicke|Berlin-Adlershof|Benno-König-Str., Berlin|Berlin-Schöneweide"/>
+	</s>
+	<s id="1527619994514040945-2410090659-4">
+		<tl t="p" o="080001" c="Bus" n="9635"/>
+		<ar pt="2410090728" pp="" l="S9X" ppth="Schöneweide (S)/Sterndamm, Berlin|Benno-König-Str., Berlin|Berlin-Adlershof"/>
+	</s>
+	<s id="-31117166873122356-2410090650-7">
+		<tl t="p" o="080001" c="Bus" n="9133"/>
+		<ar pt="2410090735" pp="" l="S9A" ppth="Schöneweide (S)/Sterndamm, Berlin|Benno-König-Str., Berlin|Berlin-Adlershof|Berlin-Altglienicke|Rebenweg, Berlin|Schönefeld(bei Berlin)"/>
+	</s>
+	<s id="-902367649313566795-2410090700-7">
+		<tl t="p" o="080001" c="Bus" n="9135"/>
+		<ar pt="2410090745" pp="" l="S9A" ppth="Schöneweide (S)/Sterndamm, Berlin|Benno-König-Str., Berlin|Berlin-Adlershof|Berlin-Altglienicke|Rebenweg, Berlin|Schönefeld(bei Berlin)"/>
+	</s>
+	<s id="-6162762480769375101-2410090719-4">
+		<tl t="p" o="080001" c="Bus" n="9639"/>
+		<ar pt="2410090748" pp="" l="S9X" ppth="Schöneweide (S)/Sterndamm, Berlin|Benno-König-Str., Berlin|Berlin-Adlershof"/>
+	</s>
+	<s id="4371683570194564338-2410090713-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18144"/>
+		<dp pt="2410090713" pp="3" l="23" ppth="Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Charlottenburg|Berlin-Wannsee|Potsdam Griebnitzsee|Potsdam Hbf|Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm"/>
+	</s>
+	<s id="4002626204815990302-2410090728-1">
+		<tl t="p" o="800165" c="FEX" n="19812"/>
+		<dp pt="2410090728" pp="1" tra="7239092183966850169-2410090628-6" ppth="Berlin-Schöneweide|Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="-1473416507389876475-2410090708-2">
+		<tl f="N" t="p" o="800165" c="RB" n="18107"/>
+		<ar pt="2410090721" pp="4" l="22" ppth="Königs Wusterhausen"/>
+		<dp pt="2410090723" pp="4" l="22" ppth="Ludwigsfelde-Struveshof|Saarmund|Potsdam Pirschheide|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof|Potsdam Hbf|Potsdam Griebnitzsee"/>
+	</s>
+	<s id="7268009675596458782-2410090621-5">
+		<tl t="p" o="800165" c="FEX" n="19815"/>
+		<ar pt="2410090700" pp="4" tra="15734464351643568-2410090709-1" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz|Berlin-Schöneweide"/>
+	</s>
+	<s id="-5853374618637129525-2410090704-1">
+		<tl t="p" o="080001" c="Bus" n="9634"/>
+		<dp pt="2410090704" pp="" l="S9X" ppth="Berlin-Adlershof|Benno-König-Str., Berlin|Berlin-Schöneweide"/>
+	</s>
+	<s id="-5110990261694761779-2410090744-1">
+		<tl t="p" o="080001" c="Bus" n="9642"/>
+		<dp pt="2410090744" pp="" l="S9X" ppth="Berlin-Adlershof|Benno-König-Str., Berlin|Berlin-Schöneweide"/>
+	</s>
+	<s id="-5775019580553484510-2410090639-4">
+		<tl t="p" o="080001" c="Bus" n="9631"/>
+		<ar pt="2410090708" pp="" l="S9X" ppth="Schöneweide (S)/Sterndamm, Berlin|Benno-König-Str., Berlin|Berlin-Adlershof"/>
+	</s>
+	<s id="3040487031336474056-2410090649-4">
+		<tl t="p" o="080001" c="Bus" n="9633"/>
+		<ar pt="2410090718" pp="" l="S9X" ppth="Schöneweide (S)/Sterndamm, Berlin|Benno-König-Str., Berlin|Berlin-Adlershof"/>
+	</s>
+	<s id="8574118878688521548-2410090740-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18656"/>
+		<ar pt="2410090756" pp="1" l="32" tra="-5588514608763010091-2410090758-1" ppth="Ludwigsfelde|Birkengrund"/>
+	</s>
+	<s id="423496431983198215-2410090709-4">
+		<tl t="p" o="080001" c="Bus" n="9637"/>
+		<ar pt="2410090738" pp="" l="S9X" ppth="Schöneweide (S)/Sterndamm, Berlin|Benno-König-Str., Berlin|Berlin-Adlershof"/>
+	</s>
+	<s id="6758212061789583374-2410090724-1">
+		<tl t="p" o="080001" c="Bus" n="9638"/>
+		<dp pt="2410090724" pp="" l="S9X" ppth="Berlin-Adlershof|Benno-König-Str., Berlin|Berlin-Schöneweide"/>
+	</s>
+	<s id="7770383210753911919-2410090727-1">
+		<tl t="p" o="080001" c="Bus" n="9138"/>
+		<dp pt="2410090727" pp="" l="S9A" ppth="Schönefeld(bei Berlin)|Rebenweg, Berlin|Berlin-Altglienicke|Berlin-Adlershof|Benno-König-Str., Berlin|Berlin-Schöneweide"/>
+	</s>
+	<s id="2105700941805646899-2410090734-1">
+		<tl t="p" o="080001" c="Bus" n="9640"/>
+		<dp pt="2410090734" pp="" l="S9X" ppth="Berlin-Adlershof|Benno-König-Str., Berlin|Berlin-Schöneweide"/>
+	</s>
+	<s id="-5588514608763010091-2410090758-1">
+		<tl t="p" o="800165" c="FEX" n="19814"/>
+		<dp pt="2410090758" pp="1" tra="8574118878688521548-2410090740-3" ppth="Berlin-Schöneweide|Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="444979287384032651-2410090737-1">
+		<tl t="p" o="080001" c="Bus" n="9140"/>
+		<dp pt="2410090737" pp="" l="S9A" ppth="Schönefeld(bei Berlin)|Rebenweg, Berlin|Berlin-Altglienicke|Berlin-Adlershof|Benno-König-Str., Berlin|Berlin-Schöneweide"/>
+	</s>
+	<s id="2230820873086641013-2410090710-7">
+		<tl t="p" o="080001" c="Bus" n="9137"/>
+		<ar pt="2410090755" pp="" l="S9A" ppth="Schöneweide (S)/Sterndamm, Berlin|Benno-König-Str., Berlin|Berlin-Adlershof|Berlin-Altglienicke|Rebenweg, Berlin|Schönefeld(bei Berlin)"/>
+	</s>
+	<s id="6144502995154810438-2410090620-7">
+		<tl t="p" o="080001" c="Bus" n="9127"/>
+		<ar pt="2410090705" pp="" l="S9A" ppth="Schöneweide (S)/Sterndamm, Berlin|Benno-König-Str., Berlin|Berlin-Adlershof|Berlin-Altglienicke|Rebenweg, Berlin|Schönefeld(bei Berlin)"/>
+	</s>
+</timetable>
