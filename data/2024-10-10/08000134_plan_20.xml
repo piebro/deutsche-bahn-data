@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<timetable station="Trier Hbf">
+	<s id="-4005190912303015487-2410102033-1">
+		<tl f="N" t="p" o="800640" c="RE" n="4132"/>
+		<dp pt="2410102033" pp="11 Süd" l="1" ppth="Konz|Saarburg(Bz Trier)|Mettlach|Merzig(Saar)|Dillingen(Saar)|Saarlouis Hbf|Völklingen|Saarbrücken Hbf|St Ingbert|Homburg(Saar)Hbf|Landstuhl|Kaiserslautern Hbf|Hochspeyer|Lambrecht(Pfalz)|Neustadt(Weinstr)Hbf|Neustadt-Böbig|Haßloch(Pfalz)|Böhl-Iggelheim|Ludwigshafen(Rhein) Mitte|Mannheim Hbf"/>
+	</s>
+	<s id="5262732550086015324-2410101919-8">
+		<tl f="N" t="p" o="800640" c="RE" n="4342"/>
+		<ar pt="2410102040" pp="11 Süd" l="1" tra="-4812646977346784079-2410102043-1" ppth="Koblenz Hbf|Kobern-Gondorf|Treis-Karden|Cochem(Mosel)|Bullay(DB)|Wittlich Hbf|Schweich(DB)"/>
+	</s>
+	<s id="-7333166170074547201-2410101933-7">
+		<tl f="N" t="p" o="82" c="RE" n="5133"/>
+		<ar pt="2410102024" pp="13 Nord" l="11" ppth="Luxembourg|Sandweiler-Contern|Wasserbillig|Igel|Kreuz Konz|Trier Süd"/>
+		<dp pt="2410102031" pp="13 Nord" l="11" ppth="Schweich(DB)|Wittlich Hbf|Bullay(DB)|Cochem(Mosel)|Treis-Karden|Kobern-Gondorf|Koblenz Hbf"/>
+	</s>
+	<s id="6085627392963470979-2410101902-8">
+		<tl f="N" t="p" o="800640" c="RE" n="4126"/>
+		<ar pt="2410102030" pp="11 Süd" l="1" pde="Frankfurt(Main)Hbf" ppth="Koblenz Hbf|Kobern-Gondorf|Treis-Karden|Cochem(Mosel)|Bullay(DB)|Wittlich Hbf|Schweich(DB)"/>
+	</s>
+	<s id="-4812646977346784079-2410102043-1">
+		<tl f="N" t="p" o="82" c="RE" n="5126"/>
+		<dp pt="2410102043" pp="11 Süd" l="11" tra="5262732550086015324-2410101919-8" ppth="Trier Süd|Kreuz Konz|Igel|Wasserbillig|Sandweiler-Contern|Luxembourg"/>
+	</s>
+	<s id="235585463145848127-2410102001-1">
+		<tl f="N" t="p" o="8015A1" c="RB" n="12587"/>
+		<dp pt="2410102001" pp="11 Süd" l="71" ppth="Trier Süd|Karthaus|Konz|Kanzem|Wiltingen(Saar)|Schoden-Ockfen|Saarburg(Bz Trier)|Serrig|Taben|Saarhölzbach|Mettlach|Besseringen|Merzig(Saar) Stadtmitte|Merzig(Saar)|Fremersdorf|Beckingen(Saar)|Dillingen(Saar)|Saarlouis Hbf|Ensdorf(Saar)|Bous(Saar)|Völklingen|Luisenthal(Saar)|Burbach Mitte|Saarbrücken-Burbach|Saarbrücken Hbf|Saarbrücken Ost|Schafbrücke|Scheidt(Saar)|Rentrisch|St Ingbert|Rohrbach(Saar)|Kirkel|Limbach(b Homburg,Saar)|Homburg(Saar)Hbf"/>
+	</s>
+	<s id="-3480652184249646044-2410101735-16">
+		<tl f="N" t="p" o="800640" c="RE" n="4133"/>
+		<ar pt="2410102027" pp="13 Nord" l="1" ppth="Mannheim Hbf|Ludwigshafen(Rhein) Mitte|Neustadt(Weinstr)Hbf|Kaiserslautern Hbf|Landstuhl|Homburg(Saar)Hbf|St Ingbert|Saarbrücken Hbf|Völklingen|Saarlouis Hbf|Dillingen(Saar)|Merzig(Saar)|Mettlach|Saarburg(Bz Trier)|Konz"/>
+		<dp pt="2410102031" pp="13 Nord" l="1" wings="-7333166170074547201-2410101933" ppth="Schweich(DB)|Wittlich Hbf|Bullay(DB)|Cochem(Mosel)|Treis-Karden|Kobern-Gondorf|Koblenz Hbf"/>
+	</s>
+	<s id="-2456914913739969921-2410101910-15">
+		<tl f="N" t="p" o="82" c="RB" n="5657"/>
+		<ar pt="2410102011" pp="13 Nord" l="83" ppth="Luxembourg|Cents-Hamm|Sandweiler-Contern|Oetrange|Munsbach|Roodt/Syre|Betzdorf(LUX)|Wecker|Manternach|Mertert|Wasserbillig|Igel|Kreuz Konz|Trier Süd"/>
+		<dp pt="2410102012" pp="13 Nord" l="83" ppth="Pfalzel|Ehrang|Ehrang Ort|Quint|Schweich(DB)|Föhren|Hetzerath|Sehlem(Kr Wittlich)|Salmtal|Wittlich Hbf"/>
+	</s>
+	<s id="6360500660615530891-2410102008-11">
+		<tl f="N" t="p" o="8015H9" c="RB" n="5658"/>
+		<ar pt="2410102054" pp="11 Süd" l="83" ppth="Wittlich Hbf|Salmtal|Sehlem(Kr Wittlich)|Hetzerath|Föhren|Schweich(DB)|Quint|Ehrang Ort|Ehrang|Pfalzel"/>
+		<dp pt="2410102055" pp="11 Süd" l="83" ppth="Trier Süd|Kreuz Konz|Igel|Wasserbillig"/>
+	</s>
+	<s id="-2063149536809169673-2410101915-15">
+		<tl f="N" t="p" o="801512" c="RB" n="12179"/>
+		<ar pt="2410102005" pp="12 Süd" l="82" ppth="Perl|Besch|Nennig|Palzem|Wehr(Mosel)|Wincheringen|Nittel|Wellen(Mosel)|Temmels|Oberbillig|Wasserliesch|Konz Mitte|Karthaus|Trier Süd"/>
+	</s>
+	<s id="-6887719338833859161-2410101806-33">
+		<tl f="N" t="p" o="801512" c="RB" n="12124"/>
+		<ar pt="2410102019" pp="11 Nord" l="81" ppth="Oberlahnstein|Niederlahnstein|Koblenz Hbf|Koblenz-Moselweiß|Koblenz-Güls|Winningen(Mosel)|Kobern-Gondorf|Lehmen|Kattenes|Löf|Hatzenport|Moselkern|Müden(Mosel)|Treis-Karden|Pommern(Mosel)|Klotten|Cochem(Mosel)|Ediger-Eller|Neef|Bullay(DB)|Bengel|Ürzig(DB)|Wittlich Hbf|Salmtal|Sehlem(Kr Wittlich)|Hetzerath|Föhren|Schweich(DB)|Quint|Ehrang Ort|Ehrang|Pfalzel"/>
+	</s>
+	<s id="-5133842117404398884-2410102041-1">
+		<tl f="N" t="p" o="801512" c="RB" n="12131"/>
+		<dp pt="2410102041" pp="12 Süd" l="81" ppth="Pfalzel|Ehrang|Ehrang Ort|Quint|Schweich(DB)|Föhren|Hetzerath|Sehlem(Kr Wittlich)|Salmtal|Wittlich Hbf|Ürzig(DB)|Bengel|Bullay(DB)|Neef|Ediger-Eller|Cochem(Mosel)|Klotten|Pommern(Mosel)|Treis-Karden|Müden(Mosel)|Moselkern|Hatzenport|Löf|Kattenes|Lehmen|Kobern-Gondorf|Winningen(Mosel)|Koblenz-Güls|Koblenz-Moselweiß|Koblenz Hbf"/>
+	</s>
+	<s id="-6750102093699711128-2410101831-26">
+		<tl f="N" t="p" o="V6RB" c="RB" n="76798"/>
+		<ar pt="2410102001" pp="13 Nord" l="71" ppth="Saarbrücken Hbf|Saarbrücken-Burbach|Burbach Mitte|Luisenthal(Saar)|Völklingen|Bous(Saar)|Ensdorf(Saar)|Saarlouis Hbf|Dillingen(Saar)|Beckingen(Saar)|Fremersdorf|Merzig(Saar)|Merzig(Saar) Stadtmitte|Besseringen|Mettlach|Saarhölzbach|Taben|Serrig|Saarburg(Bz Trier)|Schoden-Ockfen|Wiltingen(Saar)|Kanzem|Konz|Karthaus|Trier Süd"/>
+	</s>
+</timetable>
