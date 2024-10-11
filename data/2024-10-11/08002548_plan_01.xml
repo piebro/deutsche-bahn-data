@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg Dammtor">
+	<s id="4918232248842277073-2410110148-2">
+		<tl t="p" o="B1" c="Bus" n="11293"/>
+		<ar pt="2410110153" pp="" l="RE7" ppth="Hamburg Hbf ZOB"/>
+	</s>
+	<s id="-682929186355028188-2410110127-1">
+		<tl t="p" o="B1" c="Bus" n="11292"/>
+		<dp pt="2410110127" pp="" l="RE7" ppth="Hamburg Hbf ZOB"/>
+	</s>
+	<s id="7628519978815035831-2410110009-3">
+		<tl t="p" o="B1" c="Bus" n="11291"/>
+		<ar pt="2410110109" pp="" l="RE7" ppth="Elmshorn|Pinneberg"/>
+		<dp pt="2410110109" pp="" l="RE7" ppth="Hamburg Hbf ZOB"/>
+	</s>
+	<s id="4527502747804446727-2410102230-8">
+		<tl f="F" t="p" o="80" c="ICE" n="700"/>
+		<ar pt="2410110106" pp="3" ppth="Berlin Südkreuz|Berlin Hbf|Berlin-Spandau|Stendal Hbf|Salzwedel|Hamburg-Harburg|Hamburg Hbf"/>
+		<dp pt="2410110107" pp="3" hi="1" ppth="Hamburg-Altona"/>
+	</s>
+</timetable>
