@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<timetable station="Lübeck Hbf">
+	<s id="-961231579891626360-2410120605-12">
+		<tl f="D" t="p" o="X1" c="erx" n="21059"/>
+		<ar pt="2410120732" pp="6" l="RB84" ppth="Kiel Hbf|Kiel-Elmschenhagen|Raisdorf|Preetz|Ascheberg(Holst)|Plön|Bad Malente-Gremsmühlen|Eutin|Pönitz(Holst)|Pansdorf|Bad Schwartau"/>
+	</s>
+	<s id="-1129778444780375162-2410120728-1">
+		<tl f="D" t="p" o="X1" c="erx" n="21054"/>
+		<dp pt="2410120728" pp="6" l="RB84" ppth="Bad Schwartau|Pansdorf|Pönitz(Holst)|Eutin|Bad Malente-Gremsmühlen|Plön|Ascheberg(Holst)|Preetz|Raisdorf|Kiel-Elmschenhagen|Kiel Hbf"/>
+	</s>
+	<s id="3476924354915365047-2410120630-9">
+		<tl f="D" t="p" o="X1" c="erx" n="21106"/>
+		<ar pt="2410120752" pp="4" l="RE83" tra="-1831572501516746949-2410120806-1" ppth="Lüneburg|Echem|Lauenburg(Elbe)|Büchen|Mölln(Lauenb)|Ratzeburg|Lübeck Flughafen|Lübeck Hochschulstadtteil"/>
+	</s>
+	<s id="-7325168190881566240-2410120734-6">
+		<tl f="N" t="p" o="800292" c="RE" n="11409"/>
+		<ar pt="2410120756" pp="7" l="8" ppth="Lübeck-Travemünde Strand|Lübeck-Travemünde Hafen|Lübeck-Travem. Skandinavienkai|Lübeck-Kücknitz|Lübeck-Dänischburg IKEA"/>
+		<dp pt="2410120809" pp="7" l="8" ppth="Lübeck-Moisling|Reinfeld(Holst)|Bad Oldesloe|Hamburg Hbf"/>
+	</s>
+	<s id="-868577751389797643-2410120703-1">
+		<tl t="p" o="B1" c="Bus" n="91604"/>
+		<dp pt="2410120703" pp="" l="RB85" ppth="Neustadt(Holst)"/>
+	</s>
+	<s id="2129645013961779609-2410120634-6">
+		<tl f="N" t="p" o="800292" c="RE" n="11407"/>
+		<ar pt="2410120656" pp="7" l="8" ppth="Lübeck-Travemünde Strand|Lübeck-Travemünde Hafen|Lübeck-Travem. Skandinavienkai|Lübeck-Kücknitz|Lübeck-Dänischburg IKEA"/>
+		<dp pt="2410120709" pp="7" l="8" ppth="Lübeck-Moisling|Reinfeld(Holst)|Bad Oldesloe|Hamburg Hbf"/>
+	</s>
+	<s id="8015349100381833314-2410120710-1">
+		<tl f="D" t="p" o="X1" c="erx" n="21107"/>
+		<dp pt="2410120710" pp="6" l="RE83" tra="-2369125378009661807-2410120538-10" ppth="Lübeck Hochschulstadtteil|Lübeck Flughafen|Ratzeburg|Mölln(Lauenb)|Büchen|Lauenburg(Elbe)|Echem|Lüneburg"/>
+	</s>
+	<s id="6533056364528985396-2410120737-1">
+		<tl f="N" t="p" o="800292" c="RE" n="11459"/>
+		<dp pt="2410120737" pp="7" l="80" ppth="Lübeck-Moisling|Reinfeld(Holst)|Bad Oldesloe|Ahrensburg|Hamburg Hbf"/>
+	</s>
+	<s id="-7365621679652203511-2410120700-2">
+		<tl t="p" o="B1" c="Bus" n="91609"/>
+		<ar pt="2410120745" pp="" l="RB85" ppth="Neustadt(Holst)"/>
+	</s>
+	<s id="-2672048464236423719-2410120735-1">
+		<tl t="p" o="B1" c="Bus" n="11606"/>
+		<dp pt="2410120735" pp="" l="RB85" ppth="Bad Schwartau|Timmendorfer Strand|Scharbeutz|Haffkrug|Sierksdorf|Neustadt(Holst)"/>
+	</s>
+	<s id="-161605988817692835-2410120706-1">
+		<tl f="D" t="p" o="X1" c="erx" n="21004"/>
+		<dp pt="2410120706" pp="4" l="RE83" tra="-7972696045663089609-2410120609-6" ppth="Bad Schwartau|Eutin|Bad Malente-Gremsmühlen|Plön|Ascheberg(Holst)|Preetz|Raisdorf|Kiel Hbf"/>
+	</s>
+	<s id="352569221385672387-2410120606-5">
+		<tl f="N" t="p" o="800292" c="RE" n="11404"/>
+		<ar pt="2410120652" pp="5" l="8" ppth="Hamburg Hbf|Bad Oldesloe|Reinfeld(Holst)|Lübeck-Moisling"/>
+		<dp pt="2410120703" pp="5" l="8" ppth="Lübeck-Dänischburg IKEA|Lübeck-Kücknitz|Lübeck-Travem. Skandinavienkai|Lübeck-Travemünde Hafen|Lübeck-Travemünde Strand"/>
+	</s>
+	<s id="8111155688977813885-2410120607-7">
+		<tl t="p" o="B1" c="Bus" n="11607"/>
+		<ar pt="2410120722" pp="" l="RB85" ppth="Neustadt(Holst)|Sierksdorf|Haffkrug|Scharbeutz|Timmendorfer Strand|Bad Schwartau"/>
+	</s>
+	<s id="-1650039227630339781-2410120706-5">
+		<tl f="N" t="p" o="800292" c="RE" n="11406"/>
+		<ar pt="2410120752" pp="5" l="8" ppth="Hamburg Hbf|Bad Oldesloe|Reinfeld(Holst)|Lübeck-Moisling"/>
+		<dp pt="2410120803" pp="5" l="8" ppth="Lübeck-Dänischburg IKEA|Lübeck-Kücknitz|Lübeck-Travem. Skandinavienkai|Lübeck-Travemünde Hafen|Lübeck-Travemünde Strand"/>
+	</s>
+	<s id="-4788915264387509243-2410120703-1">
+		<tl f="N" t="p" o="800160" c="RE" n="13083"/>
+		<dp pt="2410120703" pp="1" l="4" ppth="Lübeck St Jürgen|Herrnburg|Lüdersdorf(Meckl)|Schönberg(Meckl)|Grevesmühlen|Bad Kleinen"/>
+	</s>
+	<s id="8417874272898519456-2410120712-1">
+		<tl t="p" o="B1" c="Bus" n="21664"/>
+		<dp pt="2410120712" pp="" l="RB85" ppth="Bad Schwartau|Timmendorfer Strand|Scharbeutz|Haffkrug|Sierksdorf|Neustadt(Holst)"/>
+	</s>
+	<s id="8320352830231130954-2410120643-9">
+		<tl f="D" t="p" o="X1" c="erx" n="21009"/>
+		<ar pt="2410120752" pp="6" l="RE83" tra="335481658226661781-2410120810-1" ppth="Kiel Hbf|Raisdorf|Preetz|Ascheberg(Holst)|Plön|Bad Malente-Gremsmühlen|Eutin|Bad Schwartau"/>
+	</s>
+	<s id="-6739868551289999930-2410120510-20">
+		<tl f="N" t="p" o="800160" c="RE" n="32892"/>
+		<ar pt="2410120756" pp="1" l="4" ppth="Reuterstadt Stavenhagen|Malchin|Teterow|Neu Wokern|Lalendorf|Priemerburg|Güstrow|Bützow|Blankenberg(Meckl)|Ventschow|Bad Kleinen|Bobitz|Plüschow|Grevesmühlen|Grieben(Meckl)|Schönberg(Meckl)|Lüdersdorf(Meckl)|Herrnburg|Lübeck St Jürgen"/>
+	</s>
+	<s id="8432026802620449081-2410120737-1">
+		<tl f="N" t="p" o="800292" c="RE" n="22924"/>
+		<dp pt="2410120737" pp="5" l="86" ppth="Lübeck-Dänischburg IKEA|Lübeck-Travemünde Strand"/>
+	</s>
+</timetable>
