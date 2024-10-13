@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<timetable station="Würzburg Hbf">
+	<s id="5002808764059930451-2410122330-27">
+		<tl f="N" t="p" o="800772" c="RE" n="4645"/>
+		<ar pt="2410130128" pp="9" l="54" ppth="Frankfurt(Main)Hbf|Frankfurt(Main)Süd|Frankfurt(Main)Ost|Frankfurt-Mainkur|Maintal West|Maintal Ost|Hanau-Wilhelmsbad|Hanau West|Hanau Hbf|Großauheim(Kr Hanau)|Großkrotzenburg|Kahl(Main)|Dettingen(Main)|Rückersbacher Schlucht|Kleinostheim|Aschaffenburg Hbf|Hösbach|Laufach|Heigenbrücken|Wiesthal|Partenstein|Lohr Bahnhof|Langenprozelten|Gemünden(Main)|Karlstadt(Main)|Retzbach-Zellingen"/>
+	</s>
+	<s id="6992012378128167215-2410121956-6">
+		<tl t="p" o="81" c="NJ" n="40491"/>
+		<ar pt="2410130132" pp="5" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen"/>
+		<dp pt="2410130148" pp="5" ppth="Nürnberg Hbf|Augsburg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="8209469800275406026-2410122300-4">
+		<tl f="F" t="p" o="80" c="ICE" n="1080"/>
+		<ar pt="2410130129" pp="6" ppth="München Hbf|Ingolstadt Hbf|Nürnberg Hbf"/>
+		<dp pt="2410130131" pp="6" ppth="Bebra|Göttingen|Hannover Hbf|Celle|Uelzen|Lüneburg|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="67681408536754467-2410122100-5">
+		<tl t="p" o="NYUEX" c="UEX" n="348"/>
+		<ar pt="2410130127" pp="2" hi="1" ppth="Innsbruck Hbf|Wörgl Hbf|Kufstein|München Ost"/>
+		<dp pt="2410130127" pp="2" ppth="Gemünden(Main)|Fulda|Hannover Hbf|Lüneburg|Hamburg Hbf|Hamburg-Altona"/>
+	</s>
+	<s id="-4777192331171212214-2410122100-5">
+		<tl t="p" o="NYUEX" c="UEX" n="328"/>
+		<ar pt="2410130127" pp="3" hi="1" ppth="Innsbruck Hbf|Wörgl Hbf|Kufstein|München Ost"/>
+		<dp pt="2410130127" pp="3" ppth="Koblenz Hbf|Köln Hbf|Düsseldorf Hbf"/>
+	</s>
+	<s id="-2044723357159653206-2410121956-6">
+		<tl t="p" o="81" c="NJ" n="491"/>
+		<ar pt="2410130132" pp="5" wings="6992012378128167215-2410121956" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen"/>
+		<dp pt="2410130148" pp="5" wings="6992012378128167215-2410121956" ppth="Nürnberg Hbf|Regensburg Hbf|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+</timetable>

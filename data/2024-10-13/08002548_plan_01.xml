@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg Dammtor">
+	<s id="8218544619443085427-2410121657-15">
+		<tl f="F" t="p" o="80" c="ICE" n="502"/>
+		<ar pt="2410130125" pp="3" ppth="München Hbf|Nürnberg Hbf|Erlangen|Bamberg|Erfurt Hbf|Leipzig Hbf|Lutherstadt Wittenberg Hbf|Berlin Südkreuz|Berlin Hbf|Berlin-Spandau|Stendal Hbf|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf"/>
+		<dp pt="2410130126" pp="3" hi="1" ppth="Hamburg-Altona"/>
+	</s>
+	<s id="-3927096025170759993-2410130153-2">
+		<tl f="N" t="p" o="800201" c="RE" n="11292"/>
+		<ar pt="2410130157" pp="3" l="7" hi="1" ppth="Hamburg Hbf"/>
+		<dp pt="2410130158" pp="3" l="7" ppth="Pinneberg|Elmshorn|Wrist|Neumünster|Einfeld|Bordesholm|Flintbek|Kiel Hbf"/>
+	</s>
+	<s id="2778482046603804064-2410130132-4">
+		<tl f="S" t="p" o="0S" c="S" n="42273"/>
+		<ar pt="2410130140" pp="2" l="2" ppth="Hamburg-Altona(S)|Hamburg Holstenstraße|Hamburg-Sternschanze"/>
+		<dp pt="2410130141" pp="2" l="2" ppth="Hamburg Hbf (S-Bahn)|Hamburg Berliner Tor|Hamburg-Rothenburgsort|Hamburg-Tiefstack|Hamburg Billwerder-Moorfleet|Hamburg Mittlerer Landweg|Hamburg-Allermöhe|Hamburg-Nettelnburg|Hamburg-Bergedorf|Reinbek|Wohltorf|Aumühle"/>
+	</s>
+	<s id="3560017302879055492-2410130052-4">
+		<tl f="S" t="p" o="0S" c="S" n="42265"/>
+		<ar pt="2410130100" pp="2" l="2" ppth="Hamburg-Altona(S)|Hamburg Holstenstraße|Hamburg-Sternschanze"/>
+		<dp pt="2410130101" pp="2" l="2" ppth="Hamburg Hbf (S-Bahn)|Hamburg Berliner Tor|Hamburg-Rothenburgsort|Hamburg-Tiefstack|Hamburg Billwerder-Moorfleet|Hamburg Mittlerer Landweg|Hamburg-Allermöhe|Hamburg-Nettelnburg|Hamburg-Bergedorf"/>
+	</s>
+	<s id="-4892351200003858228-2410130058-3">
+		<tl f="N" t="p" o="800201" c="RE" n="11293"/>
+		<ar pt="2410130120" pp="4" l="7" ppth="Elmshorn|Pinneberg"/>
+		<dp pt="2410130121" pp="4" l="7" hi="1" ppth="Hamburg Hbf"/>
+	</s>
+	<s id="51075082917725659-2410130112-4">
+		<tl f="S" t="p" o="0S" c="S" n="42269"/>
+		<ar pt="2410130120" pp="2" l="2" ppth="Hamburg-Altona(S)|Hamburg Holstenstraße|Hamburg-Sternschanze"/>
+		<dp pt="2410130121" pp="2" l="2" ppth="Hamburg Hbf (S-Bahn)|Hamburg Berliner Tor|Hamburg-Rothenburgsort|Hamburg-Tiefstack|Hamburg Billwerder-Moorfleet|Hamburg Mittlerer Landweg|Hamburg-Allermöhe|Hamburg-Nettelnburg|Hamburg-Bergedorf"/>
+	</s>
+</timetable>
