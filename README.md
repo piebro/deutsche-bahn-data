@@ -17,6 +17,31 @@ An example curl command to query the plan api:
 curl -s -H "DB-Api-Key: $API_KEY" -H "DB-Client-Id: $CLIENT_ID" -H "accept: application/xml" "https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/08000260/$(date +"%y%m%d")/$(date +"%H")"
 ```
 
+## Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/deutsche-bahn-data.git
+   cd deutsche-bahn-data
+   ```
+
+2. Create and activate a virtual environment:
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate
+   ```
+
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Create a monthly data release:
+   ```bash
+   python create_monthly_data_release.py "YYYY-MM"
+   ```
+   Replace `YYYY-MM` with the desired year and month.
+
 ## How to get the biggest train stations and their EVA number?
 
 There are [german railway station categories](https://en.wikipedia.org/wiki/German_railway_station_categories) ([german link](https://de.wikipedia.org/wiki/Preisklasse)) we can use to get the biggest train stations. There is a table of each german train station with its category [here](https://www.dbinfrago.com/web/bahnhoefe/leistungen/stationsnutzung/stationshalt/Stationspreise-10995752). This is used to get all train stations in catgory 1 and 2.
