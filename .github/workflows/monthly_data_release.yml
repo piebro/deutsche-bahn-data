@@ -29,6 +29,6 @@ jobs:
           git config --local user.email "noreply@github.com"
           git config --local user.name "GitHub Actions Bot"
           git add monthly_data_releases/*
-          git commit -m "Monthly data release for $(date +'%Y-%m')"
+          git commit -m "Monthly data release from last month"
           git push
 
