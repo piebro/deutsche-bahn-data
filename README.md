@@ -21,7 +21,7 @@ curl -s -H "DB-Api-Key: $API_KEY" -H "DB-Client-Id: $CLIENT_ID" -H "accept: appl
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/deutsche-bahn-data.git
+   git clone https://github.com/piebro/deutsche-bahn-data.git
    cd deutsche-bahn-data
    ```
 
