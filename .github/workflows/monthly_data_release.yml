@@ -1,13 +1,13 @@
-name: update data
+name: Monthly Data Release
 
 on:
   schedule:
-    # Should run at 0:00 and then every 3 hours every day in UTC time.
-    - cron: '0 0,6,12,18 * * *'
+    # Runs at 16:00 UTC on the first day of every month
+    - cron: '0 16 1 * *'
   workflow_dispatch:
 
 jobs:
-  run-python:
+  create-monthly-release:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
@@ -19,18 +19,16 @@ jobs:
           python-version: '3.10'
 
       - name: Install Dependencies
-        run: pip install -r requirements_fetch_data.txt
+        run: pip install -r requirements.txt
 
-      - name: Fetch Data
-        env:
-          API_KEY: ${{ secrets.API_KEY }}
-          CLIENT_ID: ${{ secrets.CLIENT_ID }}
-        run: python fetch_data.py
+      - name: Run Monthly Data Release Script
+        run: python create_monthly_data_release.py
 
       - name: Commit and Push
         run: |
           git config --local user.email "noreply@github.com"
           git config --local user.name "GitHub Actions Bot"
-          git add data/*
-          git commit -m "data update"
+          git add monthly_data_releases/*
+          git commit -m "Monthly data release for $(date +'%Y-%m')"
           git push
+
