@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<timetable station="Mainz Hbf">
+	<s id="2544377602079428643-2410172247-17">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="28738"/>
+		<ar pt="2410180010" pp="" l="RB75" ppth="Aschaffenburg Hbf|Mainaschaff|Stockstadt(Main)|Babenhausen(Hess)|Hergershausen|Altheim(Hess)|Dieburg|Messel|Darmstadt-Kranichstein|Darmstadt Nord|Darmstadt Hbf|Weiterstadt|Klein Gerau|Groß Gerau|Nauheim(b Gr.Gerau)|Mainz-Bischofsheim"/>
+		<dp pt="2410180012" pp="" l="RB75" ppth="Wiesbaden Hbf"/>
+	</s>
+	<s id="-4775919377312079274-2410171907-8">
+		<tl t="p" o="81" c="NJ" n="40425"/>
+		<ar pt="2410180025" pp="4a/b" ppth="Bruxelles Midi|Bruxelles-Nord|Liège-Guillemins|Aachen Hbf|Köln Hbf|Bonn-Beuel|Koblenz Hbf"/>
+		<dp pt="2410180029" pp="4a/b" ppth="Mannheim Hbf|München Ost|Rosenheim|Salzburg Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="1756361144776443390-2410171916-11">
+		<tl f="F" t="p" o="80" c="ICE" n="675"/>
+		<ar pt="2410180057" pp="3a/b" ppth="Berlin Gesundbrunnen|Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Leipzig Hbf|Erfurt Hbf|Eisenach|Fulda|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf"/>
+		<dp pt="2410180059" pp="3a/b" ppth="Wiesbaden Hbf"/>
+	</s>
+	<s id="477558261709148762-2410180010-1">
+		<tl f="N" t="p" o="V6RB" c="RB" n="29278"/>
+		<dp pt="2410180010" pp="8" l="31" ppth="Mainz Waggonfabrik|Mainz-Gonsenheim|Mainz-Marienborn|Klein Winternheim-Ober Olm|Nieder Olm|Saulheim|Wörrstadt|Armsheim|Albig|Alzey"/>
+	</s>
+	<s id="8500911987032616383-2410171907-8">
+		<tl t="p" o="88" c="NJ" n="469"/>
+		<ar pt="2410180025" pp="4a/b" wings="-4775919377312079274-2410171907" ppth="Bruxelles Midi|Bruxelles-Nord|Liège-Guillemins|Aachen Hbf|Köln Hbf|Bonn-Beuel|Koblenz Hbf"/>
+		<dp pt="2410180029" pp="4a/b" wings="-4775919377312079274-2410171907" ppth="Mannheim Hbf|München Ost|Rosenheim|Salzburg Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="8503777394879306018-2410172324-3">
+		<tl f="F" t="p" o="80" c="ICE" n="920"/>
+		<ar pt="2410172359" pp="3a/b" ppth="Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf"/>
+		<dp pt="2410180003" pp="3a/b" ppth="Koblenz Hbf|Remagen|Bonn Hbf|Köln Hbf|Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Münster(Westf)Hbf|Osnabrück Hbf|Diepholz|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+</timetable>
