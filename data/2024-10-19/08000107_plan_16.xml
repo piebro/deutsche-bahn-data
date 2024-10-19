@@ -1,0 +1,119 @@
+<?xml version="1.0" ?>
+<timetable station="Freiburg(Breisgau) Hbf">
+	<s id="-587961060125042869-2410191557-6">
+		<tl f="N" t="p" o="8006C5" c="RE" n="17024"/>
+		<ar pt="2410191638" pp="1" l="7" ppth="Basel Bad Bf|Weil am Rhein|Müllheim(Baden)|Heitersheim|Bad Krozingen"/>
+		<dp pt="2410191642" pp="1" l="7" ppth="Denzlingen|Emmendingen|Riegel-Malterdingen|Kenzingen|Herbolzheim(Breisg)|Lahr(Schwarzw)|Offenburg|Appenweier|Renchen|Achern|Bühl(Baden)|Baden-Baden|Rastatt|Karlsruhe Hbf"/>
+	</s>
+	<s id="-3823028807335198664-2410190915-13">
+		<tl f="F" t="p" o="80" c="ICE" n="75"/>
+		<ar pt="2410191612" pp="3" ppth="Berlin Gesundbrunnen|Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Leipzig Hbf|Erfurt Hbf|Eisenach|Fulda|Frankfurt(Main)Hbf|Darmstadt Hbf|Karlsruhe Hbf|Baden-Baden"/>
+		<dp pt="2410191614" pp="3" ppth="Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-8441423929873571288-2410191110-2">
+		<tl t="p" o="83" c="ECE" n="150"/>
+		<ar pt="2410191622" pp="1" pde="Milano Centrale" ppth="Basel Bad Bf"/>
+		<dp pt="2410191624" pp="1" ppth="Ringsheim/Europa-Park|Karlsruhe Hbf|Mannheim Hbf|Mainz Hbf|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="2182184109537597700-2410191605-4">
+		<tl f="S" t="p" o="8006C6" c="S" n="9720"/>
+		<ar pt="2410191618" pp="6" l="10" tra="-2901678494567529507-2410191632-1" ppth="Kirchzarten|Freiburg-Littenweiler|Freiburg-Wiehre"/>
+	</s>
+	<s id="-2901678494567529507-2410191632-1">
+		<tl f="S" t="p" o="8006C6" c="S" n="9820"/>
+		<dp pt="2410191632" pp="6" l="11" tra="2182184109537597700-2410191605-4" ppth="Freiburg Klinikum|Freiburg Messe/Universität|Freiburg-Landwasser|Hugstetten|Gottenheim|Bötzingen|Bötzingen Mühle|Eichstetten am Kaiserstuhl|Nimburg(Baden)|Bahlingen Riedlen|Bahlingen am Kaiserstuhl|Riegel am Kaiserstuhl Ort|Endingen am Kaiserstuhl"/>
+	</s>
+	<s id="-8226339592418579019-2410191606-15">
+		<tl f="N" t="p" o="8006C4" c="RB" n="17125"/>
+		<ar pt="2410191656" pp="8" l="26" ppth="Offenburg|Friesenheim(Baden)|Lahr(Schwarzw)|Orschweier|Ringsheim/Europa-Park|Herbolzheim(Breisg)|Kenzingen|Riegel-Malterdingen|Köndringen|Teningen-Mundingen|Emmendingen|Kollmarsreute|Denzlingen|Gundelfingen(Breisgau)"/>
+	</s>
+	<s id="3757587435578638473-2410191532-9">
+		<tl f="S" t="p" o="8006C6" c="S" n="9675"/>
+		<ar pt="2410191600" pp="7" l="1" wings="1613178723647998801-2410191517" ppth="Breisach|Ihringen|Wasenweiler|Gottenheim|Hugstetten|Freiburg-Landwasser|Freiburg Messe/Universität|Freiburg Klinikum"/>
+		<dp pt="2410191610" pp="7" l="1" wings="1613178723647998801-2410191517" ppth="Freiburg-Wiehre|Freiburg-Littenweiler|Kirchzarten"/>
+	</s>
+	<s id="-5962431650451322359-2410191640-1">
+		<tl f="S" t="p" o="8006C6" c="S" n="9725"/>
+		<dp pt="2410191640" pp="7" l="10" tra="-6493490832000742790-2410191547-14" ppth="Freiburg-Wiehre|Freiburg-Littenweiler|Kirchzarten"/>
+	</s>
+	<s id="2114216758391512863-2410191555-11">
+		<tl f="D" t="p" o="S6" c="SWE" n="88353"/>
+		<ar pt="2410191623" pp="5" l="S2" ppth="Bleibach|Gutach(Breisgau)|Kollnau|Waldkirch|Batzenhäusle|Buchholz(Baden)|Denzlingen|Gundelfingen(Breisgau)|Freiburg-Zähringen|Freiburg-Herdern"/>
+	</s>
+	<s id="6298342832593839095-2410191535-4">
+		<tl f="S" t="p" o="8006C6" c="S" n="9670"/>
+		<ar pt="2410191548" pp="6" l="1" wings="6793069873015878375-2410191535" ppth="Kirchzarten|Freiburg-Littenweiler|Freiburg-Wiehre"/>
+		<dp pt="2410191602" pp="6" l="1" wings="6793069873015878375-2410191535" ppth="Freiburg Klinikum|Freiburg Messe/Universität|Freiburg-Landwasser|Hugstetten|Gottenheim|Wasenweiler|Ihringen|Breisach"/>
+	</s>
+	<s id="-8653633934832529257-2410191439-17">
+		<tl f="N" t="p" o="8006C5" c="RE" n="17019"/>
+		<ar pt="2410191630" pp="3" l="7" ppth="Karlsruhe Hbf|Rastatt|Baden-Baden|Bühl(Baden)|Achern|Renchen|Appenweier|Offenburg|Lahr(Schwarzw)|Orschweier|Ringsheim/Europa-Park|Herbolzheim(Breisg)|Kenzingen|Riegel-Malterdingen|Emmendingen|Denzlingen"/>
+		<dp pt="2410191632" pp="3" l="7" ppth="Schallstadt|Bad Krozingen|Heitersheim|Müllheim(Baden)|Schliengen|Bad Bellingen|Efringen-Kirchen|Haltingen|Weil am Rhein|Basel Bad Bf"/>
+	</s>
+	<s id="-6493490832000742790-2410191547-14">
+		<tl f="S" t="p" o="8006C6" c="S" n="9825"/>
+		<ar pt="2410191630" pp="7" l="11" tra="-5962431650451322359-2410191640-1" ppth="Endingen am Kaiserstuhl|Riegel am Kaiserstuhl Ort|Bahlingen am Kaiserstuhl|Bahlingen Riedlen|Nimburg(Baden)|Eichstetten am Kaiserstuhl|Bötzingen Mühle|Bötzingen|Gottenheim|Hugstetten|Freiburg-Landwasser|Freiburg Messe/Universität|Freiburg Klinikum"/>
+	</s>
+	<s id="6345721901993339166-2410191600-1">
+		<tl f="N" t="p" o="8006C4" c="RB" n="17122"/>
+		<dp pt="2410191600" pp="2" l="26" ppth="Gundelfingen(Breisgau)|Denzlingen|Kollmarsreute|Emmendingen|Teningen-Mundingen|Köndringen|Riegel-Malterdingen|Kenzingen|Herbolzheim(Breisg)|Ringsheim/Europa-Park|Orschweier|Lahr(Schwarzw)|Friesenheim(Baden)|Offenburg"/>
+	</s>
+	<s id="-6186973207464081696-2410191635-4">
+		<tl f="S" t="p" o="8006C6" c="S" n="9872"/>
+		<ar pt="2410191648" pp="6" l="11" ppth="Kirchzarten|Freiburg-Littenweiler|Freiburg-Wiehre"/>
+		<dp pt="2410191702" pp="6" l="11" ppth="Freiburg Klinikum|Freiburg Messe/Universität|Freiburg-Landwasser|Hugstetten|Gottenheim|Bötzingen|Bötzingen Mühle|Eichstetten am Kaiserstuhl|Nimburg(Baden)|Bahlingen Riedlen|Bahlingen am Kaiserstuhl|Riegel am Kaiserstuhl Ort|Endingen am Kaiserstuhl"/>
+	</s>
+	<s id="3640987042759541971-2410191616-13">
+		<tl f="D" t="p" o="S6" c="SWE" n="88355"/>
+		<ar pt="2410191652" pp="5" l="S2" ppth="Elzach|Oberwinden|Niederwinden|Bleibach|Gutach(Breisgau)|Kollnau|Waldkirch|Batzenhäusle|Buchholz(Baden)|Denzlingen|Freiburg-Zähringen|Freiburg-Herdern"/>
+	</s>
+	<s id="2498107485151546709-2410191635-4">
+		<tl f="S" t="p" o="8006C6" c="S" n="9672"/>
+		<ar pt="2410191648" pp="6" l="1" wings="-6186973207464081696-2410191635" ppth="Kirchzarten|Freiburg-Littenweiler|Freiburg-Wiehre"/>
+		<dp pt="2410191702" pp="6" l="1" wings="-6186973207464081696-2410191635" ppth="Freiburg Klinikum|Freiburg Messe/Universität|Freiburg-Landwasser|Hugstetten|Gottenheim|Wasenweiler|Ihringen|Breisach"/>
+	</s>
+	<s id="2051166605709315502-2410191602-9">
+		<tl f="S" t="p" o="8006C6" c="S" n="9625"/>
+		<ar pt="2410191630" pp="7" l="1" wings="-6493490832000742790-2410191547" ppth="Breisach|Ihringen|Wasenweiler|Gottenheim|Hugstetten|Freiburg-Landwasser|Freiburg Messe/Universität|Freiburg Klinikum"/>
+	</s>
+	<s id="1613178723647998801-2410191517-14">
+		<tl f="S" t="p" o="8006C6" c="S" n="9875"/>
+		<ar pt="2410191600" pp="7" l="11" ppth="Endingen am Kaiserstuhl|Riegel am Kaiserstuhl Ort|Bahlingen am Kaiserstuhl|Bahlingen Riedlen|Nimburg(Baden)|Eichstetten am Kaiserstuhl|Bötzingen Mühle|Bötzingen|Gottenheim|Hugstetten|Freiburg-Landwasser|Freiburg Messe/Universität|Freiburg Klinikum"/>
+		<dp pt="2410191610" pp="7" l="11" ppth="Freiburg-Wiehre|Freiburg-Littenweiler|Kirchzarten"/>
+	</s>
+	<s id="581748540991286207-2410191605-1">
+		<tl f="D" t="p" o="S6" c="SWE" n="88356"/>
+		<dp pt="2410191605" pp="5" l="S2" ppth="Freiburg-Herdern|Freiburg-Zähringen|Denzlingen|Buchholz(Baden)|Batzenhäusle|Waldkirch|Kollnau|Gutach(Breisgau)|Bleibach"/>
+	</s>
+	<s id="6793069873015878375-2410191535-4">
+		<tl f="S" t="p" o="8006C6" c="S" n="9870"/>
+		<ar pt="2410191548" pp="6" l="11" ppth="Kirchzarten|Freiburg-Littenweiler|Freiburg-Wiehre"/>
+		<dp pt="2410191602" pp="6" l="11" ppth="Freiburg Klinikum|Freiburg Messe/Universität|Freiburg-Landwasser|Hugstetten|Gottenheim|Bötzingen|Bötzingen Mühle|Eichstetten am Kaiserstuhl|Nimburg(Baden)|Bahlingen Riedlen|Bahlingen am Kaiserstuhl|Riegel am Kaiserstuhl Ort|Endingen am Kaiserstuhl"/>
+	</s>
+	<s id="-7393110806929861849-2410191642-1">
+		<tl f="N" t="p" o="8006C4" c="RB" n="17181"/>
+		<dp pt="2410191642" pp="4" l="27" ppth="Freiburg-St Georgen|Ebringen|Schallstadt|Norsingen|Bad Krozingen|Heitersheim|Buggingen|Müllheim(Baden)|Auggen|Schliengen|Bad Bellingen|Rheinweiler|Kleinkems|Istein|Efringen-Kirchen|Eimeldingen|Haltingen|Weil am Rhein|Basel Bad Bf"/>
+	</s>
+	<s id="2668079515497796984-2410191206-7">
+		<tl f="F" t="p" o="80" c="ICE" n="107"/>
+		<ar pt="2410191601" pp="3" ppth="Düsseldorf Hbf|Köln Messe/Deutz Gl.11-12|Wiesbaden Hbf|Mannheim Hbf|Karlsruhe Hbf|Offenburg"/>
+		<dp pt="2410191602" pp="3" ppth="Basel Bad Bf|Basel SBB"/>
+	</s>
+	<s id="-8848414403714529466-2410191518-20">
+		<tl f="N" t="p" o="8006C4" c="RB" n="17180"/>
+		<ar pt="2410191618" pp="2" l="27" ppth="Basel Bad Bf|Weil am Rhein|Haltingen|Eimeldingen|Efringen-Kirchen|Istein|Kleinkems|Rheinweiler|Bad Bellingen|Schliengen|Auggen|Müllheim(Baden)|Buggingen|Heitersheim|Bad Krozingen|Norsingen|Schallstadt|Ebringen|Freiburg-St Georgen"/>
+	</s>
+	<s id="-3959952404690195966-2410191632-1">
+		<tl f="S" t="p" o="8006C6" c="S" n="9620"/>
+		<dp pt="2410191632" pp="6" l="1" wings="-2901678494567529507-2410191632" ppth="Freiburg Klinikum|Freiburg Messe/Universität|Freiburg-Landwasser|Hugstetten|Gottenheim|Wasenweiler|Ihringen|Breisach"/>
+	</s>
+	<s id="7840513741192164012-2410191634-1">
+		<tl f="D" t="p" o="S6" c="SWE" n="88358"/>
+		<dp pt="2410191634" pp="5" l="S2" ppth="Freiburg-Herdern|Freiburg-Zähringen|Gundelfingen(Breisgau)|Denzlingen|Buchholz(Baden)|Batzenhäusle|Waldkirch|Kollnau|Gutach(Breisgau)|Bleibach|Niederwinden|Oberwinden|Elzach"/>
+	</s>
+	<s id="1116577686148397167-2410191613-3">
+		<tl f="F" t="p" o="80" c="ICE" n="274"/>
+		<ar pt="2410191654" pp="1" ppth="Basel SBB|Basel Bad Bf"/>
+		<dp pt="2410191656" pp="1" ppth="Offenburg|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg Hbf"/>
+	</s>
+</timetable>
