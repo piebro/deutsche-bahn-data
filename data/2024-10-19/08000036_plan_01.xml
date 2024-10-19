@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<timetable station="Bielefeld Hbf">
+	<s id="8609689269918369141-2410190109-1">
+		<tl f="N" t="p" o="R2RB" c="RB" n="89998"/>
+		<dp pt="2410190109" pp="3 C-E" l="69" ppth="Bielefeld-Brackwede|Isselhorst-Avenwedde|Gütersloh Hbf|Rheda-Wiedenbrück|Oelde|Beckum-Neubeckum|Hamm(Westf)Hbf"/>
+	</s>
+	<s id="7391839487013567467-2410190100-6">
+		<tl t="p" o="NWBus" c="Bus" n="5088"/>
+		<ar pt="2410190151" pp="" l="EV" ppth="Schloß Holte|Bielefeld-Sennestadt|Bielefeld-Windelsbleiche|Bielefeld-Senne|Bielefeld-Brackwede"/>
+	</s>
+	<s id="8001039871679785953-2410190107-10">
+		<tl f="N" t="p" o="R2RB" c="RB" n="89997"/>
+		<ar pt="2410190151" pp="6" l="69" ppth="Hamm(Westf)Hbf|Hamm-Heessen|Ahlen(Westf)|Beckum-Neubeckum|Oelde|Rheda-Wiedenbrück|Gütersloh Hbf|Isselhorst-Avenwedde|Bielefeld-Brackwede"/>
+	</s>
+	<s id="4026184614673384379-2410190038-7">
+		<tl t="p" o="NWBus" c="Bus" n="5190"/>
+		<ar pt="2410190125" pp="" l="EV" ppth="Halle(Westf)|Künsebeck|Steinhagen(Westf)|Steinhagen(Westf) Bielef. Str.|Quelle|Bielefeld-Quelle Albertstraße"/>
+	</s>
+	<s id="-5959779702394425507-2410182252-11">
+		<tl t="p" o="R2" c="Bus" n="6137"/>
+		<ar pt="2410190115" pp="" l="RB61" ppth="Osnabrück Hbf|Wissingen|Westerhausen|Melle|Bruchmühlen|Bünde(Westf)|Kirchlengern|Hiddenhausen-Schweicheln|Herford|Brake(b Bielefeld)"/>
+	</s>
+	<s id="3612321124108775378-2410181747-19">
+		<tl f="F" t="p" o="80" c="ICE" n="2400"/>
+		<ar pt="2410190122" pp="2" ppth="München Hbf|Augsburg Hbf|Günzburg|Ulm Hbf|Stuttgart Hbf|Heidelberg Hbf|Darmstadt Hbf|Frankfurt(M) Flughafen Fernbf|Siegburg/Bonn|Köln Hbf|Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Gütersloh Hbf"/>
+		<dp pt="2410190124" pp="2" ppth="Minden(Westf)|Hannover Hbf|Braunschweig Hbf|Magdeburg Hbf|Brandenburg Hbf|Potsdam Hbf|Berlin-Wannsee|Berlin Zoologischer Garten|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="3332797177951381353-2410190030-7">
+		<tl f="N" t="p" o="R2RE" c="RE" n="52292"/>
+		<ar pt="2410190106" pp="5 C-E" l="78" ppth="Minden(Westf)|Porta Westfalica|Bad Oeynhausen|Löhne(Westf)|Herford|Brake(b Bielefeld)"/>
+	</s>
+</timetable>
