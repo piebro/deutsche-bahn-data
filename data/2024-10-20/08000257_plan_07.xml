@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="Worms Hbf">
+	<s id="4356133666702296539-2410200717-1">
+		<tl t="p" o="B5" c="Bus" n="99970"/>
+		<dp pt="2410200717" pp="" l="RB35" ppth="Worms-Pfeddersheim|Monsheim|Nieder Flörsheim-Dalsheim|Gundersheim(Rheinhess)|Eppelsheim(Rheinhess)|Alzey"/>
+	</s>
+	<s id="1119432826204618990-2410200711-9">
+		<tl t="p" o="800640" c="N" n="12205"/>
+		<ar pt="2410200749" pp="2" l="SE14" ppth="Mainz Hbf|Mainz Römisches Theater|Bodenheim|Nackenheim|Nierstein|Oppenheim|Guntersblum|Osthofen"/>
+		<dp pt="2410200750" pp="2" l="SE14" ppth="Frankenthal Hbf|Frankenthal Süd|Ludwigshafen(Rh)Hbf|Ludwigshafen(Rhein) Mitte|Mannheim Hbf"/>
+	</s>
+	<s id="-3317537795017876637-2410200753-1">
+		<tl f="N" t="p" o="8015A6" c="RB" n="63374"/>
+		<dp pt="2410200753" pp="4" l="35" pde="Frankenthal Hbf" ppth="Worms-Pfeddersheim|Monsheim"/>
+	</s>
+	<s id="1780170434497160228-2410200648-6">
+		<tl t="p" o="800640" c="N" n="12206"/>
+		<ar pt="2410200709" pp="1" l="SE14" ppth="Mannheim Hbf|Ludwigshafen(Rhein) Mitte|Ludwigshafen(Rh)Hbf|Frankenthal Süd|Frankenthal Hbf"/>
+		<dp pt="2410200710" pp="1" l="SE14" ppth="Osthofen|Guntersblum|Oppenheim|Nierstein|Nackenheim|Bodenheim|Mainz Römisches Theater|Mainz Hbf|Hochheim(Main)|Frankfurt-Höchst|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="858440105570821865-2410200626-10">
+		<tl f="S" t="p" o="801518" c="S" n="38605"/>
+		<ar pt="2410200706" pp="3" l="6" ppth="Mainz Hbf|Mainz Römisches Theater|Bodenheim|Nackenheim|Nierstein|Oppenheim|Dienheim|Guntersblum|Osthofen"/>
+		<dp pt="2410200717" pp="3" l="6" ppth="Bobenheim|Frankenthal Hbf|Frankenthal Süd|Ludwigshafen-Oggersheim|Ludwigshafen(Rh)Hbf|Ludwigshafen(Rhein) Mitte|Mannheim Hbf"/>
+	</s>
+	<s id="945996285956923852-2410200713-8">
+		<tl f="S" t="p" o="801518" c="S" n="38604"/>
+		<ar pt="2410200739" pp="3" l="6" pde="Sinsheim(Elsenz) Hbf" ppth="Mannheim Hbf|Ludwigshafen(Rhein) Mitte|Ludwigshafen(Rh)Hbf|Ludwigshafen-Oggersheim|Frankenthal Süd|Frankenthal Hbf|Bobenheim"/>
+		<dp pt="2410200754" pp="3" l="6" ppth="Osthofen|Guntersblum|Dienheim|Oppenheim|Nierstein|Nackenheim|Bodenheim|Mainz Römisches Theater|Mainz Hbf|Wiesbaden Hbf"/>
+	</s>
+</timetable>
