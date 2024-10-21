@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<timetable station="Uelzen">
+	<s id="2166263862344288002-2410211148-1">
+		<tl t="p" o="X2" c="Bus" n="3617"/>
+		<dp pt="2410211148" pp="" l="RB47" ppth="Stederdorf(Kr Uelzen)|Wieren|Bad Bodenteich"/>
+	</s>
+	<s id="-7084839739216513343-2410211107-1">
+		<tl f="N" t="p" o="RSNM" c="RB" n="16356"/>
+		<dp pt="2410211107" pp="302" l="37" ppth="Ebstorf(Uelzen)|Brockhöfe|Munster(Örtze)|Soltau(Han)|Visselhövede|Langwedel|Achim|Bremen-Mahndorf|Bremen Hbf"/>
+	</s>
+	<s id="-1533583722018076654-2410210647-12">
+		<tl f="F" t="p" o="80" c="ICE" n="1704"/>
+		<ar pt="2410211127" pp="102" ppth="Jena-Göschwitz|Jena Paradies|Naumburg(Saale)Hbf|Weißenfels|Leipzig Hbf|Lutherstadt Wittenberg Hbf|Berlin Südkreuz|Berlin Hbf|Berlin-Spandau|Stendal Hbf|Salzwedel"/>
+		<dp pt="2410211129" pp="102" ppth="Hamburg Hbf|Hamburg-Altona"/>
+	</s>
+	<s id="1526194876276388981-2410211101-1">
+		<tl f="D" t="p" o="R1" c="ME" n="82118"/>
+		<dp pt="2410211101" pp="103" l="RE3" tra="5753590009301268122-2410210940-9" ppth="Bad Bevensen|Bienenbüttel|Lüneburg|Winsen(Luhe)|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="6229593701195627276-2410211057-7">
+		<tl f="D" t="p" o="R1" c="ME" n="82119"/>
+		<ar pt="2410211156" pp="301" l="RE3" tra="5750514599965892029-2410211209-1" ppth="Hamburg Hbf|Hamburg-Harburg|Winsen(Luhe)|Lüneburg|Bienenbüttel|Bad Bevensen"/>
+	</s>
+	<s id="6096973730097423087-2410211120-2">
+		<tl t="p" o="FLX35" c="FLX" n="1363"/>
+		<ar pt="2410211159" pp="302" l="35" ppth="Hamburg Hbf"/>
+		<dp pt="2410211205" pp="302" l="35" ppth="Stendal Hbf|Berlin Hbf|Berlin Südkreuz|Leipzig Hbf"/>
+	</s>
+	<s id="-677385996155243799-2410210815-7">
+		<tl f="F" t="p" o="80" c="ICE" n="1172"/>
+		<ar pt="2410211140" pp="102" ppth="Frankfurt(Main)Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle"/>
+		<dp pt="2410211142" pp="102" ppth="Lüneburg|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="-1707412582048873394-2410211028-4">
+		<tl f="F" t="p" o="80" c="ICE" n="1519"/>
+		<ar pt="2410211113" pp="101" ppth="Hamburg Hbf|Hamburg-Harburg|Lüneburg"/>
+		<dp pt="2410211115" pp="101" ppth="Celle|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Treysa|Marburg(Lahn)|Gießen|Friedberg(Hess)|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="3450532721221209704-2410210542-13">
+		<tl f="F" t="p" o="80" c="ICE" n="1604"/>
+		<ar pt="2410211127" pp="102" wings="-1533583722018076654-2410210647" ppth="Nürnberg Hbf|Erlangen|Bamberg|Coburg|Erfurt Hbf|Leipzig Hbf|Lutherstadt Wittenberg Hbf|Berlin Südkreuz|Berlin Hbf|Berlin-Spandau|Stendal Hbf|Salzwedel"/>
+		<dp pt="2410211129" pp="102" wings="-1533583722018076654-2410210647" ppth="Hamburg Hbf|Hamburg-Altona"/>
+	</s>
+	<s id="-3978912548990750973-2410211108-1">
+		<tl f="D" t="p" o="X2" c="erx" n="83615"/>
+		<dp pt="2410211108" pp="303" l="RB47" ppth="Stederdorf(Kr Uelzen)|Wieren|Bad Bodenteich|Wittingen|Knesebeck|Vorhop|Schönewörde|Wahrenholz|Triangel|Gifhorn Stadt|Gifhorn"/>
+	</s>
+	<s id="-918686234840290607-2410210904-20">
+		<tl f="D" t="p" o="R1" c="ME" n="82820"/>
+		<ar pt="2410211138" pp="103" l="RE2" ppth="Göttingen|Nörten-Hardenberg|Northeim(Han)|Einbeck-Salzderhelden|Kreiensen|Freden(Leine)|Alfeld(Leine)|Banteln|Elze(Han)|Nordstemmen|Sarstedt|Hannover Hbf|Langenhagen Mitte|Isernhagen|Großburgwedel|Celle|Eschede|Unterlüß|Suderburg"/>
+	</s>
+	<s id="3903267114289140176-2410211109-1">
+		<tl f="D" t="p" o="R1" c="ME" n="82817"/>
+		<dp pt="2410211109" pp="103" l="RE2" ppth="Suderburg|Unterlüß|Eschede|Celle|Großburgwedel|Isernhagen|Langenhagen Mitte|Hannover Hbf|Sarstedt|Nordstemmen|Elze(Han)|Banteln|Alfeld(Leine)|Freden(Leine)|Kreiensen|Einbeck-Salzderhelden|Northeim(Han)|Nörten-Hardenberg|Göttingen"/>
+	</s>
+	<s id="-4803413020616385260-2410211036-4">
+		<tl f="F" t="p" o="80" c="ICE" n="707"/>
+		<ar pt="2410211133" pp="301" ppth="Hamburg-Altona|Hamburg Hbf|Lüneburg"/>
+		<dp pt="2410211134" pp="301" ppth="Salzwedel|Stendal Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz|Bitterfeld|Halle(Saale)Hbf|Erfurt Hbf|Bamberg|Nürnberg Hbf|Ingolstadt Hbf|München Hbf"/>
+	</s>
+</timetable>
