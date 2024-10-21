@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Hbf">
+	<s id="2059692089558871499-2410212027-4">
+		<tl f="N" t="p" o="NZ" c="RE" n="50256"/>
+		<ar pt="2410212154" pp="13" l="27" ppth="Elsterwerda|Doberlug-Kirchhain|Berlin Ostkreuz"/>
+	</s>
+	<s id="2297856921224116605-2410211552-8">
+		<tl f="F" t="p" o="80" c="ICE" n="653"/>
+		<ar pt="2410212102" pp="12" ppth="Köln Messe/Deutz Gl.11-12|Wuppertal Hbf|Hagen Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Hannover Hbf|Berlin-Spandau"/>
+		<dp pt="2410212106" pp="12" hi="1" ppth="Berlin Ostbahnhof"/>
+	</s>
+	<s id="2121877044531283563-2410212116-2">
+		<tl f="F" t="p" o="80" c="ICE" n="840"/>
+		<ar pt="2410212123" pp="13" hi="1" ppth="Berlin Ostbahnhof"/>
+		<dp pt="2410212127" pp="13" ppth="Berlin-Spandau|Stendal Hbf|Wolfsburg Hbf|Hannover Hbf"/>
+	</s>
+	<s id="-5511541014003594580-2410211652-13">
+		<tl f="F" t="p" o="80" c="ICE" n="643"/>
+		<ar pt="2410212116" pp="12" ppth="Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Bielefeld Hbf|Minden(Westf)|Hannover Hbf|Wolfsburg Hbf|Berlin-Spandau"/>
+		<dp pt="2410212120" pp="12" hi="1" ppth="Berlin Ostbahnhof"/>
+	</s>
+	<s id="-561089680166663487-2410211955-10">
+		<tl f="N" t="p" o="OWRE" c="RE" n="73749"/>
+		<ar pt="2410212059" pp="13" l="1" ppth="Frankfurt(Oder)|Fürstenwalde(Spree)|Hangelsberg|Fangschleuse|Erkner|Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße"/>
+		<dp pt="2410212101" pp="13" l="1" ppth="Berlin Zoologischer Garten|Berlin-Charlottenburg|Berlin-Wannsee|Potsdam Hbf|Werder(Havel)|Brandenburg Hbf|Kirchmöser|Wusterwitz|Genthin|Güsen(b Genthin)|Burg(Magdeburg)|Magdeburg-Neustadt|Magdeburg Hbf"/>
+	</s>
+	<s id="9120432599921369422-2410211523-13">
+		<tl f="F" t="p" o="80" c="ICE" n="574"/>
+		<ar pt="2410212129" pp="11" ppth="Stuttgart Hbf|Mannheim Hbf|Darmstadt Hbf|Frankfurt(Main)Hbf|Hanau Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hildesheim Hbf|Braunschweig Hbf|Wolfsburg Hbf|Berlin-Spandau"/>
+		<dp pt="2410212133" pp="11" hi="1" ppth="Berlin Ostbahnhof"/>
+	</s>
+	<s id="-921591545879737884-2410211026-23">
+		<tl t="p" o="81" c="RJ" n="256"/>
+		<ar pt="2410212154" pp="13" wings="2059692089558871499-2410212027" ppth="Graz Hbf|Bruck/Mur|Kapfenberg|Mürzzuschlag|Semmering|Wiener Neustadt Hbf|Wien Meidling|Wien Hbf|Breclav|Brno hl.n.|Ceska Trebova|Pardubice hl.n.|Praha hl.n.|Praha-Holesovice|Usti nad Labem hl.n.|Decin hl.n.|Bad Schandau|Dresden Hbf|Dresden-Neustadt|Elsterwerda|Doberlug-Kirchhain|Berlin Ostkreuz"/>
+		<dp pt="2410212158" pp="13" hi="1" ppth="Berlin-Charlottenburg"/>
+	</s>
+</timetable>
