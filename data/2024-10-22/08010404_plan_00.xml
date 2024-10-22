@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin-Spandau">
+	<s id="2315139103678227518-2410212301-10">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62038"/>
+		<ar pt="2410220021" pp="5" l="8" ppth="Wittenberge|Bad Wilsnack|Glöwen|Breddin|Neustadt(Dosse)|Friesack(Mark)|Paulinenaue|Nauen|Falkensee"/>
+	</s>
+	<s id="3778695356863398992-2410211952-11">
+		<tl f="F" t="p" o="80" c="ICE" n="947"/>
+		<ar pt="2410212358" pp="5" ppth="Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Bielefeld Hbf|Hannover Hbf|Wolfsburg Hbf"/>
+		<dp pt="2410220000" pp="5" hi="1" ppth="Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="-4690633162706899058-2410212308-7">
+		<tl t="p" o="BB" c="Bus" n="53160"/>
+		<ar pt="2410220009" pp="" l="RE2" ppth="Nauen|Brieselang|Finkenkrug|Falkensee|Seegefeld|Albrechtshof"/>
+	</s>
+	<s id="-7260953034263185039-2410212009-11">
+		<tl f="F" t="p" o="80" c="ICE" n="790"/>
+		<ar pt="2410220046" pp="6" ppth="Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Süd|Hanau Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hildesheim Hbf|Braunschweig Hbf|Wolfsburg Hbf|Stendal Hbf"/>
+		<dp pt="2410220048" pp="6" hi="1" ppth="Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="4209598486652835463-2410220036-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62045"/>
+		<dp pt="2410220036" pp="3" l="8" ppth="Albrechtshof|Seegefeld|Falkensee|Finkenkrug|Brieselang|Nauen"/>
+	</s>
+</timetable>
