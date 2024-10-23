@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf Gl.27-36">
+	<s id="2157648381681996013-2410230436-6">
+		<tl f="N" t="p" o="8007H2" c="RB" n="58111"/>
+		<ar pt="2410230519" pp="28" l="74" ppth="Buchloe|Kaufering|Geltendorf|Fürstenfeldbruck|München-Pasing"/>
+	</s>
+	<s id="1180726547218131245-2410230539-1">
+		<tl f="N" t="p" o="8007H2" c="RB" n="58110"/>
+		<dp pt="2410230539" pp="28" l="74" ppth="München-Pasing|Fürstenfeldbruck|Geltendorf|Kaufering|Buchloe"/>
+	</s>
+	<s id="-6940810099993238805-2410230527-9">
+		<tl f="D" t="p" o="M8" c="BRB" n="79600"/>
+		<ar pt="2410230558" pp="36" l="RB58" ppth="Holzkirchen|Deisenhofen|München-Solln|München Siemenswerke|München-Mittersendling|München Harras|München Heimeranplatz|München Donnersbergerbrücke"/>
+	</s>
+	<s id="-1964530256268287064-2410230444-10">
+		<tl f="D" t="p" o="T8" c="BRB" n="77300"/>
+		<ar pt="2410230535" pp="34" l="RB55" wings="-1339899028283109583-2410230431" ppth="Schliersee|Hausham|Agatharied|Miesbach|Darching|Holzkirchen|München Siemenswerke|München Harras|München Donnersbergerbrücke"/>
+	</s>
+	<s id="2964883449584975154-2410230538-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79595"/>
+		<dp pt="2410230538" pp="35" l="RB58" ppth="München Donnersbergerbrücke|München Heimeranplatz|München Harras|München-Mittersendling|München Siemenswerke|München-Solln|Deisenhofen|Holzkirchen|Kreuzstraße|Westerham|Bruckmühl|Heufeldmühle|Hinrichssegen|Heufeld|Bad Aibling|Bad Aibling Kurpark|Kolbermoor|Rosenheim Aicherpark|Rosenheim"/>
+	</s>
+	<s id="-1339899028283109583-2410230431-12">
+		<tl f="D" t="p" o="T8" c="BRB" n="86800"/>
+		<ar pt="2410230535" pp="34" l="RB56" ppth="Lenggries|Obergries|Gaißach|Bad Tölz|Reichersbeuern|Schaftlach|Warngau|Holzkirchen|München Siemenswerke|München Harras|München Donnersbergerbrücke"/>
+	</s>
+	<s id="8509561769942909732-2410230520-1">
+		<tl f="N" t="p" o="8007D5" c="RE" n="3872"/>
+		<dp pt="2410230520" pp="30" l="70" ppth="München-Pasing|Geltendorf|Kaufering|Buchloe|Kaufbeuren|Günzach|Kempten(Allgäu)Hbf|Martinszell(Allgäu)|Immenstadt|Oberstaufen|Röthenbach(Allgäu)|Heimenkirch|Hergatz|Lindau-Reutin"/>
+	</s>
+</timetable>
