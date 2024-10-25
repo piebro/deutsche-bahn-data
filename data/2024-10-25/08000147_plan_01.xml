@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg-Harburg">
+	<s id="7734175062166400396-2410250128-1">
+		<tl t="p" o="R1" c="Bus" n="3246"/>
+		<dp pt="2410250128" pp="" l="EV" ppth="Hamburg Hbf"/>
+	</s>
+	<s id="-3970723350205974760-2410250057-2">
+		<tl f="D" t="p" o="R1" c="ME" n="81947"/>
+		<ar pt="2410250107" pp="3" l="RB41" ppth="Hamburg Hbf"/>
+		<dp pt="2410250108" pp="3" l="RB41" ppth="Hittfeld|Klecken|Buchholz(Nordheide)|Sprötze|Tostedt|Lauenbrück|Scheeßel|Rotenburg(Wümme)"/>
+	</s>
+	<s id="-6230530770006347259-2410250108-4">
+		<tl f="D" t="p" o="R1" c="ME" n="81688"/>
+		<ar pt="2410250118" pp="1" l="RB31" ppth="Stelle|Maschen|Meckelfeld"/>
+	</s>
+	<s id="-324577228496578992-2410241923-13">
+		<tl f="F" t="p" o="80" c="ICE" n="570"/>
+		<ar pt="2410250122" pp="1" ppth="Stuttgart Hbf|Mannheim Hbf|Darmstadt Hbf|Frankfurt(Main)Hbf|Hanau Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen|Lüneburg"/>
+		<dp pt="2410250124" pp="1" hi="1" ppth="Hamburg Hbf"/>
+	</s>
+</timetable>
