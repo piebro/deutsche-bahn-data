@@ -1,0 +1,127 @@
+<?xml version="1.0" ?>
+<timetable station="Dresden-Neustadt">
+	<s id="-2244569569875809806-2410261924-3">
+		<tl f="D" t="p" o="LDTLX" c="TLX" n="93055"/>
+		<ar pt="2410261929" pp="2" l="RE2" ppth="Dresden Hbf|Dresden Mitte"/>
+		<dp pt="2410261935" pp="2" l="RE2" ppth="Dresden-Klotzsche|Radeberg|Arnsdorf(Dresden)|Bischofswerda|Neukirch(Lausitz)Ost|Wilthen|Sohland|Ebersbach(Sachs)"/>
+	</s>
+	<s id="7922109724319954739-2410261628-7">
+		<tl f="F" t="p" o="54" c="EC" n="170"/>
+		<ar pt="2410261859" pp="6" ppth="Praha hl.n.|Praha-Holesovice|Usti nad Labem hl.n.|Decin hl.n.|Bad Schandau|Dresden Hbf"/>
+		<dp pt="2410261901" pp="6" ppth="Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="8196927284932799121-2410261924-3">
+		<tl f="D" t="p" o="LDTLX" c="TLX" n="26909"/>
+		<ar pt="2410261929" pp="2" l="RE1" wings="-2244569569875809806-2410261924" ppth="Dresden Hbf|Dresden Mitte"/>
+		<dp pt="2410261935" pp="2" l="RE1" wings="-2244569569875809806-2410261924" ppth="Dresden-Klotzsche|Radeberg|Arnsdorf(Dresden)|Bischofswerda|Bautzen|Löbau(Sachs)|Görlitz"/>
+	</s>
+	<s id="2441968936843562425-2410261846-8">
+		<tl f="N" t="p" o="800159" c="RE" n="18415"/>
+		<ar pt="2410261955" pp="7" l="18" ppth="Senftenberg|Ruhland|Ortrand|Großenhain Cottb Bf|Priestewitz|Weinböhla Hp|Coswig(b Dresden)"/>
+	</s>
+	<s id="6546497352476624025-2410261935-3">
+		<tl f="S" t="p" o="8004L1" c="S" n="16631"/>
+		<ar pt="2410261940" pp="3" l="8" ppth="Dresden Hbf|Dresden Mitte"/>
+		<dp pt="2410261942" pp="3" l="8" ppth="Dresden Industriegelände|Dresden-Klotzsche|Langebrück(Sachs)|Radeberg|Kleinröhrsdorf|Großröhrsdorf|Pulsnitz Süd|Pulsnitz|Bischheim-Gersdorf|Kamenz(Sachs)"/>
+	</s>
+	<s id="-921591545879737884-2410261026-19">
+		<tl t="p" o="81" c="RJ" n="256"/>
+		<ar pt="2410261959" pp="6" ppth="Graz Hbf|Bruck/Mur|Kapfenberg|Mürzzuschlag|Semmering|Wiener Neustadt Hbf|Wien Meidling|Wien Hbf|Breclav|Brno hl.n.|Ceska Trebova|Pardubice hl.n.|Praha hl.n.|Praha-Holesovice|Usti nad Labem hl.n.|Decin hl.n.|Bad Schandau|Dresden Hbf"/>
+		<dp pt="2410262001" pp="6" ppth="Elsterwerda|Doberlug-Kirchhain|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="-3643839737526028419-2410261916-7">
+		<tl f="N" t="p" o="8004L1" c="RB" n="16988"/>
+		<ar pt="2410261937" pp="4" l="33" ppth="Ottendorf-Okrilla Süd|Hermsdorf(Dresden)|Weixdorf|Weixdorf Bad|Dresden-Klotzsche|Dresden Industriegelände"/>
+	</s>
+	<s id="-2709698061996403329-2410261800-15">
+		<tl f="N" t="p" o="800456" c="RE" n="16529"/>
+		<ar pt="2410261936" pp="7" l="50" ppth="Leipzig Hbf|Leipzig-Engelsdorf|Borsdorf(Sachs)|Wurzen|Kühren|Dahlen(Sachs)|Oschatz|Riesa|Glaubitz(Riesa)|Nünchritz|Priestewitz|Niederau|Weinböhla Hp|Coswig(b Dresden)"/>
+		<dp pt="2410261937" pp="7" l="50" ppth="Dresden Mitte|Dresden Hbf"/>
+	</s>
+	<s id="-480484934668334893-2410261906-3">
+		<tl f="N" t="p" o="800456" c="RE" n="16530"/>
+		<ar pt="2410261912" pp="5" l="50" ppth="Dresden Hbf|Dresden Mitte"/>
+		<dp pt="2410261913" pp="5" l="50" ppth="Coswig(b Dresden)|Weinböhla Hp|Niederau|Priestewitz|Nünchritz|Glaubitz(Riesa)|Riesa|Oschatz|Dahlen(Sachs)|Kühren|Wurzen|Borsdorf(Sachs)|Leipzig-Engelsdorf|Leipzig Hbf"/>
+	</s>
+	<s id="1647555109225893289-2410261948-1">
+		<tl f="N" t="p" o="8004L1" c="RB" n="16989"/>
+		<dp pt="2410261948" pp="4" l="33" ppth="Dresden Industriegelände|Dresden-Klotzsche|Weixdorf Bad|Weixdorf|Hermsdorf(Dresden)|Ottendorf-Okrilla Süd"/>
+	</s>
+	<s id="-6091142929519234475-2410261815-18">
+		<tl f="S" t="p" o="800469" c="S" n="31758"/>
+		<ar pt="2410261906" pp="1" l="1" ppth="Bad Schandau|Königstein(Sächs Schw)|Kurort Rathen|Stadt Wehlen(Sachs)|Obervogelgesang|Pirna|Heidenau-Großsedlitz|Heidenau Süd|Heidenau|Dresden-Zschachwitz|Dresden-Niedersedlitz|Dresden-Dobritz|Dresden-Reick|Dresden-Strehlen|Dresden Hbf|Dresden Freiberger Straße|Dresden Mitte"/>
+		<dp pt="2410261907" pp="1" l="1" ppth="Dresden Bischofsplatz|Dresden-Pieschen|Dresden-Trachau|Radebeul Ost|Radebeul-Weintraube|Radebeul-Kötzschenbroda|Radebeul-Zitzschewig|Coswig(b Dresden)|Neusörnewitz|Meißen|Meißen Altstadt"/>
+	</s>
+	<s id="-6291222116202478942-2410261919-12">
+		<tl f="S" t="p" o="800469" c="S" n="31763"/>
+		<ar pt="2410261949" pp="2" l="1" ppth="Meißen Altstadt|Meißen|Neusörnewitz|Coswig(b Dresden)|Radebeul-Zitzschewig|Radebeul-Kötzschenbroda|Radebeul-Weintraube|Radebeul Ost|Dresden-Trachau|Dresden-Pieschen|Dresden Bischofsplatz"/>
+		<dp pt="2410261950" pp="2" l="1" ppth="Dresden Mitte|Dresden Freiberger Straße|Dresden Hbf|Dresden-Strehlen|Dresden-Reick|Dresden-Dobritz|Dresden-Niedersedlitz|Dresden-Zschachwitz|Heidenau|Heidenau Süd|Heidenau-Großsedlitz|Pirna|Obervogelgesang|Stadt Wehlen(Sachs)|Kurort Rathen|Königstein(Sächs Schw)|Bad Schandau"/>
+	</s>
+	<s id="5419589606395529893-2410261835-21">
+		<tl f="S" t="p" o="800469" c="S" n="31760"/>
+		<ar pt="2410261936" pp="1" l="1" ppth="Schöna|Schmilka-Hirschmühle|Krippen|Bad Schandau|Königstein(Sächs Schw)|Kurort Rathen|Stadt Wehlen(Sachs)|Obervogelgesang|Pirna|Heidenau-Großsedlitz|Heidenau Süd|Heidenau|Dresden-Zschachwitz|Dresden-Niedersedlitz|Dresden-Dobritz|Dresden-Reick|Dresden-Strehlen|Dresden Hbf|Dresden Freiberger Straße|Dresden Mitte"/>
+		<dp pt="2410261937" pp="1" l="1" ppth="Dresden Bischofsplatz|Dresden-Pieschen|Dresden-Trachau|Radebeul Ost|Radebeul-Weintraube|Radebeul-Kötzschenbroda|Radebeul-Zitzschewig|Coswig(b Dresden)|Neusörnewitz|Meißen|Meißen Altstadt"/>
+	</s>
+	<s id="5483844340144902231-2410261907-1">
+		<tl f="N" t="p" o="800159" c="RB" n="18034"/>
+		<dp pt="2410261907" pp="7" l="31" ppth="Dresden-Friedrichstadt|Dresden-Cotta|Dresden-Kemnitz|Dresden-Stetzsch|Cossebaude|Niederwartha|Radebeul-Naundorf|Coswig(b Dresden)|Weinböhla Hp|Niederau|Priestewitz|Großenhain Cottb Bf|Zabeltitz|Frauenhain|Prösen Ost|Elsterwerda|Elsterwerda-Biehla"/>
+	</s>
+	<s id="-6679641374121844396-2410261837-19">
+		<tl t="p" o="LD" c="TL" n="76554"/>
+		<ar pt="2410261953" pp="3" l="RB61" ppth="Ebersbach(Sachs)|Neusalza-Spremberg|Taubenheim(Spree)|Sohland|Schirgiswalde-Kirschau|Wilthen|Neukirch(Lausitz)Ost|Neukirch(Lausitz)West|Putzkau|Schmölln(Ol)|Bischofswerda|Weickersdorf(Sachs)|Großharthau|Arnsdorf(Dresden)|Radeberg|Langebrück(Sachs)|Dresden-Klotzsche|Dresden Industriegelände"/>
+		<dp pt="2410261955" pp="3" l="RB61" ppth="Dresden Mitte|Dresden Hbf"/>
+	</s>
+	<s id="7971168282545508537-2410261716-3">
+		<tl f="F" t="p" o="80" c="EC" n="179"/>
+		<ar pt="2410261900" pp="8" ppth="Berlin Hbf|Berlin Südkreuz"/>
+		<dp pt="2410261902" pp="8" ppth="Dresden Hbf|Bad Schandau|Decin hl.n.|Usti nad Labem hl.n.|Praha-Holesovice|Praha hl.n."/>
+	</s>
+	<s id="-6858584226265980127-2410261854-3">
+		<tl t="p" o="LD" c="TL" n="76533"/>
+		<ar pt="2410261859" pp="2" l="RB60" ppth="Dresden Hbf|Dresden Mitte"/>
+		<dp pt="2410261905" pp="2" l="RB60" ppth="Dresden Industriegelände|Dresden-Klotzsche|Langebrück(Sachs)|Radeberg|Arnsdorf(Dresden)|Großharthau|Weickersdorf(Sachs)|Bischofswerda|Demitz-Thumitz|Seitschen|Bautzen|Kubschütz|Pommritz|Breitendorf|Löbau(Sachs)|Zoblitz|Reichenbach(Oberlausitz)|Gersdorf(Görlitz)|Görlitz-Rauschwalde|Görlitz"/>
+	</s>
+	<s id="-316527850498625211-2410261958-1">
+		<tl f="N" t="p" o="800159" c="RE" n="18418"/>
+		<dp pt="2410261958" pp="5" l="18" ppth="Coswig(b Dresden)|Weinböhla Hp|Priestewitz|Großenhain Cottb Bf|Ortrand|Ruhland|Senftenberg|Sedlitz Ost|Cottbus Hbf"/>
+	</s>
+	<s id="4384390371839145436-2410261848-5">
+		<tl f="S" t="p" o="800469" c="S" n="32759"/>
+		<ar pt="2410261900" pp="3" l="2" ppth="Dresden Flughafen|Dresden Grenzstraße|Dresden-Klotzsche|Dresden Industriegelände"/>
+		<dp pt="2410261901" pp="3" l="2" ppth="Dresden Mitte|Dresden Freiberger Straße|Dresden Hbf"/>
+	</s>
+	<s id="-3618870681745488411-2410261518-9">
+		<tl f="F" t="p" o="80" c="ICE" n="1653"/>
+		<ar pt="2410261931" pp="8" ppth="Frankfurt(Main)Hbf|Fulda|Bad Hersfeld|Eisenach|Gotha|Erfurt Hbf|Leipzig Hbf|Riesa"/>
+		<dp pt="2410261933" pp="8" hi="1" ppth="Dresden Hbf"/>
+	</s>
+	<s id="7283768729144365781-2410261922-9">
+		<tl f="N" t="p" o="800159" c="RB" n="18033"/>
+		<ar pt="2410261944" pp="5" l="31" ppth="Coswig(b Dresden)|Radebeul-Naundorf|Niederwartha|Cossebaude|Dresden-Stetzsch|Dresden-Kemnitz|Dresden-Cotta|Dresden-Friedrichstadt"/>
+	</s>
+	<s id="-628338613961487099-2410261833-11">
+		<tl f="S" t="p" o="8004L1" c="S" n="16628"/>
+		<ar pt="2410261914" pp="4" l="8" ppth="Kamenz(Sachs)|Bischheim-Gersdorf|Pulsnitz|Pulsnitz Süd|Großröhrsdorf|Kleinröhrsdorf|Radeberg|Langebrück(Sachs)|Dresden-Klotzsche|Dresden Industriegelände"/>
+		<dp pt="2410261916" pp="4" l="8" ppth="Dresden Mitte|Dresden Hbf"/>
+	</s>
+	<s id="-6445681135415653643-2410261918-4">
+		<tl f="S" t="p" o="800469" c="S" n="32762"/>
+		<ar pt="2410261924" pp="1" l="2" ppth="Dresden Hbf|Dresden Freiberger Straße|Dresden Mitte"/>
+		<dp pt="2410261925" pp="1" l="2" ppth="Dresden Industriegelände|Dresden-Klotzsche|Dresden Grenzstraße|Dresden Flughafen"/>
+	</s>
+	<s id="1942491546857566823-2410261849-12">
+		<tl f="S" t="p" o="800469" c="S" n="31761"/>
+		<ar pt="2410261919" pp="2" l="1" ppth="Meißen Altstadt|Meißen|Neusörnewitz|Coswig(b Dresden)|Radebeul-Zitzschewig|Radebeul-Kötzschenbroda|Radebeul-Weintraube|Radebeul Ost|Dresden-Trachau|Dresden-Pieschen|Dresden Bischofsplatz"/>
+		<dp pt="2410261920" pp="2" l="1" ppth="Dresden Mitte|Dresden Freiberger Straße|Dresden Hbf|Dresden-Strehlen|Dresden-Reick|Dresden-Dobritz|Dresden-Niedersedlitz|Dresden-Zschachwitz|Heidenau|Heidenau Süd|Heidenau-Großsedlitz|Pirna|Obervogelgesang|Stadt Wehlen(Sachs)|Kurort Rathen|Königstein(Sächs Schw)|Bad Schandau|Krippen|Schmilka-Hirschmühle|Schöna"/>
+	</s>
+	<s id="1260774946970948681-2410261813-8">
+		<tl f="D" t="p" o="LDTLX" c="TLX" n="26914"/>
+		<ar pt="2410261923" pp="3" l="RE1" ppth="Görlitz|Löbau(Sachs)|Bautzen|Bischofswerda|Arnsdorf(Dresden)|Radeberg|Dresden-Klotzsche"/>
+		<dp pt="2410261925" pp="3" l="RE1" ppth="Dresden Mitte|Dresden Hbf"/>
+	</s>
+	<s id="-3960500375801214017-2410261954-3">
+		<tl t="p" o="LD" c="TL" n="76559"/>
+		<ar pt="2410261959" pp="2" l="RB61" ppth="Dresden Hbf|Dresden Mitte"/>
+		<dp pt="2410262003" pp="2" l="RB61" ppth="Dresden Industriegelände|Dresden-Klotzsche|Langebrück(Sachs)|Radeberg|Arnsdorf(Dresden)|Großharthau|Weickersdorf(Sachs)|Bischofswerda|Schmölln(Ol)|Putzkau|Neukirch(Lausitz)West|Neukirch(Lausitz)Ost|Wilthen|Schirgiswalde-Kirschau|Sohland|Taubenheim(Spree)|Neusalza-Spremberg|Ebersbach(Sachs)|Zittau|Hradek nad Nisou|Chotyne|Bily Kostel nad Nisou|Chrastava|Chrastava-Andelska Hora|Liberec"/>
+	</s>
+</timetable>
