@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<timetable station="Landshut(Bay)Hbf">
+	<s id="-315700385428077345-2410260840-10">
+		<tl f="N" t="p" o="8007H3" c="RE" n="4859"/>
+		<ar pt="2410261128" pp="6" l="2" ppth="Hof Hbf|Marktredwitz|Wiesau(Oberpf)|Weiden(Oberpf)|Schwandorf|Regensburg Hbf|Eggmühl|Neufahrn(Niederbay)|Ergoldsbach"/>
+		<dp pt="2410261130" pp="6" l="2" ppth="Moosburg|Freising|München Hbf"/>
+	</s>
+	<s id="3743588876305524551-2410261148-1">
+		<tl f="N" t="p" o="800767" c="RE" n="4067"/>
+		<dp pt="2410261148" pp="6" l="3" ppth="Moosburg|Freising|München Hbf"/>
+	</s>
+	<s id="5339470467538833416-2410261024-4">
+		<tl f="N" t="p" o="800767" c="RE" n="4066"/>
+		<ar pt="2410261112" pp="5" l="3" ppth="München Hbf|Freising|Moosburg"/>
+	</s>
+	<s id="2981932447469485664-2410261108-8">
+		<tl f="N" t="p" o="800767" c="RE" n="57918"/>
+		<ar pt="2410261149" pp="5" l="22" ppth="München Flughafen Terminal|Freising|Marzling|Langenbach(Oberbay)|Moosburg|Bruckberg|Gündlkofen"/>
+		<dp pt="2410261153" pp="5" l="22" ppth="Ergoldsbach|Neufahrn(Niederbay)|Eggmühl|Hagelstadt|Köfering|Obertraubling|Regensburg Hbf"/>
+	</s>
+	<s id="8395375099343625285-2410261120-1">
+		<tl t="p" o="B7" c="Bus" n="4066"/>
+		<dp pt="2410261120" pp="" l="EV" ppth="Wörth(Isar)|Dingolfing|Landau(Isar)|Wallersdorf|Plattling"/>
+	</s>
+	<s id="-2693631119415819345-2410261110-1">
+		<tl t="p" o="8013D" c="Bus" n="45117"/>
+		<dp pt="2410261110" pp="" l="RB45" ppth="Landshut Kupfereck|Geisenhausen|Vilsbiburg"/>
+	</s>
+	<s id="-4498654113366939076-2410261019-8">
+		<tl f="N" t="p" o="800767" c="RE" n="57915"/>
+		<ar pt="2410261103" pp="6" l="22" ppth="Regensburg Hbf|Obertraubling|Köfering|Hagelstadt|Eggmühl|Neufahrn(Niederbay)|Ergoldsbach"/>
+		<dp pt="2410261105" pp="6" l="22" ppth="Moosburg|Freising|München Flughafen Terminal"/>
+	</s>
+	<s id="-8215283893465838452-2410261044-3">
+		<tl f="D" t="p" o="A8N" c="ALX" n="357"/>
+		<ar pt="2410261127" pp="5" l="RE25" ppth="München Hbf|Freising"/>
+		<dp pt="2410261129" pp="5" l="RE25" pde="Praha hl.n." ppth="Neufahrn(Niederbay)|Regensburg Hbf|Schwandorf|Cham(Oberpf)|Furth im Wald"/>
+	</s>
+	<s id="-8466813096151358689-2410261103-4">
+		<tl t="p" o="8013D" c="Bus" n="45118"/>
+		<ar pt="2410261146" pp="" l="RB45" ppth="Vilsbiburg|Geisenhausen|Landshut Kupfereck"/>
+	</s>
+</timetable>

@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<timetable station="Rosenheim">
+	<s id="-7945859993924137481-2410260653-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79053"/>
+		<dp pt="2410260653" pp="4" l="RB54" ppth="Raubling|Brannenburg|Flintsbach|Oberaudorf|Kiefersfelden|Kufstein"/>
+	</s>
+	<s id="6801729035174711983-2410260546-2">
+		<tl f="D" t="p" o="M8" c="BRB" n="79005"/>
+		<ar pt="2410260632" pp="4" l="RE5" ppth="München Hbf Gl.5-10"/>
+		<dp pt="2410260639" pp="4" l="RE5" ppth="Bad Endorf|Prien am Chiemsee"/>
+	</s>
+	<s id="6341693472393726116-2410260537-13">
+		<tl f="D" t="p" o="M8" c="BRB" n="79589"/>
+		<ar pt="2410260623" pp="7" l="RB58" ppth="Holzkirchen|Kreuzstraße|Westerham|Feldolling|Bruckmühl|Heufeldmühle|Hinrichssegen|Heufeld|Bad Aibling|Bad Aibling Kurpark|Kolbermoor|Rosenheim Aicherpark"/>
+	</s>
+	<s id="8476680573171522702-2410260640-1">
+		<tl t="p" o="M8" c="Bus" n="60858"/>
+		<dp pt="2410260640" pp="" l="EV" ppth="Großkarolinenfeld|Ostermünchen|Aßling(Oberbay)|Grafing Bahnhof"/>
+	</s>
+	<s id="-1712875546883881715-2410260530-5">
+		<tl t="p" o="M8" c="Bus" n="60805"/>
+		<ar pt="2410260630" pp="" l="EV" ppth="Grafing Bahnhof|Aßling(Oberbay)|Ostermünchen|Großkarolinenfeld"/>
+	</s>
+	<s id="2512296643368996801-2410260600-7">
+		<tl f="D" t="p" o="M8" c="BRB" n="79058"/>
+		<ar pt="2410260627" pp="2" l="RB54" ppth="Kufstein|Kiefersfelden|Oberaudorf|Flintsbach|Brannenburg|Raubling"/>
+		<dp pt="2410260632" pp="2" l="RB54" ppth="München Hbf Gl.5-10"/>
+	</s>
+	<s id="2665085268370756467-2410260632-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79004"/>
+		<dp pt="2410260632" pp="2" l="RE5" wings="2512296643368996801-2410260600" ppth="München Hbf Gl.5-10"/>
+	</s>
+	<s id="-6521297757411943526-2410260640-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79560"/>
+		<dp pt="2410260640" pp="7" l="RB58" ppth="Rosenheim Aicherpark|Kolbermoor|Bad Aibling Kurpark|Bad Aibling|Heufeld|Hinrichssegen|Heufeldmühle|Bruckmühl|Feldolling|Westerham|Kreuzstraße|Holzkirchen"/>
+	</s>
+	<s id="-6173344107682969284-2410260352-10">
+		<tl t="p" o="M8" c="Bus" n="60104"/>
+		<ar pt="2410260622" pp="" l="EV" ppth="Salzburg Hbf|Freilassing|Teisendorf|Traunstein|Bergen(Oberbay)|Übersee|Bernau a Chiemsee|Prien am Chiemsee|Bad Endorf"/>
+	</s>
+</timetable>

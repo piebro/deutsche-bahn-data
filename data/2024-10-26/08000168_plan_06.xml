@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Uelzen">
+	<s id="-591740966552182182-2410260634-4">
+		<tl f="D" t="p" o="R1" c="ME" n="82109"/>
+		<ar pt="2410260656" pp="301" l="RE3" pde="Hamburg-Harburg" ppth="Lüneburg|Bienenbüttel|Bad Bevensen"/>
+	</s>
+	<s id="-6026100001913276581-2410260605-1">
+		<tl f="D" t="p" o="R1" c="ME" n="82108"/>
+		<dp pt="2410260605" pp="103" l="RE3" pde="Hamburg Hbf" ppth="Bad Bevensen|Bienenbüttel|Lüneburg"/>
+	</s>
+	<s id="6462704690323288824-2410260358-9">
+		<tl t="p" o="R1" c="Bus" n="2156"/>
+		<ar pt="2410260644" pp="" l="EV" ppth="Hannover Hbf|Langenhagen Mitte|Isernhagen|Großburgwedel|Celle|Eschede|Unterlüß|Suderburg"/>
+	</s>
+	<s id="-3783829201967449571-2410260534-3">
+		<tl f="F" t="p" o="80" c="ICE" n="505"/>
+		<ar pt="2410260630" pp="301" ppth="Hamburg-Altona|Hamburg Hbf"/>
+		<dp pt="2410260632" pp="301" ppth="Salzwedel|Stendal Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Leipzig Hbf|Erfurt Hbf|Fulda|Würzburg Hbf|Nürnberg Hbf|München Hbf"/>
+	</s>
+	<s id="7911763598988154921-2410260547-5">
+		<tl f="F" t="p" o="80" c="ICE" n="783"/>
+		<ar pt="2410260639" pp="101" ppth="Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Lüneburg"/>
+		<dp pt="2410260641" pp="101" ppth="Celle|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf|München Hbf"/>
+	</s>
+	<s id="3616049005087705081-2410260523-5">
+		<tl t="p" o="RS" c="Bus" n="86351"/>
+		<ar pt="2410260631" pp="" l="EV" ppth="Soltau(Han)|Munster(Örtze)|Brockhöfe|Ebstorf(Uelzen)"/>
+	</s>
+	<s id="4789669361901912578-2410260600-1">
+		<tl f="N" t="p" o="800489" c="RE" n="16925"/>
+		<dp pt="2410260600" pp="304" l="20" ppth="Stederdorf(Kr Uelzen)|Wieren|Soltendieck|Schnega|Salzwedel|Pretzier(Altm)|Fleetmark|Brunau-Packebusch|Hohenwulsch|Kläden(Stendal)|Steinfeld(Stendal)|Stendal Hbf|Tangerhütte|Zielitz Ort|Wolmirstedt|Magdeburg-Rothensee|Magdeburg-Eichenweiler|Magdeburg-Neustadt|Magdeburg Hbf"/>
+	</s>
+	<s id="8946012151514626034-2410260605-5">
+		<tl f="N" t="p" o="RSNM" c="RB" n="16351"/>
+		<ar pt="2410260652" pp="304" l="37" ppth="Soltau(Han)|Munster(Örtze)|Brockhöfe|Ebstorf(Uelzen)"/>
+	</s>
+</timetable>
