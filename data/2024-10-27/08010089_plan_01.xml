@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="Dresden-Neustadt">
+	<s id="2492143918486028416-2410262356-19">
+		<tl t="p" o="LD" c="TL" n="76558"/>
+		<ar pt="2410270110" pp="8" l="RB61" ppth="Ebersbach(Sachs)|Neusalza-Spremberg|Taubenheim(Spree)|Sohland|Schirgiswalde-Kirschau|Wilthen|Neukirch(Lausitz)Ost|Neukirch(Lausitz)West|Putzkau|Schmölln(Ol)|Bischofswerda|Weickersdorf(Sachs)|Großharthau|Arnsdorf(Dresden)|Radeberg|Langebrück(Sachs)|Dresden-Klotzsche|Dresden Industriegelände"/>
+		<dp pt="2410270111" pp="8" l="RB61" ppth="Dresden Mitte|Dresden Hbf"/>
+	</s>
+	<s id="-3332418250859455351-2410270105-4">
+		<tl f="S" t="p" o="800469" c="S" n="31788"/>
+		<ar pt="2410270111" pp="1" l="1" ppth="Dresden Hbf|Dresden Freiberger Straße|Dresden Mitte"/>
+		<dp pt="2410270112" pp="1" l="1" ppth="Dresden Bischofsplatz|Dresden-Pieschen|Dresden-Trachau|Radebeul Ost|Radebeul-Weintraube|Radebeul-Kötzschenbroda|Radebeul-Zitzschewig|Coswig(b Dresden)|Neusörnewitz|Meißen|Meißen Altstadt|Meißen Triebischtal"/>
+	</s>
+	<s id="2758012801402110899-2410270107-3">
+		<tl t="p" o="LD" c="TL" n="76569"/>
+		<ar pt="2410270112" pp="3" l="RB60" ppth="Dresden Hbf|Dresden Mitte"/>
+		<dp pt="2410270113" pp="3" l="RB60" ppth="Dresden Industriegelände|Dresden-Klotzsche|Langebrück(Sachs)|Radeberg|Arnsdorf(Dresden)|Großharthau|Weickersdorf(Sachs)|Bischofswerda|Demitz-Thumitz|Seitschen|Bautzen|Kubschütz|Pommritz|Breitendorf|Löbau(Sachs)|Zoblitz|Reichenbach(Oberlausitz)|Gersdorf(Görlitz)|Görlitz-Rauschwalde|Görlitz"/>
+	</s>
+	<s id="1202483610931944812-2410262340-21">
+		<tl t="p" o="LD" c="TL" n="76536"/>
+		<ar pt="2410270110" pp="8" l="RB60" wings="2492143918486028416-2410262356" ppth="Görlitz|Görlitz-Rauschwalde|Gersdorf(Görlitz)|Reichenbach(Oberlausitz)|Zoblitz|Löbau(Sachs)|Breitendorf|Pommritz|Kubschütz|Bautzen|Seitschen|Demitz-Thumitz|Bischofswerda|Weickersdorf(Sachs)|Großharthau|Arnsdorf(Dresden)|Radeberg|Langebrück(Sachs)|Dresden-Klotzsche|Dresden Industriegelände"/>
+		<dp pt="2410270111" pp="8" l="RB60" wings="2492143918486028416-2410262356" ppth="Dresden Mitte|Dresden Hbf"/>
+	</s>
+</timetable>
