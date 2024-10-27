@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf Gl.27-36">
+	<s id="2596339773141456012-2410272152-11">
+		<tl f="D" t="p" o="T8" c="BRB" n="87038"/>
+		<ar pt="2410272257" pp="33" l="RB57" ppth="Tegernsee|Gmund(Tegernsee)|Finsterwald|Moosrain|Schaftlach|Warngau|Holzkirchen|München-Solln|München Harras|München Donnersbergerbrücke"/>
+	</s>
+	<s id="-1491419381290008235-2410272204-1">
+		<tl f="D" t="p" o="T8" c="BRB" n="87015"/>
+		<dp pt="2410272204" pp="33" l="RB56" wings="4896160829399635418-2410272204" ppth="München Donnersbergerbrücke|München Harras|München-Solln|Holzkirchen|Warngau|Schaftlach|Reichersbeuern|Bad Tölz|Gaißach|Obergries|Lenggries"/>
+	</s>
+	<s id="4453338216624583167-2410272204-1">
+		<tl f="D" t="p" o="T8" c="BRB" n="86795"/>
+		<dp pt="2410272204" pp="33" l="RB55" wings="-1491419381290008235-2410272204|4896160829399635418-2410272204" ppth="München Donnersbergerbrücke|München Harras|München-Solln|Holzkirchen|Darching|Miesbach|Agatharied|Hausham|Schliersee|Fischhausen-Neuhaus|Fischbachau|Geitau|Osterhofen(Oberbay)|Bayrischzell"/>
+	</s>
+	<s id="3799012040250361387-2410272132-15">
+		<tl f="D" t="p" o="T8" c="BRB" n="86794"/>
+		<ar pt="2410272257" pp="33" l="RB55" wings="1405357969631771108-2410272147|2596339773141456012-2410272152" ppth="Bayrischzell|Osterhofen(Oberbay)|Geitau|Fischbachau|Fischhausen-Neuhaus|Schliersee|Hausham|Agatharied|Miesbach|Darching|Holzkirchen|München-Solln|München Harras|München Donnersbergerbrücke"/>
+	</s>
+	<s id="4896160829399635418-2410272204-1">
+		<tl f="D" t="p" o="T8" c="BRB" n="87035"/>
+		<dp pt="2410272204" pp="33" l="RB57" ppth="München Donnersbergerbrücke|München Harras|München-Solln|Holzkirchen|Warngau|Schaftlach|Moosrain|Finsterwald|Gmund(Tegernsee)|Tegernsee"/>
+	</s>
+	<s id="1405357969631771108-2410272147-12">
+		<tl f="D" t="p" o="T8" c="BRB" n="87018"/>
+		<ar pt="2410272257" pp="33" l="RB56" wings="2596339773141456012-2410272152" ppth="Lenggries|Obergries|Gaißach|Bad Tölz|Reichersbeuern|Schaftlach|Warngau|Holzkirchen|München-Solln|München Harras|München Donnersbergerbrücke"/>
+	</s>
+</timetable>
