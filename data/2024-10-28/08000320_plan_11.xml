@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<timetable station="Rosenheim">
+	<s id="8858127512255706378-2410281000-13">
+		<tl f="N" t="p" o="8013D" c="RB" n="27113"/>
+		<ar pt="2410281125" pp="1a" l="44" ppth="Vilsbiburg|Neumarkt-St Veit|Mühldorf(Oberbay)|Waldkraiburg-Kraiburg|Jettenbach|Gars(Inn)|Soyen|Wasserburg(Inn)Bf|Ramerberg|Rott(Inn)|Schechen|Rosenheim Hochschule"/>
+	</s>
+	<s id="8663039687891764241-2410281134-1">
+		<tl f="N" t="p" o="8013D" c="RB" n="27308"/>
+		<dp pt="2410281134" pp="1a" l="44" ppth="Rosenheim Hochschule|Schechen|Rott(Inn)|Ramerberg|Wasserburg(Inn)Bf|Gars(Inn)|Waldkraiburg-Kraiburg|Mühldorf(Oberbay)"/>
+	</s>
+	<s id="-6377201694517348157-2410281043-7">
+		<tl f="D" t="p" o="M8" c="BRB" n="79015"/>
+		<ar pt="2410281127" pp="4" l="RE5" wings="-5099201580373839389-2410281043" ppth="München Hbf Gl.5-10|München Ost|Grafing Bahnhof|Aßling(Oberbay)|Ostermünchen|Großkarolinenfeld"/>
+		<dp pt="2410281135" pp="4" l="RE5" ppth="Bad Endorf|Prien am Chiemsee"/>
+	</s>
+	<s id="-5099201580373839389-2410281043-7">
+		<tl f="D" t="p" o="M8" c="BRB" n="79065"/>
+		<ar pt="2410281127" pp="4" l="RB54" ppth="München Hbf Gl.5-10|München Ost|Grafing Bahnhof|Aßling(Oberbay)|Ostermünchen|Großkarolinenfeld"/>
+		<dp pt="2410281131" pp="4" l="RB54" ppth="Raubling|Brannenburg|Flintsbach|Oberaudorf|Kiefersfelden|Kufstein"/>
+	</s>
+	<s id="6067240894965152785-2410281037-13">
+		<tl f="D" t="p" o="M8" c="BRB" n="79519"/>
+		<ar pt="2410281125" pp="7" l="RB58" ppth="Holzkirchen|Kreuzstraße|Westerham|Feldolling|Bruckmühl|Heufeldmühle|Hinrichssegen|Heufeld|Bad Aibling|Bad Aibling Kurpark|Kolbermoor|Rosenheim Aicherpark"/>
+	</s>
+	<s id="-4904747794952443039-2410281040-5">
+		<tl f="F" t="p" o="81" c="EC" n="286"/>
+		<ar pt="2410281145" pp="3" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein"/>
+		<dp pt="2410281146" pp="3" ppth="München Ost|München Hbf Gl.5-10"/>
+	</s>
+	<s id="-338928531232951832-2410281106-3">
+		<tl f="D" t="p" o="M8" c="BRB" n="79022"/>
+		<ar pt="2410281125" pp="1" l="RE5" ppth="Prien am Chiemsee|Bad Endorf"/>
+		<dp pt="2410281135" pp="1" l="RE5" wings="5224160355597006733-2410281102" ppth="Großkarolinenfeld|Ostermünchen|Aßling(Oberbay)|Grafing Bahnhof|München Ost|München Hbf Gl.5-10"/>
+	</s>
+	<s id="4851039227817789692-2410281144-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79520"/>
+		<dp pt="2410281144" pp="7" l="RB58" ppth="Rosenheim Aicherpark|Kolbermoor|Bad Aibling Kurpark|Bad Aibling|Heufeld|Hinrichssegen|Heufeldmühle|Bruckmühl|Westerham|Kreuzstraße|Holzkirchen"/>
+	</s>
+	<s id="5224160355597006733-2410281102-7">
+		<tl f="D" t="p" o="M8" c="BRB" n="79072"/>
+		<ar pt="2410281129" pp="1" l="RB54" ppth="Kufstein|Kiefersfelden|Oberaudorf|Flintsbach|Brannenburg|Raubling"/>
+		<dp pt="2410281135" pp="1" l="RB54" ppth="Großkarolinenfeld|Ostermünchen|Aßling(Oberbay)|Grafing Bahnhof|München Ost|München Hbf Gl.5-10"/>
+	</s>
+</timetable>
