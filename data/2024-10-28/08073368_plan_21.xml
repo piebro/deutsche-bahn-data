@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Köln Messe/Deutz Gl.11-12">
+	<s id="-9170319321262747816-2410281713-9">
+		<tl f="F" t="p" o="80" c="ICE" n="102"/>
+		<ar pt="2410282129" pp="12" ppth="Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf|Wiesbaden Hbf"/>
+		<dp pt="2410282131" pp="12" ppth="Düsseldorf Hbf"/>
+	</s>
+	<s id="50770787591072936-2410281648-7">
+		<tl f="F" t="p" o="80" c="ICE" n="528"/>
+		<ar pt="2410282114" pp="12" ppth="München Hbf|Nürnberg Hbf|Würzburg Hbf|Aschaffenburg Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf"/>
+		<dp pt="2410282116" pp="12" ppth="Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf"/>
+	</s>
+	<s id="4918901842199858388-2410281701-10">
+		<tl f="F" t="p" o="80" c="ICE" n="2522"/>
+		<ar pt="2410282136" pp="" ppth="München Hbf|Nürnberg Hbf|Würzburg Hbf|Aschaffenburg Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Limburg Süd|Montabaur|Siegburg/Bonn"/>
+		<dp pt="2410282138" pp="" ppth="Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf"/>
+	</s>
+	<s id="-7056878515633598205-2410281838-7">
+		<tl f="F" t="p" o="84" c="ICE" n="221"/>
+		<ar pt="2410282117" pp="11" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Oberhausen Hbf|Duisburg Hbf|Düsseldorf Hbf"/>
+		<dp pt="2410282119" pp="11" ppth="Siegburg/Bonn|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-4272298498907669914-2410281900-5">
+		<tl t="p" o="81" c="NJ" n="40421"/>
+		<ar pt="2410282137" pp="11" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Düsseldorf Hbf"/>
+		<dp pt="2410282145" pp="11" ppth="Würzburg Hbf|Nürnberg Hbf|Regensburg Hbf|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="-3823254010841261196-2410281900-5">
+		<tl t="p" o="84" c="NJ" n="421"/>
+		<ar pt="2410282137" pp="11" wings="-4272298498907669914-2410281900" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Düsseldorf Hbf"/>
+		<dp pt="2410282145" pp="11" wings="-4272298498907669914-2410281900" ppth="Würzburg Hbf|Nürnberg Hbf|Augsburg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+</timetable>
