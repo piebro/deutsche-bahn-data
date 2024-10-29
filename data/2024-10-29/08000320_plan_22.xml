@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<timetable station="Rosenheim">
+	<s id="-2125387422365465848-2410292240-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79554"/>
+		<dp pt="2410292240" pp="7" l="RB58" ppth="Rosenheim Aicherpark|Kolbermoor|Bad Aibling Kurpark|Bad Aibling|Heufeld|Hinrichssegen|Heufeldmühle|Bruckmühl|Feldolling|Westerham|Kreuzstraße|Holzkirchen"/>
+	</s>
+	<s id="-7556470005364378778-2410292204-6">
+		<tl t="p" o="8013D" c="Bus" n="44323"/>
+		<ar pt="2410292249" pp="" l="RB44" ppth="Wasserburg(Inn)Bf|Ramerberg Ortsmitte|Rott(Inn)|Schechen Gasthaus Egger|Rosenheim Hochschule/FOS"/>
+	</s>
+	<s id="6592978468259737004-2410292104-6">
+		<tl t="p" o="8013D" c="Bus" n="44133"/>
+		<ar pt="2410292200" pp="" l="RB44" ppth="Wasserburg(Inn)Bf|Ramerberg Ortsmitte|Rott(Inn)|Schechen Gasthaus Egger|Rosenheim Hochschule/FOS"/>
+	</s>
+	<s id="-4580757756484141741-2410291315-15">
+		<tl f="F" t="p" o="80" c="ICE" n="1211"/>
+		<ar pt="2410292212" pp="4" ppth="Hamburg Dammtor|Hamburg Hbf|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Frankfurt(Main)Hbf|Mainz Hbf|Mannheim Hbf|Stuttgart Hbf|Ulm Hbf|Augsburg Hbf|München-Pasing|München Hbf|München Ost"/>
+		<dp pt="2410292213" pp="4" ppth="Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="-3059565084633537213-2410292143-7">
+		<tl f="D" t="p" o="M8" c="BRB" n="79045"/>
+		<ar pt="2410292227" pp="4" l="RE5" ppth="München Hbf Gl.5-10|München Ost|Grafing Bahnhof|Aßling(Oberbay)|Ostermünchen|Großkarolinenfeld"/>
+	</s>
+	<s id="-7226604022876462423-2410291900-6">
+		<tl f="F" t="p" o="78" c="EN" n="40237"/>
+		<ar pt="2410292205" pp="4" ppth="Stuttgart Hbf|Göppingen|Ulm Hbf|Augsburg Hbf|München Ost"/>
+		<dp pt="2410292207" pp="4" ppth="Kufstein|Salzburg Hbf|Schwarzach-St.Veit|Bad Hofgastein|Bad Gastein|Mallnitz-Obervellach|Spittal-Millstättersee|Villach Hbf|Jesenice(SL)|Lesce-Bled|Kranj|Ljubljana|Zidani Most|Sevnica|Krsko|Dobova|Zapresic|Zagreb Glavni kolodvor"/>
+	</s>
+	<s id="-4882363522291155155-2410292237-1">
+		<tl t="p" o="M8" c="Bus" n="60195"/>
+		<dp pt="2410292237" pp="" l="EV" ppth="Bad Endorf|Prien am Chiemsee|Bernau a Chiemsee|Übersee|Bergen(Oberbay)|Traunstein|Teisendorf|Freilassing|Salzburg Hbf"/>
+	</s>
+	<s id="-1228993334264947830-2410292159-7">
+		<tl f="D" t="p" o="M8" c="BRB" n="79094"/>
+		<ar pt="2410292226" pp="2" l="RB54" ppth="Kufstein|Kiefersfelden|Oberaudorf|Flintsbach|Brannenburg|Raubling"/>
+	</s>
+	<s id="-493042184713292680-2410292211-3">
+		<tl f="D" t="p" o="M8" c="BRB" n="79046"/>
+		<ar pt="2410292229" pp="1" l="RE5" ppth="Prien am Chiemsee|Bad Endorf"/>
+		<dp pt="2410292233" pp="1" l="RE5" ppth="Großkarolinenfeld|Ostermünchen|Aßling(Oberbay)|Grafing Bahnhof|München Ost|München Hbf Gl.5-10"/>
+	</s>
+	<s id="6746955278691408993-2410291900-6">
+		<tl f="F" t="p" o="55" c="EN" n="50237"/>
+		<ar pt="2410292205" pp="4" ppth="Stuttgart Hbf|Göppingen|Ulm Hbf|Augsburg Hbf|München Ost"/>
+		<dp pt="2410292207" pp="4" ppth="Kufstein|Salzburg Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf|Hegyeshalom|Mosonmagyarovar|Györ|Tatabanya|Budapest-Kelenföld|Budapest-Keleti"/>
+	</s>
+	<s id="-3326987226800527603-2410292211-1">
+		<tl t="p" o="8013D" c="Bus" n="44324"/>
+		<dp pt="2410292211" pp="" l="RB44" ppth="Rosenheim Hochschule/FOS|Schechen Gasthaus Egger|Rott(Inn)|Ramerberg Ortsmitte|Wasserburg(Inn)Bf"/>
+	</s>
+	<s id="5949417852042325682-2410291900-6">
+		<tl t="p" o="81" c="NJ" n="237"/>
+		<ar pt="2410292205" pp="4" wings="-7226604022876462423-2410291900|6746955278691408993-2410291900" ppth="Stuttgart Hbf|Göppingen|Ulm Hbf|Augsburg Hbf|München Ost"/>
+		<dp pt="2410292207" pp="4" wings="-7226604022876462423-2410291900|6746955278691408993-2410291900" ppth="Kufstein|Salzburg Hbf|Bischofshofen|Villach Hbf|Tarvisio Boscoverde|Udine|Pordenone|Conegliano|Treviso Centrale|Venezia Mestre|Venezia Santa Lucia"/>
+	</s>
+	<s id="1127135327253611444-2410292137-13">
+		<tl f="D" t="p" o="M8" c="BRB" n="79555"/>
+		<ar pt="2410292225" pp="7" l="RB58" ppth="Holzkirchen|Kreuzstraße|Westerham|Feldolling|Bruckmühl|Heufeldmühle|Hinrichssegen|Heufeld|Bad Aibling|Bad Aibling Kurpark|Kolbermoor|Rosenheim Aicherpark"/>
+	</s>
+	<s id="6928715414301850711-2410292235-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79093"/>
+		<dp pt="2410292235" pp="2" l="RB54" ppth="Raubling|Brannenburg|Flintsbach|Oberaudorf|Kiefersfelden|Kufstein"/>
+	</s>
+</timetable>
