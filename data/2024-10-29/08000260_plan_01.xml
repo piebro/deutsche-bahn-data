@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="Würzburg Hbf">
+	<s id="7500668147462712463-2410281835-13">
+		<tl f="F" t="p" o="81" c="IC" n="296"/>
+		<ar pt="2410290102" pp="6" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Schärding|Passau Hbf|Plattling|Straubing|Regensburg Hbf|Nürnberg Hbf|Fürth(Bay)Hbf"/>
+		<dp pt="2410290104" pp="6" ppth="Erfurt Hbf|Naumburg(Saale)Hbf|Halle(Saale)Hbf|Bitterfeld|Lutherstadt Wittenberg Hbf|Berlin Südkreuz|Berlin Hbf|Berlin Gesundbrunnen|Oranienburg|Neustrelitz Hbf|Waren(Müritz)|Rostock Hbf"/>
+	</s>
+	<s id="6992012378128167215-2410281956-6">
+		<tl t="p" o="81" c="NJ" n="40491"/>
+		<ar pt="2410290132" pp="5" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen"/>
+		<dp pt="2410290148" pp="5" ppth="Nürnberg Hbf|Augsburg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="8209469800275406026-2410282300-4">
+		<tl f="F" t="p" o="80" c="ICE" n="1080"/>
+		<ar pt="2410290116" pp="6" ppth="München Hbf|Ingolstadt Hbf|Nürnberg Hbf"/>
+		<dp pt="2410290119" pp="6" ppth="Bebra|Göttingen|Hannover Hbf|Celle|Uelzen|Lüneburg|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="-2044723357159653206-2410281956-6">
+		<tl t="p" o="81" c="NJ" n="491"/>
+		<ar pt="2410290132" pp="5" wings="6992012378128167215-2410281956" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen"/>
+		<dp pt="2410290148" pp="5" wings="6992012378128167215-2410281956" ppth="Nürnberg Hbf|Regensburg Hbf|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+</timetable>
