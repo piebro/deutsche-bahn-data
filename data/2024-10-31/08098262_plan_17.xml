@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf Gl.5-10">
+	<s id="346275540698501117-2410311633-9">
+		<tl f="N" t="p" o="8013D" c="RB" n="27050"/>
+		<ar pt="2410311755" pp="6" l="40" ppth="Mühldorf(Oberbay)|Ampfing|Schwindegg|Dorfen Bahnhof|Walpertskirchen|Hörlkofen|Markt Schwaben|München Ost"/>
+	</s>
+	<s id="-2454005409693185213-2410311741-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79083"/>
+		<dp pt="2410311741" pp="10" l="RB54" ppth="München Ost|Grafing Bahnhof|Aßling(Oberbay)|Ostermünchen|Großkarolinenfeld|Rosenheim|Raubling|Brannenburg|Flintsbach|Oberaudorf|Kiefersfelden|Kufstein"/>
+	</s>
+	<s id="7445800921064315868-2410311602-13">
+		<tl f="D" t="p" o="M8" c="BRB" n="79082"/>
+		<ar pt="2410311718" pp="10" l="RB54" ppth="Kufstein|Kiefersfelden|Oberaudorf|Flintsbach|Brannenburg|Raubling|Rosenheim|Großkarolinenfeld|Ostermünchen|Aßling(Oberbay)|Grafing Bahnhof|München Ost"/>
+	</s>
+	<s id="-3126553132351470612-2410311731-1">
+		<tl f="F" t="p" o="51" c="EN" n="406"/>
+		<dp pt="2410311731" pp="19" wings="3247720440817865862-2410311731" ppth="Linz Hbf|St.Pölten Hbf|Wien Hbf|Breclav|Ostrava hl.n.|Bohumin|Zebrzydowice|Czechowice-Dziedzice|Oswiecim|Skawina|Krakow Glowny|Miechow|Wloszczowa Polnoc|Opoczno Poludnie|Warszawa Zachodnia|Warszawa Centralna|Warszawa Wschodnia"/>
+	</s>
+	<s id="-8235406808755837072-2410311606-9">
+		<tl f="D" t="p" o="M8" c="BRB" n="79034"/>
+		<ar pt="2410311718" pp="10" l="RE5" wings="7445800921064315868-2410311602" ppth="Prien am Chiemsee|Bad Endorf|Rosenheim|Großkarolinenfeld|Ostermünchen|Aßling(Oberbay)|Grafing Bahnhof|München Ost"/>
+	</s>
+	<s id="2275124298851192194-2410311726-1">
+		<tl f="N" t="p" o="8013D" c="RE" n="27005"/>
+		<dp pt="2410311726" pp="6" l="4" ppth="München Ost|Dorfen Bahnhof|Ampfing|Mühldorf(Oberbay)|Töging(Inn)|Neuötting|Marktl|Julbach|Simbach(Inn)"/>
+	</s>
+	<s id="3180057398976226452-2410311701-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79081"/>
+		<dp pt="2410311701" pp="5" l="RB54" ppth="München Ost|Grafing Bahnhof|Aßling(Oberbay)|Ostermünchen|Großkarolinenfeld|Rosenheim|Raubling|Brannenburg|Flintsbach|Oberaudorf|Kiefersfelden|Kufstein"/>
+	</s>
+	<s id="2984989242016249310-2410311741-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79037"/>
+		<dp pt="2410311741" pp="10" l="RE5" wings="-2454005409693185213-2410311741" ppth="München Ost|Grafing Bahnhof|Aßling(Oberbay)|Ostermünchen|Großkarolinenfeld|Rosenheim|Bad Endorf|Prien am Chiemsee"/>
+	</s>
+	<s id="3247720440817865862-2410311731-1">
+		<tl f="F" t="p" o="NZ" c="IC" n="60406"/>
+		<dp pt="2410311731" pp="19" ppth="Linz Hbf|St.Pölten Hbf|Wien Hbf|Breclav|Ostrava hl.n.|Bohumin|Zebrzydowice|Czechowice-Dziedzice|Oswiecim|Skawina|Krakow Glowny|Miechow|Wloszczowa Polnoc|Opoczno Poludnie|Warszawa Zachodnia|Warszawa Centralna|Warszawa Wschodnia"/>
+	</s>
+</timetable>
