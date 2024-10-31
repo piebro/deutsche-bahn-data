@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf Gl.5-10">
+	<s id="3099880514924681889-2410310702-13">
+		<tl f="D" t="p" o="M8" c="BRB" n="79062"/>
+		<ar pt="2410310816" pp="7" l="RB54" ppth="Kufstein|Kiefersfelden|Oberaudorf|Flintsbach|Brannenburg|Raubling|Rosenheim|Großkarolinenfeld|Ostermünchen|Aßling(Oberbay)|Grafing Bahnhof|München Ost"/>
+	</s>
+	<s id="2480411575935464005-2410310739-10">
+		<tl f="N" t="p" o="8013D" c="RB" n="27028"/>
+		<ar pt="2410310855" pp="8" l="40" pde="Burghausen" ppth="Mühldorf(Oberbay)|Ampfing|Schwindegg|Dorfen Bahnhof|Thann-Matzbach|Walpertskirchen|Hörlkofen|Markt Schwaben|München Ost"/>
+	</s>
+	<s id="-5674596363993585750-2410310847-1">
+		<tl t="p" o="80" c="RJX" n="63"/>
+		<dp pt="2410310847" pp="20" ppth="Passau Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="-4866408468628120060-2410310706-9">
+		<tl f="D" t="p" o="M8" c="BRB" n="79010"/>
+		<ar pt="2410310816" pp="7" l="RE5" wings="3099880514924681889-2410310702" ppth="Prien am Chiemsee|Bad Endorf|Rosenheim|Großkarolinenfeld|Ostermünchen|Aßling(Oberbay)|Grafing Bahnhof|München Ost"/>
+	</s>
+	<s id="291083137901228988-2410310640-7">
+		<tl t="p" o="81" c="RJ" n="288"/>
+		<ar pt="2410310830" pp="10" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Ost"/>
+	</s>
+	<s id="-2141355300912756265-2410310648-9">
+		<tl f="N" t="p" o="8013D" c="RE" n="27004"/>
+		<ar pt="2410310835" pp="6" l="4" ppth="Simbach(Inn)|Julbach|Marktl|Neuötting|Töging(Inn)|Mühldorf(Oberbay)|Dorfen Bahnhof|München Ost"/>
+	</s>
+	<s id="1344312182465599860-2410310730-13">
+		<tl f="D" t="p" o="M8" c="BRB" n="79064"/>
+		<ar pt="2410310850" pp="5" l="RB54" ppth="Kufstein|Kiefersfelden|Oberaudorf|Flintsbach|Brannenburg|Raubling|Rosenheim|Großkarolinenfeld|Ostermünchen|Aßling(Oberbay)|Grafing Bahnhof|München Ost"/>
+	</s>
+	<s id="-5244643378637645953-2410310841-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79011"/>
+		<dp pt="2410310841" pp="7" l="RE5" wings="3023402330088844269-2410310841" ppth="München Ost|Grafing Bahnhof|Aßling(Oberbay)|Ostermünchen|Großkarolinenfeld|Rosenheim|Bad Endorf|Prien am Chiemsee"/>
+	</s>
+	<s id="3023402330088844269-2410310841-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79061"/>
+		<dp pt="2410310841" pp="7" l="RB54" ppth="München Ost|Grafing Bahnhof|Aßling(Oberbay)|Ostermünchen|Großkarolinenfeld|Rosenheim|Raubling|Brannenburg|Flintsbach|Oberaudorf|Kiefersfelden|Kufstein"/>
+	</s>
+</timetable>
