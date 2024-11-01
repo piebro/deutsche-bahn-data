@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<timetable station="Nürnberg Hbf">
+	<s id="-6918433389801349994-2411010206-1">
+		<tl f="S" t="p" o="800721" c="S" n="39496"/>
+		<dp pt="2411010206" pp="22" l="4" ppth="Nürnberg-Schweinau|Nürnberg-Stein|Unterasbach|Oberasbach|Anwanden|Roßtal|Roßtal Wegbrücke|Raitersaich|Heilsbronn|Petersaurach Nord|Wicklesgreuth|Sachsen(b Ansbach)|Ansbach"/>
+	</s>
+	<s id="-8677182982400525824-2410312044-8">
+		<tl t="p" o="81" c="NJ" n="40420"/>
+		<ar pt="2411010144" pp="4" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Hbf|Augsburg Hbf"/>
+		<dp pt="2411010233" pp="4" ppth="Würzburg Hbf|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-453644648962468087-2411010210-15">
+		<tl f="S" t="p" o="800721" c="S" n="39226"/>
+		<ar pt="2411010248" pp="1" l="1" ppth="Neumarkt(Oberpf)|Pölling|Postbauer-Heng|Oberferrieden|Burgthann|Mimberg|Ochenbruck|Feucht Ost|Feucht|Fischbach(Nürnberg)|Nürnberg Frankenstadion|Nürnberg-Dutzendteich|Nürnberg-Gleißhammer|Nürnberg-Dürrenhof"/>
+		<dp pt="2411010249" pp="1" l="1" ppth="Nürnberg-Steinbühl|Nürnberg Rothenburger Str.|Fürth(Bay)Hbf|Fürth-Klinikum|Vach|Eltersdorf|Erlangen-Bruck|Erlangen Paul-Gossen-Straße|Erlangen|Bubenreuth|Baiersdorf|Kersbach|Forchheim(Oberfr)"/>
+	</s>
+	<s id="-4853381024526504942-2411010128-14">
+		<tl f="S" t="p" o="800721" c="S" n="39225"/>
+		<ar pt="2411010208" pp="3" l="1" ppth="Forchheim(Oberfr)|Kersbach|Baiersdorf|Bubenreuth|Erlangen|Erlangen Paul-Gossen-Straße|Erlangen-Bruck|Eltersdorf|Vach|Fürth-Klinikum|Fürth(Bay)Hbf|Nürnberg Rothenburger Str.|Nürnberg-Steinbühl"/>
+		<dp pt="2411010210" pp="3" l="1" ppth="Nürnberg-Dürrenhof|Nürnberg-Gleißhammer|Nürnberg-Dutzendteich|Nürnberg Frankenstadion|Fischbach(Nürnberg)|Feucht|Feucht Ost|Ochenbruck|Mimberg|Burgthann|Oberferrieden|Postbauer-Heng|Pölling|Neumarkt(Oberpf)"/>
+	</s>
+	<s id="-9090977216907339259-2411010232-1">
+		<tl f="S" t="p" o="800721" c="S" n="58828"/>
+		<dp pt="2411010232" pp="15" l="6" ppth="Fürth(Bay)Hbf|Fürth-Unterfürberg|Fürth-Burgfarrnbach|Siegelsdorf|Puschendorf|Hagenbüchach|Emskirchen|Neustadt(Aisch)Mitte|Neustadt(Aisch)Bahnhof"/>
+	</s>
+	<s id="-6813803786124510421-2410311935-8">
+		<tl t="p" o="81" c="NJ" n="40490"/>
+		<ar pt="2411010125" pp="5" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Passau Hbf|Regensburg Hbf"/>
+		<dp pt="2411010229" pp="5" ppth="Würzburg Hbf|Köln Messe/Deutz Gl.11-12|Düsseldorf Hbf|Duisburg Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="3272146161175325165-2410312044-8">
+		<tl t="p" o="81" c="NJ" n="420"/>
+		<ar pt="2411010144" pp="4" wings="-8677182982400525824-2410312044" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Hbf|Augsburg Hbf"/>
+		<dp pt="2411010229" pp="4" wings="-6813803786124510421-2410311935" ppth="Würzburg Hbf|Köln Messe/Deutz Gl.11-12|Düsseldorf Hbf|Duisburg Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="455271153470259148-2411010123-10">
+		<tl f="S" t="p" o="800721" c="S" n="58827"/>
+		<ar pt="2411010205" pp="15" l="6" ppth="Neustadt(Aisch)Bahnhof|Neustadt(Aisch)Mitte|Emskirchen|Hagenbüchach|Puschendorf|Siegelsdorf|Fürth-Burgfarrnbach|Fürth-Unterfürberg|Fürth(Bay)Hbf"/>
+	</s>
+	<s id="-7547304040443208216-2410311935-8">
+		<tl t="p" o="81" c="NJ" n="490"/>
+		<ar pt="2411010125" pp="4" wings="-6813803786124510421-2410311935" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Passau Hbf|Regensburg Hbf"/>
+		<dp pt="2411010233" pp="4" wings="-8677182982400525824-2410312044" ppth="Würzburg Hbf|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-1767093700912896446-2411010133-18">
+		<tl f="S" t="p" o="800721" c="S" n="39696"/>
+		<ar pt="2411010217" pp="1" l="2" ppth="Hartmannshof|Pommelsbrunn|Happurg|Hersbruck(l Pegnitz)|Henfenfeld|Ottensoos|Lauf(links Pegnitz)|Lauf West|Röthenbach-Seespitze|Röthenbach-Steinberg|Röthenbach(Pegnitz)|Schwaig|Nürnberg-Laufamholz|Nürnberg-Rehhof|Nürnberg-Mögeldorf|Nürnberg Ostring|Nürnberg-Dürrenhof"/>
+		<dp pt="2411010221" pp="1" l="2" ppth="Nürnberg-Steinbühl|Nürnberg-Sandreuth|Nürnberg-Eibach|Nürnberg-Reichelsdorf|Reichelsdorfer Keller|Katzwang|Schwabach-Limbach|Schwabach|Rednitzhembach|Büchenbach|Roth"/>
+	</s>
+	<s id="7835310557815061402-2411010210-12">
+		<tl f="S" t="p" o="800721" c="S" n="39697"/>
+		<ar pt="2411010238" pp="3" l="2" ppth="Roth|Büchenbach|Rednitzhembach|Schwabach|Schwabach-Limbach|Katzwang|Reichelsdorfer Keller|Nürnberg-Reichelsdorf|Nürnberg-Eibach|Nürnberg-Sandreuth|Nürnberg-Steinbühl"/>
+		<dp pt="2411010243" pp="3" l="2" ppth="Nürnberg-Dürrenhof|Nürnberg Ostring|Nürnberg-Mögeldorf|Nürnberg-Rehhof|Nürnberg-Laufamholz|Schwaig|Röthenbach(Pegnitz)|Röthenbach-Steinberg|Röthenbach-Seespitze|Lauf West|Lauf(links Pegnitz)|Ottensoos|Henfenfeld|Hersbruck(l Pegnitz)|Happurg|Pommelsbrunn|Hartmannshof"/>
+	</s>
+</timetable>
