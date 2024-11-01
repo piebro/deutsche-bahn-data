@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf Gl.5-10">
+	<s id="3168160730932802093-2411010527-7">
+		<tl f="D" t="p" o="M8" c="BRB" n="79054"/>
+		<ar pt="2411010609" pp="10" l="RB54" ppth="Rosenheim|Großkarolinenfeld|Ostermünchen|Aßling(Oberbay)|Grafing Bahnhof|München Ost"/>
+	</s>
+	<s id="-5185317119813626433-2411010641-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79057"/>
+		<dp pt="2411010641" pp="10" l="RB54" ppth="München Ost|Grafing Bahnhof|Aßling(Oberbay)|Ostermünchen|Großkarolinenfeld|Rosenheim|Raubling|Brannenburg|Flintsbach|Oberaudorf|Kiefersfelden|Kufstein"/>
+	</s>
+	<s id="458601506753089479-2411010641-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79007"/>
+		<dp pt="2411010641" pp="10" l="RE5" wings="-5185317119813626433-2411010641" ppth="München Ost|Grafing Bahnhof|Aßling(Oberbay)|Ostermünchen|Großkarolinenfeld|Rosenheim|Bad Endorf|Prien am Chiemsee"/>
+	</s>
+</timetable>

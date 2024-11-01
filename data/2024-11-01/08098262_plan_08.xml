@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf Gl.5-10">
+	<s id="-3826657737226756782-2411010807-1">
+		<tl f="N" t="p" o="8013D" c="RB" n="27019"/>
+		<dp pt="2411010807" pp="11" l="40" ppth="München Ost|Markt Schwaben|Hörlkofen|Dorfen Bahnhof|Schwindegg|Ampfing|Mühldorf(Oberbay)"/>
+	</s>
+	<s id="3099880514924681889-2411010702-13">
+		<tl f="D" t="p" o="M8" c="BRB" n="79062"/>
+		<ar pt="2411010816" pp="10" l="RB54" ppth="Kufstein|Kiefersfelden|Oberaudorf|Flintsbach|Brannenburg|Raubling|Rosenheim|Großkarolinenfeld|Ostermünchen|Aßling(Oberbay)|Grafing Bahnhof|München Ost"/>
+	</s>
+	<s id="3023402330088844269-2411010841-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79061"/>
+		<dp pt="2411010841" pp="10" l="RB54" ppth="München Ost|Grafing Bahnhof|Aßling(Oberbay)|Ostermünchen|Großkarolinenfeld|Rosenheim|Raubling|Brannenburg|Flintsbach|Oberaudorf|Kiefersfelden|Kufstein"/>
+	</s>
+	<s id="8452370909729647788-2411010732-8">
+		<tl f="N" t="p" o="8013D" c="RB" n="27026"/>
+		<ar pt="2411010837" pp="8" l="40" pde="Burghausen" ppth="Mühldorf(Oberbay)|Ampfing|Schwindegg|Dorfen Bahnhof|Hörlkofen|Markt Schwaben|München Ost"/>
+	</s>
+	<s id="-5244643378637645953-2411010841-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79011"/>
+		<dp pt="2411010841" pp="10" l="RE5" wings="3023402330088844269-2411010841" ppth="München Ost|Grafing Bahnhof|Aßling(Oberbay)|Ostermünchen|Großkarolinenfeld|Rosenheim|Bad Endorf|Prien am Chiemsee"/>
+	</s>
+	<s id="-4866408468628120060-2411010706-9">
+		<tl f="D" t="p" o="M8" c="BRB" n="79010"/>
+		<ar pt="2411010816" pp="10" l="RE5" wings="3099880514924681889-2411010702" ppth="Prien am Chiemsee|Bad Endorf|Rosenheim|Großkarolinenfeld|Ostermünchen|Aßling(Oberbay)|Grafing Bahnhof|München Ost"/>
+	</s>
+	<s id="-5674596363993585750-2411010847-1">
+		<tl t="p" o="80" c="RJX" n="63"/>
+		<dp pt="2411010847" pp="20" ppth="Passau Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="291083137901228988-2411010640-7">
+		<tl t="p" o="81" c="RJ" n="288"/>
+		<ar pt="2411010827" pp="11" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Ost"/>
+	</s>
+</timetable>
