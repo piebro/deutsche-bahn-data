@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf Gl.5-10">
+	<s id="6854381308059443273-2411021630-8">
+		<tl f="N" t="p" o="8013D" c="RB" n="27048"/>
+		<ar pt="2411021737" pp="7" l="40" ppth="Mühldorf(Oberbay)|Ampfing|Schwindegg|Dorfen Bahnhof|Hörlkofen|Markt Schwaben|München Ost"/>
+	</s>
+	<s id="2984989242016249310-2411021741-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79037"/>
+		<dp pt="2411021741" pp="9" l="RE5" wings="-2454005409693185213-2411021741" ppth="Rosenheim|Bad Endorf|Prien am Chiemsee"/>
+	</s>
+	<s id="-3126553132351470612-2411021731-1">
+		<tl f="F" t="p" o="51" c="EN" n="406"/>
+		<dp pt="2411021731" pp="6" wings="3247720440817865862-2411021731" ppth="Linz Hbf|St.Pölten Hbf|Wien Hbf|Breclav|Ostrava hl.n.|Bohumin|Zebrzydowice|Czechowice-Dziedzice|Oswiecim|Skawina|Krakow Glowny|Miechow|Wloszczowa Polnoc|Opoczno Poludnie|Warszawa Zachodnia|Warszawa Centralna|Warszawa Wschodnia"/>
+	</s>
+	<s id="-2454005409693185213-2411021741-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79083"/>
+		<dp pt="2411021741" pp="10" l="RB54" ppth="Rosenheim|Raubling|Brannenburg|Flintsbach|Oberaudorf|Kiefersfelden|Kufstein"/>
+	</s>
+	<s id="7445800921064315868-2411021602-8">
+		<tl f="D" t="p" o="M8" c="BRB" n="79082"/>
+		<ar pt="2411021730" pp="10" l="RB54" ppth="Kufstein|Kiefersfelden|Oberaudorf|Flintsbach|Brannenburg|Raubling|Rosenheim"/>
+	</s>
+	<s id="-8235406808755837072-2411021606-4">
+		<tl f="D" t="p" o="M8" c="BRB" n="79034"/>
+		<ar pt="2411021730" pp="9" l="RE5" wings="7445800921064315868-2411021602" ppth="Prien am Chiemsee|Bad Endorf|Rosenheim"/>
+	</s>
+	<s id="3247720440817865862-2411021731-1">
+		<tl f="F" t="p" o="NZ" c="IC" n="60406"/>
+		<dp pt="2411021731" pp="6" ppth="Linz Hbf|St.Pölten Hbf|Wien Hbf|Breclav|Ostrava hl.n.|Bohumin|Zebrzydowice|Czechowice-Dziedzice|Oswiecim|Skawina|Krakow Glowny|Miechow|Wloszczowa Polnoc|Opoczno Poludnie|Warszawa Zachodnia|Warszawa Centralna|Warszawa Wschodnia"/>
+	</s>
+</timetable>

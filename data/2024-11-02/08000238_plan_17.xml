@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<timetable station="Lüneburg">
+	<s id="-4829231221989570123-2411021732-1">
+		<tl f="D" t="p" o="R1" c="ME" n="81630"/>
+		<dp pt="2411021732" pp="6" l="RB31" ppth="Bardowick|Radbruch|Winsen(Luhe)|Ashausen|Stelle|Maschen|Meckelfeld|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="-1814010400350286013-2411021251-12">
+		<tl f="F" t="p" o="80" c="ICE" n="1578"/>
+		<ar pt="2411021700" pp="2" ppth="Frankfurt(Main)Hbf|Friedberg(Hess)|Gießen|Marburg(Lahn)|Treysa|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen|Bad Bevensen"/>
+		<dp pt="2411021702" pp="2" ppth="Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="758859835085650931-2411021657-4">
+		<tl f="D" t="p" o="R1" c="ME" n="82131"/>
+		<ar pt="2411021733" pp="1" l="RE3" ppth="Hamburg Hbf|Hamburg-Harburg|Winsen(Luhe)"/>
+		<dp pt="2411021734" pp="1" l="RE3" pde="Hannover Hbf" ppth="Bienenbüttel|Bad Bevensen|Uelzen"/>
+	</s>
+	<s id="7219339044611281291-2411021633-10">
+		<tl f="D" t="p" o="R1" c="ME" n="81631"/>
+		<ar pt="2411021723" pp="6" l="RB31" ppth="Hamburg Hbf|Hamburg-Harburg|Meckelfeld|Maschen|Stelle|Ashausen|Winsen(Luhe)|Radbruch|Bardowick"/>
+	</s>
+	<s id="8888000383822586246-2411021120-15">
+		<tl f="F" t="p" o="80" c="IC" n="2082"/>
+		<ar pt="2411021757" pp="2" ppth="München Hbf|München-Pasing|Augsburg Hbf|Donauwörth|Treuchtlingen|Ansbach|Steinach(b Rothenburg ob der Tauber)|Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen"/>
+		<dp pt="2411021759" pp="2" ppth="Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="8184602835551537421-2411021653-4">
+		<tl f="D" t="p" o="X1" c="erx" n="28175"/>
+		<ar pt="2411021719" pp="5" l="RE83" ppth="Büchen|Lauenburg(Elbe)|Echem"/>
+	</s>
+	<s id="919585816458009806-2411021712-3">
+		<tl t="p" o="FLX35" c="FLX" n="1367"/>
+		<ar pt="2411021741" pp="1" l="35" ppth="Hamburg Hbf|Hamburg-Harburg"/>
+		<dp pt="2411021743" pp="1" l="35" ppth="Stendal Hbf|Berlin Hbf|Berlin Südkreuz|Leipzig Hbf"/>
+	</s>
+	<s id="7254156389033652820-2411021740-1">
+		<tl f="D" t="p" o="X1" c="erx" n="28178"/>
+		<dp pt="2411021740" pp="5" l="RE83" ppth="Echem|Lauenburg(Elbe)|Büchen"/>
+	</s>
+	<s id="5130042426659583874-2411021741-1">
+		<tl f="D" t="p" o="X2" c="erx" n="81547"/>
+		<dp pt="2411021741" pp="7" l="RB32" ppth="Wendisch Evern|Vastorf|Bavendorf|Dahlenburg|Neetzendorf|Göhrde|Leitstade|Hitzacker|Dannenberg Ost"/>
+	</s>
+	<s id="-4382352578512903050-2411021701-4">
+		<tl f="D" t="p" o="R1" c="ME" n="82130"/>
+		<ar pt="2411021724" pp="3" l="RE3" pde="Hannover Hbf" ppth="Uelzen|Bad Bevensen|Bienenbüttel"/>
+		<dp pt="2411021728" pp="3" l="RE3" ppth="Winsen(Luhe)|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="8290912034684684315-2411021617-5">
+		<tl f="F" t="p" o="80" c="ICE" n="803"/>
+		<ar pt="2411021718" pp="1" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg"/>
+		<dp pt="2411021720" pp="1" ppth="Uelzen|Salzwedel|Stendal Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz|Leipzig Hbf|Erfurt Hbf|Coburg|Bamberg|Erlangen|Nürnberg Hbf"/>
+	</s>
+</timetable>
