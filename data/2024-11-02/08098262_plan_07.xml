@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf Gl.5-10">
+	<s id="2665085268370756467-2411020632-7">
+		<tl f="D" t="p" o="M8" c="BRB" n="79004"/>
+		<ar pt="2411020715" pp="9" l="RE5" wings="2512296643368996801-2411020600" ppth="Rosenheim|Großkarolinenfeld|Ostermünchen|Aßling(Oberbay)|Grafing Bahnhof|München Ost"/>
+	</s>
+	<s id="2512296643368996801-2411020600-13">
+		<tl f="D" t="p" o="M8" c="BRB" n="79058"/>
+		<ar pt="2411020715" pp="10" l="RB54" ppth="Kufstein|Kiefersfelden|Oberaudorf|Flintsbach|Brannenburg|Raubling|Rosenheim|Großkarolinenfeld|Ostermünchen|Aßling(Oberbay)|Grafing Bahnhof|München Ost"/>
+	</s>
+	<s id="1674555087217657782-2411020701-1">
+		<tl t="p" o="80" c="RJX" n="61"/>
+		<dp pt="2411020701" pp="8" ppth="Passau Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="274168274112904353-2411020738-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79009"/>
+		<dp pt="2411020738" pp="9" l="RE5" wings="-9893488643141506-2411020738" ppth="München Ost|Grafing Bahnhof|Aßling(Oberbay)|Ostermünchen|Großkarolinenfeld|Rosenheim|Bad Endorf|Prien am Chiemsee"/>
+	</s>
+	<s id="1296554224550254648-2411020623-10">
+		<tl f="N" t="p" o="8013D" c="RB" n="27018"/>
+		<ar pt="2411020734" pp="8" l="40" ppth="Mühldorf(Oberbay)|Ampfing|Schwindegg|Dorfen Bahnhof|Thann-Matzbach|Walpertskirchen|Hörlkofen|Markt Schwaben|München Ost"/>
+	</s>
+	<s id="7388782966902643578-2411020749-1">
+		<tl f="D" t="p" o="3236" c="WB" n="959"/>
+		<dp pt="2411020749" pp="7" ppth="München Ost|Rosenheim|Freilassing|Salzburg Hbf|Vöcklabruck|Attnang-Puchheim|Wels Hbf|Linz Hbf|Amstetten NÖ|St.Pölten Hbf|Wien Hütteldorf|Wien Westbahnhof"/>
+	</s>
+	<s id="-9893488643141506-2411020738-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79059"/>
+		<dp pt="2411020738" pp="10" l="RB54" ppth="München Ost|Grafing Bahnhof|Aßling(Oberbay)|Ostermünchen|Großkarolinenfeld|Rosenheim|Raubling|Brannenburg|Flintsbach|Oberaudorf|Kiefersfelden|Kufstein"/>
+	</s>
+</timetable>
