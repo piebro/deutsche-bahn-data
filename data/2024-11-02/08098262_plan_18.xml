@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf Gl.5-10">
+	<s id="-3994644478874179945-2411021843-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79087"/>
+		<dp pt="2411021843" pp="10" l="RB54" ppth="Rosenheim|Raubling|Brannenburg|Flintsbach|Oberaudorf|Kiefersfelden|Kufstein"/>
+	</s>
+	<s id="-6574981582705854968-2411021702-8">
+		<tl f="D" t="p" o="M8" c="BRB" n="79084"/>
+		<ar pt="2411021836" pp="10" l="RB54" ppth="Kufstein|Kiefersfelden|Oberaudorf|Flintsbach|Brannenburg|Raubling|Rosenheim"/>
+	</s>
+	<s id="-6215425338250116235-2411021705-4">
+		<tl f="D" t="p" o="M8" c="BRB" n="79036"/>
+		<ar pt="2411021836" pp="9" l="RE5" wings="-6574981582705854968-2411021702" ppth="Prien am Chiemsee|Bad Endorf|Rosenheim"/>
+	</s>
+	<s id="2832026240203944514-2411021843-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79039"/>
+		<dp pt="2411021843" pp="9" l="RE5" wings="-3994644478874179945-2411021843" ppth="Rosenheim|Bad Endorf|Prien am Chiemsee"/>
+	</s>
+	<s id="1602471874118012713-2411021808-1">
+		<tl f="N" t="p" o="8013D" c="RB" n="27057"/>
+		<dp pt="2411021808" pp="7" l="40" ppth="München Ost|Markt Schwaben|Hörlkofen|Walpertskirchen|Thann-Matzbach|Dorfen Bahnhof|Schwindegg|Ampfing|Mühldorf(Oberbay)"/>
+	</s>
+</timetable>

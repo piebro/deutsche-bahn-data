@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<timetable station="Rosenheim">
+	<s id="-1890098266548386677-2411021758-15">
+		<tl f="N" t="p" o="8013D" c="RB" n="27129"/>
+		<ar pt="2411021925" pp="1a" l="44" ppth="Vilsbiburg|Aich(Niederbay)|Egglkofen|Neumarkt-St Veit|Mühldorf(Oberbay)|Waldkraiburg-Kraiburg|Jettenbach|Gars(Inn)|Soyen|Wasserburg(Inn)Bf|Ramerberg|Rott(Inn)|Schechen|Rosenheim Hochschule"/>
+	</s>
+	<s id="2730513716914564482-2411021940-1">
+		<tl t="p" o="M8" c="Bus" n="60988"/>
+		<dp pt="2411021940" pp="" l="EV" ppth="Großkarolinenfeld|Ostermünchen|Aßling(Oberbay)|Grafing Bahnhof"/>
+	</s>
+	<s id="-4511690643263861987-2411021906-3">
+		<tl f="D" t="p" o="M8" c="BRB" n="79040"/>
+		<ar pt="2411021925" pp="1" l="RE5" ppth="Prien am Chiemsee|Bad Endorf"/>
+		<dp pt="2411021932" pp="1" l="RE5" wings="4686009531619011137-2411021902" ppth="München Hbf Gl.5-10"/>
+	</s>
+	<s id="6487087615224927153-2411021335-16">
+		<tl t="p" o="80" c="RJ" n="82"/>
+		<ar pt="2411021945" pp="3" ppth="Venezia Santa Lucia|Venezia Mestre|Padova|Vicenza|Verona Porta Nuova|Rovereto|Trento|Bolzano/Bozen|Bressanone/Brixen|Fortezza/Franzensfeste|Brennero/Brenner|Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein"/>
+		<dp pt="2411021946" pp="3" ppth="München Hbf"/>
+	</s>
+	<s id="4548014869930330533-2411021802-13">
+		<tl t="p" o="M8" c="Bus" n="60885"/>
+		<ar pt="2411021924" pp="" l="EV" ppth="Holzkirchen|Kreuzstraße|Westerham|Feldolling|Bruckmühl|Heufeldmühle|Hinrichssegen|Heufeld|Bad Aibling|Bad Aibling Kurpark|Kolbermoor|Rosenheim Aicherpark"/>
+	</s>
+	<s id="-3994644478874179945-2411021843-2">
+		<tl f="D" t="p" o="M8" c="BRB" n="79087"/>
+		<ar pt="2411021928" pp="4" l="RB54" ppth="München Hbf Gl.5-10"/>
+		<dp pt="2411021931" pp="4" l="RB54" ppth="Raubling|Brannenburg|Flintsbach|Oberaudorf|Kiefersfelden|Kufstein"/>
+	</s>
+	<s id="4686009531619011137-2411021902-7">
+		<tl f="D" t="p" o="M8" c="BRB" n="79088"/>
+		<ar pt="2411021929" pp="1" l="RB54" ppth="Kufstein|Kiefersfelden|Oberaudorf|Flintsbach|Brannenburg|Raubling"/>
+		<dp pt="2411021932" pp="1" l="RB54" ppth="München Hbf Gl.5-10"/>
+	</s>
+	<s id="-5633529841553302828-2411021820-5">
+		<tl t="p" o="M8" c="Bus" n="60987"/>
+		<ar pt="2411021920" pp="" l="EV" ppth="Grafing Bahnhof|Aßling(Oberbay)|Ostermünchen|Großkarolinenfeld"/>
+	</s>
+	<s id="-1985437376232978675-2411021938-1">
+		<tl t="p" o="M8" c="Bus" n="60886"/>
+		<dp pt="2411021938" pp="" l="EV" ppth="Rosenheim Aicherpark|Kolbermoor|Bad Aibling Kurpark|Bad Aibling|Heufeld|Hinrichssegen|Heufeldmühle|Bruckmühl|Feldolling|Westerham|Kreuzstraße|Holzkirchen"/>
+	</s>
+	<s id="2832026240203944514-2411021843-2">
+		<tl f="D" t="p" o="M8" c="BRB" n="79039"/>
+		<ar pt="2411021928" pp="4" l="RE5" wings="-3994644478874179945-2411021843" ppth="München Hbf Gl.5-10"/>
+		<dp pt="2411021935" pp="4" l="RE5" ppth="Bad Endorf|Prien am Chiemsee"/>
+	</s>
+	<s id="-7204643245680624085-2411021823-2">
+		<tl t="p" o="81" c="NJ" n="40295"/>
+		<ar pt="2411021924" pp="3" hi="1" ppth="München Hbf"/>
+		<dp pt="2411021936" pp="3" ppth="Kufstein|Schwarzach-St.Veit|Villach Hbf|Tarvisio Boscoverde|Padova|Vicenza|Verona Porta Nuova|Peschiera del Garda|Desenzano del Garda-Sirmione|Brescia|Milano Rogoredo|Pavia|Genova Piazza Principe|S.Margherita Ligure-Portofino|Rapallo|Sestri Levante|Levanto|Monterosso|La Spezia Centrale"/>
+	</s>
+	<s id="8552451706123348592-2411021934-1">
+		<tl f="N" t="p" o="8013D" c="RB" n="27316"/>
+		<dp pt="2411021934" pp="1a" l="44" ppth="Rosenheim Hochschule|Schechen|Rott(Inn)|Ramerberg|Wasserburg(Inn)Bf|Gars(Inn)|Waldkraiburg-Kraiburg|Mühldorf(Oberbay)"/>
+	</s>
+	<s id="1545083288729087211-2411021823-2">
+		<tl t="p" o="81" c="NJ" n="295"/>
+		<ar pt="2411021924" pp="3" hi="1" wings="-7204643245680624085-2411021823" ppth="München Hbf"/>
+		<dp pt="2411021936" pp="3" wings="-7204643245680624085-2411021823" ppth="Kufstein|Schwarzach-St.Veit|Villach Hbf|Tarvisio Boscoverde|Bologna Centrale|Firenze S.M.N.|Roma Tiburtina"/>
+	</s>
+</timetable>
