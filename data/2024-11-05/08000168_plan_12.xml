@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<timetable station="Uelzen">
+	<s id="-8400241610239571421-2411051140-9">
+		<tl f="D" t="p" o="R1" c="ME" n="82872"/>
+		<ar pt="2411051239" pp="103" l="RE3" tra="-5345756847556552176-2411051301-1" ppth="Hannover Hbf|Langenhagen Mitte|Isernhagen|Großburgwedel|Celle|Eschede|Unterlüß|Suderburg"/>
+	</s>
+	<s id="-6838918391074923218-2411050851-11">
+		<tl f="F" t="p" o="80" c="ICE" n="1672"/>
+		<ar pt="2411051240" pp="102" ppth="Frankfurt(Main)Hbf|Friedberg(Hess)|Gießen|Marburg(Lahn)|Treysa|Wabern(Bz Kassel)|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle"/>
+		<dp pt="2411051242" pp="102" ppth="Lüneburg|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="5264850999984058464-2411051157-7">
+		<tl f="D" t="p" o="R1" c="ME" n="82121"/>
+		<ar pt="2411051256" pp="301" l="RE3" ppth="Hamburg Hbf|Hamburg-Harburg|Winsen(Luhe)|Lüneburg|Bienenbüttel|Bad Bevensen"/>
+	</s>
+	<s id="-2704526533351603132-2411051138-12">
+		<tl f="D" t="p" o="X2" c="erx" n="83612"/>
+		<ar pt="2411051253" pp="303" l="RB47" ppth="Gifhorn|Gifhorn Stadt|Triangel|Wahrenholz|Schönewörde|Vorhop|Knesebeck|Wittingen|Bad Bodenteich|Wieren|Stederdorf(Kr Uelzen)"/>
+	</s>
+	<s id="1170763571226731300-2411051201-1">
+		<tl f="D" t="p" o="R1" c="ME" n="82120"/>
+		<dp pt="2411051201" pp="103" l="RE3" ppth="Bad Bevensen|Bienenbüttel|Lüneburg|Winsen(Luhe)|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="8133582153218457339-2411051046-10">
+		<tl f="N" t="p" o="RSNM" c="RB" n="16357"/>
+		<ar pt="2411051252" pp="302" l="37" ppth="Bremen Hbf|Bremen-Mahndorf|Achim|Langwedel|Visselhövede|Soltau(Han)|Munster(Örtze)|Brockhöfe|Ebstorf(Uelzen)"/>
+	</s>
+	<s id="6096973730097423087-2411051120-2">
+		<tl t="p" o="FLX35" c="FLX" n="1363"/>
+		<ar pt="2411051159" pp="302" l="35" ppth="Hamburg Hbf"/>
+		<dp pt="2411051205" pp="302" l="35" ppth="Stendal Hbf|Berlin Hbf|Berlin Südkreuz"/>
+	</s>
+	<s id="5174112396429851052-2411051136-4">
+		<tl t="p" o="X2" c="Bus" n="3610"/>
+		<ar pt="2411051212" pp="" l="RB47" ppth="Bad Bodenteich|Wieren|Stederdorf(Kr Uelzen)"/>
+	</s>
+	<s id="5750514599965892029-2411051209-1">
+		<tl f="D" t="p" o="R1" c="ME" n="82869"/>
+		<dp pt="2411051209" pp="301" l="RE3" tra="6229593701195627276-2411051057-7" ppth="Suderburg|Unterlüß|Eschede|Celle|Großburgwedel|Isernhagen|Langenhagen Mitte|Hannover Hbf"/>
+	</s>
+	<s id="235347214713352060-2411051134-3">
+		<tl f="F" t="p" o="80" c="ICE" n="1601"/>
+		<ar pt="2411051230" pp="301" ppth="Hamburg-Altona|Hamburg Hbf"/>
+		<dp pt="2411051232" pp="301" ppth="Salzwedel|Stendal Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Leipzig Hbf|Erfurt Hbf|Erlangen|Nürnberg Hbf|München Hbf"/>
+	</s>
+</timetable>
