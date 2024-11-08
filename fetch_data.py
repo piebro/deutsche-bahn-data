@@ -57,7 +57,7 @@ def main():
     date_str_url = date_str.replace("-", "")[2:]
 
     save_folder = Path("data") / date_str
-    save_folder.mkdir(exist_ok=True)
+    save_folder.mkdir(exist_ok=True, parents=True)
 
     with Path("eva_list.txt").open("r") as f:
         eva_list = f.read().split("\n")
