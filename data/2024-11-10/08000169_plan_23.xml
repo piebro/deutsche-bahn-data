@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Hildesheim Hbf">
+	<s id="8658864895166983083-2411102234-6">
+		<tl f="S" t="p" o="TDHS" c="S" n="34337"/>
+		<ar pt="2411102313" pp="5" l="3" ppth="Hannover Hbf|Lehrte|Sehnde|Algermissen|Harsum"/>
+	</s>
+	<s id="-1113872591615872448-2411102343-1">
+		<tl f="S" t="p" o="TDHS" c="S" n="34338"/>
+		<dp pt="2411102343" pp="5" l="3" ppth="Harsum|Algermissen|Sehnde|Lehrte|Hannover Karl-Wiechert-Allee|Hannover Hbf"/>
+	</s>
+	<s id="88568078225937621-2411102306-1">
+		<tl f="S" t="p" o="TDHS" c="S" n="34478"/>
+		<dp pt="2411102306" pp="5" l="4" ppth="Emmerke|Barnten|Sarstedt|Rethen(Leine)|Hannover Messe/Laatzen|Hannover Bismarckstr.|Hannover Hbf|Hannover-Nordstadt|Hannover-Ledeburg|Hannover-Vinnhorst|Langenhagen Mitte|Langenhagen Pferdemarkt|Langenhagen-Kaltenweide|Bissendorf|Mellendorf|Bennemühlen"/>
+	</s>
+	<s id="9069983786449867443-2411102248-7">
+		<tl f="D" t="p" o="X2" c="erx" n="83488"/>
+		<ar pt="2411102342" pp="3" l="RE10" ppth="Bad Harzburg|Goslar|Salzgitter-Ringelheim|Baddeckenstedt|Derneburg(Han)|Hildesheim Ost"/>
+		<dp pt="2411102344" pp="3" l="RE10" ppth="Sarstedt|Hannover Hbf"/>
+	</s>
+	<s id="7621373856227750463-2411102248-3">
+		<tl f="D" t="p" o="X2" c="erx" n="83487"/>
+		<ar pt="2411102313" pp="2" l="RE10" ppth="Hannover Hbf|Sarstedt"/>
+		<dp pt="2411102314" pp="2" l="RE10" ppth="Hildesheim Ost|Derneburg(Han)|Baddeckenstedt|Salzgitter-Ringelheim|Goslar|Bad Harzburg"/>
+	</s>
+	<s id="-7422869786889116657-2411102251-17">
+		<tl f="S" t="p" o="TDHS" c="S" n="34475"/>
+		<ar pt="2411102349" pp="5" l="4" ppth="Bennemühlen|Mellendorf|Bissendorf|Langenhagen-Kaltenweide|Langenhagen Pferdemarkt|Langenhagen Mitte|Hannover-Vinnhorst|Hannover-Ledeburg|Hannover-Nordstadt|Hannover Hbf|Hannover Bismarckstr.|Hannover Messe/Laatzen|Rethen(Leine)|Sarstedt|Barnten|Emmerke"/>
+	</s>
+	<s id="6606826357131203295-2411102218-8">
+		<tl t="p" o="R0" c="ENO" n="83584"/>
+		<ar pt="2411102308" pp="4" l="RE50" ppth="Wolfsburg Hbf|Fallersleben|Weddel(Braunschw)|Braunschweig Hbf|Lengede-Broistedt|Woltwiesche|Hoheneggelsen"/>
+	</s>
+</timetable>
