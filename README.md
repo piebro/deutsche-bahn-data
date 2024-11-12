@@ -8,7 +8,7 @@ The [timetables-api](https://developers.deutschebahn.com/db-api-marketplace/apis
 
 The [timetable-plan-api](https://developers.deutschebahn.com/db-api-marketplace/apis/product/timetables/api/26494#/Timetables_10213/operation/%2Fplan%2F{evaNo}%2F{date}%2F{hour}/get) is used to get the planned timetable for a station at a specific hour and day. The [timetable-changes-api](https://developers.deutschebahn.com/db-api-marketplace/apis/product/timetables/api/26494#/Timetables_10213/operation/%2Ffchg%2F{evaNo}/get) is used to get all change. This API is queried every 6 hours to not miss any changes.
 
-The API is queried using the evas from the biggest train stations. The responses are saved in the `data` folder. Each day is a new subfolder and the suffix of each file hour in UTS time when the change request was made or the time of the planned train schedule.
+The API is queried using the evas from the biggest train stations To get the evas, the [Station Data API](https://developers.deutschebahn.com/db-api-marketplace/apis/product/stada) is used to get all station with [category](https://en.wikipedia.org/wiki/German_railway_station_categories) 1 or 2. The responses are saved in the `data` folder. Each day is a new subfolder and the suffix of each file hour in UTS time when the change request was made or the time of the planned train schedule.
 
 You can look at the api using the website https://editor.swagger.io/ together with OpenAPI Documentation you can download from [here](https://developers.deutschebahn.com/db-api-marketplace/apis/product/timetables/api/26494#/Timetables_10213/overview).
 
@@ -67,16 +67,6 @@ The database contains the following columns that track train schedules, delays, 
    python create_monthly_data_release.py "YYYY-MM"
    ```
    Replace `YYYY-MM` with the desired year and month.
-
-## How to get the biggest train stations and their EVA number?
-
-There are [german railway station categories](https://en.wikipedia.org/wiki/German_railway_station_categories) ([german link](https://de.wikipedia.org/wiki/Preisklasse)) we can use to get the biggest train stations. There is a table of each german train station with its category [here](https://www.dbinfrago.com/web/bahnhoefe/leistungen/stationsnutzung/stationshalt/Stationspreise-10995752). This is used to get all train stations in catgory 1 and 2.
-
-Using the [timetable-station-api](https://developers.deutschebahn.com/db-api-marketplace/apis/product/timetables/api/26494#/Timetables_10213/operation/%2Fstation%2F{pattern}/get), the evas from station names from the list above can be retrieved.
-
-There is a script called `get_eva_list.py` to save the EVAs of all relevant train stations. It doesn't work for all station names, the remaining ones can be looked up here: https://wiki.openstreetmap.org/w/images/c/c2/20141001_IBNR.pdf. For running the script you need to install `pdfplumber`.
-
-Some train stations also have multiple evas (out of historical or other reasons). There is a script to get them, together with the name: `get_additional_evas_of_trainstations.py`.
 
 ## Contributing
 
