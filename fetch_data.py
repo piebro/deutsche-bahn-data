@@ -23,7 +23,7 @@ headers = {
 }
 
 
-def save_api_data(formatted_url, save_path, prettify=True, max_retries=5):
+def save_api_data(formatted_url, save_path, prettify=True, max_retries=4):
     for attempt in range(max_retries):
         try:
             response = requests.get(formatted_url, headers=headers, timeout=10)
@@ -43,8 +43,8 @@ def save_api_data(formatted_url, save_path, prettify=True, max_retries=5):
         except (RequestException, ConnectionError) as e:
             print(f"Attempt {attempt + 1} failed: {e}")
             if attempt < max_retries - 1:
-                print("Retrying in 2 seconds...")
-                time.sleep(2)
+                print("Retrying in 1 seconds...")
+                time.sleep(1)
             else:
                 print(f"Failed to fetch data after {max_retries} attempts: {formatted_url}")
 
