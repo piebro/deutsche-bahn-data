@@ -61,7 +61,7 @@ def main():
     save_folder = Path("data") / date_str
     save_folder.mkdir(exist_ok=True, parents=True)
 
-    df = pd.read_csv("eva_list.csv")
+    df = pd.read_csv(Path("monthly_data_releases") / 'current_eva_list.csv')
     eva_list = []
     for evas in df['evas']:
         eva_list.extend(evas.split(","))
