@@ -1,8 +1,10 @@
 import pandas as pd
+from pathlib import Path
 import requests
 from requests.exceptions import RequestException
 import time
 import os
+
 
 def fetch_and_process_stations(api_key, client_id, categories="1-2", max_retries=5):
     # API configuration
@@ -87,8 +89,7 @@ if __name__ == "__main__":
     df = fetch_and_process_stations(api_key, client_id)
     
     if df is not None:
-        # Optionally save to CSV if needed
-        df.to_csv('eva_list.csv', index=False, quoting=2, quotechar='"')
+        df.to_csv(Path("monthly_data_releases") / 'current_eva_list.csv', index=False, quoting=2, quotechar='"')
         print(f"Successfully processed {len(df)} stations")
     else:
         print("Failed to fetch and process station data")
