@@ -17,6 +17,32 @@ An example curl command to query the plan api:
 curl -s -H "DB-Api-Key: $API_KEY" -H "DB-Client-Id: $CLIENT_ID" -H "accept: application/xml" "https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/08000260/$(date +"%y%m%d")/$(date +"%H")"
 ```
 
+## Database Column Descriptions
+
+The database contains the following columns that track train schedules, delays, and changes:
+
+### Core Information
+- `station`: String - The name of the station where the train stop occurs
+- `train_name`: String - The identifier of the train, combining train type and number (e.g., "IC 123" or "RE 10")
+- `train_type`: String - The type of train service (e.g., "IC", "ICE", "EC", "RE")
+- `final_destination_station`: String - The final destination station of the train's journey
+
+### Timing Information
+- `delay_in_min`: Integer - The delay in minutes (calculated from departure delay if available, otherwise arrival delay)
+- `time`: Timestamp - The effective time of the train stop (uses departure time if available, otherwise arrival time)
+- `arrival_planned_time`: Timestamp - The scheduled arrival time at the station
+- `arrival_change_time`: Timestamp - The actual/modified arrival time. If no changes occurred, equals the planned time
+- `departure_planned_time`: Timestamp - The scheduled departure time from the station
+- `departure_change_time`: Timestamp - The actual/modified departure time. If no changes occurred, equals the planned time
+
+### Status Information
+- `is_canceled`: Boolean - Indicates whether the train stop was canceled (true) or not (false)
+
+### Train Line Information
+- `train_line_ride_id`: String - Unique identifier for a specific train journey
+- `train_line_station_num`: Integer - The sequential number of this station stop within the train's journey
+
+
 ## Setup
 
 1. Clone the repository:
