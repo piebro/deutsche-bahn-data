@@ -36,7 +36,7 @@ def save_api_data(formatted_url, save_path, prettify=True, max_retries=4):
                     f.write(parseString(response.content).toprettyxml())
                 else:
                     f.write(parseString(response.content).toxml())
-            
+
             time.sleep(1 / 60)  # Rate limiting
             return  # Success, exit the function
 
@@ -53,7 +53,7 @@ def save_api_data(formatted_url, save_path, prettify=True, max_retries=4):
 
 def main():
     plan_url = "https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/{eva}/{date}/{hour}"
-    fchg_url = ("https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/fchg/{eva}")
+    fchg_url = "https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/fchg/{eva}"
 
     date_str = datetime.now().strftime("%Y-%m-%d")
     date_str_url = date_str.replace("-", "")[2:]
@@ -61,9 +61,9 @@ def main():
     save_folder = Path("data") / date_str
     save_folder.mkdir(exist_ok=True, parents=True)
 
-    df = pd.read_csv(Path("monthly_data_releases") / 'current_eva_list.csv')
+    df = pd.read_csv(Path("monthly_data_releases") / "current_eva_list.csv")
     eva_list = []
-    for evas in df['evas']:
+    for evas in df["evas"]:
         eva_list.extend(evas.split(","))
 
     curent_hour = datetime.now().hour
@@ -79,12 +79,11 @@ def main():
     for eva in eva_list:
         for hour in range(curent_hour, curent_hour + 6):  # fetch this hour and the next 5 hours
             hour = hour % 24
-            formatted_plan_url = plan_url.format(
-                eva=eva, date=date_str_url, hour=f"{hour:02}"
-            )
+            formatted_plan_url = plan_url.format(eva=eva, date=date_str_url, hour=f"{hour:02}")
             save_api_data(formatted_plan_url, save_folder / f"{eva}_plan_{hour:02}.xml")
 
     print("Done")
+
 
 if __name__ == "__main__":
     main()
