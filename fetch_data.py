@@ -5,6 +5,7 @@ from datetime import datetime
 from xml.dom.minidom import parseString
 from pathlib import Path
 from requests.exceptions import RequestException
+import pandas as pd
 
 # Retrieve the secret API key from the environment variable
 api_key = os.getenv("API_KEY")
@@ -47,7 +48,6 @@ def save_api_data(formatted_url, save_path, prettify=True, max_retries=5):
             else:
                 print(f"Failed to fetch data after {max_retries} attempts: {formatted_url}")
 
-    # If all retries fail, you might want to log this or handle it in some way
     print(f"error: Could not retrieve data for {formatted_url}")
 
 
@@ -61,9 +61,10 @@ def main():
     save_folder = Path("data") / date_str
     save_folder.mkdir(exist_ok=True, parents=True)
 
-    with Path("eva_list.txt").open("r") as f:
-        eva_list = f.read().split("\n")
-        eva_list = [line.split(" ")[-1] for line in eva_list]
+    df = pd.read_csv("eva_list.csv")
+    eva_list = []
+    for evas in df['evas']:
+        eva_list.extend(evas.split(","))
 
     curent_hour = datetime.now().hour
     for eva in eva_list:

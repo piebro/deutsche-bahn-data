@@ -26,11 +26,13 @@ jobs:
         env:
           API_KEY: ${{ secrets.API_KEY }}
           CLIENT_ID: ${{ secrets.CLIENT_ID }}
-        run: python fetch_data.py
+        run: |
+          python update_eva_list.py
+          python fetch_data.py
       - name: Commit and Push
         run: |
           git config --local user.email "noreply@github.com"
           git config --local user.name "GitHub Actions Bot"
-          git add --sparse data/*
+          git add --sparse *
           git commit -m "data update"
           git push
