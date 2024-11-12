@@ -32,10 +32,6 @@ def get_plan_xml_rows(xml_path, alternative_station_names):
             else:
                 train_name = train_type
 
-        ar_pp = s.find("ar").get("pp") if s.find("ar") is not None else None
-        dp_pp = s.find("dp").get("pp") if s.find("dp") is not None else None
-        planned_platform = dp_pp or ar_pp  # `or` to select the first non-None value
-
         s_id_split = s_id.split("-")
 
         dp_ppth = s.find("dp").get("ppth") if s.find("dp") is not None else None  # departure planed path
@@ -43,15 +39,6 @@ def get_plan_xml_rows(xml_path, alternative_station_names):
             final_destination_station = station
         else:
             final_destination_station = dp_ppth.split("|")[-1]
-
-        # arrival_planned_path = s.find('ar').get('ppth') if s.find('ar') is not None else None
-        # departure_planned_path = s.find('dp').get('ppth') if s.find('dp') is not None else None
-        # if arrival_planned_path is None:
-        #     train_path = f"{station}|{departure_planned_path}"
-        # elif departure_planned_path is None:
-        #     train_path = f"{arrival_planned_path}|{station}"
-        # else:
-        #     train_path = f"{arrival_planned_path}|{station}|{departure_planned_path}"
 
         rows.append(
             {
@@ -62,7 +49,6 @@ def get_plan_xml_rows(xml_path, alternative_station_names):
                 "train_type": train_type,
                 "arrival_planned_time": s.find("ar").get("pt") if s.find("ar") is not None else None,
                 "departure_planned_time": s.find("dp").get("pt") if s.find("dp") is not None else None,
-                "planned_platform": planned_platform,
                 "train_line_ride_id": "-".join(s_id_split[:-1]),
                 "train_line_station_num": int(s_id_split[-1]),
             }
@@ -109,12 +95,7 @@ def get_fchg_xml_rows(xml_path, id_to_data):
         else:
             is_canceled = True
 
-        # arrival or departure changed platform
-        ar_cp = s.find("ar").get("cp") if s.find("ar") is not None else None
-        dp_cp = s.find("dp").get("cp") if s.find("dp") is not None else None
-        changed_platform = ar_cp or dp_cp
-
-        if ar_ct is None and dp_ct is None and changed_platform is None and not is_canceled:
+        if ar_ct is None and dp_ct is None and not is_canceled:
             continue
 
         # overwrite older data with new data
@@ -122,8 +103,7 @@ def get_fchg_xml_rows(xml_path, id_to_data):
             "id": s_id,
             "arrival_change_time": ar_ct,
             "departure_change_time": dp_ct,
-            "is_canceled": is_canceled,
-            "changed_platform": changed_platform,
+            "is_canceled": is_canceled
         }
 
 
@@ -165,47 +145,54 @@ def main(month_year):
     fchg_df = get_fchg_db(data_dir, month_year)
     df = pd.merge(plan_df, fchg_df, on="id", how="left")
 
-    df.loc[df["arrival_planned_time"] == df["arrival_change_time"], "arrival_change_time"] = None
-    df.loc[df["departure_planned_time"] == df["departure_change_time"], "departure_change_time"] = None
+    # The default for all lines is no cancellation and the planned time is the change time.
+    df["is_canceled"] = df["is_canceled"].astype('boolean').fillna(False)
+    df["departure_change_time"] = df["departure_change_time"].fillna(df["departure_planned_time"])
+    df["arrival_change_time"] = df["arrival_change_time"].fillna(df["arrival_planned_time"])
 
-    # Calculate time deltas
-    df["arrival_time_delta_in_min"] = (
-        df["arrival_change_time"] - df["arrival_planned_time"]
-    ).dt.total_seconds() / 60
-    df["departure_time_delta_in_min"] = (
-        df["departure_change_time"] - df["departure_planned_time"]
-    ).dt.total_seconds() / 60
-    df["delay_in_min"] = df["arrival_time_delta_in_min"].fillna(df["departure_time_delta_in_min"])
-    df["delay_in_min"] = (df["delay_in_min"].fillna(df["departure_time_delta_in_min"]).fillna(0)).astype(int)
+    # delay_in_min is the departure delay if available or else the arrival delay. 
+    departure_time_delta_in_min = (df["departure_change_time"] - df["departure_planned_time"]).dt.total_seconds() / 60
+    arrival_time_delta_in_min = (df["arrival_change_time"] - df["arrival_planned_time"]).dt.total_seconds() / 60
+    df["delay_in_min"] = departure_time_delta_in_min.fillna(arrival_time_delta_in_min)
 
-    df["is_endstation"] = df["station"] == df["final_destination_station"]
-    df.loc[df["is_canceled"].isna(), "is_canceled"] = False
+    # time is the departure_change_time if available or else arrival_change_time. 
+    df["time"] = df["departure_change_time"].fillna(df["arrival_change_time"])
 
     df = df.drop("id", axis=1)
 
-    # Reorder columns as per the new order specified
     df = df[
         [
             "station",
             "train_name",
             "final_destination_station",
             "delay_in_min",
-            "arrival_planned_time",
-            "arrival_time_delta_in_min",
-            "departure_planned_time",
-            "departure_time_delta_in_min",
-            "planned_platform",
-            "changed_platform",
+            "time",
             "is_canceled",
             "train_type",
             "train_line_ride_id",
             "train_line_station_num",
-            "is_endstation",
+            "arrival_planned_time",
+            "arrival_change_time",
+            "departure_planned_time",
+            "departure_change_time",
         ]
-    ]
+    ].astype({
+        'station': 'string',
+        'train_name': 'string',
+        'final_destination_station': 'string',
+        'delay_in_min': 'int32',
+        'is_canceled': 'boolean',
+        'train_type': 'string',
+        'train_line_ride_id': 'string',
+        'train_line_station_num': 'int32',
+    })
 
     output_file = Path("monthly_data_releases")/f"data-{month_year}.parquet"
-    df.to_parquet(output_file, index=False)
+    df.to_parquet(
+        output_file,
+        index=False,
+        compression='brotli',
+    )
     print(f"Saved {output_file}")
 
 
