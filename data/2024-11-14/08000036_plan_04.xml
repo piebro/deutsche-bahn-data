@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<timetable station="Bielefeld Hbf">
+	<s id="2625137238235520637-2411140011-11">
+		<tl f="F" t="p" o="80" c="ICE" n="2401"/>
+		<ar pt="2411140426" pp="4" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Wannsee|Potsdam Hbf|Brandenburg Hbf|Magdeburg Hbf|Braunschweig Hbf|Hannover Hbf|Minden(Westf)"/>
+		<dp pt="2411140428" pp="4" ppth="Gütersloh Hbf|Hamm(Westf)Hbf|Dortmund Hbf|Bochum Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Hbf|Frankfurt(M) Flughafen Fernbf|Darmstadt Hbf|Heidelberg Hbf|Stuttgart Hbf|Ulm Hbf|Günzburg|Augsburg Hbf|München Hbf"/>
+	</s>
+	<s id="-3915392866665764991-2411140428-1">
+		<tl t="p" o="NWBus" c="Bus" n="5101"/>
+		<dp pt="2411140428" pp="" l="EV" ppth="Bielefeld-Quelle Albertstraße|Quelle|Steinhagen(Westf) Bielef. Str.|Steinhagen(Westf)|Künsebeck|Halle(Westf)"/>
+	</s>
+	<s id="3526675649310514845-2411140434-1">
+		<tl f="D" t="p" o="N2" c="NWB" n="75001"/>
+		<dp pt="2411140434" pp="8" l="RB74" ppth="Bielefeld-Brackwede|Bielefeld-Senne|Bielefeld-Windelsbleiche|Bielefeld-Sennestadt|Schloß Holte|Hövelriege|Hövelhof|Paderborn-Sennelager|Paderborn-Schloss Neuhaus|Paderborn Nord|Paderborn Kasseler Tor|Paderborn Hbf"/>
+	</s>
+	<s id="4877236621927286023-2411140424-1">
+		<tl f="D" t="p" o="W3" c="WFB" n="95847"/>
+		<dp pt="2411140424" pp="1" l="RE70" ppth="Herford|Löhne(Westf)|Bad Oeynhausen|Porta Westfalica|Minden(Westf)|Bückeburg|Stadthagen|Haste|Wunstorf|Hannover Hbf|Lehrte|Hämelerwald|Vöhrum|Peine|Vechelde|Braunschweig Hbf"/>
+	</s>
+</timetable>
