@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<timetable station="Koblenz Hbf">
+	<s id="8701286456892320958-2411152316-2">
+		<tl f="F" t="p" o="80" c="ICE" n="619"/>
+		<ar pt="2411160013" pp="4" ppth="Köln Hbf"/>
+		<dp pt="2411160015" pp="4" ppth="Mainz Hbf|Mannheim Hbf|Heidelberg Hbf|Stuttgart Hbf|Ulm Hbf|Günzburg|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-4612422315850219060-2411152302-21">
+		<tl f="N" t="p" o="TR" c="RB" n="25596"/>
+		<ar pt="2411160026" pp="" l="26" ppth="Mainz Hbf|Mainz-Mombach|Budenheim|Uhlerborn|Heidesheim(Rheinhess)|Ingelheim|Gau Algesheim|Bingen-Gaulsheim|Bingen(Rhein) Stadt|Bingen(Rhein) Hbf|Trechtingshausen|Niederheimbach|Bacharach|Oberwesel|St Goar|Boppard-Hirzenach|Boppard-Bad Salzig|Boppard Hbf|Spay|Rhens"/>
+	</s>
+	<s id="-5926221069817755053-2411152312-20">
+		<tl f="N" t="p" o="TR" c="RB" n="25445"/>
+		<ar pt="2411160035" pp="8" l="26" ppth="Brühl|Sechtem|Roisdorf|Bonn Hbf|Bonn UN Campus|Bonn-Bad Godesberg|Bonn-Mehlem|Rolandseck|Oberwinter|Remagen|Sinzig(Rhein)|Bad Breisig|Brohl|Namedy|Andernach|Weißenthurm|Mülheim-Kärlich|Koblenz-Lützel|Koblenz Stadtmitte"/>
+	</s>
+	<s id="8088068556575128532-2411160000-1">
+		<tl t="p" o="B5" c="Bus" n="92634"/>
+		<dp pt="2411160000" pp="" l="RB23" ppth="Koblenz Stadtmitte (Löhr-Center)|Mülheim-Kärlich|Weißenthurm|Andernach|Miesenheim|Plaidt|Kruft|Mendig|Thür|Kottenheim|Mayen Ost"/>
+	</s>
+	<s id="8503777394879306018-2411152324-5">
+		<tl f="F" t="p" o="80" c="ICE" n="920"/>
+		<ar pt="2411160056" pp="3" ppth="Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Regionalbf|Mainz Hbf|Bingen(Rhein) Hbf"/>
+		<dp pt="2411160058" pp="3" ppth="Köln Messe/Deutz Gl.11-12|Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Münster(Westf)Hbf|Osnabrück Hbf|Diepholz|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg-Altona"/>
+	</s>
+	<s id="5548613756537065301-2411160056-1">
+		<tl f="D" t="p" o="R4RH" c="VIA" n="21643"/>
+		<dp pt="2411160056" pp="" l="RB10" ppth="Niederlahnstein|Oberlahnstein|Braubach|Osterspai|Filsen|Kamp-Bornhofen|Kestert|St Goarshausen|Kaub"/>
+	</s>
+	<s id="7582314568044505717-2411151944-5">
+		<tl f="F" t="p" o="NZ" c="IC" n="60403"/>
+		<ar pt="2411160047" pp="4" ppth="Amsterdam Centraal|Utrecht Centraal|Köln Hbf|Bonn-Beuel"/>
+		<dp pt="2411160049" pp="4" ppth="Mainz Hbf|Frankfurt(M) Flughafen Regionalbf|Frankfurt(Main)Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="8435873983308723652-2411160008-1">
+		<tl f="N" t="p" o="801512" c="RB" n="12134"/>
+		<dp pt="2411160008" pp="9" l="81" ppth="Koblenz-Moselweiß|Koblenz-Güls|Winningen(Mosel)|Kobern-Gondorf|Lehmen|Kattenes|Löf|Hatzenport|Moselkern|Müden(Mosel)|Treis-Karden|Pommern(Mosel)|Klotten|Cochem(Mosel)"/>
+	</s>
+	<s id="-5851721557238592488-2411151944-5">
+		<tl t="p" o="84" c="NJ" n="403"/>
+		<ar pt="2411160047" pp="4" hi="1" wings="7582314568044505717-2411151944" ppth="Amsterdam Centraal|Utrecht Centraal|Köln Hbf|Bonn-Beuel"/>
+		<dp pt="2411160049" pp="4" hi="1" wings="7582314568044505717-2411151944" ppth="Mainz Hbf|Frankfurt(M) Flughafen Regionalbf|Frankfurt(Main)Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="4211474503981391874-2411152311-13">
+		<tl f="D" t="p" o="R4RH" c="VIA" n="21634"/>
+		<ar pt="2411160007" pp="" l="RB10" ppth="Assmannshausen|Lorch(Rhein)|Lorchhausen|Kaub|St Goarshausen|Kestert|Kamp-Bornhofen|Filsen|Osterspai|Braubach|Oberlahnstein|Niederlahnstein"/>
+		<dp pt="2411160009" pp="" l="RB10" ppth="Koblenz Stadtmitte|Neuwied"/>
+	</s>
+	<s id="-5697846968555067052-2411152212-20">
+		<tl f="N" t="p" o="TR" c="RB" n="25443"/>
+		<ar pt="2411152335" pp="1" l="26" ppth="Brühl|Sechtem|Roisdorf|Bonn Hbf|Bonn UN Campus|Bonn-Bad Godesberg|Bonn-Mehlem|Rolandseck|Oberwinter|Remagen|Sinzig(Rhein)|Bad Breisig|Brohl|Namedy|Andernach|Weißenthurm|Mülheim-Kärlich|Koblenz-Lützel|Koblenz Stadtmitte"/>
+		<dp pt="2411160003" pp="1" l="26" ppth="Rhens|Spay|Boppard Hbf|Boppard-Bad Salzig|Boppard-Hirzenach|St Goar|Oberwesel|Bacharach|Niederheimbach|Trechtingshausen|Bingen(Rhein) Hbf"/>
+	</s>
+	<s id="-6813847718653179839-2411152141-34">
+		<tl f="N" t="p" o="8003H5" c="RB" n="10641"/>
+		<ar pt="2411160019" pp="109" l="27" ppth="Mönchengladbach Hbf|Rheydt Hbf|Rheydt-Odenkirchen|Hochneukirch|Jüchen|Grevenbroich|Rommerskirchen|Stommeln|Pulheim|Köln-Ehrenfeld|Köln Hbf|Köln Messe/Deutz|Köln/Bonn Flughafen|Troisdorf|Friedrich Wilhelmshütte|Menden(Rheinl)|Bonn-Beuel|Bonn-Oberkassel|Niederdollendorf|Königswinter|Rhöndorf|Bad Honnef(Rhein)|Unkel|Erpel(Rhein)|Linz(Rhein)|Leubsdorf(Rhein)|Bad Hönningen|Rheinbrohl|Leutesdorf(Rhein)|Neuwied|Engers|Vallendar|Koblenz-Ehrenbreitstein"/>
+	</s>
+	<s id="5173901415966201296-2411152345-14">
+		<tl f="N" t="p" o="801526" c="RB" n="12636"/>
+		<ar pt="2411160050" pp="5" l="23" ppth="Limburg(Lahn)|Diez|Fachingen(Lahn)|Balduinstein|Laurenburg(Lahn)|Obernhof(Lahn)|Nassau(Lahn)|Dausenau|Bad Ems|Bad Ems West|Nievern|Friedrichssegen|Niederlahnstein"/>
+	</s>
+	<s id="4134119279263983109-2411152331-8">
+		<tl f="N" t="p" o="800640" c="RE" n="4139"/>
+		<ar pt="2411160056" pp="9" l="1" pde="Luxembourg" ppth="Trier Hbf|Schweich(DB)|Wittlich Hbf|Bullay(DB)|Cochem(Mosel)|Treis-Karden|Kobern-Gondorf"/>
+	</s>
+	<s id="8032970354192116440-2411160003-1">
+		<tl f="N" t="p" o="TR" c="RB" n="25450"/>
+		<dp pt="2411160003" pp="3" l="26" ppth="Koblenz Stadtmitte|Koblenz-Lützel|Mülheim-Kärlich|Weißenthurm|Andernach|Namedy|Brohl|Bad Breisig|Sinzig(Rhein)|Remagen"/>
+	</s>
+	<s id="-8004794875836149964-2411160040-1">
+		<tl f="N" t="p" o="8003H5" c="RB" n="10642"/>
+		<dp pt="2411160040" pp="109" l="27" ppth="Koblenz-Ehrenbreitstein|Vallendar|Engers|Neuwied|Leutesdorf(Rhein)|Rheinbrohl|Bad Hönningen|Leubsdorf(Rhein)|Linz(Rhein)|Erpel(Rhein)|Unkel|Bad Honnef(Rhein)|Rhöndorf|Königswinter|Niederdollendorf|Bonn-Oberkassel|Bonn-Beuel|Menden(Rheinl)|Friedrich Wilhelmshütte|Troisdorf|Köln/Bonn Flughafen|Köln Messe/Deutz|Köln Hbf"/>
+	</s>
+	<s id="1638918956618799816-2411160009-1">
+		<tl f="N" t="p" o="801526" c="RB" n="12639"/>
+		<dp pt="2411160009" pp="109" l="23" ppth="Niederlahnstein|Friedrichssegen|Nievern|Bad Ems West|Bad Ems|Dausenau|Nassau(Lahn)"/>
+	</s>
+	<s id="1393426465671703998-2411152355-13">
+		<tl f="D" t="p" o="R4RH" c="VIA" n="21636"/>
+		<ar pt="2411160050" pp="" l="RB10" ppth="Assmannshausen|Lorch(Rhein)|Lorchhausen|Kaub|St Goarshausen|Kestert|Kamp-Bornhofen|Filsen|Osterspai|Braubach|Oberlahnstein|Niederlahnstein"/>
+	</s>
+</timetable>
