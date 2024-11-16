@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="9173904781348194045-2411162009-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18683"/>
+		<dp pt="2411162009" pp="4" l="32" tra="4795003599783466511-2411161921-5" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+	<s id="-931498101353786183-2411162028-1">
+		<tl t="p" o="800165" c="FEX" n="19864"/>
+		<dp pt="2411162028" pp="1" ppth="Berlin-Schöneweide|Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="4795003599783466511-2411161921-5">
+		<tl t="p" o="800165" c="FEX" n="19867"/>
+		<ar pt="2411162000" pp="4" tra="9173904781348194045-2411162009-1" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz|Berlin-Schöneweide"/>
+	</s>
+	<s id="-2788148152395474867-2411162013-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18170"/>
+		<dp pt="2411162013" pp="3" l="23" ppth="Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Charlottenburg"/>
+	</s>
+	<s id="3463567788174894893-2411161951-5">
+		<tl t="p" o="800165" c="FEX" n="19869"/>
+		<ar pt="2411162030" pp="4" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz|Berlin-Schöneweide"/>
+	</s>
+	<s id="-4981931327532836719-2411162058-1">
+		<tl t="p" o="800165" c="FEX" n="19866"/>
+		<dp pt="2411162058" pp="1" tra="-8957490933478893554-2411162032-3" ppth="Berlin-Schöneweide|Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="5397373307535384538-2411162000-8">
+		<tl f="N" t="p" o="800165" c="RB" n="18171"/>
+		<ar pt="2411162046" pp="3" l="23" ppth="Berlin-Charlottenburg|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz"/>
+	</s>
+	<s id="-1894961852920291320-2411161933-7">
+		<tl f="N" t="p" o="OWRE" c="RE" n="91368"/>
+		<ar pt="2411162015" pp="" l="8" ppth="Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz"/>
+	</s>
+	<s id="-8957490933478893554-2411162032-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18682"/>
+		<ar pt="2411162047" pp="1" l="32" tra="-4981931327532836719-2411162058-1" ppth="Ludwigsfelde|Birkengrund"/>
+	</s>
+	<s id="-5060691124162145292-2411162044-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="91405"/>
+		<dp pt="2411162044" pp="" l="8" ppth="Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten"/>
+	</s>
+</timetable>
