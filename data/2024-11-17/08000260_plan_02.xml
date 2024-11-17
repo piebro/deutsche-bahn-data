@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<timetable station="Würzburg Hbf">
+	<s id="3712235484763547798-2411162340-17">
+		<tl t="p" o="B7" c="Bus" n="58238"/>
+		<ar pt="2411170247" pp="" l="EV" ppth="Nürnberg Hbf (Nelson-Mandela-Platz/Südausgang)|Fürth(Bay)Hbf|Fürth-Unterfürberg|Fürth-Burgfarrnbach|Siegelsdorf|Puschendorf|Hagenbüchach|Emskirchen|Neustadt(Aisch)Mitte|Neustadt(Aisch)Bahnhof|Markt Bibart|Iphofen|Kitzingen|Buchbrunn-Mainstockheim|Dettelbach Bahnhof|Rottendorf"/>
+	</s>
+	<s id="-3823254010841261196-2411161902-5">
+		<tl t="p" o="84" c="NJ" n="421"/>
+		<ar pt="2411170226" pp="5" wings="-4272298498907669914-2411161902" ppth="Amsterdam Centraal|Utrecht Centraal|s-Hertogenbosch|Köln Hbf"/>
+		<dp pt="2411170229" pp="5" wings="-4272298498907669914-2411161902" ppth="Nürnberg Hbf|Augsburg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="-6813803786124510421-2411161935-9">
+		<tl t="p" o="81" c="NJ" n="40490"/>
+		<ar pt="2411170257" pp="6" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Passau Hbf|Regensburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2411170259" pp="6" ppth="Köln Hbf|s-Hertogenbosch|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="-7138074359361066746-2411161750-15">
+		<tl f="F" t="p" o="80" c="ICE" n="699"/>
+		<ar pt="2411170204" pp="7" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Lüneburg|Uelzen|Salzwedel|Stendal Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz|Bitterfeld|Halle(Saale)Hbf|Erfurt Hbf|Bamberg"/>
+		<dp pt="2411170206" pp="7" ppth="Frankfurt(Main)Hbf|Darmstadt Hbf|Heidelberg Hbf|Stuttgart Hbf|Ulm Hbf|Günzburg|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-4272298498907669914-2411161902-5">
+		<tl t="p" o="81" c="NJ" n="40421"/>
+		<ar pt="2411170226" pp="5" ppth="Amsterdam Centraal|Utrecht Centraal|s-Hertogenbosch|Köln Hbf"/>
+		<dp pt="2411170229" pp="5" ppth="Nürnberg Hbf|Regensburg Hbf|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="3272146161175325165-2411162044-9">
+		<tl t="p" o="81" c="NJ" n="420"/>
+		<ar pt="2411170257" pp="6" wings="-6813803786124510421-2411161935" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Hbf|Augsburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2411170259" pp="6" wings="-6813803786124510421-2411161935" ppth="Köln Hbf|s-Hertogenbosch|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+</timetable>
