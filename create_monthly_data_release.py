@@ -56,9 +56,8 @@ def get_plan_xml_rows(xml_path, alternative_station_names):
     return rows
 
 
-def get_plan_db(data_dir, alternative_station_names, month_year):
+def get_plan_db(date_folders,alternative_station_names):
     rows = []
-    date_folders = [folder for folder in sorted(data_dir.iterdir()) if folder.name.startswith(month_year)]
 
     for date_folder_path in tqdm(date_folders, desc="Processing plan files"):
         for xml_path in sorted(date_folder_path.iterdir()):
@@ -104,17 +103,8 @@ def get_fchg_xml_rows(xml_path, id_to_data):
         }
 
 
-def get_fchg_db(data_dir, month_year):
+def get_fchg_db(date_folders):
     id_to_data = {}
-    current_month = datetime.strptime(month_year, "%Y-%m")
-    next_month = current_month.replace(day=1) + pd.DateOffset(months=1)
-    next_month_first_day_str = next_month.strftime("%Y-%m") + "-01"
-
-    date_folders = [
-        folder
-        for folder in sorted(data_dir.iterdir())
-        if (folder.name.startswith(month_year) or folder.name.startswith(next_month_first_day_str))
-    ]
 
     for date_folder_path in tqdm(date_folders, desc="Processing fchg files"):
         for xml_path in sorted(date_folder_path.iterdir()):
@@ -139,8 +129,17 @@ def main(month_year):
     with alternative_station_name_json.open("r") as f:
         alternative_station_names = json.load(f)
 
-    plan_df = get_plan_db(data_dir, alternative_station_names, month_year)
-    fchg_df = get_fchg_db(data_dir, month_year)
+    current_month = datetime.strptime(month_year, "%Y-%m")
+    prev_month_last_day = (current_month - pd.DateOffset(days=1)).strftime("%Y-%m-%d")
+    next_month_first_day = (current_month + pd.DateOffset(months=1)).strftime("%Y-%m-%d")
+
+    date_folders = [data_dir / prev_month_last_day]
+    date_folders.extend([folder for folder in sorted(data_dir.iterdir()) if folder.name.startswith(month_year)])
+    date_folders.append(data_dir / next_month_first_day)
+    date_folders = [f for f in date_folders if f.is_dir()]
+
+    plan_df = get_plan_db(date_folders, alternative_station_names)
+    fchg_df = get_fchg_db(date_folders)
     df = pd.merge(plan_df, fchg_df, on="id", how="left")
 
     # The default for all lines is no cancellation and the planned time is the change time.
@@ -159,6 +158,15 @@ def main(month_year):
 
     # time is the departure_change_time if available or else arrival_change_time.
     df["time"] = df["departure_change_time"].fillna(df["arrival_change_time"])
+
+    start_date = pd.to_datetime(f"{month_year}-01")
+    end_date = start_date + pd.offsets.MonthBegin(1)
+    original_len = len(df)
+    df = df[(df['time'] >= start_date) & (df['time'] < end_date)]
+    filtered_count = original_len - len(df)
+    if filtered_count > 0:
+        print(f"Filtered out {filtered_count} rows with timestamps outside {month_year}")
+
 
     df = df.drop("id", axis=1)
 
