@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Mannheim Hbf">
+	<s id="3178546308999030105-2411181904-9">
+		<tl t="p" o="81" c="NJ" n="40468"/>
+		<ar pt="2411190313" pp="3" hi="1" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Salzburg Hbf|Freilassing|Rosenheim|München Ost"/>
+		<dp pt="2411190409" pp="3" hi="1" ppth="Mainz Hbf|Koblenz Hbf|Bonn-Beuel|Aachen Hbf|Liège-Guillemins|Bruxelles-Nord|Bruxelles Midi"/>
+	</s>
+	<s id="-8413702927124024000-2411182041-5">
+		<tl t="p" o="81" c="NJ" n="424"/>
+		<ar pt="2411190309" pp="" hi="1" wings="8633487569083947263-2411182041" ppth="Berlin Hbf|Berlin Südkreuz|Halle(Saale)Hbf|Frankfurt(Main)Süd"/>
+		<dp pt="2411190409" pp="" hi="1" wings="3178546308999030105-2411181904" ppth="Mainz Hbf|Koblenz Hbf|Bonn-Beuel|Aachen Hbf|Liège-Guillemins|Bruxelles-Nord|Bruxelles Midi"/>
+	</s>
+	<s id="7162647213947565562-2411190143-8">
+		<tl f="F" t="p" o="80" c="IC" n="2326"/>
+		<ar pt="2411190345" pp="5" ppth="Stuttgart Hbf|Ludwigsburg|Vaihingen(Enz)|Karlsruhe Hbf|Bruchsal|Wiesloch-Walldorf|Heidelberg Hbf"/>
+		<dp pt="2411190356" pp="5" ppth="Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf|Frankfurt(Main)West|Bad Nauheim|Wetzlar|Dillenburg|Siegen Hbf|Siegen-Weidenau|Kreuztal|Lennestadt-Altenhundem|Lennestadt-Grevenbrück|Finnentrop|Plettenberg|Werdohl|Altena(Westf)|Letmathe|Witten Hbf|Dortmund Hbf"/>
+	</s>
+	<s id="8016523767626847908-2411181904-9">
+		<tl t="p" o="81" c="NJ" n="468"/>
+		<ar pt="2411190313" pp="3" hi="1" wings="3178546308999030105-2411181904" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Salzburg Hbf|Freilassing|Rosenheim|München Ost"/>
+		<dp pt="2411190420" pp="3" hi="1" wings="8633487569083947263-2411182041" ppth="Strasbourg|Paris Est"/>
+	</s>
+	<s id="2686007473625185344-2411190001-8">
+		<tl f="F" t="p" o="80" c="ICE" n="618"/>
+		<ar pt="2411190355" pp="7" ppth="München Hbf|München-Pasing|Augsburg Hbf|Günzburg|Ulm Hbf|Stuttgart Hbf|Heidelberg Hbf"/>
+		<dp pt="2411190431" pp="7" ppth="Mainz Hbf|Wiesbaden Hbf|Köln Hbf"/>
+	</s>
+	<s id="8633487569083947263-2411182041-5">
+		<tl t="p" o="81" c="NJ" n="40424"/>
+		<ar pt="2411190309" pp="" hi="1" ppth="Berlin Hbf|Berlin Südkreuz|Halle(Saale)Hbf|Frankfurt(Main)Süd"/>
+		<dp pt="2411190420" pp="" hi="1" ppth="Strasbourg|Paris Est"/>
+	</s>
+</timetable>
