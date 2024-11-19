@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<timetable station="Neumünster">
+	<s id="6382283619523988137-2411191437-1">
+		<tl f="D" t="p" o="O0" c="NBE" n="82183"/>
+		<dp pt="2411191437" pp="1" l="RB82" ppth="Neumünster Süd AKN|Rickling|Wahlstedt|Fahrenkrug|Bad Segeberg"/>
+	</s>
+	<s id="-4826673439027047350-2411191402-5">
+		<tl f="N" t="p" o="800201" c="RE" n="11273"/>
+		<ar pt="2411191426" pp="5" l="7" ppth="Kiel Hbf|Flintbek|Bordesholm|Einfeld"/>
+		<dp pt="2411191428" pp="5" l="7" ppth="Elmshorn|Hamburg Dammtor|Hamburg Hbf"/>
+	</s>
+	<s id="-8115007961234754659-2411191315-8">
+		<tl f="N" t="p" o="800201" c="RE" n="11173"/>
+		<ar pt="2411191422" pp="5" l="7" ppth="Flensburg|Tarp|Jübek|Schleswig|Owschlag|Rendsburg|Nortorf"/>
+		<dp pt="2411191428" pp="5" l="7" wings="-4826673439027047350-2411191402" ppth="Elmshorn|Hamburg Dammtor|Hamburg Hbf"/>
+	</s>
+	<s id="8940386673819459986-2411191322-6">
+		<tl f="N" t="p" o="800201" c="RE" n="11218"/>
+		<ar pt="2411191413" pp="3" l="70" ppth="Hamburg Hbf|Hamburg Dammtor|Elmshorn|Wrist|Brokstedt"/>
+		<dp pt="2411191414" pp="3" l="70" ppth="Bordesholm|Kiel Hbf"/>
+	</s>
+	<s id="3212458689711142736-2411191404-1">
+		<tl f="D" t="p" o="A0" c="AKN" n="82464"/>
+		<dp pt="2411191404" pp="1" l="A2" ppth="Neumünster Süd AKN|Boostedt|Großenaspe|Wiemersdorf|Bad Bramstedt|Bad Bramstedt Kurhaus|Lentföhrden|Nützen|Dodenhof|Holstentherme|Kaltenkirchen(Holst)|Kaltenkirchen Süd|Henstedt-Ulzburg|Ulzburg Süd|Meeschensee|Haslohfurth|Quickborner Straße|Friedrichsgabe|Moorbekhalle|Norderstedt Mitte"/>
+	</s>
+	<s id="-6464157574840809411-2411191433-1">
+		<tl f="D" t="p" o="A0" c="AKN" n="82446"/>
+		<dp pt="2411191433" pp="1" l="A2" ppth="Neumünster Süd AKN|Boostedt|Großenaspe|Wiemersdorf|Bad Bramstedt|Bad Bramstedt Kurhaus|Lentföhrden|Nützen|Dodenhof|Holstentherme|Kaltenkirchen(Holst)|Kaltenkirchen Süd|Henstedt-Ulzburg|Ulzburg Süd|Meeschensee|Haslohfurth|Quickborner Straße|Friedrichsgabe|Moorbekhalle|Norderstedt Mitte"/>
+	</s>
+	<s id="7948659186229719948-2411191435-1">
+		<tl f="D" t="p" o="O0" c="NBE" n="83780"/>
+		<dp pt="2411191435" pp="6" l="RB63" ppth="Neumünster Stadtwald|Wasbek|Aukrug|Hohenwestedt"/>
+	</s>
+	<s id="-7078448142041302811-2411191402-5">
+		<tl f="D" t="p" o="O0" c="NBE" n="83819"/>
+		<ar pt="2411191425" pp="6" l="RB63" ppth="Hohenwestedt|Aukrug|Wasbek|Neumünster Stadtwald"/>
+	</s>
+	<s id="-6253009122676968042-2411191404-6">
+		<tl f="D" t="p" o="O0" c="NBE" n="82178"/>
+		<ar pt="2411191427" pp="2" l="RB82" ppth="Bad Segeberg|Fahrenkrug|Wahlstedt|Rickling|Neumünster Süd AKN"/>
+	</s>
+	<s id="4317762923315945059-2411191343-4">
+		<tl f="N" t="p" o="800201" c="RE" n="11268"/>
+		<ar pt="2411191430" pp="3" l="7" ppth="Hamburg Hbf|Hamburg Dammtor|Elmshorn"/>
+		<dp pt="2411191434" pp="3" l="7" ppth="Einfeld|Bordesholm|Flintbek|Kiel Hbf"/>
+	</s>
+	<s id="-4754558033272330288-2411191318-21">
+		<tl f="D" t="p" o="A0" c="AKN" n="82445"/>
+		<ar pt="2411191423" pp="1" l="A2" ppth="Norderstedt Mitte|Moorbekhalle|Friedrichsgabe|Quickborner Straße|Haslohfurth|Meeschensee|Ulzburg Süd|Henstedt-Ulzburg|Kaltenkirchen Süd|Kaltenkirchen(Holst)|Holstentherme|Dodenhof|Nützen|Lentföhrden|Bad Bramstedt Kurhaus|Bad Bramstedt|Wiemersdorf|Großenaspe|Boostedt|Neumünster Süd AKN"/>
+	</s>
+	<s id="-1216783147767082510-2411191343-4">
+		<tl f="N" t="p" o="800201" c="RE" n="11168"/>
+		<ar pt="2411191430" pp="3" l="7" wings="4317762923315945059-2411191343" ppth="Hamburg Hbf|Hamburg Dammtor|Elmshorn"/>
+		<dp pt="2411191432" pp="3" l="7" ppth="Nortorf|Rendsburg|Owschlag|Schleswig|Jübek|Tarp|Flensburg"/>
+	</s>
+	<s id="-1872892276374220322-2411191425-3">
+		<tl f="N" t="p" o="800201" c="RE" n="11223"/>
+		<ar pt="2411191444" pp="4" l="70" ppth="Kiel Hbf|Bordesholm"/>
+		<dp pt="2411191445" pp="4" l="70" ppth="Brokstedt|Wrist|Elmshorn|Hamburg Dammtor|Hamburg Hbf"/>
+	</s>
+</timetable>
