@@ -1,0 +1,217 @@
+<?xml version="1.0" ?>
+<timetable station="Augsburg Hbf">
+	<s id="6519619872479541872-2411201523-15">
+		<tl f="D" t="p" o="Y8" c="BRB" n="62767"/>
+		<ar pt="2411201708" pp="8 A-C" l="RB77" ppth="Füssen|Weizern-Hopferau|Seeg|Lengenwang|Leuterschach|Marktoberdorf Schule|Marktoberdorf|Ebenhofen|Biessenhofen|Kaufbeuren|Buchloe|Schwabmünchen|Bobingen|Augsburg Morellstr."/>
+	</s>
+	<s id="-619679491451458325-2411201727-1">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86726"/>
+		<dp pt="2411201727" pp="501" l="RB13" ppth="Augsburg Haunstetterstraße|Augsburg-Hochzoll|Friedberg(Augsburg)"/>
+	</s>
+	<s id="5804299321688665494-2411201716-4">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86723"/>
+		<ar pt="2411201727" pp="2 A-B" l="RB13" ppth="Friedberg(Augsburg)|Augsburg-Hochzoll|Augsburg Haunstetterstraße"/>
+	</s>
+	<s id="-2007809943534273547-2411201620-12">
+		<tl f="N" t="p" o="GYRB" c="RB" n="57067"/>
+		<ar pt="2411201700" pp="6" l="87" ppth="Donauwörth|Bäumenheim|Mertingen Bahnhof|Nordendorf|Westendorf|Meitingen|Herbertshofen|Langweid(Lech)|Gablingen|Gersthofen|Augsburg-Oberhausen"/>
+		<dp pt="2411201708" pp="6" l="87" wings="8711679463121242866-2411201633" ppth="Augsburg Haunstetterstraße|Augsburg-Hochzoll|Kissing|Mering-St Afra|Mering|Althegnenberg|Haspelmoor|Mammendorf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="8506890160780492652-2411201641-8">
+		<tl f="N" t="p" o="GYRB" c="RB" n="57058"/>
+		<ar pt="2411201726" pp="6" l="87" ppth="München Hbf|München-Pasing|Mering|Mering-St Afra|Kissing|Augsburg-Hochzoll|Augsburg Haunstetterstraße"/>
+		<dp pt="2411201733" pp="6" l="87" ppth="Augsburg-Oberhausen|Gersthofen|Gablingen|Langweid(Lech)|Herbertshofen|Meitingen|Westendorf|Nordendorf|Mertingen Bahnhof|Bäumenheim|Donauwörth"/>
+	</s>
+	<s id="-7561705490074818671-2411201703-6">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86607"/>
+		<ar pt="2411201722" pp="12 A-C" l="RB83" ppth="Gessertshausen|Diedorf(Schwab)|Westheim(Schwab)|Neusäß|Augsburg-Oberhausen"/>
+	</s>
+	<s id="7801689319983862875-2411201441-23">
+		<tl f="N" t="p" o="GYRE" c="RE" n="57171"/>
+		<ar pt="2411201728" pp="9" l="80" ppth="Würzburg Hbf|Würzburg Süd|Würzburg-Heidingsfeld Ost|Winterhausen|Goßmannsdorf|Ochsenfurt|Marktbreit|Uffenheim|Steinach(b Rothenburg ob der Tauber)|Burgbernheim-Wildbad|Oberdachstetten|Ansbach|Triesdorf|Muhr a See|Gunzenhausen|Treuchtlingen|Otting-Weilheim|Donauwörth|Mertingen Bahnhof|Nordendorf|Meitingen|Augsburg-Oberhausen"/>
+		<dp pt="2411201738" pp="9" l="80" ppth="Augsburg Haunstetterstraße|Augsburg-Hochzoll|Kissing|Mering-St Afra|Mering|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-2976273011815144718-2411201654-11">
+		<tl f="N" t="p" o="GYRB" c="RB" n="57160"/>
+		<ar pt="2411201744" pp="7" l="87" ppth="München Hbf|München-Pasing|Mammendorf|Haspelmoor|Althegnenberg|Mering|Mering-St Afra|Kissing|Augsburg-Hochzoll|Augsburg Haunstetterstraße"/>
+		<dp pt="2411201754" pp="7" l="87" ppth="Augsburg-Oberhausen|Gersthofen|Gablingen|Langweid(Lech)|Herbertshofen|Meitingen|Westendorf|Nordendorf|Mertingen Bahnhof|Bäumenheim|Donauwörth"/>
+	</s>
+	<s id="1003499990353681882-2411201659-11">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86570"/>
+		<ar pt="2411201738" pp="5 C-E" l="RB67" ppth="Geltendorf|Walleshausen|Egling|Schmiechen(Schwab)|Merching|Mering|Mering-St Afra|Kissing|Augsburg-Hochzoll|Augsburg Haunstetterstraße"/>
+		<dp pt="2411201745" pp="5 C-E" l="RB67" ppth="Augsburg-Oberhausen"/>
+	</s>
+	<s id="-1676405551199095692-2411201714-1">
+		<tl f="D" t="p" o="Y8" c="BRB" n="62940"/>
+		<dp pt="2411201714" pp="12 C-E" l="RB69" ppth="Augsburg Morellstr.|Augsburg Messe|Inningen|Bobingen|Oberottmarshausen|Graben(Lechfeld)Gewerbepark|Lagerlechfeld|Klosterlechfeld|Kaufering"/>
+	</s>
+	<s id="3574170985910172506-2411201654-11">
+		<tl f="N" t="p" o="GYRB" c="RB" n="57060"/>
+		<ar pt="2411201744" pp="7" l="86" wings="-2976273011815144718-2411201654" ppth="München Hbf|München-Pasing|Mammendorf|Haspelmoor|Althegnenberg|Mering|Mering-St Afra|Kissing|Augsburg-Hochzoll|Augsburg Haunstetterstraße"/>
+		<dp pt="2411201749" pp="7" l="86" ppth="Augsburg-Oberhausen|Neusäß|Westheim(Schwab)|Diedorf(Schwab)|Gessertshausen|Kutzenhausen|Dinkelscherben"/>
+	</s>
+	<s id="-5932526768578681712-2411201745-1">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86728"/>
+		<dp pt="2411201745" pp="101" l="RB13" ppth="Augsburg Haunstetterstraße|Augsburg-Hochzoll|Friedberg(Augsburg)|Dasing|Obergriesbach|Aichach|Radersdorf|Schrobenhausen|Brunnen(Oberbay)|Ingolstadt Hbf"/>
+	</s>
+	<s id="1129717407319875572-2411201734-1">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86624"/>
+		<dp pt="2411201734" pp="12 A-C" l="RB83" ppth="Augsburg-Oberhausen|Neusäß|Westheim(Schwab)|Diedorf(Schwab)|Gessertshausen"/>
+	</s>
+	<s id="6457749132568259343-2411201505-11">
+		<tl f="N" t="p" o="8007D5" c="RE" n="3397"/>
+		<ar pt="2411201717" pp="10 C-E" l="17" ppth="Oberstdorf|Langenwang(Schwab)|Fischen|Altstädten(Allgäu)|Sonthofen|Blaichach(Allgäu)|Immenstadt|Kempten(Allgäu)Hbf|Kaufbeuren|Buchloe"/>
+	</s>
+	<s id="2407865436169237069-2411201628-10">
+		<tl f="D" t="p" o="Y8" c="BRB" n="62939"/>
+		<ar pt="2411201712" pp="901" l="RB69" ppth="Kaufering|Klosterlechfeld|Lagerlechfeld|Graben(Lechfeld)Gewerbepark|Oberottmarshausen|Bobingen|Inningen|Augsburg Messe|Augsburg Morellstr."/>
+	</s>
+	<s id="2386737452403175536-2411201514-10">
+		<tl f="N" t="p" o="8007D5" c="RE" n="3297"/>
+		<ar pt="2411201717" pp="10 C-E" l="7" wings="6457749132568259343-2411201505" ppth="Lindau-Reutin|Hergatz|Heimenkirch|Röthenbach(Allgäu)|Oberstaufen|Immenstadt|Kempten(Allgäu)Hbf|Kaufbeuren|Buchloe"/>
+	</s>
+	<s id="3123662065789530704-2411201726-1">
+		<tl f="N" t="p" o="800765" c="RE" n="59130"/>
+		<dp pt="2411201726" pp="7 C-E" l="16" ppth="Augsburg-Oberhausen|Meitingen|Nordendorf|Mertingen Bahnhof|Donauwörth|Otting-Weilheim|Treuchtlingen|Weißenburg(Bay)|Ellingen(Bay)|Pleinfeld|Mühlstetten|Georgensgmünd|Unterheckenhofen|Roth|Schwabach|Nürnberg Hbf"/>
+	</s>
+	<s id="5089820149948252230-2411201646-3">
+		<tl f="F" t="p" o="80" c="ICE" n="592"/>
+		<ar pt="2411201715" pp="1" ppth="München Hbf|München-Pasing"/>
+		<dp pt="2411201717" pp="1" ppth="Ulm Hbf|Stuttgart Hbf|Mannheim Hbf|Mainz Hbf|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-2795453744905001153-2411201659-3">
+		<tl f="F" t="p" o="80" c="ICE" n="266"/>
+		<ar pt="2411201729" pp="1" ppth="München Hbf Gl.5-10|München-Pasing"/>
+		<dp pt="2411201731" pp="1" ppth="Günzburg|Ulm Hbf|Stuttgart Hbf|Bruchsal|Karlsruhe Hbf"/>
+	</s>
+	<s id="-5311429009387847441-2411201637-8">
+		<tl f="N" t="p" o="8007D4" c="RE" n="57427"/>
+		<ar pt="2411201751" pp="10 C-E" l="79" ppth="Kempten(Allgäu)Hbf|Günzach|Biessenhofen|Kaufbeuren|Buchloe|Schwabmünchen|Bobingen"/>
+	</s>
+	<s id="2474076290441674812-2411201111-13">
+		<tl f="F" t="p" o="80" c="ICE" n="1285"/>
+		<ar pt="2411201731" pp="4" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Lüneburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Ansbach|Treuchtlingen|Donauwörth"/>
+		<dp pt="2411201734" pp="4" ppth="München Hbf"/>
+	</s>
+	<s id="4432853395779340536-2411201712-2">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86563"/>
+		<ar pt="2411201715" pp="6 A-B" l="RB67" ppth="Augsburg-Oberhausen"/>
+		<dp pt="2411201718" pp="6 A-B" l="RB67" ppth="Augsburg Haunstetterstraße|Augsburg-Hochzoll|Kissing|Mering-St Afra|Mering|Merching|Schmiechen(Schwab)|Egling|Walleshausen|Geltendorf"/>
+	</s>
+	<s id="-4824265244481707214-2411201709-1">
+		<tl f="N" t="p" o="8007D4" c="RE" n="57424"/>
+		<dp pt="2411201709" pp="10 C-E" l="79" ppth="Bobingen|Schwabmünchen|Buchloe|Kaufbeuren|Biessenhofen|Günzach|Kempten(Allgäu)Hbf"/>
+	</s>
+	<s id="3725988805124534489-2411201649-6">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86566"/>
+		<ar pt="2411201707" pp="501" l="RB67" ppth="Mering|Mering-St Afra|Kissing|Augsburg-Hochzoll|Augsburg Haunstetterstraße"/>
+	</s>
+	<s id="3165904318930204161-2411201742-5">
+		<tl f="D" t="p" o="Y8" c="BRB" n="62775"/>
+		<ar pt="2411201756" pp="12 A-C" l="RB77" ppth="Bobingen|Inningen|Augsburg Messe|Augsburg Morellstr."/>
+	</s>
+	<s id="650872066569866900-2411201713-7">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86725"/>
+		<ar pt="2411201738" pp="3 A-B" l="RB13" ppth="Aichach|Obergriesbach|Dasing|Friedberg(Augsburg)|Augsburg-Hochzoll|Augsburg Haunstetterstraße"/>
+	</s>
+	<s id="-6295201355577961278-2411201700-1">
+		<tl f="D" t="p" o="Y8" c="BRB" n="62758"/>
+		<dp pt="2411201700" pp="7 A-C" l="RB77" ppth="Augsburg Morellstr.|Augsburg Messe|Inningen|Bobingen"/>
+	</s>
+	<s id="-4659040351822619408-2411201635-8">
+		<tl f="N" t="p" o="GYRE" c="RE" n="57056"/>
+		<ar pt="2411201717" pp="3" l="9" ppth="München Hbf|München-Pasing|Mering|Mering-St Afra|Kissing|Augsburg-Hochzoll|Augsburg Haunstetterstraße"/>
+		<dp pt="2411201722" pp="3" l="9" ppth="Augsburg-Oberhausen|Neusäß|Westheim(Schwab)|Diedorf(Schwab)|Gessertshausen|Kutzenhausen|Dinkelscherben|Freihalden|Jettingen|Burgau(Schwab)|Mindelaltheim|Offingen|Günzburg|Leipheim|Nersingen|Neu-Ulm|Ulm Hbf"/>
+	</s>
+	<s id="1846652511305511175-2411201745-4">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86727"/>
+		<ar pt="2411201756" pp="3 A-B" l="RB13" ppth="Friedberg(Augsburg)|Augsburg-Hochzoll|Augsburg Haunstetterstraße"/>
+	</s>
+	<s id="8711679463121242866-2411201633-8">
+		<tl f="N" t="p" o="GYRB" c="RB" n="57167"/>
+		<ar pt="2411201705" pp="6" l="86" ppth="Dinkelscherben|Kutzenhausen|Gessertshausen|Diedorf(Schwab)|Westheim(Schwab)|Neusäß|Augsburg-Oberhausen"/>
+		<dp pt="2411201708" pp="6" l="86" ppth="Augsburg Haunstetterstraße|Augsburg-Hochzoll|Kissing|Mering-St Afra|Mering|Althegnenberg|Haspelmoor|Mammendorf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-725633819366291972-2411201533-21">
+		<tl f="N" t="p" o="GYRE" c="RE" n="57071"/>
+		<ar pt="2411201728" pp="9" l="89" wings="7801689319983862875-2411201441" ppth="Aalen Hbf|Wasseralfingen|Goldshöfe|Westhausen|Lauchheim|Aufhausen(Württ)|Bopfingen|Trochtelfingen(b Bopfingen)|Pflaumloch|Nördlingen|Möttingen|Hoppingen|Harburg(Schwab)|Ebermergen|Wörnitzstein|Donauwörth|Mertingen Bahnhof|Nordendorf|Meitingen|Augsburg-Oberhausen"/>
+		<dp pt="2411201738" pp="9" l="80" wings="7801689319983862875-2411201441" ppth="Augsburg Haunstetterstraße|Augsburg-Hochzoll|Kissing|Mering-St Afra|Mering|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-6564341875414589886-2411200829-20">
+		<tl f="F" t="p" o="80" c="ICE" n="2407"/>
+		<ar pt="2411201740" pp="4" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Osnabrück Hbf|Münster(Westf)Hbf|Dortmund Hbf|Bochum Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Hbf|Frankfurt(M) Flughafen Fernbf|Darmstadt Hbf|Heidelberg Hbf|Stuttgart Hbf|Ulm Hbf|Günzburg"/>
+		<dp pt="2411201741" pp="4" ppth="München Hbf"/>
+	</s>
+	<s id="7739265554476668178-2411201741-1">
+		<tl f="N" t="p" o="8007D5" c="RE" n="57534"/>
+		<dp pt="2411201741" pp="10 C-E" l="71" ppth="Buchloe|Türkheim(Bay)Bf|Rammingen(Bay)|Mindelheim|Stetten(Schwab)|Sontheim(Schwab)|Memmingen"/>
+	</s>
+	<s id="-1556567793911227603-2411201328-6">
+		<tl f="F" t="p" o="80" c="ICE" n="519"/>
+		<ar pt="2411201753" pp="4" ppth="Köln Hbf|Wiesbaden Hbf|Mannheim Hbf|Stuttgart Hbf|Ulm Hbf"/>
+		<dp pt="2411201755" pp="4" ppth="München-Pasing|München Hbf"/>
+	</s>
+	<s id="-372722039847397299-2411201608-11">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86721"/>
+		<ar pt="2411201708" pp="101" l="RB13" ppth="Ingolstadt Hbf|Brunnen(Oberbay)|Schrobenhausen|Radersdorf|Aichach|Obergriesbach|Dasing|Friedberg(Augsburg)|Augsburg-Hochzoll|Augsburg Haunstetterstraße"/>
+	</s>
+	<s id="3794997293468751738-2411201640-12">
+		<tl f="N" t="p" o="GYRB" c="RB" n="57255"/>
+		<ar pt="2411201721" pp="9" l="87" ppth="Donauwörth|Bäumenheim|Mertingen Bahnhof|Nordendorf|Westendorf|Meitingen|Herbertshofen|Langweid(Lech)|Gablingen|Gersthofen|Augsburg-Oberhausen"/>
+	</s>
+	<s id="7537395545451740415-2411201728-3">
+		<tl f="F" t="p" o="80" c="ICE" n="512"/>
+		<ar pt="2411201759" pp="1" ppth="München Hbf|München-Pasing"/>
+		<dp pt="2411201801" pp="1" ppth="Ulm Hbf|Stuttgart Hbf|Mannheim Hbf|Mainz Hbf|Wiesbaden Hbf|Köln Hbf"/>
+	</s>
+	<s id="2038097228710067320-2411201619-18">
+		<tl f="N" t="p" o="GYRE" c="RE" n="57169"/>
+		<ar pt="2411201733" pp="8 C-E" l="9" ppth="Ulm Hbf|Neu-Ulm|Nersingen|Leipheim|Günzburg|Offingen|Mindelaltheim|Burgau(Schwab)|Jettingen|Freihalden|Dinkelscherben|Kutzenhausen|Gessertshausen|Diedorf(Schwab)|Westheim(Schwab)|Neusäß|Augsburg-Oberhausen"/>
+	</s>
+	<s id="-7724390263517347378-2411201709-3">
+		<tl f="F" t="p" o="80" c="ICE" n="702"/>
+		<ar pt="2411201740" pp="1" ppth="München Hbf|München-Pasing"/>
+		<dp pt="2411201741" pp="1" ppth="Donauwörth|Treuchtlingen|Nürnberg Hbf|Bamberg|Erfurt Hbf|Leipzig Hbf|Bitterfeld|Lutherstadt Wittenberg Hbf|Berlin Südkreuz|Berlin Hbf|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="6657106991222813256-2411201732-1">
+		<tl f="N" t="p" o="GYRB" c="RB" n="57069"/>
+		<dp pt="2411201732" pp="5" l="87" ppth="Augsburg Haunstetterstraße|Augsburg-Hochzoll|Kissing|Mering-St Afra|Mering|München-Pasing|München Hbf"/>
+	</s>
+	<s id="9004722026389089824-2411201746-1">
+		<tl f="D" t="p" o="Y8" c="BRB" n="62764"/>
+		<dp pt="2411201746" pp="8 A-C" l="RB77" ppth="Augsburg Morellstr.|Augsburg Messe|Inningen|Bobingen|Schwabmünchen|Buchloe|Kaufbeuren|Biessenhofen|Ebenhofen|Marktoberdorf|Marktoberdorf Schule|Leuterschach|Lengenwang|Seeg|Weizern-Hopferau|Füssen"/>
+	</s>
+	<s id="3588816028503301469-2411201703-10">
+		<tl f="D" t="p" o="Y8" c="BRB" n="62941"/>
+		<ar pt="2411201742" pp="9 A-C" l="RB69" ppth="Kaufering|Klosterlechfeld|Lagerlechfeld|Graben(Lechfeld)Gewerbepark|Oberottmarshausen|Bobingen|Inningen|Augsburg Messe|Augsburg Morellstr."/>
+	</s>
+	<s id="-5839465728859986182-2411201741-1">
+		<tl f="N" t="p" o="8007D5" c="RE" n="57514"/>
+		<dp pt="2411201741" pp="10 C-E" l="73" wings="7739265554476668178-2411201741" ppth="Buchloe|Türkheim(Bay)Bf|Bad Wörishofen"/>
+	</s>
+	<s id="-4317260211232886197-2411201707-6">
+		<tl f="D" t="p" o="Y8" c="BRB" n="62773"/>
+		<ar pt="2411201726" pp="12 C-E" l="RB77" ppth="Schwabmünchen|Bobingen|Inningen|Augsburg Messe|Augsburg Morellstr."/>
+	</s>
+	<s id="-2028745860606230826-2411201613-11">
+		<tl f="N" t="p" o="GYRB" c="RB" n="57054"/>
+		<ar pt="2411201702" pp="5" l="87" ppth="München Hbf|München-Pasing|Mammendorf|Haspelmoor|Althegnenberg|Mering|Mering-St Afra|Kissing|Augsburg-Hochzoll|Augsburg Haunstetterstraße"/>
+	</s>
+	<s id="3905930457733512231-2411201702-1">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86722"/>
+		<dp pt="2411201702" pp="101" l="RB13" ppth="Augsburg Haunstetterstraße|Augsburg-Hochzoll|Friedberg(Augsburg)"/>
+	</s>
+	<s id="-5684565015075810046-2411201731-1">
+		<tl f="D" t="p" o="Y8" c="BRB" n="62760"/>
+		<dp pt="2411201731" pp="12 C-E" l="RB77" ppth="Augsburg Morellstr.|Augsburg Messe|Inningen|Bobingen|Schwabmünchen"/>
+	</s>
+	<s id="4365922452448918066-2411201741-2">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86565"/>
+		<ar pt="2411201745" pp="6 A-B" l="RB67" ppth="Augsburg-Oberhausen"/>
+		<dp pt="2411201751" pp="6 A-B" l="RB67" ppth="Augsburg Haunstetterstraße|Augsburg-Hochzoll|Kissing|Mering-St Afra|Mering"/>
+	</s>
+	<s id="6052604170162718485-2411201716-1">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86724"/>
+		<dp pt="2411201716" pp="2 A-B" l="RB13" ppth="Augsburg Haunstetterstraße|Augsburg-Hochzoll|Friedberg(Augsburg)|Dasing|Obergriesbach|Aichach"/>
+	</s>
+</timetable>
