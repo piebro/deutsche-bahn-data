@@ -1,9 +1,10 @@
-import pandas as pd
+import os
+import time
 from pathlib import Path
+
+import pandas as pd
 import requests
 from requests.exceptions import RequestException
-import time
-import os
 
 
 def fetch_and_process_stations(api_key, client_id, categories="1-2", max_retries=5):

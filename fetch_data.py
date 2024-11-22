@@ -1,11 +1,12 @@
 import os
 import time
-import requests
 from datetime import datetime
-from xml.dom.minidom import parseString
 from pathlib import Path
-from requests.exceptions import RequestException
+from xml.dom.minidom import parseString
+
 import pandas as pd
+import requests
+from requests.exceptions import RequestException
 
 # Retrieve the secret API key from the environment variable
 api_key = os.getenv("API_KEY")
