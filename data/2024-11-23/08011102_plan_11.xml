@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Gesundbrunnen">
+	<s id="6406379432290790022-2411231139-1">
+		<tl f="N" t="p" o="800158" c="RE" n="93146"/>
+		<dp pt="2411231139" pp="10" l="3" ppth="Bernau(b Berlin)|Eberswalde Hbf|Britz|Chorin|Angermünde|Pinnow(Uckermark)|Schwedt(Oder)Mitte|Schwedt(Oder)"/>
+	</s>
+	<s id="3935297083668583635-2411231053-4">
+		<tl f="N" t="p" o="NZ" c="RE" n="51073"/>
+		<ar pt="2411231159" pp="5" l="21" ppth="Prenzlau|Angermünde|Eberswalde Hbf"/>
+	</s>
+	<s id="-7941368678328991213-2411231105-2">
+		<tl f="N" t="p" o="NZ" c="RE" n="51076"/>
+		<ar pt="2411231133" pp="10" l="21" ppth="Flughafen BER"/>
+		<dp pt="2411231150" pp="10" l="21" ppth="Bernau(b Berlin)|Eberswalde Hbf|Angermünde|Prenzlau"/>
+	</s>
+	<s id="-6741762022293157625-2411230930-4">
+		<tl f="F" t="p" o="80" c="ICE" n="1076"/>
+		<ar pt="2411231133" pp="10" wings="-7941368678328991213-2411231105" ppth="Dresden Hbf|Dresden-Neustadt|Flughafen BER"/>
+		<dp pt="2411231150" pp="10" wings="-7941368678328991213-2411231105" ppth="Bernau(b Berlin)|Eberswalde Hbf|Angermünde|Prenzlau|Pasewalk|Anklam|Züssow|Greifswald|Stralsund Hbf"/>
+	</s>
+	<s id="-4236405108323302366-2411230914-9">
+		<tl f="F" t="p" o="80" c="ICE" n="1073"/>
+		<ar pt="2411231159" pp="5" wings="3935297083668583635-2411231053" ppth="Stralsund Hbf|Greifswald|Züssow|Anklam|Pasewalk|Prenzlau|Angermünde|Eberswalde Hbf"/>
+	</s>
+	<s id="7903683211985150522-2411230816-23">
+		<tl f="N" t="p" o="800158" c="RE" n="93907"/>
+		<ar pt="2411231121" pp="" l="3" ppth="Stralsund Hbf|Miltzow|Greifswald|Greifswald Süd|Groß Kiesow|Züssow|Klein Bünzow|Anklam|Ducherow|Ferdinandshof|Jatznick|Pasewalk|Nechlin|Prenzlau|Seehausen(Uckermark)|Warnitz(Uckermark)|Wilmersdorf(Angerm)|Angermünde|Chorin|Britz|Eberswalde Hbf|Bernau(b Berlin)"/>
+	</s>
+</timetable>

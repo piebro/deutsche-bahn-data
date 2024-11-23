@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<timetable station="Hildesheim Hbf">
+	<s id="1962082432295475643-2411230948-7">
+		<tl f="D" t="p" o="X2" c="erx" n="83462"/>
+		<ar pt="2411231042" pp="3" l="RE10" ppth="Bad Harzburg|Goslar|Salzgitter-Ringelheim|Baddeckenstedt|Derneburg(Han)|Hildesheim Ost"/>
+	</s>
+	<s id="925329898818531989-2411231002-7">
+		<tl f="N" t="p" o="RSNM" c="RB" n="14462"/>
+		<ar pt="2411231026" pp="4" l="79" ppth="Bodenburg|Bad Salzdetfurth|Bad Salzdetfurth Solebad|Wesseln|Groß Düngen|Hildesheim Ost"/>
+	</s>
+	<s id="-7742298608969518820-2411230807-7">
+		<tl f="F" t="p" o="80" c="ICE" n="994"/>
+		<ar pt="2411231036" pp="2" ppth="Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Süd|Hanau Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen"/>
+		<dp pt="2411231037" pp="2" ppth="Braunschweig Hbf|Wolfsburg Hbf|Stendal Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz"/>
+	</s>
+	<s id="7617924310859336027-2411231014-1">
+		<tl f="D" t="p" o="X2" c="erx" n="83461"/>
+		<dp pt="2411231014" pp="2" l="RE10" ppth="Hildesheim Ost|Derneburg(Han)|Baddeckenstedt|Salzgitter-Ringelheim|Goslar|Bad Harzburg"/>
+	</s>
+	<s id="7865158294276076903-2411231034-1">
+		<tl f="N" t="p" o="RSNM" c="RB" n="14459"/>
+		<dp pt="2411231034" pp="1" l="79" ppth="Hildesheim Ost|Groß Düngen|Wesseln|Bad Salzdetfurth Solebad|Bad Salzdetfurth|Bodenburg"/>
+	</s>
+	<s id="8416219724899701036-2411231050-1">
+		<tl t="p" o="R0" c="ENO" n="83563"/>
+		<dp pt="2411231050" pp="4" l="RE50" ppth="Hoheneggelsen|Woltwiesche|Lengede-Broistedt|Braunschweig Hbf|Weddel(Braunschw)|Fallersleben|Wolfsburg Hbf"/>
+	</s>
+	<s id="3839121276325230092-2411230915-3">
+		<tl t="p" o="X2" c="Bus" n="461"/>
+		<ar pt="2411231008" pp="" l="RE10" ppth="Hannover Hbf|Sarstedt"/>
+	</s>
+	<s id="-3551401797401074468-2411231027-1">
+		<tl t="p" o="RS" c="Bus" n="84362"/>
+		<dp pt="2411231027" pp="" l="EV" ppth="Emmerke|Nordstemmen|Elze(Han)"/>
+	</s>
+	<s id="-8258108375906142965-2411231043-1">
+		<tl f="S" t="p" o="TDHS" c="S" n="34312"/>
+		<dp pt="2411231043" pp="5" l="3" ppth="Harsum|Algermissen|Sehnde|Lehrte|Ahlten|Hannover Anderten-Misburg|Hannover Karl-Wiechert-Allee|Hannover-Kleefeld|Hannover Hbf"/>
+	</s>
+	<s id="6974768692168208908-2411230934-10">
+		<tl f="S" t="p" o="TDHS" c="S" n="34311"/>
+		<ar pt="2411231013" pp="5" l="3" ppth="Hannover Hbf|Hannover-Kleefeld|Hannover Karl-Wiechert-Allee|Hannover Anderten-Misburg|Ahlten|Lehrte|Sehnde|Algermissen|Harsum"/>
+	</s>
+	<s id="8962679638704122375-2411231002-4">
+		<tl t="p" o="RS" c="Bus" n="84359"/>
+		<ar pt="2411231032" pp="" l="EV" ppth="Elze(Han)|Nordstemmen|Emmerke"/>
+	</s>
+	<s id="3654712416443333279-2411231048-1">
+		<tl t="p" o="X2" c="Bus" n="462"/>
+		<dp pt="2411231048" pp="" l="RE10" ppth="Sarstedt|Hannover Hbf"/>
+	</s>
+	<s id="-2742834249215266701-2411230845-5">
+		<tl t="p" o="R0" c="Bus" n="5256"/>
+		<ar pt="2411231002" pp="" l="EV" ppth="Braunschweig Hbf|Lengede-Broistedt|Woltwiesche|Hoheneggelsen"/>
+	</s>
+</timetable>
