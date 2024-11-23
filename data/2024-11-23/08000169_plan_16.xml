@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<timetable station="Hildesheim Hbf">
+	<s id="-3231088687845695669-2411231650-1">
+		<tl t="p" o="R0" c="ENO" n="83575"/>
+		<dp pt="2411231650" pp="4" l="RE50" ppth="Hoheneggelsen|Woltwiesche|Lengede-Broistedt|Braunschweig Hbf|Weddel(Braunschw)|Fallersleben|Wolfsburg Hbf"/>
+	</s>
+	<s id="-8370544704861410856-2411231627-1">
+		<tl t="p" o="RS" c="Bus" n="84374"/>
+		<dp pt="2411231627" pp="" l="EV" ppth="Emmerke|Nordstemmen|Elze(Han)"/>
+	</s>
+	<s id="-2625260670679719215-2411231518-8">
+		<tl t="p" o="R0" c="ENO" n="83570"/>
+		<ar pt="2411231608" pp="4" l="RE50" ppth="Wolfsburg Hbf|Fallersleben|Weddel(Braunschw)|Braunschweig Hbf|Lengede-Broistedt|Woltwiesche|Hoheneggelsen"/>
+	</s>
+	<s id="-4131138532923545682-2411231648-1">
+		<tl t="p" o="X2" c="Bus" n="474"/>
+		<dp pt="2411231648" pp="" l="RE10" ppth="Sarstedt|Hannover Hbf"/>
+	</s>
+	<s id="-2184856434278902252-2411231602-7">
+		<tl f="N" t="p" o="RSNM" c="RB" n="14474"/>
+		<ar pt="2411231626" pp="4" l="79" ppth="Bodenburg|Bad Salzdetfurth|Bad Salzdetfurth Solebad|Wesseln|Groß Düngen|Hildesheim Ost"/>
+	</s>
+	<s id="-348564877984200386-2411231409-7">
+		<tl f="F" t="p" o="80" c="ICE" n="796"/>
+		<ar pt="2411231636" pp="2" ppth="Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Süd|Hanau Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen"/>
+		<dp pt="2411231637" pp="2" ppth="Braunschweig Hbf|Wolfsburg Hbf|Stendal Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz"/>
+	</s>
+	<s id="-2565452755185220971-2411231614-1">
+		<tl f="D" t="p" o="X2" c="erx" n="83473"/>
+		<dp pt="2411231614" pp="2" l="RE10" ppth="Hildesheim Ost|Derneburg(Han)|Baddeckenstedt|Salzgitter-Ringelheim|Goslar|Bad Harzburg"/>
+	</s>
+	<s id="4842153483435383193-2411231602-4">
+		<tl t="p" o="RS" c="Bus" n="84371"/>
+		<ar pt="2411231632" pp="" l="EV" ppth="Elze(Han)|Nordstemmen|Emmerke"/>
+	</s>
+	<s id="-7959828093064561944-2411231634-1">
+		<tl f="N" t="p" o="RSNM" c="RB" n="14471"/>
+		<dp pt="2411231634" pp="1" l="79" ppth="Hildesheim Ost|Groß Düngen|Wesseln|Bad Salzdetfurth Solebad|Bad Salzdetfurth|Bodenburg"/>
+	</s>
+	<s id="5042552198104247475-2411231643-1">
+		<tl f="S" t="p" o="TDHS" c="S" n="34324"/>
+		<dp pt="2411231643" pp="5" l="3" ppth="Harsum|Algermissen|Sehnde|Lehrte|Ahlten|Hannover Anderten-Misburg|Hannover Karl-Wiechert-Allee|Hannover-Kleefeld|Hannover Hbf"/>
+	</s>
+	<s id="-1739373814721578617-2411231515-3">
+		<tl t="p" o="X2" c="Bus" n="473"/>
+		<ar pt="2411231608" pp="" l="RE10" ppth="Hannover Hbf|Sarstedt"/>
+	</s>
+	<s id="-5413391821557433217-2411231548-7">
+		<tl f="D" t="p" o="X2" c="erx" n="83474"/>
+		<ar pt="2411231642" pp="3" l="RE10" ppth="Bad Harzburg|Goslar|Salzgitter-Ringelheim|Baddeckenstedt|Derneburg(Han)|Hildesheim Ost"/>
+	</s>
+	<s id="-5353049370600018249-2411231534-10">
+		<tl f="S" t="p" o="TDHS" c="S" n="34323"/>
+		<ar pt="2411231613" pp="5" l="3" ppth="Hannover Hbf|Hannover-Kleefeld|Hannover Karl-Wiechert-Allee|Hannover Anderten-Misburg|Ahlten|Lehrte|Sehnde|Algermissen|Harsum"/>
+	</s>
+</timetable>
