@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<timetable station="Frankfurt(Main)Hbf">
+	<s id="3735485762621754589-2412010211-3">
+		<tl t="p" o="K4" c="Bus" n="40037"/>
+		<ar pt="2412010326" pp="" l="EV" ppth="Friedberg(Hess)|Hanau Hbf"/>
+	</s>
+	<s id="4753870957390372842-2411302153-2">
+		<tl f="F" t="p" o="NZ" c="IC" n="60402"/>
+		<ar pt="2412010257" pp="18" ppth="Zürich HB"/>
+		<dp pt="2412010313" pp="18" ppth="Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf|Bonn Hbf|Köln Hbf|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="8868050453695511606-2411302153-2">
+		<tl t="p" o="85" c="NJ" n="402"/>
+		<ar pt="2412010257" pp="18" hi="1" wings="4753870957390372842-2411302153" ppth="Zürich HB"/>
+		<dp pt="2412010313" pp="18" hi="1" wings="4753870957390372842-2411302153" ppth="Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf|Bonn Hbf|Köln Hbf|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+</timetable>
