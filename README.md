@@ -70,7 +70,7 @@ The database contains the following columns that track train schedules, delays, 
 
 ## Contributing
 
-Contriutions are welcome. Open an Issue if you want to report a bug, have an idea or want to propose a change.
+Contributions are welcome. Open an Issue if you want to report a bug, have an idea or want to propose a change.
 
 ## License
 
