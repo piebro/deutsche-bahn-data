@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg-Altona">
+	<s id="7657509871447760230-2412040438-1">
+		<tl f="D" t="p" o="O0" c="NBE" n="81822"/>
+		<dp pt="2412040438" pp="5" l="RB71" ppth="Pinneberg|Prisdorf|Tornesch|Elmshorn"/>
+	</s>
+	<s id="4527502747804446727-2412032230-10">
+		<tl f="F" t="p" o="80" c="ICE" n="700"/>
+		<ar pt="2412040422" pp="5" ppth="Berlin Südkreuz|Berlin Hbf|Berlin-Spandau|Stendal Hbf|Hannover Hbf|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor"/>
+	</s>
+	<s id="9040023285512508545-2412040452-1">
+		<tl f="D" t="p" o="O0" c="NBE" n="81850"/>
+		<dp pt="2412040452" pp="9" l="RB71" ppth="Pinneberg|Prisdorf|Tornesch|Elmshorn|Horst(Holst)|Dauenhof|Wrist"/>
+	</s>
+	<s id="6178329184277023949-2412040432-1">
+		<tl f="F" t="p" o="80" c="ICE" n="701"/>
+		<dp pt="2412040432" pp="11" ppth="Hamburg Dammtor|Hamburg Hbf|Lüneburg|Uelzen|Salzwedel|Stendal Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz|Bitterfeld|Halle(Saale)Hbf|Erfurt Hbf|Bamberg|Nürnberg Hbf|Donauwörth|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="2750185507241233300-2412040452-1">
+		<tl f="D" t="p" o="O0" c="NBE" n="81750"/>
+		<dp pt="2412040452" pp="9" l="RB71" wings="9040023285512508545-2412040452" ppth="Pinneberg|Prisdorf|Tornesch|Elmshorn|Horst(Holst)|Dauenhof|Wrist"/>
+	</s>
+	<s id="-1834385079321189756-2412040421-1">
+		<tl f="F" t="p" o="80" c="ICE" n="2403"/>
+		<dp pt="2412040421" pp="9" ppth="Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Diepholz|Osnabrück Hbf|Münster(Westf)Hbf|Dortmund Hbf|Solingen Hbf|Köln Hbf|Frankfurt(M) Flughafen Fernbf|Darmstadt Hbf|Heidelberg Hbf|Stuttgart Hbf|Ulm Hbf|Günzburg|Augsburg Hbf|München Hbf"/>
+	</s>
+	<s id="-9065635191189286776-2412040404-5">
+		<tl f="D" t="p" o="O0" c="NBE" n="81821"/>
+		<ar pt="2412040428" pp="5" l="RB71" ppth="Elmshorn|Tornesch|Prisdorf|Pinneberg"/>
+	</s>
+</timetable>
