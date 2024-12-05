@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin-Lichtenberg">
+	<s id="4621363324893345557-2412052016-27">
+		<tl f="N" t="p" o="800158" c="RE" n="91519"/>
+		<ar pt="2412052337" pp="" l="3" ppth="Stralsund Hbf|Miltzow|Greifswald|Greifswald Süd|Groß Kiesow|Züssow|Klein Bünzow|Anklam|Ducherow|Ferdinandshof|Jatznick|Pasewalk|Nechlin|Prenzlau|Seehausen(Uckermark)|Warnitz(Uckermark)|Wilmersdorf(Angerm)|Angermünde|Chorin|Britz|Eberswalde Hbf|Melchow|Biesenthal|Rüdnitz|Bernau(b Berlin)|Berlin-Hohenschönhausen"/>
+	</s>
+	<s id="8565299654800842156-2412052328-2">
+		<tl t="p" o="800165" c="FEX" n="93776"/>
+		<ar pt="2412052354" pp="" ppth="Flughafen BER"/>
+	</s>
+	<s id="-3066467521428994305-2412052337-1">
+		<tl t="p" o="800165" c="FEX" n="93981"/>
+		<dp pt="2412052337" pp="" ppth="Flughafen BER"/>
+	</s>
+	<s id="-198243672468176559-2412052338-1">
+		<tl f="N" t="p" o="NBRB12" c="RB" n="61389"/>
+		<dp pt="2412052338" pp="22" l="12" ppth="Berlin-Hohenschönhausen|Oranienburg"/>
+	</s>
+	<s id="6670334769317569669-2412052333-2">
+		<tl f="N" t="p" o="NBRB26" c="RB" n="5187"/>
+		<ar pt="2412052336" pp="15" l="26" ppth="Berlin Ostkreuz"/>
+		<dp pt="2412052338" pp="15" l="26" ppth="Berlin-Mahlsdorf|Strausberg|Herrensee|Rehfelde|Müncheberg(Mark)|Obersdorf|Trebnitz(Mark)|Alt Rosenthal|Seelow-Gusow|Werbig|Golzow(Oderbruch)|Gorgast|Küstrin-Kietz|Kostrzyn"/>
+	</s>
+	<s id="7209769930742866807-2412052339-1">
+		<tl f="N" t="p" o="800158" c="RE" n="93005"/>
+		<dp pt="2412052339" pp="" l="3" ppth="Berlin-Hohenschönhausen|Bernau(b Berlin)|Rüdnitz|Biesenthal|Melchow|Eberswalde Hbf"/>
+	</s>
+	<s id="2153930403522491396-2412052132-14">
+		<tl f="N" t="p" o="NBRB12" c="RB" n="61136"/>
+		<ar pt="2412052258" pp="22" l="12" ppth="Templin Stadt|Templin|Hammelspring|Vogelsang(Kr Oberhavel)|Zehdenick-Neuhof|Zehdenick(Mark)|Bergsdorf|Löwenberg(Mark)|Grüneberg|Nassenheide|Sachsenhausen(Nordb)|Oranienburg|Berlin-Hohenschönhausen"/>
+		<dp pt="2412052300" pp="22" l="12" ppth="Berlin Ostkreuz"/>
+	</s>
+	<s id="2530772879679443349-2412052258-2">
+		<tl t="p" o="800165" c="FEX" n="93774"/>
+		<ar pt="2412052327" pp="" ppth="Flughafen BER"/>
+	</s>
+	<s id="-5796424117513586924-2412052204-15">
+		<tl f="N" t="p" o="NBRB26" c="RB" n="5186"/>
+		<ar pt="2412052324" pp="15" l="26" ppth="Kostrzyn|Küstrin-Kietz|Gorgast|Golzow(Oderbruch)|Werbig|Seelow-Gusow|Alt Rosenthal|Trebnitz(Mark)|Obersdorf|Müncheberg(Mark)|Rehfelde|Herrensee|Strausberg|Berlin-Mahlsdorf"/>
+		<dp pt="2412052325" pp="15" l="26" ppth="Berlin Ostkreuz"/>
+	</s>
+</timetable>
