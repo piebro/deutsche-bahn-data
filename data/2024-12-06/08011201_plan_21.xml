@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="-402426230839692471-2412062041-2">
+		<tl t="p" o="800165" c="FEX" n="19871"/>
+		<ar pt="2412062100" pp="4" tra="7535029924397126426-2412062109-1" pde="Berlin-Lichtenberg" ppth="Berlin Ostkreuz"/>
+	</s>
+	<s id="1139779810323429879-2412062139-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18684"/>
+		<ar pt="2412062155" pp="1" l="32" ppth="Ludwigsfelde|Birkengrund"/>
+	</s>
+	<s id="5505348089403655832-2412062128-1">
+		<tl t="p" o="800165" c="FEX" n="19868"/>
+		<dp pt="2412062128" pp="1" pde="Berlin-Lichtenberg" ppth="Berlin Ostkreuz"/>
+	</s>
+	<s id="7535029924397126426-2412062109-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18685"/>
+		<dp pt="2412062109" pp="4" l="32" tra="-402426230839692471-2412062041-2" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+	<s id="1702733222426386686-2412062108-2">
+		<tl f="N" t="p" o="800165" c="RB" n="18135"/>
+		<ar pt="2412062121" pp="4" l="22" ppth="Königs Wusterhausen"/>
+		<dp pt="2412062123" pp="4" l="22" ppth="Ludwigsfelde-Struveshof|Saarmund|Potsdam Pirschheide|Golm|Potsdam Park Sanssouci"/>
+	</s>
+	<s id="6670631784435320551-2412062048-8">
+		<tl f="N" t="p" o="800165" c="RB" n="18134"/>
+		<ar pt="2412062136" pp="1" l="22" ppth="Potsdam Hbf|Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Potsdam Pirschheide|Saarmund|Ludwigsfelde-Struveshof"/>
+		<dp pt="2412062138" pp="1" l="22" ppth="Königs Wusterhausen"/>
+	</s>
+	<s id="-4704795872904386108-2412062107-2">
+		<tl t="p" o="800165" c="FEX" n="93773"/>
+		<ar pt="2412062130" pp="4" ppth="Berlin-Lichtenberg"/>
+	</s>
+	<s id="-9026744603066220394-2412062158-1">
+		<tl t="p" o="800165" c="FEX" n="93970"/>
+		<dp pt="2412062158" pp="1" ppth="Berlin-Lichtenberg"/>
+	</s>
+	<s id="4743745578362725346-2412061821-6">
+		<tl f="F" t="p" o="80" c="IC" n="2275"/>
+		<ar pt="2412062050" pp="3 A-D" wings="4306201299399525432-2412062034" ppth="Rostock Hbf|Waren(Müritz)|Neustrelitz Hbf|Oranienburg|Berlin Ostkreuz"/>
+		<dp pt="2412062101" pp="3 A-D" wings="4306201299399525432-2412062034" ppth="Doberlug-Kirchhain|Elsterwerda|Dresden-Neustadt|Dresden Hbf"/>
+	</s>
+	<s id="4306201299399525432-2412062034-2">
+		<tl f="N" t="p" o="NZ" c="RE" n="52275"/>
+		<ar pt="2412062050" pp="3 A-D" l="17" ppth="Berlin Ostkreuz"/>
+		<dp pt="2412062101" pp="3 A-D" l="17" ppth="Doberlug-Kirchhain|Elsterwerda"/>
+	</s>
+</timetable>
