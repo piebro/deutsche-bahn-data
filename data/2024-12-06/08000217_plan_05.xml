@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<timetable station="Landshut(Bay)Hbf">
+	<s id="-6895690249644758851-2412060553-1">
+		<tl f="N" t="p" o="800767" c="RB" n="59235"/>
+		<dp pt="2412060553" pp="8" l="33" ppth="Gündlkofen|Bruckberg|Moosburg|Langenbach(Oberbay)|Marzling|Freising"/>
+	</s>
+	<s id="7343610523326974450-2412060505-1">
+		<tl f="N" t="p" o="800767" c="RE" n="57900"/>
+		<dp pt="2412060505" pp="5" l="22" ppth="Ergoldsbach|Neufahrn(Niederbay)|Eggmühl|Hagelstadt|Köfering|Obertraubling|Regensburg-Burgweinting|Regensburg Hbf"/>
+	</s>
+	<s id="1895955341132217238-2412060537-1">
+		<tl f="N" t="p" o="800767" c="RB" n="59233"/>
+		<dp pt="2412060537" pp="7" l="33" ppth="Gündlkofen|Bruckberg|Moosburg|Langenbach(Oberbay)|Marzling|Freising|München-Feldmoching|München-Moosach|München Hbf"/>
+	</s>
+	<s id="3939711392395335497-2412060346-3">
+		<tl t="p" o="A8N" c="Bus" n="60365"/>
+		<ar pt="2412060522" pp="" l="RE25" ppth="München Hbf|Freising"/>
+	</s>
+	<s id="8279695196270669266-2412060419-8">
+		<tl f="N" t="p" o="800767" c="RE" n="57903"/>
+		<ar pt="2412060503" pp="6" l="22" ppth="Regensburg Hbf|Obertraubling|Köfering|Hagelstadt|Eggmühl|Neufahrn(Niederbay)|Ergoldsbach"/>
+		<dp pt="2412060505" pp="6" l="22" ppth="Moosburg|Freising|München Flughafen Besucherpark|München Flughafen Terminal"/>
+	</s>
+	<s id="-5388423051474449811-2412060402-8">
+		<tl f="N" t="p" o="8007H3" c="RE" n="4851"/>
+		<ar pt="2412060528" pp="6" l="2" ppth="Schwandorf|Maxhütte-Haidhof|Regenstauf|Regensburg Hbf|Eggmühl|Neufahrn(Niederbay)|Ergoldsbach"/>
+		<dp pt="2412060530" pp="6" l="2" ppth="Moosburg|Freising|München Hbf"/>
+	</s>
+	<s id="908265252207648890-2412060529-1">
+		<tl f="D" t="p" o="A8N" c="ALX" n="365"/>
+		<dp pt="2412060529" pp="5" l="RE25" pde="Praha hl.n." ppth="Neufahrn(Niederbay)|Regensburg Hbf|Schwandorf|Roding|Cham(Oberpf)|Furth im Wald"/>
+	</s>
+	<s id="-7489466093975430799-2412060517-1">
+		<tl f="N" t="p" o="8013D" c="RB" n="27103"/>
+		<dp pt="2412060517" pp="3" l="45" ppth="Landshut(Bay)Süd|Geisenhausen|Vilsbiburg|Aich(Niederbay)|Egglkofen|Neumarkt-St Veit"/>
+	</s>
+	<s id="6347573480458045455-2412060534-1">
+		<tl f="N" t="p" o="800767" c="RE" n="4052"/>
+		<dp pt="2412060534" pp="4" l="3" ppth="Wörth(Isar)|Dingolfing|Landau(Isar)|Wallersdorf|Plattling|Osterhofen(Nby)|Vilshofen(Niederbay)|Passau Hbf"/>
+	</s>
+</timetable>
