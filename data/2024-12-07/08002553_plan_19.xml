@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg-Altona">
+	<s id="263505606232155959-2412070947-21">
+		<tl f="F" t="p" o="80" c="ICE" n="2408"/>
+		<ar pt="2412071930" pp="5" ppth="München Hbf|Augsburg Hbf|Günzburg|Ulm Hbf|Stuttgart Hbf|Heidelberg Hbf|Darmstadt Hbf|Frankfurt(M) Flughafen Fernbf|Köln Hbf|Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Münster(Westf)Hbf|Osnabrück Hbf|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor"/>
+	</s>
+	<s id="8929512695746408772-2412071823-8">
+		<tl f="D" t="p" o="O0" c="NBE" n="81883"/>
+		<ar pt="2412071904" pp="8" l="RB71" ppth="Wrist|Dauenhof|Horst(Holst)|Elmshorn|Tornesch|Prisdorf|Pinneberg"/>
+	</s>
+	<s id="6992012378128167215-2412071956-1">
+		<tl t="p" o="81" c="NJ" n="40491"/>
+		<dp pt="2412071956" pp="9" ppth="Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Würzburg Hbf|Nürnberg Hbf|Augsburg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="2769724218638057691-2412071448-17">
+		<tl f="F" t="p" o="80" c="ICE" n="1576"/>
+		<ar pt="2412071944" pp="6" ppth="Frankfurt(Main)Hbf|Frankfurt(Main)West|Friedberg(Hess)|Gießen|Marburg(Lahn)|Treysa|Wabern(Bz Kassel)|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen|Lüneburg|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor"/>
+	</s>
+	<s id="-2044723357159653206-2412071956-1">
+		<tl t="p" o="81" c="NJ" n="491"/>
+		<dp pt="2412071956" pp="9" wings="6992012378128167215-2412071956" ppth="Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Würzburg Hbf|Nürnberg Hbf|Regensburg Hbf|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="-8380838208240290310-2412071918-1">
+		<tl t="p" o="B1" c="Bus" n="81030"/>
+		<dp pt="2412071918" pp="" l="RE6X" ppth="Itzehoe"/>
+	</s>
+	<s id="2786560263476455984-2412071848-2">
+		<tl t="p" o="B1" c="Bus" n="91031"/>
+		<ar pt="2412071953" pp="" l="RE6X" ppth="Itzehoe"/>
+	</s>
+	<s id="3499338043235512572-2412071938-1">
+		<tl f="F" t="p" o="80" c="ICE" n="609"/>
+		<dp pt="2412071938" pp="12" ppth="Hamburg Hbf|Uelzen|Salzwedel|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz"/>
+	</s>
+	<s id="6491972750237499569-2412071955-1">
+		<tl f="D" t="p" o="O0" c="NBE" n="81890"/>
+		<dp pt="2412071955" pp="8" l="RB71" ppth="Pinneberg|Prisdorf|Tornesch|Elmshorn|Horst(Holst)|Dauenhof|Wrist"/>
+	</s>
+</timetable>
