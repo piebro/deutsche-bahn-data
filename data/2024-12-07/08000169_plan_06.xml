@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<timetable station="Hildesheim Hbf">
+	<s id="8902317930613394728-2412070415-6">
+		<tl f="F" t="p" o="80" c="ICE" n="571"/>
+		<ar pt="2412070618" pp="3" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin-Spandau|Wolfsburg Hbf|Braunschweig Hbf"/>
+		<dp pt="2412070619" pp="3" ppth="Göttingen|Kassel-Wilhelmshöhe|Fulda|Hanau Hbf|Frankfurt(Main)Hbf|Darmstadt Hbf|Mannheim Hbf|Stuttgart Hbf"/>
+	</s>
+	<s id="420052039327223515-2412070650-1">
+		<tl t="p" o="R0" c="ENO" n="83555"/>
+		<dp pt="2412070650" pp="4" l="RE50" ppth="Hoheneggelsen|Woltwiesche|Lengede-Broistedt|Braunschweig Hbf|Weddel(Braunschw)|Fallersleben|Wolfsburg Hbf"/>
+	</s>
+	<s id="7177111774271920818-2412070634-1">
+		<tl f="N" t="p" o="RSNM" c="RB" n="14491"/>
+		<dp pt="2412070634" pp="1" l="79" ppth="Hildesheim Ost|Groß Düngen|Wesseln|Bad Salzdetfurth Solebad|Bad Salzdetfurth|Bodenburg"/>
+	</s>
+	<s id="3919905662232116496-2412070513-10">
+		<tl f="D" t="p" o="R1" c="ME" n="82805"/>
+		<ar pt="2412070646" pp="6" l="RE2" ppth="Uelzen|Suderburg|Unterlüß|Eschede|Celle|Großburgwedel|Isernhagen|Langenhagen Mitte|Hannover Hbf"/>
+		<dp pt="2412070647" pp="6" l="RE2" ppth="Elze(Han)|Banteln|Alfeld(Leine)|Freden(Leine)|Kreiensen|Einbeck-Salzderhelden|Northeim(Han)|Nörten-Hardenberg|Göttingen"/>
+	</s>
+	<s id="-7681428675024460097-2412070515-3">
+		<tl t="p" o="X2" c="Bus" n="453"/>
+		<ar pt="2412070608" pp="" l="RE10" ppth="Hannover Hbf|Sarstedt"/>
+	</s>
+	<s id="3427223628348386779-2412070648-1">
+		<tl t="p" o="X2" c="Bus" n="454"/>
+		<dp pt="2412070648" pp="" l="RE10" ppth="Sarstedt|Hannover Hbf"/>
+	</s>
+	<s id="-5681668920016319273-2412070534-10">
+		<tl f="S" t="p" o="TDHS" c="S" n="34303"/>
+		<ar pt="2412070613" pp="5" l="3" ppth="Hannover Hbf|Hannover-Kleefeld|Hannover Karl-Wiechert-Allee|Hannover Anderten-Misburg|Ahlten|Lehrte|Sehnde|Algermissen|Harsum"/>
+	</s>
+	<s id="-516464000539209768-2412070504-10">
+		<tl f="D" t="p" o="R1" c="ME" n="82812"/>
+		<ar pt="2412070608" pp="6" l="RE2" ppth="Göttingen|Nörten-Hardenberg|Northeim(Han)|Einbeck-Salzderhelden|Kreiensen|Freden(Leine)|Alfeld(Leine)|Banteln|Elze(Han)"/>
+		<dp pt="2412070609" pp="6" l="RE2" ppth="Hannover Hbf|Langenhagen Mitte|Isernhagen|Großburgwedel|Celle|Eschede|Unterlüß|Suderburg|Uelzen"/>
+	</s>
+	<s id="2985410968133922977-2412070548-2">
+		<tl f="D" t="p" o="X2" c="erx" n="83453"/>
+		<ar pt="2412070613" pp="2" l="RE10" ppth="Hannover Hbf"/>
+		<dp pt="2412070614" pp="2" l="RE10" ppth="Hildesheim Ost|Derneburg(Han)|Baddeckenstedt|Salzgitter-Ringelheim|Goslar|Bad Harzburg"/>
+	</s>
+	<s id="-1072434993163899552-2412070602-4">
+		<tl f="N" t="p" o="RSNM" c="RB" n="56351"/>
+		<ar pt="2412070620" pp="1" l="77" ppth="Elze(Han)|Nordstemmen|Emmerke"/>
+	</s>
+	<s id="-8115728123882024101-2412070634-1">
+		<tl f="N" t="p" o="RSNM" c="RB" n="56394"/>
+		<dp pt="2412070634" pp="2" l="77" ppth="Emmerke|Nordstemmen|Elze(Han)"/>
+	</s>
+	<s id="-8698240508942734668-2412070643-1">
+		<tl f="S" t="p" o="TDHS" c="S" n="34304"/>
+		<dp pt="2412070643" pp="5" l="3" ppth="Harsum|Algermissen|Sehnde|Lehrte|Ahlten|Hannover Anderten-Misburg|Hannover Karl-Wiechert-Allee|Hannover-Kleefeld|Hannover Hbf"/>
+	</s>
+	<s id="-8511134771261336836-2412070548-7">
+		<tl f="D" t="p" o="X2" c="erx" n="83454"/>
+		<ar pt="2412070642" pp="3" l="RE10" ppth="Bad Harzburg|Goslar|Salzgitter-Ringelheim|Baddeckenstedt|Derneburg(Han)|Hildesheim Ost"/>
+		<dp pt="2412070644" pp="3" l="RE10" ppth="Hannover Hbf"/>
+	</s>
+</timetable>
