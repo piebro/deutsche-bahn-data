@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg-Altona">
+	<s id="-6233421755950731296-2412081316-1">
+		<tl t="p" o="B1" c="Bus" n="91018"/>
+		<dp pt="2412081316" pp="" l="RE6X" ppth="Itzehoe"/>
+	</s>
+	<s id="6941835044219960339-2412081311-1">
+		<tl f="F" t="p" o="80" c="ICE" n="1597"/>
+		<dp pt="2412081311" pp="10" ppth="Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Lüneburg|Uelzen|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Frankfurt(Main)Süd|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="8911672759521257270-2412081355-1">
+		<tl f="D" t="p" o="O0" c="NBE" n="81870"/>
+		<dp pt="2412081355" pp="8" l="RB71" ppth="Pinneberg|Prisdorf|Tornesch|Elmshorn|Horst(Holst)|Dauenhof|Wrist"/>
+	</s>
+	<s id="-1151057268452720658-2412081311-1">
+		<tl f="F" t="p" o="80" c="ICE" n="1205"/>
+		<dp pt="2412081311" pp="10" wings="6941835044219960339-2412081311" ppth="Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Lüneburg|Uelzen|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Ansbach|Treuchtlingen|Donauwörth|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-828368952981312873-2412081318-1">
+		<tl f="F" t="p" o="80" c="ICE" n="735"/>
+		<dp pt="2412081318" pp="11" ppth="Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Recklinghausen Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Hbf"/>
+	</s>
+	<s id="8325291133301848636-2412081248-2">
+		<tl t="p" o="B1" c="Bus" n="91019"/>
+		<ar pt="2412081353" pp="" l="RE6X" ppth="Itzehoe"/>
+	</s>
+	<s id="-4503530441970809798-2412081338-1">
+		<tl f="F" t="p" o="80" c="ICE" n="603"/>
+		<dp pt="2412081338" pp="12" ppth="Hamburg Hbf|Uelzen|Salzwedel|Stendal Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Leipzig Hbf|Erfurt Hbf|Bamberg|Erlangen|Nürnberg Hbf|München Hbf"/>
+	</s>
+	<s id="356937165382539921-2412081223-8">
+		<tl f="D" t="p" o="O0" c="NBE" n="81871"/>
+		<ar pt="2412081304" pp="8" l="RB71" ppth="Wrist|Dauenhof|Horst(Holst)|Elmshorn|Tornesch|Prisdorf|Pinneberg"/>
+	</s>
+	<s id="9044101659202083957-2412080605-16">
+		<tl f="F" t="p" o="80" c="ICE" n="2416"/>
+		<ar pt="2412081330" pp="6" ppth="Stuttgart Hbf|Heidelberg Hbf|Darmstadt Hbf|Frankfurt(M) Flughafen Fernbf|Köln Hbf|Solingen Hbf|Wuppertal Hbf|Hagen Hbf|Dortmund Hbf|Münster(Westf)Hbf|Osnabrück Hbf|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor"/>
+	</s>
+	<s id="-7036720270093720785-2412080705-13">
+		<tl f="F" t="p" o="80" c="ICE" n="804"/>
+		<ar pt="2412081320" pp="5" ppth="Nürnberg Hbf|Bamberg|Erfurt Hbf|Halle(Saale)Hbf|Bitterfeld|Berlin Südkreuz|Berlin Hbf|Berlin-Spandau|Stendal Hbf|Salzwedel|Lüneburg|Hamburg Hbf"/>
+	</s>
+</timetable>
