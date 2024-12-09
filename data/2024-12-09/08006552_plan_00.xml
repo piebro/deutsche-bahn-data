@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<timetable station="Wolfsburg Hbf">
+	<s id="5845049446990543970-2412090014-1">
+		<tl t="p" o="R0" c="ENO" n="83538"/>
+		<dp pt="2412090014" pp="4" l="RE30" ppth="Fallersleben|Calberlah|Gifhorn|Leiferde(b Gifhorn)|Meinersen|Dedenhausen|Dollbergen|Immensen-Arpke|Lehrte|Hannover Hbf"/>
+	</s>
+	<s id="5635546517747041389-2412090007-10">
+		<tl t="p" o="R0" c="ENO" n="88579"/>
+		<ar pt="2412090055" pp="4" l="RE30" ppth="Lehrte|Immensen-Arpke|Dollbergen|Dedenhausen|Meinersen|Leiferde(b Gifhorn)|Gifhorn|Calberlah|Fallersleben"/>
+	</s>
+	<s id="5646922477923288654-2412082014-8">
+		<tl f="F" t="p" o="80" c="ICE" n="657"/>
+		<ar pt="2412090002" pp="5" ppth="Köln Hbf|Wuppertal Hbf|Hagen Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Bielefeld Hbf|Hannover Hbf"/>
+		<dp pt="2412090003" pp="5" ppth="Berlin-Spandau|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="-8663650328249280950-2412090018-1">
+		<tl t="p" o="R0" c="ENO" n="83588"/>
+		<dp pt="2412090018" pp="8" l="RE50" ppth="Fallersleben|Weddel(Braunschw)|Braunschweig Hbf"/>
+	</s>
+	<s id="-5197214754641016147-2412090000-1">
+		<tl t="p" o="R0" c="Bus" n="3138"/>
+		<dp pt="2412090000" pp="" l="EV" ppth="Fallersleben"/>
+	</s>
+</timetable>

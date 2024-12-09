@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<timetable station="Heidelberg Hbf">
+	<s id="615799156828728797-2412082351-12">
+		<tl f="S" t="p" o="801539" c="S" n="38383"/>
+		<ar pt="2412090037" pp="8" l="3" pde="Kaiserslautern Hbf" ppth="Schifferstadt|Limburgerhof|Ludwigshafen-Rheingönheim|Ludwigshafen-Mundenheim|Ludwigshafen(Rh)Hbf|Ludwigshafen(Rhein) Mitte|Mannheim Hbf|Mannheim ARENA/Maimarkt|Mannheim-Seckenheim|Mannheim-Friedrichsfeld Süd|Heidelberg-Pfaffengrund/Wieblingen"/>
+		<dp pt="2412090044" pp="8" l="3" ppth="Heidelberg-Kirchheim/Rohrbach|St Ilgen-Sandhausen|Wiesloch-Walldorf|Rot-Malsch|Bad Schönborn-Kronau|Bad Schönborn Süd|Stettfeld-Weiher|Ubstadt-Weiher|Bruchsal|Bruchsal Bildungszentrum|Untergrombach|Weingarten(Baden)|Karlsruhe-Durlach|Karlsruhe Hbf"/>
+	</s>
+	<s id="-3794635779290048440-2412090045-1">
+		<tl f="S" t="p" o="801518" c="S" n="38501"/>
+		<dp pt="2412090045" pp="1" l="5" ppth="Heidelberg-Weststadt/Südstadt|Heidelberg-Altstadt|Heidelberg-Schlierbach/Ziegelhausen|Heidelberg Orthopädie|Neckargemünd|Bammental|Reilsheim|Mauer(b Heidelberg)|Meckesheim|Zuzenhausen|Hoffenheim|Sinsheim(Elsenz) Hbf"/>
+	</s>
+	<s id="-2276011592119598478-2412090015-1">
+		<tl t="p" o="801539" c="Bus" n="9264"/>
+		<dp pt="2412090015" pp="" l="S2" ppth="Heidelberg-Pfaffengrund/Wieblingen|Mannheim-Friedrichsfeld Süd|Mannheim-Seckenheim|Mannheim ARENA/Maimarkt|Mannheim Hbf"/>
+	</s>
+	<s id="3233914943120412473-2412082343-10">
+		<tl f="S" t="p" o="801539" c="S" n="38412"/>
+		<ar pt="2412090011" pp="2" l="3" ppth="Bruchsal|Ubstadt-Weiher|Stettfeld-Weiher|Bad Schönborn Süd|Bad Schönborn-Kronau|Rot-Malsch|Wiesloch-Walldorf|St Ilgen-Sandhausen|Heidelberg-Kirchheim/Rohrbach"/>
+		<dp pt="2412090014" pp="2" l="3" ppth="Heidelberg-Pfaffengrund/Wieblingen|Mannheim-Friedrichsfeld Süd|Mannheim-Seckenheim|Mannheim ARENA/Maimarkt|Mannheim Hbf|Ludwigshafen(Rhein) Mitte|Ludwigshafen(Rh)Hbf"/>
+	</s>
+	<s id="-220373592590294341-2412090011-12">
+		<tl f="S" t="p" o="801539" c="S" n="38294"/>
+		<ar pt="2412090055" pp="5" l="2" ppth="Karlsruhe Hbf|Karlsruhe-Durlach|Bruchsal|Ubstadt-Weiher|Stettfeld-Weiher|Bad Schönborn Süd|Bad Schönborn-Kronau|Rot-Malsch|Wiesloch-Walldorf|St Ilgen-Sandhausen|Heidelberg-Kirchheim/Rohrbach"/>
+	</s>
+	<s id="6216578352582452723-2412082340-6">
+		<tl t="p" o="801539" c="Bus" n="8263"/>
+		<ar pt="2412090028" pp="" l="S2" ppth="Mannheim Hbf|Mannheim ARENA/Maimarkt|Mannheim-Seckenheim|Mannheim-Friedrichsfeld Süd|Heidelberg-Pfaffengrund/Wieblingen"/>
+	</s>
+	<s id="-2870592408456513888-2412090024-1">
+		<tl f="N" t="p" o="SBSRE" c="RE" n="19255"/>
+		<dp pt="2412090024" pp="4" l="10a" ppth="Neckargemünd|Eberbach|Mosbach-Neckarelz|Bad Friedrichshall Hbf|Neckarsulm|Heilbronn Hbf"/>
+	</s>
+	<s id="8439018456594148485-2412082238-27">
+		<tl f="S" t="p" o="801539" c="S" n="38264"/>
+		<ar pt="2412090005" pp="2" l="2" ppth="Osterburken|Adelsheim Nord|Zimmern(b Seckach)|Seckach|Eicholzheim|Oberschefflenz|Auerbach(b Mosbach, Baden)|Dallau|Neckarburken|Mosbach(Baden)|Mosbach West|Mosbach-Neckarelz|Binau|Neckargerach|Zwingenberg(Baden)|Lindach|Eberbach|Hirschhorn(Neckar)|Neckarhausen bei Neckarsteinach|Neckarsteinach|Neckargemünd Altstadt|Neckargemünd|Heidelberg Orthopädie|Heidelberg-Schlierbach/Ziegelhausen|Heidelberg-Altstadt|Heidelberg-Weststadt/Südstadt"/>
+		<dp pt="2412090014" pp="2" l="2" wings="3233914943120412473-2412082343" ppth="Heidelberg-Pfaffengrund/Wieblingen|Mannheim-Friedrichsfeld Süd|Mannheim-Seckenheim|Mannheim ARENA/Maimarkt|Mannheim Hbf|Ludwigshafen(Rhein) Mitte|Ludwigshafen(Rh)Hbf"/>
+	</s>
+	<s id="5584951221219522401-2412082229-29">
+		<tl f="S" t="p" o="801539" c="S" n="38265"/>
+		<ar pt="2412090037" pp="8" l="2" wings="615799156828728797-2412082351" ppth="Bruchsal|Bruchsal Sportzentrum|Bruchsal Am Mantel|Karlsdorf|Graben-Neudorf|Graben-Neudorf Nord|Huttenheim|Philippsburg(Baden)|Rheinsheim|Germersheim Mitte/Rhein|Germersheim|Lingenfeld|Heiligenstein(Pfalz)|Berghausen(Pfalz)|Speyer Hbf|Speyer Nord-West|Schifferstadt Süd|Schifferstadt|Limburgerhof|Ludwigshafen-Rheingönheim|Ludwigshafen-Mundenheim|Ludwigshafen(Rh)Hbf|Ludwigshafen(Rhein) Mitte|Mannheim Hbf|Mannheim ARENA/Maimarkt|Mannheim-Seckenheim|Mannheim-Friedrichsfeld Süd|Heidelberg-Pfaffengrund/Wieblingen"/>
+		<dp pt="2412090038" pp="8" l="2" ppth="Heidelberg-Weststadt/Südstadt|Heidelberg-Altstadt|Heidelberg-Schlierbach/Ziegelhausen|Heidelberg Orthopädie|Neckargemünd|Neckargemünd Altstadt|Neckarsteinach|Neckarhausen bei Neckarsteinach|Hirschhorn(Neckar)|Eberbach|Lindach|Zwingenberg(Baden)|Neckargerach|Binau|Mosbach-Neckarelz|Mosbach West|Mosbach(Baden)"/>
+	</s>
+	<s id="8495330475575047113-2412090028-2">
+		<tl t="p" o="801518" c="Bus" n="8087"/>
+		<ar pt="2412090053" pp="" l="S51" ppth="Ladenburg"/>
+	</s>
+</timetable>
