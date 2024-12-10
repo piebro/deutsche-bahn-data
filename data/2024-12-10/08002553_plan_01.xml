@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg-Altona">
+	<s id="4989244779936178731-2412100144-1">
+		<tl f="N" t="p" o="800201" c="RE" n="11492"/>
+		<dp pt="2412100144" pp="8" l="7" ppth="Pinneberg|Elmshorn|Wrist|Neumünster|Einfeld|Bordesholm|Flintbek|Kiel Hbf"/>
+	</s>
+	<s id="3967400669637803339-2412100113-3">
+		<tl t="p" o="B1" c="Bus" n="11492"/>
+		<ar pt="2412100131" pp="" l="RE7" ppth="Hamburg Hbf ZOB|Hamburg Dammtor"/>
+	</s>
+	<s id="8620046447993539203-2412100005-10">
+		<tl f="N" t="p" o="800201" c="RE" n="11493"/>
+		<ar pt="2412100123" pp="8" l="7" ppth="Kiel Hbf|Flintbek|Bordesholm|Einfeld|Neumünster|Brokstedt|Wrist|Elmshorn|Pinneberg"/>
+	</s>
+	<s id="1370209388830214666-2412100133-1">
+		<tl t="p" o="B1" c="Bus" n="11493"/>
+		<dp pt="2412100133" pp="" l="RE7" ppth="Hamburg Dammtor|Hamburg Hbf ZOB"/>
+	</s>
+	<s id="4527502747804446727-2412092230-9">
+		<tl f="F" t="p" o="80" c="ICE" n="700"/>
+		<ar pt="2412100116" pp="5" ppth="Berlin Südkreuz|Berlin Hbf|Berlin-Spandau|Stendal Hbf|Salzwedel|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor"/>
+	</s>
+	<s id="-5030805675749971422-2412100107-1">
+		<tl f="D" t="p" o="O0" c="NBE" n="81748"/>
+		<dp pt="2412100107" pp="9" l="RB71" ppth="Pinneberg|Prisdorf|Tornesch|Elmshorn|Herzhorn|Glückstadt|Krempe|Kremperheide|Itzehoe"/>
+	</s>
+</timetable>
