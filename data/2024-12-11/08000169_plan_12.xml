@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<timetable station="Hildesheim Hbf">
+	<s id="-7187770431061668947-2412111250-1">
+		<tl t="p" o="R0" c="ENO" n="83567"/>
+		<dp pt="2412111250" pp="4" l="RE50" ppth="Hoheneggelsen|Woltwiesche|Lengede-Broistedt|Braunschweig Hbf|Weddel(Braunschw)|Fallersleben|Wolfsburg Hbf"/>
+	</s>
+	<s id="-9128940567987965979-2412111234-1">
+		<tl f="N" t="p" o="RSNM" c="RB" n="14463"/>
+		<dp pt="2412111234" pp="1" l="79" ppth="Hildesheim Ost|Groß Düngen|Wesseln|Bad Salzdetfurth Solebad|Bad Salzdetfurth|Bodenburg"/>
+	</s>
+	<s id="1948878934792162160-2412111202-7">
+		<tl f="N" t="p" o="RSNM" c="RB" n="14466"/>
+		<ar pt="2412111226" pp="4" l="79" ppth="Bodenburg|Bad Salzdetfurth|Bad Salzdetfurth Solebad|Wesseln|Groß Düngen|Hildesheim Ost"/>
+	</s>
+	<s id="1995778182868713343-2412111115-3">
+		<tl t="p" o="X2" c="Bus" n="465"/>
+		<ar pt="2412111208" pp="" l="RE10" ppth="Hannover Hbf|Sarstedt"/>
+	</s>
+	<s id="3903267114289140176-2412111109-10">
+		<tl f="D" t="p" o="R1" c="ME" n="82817"/>
+		<ar pt="2412111246" pp="6" l="RE2" ppth="Uelzen|Suderburg|Unterlüß|Eschede|Celle|Großburgwedel|Isernhagen|Langenhagen Mitte|Hannover Hbf"/>
+		<dp pt="2412111247" pp="6" l="RE2" ppth="Elze(Han)|Banteln|Alfeld(Leine)|Freden(Leine)|Kreiensen|Einbeck-Salzderhelden|Northeim(Han)|Nörten-Hardenberg|Göttingen"/>
+	</s>
+	<s id="-5379893411807300826-2412111248-1">
+		<tl t="p" o="X2" c="Bus" n="466"/>
+		<dp pt="2412111248" pp="" l="RE10" ppth="Sarstedt|Hannover Hbf"/>
+	</s>
+	<s id="8551486080542108322-2412111234-1">
+		<tl f="N" t="p" o="RSNM" c="RB" n="56366"/>
+		<dp pt="2412111234" pp="4" l="77" ppth="Emmerke|Nordstemmen|Elze(Han)"/>
+	</s>
+	<s id="-4465336030385931642-2412111014-6">
+		<tl f="F" t="p" o="80" c="ICE" n="577"/>
+		<ar pt="2412111218" pp="3" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin-Spandau|Wolfsburg Hbf|Braunschweig Hbf"/>
+		<dp pt="2412111219" pp="3" ppth="Göttingen|Kassel-Wilhelmshöhe|Fulda|Hanau Hbf|Frankfurt(Main)Hbf|Darmstadt Hbf|Mannheim Hbf|Stuttgart Hbf"/>
+	</s>
+	<s id="-4695910514228116524-2412111104-10">
+		<tl f="D" t="p" o="R1" c="ME" n="82824"/>
+		<ar pt="2412111209" pp="6" l="RE2" ppth="Göttingen|Nörten-Hardenberg|Northeim(Han)|Einbeck-Salzderhelden|Kreiensen|Freden(Leine)|Alfeld(Leine)|Banteln|Elze(Han)"/>
+		<dp pt="2412111210" pp="6" l="RE2" ppth="Hannover Hbf|Langenhagen Mitte|Isernhagen|Großburgwedel|Celle|Eschede|Unterlüß|Suderburg|Uelzen"/>
+	</s>
+	<s id="5993325557577694962-2412111148-7">
+		<tl f="D" t="p" o="X2" c="erx" n="83466"/>
+		<ar pt="2412111242" pp="3" l="RE10" ppth="Bad Harzburg|Goslar|Salzgitter-Ringelheim|Baddeckenstedt|Derneburg(Han)|Hildesheim Ost"/>
+		<dp pt="2412111244" pp="3" l="RE10" ppth="Hannover Hbf"/>
+	</s>
+	<s id="-8904433064072988739-2412111134-10">
+		<tl f="S" t="p" o="TDHS" c="S" n="34315"/>
+		<ar pt="2412111213" pp="5" l="3" ppth="Hannover Hbf|Hannover-Kleefeld|Hannover Karl-Wiechert-Allee|Hannover Anderten-Misburg|Ahlten|Lehrte|Sehnde|Algermissen|Harsum"/>
+	</s>
+	<s id="-886919495737015388-2412111148-2">
+		<tl f="D" t="p" o="X2" c="erx" n="83465"/>
+		<ar pt="2412111213" pp="2" l="RE10" ppth="Hannover Hbf"/>
+		<dp pt="2412111214" pp="2" l="RE10" ppth="Hildesheim Ost|Derneburg(Han)|Baddeckenstedt|Salzgitter-Ringelheim|Goslar|Bad Harzburg"/>
+	</s>
+	<s id="2737274120239826370-2412111009-7">
+		<tl f="F" t="p" o="80" c="ICE" n="992"/>
+		<ar pt="2412111236" pp="2" ppth="Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Süd|Hanau Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen"/>
+		<dp pt="2412111237" pp="2" ppth="Braunschweig Hbf|Wolfsburg Hbf|Stendal Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz"/>
+	</s>
+	<s id="8580532105363537471-2412111118-8">
+		<tl t="p" o="R0" c="ENO" n="83562"/>
+		<ar pt="2412111208" pp="4" l="RE50" ppth="Wolfsburg Hbf|Fallersleben|Weddel(Braunschw)|Braunschweig Hbf|Lengede-Broistedt|Woltwiesche|Hoheneggelsen"/>
+	</s>
+	<s id="-2012286418415585327-2412111243-1">
+		<tl f="S" t="p" o="TDHS" c="S" n="34316"/>
+		<dp pt="2412111243" pp="5" l="3" ppth="Harsum|Algermissen|Sehnde|Lehrte|Ahlten|Hannover Anderten-Misburg|Hannover Karl-Wiechert-Allee|Hannover-Kleefeld|Hannover Hbf"/>
+	</s>
+	<s id="239283131821387546-2412111202-4">
+		<tl f="N" t="p" o="RSNM" c="RB" n="56363"/>
+		<ar pt="2412111220" pp="1" l="77" ppth="Elze(Han)|Nordstemmen|Emmerke"/>
+	</s>
+</timetable>
