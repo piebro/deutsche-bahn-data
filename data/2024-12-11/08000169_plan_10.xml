@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<timetable station="Hildesheim Hbf">
+	<s id="1481441140832431847-2412110948-2">
+		<tl f="D" t="p" o="X2" c="erx" n="83461"/>
+		<ar pt="2412111013" pp="2" l="RE10" ppth="Hannover Hbf"/>
+		<dp pt="2412111014" pp="2" l="RE10" ppth="Hildesheim Ost|Derneburg(Han)|Baddeckenstedt|Salzgitter-Ringelheim|Goslar|Bad Harzburg"/>
+	</s>
+	<s id="8416219724899701036-2412111050-1">
+		<tl t="p" o="R0" c="ENO" n="83563"/>
+		<dp pt="2412111050" pp="4" l="RE50" ppth="Hoheneggelsen|Woltwiesche|Lengede-Broistedt|Braunschweig Hbf|Weddel(Braunschw)|Fallersleben|Wolfsburg Hbf"/>
+	</s>
+	<s id="-6274562166275967562-2412111034-1">
+		<tl f="N" t="p" o="RSNM" c="RB" n="56362"/>
+		<dp pt="2412111034" pp="4" l="77" ppth="Emmerke|Nordstemmen|Elze(Han)"/>
+	</s>
+	<s id="-918686234840290607-2412110904-10">
+		<tl f="D" t="p" o="R1" c="ME" n="82820"/>
+		<ar pt="2412111009" pp="6" l="RE2" ppth="Göttingen|Nörten-Hardenberg|Northeim(Han)|Einbeck-Salzderhelden|Kreiensen|Freden(Leine)|Alfeld(Leine)|Banteln|Elze(Han)"/>
+		<dp pt="2412111010" pp="6" l="RE2" ppth="Hannover Hbf|Langenhagen Mitte|Isernhagen|Großburgwedel|Celle|Eschede|Unterlüß|Suderburg|Uelzen"/>
+	</s>
+	<s id="7543057274950850431-2412111002-4">
+		<tl f="N" t="p" o="RSNM" c="RB" n="56359"/>
+		<ar pt="2412111020" pp="1" l="77" ppth="Elze(Han)|Nordstemmen|Emmerke"/>
+	</s>
+	<s id="1962082432295475643-2412110948-7">
+		<tl f="D" t="p" o="X2" c="erx" n="83462"/>
+		<ar pt="2412111042" pp="3" l="RE10" ppth="Bad Harzburg|Goslar|Salzgitter-Ringelheim|Baddeckenstedt|Derneburg(Han)|Hildesheim Ost"/>
+		<dp pt="2412111044" pp="3" l="RE10" ppth="Hannover Hbf"/>
+	</s>
+	<s id="925329898818531989-2412111002-7">
+		<tl f="N" t="p" o="RSNM" c="RB" n="14462"/>
+		<ar pt="2412111026" pp="4" l="79" ppth="Bodenburg|Bad Salzdetfurth|Bad Salzdetfurth Solebad|Wesseln|Groß Düngen|Hildesheim Ost"/>
+	</s>
+	<s id="-5632453174521695061-2412110817-6">
+		<tl f="F" t="p" o="80" c="ICE" n="575"/>
+		<ar pt="2412111018" pp="3" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin-Spandau|Wolfsburg Hbf|Braunschweig Hbf"/>
+		<dp pt="2412111019" pp="3" ppth="Göttingen|Kassel-Wilhelmshöhe|Fulda|Hanau Hbf|Frankfurt(Main)Hbf|Darmstadt Hbf|Mannheim Hbf|Stuttgart Hbf"/>
+	</s>
+	<s id="-507052678650387214-2412110918-8">
+		<tl t="p" o="R0" c="ENO" n="83558"/>
+		<ar pt="2412111008" pp="4" l="RE50" ppth="Wolfsburg Hbf|Fallersleben|Weddel(Braunschw)|Braunschweig Hbf|Lengede-Broistedt|Woltwiesche|Hoheneggelsen"/>
+	</s>
+	<s id="3839121276325230092-2412110915-3">
+		<tl t="p" o="X2" c="Bus" n="461"/>
+		<ar pt="2412111008" pp="" l="RE10" ppth="Hannover Hbf|Sarstedt"/>
+	</s>
+	<s id="6091233061866164250-2412110909-10">
+		<tl f="D" t="p" o="R1" c="ME" n="82813"/>
+		<ar pt="2412111046" pp="6" l="RE2" ppth="Uelzen|Suderburg|Unterlüß|Eschede|Celle|Großburgwedel|Isernhagen|Langenhagen Mitte|Hannover Hbf"/>
+		<dp pt="2412111047" pp="6" l="RE2" ppth="Elze(Han)|Banteln|Alfeld(Leine)|Freden(Leine)|Kreiensen|Einbeck-Salzderhelden|Northeim(Han)|Nörten-Hardenberg|Göttingen"/>
+	</s>
+	<s id="-8258108375906142965-2412111043-1">
+		<tl f="S" t="p" o="TDHS" c="S" n="34312"/>
+		<dp pt="2412111043" pp="5" l="3" ppth="Harsum|Algermissen|Sehnde|Lehrte|Ahlten|Hannover Anderten-Misburg|Hannover Karl-Wiechert-Allee|Hannover-Kleefeld|Hannover Hbf"/>
+	</s>
+	<s id="6974768692168208908-2412110934-10">
+		<tl f="S" t="p" o="TDHS" c="S" n="34311"/>
+		<ar pt="2412111013" pp="5" l="3" ppth="Hannover Hbf|Hannover-Kleefeld|Hannover Karl-Wiechert-Allee|Hannover Anderten-Misburg|Ahlten|Lehrte|Sehnde|Algermissen|Harsum"/>
+	</s>
+	<s id="3654712416443333279-2412111048-1">
+		<tl t="p" o="X2" c="Bus" n="462"/>
+		<dp pt="2412111048" pp="" l="RE10" ppth="Sarstedt|Hannover Hbf"/>
+	</s>
+	<s id="7865158294276076903-2412111034-1">
+		<tl f="N" t="p" o="RSNM" c="RB" n="14459"/>
+		<dp pt="2412111034" pp="1" l="79" ppth="Hildesheim Ost|Groß Düngen|Wesseln|Bad Salzdetfurth Solebad|Bad Salzdetfurth|Bodenburg"/>
+	</s>
+	<s id="-7742298608969518820-2412110807-7">
+		<tl f="F" t="p" o="80" c="ICE" n="994"/>
+		<ar pt="2412111036" pp="2" ppth="Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Süd|Hanau Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen"/>
+		<dp pt="2412111037" pp="2" ppth="Braunschweig Hbf|Wolfsburg Hbf|Stendal Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz"/>
+	</s>
+</timetable>

@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="4140186757708829296-2412110958-1">
+		<tl t="p" o="800165" c="FEX" n="93722"/>
+		<dp pt="2412110958" pp="1" ppth="Berlin-Lichtenberg"/>
+	</s>
+	<s id="7794920449617934380-2412110804-3">
+		<tl f="N" t="p" o="NZ" c="RE" n="52272"/>
+		<ar pt="2412110858" pp="2" l="17" ppth="Elsterwerda|Doberlug-Kirchhain"/>
+		<dp pt="2412110905" pp="2" l="17" ppth="Berlin Ostkreuz"/>
+	</s>
+	<s id="-2864854689757441550-2412110841-2">
+		<tl t="p" o="800165" c="FEX" n="19823"/>
+		<ar pt="2412110900" pp="4" tra="-1924631699856485307-2412110909-1" pde="Berlin-Lichtenberg" ppth="Berlin Ostkreuz"/>
+	</s>
+	<s id="6189510013847713023-2412110840-9">
+		<tl f="N" t="p" o="800165" c="RB" n="18110"/>
+		<ar pt="2412110936" pp="1" l="22" ppth="Potsdam Griebnitzsee|Potsdam Hbf|Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Potsdam Pirschheide|Saarmund|Ludwigsfelde-Struveshof"/>
+		<dp pt="2412110938" pp="1" l="22" ppth="Königs Wusterhausen"/>
+	</s>
+	<s id="7017784096182584192-2412110939-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18660"/>
+		<ar pt="2412110955" pp="1" l="32" ppth="Ludwigsfelde|Birkengrund"/>
+	</s>
+	<s id="1804793604030733500-2412110913-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18148"/>
+		<dp pt="2412110913" pp="3 D-G" l="23" ppth="Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Charlottenburg|Berlin-Wannsee|Potsdam Griebnitzsee|Potsdam Hbf|Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm"/>
+	</s>
+	<s id="-4633206420447062905-2412110830-6">
+		<tl f="N" t="p" o="800165" c="RB" n="18352"/>
+		<ar pt="2412110910" pp="1" l="24" ppth="Wünsdorf-Waldstadt|Dabendorf|Rangsdorf|Dahlewitz|Blankenfelde(Teltow-Fläming)"/>
+	</s>
+	<s id="-4722387764254541750-2412110701-17">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62006"/>
+		<ar pt="2412110915" pp="2" l="8" ppth="Wittenberge|Bad Wilsnack|Glöwen|Breddin|Neustadt(Dosse)|Friesack(Mark)|Paulinenaue|Nauen|Falkensee|Berlin-Spandau|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz"/>
+	</s>
+	<s id="-1924631699856485307-2412110909-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18661"/>
+		<dp pt="2412110909" pp="4" l="32" tra="-2864854689757441550-2412110841-2" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+	<s id="-2045143758051766717-2412110621-6">
+		<tl f="F" t="p" o="80" c="IC" n="2173"/>
+		<ar pt="2412110856" pp="3 A-D" wings="-5229337096273839706-2412110834" ppth="Rostock Hbf|Waren(Müritz)|Neustrelitz Hbf|Oranienburg|Berlin Ostkreuz"/>
+		<dp pt="2412110901" pp="3 A-D" wings="-5229337096273839706-2412110834" ppth="Doberlug-Kirchhain|Elsterwerda|Dresden-Neustadt|Dresden Hbf"/>
+	</s>
+	<s id="1900510966112020966-2412110944-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62013"/>
+		<dp pt="2412110944" pp="2" l="8" ppth="Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Spandau|Falkensee|Nauen|Paulinenaue|Friesack(Mark)|Neustadt(Dosse)|Breddin|Glöwen|Bad Wilsnack|Wittenberge"/>
+	</s>
+	<s id="817984514940380033-2412110928-1">
+		<tl t="p" o="800165" c="FEX" n="93720"/>
+		<dp pt="2412110928" pp="1" ppth="Berlin-Lichtenberg"/>
+	</s>
+	<s id="-2153861071951723377-2412110905-2">
+		<tl t="p" o="800165" c="FEX" n="93925"/>
+		<ar pt="2412110930" pp="4" ppth="Berlin-Lichtenberg"/>
+	</s>
+	<s id="-3807954677428873636-2412110626-7">
+		<tl f="F" t="p" o="80" c="IC" n="2272"/>
+		<ar pt="2412110858" pp="2" wings="7794920449617934380-2412110804" ppth="Chemnitz Hbf|Freiberg(Sachs)|Dresden Hbf|Dresden-Neustadt|Elsterwerda|Doberlug-Kirchhain"/>
+		<dp pt="2412110905" pp="2" wings="7794920449617934380-2412110804" ppth="Berlin Ostkreuz|Oranienburg|Neustrelitz Hbf|Waren(Müritz)|Rostock Hbf|Warnemünde"/>
+	</s>
+	<s id="8058255734139016286-2412110908-2">
+		<tl f="N" t="p" o="800165" c="RB" n="18111"/>
+		<ar pt="2412110921" pp="4" l="22" ppth="Königs Wusterhausen"/>
+		<dp pt="2412110923" pp="4" l="22" ppth="Ludwigsfelde-Struveshof|Saarmund|Potsdam Pirschheide|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof|Potsdam Hbf|Potsdam Griebnitzsee"/>
+	</s>
+	<s id="5181039472234481426-2412110830-14">
+		<tl f="N" t="p" o="800165" c="RB" n="18149"/>
+		<ar pt="2412110946" pp="3" l="23" ppth="Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof|Potsdam Hbf|Potsdam Griebnitzsee|Berlin-Wannsee|Berlin-Charlottenburg|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz"/>
+	</s>
+	<s id="-5229337096273839706-2412110834-2">
+		<tl f="N" t="p" o="NZ" c="RE" n="52173"/>
+		<ar pt="2412110856" pp="3 A-D" l="17" ppth="Berlin Ostkreuz"/>
+		<dp pt="2412110901" pp="3 A-D" l="17" ppth="Doberlug-Kirchhain|Elsterwerda"/>
+	</s>
+</timetable>
