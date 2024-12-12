@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<timetable station="Oberhausen Hbf">
+	<s id="2139136787305983229-2412120044-2">
+		<tl f="D" t="p" o="R4NRN" c="VIA" n="20000"/>
+		<ar pt="2412120049" pp="9" l="RE19" ppth="Duisburg Hbf"/>
+		<dp pt="2412120050" pp="9" l="RE19" ppth="Oberhausen-Sterkrade|Oberhausen-Holten|Dinslaken|Voerde(Niederrhein)|Wesel|Wesel Feldmark|Mehrhoog|Haldern(Rheinl)|Empel-Rees|Millingen(b Rees)|Praest|Emmerich"/>
+	</s>
+	<s id="-7688002430270500418-2412112256-4">
+		<tl t="p" o="R2" c="Bus" n="3055"/>
+		<ar pt="2412120006" pp="" l="RE3" ppth="Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf"/>
+	</s>
+	<s id="3069456466684657039-2412112245-16">
+		<tl f="D" t="p" o="R4NRN" c="VIA" n="20043"/>
+		<ar pt="2412120006" pp="12" l="RE19" ppth="Arnhem Centraal|Zevenaar|Emmerich-Elten|Emmerich|Praest|Millingen(b Rees)|Empel-Rees|Haldern(Rheinl)|Mehrhoog|Wesel Feldmark|Wesel|Voerde(Niederrhein)|Dinslaken|Oberhausen-Holten|Oberhausen-Sterkrade"/>
+		<dp pt="2412120008" pp="12" l="RE19" ppth="Duisburg Hbf"/>
+	</s>
+	<s id="2954494231059414669-2412112333-11">
+		<tl f="N" t="p" o="8003L1" c="RB" n="31281"/>
+		<ar pt="2412120018" pp="7" l="32" ppth="Dortmund Hbf|Dortmund-Mengede|Castrop-Rauxel Hbf|Herne|Wanne-Eickel Hbf|Gelsenkirchen Hbf|Essen-Zollverein Nord|Essen-Altenessen|Essen-Bergeborbeck|Essen-Dellwig"/>
+		<dp pt="2412120019" pp="7" l="32" ppth="Duisburg Hbf"/>
+	</s>
+	<s id="5343396580704126851-2412120016-5">
+		<tl t="p" o="TDRR" c="RRB" n="75331"/>
+		<ar pt="2412120028" pp="15" l="RB36" ppth="Duisburg-Ruhrort|Duisburg-Meiderich Süd|Duisburg-Meiderich Ost|Duisburg-Obermeiderich"/>
+	</s>
+	<s id="680223402267180819-2412120034-2">
+		<tl f="N" t="p" o="8003L1" c="RB" n="31240"/>
+		<ar pt="2412120040" pp="6" l="32" ppth="Duisburg Hbf"/>
+		<dp pt="2412120041" pp="6" l="32" ppth="Essen-Dellwig|Essen-Bergeborbeck|Essen-Altenessen|Essen-Zollverein Nord|Gelsenkirchen Hbf|Wanne-Eickel Hbf|Herne|Castrop-Rauxel Hbf|Dortmund-Mengede|Dortmund Hbf"/>
+	</s>
+	<s id="-6064597082372604762-2412120028-1">
+		<tl t="p" o="B2" c="Bus" n="3012"/>
+		<dp pt="2412120028" pp="" l="S3" ppth="Mülheim(Ruhr)Styrum|Mülheim(Ruhr)West|Mülheim(Ruhr)Hbf|Essen-Frohnhausen|Essen West|Essen Hbf"/>
+	</s>
+	<s id="3514686270683743391-2412112336-7">
+		<tl t="p" o="B2" c="Bus" n="3011"/>
+		<ar pt="2412120028" pp="" l="S3" ppth="Essen Hbf|Essen West|Essen-Frohnhausen|Mülheim(Ruhr)Hbf|Mülheim(Ruhr)West|Mülheim(Ruhr)Styrum"/>
+	</s>
+	<s id="8942116370345967167-2412120016-1">
+		<tl f="N" t="p" o="R2RE" c="RE" n="89903"/>
+		<dp pt="2412120016" pp="6" l="3" ppth="Essen-Altenessen|Gelsenkirchen Hbf|Wanne-Eickel Hbf|Herne|Castrop-Rauxel Hbf|Dortmund-Mengede|Dortmund Hbf"/>
+	</s>
+</timetable>
