@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="-160342336880477500-2412140901-1">
+		<tl f="N" t="p" o="NZ" c="RE" n="52173"/>
+		<dp pt="2412140901" pp="3 A-D" l="17" ppth="Doberlug-Kirchhain|Elsterwerda"/>
+	</s>
+	<s id="7017784096182584192-2412140939-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18660"/>
+		<ar pt="2412140955" pp="1" l="32" tra="-7146230685584606626-2412140958-1" ppth="Ludwigsfelde|Birkengrund"/>
+	</s>
+	<s id="5798024939417938501-2412140900-8">
+		<tl f="N" t="p" o="800165" c="RB" n="18149"/>
+		<ar pt="2412140946" pp="3" l="23" ppth="Berlin-Charlottenburg|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz"/>
+	</s>
+	<s id="-3383247908921911749-2412140907-2">
+		<tl t="p" o="800165" c="FEX" n="19825"/>
+		<ar pt="2412140930" pp="4" pde="Berlin-Lichtenberg" ppth="Berlin Ostkreuz"/>
+	</s>
+	<s id="-2045143758051766717-2412140621-6">
+		<tl f="F" t="p" o="80" c="IC" n="2173"/>
+		<ar pt="2412140856" pp="3 A-D" ppth="Rostock Hbf|Waren(Müritz)|Neustrelitz Hbf|Oranienburg|Berlin Ostkreuz"/>
+		<dp pt="2412140901" pp="3 A-D" wings="-160342336880477500-2412140901" ppth="Doberlug-Kirchhain|Elsterwerda|Dresden-Neustadt|Dresden Hbf"/>
+	</s>
+	<s id="6563458064466684721-2412140848-8">
+		<tl f="N" t="p" o="800165" c="RB" n="18110"/>
+		<ar pt="2412140936" pp="1" l="22" ppth="Potsdam Hbf|Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Potsdam Pirschheide|Saarmund|Ludwigsfelde-Struveshof"/>
+		<dp pt="2412140938" pp="1" l="22" ppth="Königs Wusterhausen"/>
+	</s>
+	<s id="1804793604030733500-2412140913-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18148"/>
+		<dp pt="2412140913" pp="3 D-G" l="23" ppth="Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Charlottenburg"/>
+	</s>
+	<s id="-4722387764254541750-2412140701-17">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62006"/>
+		<ar pt="2412140915" pp="2" l="8" ppth="Wittenberge|Bad Wilsnack|Glöwen|Breddin|Neustadt(Dosse)|Friesack(Mark)|Paulinenaue|Nauen|Falkensee|Berlin-Spandau|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz"/>
+	</s>
+	<s id="-1797928516168997982-2412140836-2">
+		<tl t="p" o="800165" c="FEX" n="19823"/>
+		<ar pt="2412140900" pp="4" pde="Berlin-Lichtenberg" ppth="Berlin Ostkreuz"/>
+	</s>
+	<s id="-1924631699856485307-2412140909-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18661"/>
+		<dp pt="2412140909" pp="4" l="32" tra="-1797928516168997982-2412140836-2" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+	<s id="-7146230685584606626-2412140958-1">
+		<tl t="p" o="800165" c="FEX" n="19822"/>
+		<dp pt="2412140958" pp="1" tra="7017784096182584192-2412140939-3" pde="Berlin-Lichtenberg" ppth="Berlin Ostkreuz"/>
+	</s>
+	<s id="1900510966112020966-2412140944-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62013"/>
+		<dp pt="2412140944" pp="2" l="8" ppth="Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Spandau|Falkensee|Nauen|Paulinenaue|Friesack(Mark)|Neustadt(Dosse)|Breddin|Glöwen|Bad Wilsnack|Wittenberge"/>
+	</s>
+	<s id="-3807954677428873636-2412140626-7">
+		<tl f="F" t="p" o="80" c="IC" n="2272"/>
+		<ar pt="2412140858" pp="2" wings="7794920449617934380-2412140804" ppth="Chemnitz Hbf|Freiberg(Sachs)|Dresden Hbf|Dresden-Neustadt|Elsterwerda|Doberlug-Kirchhain"/>
+		<dp pt="2412140905" pp="2" ppth="Berlin-Lichtenberg|Oranienburg|Neustrelitz Hbf|Waren(Müritz)|Rostock Hbf|Warnemünde"/>
+	</s>
+	<s id="-6727276910681770739-2412140928-1">
+		<tl t="p" o="800165" c="FEX" n="19820"/>
+		<dp pt="2412140928" pp="1" pde="Berlin-Lichtenberg" ppth="Berlin Ostkreuz"/>
+	</s>
+	<s id="8058255734139016286-2412140908-2">
+		<tl f="N" t="p" o="800165" c="RB" n="18111"/>
+		<ar pt="2412140921" pp="4" l="22" ppth="Königs Wusterhausen"/>
+		<dp pt="2412140923" pp="4" l="22" ppth="Ludwigsfelde-Struveshof|Saarmund|Potsdam Pirschheide|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof|Potsdam Hbf"/>
+	</s>
+</timetable>

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Gesundbrunnen">
+	<s id="6278441616778756022-2412140816-23">
+		<tl f="N" t="p" o="800158" c="RE" n="93407"/>
+		<ar pt="2412141121" pp="" l="3" ppth="Stralsund Hbf|Miltzow|Greifswald|Greifswald Süd|Groß Kiesow|Züssow|Klein Bünzow|Anklam|Ducherow|Ferdinandshof|Jatznick|Pasewalk|Nechlin|Prenzlau|Seehausen(Uckermark)|Warnitz(Uckermark)|Wilmersdorf(Angerm)|Angermünde|Chorin|Britz|Eberswalde Hbf|Bernau(b Berlin)"/>
+	</s>
+	<s id="3935297083668583635-2412141053-4">
+		<tl f="N" t="p" o="NZ" c="RE" n="51073"/>
+		<ar pt="2412141159" pp="5" l="21" ppth="Prenzlau|Angermünde|Eberswalde Hbf"/>
+	</s>
+	<s id="5908961083870826329-2412141139-1">
+		<tl f="N" t="p" o="800158" c="RE" n="93446"/>
+		<dp pt="2412141139" pp="10" l="3" ppth="Bernau(b Berlin)|Eberswalde Hbf|Britz|Chorin|Angermünde|Pinnow(Uckermark)|Schwedt(Oder)Mitte|Schwedt(Oder)"/>
+	</s>
+	<s id="-5161169419108443306-2412140819-11">
+		<tl f="F" t="p" o="80" c="ICE" n="1073"/>
+		<ar pt="2412141159" pp="5" wings="3935297083668583635-2412141053" ppth="Ostseebad Binz|Bergen auf Rügen|Stralsund Hbf|Greifswald|Züssow|Anklam|Pasewalk|Prenzlau|Angermünde|Eberswalde Hbf"/>
+	</s>
+</timetable>
