@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<timetable station="Oberhausen Hbf">
+	<s id="-7500967821939533532-2412140216-1">
+		<tl f="N" t="p" o="R2RE" c="RE" n="89907"/>
+		<dp pt="2412140216" pp="6" l="3" ppth="Essen-Altenessen|Gelsenkirchen Hbf|Wanne-Eickel Hbf|Herne|Castrop-Rauxel Hbf|Dortmund-Mengede|Dortmund Hbf"/>
+	</s>
+	<s id="1251713260672066204-2412140203-8">
+		<tl f="N" t="p" o="R2RE" c="RE" n="89908"/>
+		<ar pt="2412140242" pp="7" l="3" ppth="Dortmund Hbf|Dortmund-Mengede|Castrop-Rauxel Hbf|Herne|Wanne-Eickel Hbf|Gelsenkirchen Hbf|Essen-Altenessen"/>
+	</s>
+	<s id="7471939623363546186-2412140143-6">
+		<tl f="D" t="p" o="R4NRN" c="VIA" n="20001"/>
+		<ar pt="2412140206" pp="12" l="RE19" ppth="Wesel|Voerde(Niederrhein)|Dinslaken|Oberhausen-Holten|Oberhausen-Sterkrade"/>
+		<dp pt="2412140208" pp="12" l="RE19" ppth="Duisburg Hbf"/>
+	</s>
+	<s id="-5879403093325837147-2412140228-1">
+		<tl t="p" o="B2" c="Bus" n="3006"/>
+		<dp pt="2412140228" pp="" l="S3" ppth="Mülheim(Ruhr)Styrum|Mülheim(Ruhr)West|Mülheim(Ruhr)Hbf|Essen-Frohnhausen|Essen West|Essen Hbf"/>
+	</s>
+	<s id="-8252434779094764217-2412140056-4">
+		<tl t="p" o="R2" c="Bus" n="3059"/>
+		<ar pt="2412140206" pp="" l="RE3" ppth="Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf"/>
+	</s>
+	<s id="3651914552558331693-2412140133-11">
+		<tl f="N" t="p" o="8003L1" c="RB" n="31283"/>
+		<ar pt="2412140218" pp="7" l="32" ppth="Dortmund Hbf|Dortmund-Mengede|Castrop-Rauxel Hbf|Herne|Wanne-Eickel Hbf|Gelsenkirchen Hbf|Essen-Zollverein Nord|Essen-Altenessen|Essen-Bergeborbeck|Essen-Dellwig"/>
+		<dp pt="2412140219" pp="7" l="32" ppth="Duisburg Hbf"/>
+	</s>
+	<s id="7584845288987221349-2412140252-1">
+		<tl t="p" o="R2" c="Bus" n="3060"/>
+		<dp pt="2412140252" pp="" l="RE3" ppth="Duisburg Hbf|Düsseldorf Flughafen|Düsseldorf Hbf"/>
+	</s>
+	<s id="-5663036645349660578-2412140234-2">
+		<tl f="N" t="p" o="8003L1" c="RB" n="31284"/>
+		<ar pt="2412140240" pp="6" l="32" ppth="Duisburg Hbf"/>
+		<dp pt="2412140241" pp="6" l="32" ppth="Essen-Dellwig|Essen-Bergeborbeck|Essen-Altenessen|Essen-Zollverein Nord|Gelsenkirchen Hbf|Wanne-Eickel Hbf|Herne|Castrop-Rauxel Hbf|Dortmund-Mengede|Dortmund Hbf"/>
+	</s>
+	<s id="176170668409099392-2412140136-7">
+		<tl t="p" o="B2" c="Bus" n="3007"/>
+		<ar pt="2412140228" pp="" l="S3" ppth="Essen Hbf|Essen West|Essen-Frohnhausen|Mülheim(Ruhr)Hbf|Mülheim(Ruhr)West|Mülheim(Ruhr)Styrum"/>
+	</s>
+</timetable>
