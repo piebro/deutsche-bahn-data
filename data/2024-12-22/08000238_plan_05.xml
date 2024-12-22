@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<timetable station="Lüneburg">
+	<s id="-8389170061218175037-2412220501-4">
+		<tl f="D" t="p" o="R1" c="ME" n="82106"/>
+		<ar pt="2412220524" pp="2" l="RE3" tra="-8594749958192812225-2412220532-1" pde="Hannover Hbf" ppth="Uelzen|Bad Bevensen|Bienenbüttel"/>
+	</s>
+	<s id="4095046465001521107-2412220505-4">
+		<tl f="F" t="p" o="80" c="ICE" n="571"/>
+		<ar pt="2412220544" pp="1" ppth="Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg"/>
+		<dp pt="2412220546" pp="1" ppth="Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mannheim Hbf|Stuttgart Hbf"/>
+	</s>
+	<s id="-8594749958192812225-2412220532-1">
+		<tl f="D" t="p" o="R1" c="ME" n="81606"/>
+		<dp pt="2412220532" pp="3" l="RB31" tra="-8389170061218175037-2412220501-4" ppth="Bardowick|Radbruch|Winsen(Luhe)|Ashausen|Stelle|Maschen|Meckelfeld|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="-5185718647499358908-2412220545-1">
+		<tl f="D" t="p" o="X1" c="erx" n="21104"/>
+		<dp pt="2412220545" pp="5" l="RE83" pde="Kiel Hbf" ppth="Echem|Lauenburg(Elbe)|Büchen|Mölln(Lauenb)|Ratzeburg|Lübeck Flughafen|Lübeck Hochschulstadtteil|Lübeck Hbf"/>
+	</s>
+</timetable>
