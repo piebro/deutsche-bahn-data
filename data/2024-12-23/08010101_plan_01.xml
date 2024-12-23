@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<timetable station="Erfurt Hbf">
+	<s id="-8716776747589038458-2412221828-10">
+		<tl f="F" t="p" o="81" c="EN" n="40458"/>
+		<ar pt="2412230121" pp="9" hi="1" ppth="Praha hl.n.|Praha-Holesovice|Usti nad Labem hl.n.|Decin hl.n.|Bad Schandau|Dresden Hbf|Dresden-Neustadt|Riesa|Leipzig Hbf"/>
+		<dp pt="2412230123" pp="9" hi="1" ppth="Fulda|Frankfurt(Main)Süd|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-8572647521164952896-2412221828-10">
+		<tl f="F" t="p" o="54" c="EC" n="458"/>
+		<ar pt="2412230121" pp="9" wings="-8716776747589038458-2412221828|5331894847185138451-2412222103" ppth="Praha hl.n.|Praha-Holesovice|Usti nad Labem hl.n.|Decin hl.n.|Bad Schandau|Dresden Hbf|Dresden-Neustadt|Riesa|Leipzig Hbf"/>
+		<dp pt="2412230123" pp="9" hi="1" wings="-8716776747589038458-2412221828|5331894847185138451-2412222103" ppth="Fulda|Frankfurt(Main)Süd|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="5936763616756446203-2412222309-23">
+		<tl f="N" t="p" o="AMRB" c="RB" n="74640"/>
+		<ar pt="2412230105" pp="3a" l="20" ppth="Leipzig Hbf|Leipzig-Möckern|Leipzig-Leutzsch|Leipzig-Rückmarsdorf|Leipzig-Miltitz|Markranstädt|Großlehna|Kötzschau|Bad Dürrenberg|Großkorbetha|Weißenfels|Leißling|Naumburg(Saale)Hbf|Bad Kösen|Großheringen|Bad Sulza|Niedertrebra|Apolda|Oßmannstedt|Weimar|Hopfgarten(Weimar)|Vieselbach"/>
+	</s>
+	<s id="5331894847185138451-2412222103-6">
+		<tl t="p" o="81" c="NJ" n="408"/>
+		<ar pt="2412230121" pp="9" hi="1" wings="-1197270886930040789-2412222103" ppth="Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Bitterfeld|Leipzig Hbf"/>
+		<dp pt="2412230123" pp="9" hi="1" wings="-1197270886930040789-2412222103" ppth="Fulda|Frankfurt(Main)Süd|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-1197270886930040789-2412222103-6">
+		<tl f="F" t="p" o="NZ" c="IC" n="60408"/>
+		<ar pt="2412230121" pp="9" ppth="Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Bitterfeld|Leipzig Hbf"/>
+		<dp pt="2412230123" pp="9" ppth="Fulda|Frankfurt(Main)Süd|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+</timetable>
