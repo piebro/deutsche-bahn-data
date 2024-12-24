@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<timetable station="Wolfsburg Hbf">
+	<s id="1056745226646799869-2412240417-14">
+		<tl t="p" o="RSMD" c="RSM" n="80340"/>
+		<ar pt="2412240533" pp="9" l="RB36" ppth="Magdeburg Hbf|Magdeburg-Neustadt|Magdeburg-Eichenweiler|Barleben|Meitzendorf|Groß Ammensleben|Vahldorf|Haldensleben|Flechtingen|Wegenstedt|Rätzlingen|Bösdorf(Sachs-Anh)|Oebisfelde"/>
+	</s>
+	<s id="-7624771326223630318-2412240521-4">
+		<tl t="p" o="R0" c="ENO" n="83551"/>
+		<ar pt="2412240541" pp="8" l="RE50" ppth="Braunschweig Hbf|Weddel(Braunschw)|Fallersleben"/>
+	</s>
+	<s id="8585821737013163075-2412240541-1">
+		<tl t="p" o="RSMD" c="RSM" n="80291"/>
+		<dp pt="2412240541" pp="9" l="RE6" ppth="Oebisfelde|Bösdorf(Sachs-Anh)|Rätzlingen|Wegenstedt|Flechtingen|Haldensleben|Magdeburg-Neustadt|Magdeburg Hbf"/>
+	</s>
+	<s id="3129031456741493070-2412240411-6">
+		<tl f="F" t="p" o="80" c="ICE" n="646"/>
+		<ar pt="2412240546" pp="1" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Spandau|Stendal Hbf"/>
+		<dp pt="2412240547" pp="1" ppth="Hannover Hbf|Minden(Westf)|Herford|Bielefeld Hbf|Hamm(Westf)Hbf|Dortmund Hbf|Bochum Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Flughafen|Düsseldorf Hbf"/>
+	</s>
+	<s id="-2820315739988979208-2412231859-16">
+		<tl f="F" t="p" o="85" c="ICE" n="4"/>
+		<ar pt="2412240512" pp="5" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Süd|Hanau Hbf|Fulda|Göttingen|Hannover Hbf"/>
+		<dp pt="2412240513" pp="5" ppth="Stendal Hbf|Berlin-Spandau|Berlin Zoologischer Garten|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="9124948033867578147-2412240514-1">
+		<tl t="p" o="R0" c="ENO" n="83500"/>
+		<dp pt="2412240514" pp="4" l="RE30" ppth="Fallersleben|Calberlah|Gifhorn|Leiferde(b Gifhorn)|Meinersen|Dedenhausen|Dollbergen|Immensen-Arpke|Lehrte|Hannover Hbf"/>
+	</s>
+</timetable>
