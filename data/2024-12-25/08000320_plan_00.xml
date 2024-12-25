@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<timetable station="Rosenheim">
+	<s id="2931906224447066494-2412242252-11">
+		<tl f="D" t="p" o="M8" c="BRB" n="79048"/>
+		<ar pt="2412250009" pp="1" l="RE5" ppth="Salzburg Hbf|Salzburg Mülln-Altstadt|Freilassing|Teisendorf|Traunstein|Bergen(Oberbay)|Übersee|Bernau a Chiemsee|Prien am Chiemsee|Bad Endorf"/>
+		<dp pt="2412250012" pp="1" l="RE5" ppth="Großkarolinenfeld|Ostermünchen|Aßling(Oberbay)|Grafing Bahnhof|München Ost|München Hbf Gl.5-10"/>
+	</s>
+	<s id="6746955278691408993-2412242029-6">
+		<tl f="F" t="p" o="55" c="EN" n="50237"/>
+		<ar pt="2412250031" pp="4" ppth="Stuttgart Hbf|Göppingen|Ulm Hbf|Augsburg Hbf|München Ost"/>
+		<dp pt="2412250033" pp="4" ppth="Salzburg Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf|Hegyeshalom|Mosonmagyarovar|Györ|Tatabanya|Budapest-Kelenföld|Budapest-Keleti"/>
+	</s>
+	<s id="-276896031776243712-2412242351-7">
+		<tl f="D" t="p" o="M8" c="BRB" n="79049"/>
+		<ar pt="2412250037" pp="4" l="RE5" ppth="München Hbf Gl.5-10|München Ost|Grafing Bahnhof|Aßling(Oberbay)|Ostermünchen|Großkarolinenfeld"/>
+		<dp pt="2412250038" pp="4" l="RE5" ppth="Bad Endorf|Prien am Chiemsee|Bernau a Chiemsee|Übersee|Bergen(Oberbay)|Traunstein|Teisendorf|Freilassing|Salzburg Hbf"/>
+	</s>
+	<s id="-7226604022876462423-2412242029-6">
+		<tl f="F" t="p" o="78" c="EN" n="40237"/>
+		<ar pt="2412250031" pp="4" ppth="Stuttgart Hbf|Göppingen|Ulm Hbf|Augsburg Hbf|München Ost"/>
+		<dp pt="2412250033" pp="4" ppth="Salzburg Hbf|Selzthal|Leoben Hbf|Graz Hbf|Maribor|Pragersko|Celje|Sevnica|Krsko|Dobova|Zagreb Glavni kolodvor"/>
+	</s>
+	<s id="5949417852042325682-2412242029-6">
+		<tl t="p" o="81" c="NJ" n="237"/>
+		<ar pt="2412250031" pp="4" hi="1" wings="-7226604022876462423-2412242029|6746955278691408993-2412242029" ppth="Stuttgart Hbf|Göppingen|Ulm Hbf|Augsburg Hbf|München Ost"/>
+		<dp pt="2412250033" pp="4" hi="1" wings="-7226604022876462423-2412242029|6746955278691408993-2412242029" ppth="Salzburg Hbf"/>
+	</s>
+</timetable>
