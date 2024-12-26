@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<timetable station="Oberhausen Hbf">
+	<s id="-789522954979836698-2412260103-13">
+		<tl f="S" t="p" o="8003L1" c="S" n="30303"/>
+		<ar pt="2412260144" pp="10" l="3" ppth="Hattingen(Ruhr) Mitte|Hattingen(Ruhr)|Bochum-Dahlhausen|Essen-Horst|Essen-Steele Ost|Essen-Steele|Essen Hbf|Essen West|Essen-Frohnhausen|Mülheim(Ruhr)Hbf|Mülheim(Ruhr)West|Mülheim(Ruhr)Styrum"/>
+	</s>
+	<s id="-8581033036875308716-2412260117-1">
+		<tl f="S" t="p" o="8003L1" c="S" n="30380"/>
+		<dp pt="2412260117" pp="10" l="3" ppth="Mülheim(Ruhr)Styrum|Mülheim(Ruhr)West|Mülheim(Ruhr)Hbf|Essen-Frohnhausen|Essen West|Essen Hbf|Essen-Steele|Essen-Steele Ost|Essen-Horst|Bochum-Dahlhausen|Hattingen(Ruhr)|Hattingen(Ruhr) Mitte"/>
+	</s>
+	<s id="4384964956351906439-2412260144-2">
+		<tl f="D" t="p" o="R4NRN" c="VIA" n="20002"/>
+		<ar pt="2412260149" pp="9" l="RE19" ppth="Duisburg Hbf"/>
+		<dp pt="2412260150" pp="9" l="RE19" ppth="Oberhausen-Sterkrade|Oberhausen-Holten|Dinslaken|Voerde(Niederrhein)|Wesel"/>
+	</s>
+	<s id="-7623447294194709445-2412260113-2">
+		<tl t="p" o="R2" c="Bus" n="3043"/>
+		<ar pt="2412260133" pp="" l="RE3" ppth="Duisburg Hbf"/>
+		<dp pt="2412260133" pp="" l="RE3" ppth="Essen-Altenessen|Gelsenkirchen Hbf"/>
+	</s>
+	<s id="2660451092632041830-2412260134-2">
+		<tl f="N" t="p" o="8003L1" c="RB" n="31282"/>
+		<ar pt="2412260140" pp="6" l="32" ppth="Duisburg Hbf"/>
+		<dp pt="2412260141" pp="6" l="32" ppth="Essen-Dellwig|Essen-Bergeborbeck|Essen-Altenessen"/>
+	</s>
+	<s id="-4431036269656450398-2412260108-4">
+		<tl f="N" t="p" o="8003L1" c="RB" n="91515"/>
+		<ar pt="2412260118" pp="" l="32" ppth="Essen-Altenessen|Essen-Bergeborbeck|Essen-Dellwig"/>
+		<dp pt="2412260119" pp="" l="32" ppth="Duisburg Hbf"/>
+	</s>
+	<s id="-9006834877770775391-2412260039-3">
+		<tl t="p" o="R2" c="Bus" n="3040"/>
+		<ar pt="2412260124" pp="" l="RE3" ppth="Gelsenkirchen Hbf|Essen-Altenessen"/>
+		<dp pt="2412260124" pp="" l="RE3" ppth="Duisburg Hbf"/>
+	</s>
+</timetable>
