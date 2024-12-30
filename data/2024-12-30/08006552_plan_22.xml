@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<timetable station="Wolfsburg Hbf">
+	<s id="5373021410207416573-2412302223-1">
+		<tl t="p" o="RSMD" c="RSM" n="80383"/>
+		<dp pt="2412302223" pp="9" l="RB36" ppth="Oebisfelde|Bösdorf(Sachs-Anh)|Rätzlingen|Wegenstedt|Flechtingen|Haldensleben|Vahldorf|Groß Ammensleben|Meitzendorf|Barleben|Magdeburg-Eichenweiler|Magdeburg-Neustadt|Magdeburg Hbf"/>
+	</s>
+	<s id="-4895514507913038239-2412302214-1">
+		<tl t="p" o="R0" c="ENO" n="83534"/>
+		<dp pt="2412302214" pp="4" l="RE30" ppth="Fallersleben|Calberlah|Gifhorn|Leiferde(b Gifhorn)|Meinersen|Dedenhausen|Dollbergen|Immensen-Arpke|Lehrte|Hannover Hbf"/>
+	</s>
+	<s id="7358611832920423231-2412302204-1">
+		<tl t="p" o="R0" c="Bus" n="5184"/>
+		<dp pt="2412302204" pp="" l="EV" ppth="Fallersleben"/>
+	</s>
+	<s id="251120304392960681-2412302243-2">
+		<tl t="p" o="R0" c="Bus" n="5285"/>
+		<ar pt="2412302254" pp="" l="EV" ppth="Fallersleben"/>
+	</s>
+	<s id="-1336811868956680986-2412302130-14">
+		<tl t="p" o="RSMD" c="RSM" n="80382"/>
+		<ar pt="2412302244" pp="9" l="RB36" ppth="Magdeburg Hbf|Magdeburg-Neustadt|Magdeburg-Eichenweiler|Barleben|Meitzendorf|Groß Ammensleben|Vahldorf|Haldensleben|Flechtingen|Wegenstedt|Rätzlingen|Bösdorf(Sachs-Anh)|Oebisfelde"/>
+	</s>
+	<s id="1284421182583611192-2412302147-11">
+		<tl t="p" o="R0" c="ENO" n="83535"/>
+		<ar pt="2412302243" pp="4" l="RE30" ppth="Hannover Hbf|Lehrte|Immensen-Arpke|Dollbergen|Dedenhausen|Meinersen|Leiferde(b Gifhorn)|Gifhorn|Calberlah|Fallersleben"/>
+	</s>
+	<s id="1116577686148397167-2412301613-12">
+		<tl f="F" t="p" o="80" c="ICE" n="274"/>
+		<ar pt="2412302245" pp="5" ppth="Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Kassel-Wilhelmshöhe|Göttingen|Hildesheim Hbf|Braunschweig Hbf"/>
+		<dp pt="2412302246" pp="5" ppth="Berlin-Spandau|Berlin Zoologischer Garten|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+</timetable>
