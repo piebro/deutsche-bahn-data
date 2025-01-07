@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<timetable station="Trier Hbf">
+	<s id="472803527136894195-2501071026-15">
+		<tl f="N" t="p" o="801512" c="RB" n="12163"/>
+		<ar pt="2501071117" pp="10 Süd" l="82" ppth="Perl|Besch|Nennig|Palzem|Wehr(Mosel)|Wincheringen|Nittel|Wellen(Mosel)|Temmels|Oberbillig|Wasserliesch|Konz Mitte|Karthaus|Trier Süd"/>
+	</s>
+	<s id="77652009943830009-2501071139-1">
+		<tl t="p" o="B5" c="Bus" n="94108"/>
+		<dp pt="2501071139" pp="" l="RE1" ppth="Konz|Saarburg(Bz Trier)|Mettlach"/>
+	</s>
+	<s id="-543847474901985685-2501070925-31">
+		<tl f="N" t="p" o="801512" c="RB" n="12116"/>
+		<ar pt="2501071120" pp="11 Süd" l="81" ppth="Koblenz Hbf|Koblenz-Moselweiß|Koblenz-Güls|Winningen(Mosel)|Kobern-Gondorf|Lehmen|Kattenes|Löf|Hatzenport|Moselkern|Müden(Mosel)|Treis-Karden|Pommern(Mosel)|Klotten|Cochem(Mosel)|Ediger-Eller|Neef|Bullay(DB)|Bengel|Ürzig(DB)|Wittlich Hbf|Salmtal|Sehlem(Kr Wittlich)|Hetzerath|Föhren|Schweich(DB)|Quint|Ehrang Ort|Ehrang|Pfalzel"/>
+	</s>
+	<s id="-3277847329399783789-2501071101-1">
+		<tl f="N" t="p" o="8015A1" c="RB" n="29045"/>
+		<dp pt="2501071101" pp="" l="71" ppth="Trier Süd|Karthaus|Konz|Kanzem|Wiltingen(Saar)"/>
+	</s>
+	<s id="-5403264755971714059-2501071108-11">
+		<tl f="N" t="p" o="801512" c="RB" n="5632"/>
+		<ar pt="2501071145" pp="11 Süd" l="83" ppth="Wittlich Hbf|Salmtal|Sehlem(Kr Wittlich)|Hetzerath|Föhren|Schweich(DB)|Quint|Ehrang Ort|Ehrang|Pfalzel"/>
+		<dp pt="2501071146" pp="11 Süd" l="83" ppth="Trier Süd|Kreuz Konz|Igel|Wasserbillig|Mertert|Manternach|Wecker|Betzdorf(LUX)|Roodt/Syre|Munsbach|Oetrange|Sandweiler-Contern|Cents-Hamm|Luxembourg"/>
+	</s>
+	<s id="-3280308568189908281-2501071033-7">
+		<tl f="N" t="p" o="82" c="RE" n="5115"/>
+		<ar pt="2501071123" pp="13 Nord" l="11" tra="-4304135260379158014-2501071131-1" ppth="Luxembourg|Sandweiler-Contern|Wasserbillig|Igel|Kreuz Konz|Trier Süd"/>
+	</s>
+	<s id="7508291568745768761-2501071042-6">
+		<tl f="N" t="p" o="8015A1" c="RB" n="56942"/>
+		<ar pt="2501071101" pp="" l="71" ppth="Wiltingen(Saar)|Kanzem|Konz|Karthaus|Trier Süd"/>
+	</s>
+	<s id="-4304135260379158014-2501071131-1">
+		<tl f="N" t="p" o="800640" c="RE" n="4115"/>
+		<dp pt="2501071131" pp="13 Nord" l="1" tra="-3280308568189908281-2501071033-7" ppth="Schweich(DB)|Wittlich Hbf|Bullay(DB)|Cochem(Mosel)|Treis-Karden|Kobern-Gondorf|Koblenz Hbf"/>
+	</s>
+	<s id="-4760617984547974189-2501071141-1">
+		<tl f="N" t="p" o="801512" c="RB" n="12164"/>
+		<dp pt="2501071141" pp="10 Süd" l="82" ppth="Trier Süd|Karthaus|Konz Mitte|Wasserliesch|Oberbillig|Temmels|Wellen(Mosel)|Nittel|Wincheringen|Wehr(Mosel)|Palzem|Nennig|Besch|Perl"/>
+	</s>
+	<s id="3595020246925491514-2501071137-1">
+		<tl f="N" t="p" o="82" c="RE" n="5108"/>
+		<dp pt="2501071137" pp="11 Süd" l="11" tra="-1293163428250039160-2501071006-8" ppth="Trier Süd|Kreuz Konz|Igel|Wasserbillig|Sandweiler-Contern|Luxembourg"/>
+	</s>
+	<s id="2479159331859165860-2501071141-1">
+		<tl f="N" t="p" o="801512" c="RB" n="12123"/>
+		<dp pt="2501071141" pp="13 Nord" l="81" ppth="Pfalzel|Ehrang|Ehrang Ort|Quint|Schweich(DB)|Föhren|Hetzerath|Sehlem(Kr Wittlich)|Salmtal|Wittlich Hbf|Ürzig(DB)|Bengel|Bullay(DB)|Neef|Ediger-Eller|Cochem(Mosel)|Klotten|Pommern(Mosel)|Treis-Karden|Müden(Mosel)|Moselkern|Hatzenport|Löf|Kattenes|Lehmen|Kobern-Gondorf|Winningen(Mosel)|Koblenz-Güls|Koblenz-Moselweiß|Koblenz Hbf"/>
+	</s>
+	<s id="-1293163428250039160-2501071006-8">
+		<tl f="N" t="p" o="800640" c="RE" n="4108"/>
+		<ar pt="2501071130" pp="11 Süd" l="1" tra="3595020246925491514-2501071137-1" ppth="Koblenz Hbf|Kobern-Gondorf|Treis-Karden|Cochem(Mosel)|Bullay(DB)|Wittlich Hbf|Schweich(DB)"/>
+	</s>
+	<s id="8317691821354311187-2501071002-4">
+		<tl t="p" o="B5" c="Bus" n="94113"/>
+		<ar pt="2501071106" pp="" l="RE1" ppth="Mettlach|Saarburg(Bz Trier)|Konz"/>
+	</s>
+	<s id="3087686664559160370-2501071010-15">
+		<tl f="N" t="p" o="82" c="RB" n="5609"/>
+		<ar pt="2501071111" pp="13 Nord" l="83" ppth="Luxembourg|Cents-Hamm|Sandweiler-Contern|Oetrange|Munsbach|Roodt/Syre|Betzdorf(LUX)|Wecker|Manternach|Mertert|Wasserbillig|Igel|Kreuz Konz|Trier Süd"/>
+		<dp pt="2501071112" pp="13 Nord" l="83" ppth="Pfalzel|Ehrang|Ehrang Ort|Quint|Schweich(DB)|Föhren|Hetzerath|Sehlem(Kr Wittlich)|Salmtal|Wittlich Hbf"/>
+	</s>
+</timetable>
