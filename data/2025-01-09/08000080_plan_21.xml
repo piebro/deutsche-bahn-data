@@ -1,0 +1,190 @@
+<?xml version="1.0" ?>
+<timetable station="Dortmund Hbf">
+	<s id="6744455897603605293-2501092130-1">
+		<tl f="S" t="p" o="800354" c="S" n="31576"/>
+		<dp pt="2501092130" pp="6" l="5" ppth="Dortmund-Barop|Dortmund-Kruckel|Witten-Annen Nord|Witten Hbf"/>
+	</s>
+	<s id="2942192777726528267-2501091851-21">
+		<tl f="N" t="p" o="NXRE" c="RE" n="26833"/>
+		<ar pt="2501092114" pp="10" l="1" ppth="Aachen Hbf|Aachen-Rothe Erde|Stolberg(Rheinl)Hbf|Eschweiler Hbf|Langerwehe|Düren|Horrem|Köln-Ehrenfeld|Köln Hbf|Köln Messe/Deutz|Köln-Mülheim|Leverkusen Mitte|Düsseldorf-Benrath|Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Mülheim(Ruhr)Hbf|Essen Hbf|Wattenscheid|Bochum Hbf"/>
+		<dp pt="2501092116" pp="10" l="1" ppth="Dortmund-Kurl|Kamen-Methler|Kamen|Bönen-Nordbögge|Hamm(Westf)Hbf"/>
+	</s>
+	<s id="2040528594321158055-2501092056-10">
+		<tl f="N" t="p" o="NXRE" c="RE" n="22633"/>
+		<ar pt="2501092151" pp="20" l="4" ppth="Wuppertal-Vohwinkel|Wuppertal Hbf|Wuppertal-Barmen|Wuppertal-Oberbarmen|Schwelm|Ennepetal|Hagen Hbf|Wetter(Ruhr)|Witten Hbf"/>
+	</s>
+	<s id="4251988685605862791-2501091732-7">
+		<tl f="F" t="p" o="80" c="ICE" n="844"/>
+		<ar pt="2501092110" pp="16" wings="1690497143864597407-2501091732" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin-Spandau|Wolfsburg Hbf|Hannover Hbf|Hamm(Westf)Hbf"/>
+		<dp pt="2501092113" pp="16" wings="1690497143864597407-2501091732" ppth="Bochum Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Flughafen|Düsseldorf Hbf|Köln Hbf"/>
+	</s>
+	<s id="-7909919146249566390-2501092116-10">
+		<tl f="N" t="p" o="R2RB" c="RB" n="90348"/>
+		<ar pt="2501092156" pp="4" l="59" ppth="Werl|Hemmerde|Lünern|Unna|Holzwickede|Dortmund-Sölde|Dortmund-Aplerbeck|Dortmund-Hörde|Dortmund Signal Iduna Park"/>
+	</s>
+	<s id="-3408975360936741490-2501092105-1">
+		<tl t="p" o="B2" c="Bus" n="5371"/>
+		<dp pt="2501092105" pp="" l="RB53" ppth="Dortmund Signal Iduna Park|Dortmund-Hörde|Dortmund-Aplerbeck Süd|Schwerte(Ruhr)|Schwerte-Ergste|Hennen|Kalthof(Kr Iserlohn)|Iserlohnerheide|Iserlohn"/>
+	</s>
+	<s id="-2647418605895449248-2501091903-20">
+		<tl f="N" t="p" o="800351" c="RB" n="20279"/>
+		<ar pt="2501092106" pp="31" l="51" ppth="Enschede|Enschede De Eschmarke|Glanerbrug|Gronau(Westf)|Epe(Westf)|Ahaus|Legden|Rosendahl-Holtwick|Coesfeld(Westf)|Lette(Kr Coesfeld)|Dülmen|Lüdinghausen|Selm|Selm-Beifang|Bork(Westf)|Lünen Hbf|Lünen-Preußen|Dortmund-Derne|Dortmund-Kirchderne"/>
+	</s>
+	<s id="1690497143864597407-2501091732-7">
+		<tl f="F" t="p" o="80" c="ICE" n="854"/>
+		<ar pt="2501092110" pp="16" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin-Spandau|Wolfsburg Hbf|Hannover Hbf|Hamm(Westf)Hbf"/>
+		<dp pt="2501092113" pp="16" ppth="Bochum Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Flughafen|Düsseldorf Hbf|Köln Hbf"/>
+	</s>
+	<s id="6198125097772848064-2501092149-1">
+		<tl t="p" o="B2" c="Bus" n="3839"/>
+		<dp pt="2501092149" pp="" l="RB32" ppth="Dortmund-Mengede"/>
+	</s>
+	<s id="4804116960335233530-2501091511-16">
+		<tl f="F" t="p" o="80" c="IC" n="2444"/>
+		<ar pt="2501092132" pp="11" ppth="Dresden Hbf|Dresden-Neustadt|Riesa|Leipzig Hbf|Leipzig/Halle Flughafen|Halle(Saale)Hbf|Köthen|Magdeburg Hbf|Braunschweig Hbf|Hannover Hbf|Minden(Westf)|Bad Oeynhausen|Bielefeld Hbf|Gütersloh Hbf|Hamm(Westf)Hbf"/>
+		<dp pt="2501092136" pp="11" ppth="Hagen Hbf|Wuppertal Hbf|Solingen Hbf|Köln Messe/Deutz Gl.11-12|Bonn-Beuel|Koblenz Hbf"/>
+	</s>
+	<s id="3165323849989792872-2501092003-3">
+		<tl t="p" o="B2" c="Bus" n="5928"/>
+		<ar pt="2501092101" pp="" l="RE57" ppth="Fröndenberg|Dortmund-Hörde"/>
+	</s>
+	<s id="-1171240293255546090-2501092103-1">
+		<tl f="N" t="p" o="R2RB" c="RB" n="90349"/>
+		<dp pt="2501092103" pp="4" l="59" ppth="Dortmund Signal Iduna Park|Dortmund-Hörde|Dortmund-Aplerbeck|Dortmund-Sölde|Holzwickede|Unna|Lünern|Hemmerde|Werl"/>
+	</s>
+	<s id="-5696606339935812688-2501092100-1">
+		<tl f="S" t="p" o="800354" c="S" n="31574"/>
+		<dp pt="2501092100" pp="6" l="5" ppth="Dortmund-Barop|Dortmund-Kruckel|Witten-Annen Nord|Witten Hbf"/>
+	</s>
+	<s id="3862711769797868045-2501092000-3">
+		<tl t="p" o="B2" c="Bus" n="5556"/>
+		<ar pt="2501092101" pp="" l="RB53X" ppth="Iserlohn|Schwerte(Ruhr)"/>
+	</s>
+	<s id="-3373900477365025402-2501092121-1">
+		<tl f="S" t="p" o="800337" c="S" n="31188"/>
+		<dp pt="2501092121" pp="7" l="1" ppth="Dortmund-Dorstfeld|Dortmund-Dorstfeld Süd|Dortmund Universität|Dortmund-Oespel|Dortmund-Kley|Bochum-Langendreer|Bochum-Langendreer West|Bochum Hbf|Bochum-Ehrenfeld|Wattenscheid-Höntrop|Essen-Eiberg|Essen-Steele Ost|Essen-Steele|Essen Hbf"/>
+	</s>
+	<s id="-8882959307950949122-2501092134-1">
+		<tl f="N" t="p" o="800348" c="RB" n="14685"/>
+		<dp pt="2501092134" pp="5" l="52" ppth="Dortmund Signal Iduna Park|Dortmund Tierpark|Dortmund-Kirchhörde|Dortmund-Löttringhausen|Wittbräucke|Herdecke|Hagen Hbf|Hagen-Oberhagen|Dahl|Rummenohl|Dahlerbrück|Schalksmühle|Lüdenscheid-Brügge|Lüdenscheid"/>
+	</s>
+	<s id="-7541949769026514136-2501092126-2">
+		<tl t="p" o="B2" c="Bus" n="3834"/>
+		<ar pt="2501092149" pp="" l="RB32" ppth="Dortmund-Mengede"/>
+	</s>
+	<s id="6570455129723016346-2501092034-11">
+		<tl f="N" t="p" o="R2RB" c="RB" n="89949"/>
+		<ar pt="2501092127" pp="31" l="50" ppth="Münster(Westf)Hbf|Münster-Amelsbüren|Davensberg|Ascheberg(Westf)|Capelle(Westf)|Werne a d Lippe|Lünen Hbf|Lünen-Preußen|Dortmund-Derne|Dortmund-Kirchderne"/>
+	</s>
+	<s id="4997450256797385951-2501092157-1">
+		<tl t="p" o="B2" c="Bus" n="2027"/>
+		<dp pt="2501092157" pp="" l="S2" ppth="Dortmund-Dorstfeld|Dortmund-Wischlingen|Dortmund-Huckarde|Dortmund-Westerfilde|Dortmund-Nette/Oestrich|Dortmund-Mengede"/>
+	</s>
+	<s id="-4370342990839022853-2501091913-39">
+		<tl f="S" t="p" o="800337" c="S" n="31183"/>
+		<ar pt="2501092110" pp="7" l="1" ppth="Solingen Hbf|Solingen Vogelpark|Hilden Süd|Hilden|Düsseldorf-Eller|Düsseldorf-Eller Mitte|Düsseldorf-Oberbilk|Düsseldorf Volksgarten|Düsseldorf Hbf|Düsseldorf Wehrhahn|Düsseldorf-Zoo|Düsseldorf-Derendorf|Düsseldorf-Unterrath|Düsseldorf Flughafen|Angermund|Duisburg-Rahm|Duisburg-Großenbaum|Duisburg-Buchholz|Duisburg-Schlenk|Duisburg Hbf|Mülheim(Ruhr)Styrum|Mülheim(Ruhr)Hbf|Essen-Frohnhausen|Essen West|Essen Hbf|Essen-Steele|Essen-Steele Ost|Essen-Eiberg|Wattenscheid-Höntrop|Bochum-Ehrenfeld|Bochum Hbf|Bochum-Langendreer West|Bochum-Langendreer|Dortmund-Kley|Dortmund-Oespel|Dortmund Universität|Dortmund-Dorstfeld Süd|Dortmund-Dorstfeld"/>
+	</s>
+	<s id="-2282360737034766347-2501092007-17">
+		<tl f="N" t="p" o="800348" c="RB" n="14782"/>
+		<ar pt="2501092121" pp="23" l="43" ppth="Dorsten|Feldhausen|Gladbeck-Zweckel|Gladbeck Ost|Gelsenkirchen-Buer Süd|Gelsenkirchen Zoo|Wanne-Eickel Hbf|Herne|Herne-Börnig|Castrop-Rauxel Süd|Castrop-Rauxel-Merklinde|Dortmund-Bövinghausen|Dortmund-Lütgendortmund Nord|Dortmund-Marten|Dortmund-Rahm|Dortmund-Huckarde Nord"/>
+	</s>
+	<s id="7483364968111095323-2501092135-1">
+		<tl f="N" t="p" o="R2RB" c="RB" n="89950"/>
+		<dp pt="2501092135" pp="31" l="50" ppth="Dortmund-Kirchderne|Dortmund-Derne|Lünen-Preußen|Lünen Hbf|Werne a d Lippe|Capelle(Westf)|Ascheberg(Westf)|Davensberg|Münster-Amelsbüren|Münster(Westf)Hbf"/>
+	</s>
+	<s id="-7354679930694783321-2501092036-8">
+		<tl f="N" t="p" o="NXRE" c="RE" n="26735"/>
+		<ar pt="2501092137" pp="8" l="11" ppth="Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Mülheim(Ruhr)Hbf|Essen Hbf|Wattenscheid|Bochum Hbf"/>
+		<dp pt="2501092139" pp="8" l="11" ppth="Kamen|Hamm(Westf)Hbf|Soest|Lippstadt|Paderborn Hbf|Altenbeken|Willebadessen|Warburg(Westf)|Hofgeismar|Kassel-Wilhelmshöhe"/>
+	</s>
+	<s id="-5040855886902453859-2501091527-12">
+		<tl f="F" t="p" o="80" c="ICE" n="514"/>
+		<ar pt="2501092121" pp="10" ppth="München Hbf|München-Pasing|Augsburg Hbf|Ulm Hbf|Stuttgart Hbf|Mannheim Hbf|Frankfurt(M) Flughafen Fernbf|Köln Hbf|Solingen Hbf|Wuppertal Hbf|Hagen Hbf"/>
+		<dp pt="2501092125" pp="10" ppth="Münster(Westf)Hbf|Osnabrück Hbf|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="2341300010562946489-2501092106-5">
+		<tl f="S" t="p" o="800354" c="S" n="31573"/>
+		<ar pt="2501092122" pp="6" l="5" ppth="Witten Hbf|Witten-Annen Nord|Dortmund-Kruckel|Dortmund-Barop"/>
+	</s>
+	<s id="-6135668272228981389-2501092008-14">
+		<tl f="N" t="p" o="8003L2" c="RE" n="33097"/>
+		<ar pt="2501092159" pp="8" l="34" ppth="Siegen Hbf|Siegen-Weidenau|Kreuztal|Welschen Ennest|Lennestadt-Altenhundem|Lennestadt-Grevenbrück|Finnentrop|Plettenberg|Werdohl|Altena(Westf)|Letmathe|Hohenlimburg|Witten Hbf"/>
+	</s>
+	<s id="-6700981595257291716-2501091931-10">
+		<tl t="p" o="B2" c="Bus" n="5356"/>
+		<ar pt="2501092128" pp="" l="RB53" ppth="Iserlohn|Iserlohnerheide|Kalthof(Kr Iserlohn)|Hennen|Schwerte-Ergste|Schwerte(Ruhr)|Dortmund-Aplerbeck Süd|Dortmund-Hörde|Dortmund Signal Iduna Park"/>
+	</s>
+	<s id="8337001523126585842-2501092134-1">
+		<tl f="N" t="p" o="800348" c="RB" n="14785"/>
+		<dp pt="2501092134" pp="23" l="43" ppth="Dortmund-Huckarde Nord|Dortmund-Rahm|Dortmund-Marten|Dortmund-Lütgendortmund Nord|Dortmund-Bövinghausen|Castrop-Rauxel-Merklinde|Castrop-Rauxel Süd|Herne-Börnig|Herne|Wanne-Eickel Hbf|Gelsenkirchen Zoo|Gelsenkirchen-Buer Süd|Gladbeck Ost|Gladbeck-Zweckel|Feldhausen|Dorsten"/>
+	</s>
+	<s id="-968640645875415488-2501092003-15">
+		<tl f="N" t="p" o="800348" c="RB" n="14682"/>
+		<ar pt="2501092126" pp="5" l="52" ppth="Lüdenscheid|Lüdenscheid-Brügge|Schalksmühle|Dahlerbrück|Rummenohl|Dahl|Hagen-Oberhagen|Hagen Hbf|Herdecke|Wittbräucke|Dortmund-Löttringhausen|Dortmund-Kirchhörde|Dortmund Tierpark|Dortmund Signal Iduna Park"/>
+	</s>
+	<s id="7875232604798163194-2501092133-1">
+		<tl t="p" o="B2" c="Bus" n="5563"/>
+		<dp pt="2501092133" pp="" l="RB53X" ppth="Schwerte(Ruhr)|Iserlohn"/>
+	</s>
+	<s id="-4604417545031401799-2501092030-7">
+		<tl f="N" t="p" o="R2RE" c="RE" n="89898"/>
+		<ar pt="2501092055" pp="21" l="3" ppth="Hamm(Westf)Hbf|Bönen-Nordbögge|Kamen|Kamen-Methler|Dortmund-Kurl|Dortmund-Scharnhorst"/>
+		<dp pt="2501092103" pp="21" l="3" ppth="Dortmund-Mengede|Castrop-Rauxel Hbf|Herne|Wanne-Eickel Hbf|Gelsenkirchen Hbf|Essen-Altenessen|Oberhausen Hbf|Duisburg Hbf|Düsseldorf Flughafen|Düsseldorf Hbf"/>
+	</s>
+	<s id="1959666943967644709-2501092159-1">
+		<tl f="N" t="p" o="8003L2" c="RE" n="33098"/>
+		<dp pt="2501092159" pp="11" l="34" ppth="Witten Hbf|Letmathe|Altena(Westf)|Werdohl|Plettenberg|Finnentrop|Lennestadt-Grevenbrück|Lennestadt-Meggen|Lennestadt-Altenhundem|Kirchhundem|Welschen Ennest|Kreuztal-Littfeld|Eichen(Kr Siegen)|Kreuztal|Siegen-Geisweid|Siegen-Weidenau|Siegen Hbf"/>
+	</s>
+	<s id="6810614476303646777-2501091829-8">
+		<tl f="F" t="p" o="80" c="ICE" n="207"/>
+		<ar pt="2501092132" pp="16" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Osnabrück Hbf|Münster(Westf)Hbf"/>
+		<dp pt="2501092136" pp="16" ppth="Bochum Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Hbf"/>
+	</s>
+	<s id="4594771126664263764-2501092045-8">
+		<tl f="N" t="p" o="R2RE" c="RE" n="89897"/>
+		<ar pt="2501092157" pp="26" l="3" ppth="Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Oberhausen Hbf|Essen-Altenessen|Gelsenkirchen Hbf|Wanne-Eickel Hbf"/>
+	</s>
+	<s id="-4694943151725423409-2501092119-1">
+		<tl t="p" o="B2" c="Bus" n="5935"/>
+		<dp pt="2501092119" pp="" l="RE57" ppth="Dortmund Signal Iduna Park|Dortmund-Hörde|Dortmund-Aplerbeck Süd|Schwerte(Ruhr)|Fröndenberg"/>
+	</s>
+	<s id="-5170505594871150656-2501092127-1">
+		<tl t="p" o="B2" c="Bus" n="2025"/>
+		<dp pt="2501092127" pp="" l="S2" ppth="Dortmund-Dorstfeld|Dortmund-Wischlingen|Dortmund-Huckarde|Dortmund-Westerfilde|Dortmund-Nette/Oestrich|Dortmund-Mengede"/>
+	</s>
+	<s id="8687821954573290483-2501092106-7">
+		<tl t="p" o="B2" c="Bus" n="2062"/>
+		<ar pt="2501092148" pp="" l="S2" ppth="Dortmund-Mengede|Dortmund-Nette/Oestrich|Dortmund-Westerfilde|Dortmund-Huckarde|Dortmund-Wischlingen|Dortmund-Dorstfeld"/>
+	</s>
+	<s id="-5387624129932720070-2501091113-20">
+		<tl f="F" t="p" o="81" c="ICE" n="26"/>
+		<ar pt="2501092132" pp="8" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Passau Hbf|Plattling|Regensburg Hbf|Nürnberg Hbf|Würzburg Hbf|Hanau Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf|Köln Messe/Deutz Gl.11-12|Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Bochum Hbf"/>
+	</s>
+	<s id="-5125292636263010493-2501091928-15">
+		<tl f="N" t="p" o="NXRE" c="RE" n="89736"/>
+		<ar pt="2501092105" pp="18" l="6" ppth="Minden(Westf)|Porta Westfalica|Bad Oeynhausen|Löhne(Westf)|Herford|Bielefeld Hbf|Gütersloh Hbf|Rheda-Wiedenbrück|Oelde|Beckum-Neubeckum|Ahlen(Westf)|Hamm-Heessen|Hamm(Westf)Hbf|Kamen"/>
+		<dp pt="2501092107" pp="18" l="6" ppth="Bochum Hbf|Wattenscheid|Essen Hbf"/>
+	</s>
+	<s id="2232416201706635356-2501092120-6">
+		<tl f="N" t="p" o="NXRE" c="RE" n="92978"/>
+		<ar pt="2501092143" pp="16" l="1" ppth="Hamm(Westf)Hbf|Kamen|Kamen-Methler|Dortmund-Kurl|Dortmund-Scharnhorst"/>
+		<dp pt="2501092145" pp="16" l="1" ppth="Bochum Hbf|Wattenscheid|Essen Hbf"/>
+	</s>
+	<s id="-4493706817461132274-2501091903-11">
+		<tl f="N" t="p" o="NXRE" c="RE" n="26732"/>
+		<ar pt="2501092119" pp="11" l="11" ppth="Kassel-Wilhelmshöhe|Hofgeismar|Warburg(Westf)|Willebadessen|Altenbeken|Paderborn Hbf|Lippstadt|Soest|Hamm(Westf)Hbf|Kamen"/>
+		<dp pt="2501092121" pp="11" l="11" ppth="Bochum Hbf|Wattenscheid|Essen Hbf|Mülheim(Ruhr)Hbf|Duisburg Hbf|Düsseldorf Flughafen|Düsseldorf Hbf"/>
+	</s>
+	<s id="232883097031411274-2501092136-5">
+		<tl f="S" t="p" o="800354" c="S" n="31575"/>
+		<ar pt="2501092152" pp="6" l="5" ppth="Witten Hbf|Witten-Annen Nord|Dortmund-Kruckel|Dortmund-Barop"/>
+	</s>
+	<s id="2716297513832610915-2501092109-1">
+		<tl f="N" t="p" o="NXRE" c="RE" n="22636"/>
+		<dp pt="2501092109" pp="20" l="4" ppth="Witten Hbf|Wetter(Ruhr)|Hagen Hbf|Ennepetal|Schwelm|Wuppertal-Oberbarmen|Wuppertal-Barmen|Wuppertal Hbf|Wuppertal-Vohwinkel"/>
+	</s>
+	<s id="5459162858787852063-2501092153-1">
+		<tl f="N" t="p" o="800351" c="RB" n="14628"/>
+		<dp pt="2501092153" pp="31" l="51" ppth="Dortmund-Kirchderne|Dortmund-Derne|Lünen-Preußen|Lünen Hbf|Bork(Westf)|Selm-Beifang|Selm|Lüdinghausen|Dülmen|Lette(Kr Coesfeld)|Coesfeld(Westf)"/>
+	</s>
+</timetable>

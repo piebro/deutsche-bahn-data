@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Südkreuz">
+	<s id="6336952276054459561-2501092027-11">
+		<tl f="N" t="p" o="800165" c="RB" n="18631"/>
+		<ar pt="2501092118" pp="6" l="14" ppth="Nauen|Brieselang|Finkenkrug|Falkensee|Seegefeld|Albrechtshof|Berlin-Spandau|Berlin Jungfernheide|Berlin Hbf|Berlin Potsdamer Platz"/>
+	</s>
+	<s id="-4591667838043678587-2501092056-6">
+		<tl f="N" t="p" o="800158" c="RE" n="3356"/>
+		<ar pt="2501092117" pp="7" l="3" ppth="Ludwigsfelde|Birkengrund|Großbeeren|Teltow|Berlin-Lichterfelde Ost"/>
+		<dp pt="2501092119" pp="7" l="3" ppth="Berlin Potsdamer Platz|Berlin Hbf"/>
+	</s>
+	<s id="-7138074359361066746-2501091920-6">
+		<tl f="F" t="p" o="80" c="ICE" n="699"/>
+		<ar pt="2501092131" pp="3" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Berlin-Spandau|Berlin Hbf"/>
+		<dp pt="2501092133" pp="3" ppth="Lutherstadt Wittenberg Hbf|Bitterfeld|Leipzig Hbf|Erfurt Hbf|Eisenach Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mannheim Hbf|Heidelberg Hbf|Stuttgart Hbf|Plochingen|Ulm Hbf|Günzburg|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-6030154111108520801-2501091937-10">
+		<tl f="N" t="p" o="800158" c="RE" n="4367"/>
+		<ar pt="2501092121" pp="5" l="5" ppth="Burg Stargard(Meckl)|Neustrelitz Hbf|Fürstenberg(Havel)|Dannenwalde(Gransee)|Gransee|Oranienburg|Berlin Gesundbrunnen|Berlin Hbf|Berlin Potsdamer Platz"/>
+	</s>
+	<s id="4922839504428406365-2501092133-3">
+		<tl f="N" t="p" o="800158" c="RE" n="3359"/>
+		<ar pt="2501092142" pp="4" l="3" ppth="Berlin Hbf|Berlin Potsdamer Platz"/>
+		<dp pt="2501092145" pp="4" l="3" ppth="Berlin-Lichterfelde Ost|Teltow|Großbeeren|Birkengrund|Ludwigsfelde|Luckenwalde|Jüterbog"/>
+	</s>
+	<s id="-8006524328198881016-2501091516-10">
+		<tl t="p" o="FLX10" c="FLX" n="1248"/>
+		<ar pt="2501092106" pp="7" l="10" ppth="Stuttgart Hbf|Heidelberg Hbf|Weinheim(Bergstr)Hbf|Darmstadt Hbf|Frankfurt(Main)Süd|Fulda|Eisenach Hbf|Erfurt Hbf|Halle(Saale)Hbf"/>
+		<dp pt="2501092110" pp="7" l="10" hi="1" ppth="Berlin Hbf"/>
+	</s>
+	<s id="-6222332847854573906-2501092135-1">
+		<tl f="N" t="p" o="800158" c="RE" n="3520"/>
+		<dp pt="2501092135" pp="5" l="5" ppth="Berlin Potsdamer Platz|Berlin Hbf|Berlin Gesundbrunnen|Oranienburg|Löwenberg(Mark)|Gransee|Fürstenberg(Havel)|Neustrelitz Hbf|Blankensee(Meckl)|Cammin(Meckl)|Burg Stargard(Meckl)"/>
+	</s>
+	<s id="8218544619443085427-2501091654-8">
+		<tl f="F" t="p" o="80" c="ICE" n="502"/>
+		<ar pt="2501092122" pp="8" ppth="München Hbf|Nürnberg Hbf|Erlangen|Bamberg|Erfurt Hbf|Leipzig Hbf|Lutherstadt Wittenberg Hbf"/>
+		<dp pt="2501092125" pp="8" ppth="Berlin Hbf|Berlin-Spandau|Wittenberge|Ludwigslust|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+</timetable>
