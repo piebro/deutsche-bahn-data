@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<timetable station="Darmstadt Hbf">
+	<s id="-1197270886930040789-2501102019-7">
+		<tl f="F" t="p" o="NZ" c="IC" n="60408"/>
+		<ar pt="2501110357" pp="" ppth="Berlin Hbf|Bitterfeld|Leipzig Hbf|Erfurt Hbf|Fulda|Frankfurt(Main)Süd"/>
+		<dp pt="2501110359" pp="" ppth="Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="5331894847185138451-2501102019-7">
+		<tl t="p" o="81" c="NJ" n="408"/>
+		<ar pt="2501110357" pp="" wings="-1197270886930040789-2501102019" ppth="Berlin Hbf|Bitterfeld|Leipzig Hbf|Erfurt Hbf|Fulda|Frankfurt(Main)Süd"/>
+		<dp pt="2501110359" pp="" hi="1" wings="-1197270886930040789-2501102019" ppth="Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-8716776747589038458-2501101828-13">
+		<tl f="F" t="p" o="81" c="EN" n="40458"/>
+		<ar pt="2501110357" pp="" ppth="Praha hl.n.|Praha-Holesovice|Usti nad Labem hl.n.|Decin hl.n.|Bad Schandau|Dresden Hbf|Dresden-Neustadt|Riesa|Leipzig Hbf|Erfurt Hbf|Fulda|Frankfurt(Main)Süd"/>
+		<dp pt="2501110359" pp="" hi="1" ppth="Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-8572647521164952896-2501101828-13">
+		<tl f="F" t="p" o="54" c="EC" n="458"/>
+		<ar pt="2501110357" pp="" wings="-8716776747589038458-2501101828|5331894847185138451-2501102019" ppth="Praha hl.n.|Praha-Holesovice|Usti nad Labem hl.n.|Decin hl.n.|Bad Schandau|Dresden Hbf|Dresden-Neustadt|Riesa|Leipzig Hbf|Erfurt Hbf|Fulda|Frankfurt(Main)Süd"/>
+		<dp pt="2501110359" pp="" hi="1" wings="-8716776747589038458-2501101828|5331894847185138451-2501102019" ppth="Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-5617860749926671396-2501110335-1">
+		<tl f="S" t="p" o="800528" c="S" n="36600"/>
+		<dp pt="2501110335" pp="3" l="6" ppth="Darmstadt-Arheilgen|Darmstadt-Wixhausen|Erzhausen|Egelsbach|Langen(Hess)|Langen-Flugsicherung|Dreieich-Buchschlag|Neu-Isenburg|Frankfurt-Louisa|Frankfurt(M)Stresemannallee|Frankfurt(Main)Süd|Frankfurt(M)Lokalbahnhof|Frankfurt(M)Ostendstraße|Frankfurt(M)Konstablerwache|Frankfurt(M)Hauptwache|Frankfurt(M)Taunusanlage|Frankfurt Hbf (tief)"/>
+	</s>
+	<s id="-3985259033482962999-2501110226-18">
+		<tl f="N" t="p" o="800574" c="RB" n="15344"/>
+		<ar pt="2501110326" pp="5" l="68" ppth="Heidelberg Hbf|Heidelberg-Pfaffengrund/Wieblingen|Neu-Edingen/Friedrichsfeld|Ladenburg|Heddesheim/Hirschberg|Weinheim-Lützelsachsen|Weinheim(Bergstr)Hbf|Hemsbach|Laudenbach(Bergstr)|Heppenheim(Bergstr)|Bensheim|Bensheim-Auerbach|Zwingenberg(Bergstr)|Hähnlein-Alsbach|Bickenbach(Bergstr)|Darmstadt-Eberstadt|Darmstadt Süd"/>
+		<dp pt="2501110330" pp="5" l="68" ppth="Langen(Hess)|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="7786907034929507911-2501110247-18">
+		<tl f="S" t="p" o="800528" c="S" n="36689"/>
+		<ar pt="2501110326" pp="4" l="6" ppth="Frankfurt Hbf (tief)|Frankfurt(M)Taunusanlage|Frankfurt(M)Hauptwache|Frankfurt(M)Konstablerwache|Frankfurt(M)Ostendstraße|Frankfurt(M)Lokalbahnhof|Frankfurt(Main)Süd|Frankfurt(M)Stresemannallee|Frankfurt-Louisa|Neu-Isenburg|Dreieich-Buchschlag|Langen-Flugsicherung|Langen(Hess)|Egelsbach|Erzhausen|Darmstadt-Wixhausen|Darmstadt-Arheilgen"/>
+	</s>
+</timetable>
