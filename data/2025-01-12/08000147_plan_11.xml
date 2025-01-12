@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg-Harburg">
+	<s id="-8011164337776733770-2501121033-5">
+		<tl f="D" t="p" o="R1" c="ME" n="82018"/>
+		<ar pt="2501121130" pp="3" l="RE4" ppth="Bremen Hbf|Rotenburg(Wümme)|Tostedt|Buchholz(Nordheide)"/>
+		<dp pt="2501121131" pp="3" l="RE4" ppth="Hamburg Hbf"/>
+	</s>
+	<s id="-7292474497301786678-2501121115-2">
+		<tl f="D" t="p" o="R1" c="ME" n="82019"/>
+		<ar pt="2501121125" pp="4" l="RE4" ppth="Hamburg Hbf"/>
+		<dp pt="2501121126" pp="4" l="RE4" ppth="Buchholz(Nordheide)|Tostedt|Rotenburg(Wümme)|Bremen Hbf"/>
+	</s>
+	<s id="5447506537070106407-2501121050-2">
+		<tl t="p" o="FLX20" c="FLX" n="1345"/>
+		<ar pt="2501121059" pp="4" l="20" hi="1" ppth="Hamburg Hbf"/>
+		<dp pt="2501121101" pp="4" l="20" ppth="Bremen Hbf|Osnabrück Hbf|Münster(Westf)Hbf|Gelsenkirchen Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Hbf"/>
+	</s>
+	<s id="6910711159053643835-2501121137-2">
+		<tl f="D" t="p" o="R1" c="ME" n="81921"/>
+		<ar pt="2501121148" pp="4" l="RB41" ppth="Hamburg Hbf"/>
+		<dp pt="2501121149" pp="4" l="RB41" ppth="Hittfeld|Klecken|Buchholz(Nordheide)|Sprötze|Tostedt|Lauenbrück|Scheeßel|Rotenburg(Wümme)|Sottrum|Ottersberg(Han)|Sagehorn|Bremen-Oberneuland|Bremen Hbf"/>
+	</s>
+	<s id="-3212205364154915817-2501120612-10">
+		<tl f="F" t="p" o="80" c="ICE" n="886"/>
+		<ar pt="2501121144" pp="3" ppth="München Hbf|Ingolstadt Hbf|Nürnberg Hbf|Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Lüneburg"/>
+		<dp pt="2501121146" pp="3" hi="1" ppth="Hamburg Hbf"/>
+	</s>
+	<s id="7517605630292767265-2501121054-3">
+		<tl f="F" t="p" o="80" c="ICE" n="587"/>
+		<ar pt="2501121111" pp="4" hi="1" ppth="Hamburg Dammtor|Hamburg Hbf"/>
+		<dp pt="2501121113" pp="4" ppth="Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf|München Hbf"/>
+	</s>
+	<s id="5653087570567167872-2501121129-4">
+		<tl f="F" t="p" o="80" c="ICE" n="611"/>
+		<ar pt="2501121155" pp="4" hi="1" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf"/>
+		<dp pt="2501121157" pp="4" ppth="Bremen Hbf|Osnabrück Hbf|Münster(Westf)Hbf|Dortmund Hbf|Hagen Hbf|Wuppertal Hbf|Solingen Hbf|Köln Hbf|Frankfurt(M) Flughafen Fernbf|Mannheim Hbf|Stuttgart Hbf|Ulm Hbf|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-7805791635840879693-2501121123-1">
+		<tl f="N" t="p" o="RSUE" c="RE" n="14515"/>
+		<dp pt="2501121123" pp="6" l="5" ppth="Buxtehude|Horneburg|Stade|Hammah|Himmelpforten|Hechthausen|Hemmoor|Wingst|Cadenberge|Otterndorf|Cuxhaven"/>
+	</s>
+	<s id="1526194876276388981-2501121101-6">
+		<tl f="D" t="p" o="R1" c="ME" n="82118"/>
+		<ar pt="2501121151" pp="3" l="RE3" pde="Hannover Hbf" ppth="Uelzen|Bad Bevensen|Bienenbüttel|Lüneburg|Winsen(Luhe)"/>
+		<dp pt="2501121152" pp="3" l="RE3" ppth="Hamburg Hbf"/>
+	</s>
+	<s id="-2298726232551513565-2501120958-14">
+		<tl f="D" t="p" o="R1" c="ME" n="81916"/>
+		<ar pt="2501121113" pp="3" l="RB41" ppth="Bremen Hbf|Bremen-Oberneuland|Sagehorn|Ottersberg(Han)|Sottrum|Rotenburg(Wümme)|Scheeßel|Lauenbrück|Tostedt|Sprötze|Buchholz(Nordheide)|Klecken|Hittfeld"/>
+		<dp pt="2501121114" pp="3" l="RB41" ppth="Hamburg Hbf"/>
+	</s>
+	<s id="4423248224118207012-2501121009-12">
+		<tl f="N" t="p" o="RSUE" c="RE" n="14510"/>
+		<ar pt="2501121138" pp="6" l="5" ppth="Cuxhaven|Otterndorf|Cadenberge|Wingst|Hemmoor|Hechthausen|Himmelpforten|Hammah|Stade|Horneburg|Buxtehude"/>
+	</s>
+	<s id="6229593701195627276-2501121057-2">
+		<tl f="D" t="p" o="R1" c="ME" n="82119"/>
+		<ar pt="2501121107" pp="4" l="RE3" ppth="Hamburg Hbf"/>
+		<dp pt="2501121108" pp="4" l="RE3" pde="Hannover Hbf" ppth="Winsen(Luhe)|Lüneburg|Bienenbüttel|Bad Bevensen|Uelzen"/>
+	</s>
+	<s id="1179810196779242077-2501120710-10">
+		<tl f="F" t="p" o="80" c="ICE" n="208"/>
+		<ar pt="2501121101" pp="3" ppth="Köln Hbf|Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Münster(Westf)Hbf|Osnabrück Hbf|Bremen Hbf"/>
+		<dp pt="2501121103" pp="3" ppth="Hamburg Hbf|Schwerin Hbf|Rostock Hbf|Ribnitz-Damgarten West|Velgast|Stralsund Hbf|Bergen auf Rügen|Ostseebad Binz"/>
+	</s>
+</timetable>
