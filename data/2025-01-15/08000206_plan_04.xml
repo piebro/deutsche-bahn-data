@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<timetable station="Koblenz Hbf">
+	<s id="3201541809492400503-2501150417-1">
+		<tl t="p" o="B2" c="Bus" n="2744"/>
+		<dp pt="2501150417" pp="" l="RB27" ppth="Koblenz-Ehrenbreitstein|Vallendar|Engers|Neuwied"/>
+	</s>
+	<s id="8549956852735563226-2501150447-1">
+		<tl f="N" t="p" o="TR" c="RB" n="25353"/>
+		<dp pt="2501150447" pp="5" l="26" ppth="Rhens|Spay|Boppard Hbf|Boppard-Bad Salzig|Boppard-Hirzenach|St Goar|Oberwesel|Bacharach|Niederheimbach|Trechtingshausen|Bingen(Rhein) Hbf|Bingen(Rhein) Stadt|Bingen-Gaulsheim|Gau Algesheim|Ingelheim|Heidesheim(Rheinhess)|Uhlerborn|Budenheim|Mainz-Mombach|Mainz Hbf"/>
+	</s>
+	<s id="5924237811699024123-2501150437-3">
+		<tl f="D" t="p" o="R4RH" c="VIA" n="25003"/>
+		<ar pt="2501150451" pp="8" l="RB10" ppth="Neuwied|Koblenz Stadtmitte"/>
+		<dp pt="2501150452" pp="8" l="RB10" ppth="Niederlahnstein|Oberlahnstein|Braubach|Osterspai|Filsen|Kamp-Bornhofen|Kestert|St Goarshausen|Kaub|Lorchhausen|Lorch(Rhein)|Assmannshausen|Rüdesheim(Rhein)|Geisenheim|Oestrich-Winkel|Hattenheim|Erbach(Rheingau)|Eltville|Niederwalluf|Wiesbaden-Schierstein|Wiesbaden-Biebrich|Wiesbaden Hbf|Mainz-Kastel|Frankfurt-Höchst|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="8868050453695511606-2501142134-12">
+		<tl t="p" o="85" c="NJ" n="402"/>
+		<ar pt="2501150447" pp="3" hi="1" wings="4753870957390372842-2501142134" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf"/>
+		<dp pt="2501150455" pp="3" hi="1" wings="4753870957390372842-2501142134" ppth="Bonn-Beuel|Köln Hbf|Eindhoven Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="6175934605574930825-2501150429-1">
+		<tl f="N" t="p" o="TR" c="RB" n="25408"/>
+		<dp pt="2501150429" pp="5" l="26" ppth="Koblenz Stadtmitte|Koblenz-Lützel|Mülheim-Kärlich|Weißenthurm|Andernach|Namedy|Brohl|Bad Breisig|Sinzig(Rhein)|Remagen"/>
+	</s>
+	<s id="4753870957390372842-2501142134-12">
+		<tl f="F" t="p" o="NZ" c="IC" n="60402"/>
+		<ar pt="2501150447" pp="3" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf"/>
+		<dp pt="2501150455" pp="3" ppth="Bonn-Beuel|Köln Hbf|Eindhoven Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="1744458089375201502-2501150436-1">
+		<tl f="N" t="p" o="801526" c="RB" n="12641"/>
+		<dp pt="2501150436" pp="8" l="23" ppth="Niederlahnstein"/>
+	</s>
+</timetable>
