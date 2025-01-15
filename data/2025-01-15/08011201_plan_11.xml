@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="-7909132823050569300-2501151139-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18664"/>
+		<ar pt="2501151155" pp="1" l="32" ppth="Ludwigsfelde|Birkengrund"/>
+	</s>
+	<s id="5658297647256092992-2501151026-3">
+		<tl f="N" t="p" o="NZ" c="RE" n="52175"/>
+		<ar pt="2501151053" pp="3 A-D" l="17" ppth="Berlin Hbf|Berlin Südkreuz"/>
+		<dp pt="2501151101" pp="3 A-D" l="17" ppth="Doberlug-Kirchhain|Elsterwerda"/>
+	</s>
+	<s id="1782676809905479059-2501151154-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18357"/>
+		<dp pt="2501151154" pp="4" l="24" ppth="Blankenfelde(Teltow-Fläming)|Dahlewitz|Rangsdorf"/>
+	</s>
+	<s id="-4250776295477638006-2501151004-3">
+		<tl f="N" t="p" o="NZ" c="RE" n="52270"/>
+		<ar pt="2501151058" pp="2" l="17" ppth="Elsterwerda|Doberlug-Kirchhain"/>
+		<dp pt="2501151105" pp="2" l="17" ppth="Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="-8639608035380892689-2501151109-2">
+		<tl f="N" t="p" o="800165" c="RB" n="18115"/>
+		<ar pt="2501151121" pp="4" l="22" ppth="Königs Wusterhausen"/>
+		<dp pt="2501151123" pp="4" l="22" ppth="Ludwigsfelde-Struveshof|Saarmund|Potsdam Pirschheide|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof|Potsdam Hbf|Potsdam Griebnitzsee"/>
+	</s>
+	<s id="-300074562291495474-2501151041-9">
+		<tl f="N" t="p" o="800165" c="RB" n="18114"/>
+		<ar pt="2501151136" pp="1" l="22" ppth="Potsdam Griebnitzsee|Potsdam Hbf|Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Potsdam Pirschheide|Saarmund|Ludwigsfelde-Struveshof"/>
+		<dp pt="2501151138" pp="1" l="22" ppth="Königs Wusterhausen"/>
+	</s>
+	<s id="-3789886827529615803-2501151109-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18665"/>
+		<dp pt="2501151109" pp="4" l="32" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+	<s id="-1760207367303502931-2501150826-7">
+		<tl f="F" t="p" o="80" c="IC" n="2270"/>
+		<ar pt="2501151058" pp="2" wings="-4250776295477638006-2501151004" ppth="Chemnitz Hbf|Freiberg(Sachs)|Dresden Hbf|Dresden-Neustadt|Elsterwerda|Doberlug-Kirchhain"/>
+		<dp pt="2501151105" pp="2" wings="-4250776295477638006-2501151004" ppth="Berlin Südkreuz|Berlin Hbf|Schwerin Hbf|Bützow"/>
+	</s>
+	<s id="-7265443927573671588-2501150751-5">
+		<tl f="F" t="p" o="80" c="IC" n="2175"/>
+		<ar pt="2501151053" pp="3 A-D" wings="5658297647256092992-2501151026" ppth="Rostock Hbf|Schwerin Hbf|Berlin Hbf|Berlin Südkreuz"/>
+		<dp pt="2501151101" pp="3 A-D" wings="5658297647256092992-2501151026" ppth="Doberlug-Kirchhain|Elsterwerda|Dresden-Neustadt|Dresden Hbf"/>
+	</s>
+</timetable>
