@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="-5868832687532322633-2501161209-2">
+		<tl f="N" t="p" o="800165" c="RB" n="18117"/>
+		<ar pt="2501161221" pp="4" l="22" ppth="Königs Wusterhausen"/>
+		<dp pt="2501161223" pp="4" l="22" ppth="Ludwigsfelde-Struveshof|Saarmund|Potsdam Pirschheide|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof|Potsdam Hbf|Potsdam Griebnitzsee"/>
+	</s>
+	<s id="-3346406316283603609-2501161239-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18359"/>
+		<dp pt="2501161239" pp="4" l="24" ppth="Blankenfelde(Teltow-Fläming)|Dahlewitz|Rangsdorf|Dabendorf|Zossen|Wünsdorf-Waldstadt"/>
+	</s>
+	<s id="3521736323086609352-2501161226-3">
+		<tl f="N" t="p" o="NZ" c="RE" n="52177"/>
+		<ar pt="2501161253" pp="3 A-D" l="17" ppth="Berlin Hbf|Berlin Südkreuz"/>
+		<dp pt="2501161301" pp="3 A-D" l="17" ppth="Doberlug-Kirchhain|Elsterwerda"/>
+	</s>
+	<s id="7394762620966695911-2501161202-4">
+		<tl f="N" t="p" o="800165" c="RB" n="18356"/>
+		<ar pt="2501161218" pp="1" l="24" ppth="Rangsdorf|Dahlewitz|Blankenfelde(Teltow-Fläming)"/>
+	</s>
+	<s id="-5008120015372892565-2501161209-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18667"/>
+		<dp pt="2501161209" pp="4" l="32" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+	<s id="-2131018045385925614-2501161126-5">
+		<tl f="F" t="p" o="80" c="IC" n="2178"/>
+		<ar pt="2501161258" pp="2" wings="-7506790306116047080-2501161201" ppth="Dresden Hbf|Dresden-Neustadt|Elsterwerda|Doberlug-Kirchhain"/>
+		<dp pt="2501161305" pp="2" wings="-7506790306116047080-2501161201" ppth="Berlin Südkreuz|Berlin Hbf|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="-4136692685937486380-2501161141-9">
+		<tl f="N" t="p" o="800165" c="RB" n="18116"/>
+		<ar pt="2501161237" pp="1" l="22" ppth="Potsdam Griebnitzsee|Potsdam Hbf|Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Potsdam Pirschheide|Saarmund|Ludwigsfelde-Struveshof"/>
+		<dp pt="2501161239" pp="1" l="22" ppth="Königs Wusterhausen"/>
+	</s>
+	<s id="3925309565218180439-2501161218-4">
+		<tl f="F" t="p" o="80" c="IC" n="2177"/>
+		<ar pt="2501161253" pp="3 A-D" wings="3521736323086609352-2501161226" ppth="Berlin Gesundbrunnen|Berlin Hbf|Berlin Südkreuz"/>
+		<dp pt="2501161301" pp="3 A-D" wings="3521736323086609352-2501161226" ppth="Doberlug-Kirchhain|Elsterwerda|Dresden-Neustadt|Dresden Hbf"/>
+	</s>
+	<s id="-7506790306116047080-2501161201-3">
+		<tl f="N" t="p" o="NZ" c="RE" n="52178"/>
+		<ar pt="2501161258" pp="2" l="17" ppth="Elsterwerda|Doberlug-Kirchhain"/>
+		<dp pt="2501161305" pp="2" l="17" ppth="Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="-3966324538576564244-2501161232-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18666"/>
+		<ar pt="2501161248" pp="1" l="32" ppth="Ludwigsfelde|Birkengrund"/>
+	</s>
+</timetable>
