@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<timetable station="Wolfsburg Hbf">
+	<s id="707154631348820660-2501171128-14">
+		<tl t="p" o="RSMD" c="RSM" n="80358"/>
+		<ar pt="2501171244" pp="9" l="RB36" ppth="Magdeburg Hbf|Magdeburg-Neustadt|Magdeburg-Eichenweiler|Barleben|Meitzendorf|Groß Ammensleben|Vahldorf|Haldensleben|Flechtingen|Wegenstedt|Rätzlingen|Bösdorf(Sachs-Anh)|Oebisfelde"/>
+	</s>
+	<s id="-1686746107791464196-2501171250-1">
+		<tl t="p" o="RSMD" c="RSM" n="80319"/>
+		<dp pt="2501171250" pp="9" l="RB35" ppth="Oebisfelde|Miesterhorst|Mieste|Solpke|Gardelegen|Jävenitz|Uchtspringe|Vinzelberg|Möringen(Altm)|Stendal Hbf"/>
+	</s>
+	<s id="-1946315470378796485-2501171106-11">
+		<tl t="p" o="RSMD" c="RSM" n="80316"/>
+		<ar pt="2501171208" pp="9" l="RB35" ppth="Stendal Hbf|Möringen(Altm)|Vinzelberg|Uchtspringe|Jävenitz|Gardelegen|Solpke|Mieste|Miesterhorst|Oebisfelde"/>
+	</s>
+	<s id="7925070867755578683-2501171150-8">
+		<tl t="p" o="R0" c="ENO" n="83565"/>
+		<ar pt="2501171241" pp="8" l="RE50" ppth="Hildesheim Hbf|Hoheneggelsen|Woltwiesche|Lengede-Broistedt|Braunschweig Hbf|Weddel(Braunschw)|Fallersleben"/>
+	</s>
+	<s id="1327451636118816558-2501171218-1">
+		<tl t="p" o="R0" c="ENO" n="83564"/>
+		<dp pt="2501171218" pp="8" l="RE50" ppth="Fallersleben|Weddel(Braunschw)|Braunschweig Hbf|Lengede-Broistedt|Woltwiesche|Hoheneggelsen|Hildesheim Hbf"/>
+	</s>
+	<s id="8196198315689291117-2501171113-5">
+		<tl f="F" t="p" o="80" c="ICE" n="795"/>
+		<ar pt="2501171235" pp="1" ppth="Berlin Südkreuz|Berlin Hbf|Berlin-Spandau|Stendal Hbf"/>
+		<dp pt="2501171236" pp="1" ppth="Braunschweig Hbf|Hildesheim Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Frankfurt(Main)Süd|Frankfurt(M) Flughafen Fernbf"/>
+	</s>
+	<s id="-4554142996363352815-2501170606-15">
+		<tl f="F" t="p" o="80" c="ICE" n="374"/>
+		<ar pt="2501171218" pp="5" ppth="Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Hanau Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hildesheim Hbf|Braunschweig Hbf"/>
+		<dp pt="2501171219" pp="5" ppth="Berlin-Spandau|Berlin Hbf"/>
+	</s>
+	<s id="-7732825863849667402-2501171117-4">
+		<tl f="F" t="p" o="80" c="ICE" n="940"/>
+		<ar pt="2501171246" pp="1" wings="-292788332521786029-2501171117" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin-Spandau"/>
+		<dp pt="2501171247" pp="1" wings="-292788332521786029-2501171117" ppth="Hannover Hbf|Hamm(Westf)Hbf|Dortmund Hbf|Bochum Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Flughafen|Düsseldorf Hbf"/>
+	</s>
+	<s id="4131928373987407668-2501171204-1">
+		<tl t="p" o="R0" c="ENO" n="83514"/>
+		<dp pt="2501171204" pp="4" l="RE30" ppth="Fallersleben|Calberlah|Gifhorn|Leiferde(b Gifhorn)|Meinersen|Dedenhausen|Dollbergen|Immensen-Arpke|Lehrte|Hannover Karl-Wiechert-Allee"/>
+	</s>
+	<s id="6469594953573757363-2501171248-1">
+		<tl t="p" o="R0" c="ENO" n="75564"/>
+		<dp pt="2501171248" pp="8" l="RE50" ppth="Fallersleben|Weddel(Braunschw)|Braunschweig Hbf"/>
+	</s>
+	<s id="-1489252697791169587-2501170826-12">
+		<tl f="F" t="p" o="80" c="ICE" n="545"/>
+		<ar pt="2501171202" pp="5" ppth="Köln Hbf|Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Bielefeld Hbf|Minden(Westf)|Hannover Hbf"/>
+		<dp pt="2501171203" pp="5" ppth="Berlin-Spandau|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="-6026991954031819041-2501171203-11">
+		<tl t="p" o="R0" c="ENO" n="83515"/>
+		<ar pt="2501171259" pp="4" l="RE30" ppth="Hannover Karl-Wiechert-Allee|Lehrte|Immensen-Arpke|Dollbergen|Dedenhausen|Meinersen|Leiferde(b Gifhorn)|Gifhorn|Calberlah|Fallersleben"/>
+	</s>
+	<s id="-292788332521786029-2501171117-4">
+		<tl f="F" t="p" o="80" c="ICE" n="950"/>
+		<ar pt="2501171246" pp="1" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin-Spandau"/>
+		<dp pt="2501171247" pp="1" ppth="Hannover Hbf|Hamm(Westf)Hbf|Hagen Hbf|Wuppertal Hbf|Köln Hbf"/>
+	</s>
+	<s id="-3604508578104963922-2501171150-4">
+		<tl t="p" o="R0" c="ENO" n="75565"/>
+		<ar pt="2501171211" pp="8" l="RE50" ppth="Braunschweig Hbf|Weddel(Braunschw)|Fallersleben"/>
+	</s>
+</timetable>
