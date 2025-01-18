@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg-Harburg">
+	<s id="-721807130937592434-2501181313-14">
+		<tl f="F" t="p" o="81" c="ICE" n="90"/>
+		<ar pt="2501182141" pp="1" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Passau Hbf|Plattling|Regensburg Hbf|Nürnberg Hbf|Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf"/>
+		<dp pt="2501182143" pp="1" hi="1" ppth="Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-4853549543155830626-2501181238-16">
+		<tl f="F" t="p" o="85" c="ICE" n="70"/>
+		<ar pt="2501182126" pp="1" ppth="Chur|Landquart|Sargans|Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf"/>
+		<dp pt="2501182128" pp="1" hi="1" ppth="Hamburg Hbf"/>
+	</s>
+	<s id="6572858655815139397-2501182114-1">
+		<tl t="p" o="R1" c="Bus" n="4141"/>
+		<dp pt="2501182114" pp="" l="EV" ppth="Hittfeld|Klecken|Buchholz(Nordheide)"/>
+	</s>
+	<s id="-970500467898761732-2501182123-1">
+		<tl f="N" t="p" o="RSUE" c="RE" n="14535"/>
+		<dp pt="2501182123" pp="6" l="5" ppth="Buxtehude|Horneburg|Stade|Hammah|Himmelpforten|Hechthausen|Hemmoor|Wingst|Cadenberge|Otterndorf|Cuxhaven"/>
+	</s>
+	<s id="-1621849622641880552-2501182033-9">
+		<tl f="D" t="p" o="R1" c="ME" n="81636"/>
+		<ar pt="2501182108" pp="1" l="RB31" pde="Uelzen" ppth="Lüneburg|Bardowick|Radbruch|Winsen(Luhe)|Ashausen|Stelle|Maschen|Meckelfeld"/>
+		<dp pt="2501182109" pp="1" l="RB31" ppth="Hamburg Hbf"/>
+	</s>
+	<s id="-4716448794900451059-2501182133-2">
+		<tl f="D" t="p" o="R1" c="ME" n="81641"/>
+		<ar pt="2501182144" pp="4" l="RB31" ppth="Hamburg Hbf"/>
+		<dp pt="2501182145" pp="4" l="RB31" ppth="Maschen|Stelle|Winsen(Luhe)|Radbruch|Bardowick|Lüneburg|Bienenbüttel|Bad Bevensen|Uelzen"/>
+	</s>
+	<s id="8620543286702518895-2501181958-14">
+		<tl f="D" t="p" o="R1" c="ME" n="81936"/>
+		<ar pt="2501182113" pp="2" l="RB41" ppth="Bremen Hbf|Bremen-Oberneuland|Sagehorn|Ottersberg(Han)|Sottrum|Rotenburg(Wümme)|Scheeßel|Lauenbrück|Tostedt|Sprötze|Buchholz(Nordheide)|Klecken|Hittfeld"/>
+		<dp pt="2501182114" pp="2" l="RB41" ppth="Hamburg Hbf"/>
+	</s>
+	<s id="-5837382828980643327-2501182009-12">
+		<tl f="N" t="p" o="RSUE" c="RE" n="14530"/>
+		<ar pt="2501182138" pp="6" l="5" ppth="Cuxhaven|Otterndorf|Cadenberge|Wingst|Hemmoor|Hechthausen|Himmelpforten|Hammah|Stade|Horneburg|Buxtehude"/>
+	</s>
+</timetable>

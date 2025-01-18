@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<timetable station="Lüneburg">
+	<s id="1071068956703566664-2501182230-1">
+		<tl f="D" t="p" o="X1" c="erx" n="21138"/>
+		<dp pt="2501182230" pp="5" l="RE83" ppth="Echem|Lauenburg(Elbe)|Büchen|Mölln(Lauenb)|Ratzeburg|Lübeck Flughafen|Lübeck Hochschulstadtteil|Lübeck Hbf"/>
+	</s>
+	<s id="-4716448794900451059-2501182133-8">
+		<tl f="D" t="p" o="R1" c="ME" n="81641"/>
+		<ar pt="2501182223" pp="6" l="RB31" ppth="Hamburg Hbf|Hamburg-Harburg|Maschen|Stelle|Winsen(Luhe)|Radbruch|Bardowick"/>
+		<dp pt="2501182233" pp="6" l="RB31" ppth="Bienenbüttel|Bad Bevensen|Uelzen"/>
+	</s>
+	<s id="3655846017428359643-2501182232-1">
+		<tl f="D" t="p" o="R1" c="ME" n="81640"/>
+		<dp pt="2501182232" pp="3" l="RB31" tra="-7193636000516531658-2501182201-4" ppth="Bardowick|Radbruch|Winsen(Luhe)|Ashausen|Stelle|Maschen|Meckelfeld|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="-7927538604654488322-2501182110-9">
+		<tl f="D" t="p" o="X1" c="erx" n="21135"/>
+		<ar pt="2501182215" pp="5" l="RE83" pde="Kiel Hbf" ppth="Lübeck Hbf|Lübeck Hochschulstadtteil|Lübeck Flughafen|Ratzeburg|Mölln(Lauenb)|Büchen|Lauenburg(Elbe)|Echem"/>
+	</s>
+	<s id="-7193636000516531658-2501182201-4">
+		<tl f="D" t="p" o="R1" c="ME" n="82140"/>
+		<ar pt="2501182224" pp="3" l="RE3" tra="3655846017428359643-2501182232-1" ppth="Uelzen|Bad Bevensen|Bienenbüttel"/>
+	</s>
+</timetable>
