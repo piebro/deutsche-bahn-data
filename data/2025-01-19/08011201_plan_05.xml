@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="-3289399367241805700-2501190558-1">
+		<tl t="p" o="800165" c="FEX" n="19806"/>
+		<dp pt="2501190558" pp="1" tra="1672294977889446701-2501190539-3" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="5547616819435409899-2501190451-4">
+		<tl t="p" o="800165" c="FEX" n="19809"/>
+		<ar pt="2501190530" pp="4" tra="7284386546422932563-2501190535-1" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="7284386546422932563-2501190535-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18345"/>
+		<dp pt="2501190535" pp="4" l="24" tra="5547616819435409899-2501190451-4" ppth="Blankenfelde(Teltow-Fläming)|Dahlewitz|Rangsdorf|Dabendorf|Zossen|Wünsdorf-Waldstadt"/>
+	</s>
+	<s id="3105587517085278592-2501190528-1">
+		<tl t="p" o="800165" c="FEX" n="19804"/>
+		<dp pt="2501190528" pp="1" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="1672294977889446701-2501190539-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18652"/>
+		<ar pt="2501190555" pp="1" l="32" tra="-3289399367241805700-2501190558-1" ppth="Ludwigsfelde|Birkengrund"/>
+	</s>
+	<s id="-7410860683214104779-2501190448-8">
+		<tl f="N" t="p" o="800165" c="RB" n="18102"/>
+		<ar pt="2501190536" pp="1" l="22" ppth="Potsdam Hbf|Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Potsdam Pirschheide|Saarmund|Ludwigsfelde-Struveshof"/>
+		<dp pt="2501190538" pp="1" l="22" ppth="Königs Wusterhausen"/>
+	</s>
+	<s id="-717944806167106896-2501190421-4">
+		<tl t="p" o="800165" c="FEX" n="19807"/>
+		<ar pt="2501190500" pp="4" tra="6587236525069306157-2501190509-1" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="3659752465878737902-2501190509-2">
+		<tl f="N" t="p" o="800165" c="RB" n="18103"/>
+		<ar pt="2501190521" pp="4" l="22" ppth="Königs Wusterhausen"/>
+		<dp pt="2501190523" pp="4" l="22" ppth="Ludwigsfelde-Struveshof|Saarmund|Potsdam Pirschheide|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof|Potsdam Hbf"/>
+	</s>
+	<s id="6587236525069306157-2501190509-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18653"/>
+		<dp pt="2501190509" pp="4" l="32" tra="-717944806167106896-2501190421-4" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+</timetable>
