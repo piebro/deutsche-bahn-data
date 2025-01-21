@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<timetable station="Singen(Hohentwiel)">
+	<s id="6470603107153690731-2501202359-3">
+		<tl t="p" o="L7" c="Bus" n="990"/>
+		<ar pt="2501210020" pp="" l="EV" ppth="Bietingen|Gottmadingen"/>
+	</s>
+	<s id="586374796165715858-2501210006-1">
+		<tl t="p" o="L7" c="Bus" n="991"/>
+		<dp pt="2501210006" pp="" l="EV" ppth="Gottmadingen|Bietingen|Thayngen|Herblingen|Schaffhausen"/>
+	</s>
+	<s id="-8267451888754830510-2501210007-6">
+		<tl t="p" o="L7" c="Bus" n="976"/>
+		<ar pt="2501210050" pp="" l="EV" ppth="Schaffhausen|Herblingen|Thayngen|Bietingen|Gottmadingen"/>
+	</s>
+	<s id="8111372302019859526-2501210038-5">
+		<tl t="p" o="L7" c="SBB" n="86371"/>
+		<ar pt="2501210051" pp="2" l="S6" ppth="Engen|Welschingen-Neuhausen|Mühlhausen(b Engen)|Singen Landesgartenschau"/>
+		<dp pt="2501210052" pp="2" l="S6" ppth="Singen Industriegebiet|Böhringen-Rickelshausen|Radolfzell|Markelfingen|Allensbach|Hegne|Reichenau(Baden)|Konstanz-Wollmatingen|Konstanz-Fürstenberg|Konstanz-Petershausen|Konstanz"/>
+	</s>
+	<s id="712052296105620367-2501202323-12">
+		<tl t="p" o="L7" c="SBB" n="86370"/>
+		<ar pt="2501202356" pp="1" l="S6" ppth="Konstanz|Konstanz-Petershausen|Konstanz-Fürstenberg|Konstanz-Wollmatingen|Reichenau(Baden)|Hegne|Allensbach|Markelfingen|Radolfzell|Böhringen-Rickelshausen|Singen Industriegebiet"/>
+		<dp pt="2501210000" pp="1" l="S6" ppth="Singen Landesgartenschau|Mühlhausen(b Engen)|Welschingen-Neuhausen|Engen"/>
+	</s>
+</timetable>
