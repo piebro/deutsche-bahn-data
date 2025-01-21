@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="-1246312238388053590-2501212054-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18172"/>
+		<dp pt="2501212054" pp="3 D-G" l="23" ppth="Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Charlottenburg"/>
+	</s>
+	<s id="3749059173939789540-2501212033-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18375"/>
+		<dp pt="2501212033" pp="4" l="24" tra="3463567788174894893-2501211951-4" ppth="Blankenfelde(Teltow-Fläming)|Dahlewitz|Rangsdorf"/>
+	</s>
+	<s id="-931498101353786183-2501212028-1">
+		<tl t="p" o="800165" c="FEX" n="19864"/>
+		<dp pt="2501212028" pp="1" tra="8467730873822914435-2501211949-4" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="-8957490933478893554-2501212032-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18682"/>
+		<ar pt="2501212048" pp="1" l="32" ppth="Ludwigsfelde|Birkengrund"/>
+	</s>
+	<s id="4795003599783466511-2501211921-4">
+		<tl t="p" o="800165" c="FEX" n="19867"/>
+		<ar pt="2501212000" pp="4" tra="9173904781348194045-2501212009-1" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="9173904781348194045-2501212009-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18683"/>
+		<dp pt="2501212009" pp="4" l="32" tra="4795003599783466511-2501211921-4" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+	<s id="-6509852827428022817-2501212018-4">
+		<tl f="F" t="p" o="80" c="IC" n="2275"/>
+		<ar pt="2501212053" pp="3 A-D" wings="-1486898991092341358-2501212026" ppth="Berlin Gesundbrunnen|Berlin Hbf|Berlin Südkreuz"/>
+		<dp pt="2501212101" pp="3 A-D" wings="-1486898991092341358-2501212026" ppth="Doberlug-Kirchhain|Elsterwerda|Dresden-Neustadt|Dresden Hbf"/>
+	</s>
+	<s id="-1486898991092341358-2501212026-3">
+		<tl f="N" t="p" o="NZ" c="RE" n="52275"/>
+		<ar pt="2501212053" pp="3 A-D" l="17" ppth="Berlin Hbf|Berlin Südkreuz"/>
+		<dp pt="2501212101" pp="3 A-D" l="17" ppth="Doberlug-Kirchhain|Elsterwerda"/>
+	</s>
+	<s id="8467730873822914435-2501211949-4">
+		<tl f="N" t="p" o="800165" c="RB" n="18372"/>
+		<ar pt="2501212002" pp="1" l="24" tra="-931498101353786183-2501212028-1" ppth="Rangsdorf|Dahlewitz|Blankenfelde(Teltow-Fläming)"/>
+	</s>
+	<s id="3463567788174894893-2501211951-4">
+		<tl t="p" o="800165" c="FEX" n="19869"/>
+		<ar pt="2501212030" pp="4" tra="3749059173939789540-2501212033-1" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+</timetable>
