@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="-1419164028204496811-2501230628-1">
+		<tl t="p" o="800165" c="FEX" n="19808"/>
+		<dp pt="2501230628" pp="1" tra="-4941361326329788147-2501230531-7" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="-6865037128136087008-2501230609-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18655"/>
+		<dp pt="2501230609" pp="4" l="32" tra="3210654541221591362-2501230521-4" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+	<s id="3210654541221591362-2501230521-4">
+		<tl t="p" o="800165" c="FEX" n="19811"/>
+		<ar pt="2501230600" pp="4" tra="-6865037128136087008-2501230609-1" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="-3083626524373388358-2501230658-1">
+		<tl t="p" o="800165" c="FEX" n="19810"/>
+		<dp pt="2501230658" pp="1" tra="-3722268048064685027-2501230639-3" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="816544395317894188-2501230652-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18347"/>
+		<dp pt="2501230652" pp="4" l="24" tra="-105402738826610268-2501230551-4" ppth="Blankenfelde(Teltow-Fläming)|Dahlewitz|Rangsdorf|Zossen|Wünsdorf-Waldstadt"/>
+	</s>
+	<s id="2893431466261682474-2501230530-5">
+		<tl f="F" t="p" o="80" c="IC" n="2274"/>
+		<ar pt="2501230659" pp="2" wings="1002717078006700774-2501230604" ppth="Dresden Hbf|Dresden-Neustadt|Elsterwerda|Doberlug-Kirchhain"/>
+		<dp pt="2501230705" pp="2" wings="1002717078006700774-2501230604" ppth="Berlin Südkreuz|Berlin Hbf|Schwerin Hbf|Rostock Hbf|Warnemünde"/>
+	</s>
+	<s id="-105402738826610268-2501230551-4">
+		<tl t="p" o="800165" c="FEX" n="19813"/>
+		<ar pt="2501230630" pp="4" tra="816544395317894188-2501230652-1" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="-4941361326329788147-2501230531-7">
+		<tl f="N" t="p" o="800165" c="RB" n="18344"/>
+		<ar pt="2501230603" pp="1" l="24" tra="-1419164028204496811-2501230628-1" ppth="Wünsdorf-Waldstadt|Zossen|Dabendorf|Rangsdorf|Dahlewitz|Blankenfelde(Teltow-Fläming)"/>
+	</s>
+	<s id="1002717078006700774-2501230604-3">
+		<tl f="N" t="p" o="NZ" c="RE" n="52274"/>
+		<ar pt="2501230659" pp="2" l="17" ppth="Elsterwerda|Doberlug-Kirchhain"/>
+		<dp pt="2501230705" pp="2" l="17" ppth="Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="-3722268048064685027-2501230639-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18654"/>
+		<ar pt="2501230655" pp="1" l="32" tra="-3083626524373388358-2501230658-1" ppth="Ludwigsfelde|Birkengrund"/>
+	</s>
+</timetable>
