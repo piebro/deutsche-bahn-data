@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="6860290104622435511-2501232151-4">
+		<tl t="p" o="800165" c="FEX" n="19877"/>
+		<ar pt="2501232230" pp="4" tra="-2949565903927422683-2501232239-1" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="-7834030075966481511-2501232228-1">
+		<tl t="p" o="800165" c="FEX" n="19872"/>
+		<dp pt="2501232228" pp="1" tra="-4312095586964369049-2501232211-4" ppth="Berlin-Lichtenberg|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="-4312095586964369049-2501232211-4">
+		<tl f="N" t="p" o="800165" c="RB" n="18376"/>
+		<ar pt="2501232226" pp="1" l="24" tra="-7834030075966481511-2501232228-1" ppth="Rangsdorf|Dahlewitz|Blankenfelde(Teltow-Fläming)"/>
+	</s>
+	<s id="5267890398427216546-2501232258-1">
+		<tl t="p" o="800165" c="FEX" n="19874"/>
+		<dp pt="2501232258" pp="1" tra="-9032773524213761460-2501232239-3" ppth="Berlin-Lichtenberg|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="-9032773524213761460-2501232239-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18686"/>
+		<ar pt="2501232255" pp="1" l="32" tra="5267890398427216546-2501232258-1" ppth="Ludwigsfelde|Birkengrund"/>
+	</s>
+	<s id="-2949565903927422683-2501232239-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18379"/>
+		<dp pt="2501232239" pp="4" l="24" tra="6860290104622435511-2501232151-4" ppth="Blankenfelde(Teltow-Fläming)|Dahlewitz|Rangsdorf|Dabendorf|Zossen|Wünsdorf-Waldstadt"/>
+	</s>
+	<s id="-5315333728424243977-2501232121-4">
+		<tl t="p" o="800165" c="FEX" n="19875"/>
+		<ar pt="2501232200" pp="4" tra="4475416547975001603-2501232209-1" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="4475416547975001603-2501232209-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18687"/>
+		<dp pt="2501232209" pp="4" l="32" tra="-5315333728424243977-2501232121-4" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+</timetable>
