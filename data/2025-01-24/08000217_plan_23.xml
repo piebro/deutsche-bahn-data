@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<timetable station="Landshut(Bay)Hbf">
+	<s id="3643792588322858058-2501242040-10">
+		<tl f="N" t="p" o="8007H3" c="RE" n="4871"/>
+		<ar pt="2501242329" pp="6" l="2" ppth="Hof Hbf|Marktredwitz|Wiesau(Oberpf)|Weiden(Oberpf)|Schwandorf|Regensburg Hbf|Eggmühl|Neufahrn(Niederbay)|Ergoldsbach"/>
+		<dp pt="2501242335" pp="6" l="2" ppth="Moosburg|Freising|München Hbf"/>
+	</s>
+	<s id="185568078432564234-2501242224-4">
+		<tl f="N" t="p" o="800767" c="RE" n="4090"/>
+		<ar pt="2501242312" pp="5" l="3" ppth="München Hbf|Freising|Moosburg"/>
+		<dp pt="2501242315" pp="5" l="3" ppth="Wörth(Isar)|Dingolfing|Landau(Isar)|Wallersdorf|Plattling|Osterhofen(Nby)|Vilshofen(Niederbay)|Passau Hbf"/>
+	</s>
+	<s id="4129627884885923643-2501242314-7">
+		<tl f="N" t="p" o="800767" c="RB" n="59290"/>
+		<ar pt="2501242343" pp="8" l="33" ppth="Freising|Marzling|Langenbach(Oberbay)|Moosburg|Bruckberg|Gündlkofen"/>
+	</s>
+	<s id="3472286637044439164-2501242226-9">
+		<tl f="N" t="p" o="800767" c="RE" n="4091"/>
+		<ar pt="2501242343" pp="6" l="3" ppth="Passau Hbf|Vilshofen(Niederbay)|Osterhofen(Nby)|Plattling|Wallersdorf|Landau(Isar)|Dingolfing|Wörth(Isar)"/>
+		<dp pt="2501242349" pp="6" l="3" ppth="Moosburg|Freising|München Hbf"/>
+	</s>
+	<s id="-2543630036829878149-2501242240-8">
+		<tl f="N" t="p" o="8013D" c="RB" n="27142"/>
+		<ar pt="2501242328" pp="1" l="45" pde="Salzburg Hbf" ppth="Mühldorf(Oberbay)|Neumarkt-St Veit|Egglkofen|Aich(Niederbay)|Vilsbiburg|Geisenhausen|Landshut(Bay)Süd"/>
+	</s>
+	<s id="-3435779439791038629-2501242235-4">
+		<tl f="D" t="p" o="A8N" c="ALX" n="92879"/>
+		<ar pt="2501242330" pp="5" l="RE25" ppth="München Hbf|Freising|Moosburg"/>
+	</s>
+	<s id="4348221724037410882-2501242340-1">
+		<tl f="N" t="p" o="8013D" c="RB" n="27141"/>
+		<dp pt="2501242340" pp="1" l="45" ppth="Landshut(Bay)Süd|Geisenhausen|Vilsbiburg|Aich(Niederbay)|Egglkofen|Neumarkt-St Veit|Mühldorf(Oberbay)"/>
+	</s>
+	<s id="347380704260031951-2501242337-1">
+		<tl t="p" o="A8N" c="Bus" n="60869"/>
+		<dp pt="2501242337" pp="" l="RE25" ppth="Ergoldsbach|Neufahrn(Niederbay)|Eggmühl|Obertraubling|Regensburg Hbf"/>
+	</s>
+	<s id="-7434591923124175376-2501242219-8">
+		<tl f="N" t="p" o="800767" c="RE" n="57939"/>
+		<ar pt="2501242303" pp="6" l="22" ppth="Regensburg Hbf|Obertraubling|Köfering|Hagelstadt|Eggmühl|Neufahrn(Niederbay)|Ergoldsbach"/>
+		<dp pt="2501242305" pp="6" l="22" ppth="Moosburg|Freising|München Flughafen Terminal"/>
+	</s>
+	<s id="5608015258058408627-2501242316-5">
+		<tl f="D" t="p" o="S9" c="ag" n="84106"/>
+		<ar pt="2501242350" pp="5" l="RE22" ppth="München Flughafen Terminal|München Flughafen Besucherpark|Freising|Moosburg"/>
+		<dp pt="2501242353" pp="5" l="RE22" ppth="Ergoldsbach|Neufahrn(Niederbay)|Eggmühl|Hagelstadt|Köfering|Obertraubling|Regensburg-Burgweinting|Regensburg Hbf"/>
+	</s>
+</timetable>
