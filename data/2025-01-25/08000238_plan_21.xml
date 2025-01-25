@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<timetable station="Lüneburg">
+	<s id="-3338334609715540604-2501252135-1">
+		<tl f="D" t="p" o="X1" c="erx" n="28960"/>
+		<dp pt="2501252135" pp="5" l="RE83" ppth="Echem|Lauenburg(Elbe)|Büchen"/>
+	</s>
+	<s id="-8573984535168492837-2501252132-1">
+		<tl f="D" t="p" o="R1" c="ME" n="81638"/>
+		<dp pt="2501252132" pp="3" l="RB31" tra="5934575629537714195-2501252101-4" ppth="Bardowick|Radbruch|Winsen(Luhe)|Ashausen|Stelle|Maschen|Meckelfeld|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="5934575629537714195-2501252101-4">
+		<tl f="D" t="p" o="R1" c="ME" n="82138"/>
+		<ar pt="2501252124" pp="3" l="RE3" tra="-8573984535168492837-2501252132-1" pde="Hannover Hbf" ppth="Uelzen|Bad Bevensen|Bienenbüttel"/>
+	</s>
+	<s id="2351802209419071159-2501252033-10">
+		<tl f="D" t="p" o="R1" c="ME" n="81639"/>
+		<ar pt="2501252123" pp="6" l="RB31" ppth="Hamburg Hbf|Hamburg-Harburg|Meckelfeld|Maschen|Stelle|Ashausen|Winsen(Luhe)|Radbruch|Bardowick"/>
+		<dp pt="2501252127" pp="6" l="RB31" ppth="Bienenbüttel|Bad Bevensen|Uelzen"/>
+	</s>
+	<s id="-7458479533923357198-2501252102-4">
+		<tl f="D" t="p" o="X1" c="erx" n="28963"/>
+		<ar pt="2501252123" pp="5" l="RE83" ppth="Büchen|Lauenburg(Elbe)|Echem"/>
+	</s>
+	<s id="6189900721106300340-2501251213-19">
+		<tl f="F" t="p" o="81" c="ICE" n="1200"/>
+		<ar pt="2501252133" pp="3" ppth="St. Anton am Arlberg|Landeck-Zams|Imst-Pitztal|Ötztal|Telfs-Pfaffenhofen|Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Ost|Augsburg Hbf|Würzburg Hbf|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen"/>
+		<dp pt="2501252151" pp="3" ppth="Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+</timetable>
