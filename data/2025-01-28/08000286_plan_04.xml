@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<timetable station="Oberhausen Hbf">
+	<s id="6295926956655463216-2501280441-1">
+		<tl f="N" t="p" o="8003L1" c="RB" n="31242"/>
+		<dp pt="2501280441" pp="6" l="32" ppth="Essen-Dellwig|Essen-Bergeborbeck|Essen-Altenessen|Essen-Zollverein Nord|Gelsenkirchen Hbf|Wanne-Eickel Hbf|Herne|Castrop-Rauxel Hbf|Dortmund-Mengede|Dortmund Hbf"/>
+	</s>
+	<s id="-5341290488582403088-2501280404-6">
+		<tl f="N" t="p" o="8003L1" c="RB" n="31287"/>
+		<ar pt="2501280421" pp="7" l="32" ppth="Gelsenkirchen Hbf|Essen-Zollverein Nord|Essen-Altenessen|Essen-Bergeborbeck|Essen-Dellwig"/>
+	</s>
+	<s id="-5873779746437927890-2501280431-1">
+		<tl t="p" o="TDRR" c="Bus" n="65642"/>
+		<dp pt="2501280431" pp="" l="36/44" ppth="Duisburg-Obermeiderich|Duisburg-Meiderich Ost|Duisburg-Meiderich Süd|Duisburg-Ruhrort"/>
+	</s>
+	<s id="-7477147699153648172-2501280417-1">
+		<tl t="p" o="TDRR" c="Bus" n="65640"/>
+		<dp pt="2501280417" pp="" l="36/44" ppth="Duisburg-Obermeiderich|Duisburg-Meiderich Ost|Duisburg-Meiderich Süd|Duisburg-Ruhrort"/>
+	</s>
+	<s id="-5378264050118191624-2501280429-1">
+		<tl t="p" o="B2" c="Bus" n="3265"/>
+		<dp pt="2501280429" pp="" l="RB32" ppth="Duisburg Hbf"/>
+	</s>
+	<s id="5169140490269121951-2501280447-1">
+		<tl f="S" t="p" o="8003L1" c="S" n="30304"/>
+		<dp pt="2501280447" pp="11" l="3" ppth="Mülheim(Ruhr)Styrum|Mülheim(Ruhr)West|Mülheim(Ruhr)Hbf|Essen-Frohnhausen|Essen West|Essen Hbf|Essen-Steele|Essen-Steele Ost|Essen-Horst|Bochum-Dahlhausen|Hattingen(Ruhr)|Hattingen(Ruhr) Mitte"/>
+	</s>
+	<s id="2047680109831494786-2501280405-2">
+		<tl t="p" o="B2" c="Bus" n="3258"/>
+		<ar pt="2501280425" pp="" l="RB32" ppth="Duisburg Hbf"/>
+	</s>
+	<s id="-389765114355125159-2501280343-6">
+		<tl f="D" t="p" o="R4NRN" c="VIA" n="20003"/>
+		<ar pt="2501280407" pp="12" l="RE19" ppth="Wesel|Voerde(Niederrhein)|Dinslaken|Oberhausen-Holten|Oberhausen-Sterkrade"/>
+		<dp pt="2501280408" pp="12" l="RE19" ppth="Duisburg Hbf"/>
+	</s>
+	<s id="5369223492151677246-2501280429-5">
+		<tl t="p" o="TDRR" c="Bus" n="65641"/>
+		<ar pt="2501280458" pp="" l="36/44" ppth="Duisburg-Ruhrort|Duisburg-Meiderich Süd|Duisburg-Meiderich Ost|Duisburg-Obermeiderich"/>
+		<dp pt="2501280458" pp="" l="36/44" ppth="Oberhausen-Osterfeld Süd|Bottrop-Vonderort|Bottrop Hbf"/>
+	</s>
+</timetable>
