@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin-Spandau">
+	<s id="3731427069207899427-2501292345-5">
+		<tl t="p" o="BB" c="Bus" n="73182"/>
+		<ar pt="2501300029" pp="" l="RE4" ppth="Wustermark|Elstal|Dallgow-Döberitz|Berlin-Staaken"/>
+	</s>
+	<s id="-167143613330815604-2501300008-7">
+		<tl f="N" t="p" o="800165" c="RE" n="3140"/>
+		<ar pt="2501300033" pp="5" l="2" ppth="Nauen|Brieselang|Finkenkrug|Falkensee|Seegefeld|Albrechtshof"/>
+		<dp pt="2501300035" pp="5" l="2" ppth="Berlin-Charlottenburg|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz|Königs Wusterhausen|Zeesen|Bestensee|Groß Köris|Halbe|Oderin|Brand Tropical Islands|Schönwalde(Spreewald)|Lubolz|Lübben(Spreewald)|Lübbenau(Spreewald)|Raddusch|Vetschau|Kunersdorf|Kolkwitz|Cottbus Hbf"/>
+	</s>
+	<s id="6182068753204726904-2501292343-9">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62045"/>
+		<ar pt="2501300032" pp="4" l="8" ppth="Flughafen BER|Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Charlottenburg"/>
+		<dp pt="2501300034" pp="4" l="8" ppth="Albrechtshof|Seegefeld|Falkensee|Finkenkrug|Brieselang|Nauen"/>
+	</s>
+	<s id="-5538611005332795976-2501300030-1">
+		<tl t="p" o="BB" c="Bus" n="83165"/>
+		<dp pt="2501300030" pp="" l="RE4" ppth="Berlin-Staaken|Dallgow-Döberitz|Elstal|Wustermark"/>
+	</s>
+	<s id="5597303123860052865-2501291926-12">
+		<tl f="F" t="p" o="80" c="ICE" n="947"/>
+		<ar pt="2501292359" pp="6" ppth="Köln Hbf|Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Bielefeld Hbf|Hannover Hbf|Wolfsburg Hbf"/>
+		<dp pt="2501300001" pp="6" hi="1" ppth="Berlin Zoologischer Garten|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="-7260953034263185039-2501292009-10">
+		<tl f="F" t="p" o="80" c="ICE" n="790"/>
+		<ar pt="2501300029" pp="6" ppth="Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Süd|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hildesheim Hbf|Braunschweig Hbf|Wolfsburg Hbf|Stendal Hbf"/>
+		<dp pt="2501300031" pp="6" hi="1" ppth="Berlin Zoologischer Garten|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+</timetable>
