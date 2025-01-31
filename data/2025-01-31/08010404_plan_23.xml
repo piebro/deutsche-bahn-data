@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin-Spandau">
+	<s id="4447890004106418758-2501311851-12">
+		<tl f="F" t="p" o="80" c="ICE" n="645"/>
+		<ar pt="2501312258" pp="5" ppth="Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Bielefeld Hbf|Minden(Westf)|Hannover Hbf|Wolfsburg Hbf"/>
+		<dp pt="2501312300" pp="5" ppth="Berlin Hbf"/>
+	</s>
+	<s id="3778695356863398992-2501311950-11">
+		<tl f="F" t="p" o="80" c="ICE" n="947"/>
+		<ar pt="2501312359" pp="6" ppth="Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Bielefeld Hbf|Hannover Hbf|Wolfsburg Hbf"/>
+		<dp pt="2502010001" pp="6" ppth="Berlin Hbf"/>
+	</s>
+	<s id="-3791277548252315104-2501312320-1">
+		<tl t="p" o="BB" c="Bus" n="73185"/>
+		<dp pt="2501312320" pp="" l="RE4" ppth="Berlin-Staaken|Dallgow-Döberitz|Elstal|Wustermark|Buschow|Nennhausen|Rathenow"/>
+	</s>
+	<s id="6988871964362406533-2501312206-10">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62036"/>
+		<ar pt="2501312321" pp="4" l="8" ppth="Wittenberge|Bad Wilsnack|Glöwen|Breddin|Neustadt(Dosse)|Friesack(Mark)|Paulinenaue|Nauen|Falkensee"/>
+	</s>
+	<s id="1116577686148397167-2501311613-14">
+		<tl f="F" t="p" o="80" c="ICE" n="274"/>
+		<ar pt="2501312314" pp="6" ppth="Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Hanau Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Messe/Laatzen|Wolfsburg Hbf"/>
+		<dp pt="2501312316" pp="6" ppth="Berlin Hbf"/>
+	</s>
+	<s id="-1705524843027558889-2501312338-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62039"/>
+		<dp pt="2501312338" pp="4" l="8" ppth="Falkensee|Nauen|Paulinenaue|Friesack(Mark)|Neustadt(Dosse)|Breddin|Glöwen|Bad Wilsnack|Wittenberge"/>
+	</s>
+	<s id="-2451771813568964797-2501311946-8">
+		<tl f="F" t="p" o="80" c="ICE" n="957"/>
+		<ar pt="2501312359" pp="6" wings="3778695356863398992-2501311950" ppth="Köln Hbf|Wuppertal Hbf|Hagen Hbf|Hamm(Westf)Hbf|Bielefeld Hbf|Hannover Hbf|Wolfsburg Hbf"/>
+		<dp pt="2502010001" pp="6" wings="3778695356863398992-2501311950" ppth="Berlin Hbf"/>
+	</s>
+	<s id="-2166469421985895678-2501312245-5">
+		<tl t="p" o="BB" c="Bus" n="73162"/>
+		<ar pt="2501312329" pp="" l="RE4" ppth="Wustermark|Elstal|Dallgow-Döberitz|Berlin-Staaken"/>
+	</s>
+	<s id="5554857220674495144-2501312134-7">
+		<tl f="F" t="p" o="80" c="ICE" n="805"/>
+		<ar pt="2501312344" pp="6" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Büchen|Ludwigslust|Wittenberge"/>
+		<dp pt="2501312346" pp="6" ppth="Berlin Hbf|Berlin Südkreuz"/>
+	</s>
+	<s id="-6365987835392071445-2501312345-1">
+		<tl f="F" t="p" o="80" c="ICE" n="271"/>
+		<dp pt="2501312345" pp="4" ppth="Stendal Hbf|Wolfsburg Hbf|Hannover Hbf|Göttingen|Fulda|Hanau Hbf|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB|Sargans|Landquart|Chur"/>
+	</s>
+	<s id="7246712639955575618-2501312208-7">
+		<tl t="p" o="BB" c="Bus" n="53136"/>
+		<ar pt="2501312309" pp="" l="RE2" ppth="Nauen|Brieselang|Finkenkrug|Falkensee ZOB|Seegefeld|Albrechtshof"/>
+	</s>
+</timetable>
