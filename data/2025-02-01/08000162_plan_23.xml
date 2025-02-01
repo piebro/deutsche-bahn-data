@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<timetable station="Herford">
+	<s id="-1263270219402647457-2502012241-2">
+		<tl t="p" o="R2" c="Bus" n="7800"/>
+		<ar pt="2502012304" pp="" l="RE78" ppth="Löhne(Westf)"/>
+		<dp pt="2502012304" pp="" l="RE78" ppth="Brake(b Bielefeld)|Bielefeld Hbf"/>
+	</s>
+	<s id="-4392380918109261916-2502012318-2">
+		<tl t="p" o="NX" c="Bus" n="9742"/>
+		<ar pt="2502012336" pp="" l="RE6" ppth="Löhne(Westf)"/>
+	</s>
+	<s id="-7812515961873911054-2502012336-1">
+		<tl f="N" t="p" o="R2RB" c="RB" n="90681"/>
+		<dp pt="2502012336" pp="2" l="72" ppth="Bad Salzuflen|Schötmar|Bad Salzuflen-Sylbach|Lage(Lippe)|Detmold|Horn-Bad Meinberg|Leopoldstal|Steinheim-Sandebeck|Altenbeken|Paderborn Hbf"/>
+	</s>
+	<s id="-6063051608257733416-2502012248-2">
+		<tl f="N" t="p" o="R2RB" c="RB" n="89668"/>
+		<ar pt="2502012258" pp="3" l="71" ppth="Bielefeld Hbf"/>
+		<dp pt="2502012301" pp="3" l="71" ppth="Hiddenhausen-Schweicheln|Kirchlengern|Bünde(Westf)|Bieren-Rödinghausen|Mesch Neue Mühle|Bad Holzhausen|Lübbecke(Westf)|Espelkamp|Rahden"/>
+	</s>
+	<s id="1489992605677565305-2502012233-3">
+		<tl t="p" o="R2" c="Bus" n="6104"/>
+		<ar pt="2502012303" pp="" l="RB61" ppth="Bielefeld Hbf|Brake(b Bielefeld)"/>
+		<dp pt="2502012303" pp="" l="RB61" ppth="Hiddenhausen-Schweicheln|Kirchlengern|Bünde(Westf)|Bruchmühlen|Melle|Westerhausen|Wissingen|Osnabrück Hbf|Osnabrück Altstadt|Ibbenbüren-Laggenbeck|Ibbenbüren|Ibbenbüren-Esch|Hörstel|Rheine"/>
+	</s>
+	<s id="-9108795533200356404-2502012237-3">
+		<tl t="p" o="R2" c="Bus" n="7803"/>
+		<ar pt="2502012308" pp="" l="RE78" ppth="Bielefeld Hbf|Brake(b Bielefeld)"/>
+		<dp pt="2502012308" pp="" l="RE78" ppth="Löhne(Westf)"/>
+	</s>
+	<s id="-7478705218209756874-2502012221-11">
+		<tl f="N" t="p" o="R2RB" c="RB" n="90684"/>
+		<ar pt="2502012327" pp="2" l="72" ppth="Paderborn Hbf|Altenbeken|Steinheim-Sandebeck|Leopoldstal|Horn-Bad Meinberg|Detmold|Lage(Lippe)|Bad Salzuflen-Sylbach|Schötmar|Bad Salzuflen"/>
+	</s>
+	<s id="-8957484325052121716-2502011901-13">
+		<tl f="F" t="p" o="80" c="ICE" n="102"/>
+		<ar pt="2502012326" pp="4" ppth="Karlsruhe Hbf|Mannheim Hbf|Frankfurt(M) Flughafen Fernbf|Köln Hbf|Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Gütersloh Hbf|Bielefeld Hbf"/>
+		<dp pt="2502012328" pp="4" ppth="Bad Oeynhausen|Minden(Westf)|Hannover Hbf"/>
+	</s>
+</timetable>
