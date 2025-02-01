@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Hbf">
+	<s id="4017972157379463891-2502010042-1">
+		<tl f="N" t="p" o="800158" c="RE" n="3363"/>
+		<dp pt="2502010042" pp="4" l="3" tra="8055140796578231506-2501312306-10" ppth="Berlin Potsdamer Platz|Berlin Südkreuz|Berlin-Lichterfelde Ost|Teltow|Großbeeren|Birkengrund|Ludwigsfelde|Thyrow|Trebbin|Woltersdorf/Nuthe-Urstromtal|Luckenwalde|Jüterbog|Lutherstadt Wittenberg Hbf|Roßlau(Elbe)|Dessau Hbf|Bitterfeld|Halle(Saale)Hbf"/>
+	</s>
+	<s id="8055140796578231506-2501312306-10">
+		<tl f="N" t="p" o="800158" c="RE" n="3361"/>
+		<ar pt="2502010028" pp="4" l="3" tra="4017972157379463891-2502010042-1" ppth="Schwedt(Oder)|Schwedt(Oder)Mitte|Pinnow(Uckermark)|Angermünde|Chorin|Britz|Eberswalde Hbf|Bernau(b Berlin)|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="3778695356863398992-2501311950-12">
+		<tl f="F" t="p" o="80" c="ICE" n="947"/>
+		<ar pt="2502010009" pp="" ppth="Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Bielefeld Hbf|Hannover Hbf|Wolfsburg Hbf|Berlin-Spandau"/>
+	</s>
+	<s id="4966825592039783790-2501312235-8">
+		<tl f="F" t="p" o="80" c="ICE" n="907"/>
+		<ar pt="2502010053" pp="1" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Büchen|Ludwigslust|Wittenberge|Berlin-Spandau"/>
+		<dp pt="2502010057" pp="1" hi="1" ppth="Berlin Südkreuz"/>
+	</s>
+	<s id="-2451771813568964797-2501311946-9">
+		<tl f="F" t="p" o="80" c="ICE" n="957"/>
+		<ar pt="2502010009" pp="" wings="3778695356863398992-2501311950" ppth="Köln Hbf|Wuppertal Hbf|Hagen Hbf|Hamm(Westf)Hbf|Bielefeld Hbf|Hannover Hbf|Wolfsburg Hbf|Berlin-Spandau"/>
+	</s>
+	<s id="7022789033164733279-2501312300-19">
+		<tl f="N" t="p" o="800158" c="RE" n="3366"/>
+		<ar pt="2502010034" pp="6" l="3" ppth="Lutherstadt Wittenberg Hbf|Zörnigall|Bülzig|Zahna|Blönsdorf|Niedergörsdorf|Jüterbog|Luckenwalde|Woltersdorf/Nuthe-Urstromtal|Trebbin|Thyrow|Ludwigsfelde|Birkengrund|Großbeeren|Teltow|Berlin-Lichterfelde Ost|Berlin Südkreuz|Berlin Potsdamer Platz"/>
+		<dp pt="2502010036" pp="6" l="3" pde="Schwedt(Oder)" ppth="Berlin Gesundbrunnen|Bernau(b Berlin)|Rüdnitz|Biesenthal|Melchow|Eberswalde Hbf"/>
+	</s>
+	<s id="-7260953034263185039-2501312009-10">
+		<tl f="F" t="p" o="80" c="ICE" n="790"/>
+		<ar pt="2502010049" pp="" ppth="Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Süd|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Messe/Laatzen|Wolfsburg Hbf|Stendal Hbf|Berlin-Spandau"/>
+	</s>
+	<s id="-7265364076564664702-2501311955-6">
+		<tl f="F" t="p" o="80" c="ICE" n="1018"/>
+		<ar pt="2502010017" pp="8" ppth="München Hbf|Nürnberg Hbf|Erfurt Hbf|Leipzig Hbf|Berlin Südkreuz"/>
+		<dp pt="2502010020" pp="8" hi="1" ppth="Berlin Gesundbrunnen"/>
+	</s>
+	<s id="-8635923094197548434-2502010048-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="94608"/>
+		<dp pt="2502010048" pp="" l="8" ppth="Berlin Potsdamer Platz|Berlin Südkreuz|Berlin-Lichterfelde Ost|Blankenfelde(Teltow-Fläming)|Dahlewitz|Rangsdorf"/>
+	</s>
+	<s id="8628287692462922315-2501312238-10">
+		<tl f="N" t="p" o="800158" c="RE" n="3521"/>
+		<ar pt="2502010009" pp="7" l="5" ppth="Burg Stargard(Meckl)|Cammin(Meckl)|Blankensee(Meckl)|Neustrelitz Hbf|Fürstenberg(Havel)|Gransee|Löwenberg(Mark)|Oranienburg|Berlin Gesundbrunnen"/>
+	</s>
+</timetable>

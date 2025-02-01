@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<timetable station="Koblenz Hbf">
+	<s id="-6813847718653179839-2501312141-34">
+		<tl f="N" t="p" o="8003H5" c="RB" n="10641"/>
+		<ar pt="2502010019" pp="109" l="27" ppth="Mönchengladbach Hbf|Rheydt Hbf|Rheydt-Odenkirchen|Hochneukirch|Jüchen|Grevenbroich|Rommerskirchen|Stommeln|Pulheim|Köln-Ehrenfeld|Köln Hbf|Köln Messe/Deutz|Köln/Bonn Flughafen|Troisdorf|Friedrich Wilhelmshütte|Menden(Rheinl)|Bonn-Beuel|Bonn-Oberkassel|Niederdollendorf|Königswinter|Rhöndorf|Bad Honnef(Rhein)|Unkel|Erpel(Rhein)|Linz(Rhein)|Leubsdorf(Rhein)|Bad Hönningen|Rheinbrohl|Leutesdorf(Rhein)|Neuwied|Engers|Vallendar|Koblenz-Ehrenbreitstein"/>
+	</s>
+	<s id="1638918956618799816-2502010009-1">
+		<tl f="N" t="p" o="801526" c="RB" n="12639"/>
+		<dp pt="2502010009" pp="109" l="23" ppth="Niederlahnstein"/>
+	</s>
+	<s id="-8004794875836149964-2502010040-1">
+		<tl f="N" t="p" o="8003H5" c="RB" n="10642"/>
+		<dp pt="2502010040" pp="109" l="27" ppth="Koblenz-Ehrenbreitstein|Vallendar|Engers|Neuwied|Leutesdorf(Rhein)|Rheinbrohl|Bad Hönningen|Leubsdorf(Rhein)|Linz(Rhein)|Erpel(Rhein)|Unkel|Bad Honnef(Rhein)|Rhöndorf|Königswinter|Niederdollendorf|Bonn-Oberkassel|Bonn-Beuel|Menden(Rheinl)|Friedrich Wilhelmshütte|Troisdorf|Köln/Bonn Flughafen|Köln Messe/Deutz|Köln Hbf"/>
+	</s>
+	<s id="7061020891340298935-2502010042-2">
+		<tl f="N" t="p" o="801526" c="RB" n="12636"/>
+		<ar pt="2502010050" pp="5" l="23" ppth="Niederlahnstein"/>
+	</s>
+	<s id="-8778605831776128669-2502010022-1">
+		<tl f="D" t="p" o="R4RH" c="VIA" n="25085"/>
+		<dp pt="2502010022" pp="5" l="RB10" ppth="Niederlahnstein|Oberlahnstein|Braubach|Osterspai|Filsen|Kamp-Bornhofen|Kestert|St Goarshausen|Kaub"/>
+	</s>
+	<s id="1444769652103971638-2501311940-13">
+		<tl f="F" t="p" o="80" c="IC" n="2444"/>
+		<ar pt="2502010016" pp="5" ppth="Hannover Hbf|Minden(Westf)|Bad Oeynhausen|Bielefeld Hbf|Gütersloh Hbf|Hamm(Westf)Hbf|Dortmund Hbf|Hagen Hbf|Wuppertal Hbf|Solingen Hbf|Köln Messe/Deutz Gl.11-12|Bonn-Beuel"/>
+	</s>
+	<s id="8646297231555988548-2501312304-7">
+		<tl t="p" o="B5" c="Bus" n="92147"/>
+		<ar pt="2502010002" pp="" l="RB81" ppth="Treis-Karden|Müden(Mosel)|Moselkern|Hatzenport|Löf|Kobern-Gondorf"/>
+	</s>
+	<s id="-1297855697294627038-2501312351-11">
+		<tl f="N" t="p" o="TR" c="RB" n="25445"/>
+		<ar pt="2502010026" pp="8" l="26" ppth="Remagen|Sinzig(Rhein)|Bad Breisig|Brohl|Namedy|Andernach|Weißenthurm|Mülheim-Kärlich|Koblenz-Lützel|Koblenz Stadtmitte"/>
+	</s>
+	<s id="7582314568044505717-2501312015-6">
+		<tl f="F" t="p" o="NZ" c="IC" n="60403"/>
+		<ar pt="2502010047" pp="4" ppth="Amsterdam Centraal|Utrecht Centraal|Eindhoven Centraal|Köln Hbf|Bonn-Beuel"/>
+		<dp pt="2502010049" pp="4" ppth="Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="649201591963230053-2501312153-26">
+		<tl f="D" t="p" o="R4RH" c="VIA" n="25034"/>
+		<ar pt="2502010006" pp="5" l="RB10" ppth="Frankfurt(Main)Hbf|Frankfurt-Höchst|Mainz-Kastel|Wiesbaden Hbf|Wiesbaden-Biebrich|Wiesbaden-Schierstein|Niederwalluf|Eltville|Erbach(Rheingau)|Hattenheim|Oestrich-Winkel|Geisenheim|Rüdesheim(Rhein)|Assmannshausen|Lorch(Rhein)|Lorchhausen|Kaub|St Goarshausen|Kestert|Kamp-Bornhofen|Filsen|Osterspai|Braubach|Oberlahnstein|Niederlahnstein"/>
+	</s>
+	<s id="-5851721557238592488-2501312015-6">
+		<tl t="p" o="84" c="NJ" n="403"/>
+		<ar pt="2502010047" pp="4" hi="1" wings="7582314568044505717-2501312015" ppth="Amsterdam Centraal|Utrecht Centraal|Eindhoven Centraal|Köln Hbf|Bonn-Beuel"/>
+		<dp pt="2502010049" pp="4" hi="1" wings="7582314568044505717-2501312015" ppth="Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-4300193490997504478-2502010008-1">
+		<tl f="N" t="p" o="801512" c="RB" n="63840"/>
+		<dp pt="2502010008" pp="9" l="81" ppth="Koblenz-Moselweiß|Koblenz-Güls|Winningen(Mosel)|Kobern-Gondorf"/>
+	</s>
+	<s id="-4895995818500971628-2501312328-4">
+		<tl t="p" o="B5" c="Bus" n="9137"/>
+		<ar pt="2502010039" pp="" l="RE1" ppth="Cochem(Mosel)|Treis-Karden|Kobern-Gondorf"/>
+	</s>
+	<s id="5078737997455806676-2501312302-21">
+		<tl f="N" t="p" o="TR" c="RB" n="25450"/>
+		<ar pt="2502010027" pp="3" l="26" ppth="Mainz Hbf|Mainz-Mombach|Budenheim|Uhlerborn|Heidesheim(Rheinhess)|Ingelheim|Gau Algesheim|Bingen-Gaulsheim|Bingen(Rhein) Stadt|Bingen(Rhein) Hbf|Trechtingshausen|Niederheimbach|Bacharach|Oberwesel|St Goar|Boppard-Hirzenach|Boppard-Bad Salzig|Boppard Hbf|Spay|Rhens"/>
+		<dp pt="2502010030" pp="3" l="26" ppth="Koblenz Stadtmitte|Koblenz-Lützel|Mülheim-Kärlich|Weißenthurm|Andernach|Namedy|Brohl|Bad Breisig|Sinzig(Rhein)|Remagen"/>
+	</s>
+	<s id="4894403105243570934-2501312254-11">
+		<tl f="N" t="p" o="TR" c="RB" n="25443"/>
+		<ar pt="2501312332" pp="1" l="26" ppth="Remagen|Sinzig(Rhein)|Bad Breisig|Brohl|Namedy|Andernach|Weißenthurm|Mülheim-Kärlich|Koblenz-Lützel|Koblenz Stadtmitte"/>
+		<dp pt="2502010003" pp="1" l="26" ppth="Rhens|Spay|Boppard Hbf|Boppard-Bad Salzig|Boppard-Hirzenach|St Goar|Oberwesel|Bacharach|Niederheimbach|Trechtingshausen|Bingen(Rhein) Hbf"/>
+	</s>
+</timetable>
