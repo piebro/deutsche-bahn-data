@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg-Altona">
+	<s id="8218544619443085427-2502021654-15">
+		<tl f="F" t="p" o="80" c="ICE" n="502"/>
+		<ar pt="2502022349" pp="5" ppth="München Hbf|Nürnberg Hbf|Erlangen|Bamberg|Erfurt Hbf|Leipzig Hbf|Lutherstadt Wittenberg Hbf|Berlin Südkreuz|Berlin Hbf|Berlin-Spandau|Wittenberge|Ludwigslust|Hamburg Hbf|Hamburg Dammtor"/>
+	</s>
+	<s id="4469537505387860549-2502022343-1">
+		<tl t="p" o="B1" c="Bus" n="91038"/>
+		<dp pt="2502022343" pp="" l="RE6" ppth="Elmshorn|Itzehoe|Heide(Holst)|Husum"/>
+	</s>
+	<s id="4216159903162247488-2502022304-1">
+		<tl t="p" o="B1" c="Bus" n="11038"/>
+		<dp pt="2502022304" pp="" l="RE6" ppth="Elmshorn"/>
+	</s>
+	<s id="4145934425369798006-2502021701-17">
+		<tl f="F" t="p" o="80" c="ICE" n="104"/>
+		<ar pt="2502022331" pp="6" ppth="Karlsruhe Hbf|Mannheim Hbf|Frankfurt(M) Flughafen Fernbf|Köln Hbf|Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Münster(Westf)Hbf|Osnabrück Hbf|Diepholz|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor"/>
+	</s>
+	<s id="-6024162288152053505-2502022223-8">
+		<tl f="D" t="p" o="O0" c="NBE" n="81891"/>
+		<ar pt="2502022304" pp="8" l="RB71" ppth="Wrist|Dauenhof|Horst(Holst)|Elmshorn|Tornesch|Prisdorf|Pinneberg"/>
+	</s>
+	<s id="573841601175746681-2502022205-10">
+		<tl f="N" t="p" o="800201" c="RE" n="11289"/>
+		<ar pt="2502022323" pp="9" l="7" ppth="Kiel Hbf|Flintbek|Bordesholm|Einfeld|Neumünster|Brokstedt|Wrist|Elmshorn|Pinneberg"/>
+		<dp pt="2502022331" pp="9" l="7" ppth="Hamburg Dammtor|Hamburg Hbf"/>
+	</s>
+</timetable>
