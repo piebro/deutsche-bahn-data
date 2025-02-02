@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="-3083626524373388358-2502020658-1">
+		<tl t="p" o="800165" c="FEX" n="19810"/>
+		<dp pt="2502020658" pp="1" tra="-3722268048064685027-2502020639-3" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="-1419164028204496811-2502020628-1">
+		<tl t="p" o="800165" c="FEX" n="19808"/>
+		<dp pt="2502020628" pp="1" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="7224203441345226108-2502020406-17">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62000"/>
+		<ar pt="2502020611" pp="2" l="8" ppth="Wittenberge|Bad Wilsnack|Glöwen|Breddin|Neustadt(Dosse)|Friesack(Mark)|Paulinenaue|Nauen|Falkensee|Berlin-Spandau|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz"/>
+	</s>
+	<s id="-105402738826610268-2502020551-4">
+		<tl t="p" o="800165" c="FEX" n="19813"/>
+		<ar pt="2502020630" pp="4" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="3210654541221591362-2502020521-4">
+		<tl t="p" o="800165" c="FEX" n="19811"/>
+		<ar pt="2502020600" pp="4" tra="-6865037128136087008-2502020609-1" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="-6865037128136087008-2502020609-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18655"/>
+		<dp pt="2502020609" pp="4" l="32" tra="3210654541221591362-2502020521-4" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+	<s id="2351100564277521904-2502020609-2">
+		<tl f="N" t="p" o="800165" c="RB" n="18105"/>
+		<ar pt="2502020621" pp="4" l="22" ppth="Königs Wusterhausen"/>
+		<dp pt="2502020624" pp="4" l="22" ppth="Ludwigsfelde-Struveshof|Saarmund|Potsdam Pirschheide|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof|Potsdam Hbf"/>
+	</s>
+	<s id="-3722268048064685027-2502020639-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18654"/>
+		<ar pt="2502020655" pp="1" l="32" tra="-3083626524373388358-2502020658-1" ppth="Ludwigsfelde|Birkengrund"/>
+	</s>
+	<s id="-6238325530434451640-2502020644-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="94764"/>
+		<dp pt="2502020644" pp="" l="8" ppth="Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten"/>
+	</s>
+	<s id="-593864982346015647-2502020548-8">
+		<tl f="N" t="p" o="800165" c="RB" n="18104"/>
+		<ar pt="2502020637" pp="1" l="22" ppth="Potsdam Hbf|Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Potsdam Pirschheide|Saarmund|Ludwigsfelde-Struveshof"/>
+		<dp pt="2502020638" pp="1" l="22" ppth="Königs Wusterhausen"/>
+	</s>
+</timetable>

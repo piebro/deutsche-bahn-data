@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin-Spandau">
+	<s id="598751725505952260-2502020506-10">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62002"/>
+		<ar pt="2502020621" pp="5" l="8" ppth="Wittenberge|Bad Wilsnack|Glöwen|Breddin|Neustadt(Dosse)|Friesack(Mark)|Paulinenaue|Nauen|Falkensee"/>
+	</s>
+	<s id="-7084103169200549072-2502020638-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62005"/>
+		<dp pt="2502020638" pp="3" l="8" ppth="Falkensee|Nauen|Paulinenaue|Friesack(Mark)|Neustadt(Dosse)|Breddin|Glöwen|Bad Wilsnack|Wittenberge"/>
+	</s>
+	<s id="1098307524319326390-2502020605-2">
+		<tl f="F" t="p" o="80" c="IC" n="240"/>
+		<ar pt="2502020615" pp="4" hi="1" ppth="Berlin Gesundbrunnen"/>
+		<dp pt="2502020617" pp="4" ppth="Wunstorf|Bünde(Westf)|Osnabrück Hbf|Rheine|Bad Bentheim|Hengelo|Deventer|Apeldoorn|Amersfoort Centraal|Hilversum|Amsterdam Centraal"/>
+	</s>
+	<s id="-6715641444851575514-2502020503-12">
+		<tl f="N" t="p" o="800158" c="RE" n="3167"/>
+		<ar pt="2502020607" pp="3" l="4" ppth="Jüterbog|Luckenwalde|Woltersdorf/Nuthe-Urstromtal|Trebbin|Thyrow|Ludwigsfelde|Berlin-Lichterfelde Ost|Berlin Südkreuz|Berlin Potsdamer Platz|Berlin Hbf|Berlin Jungfernheide"/>
+		<dp pt="2502020609" pp="3" l="4" ppth="Berlin-Staaken|Dallgow-Döberitz|Elstal|Wustermark|Buschow|Nennhausen|Rathenow|Stendal Hbf"/>
+	</s>
+	<s id="-310371357130051139-2502020546-9">
+		<tl f="N" t="p" o="800158" c="RE" n="3146"/>
+		<ar pt="2502020650" pp="6" l="4" ppth="Stendal Hbf|Rathenow|Nennhausen|Buschow|Wustermark|Elstal|Dallgow-Döberitz|Berlin-Staaken"/>
+		<dp pt="2502020652" pp="6" l="4" ppth="Berlin Jungfernheide|Berlin Hbf|Berlin Potsdamer Platz|Berlin Südkreuz|Berlin-Lichterfelde Ost|Ludwigsfelde|Thyrow|Trebbin|Luckenwalde|Jüterbog|Oehna|Zellendorf|Linda(Elster)|Holzdorf(Elster)|Herzberg(Elster)|Falkenberg(Elster)"/>
+	</s>
+	<s id="-2820315739988979208-2502011859-18">
+		<tl f="F" t="p" o="85" c="ICE" n="4"/>
+		<ar pt="2502020624" pp="5" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Süd|Hanau Hbf|Fulda|Göttingen|Hannover Hbf|Wolfsburg Hbf|Stendal Hbf"/>
+		<dp pt="2502020626" pp="5" hi="1" ppth="Berlin Hbf"/>
+	</s>
+	<s id="6860461269586815016-2502020605-1">
+		<tl t="p" o="BB" c="Bus" n="83137"/>
+		<dp pt="2502020605" pp="" l="RE2" ppth="Albrechtshof|Seegefeld|Falkensee ZOB|Finkenkrug|Brieselang|Nauen"/>
+	</s>
+	<s id="-6833051163969720781-2502020629-2">
+		<tl f="F" t="p" o="80" c="ICE" n="277"/>
+		<ar pt="2502020642" pp="4" hi="1" ppth="Berlin Hbf"/>
+		<dp pt="2502020645" pp="4" ppth="Wolfsburg Hbf|Braunschweig Hbf|Hildesheim Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Hanau Hbf|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB"/>
+	</s>
+</timetable>
