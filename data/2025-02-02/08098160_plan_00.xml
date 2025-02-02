@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Hbf">
+	<s id="8628287692462922315-2502012238-10">
+		<tl f="N" t="p" o="800158" c="RE" n="3521"/>
+		<ar pt="2502020009" pp="7" l="5" ppth="Burg Stargard(Meckl)|Cammin(Meckl)|Blankensee(Meckl)|Neustrelitz Hbf|Fürstenberg(Havel)|Gransee|Löwenberg(Mark)|Oranienburg|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="4017972157379463891-2502020042-1">
+		<tl f="N" t="p" o="800158" c="RE" n="3363"/>
+		<dp pt="2502020042" pp="4" l="3" tra="8055140796578231506-2502012306-10" ppth="Berlin Potsdamer Platz|Berlin Südkreuz|Berlin-Lichterfelde Ost|Teltow|Großbeeren|Birkengrund|Ludwigsfelde|Thyrow|Trebbin|Woltersdorf/Nuthe-Urstromtal|Luckenwalde|Jüterbog|Lutherstadt Wittenberg Hbf|Roßlau(Elbe)|Dessau Hbf|Bitterfeld|Halle(Saale)Hbf"/>
+	</s>
+	<s id="7022789033164733279-2502012300-19">
+		<tl f="N" t="p" o="800158" c="RE" n="3366"/>
+		<ar pt="2502020034" pp="6" l="3" ppth="Lutherstadt Wittenberg Hbf|Zörnigall|Bülzig|Zahna|Blönsdorf|Niedergörsdorf|Jüterbog|Luckenwalde|Woltersdorf/Nuthe-Urstromtal|Trebbin|Thyrow|Ludwigsfelde|Birkengrund|Großbeeren|Teltow|Berlin-Lichterfelde Ost|Berlin Südkreuz|Berlin Potsdamer Platz"/>
+		<dp pt="2502020036" pp="6" l="3" pde="Schwedt(Oder)" ppth="Berlin Gesundbrunnen|Bernau(b Berlin)|Rüdnitz|Biesenthal|Melchow|Eberswalde Hbf"/>
+	</s>
+	<s id="-7260953034263185039-2502012009-11">
+		<tl f="F" t="p" o="80" c="ICE" n="790"/>
+		<ar pt="2502020039" pp="" ppth="Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Süd|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hildesheim Hbf|Braunschweig Hbf|Wolfsburg Hbf|Stendal Hbf|Berlin-Spandau"/>
+	</s>
+	<s id="8055140796578231506-2502012306-10">
+		<tl f="N" t="p" o="800158" c="RE" n="3361"/>
+		<ar pt="2502020028" pp="4" l="3" tra="4017972157379463891-2502020042-1" ppth="Schwedt(Oder)|Schwedt(Oder)Mitte|Pinnow(Uckermark)|Angermünde|Chorin|Britz|Eberswalde Hbf|Bernau(b Berlin)|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="-8635923094197548434-2502020048-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="94608"/>
+		<dp pt="2502020048" pp="" l="8" ppth="Berlin Potsdamer Platz|Berlin Südkreuz|Berlin-Lichterfelde Ost|Blankenfelde(Teltow-Fläming)|Dahlewitz|Rangsdorf"/>
+	</s>
+	<s id="-7265364076564664702-2502011955-6">
+		<tl f="F" t="p" o="80" c="ICE" n="1018"/>
+		<ar pt="2502020017" pp="8" ppth="München Hbf|Nürnberg Hbf|Erfurt Hbf|Leipzig Hbf|Berlin Südkreuz"/>
+		<dp pt="2502020020" pp="8" hi="1" ppth="Berlin Gesundbrunnen"/>
+	</s>
+</timetable>

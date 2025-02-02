@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<timetable station="Ingolstadt Hbf">
+	<s id="-2499755063042464718-2502020043-8">
+		<tl f="N" t="p" o="800765" c="RB" n="59170"/>
+		<ar pt="2502020128" pp="4" l="16" ppth="Dachau Bahnhof|Petershausen(Obb)|Paindorf|Reichertshausen(Ilm)|Pfaffenhofen(Ilm)|Rohrbach(Ilm)|Baar-Ebenhausen"/>
+		<dp pt="2502020129" pp="4" l="16" ppth="Ingolstadt Nord"/>
+	</s>
+	<s id="540960510310126490-2502020031-13">
+		<tl f="D" t="p" o="A9" c="ag" n="84352"/>
+		<ar pt="2502020129" pp="5" l="RB17" ppth="Regensburg Hbf|Regensburg-Prüfening|Sinzing|Gundelshausen|Poikam|Bad Abbach|Saal(Donau)|Abensberg|Neustadt(Donau)|Münchsmünster|Vohburg-Rockolding|Ernsgaden"/>
+		<dp pt="2502020130" pp="5" l="RB17" ppth="Ingolstadt Nord"/>
+	</s>
+	<s id="3629161739180928125-2502020144-2">
+		<tl f="N" t="p" o="800765" c="RB" n="59197"/>
+		<ar pt="2502020149" pp="2" l="16" ppth="Ingolstadt Nord"/>
+	</s>
+	<s id="-524151628723159576-2502011854-10">
+		<tl f="F" t="p" o="80" c="ICE" n="685"/>
+		<ar pt="2502020128" pp="3" ppth="Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2502020130" pp="3" ppth="München Hbf"/>
+	</s>
+</timetable>
