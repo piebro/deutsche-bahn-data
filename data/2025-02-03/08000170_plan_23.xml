@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<timetable station="Ulm Hbf">
+	<s id="-2201431976680417045-2502032059-20">
+		<tl f="N" t="p" o="800693" c="RE" n="3235"/>
+		<ar pt="2502032351" pp="7 Nord" l="55" ppth="Villingen(Schwarzw)|Donaueschingen|Geisingen|Immendingen|Tuttlingen|Mühlheim(b Tuttlingen)|Fridingen(b Tuttlingen)|Beuron|Sigmaringen|Mengen|Herbertingen|Riedlingen|Munderkingen|Ehingen(Donau)|Allmendingen|Schelklingen|Blaubeuren|Herrlingen|Blaustein"/>
+	</s>
+	<s id="7370415767715540984-2502032239-6">
+		<tl f="N" t="p" o="800694" c="RE" n="4237"/>
+		<ar pt="2502032343" pp="8" l="5" ppth="Stuttgart Hbf|Esslingen(Neckar)|Plochingen|Göppingen|Geislingen(Steige)"/>
+	</s>
+	<s id="-975220339809458292-2502032324-3">
+		<tl f="N" t="p" o="800659" c="RE" n="16077"/>
+		<ar pt="2502032351" pp="3 Nord" l="200" ppth="Wendlingen(Neckar)|Merklingen - Schwäbische Alb"/>
+	</s>
+	<s id="6370181409192856816-2502032326-1">
+		<tl f="N" t="p" o="800693" c="RB" n="3236"/>
+		<dp pt="2502032326" pp="7 Nord" l="55" ppth="Ulm-Söflingen|Blaustein|Herrlingen|Gerhausen|Blaubeuren|Schelklingen|Schmiechen|Allmendingen|Ehingen(Donau)|Rottenacker|Munderkingen|Riedlingen|Herbertingen|Mengen|Sigmaringendorf|Sigmaringen"/>
+	</s>
+	<s id="4898975984155365950-2502032317-1">
+		<tl f="D" t="p" o="S6" c="SWE" n="26580"/>
+		<dp pt="2502032317" pp="6 Nord" l="RS51" tra="-4968348907598406277-2502032222-10" ppth="Ulm Ost|Thalfingen(b Ulm)|Oberelchingen|Unterelchingen|Langenau(Württ)|Niederstotzingen|Sontheim-Brenz|Bergenweiler|Hermaringen|Giengen(Brenz)|Herbrechtingen|Heidenheim"/>
+	</s>
+	<s id="-4968348907598406277-2502032222-10">
+		<tl f="D" t="p" o="S6" c="SWE" n="26385"/>
+		<ar pt="2502032302" pp="6 Nord" l="RS3" tra="4898975984155365950-2502032317-1" ppth="Ehingen(Donau)|Allmendingen|Schmiechen|Schelklingen|Blaubeuren|Gerhausen|Herrlingen|Blaustein|Ulm-Söflingen"/>
+	</s>
+	<s id="2829616468115961030-2502032236-18">
+		<tl f="D" t="p" o="S6" c="SWE" n="26581"/>
+		<ar pt="2502032354" pp="5a" l="RS51" ppth="Aalen Hbf|Unterkochen|Oberkochen|Königsbronn|Heidenheim-Schnaitheim|Heidenheim|Herbrechtingen|Giengen(Brenz)|Hermaringen|Bergenweiler|Sontheim-Brenz|Niederstotzingen|Langenau(Württ)|Unterelchingen|Oberelchingen|Thalfingen(b Ulm)|Ulm Ost"/>
+	</s>
+	<s id="-8110080223308383203-2502032329-1">
+		<tl f="N" t="p" o="800659" c="RE" n="16080"/>
+		<dp pt="2502032329" pp="3 Nord" l="200" ppth="Merklingen - Schwäbische Alb"/>
+	</s>
+	<s id="4747644076881825118-2502032231-4">
+		<tl f="F" t="p" o="80" c="ICE" n="1060"/>
+		<ar pt="2502032359" pp="1" ppth="München Hbf|München-Pasing|Augsburg Hbf"/>
+		<dp pt="2502040001" pp="1" ppth="Stuttgart Hbf"/>
+	</s>
+	<s id="-5930609288823917818-2502032245-9">
+		<tl t="p" o="B7" c="Bus" n="57494"/>
+		<ar pt="2502032347" pp="" l="EV" ppth="Weißenhorn|Weißenhorn-Eschach|Witzighausen|Wullenstetten|Senden|Gerlenhofen|Finningerstraße|Neu-Ulm"/>
+	</s>
+	<s id="7108274583246193747-2502032151-4">
+		<tl f="F" t="p" o="80" c="ICE" n="698"/>
+		<ar pt="2502032301" pp="1" ppth="München Hbf|Augsburg Hbf|Günzburg"/>
+		<dp pt="2502032303" pp="1" ppth="Stuttgart Hbf|Heidelberg Hbf|Mannheim Hbf|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf|Eisenach Hbf|Gotha|Erfurt Hbf|Weimar|Naumburg(Saale)Hbf|Halle(Saale)Hbf|Bitterfeld|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="-4544555874310930360-2502032315-1">
+		<tl f="N" t="p" o="800694" c="RE" n="4236"/>
+		<dp pt="2502032315" pp="4 Nord" l="5" ppth="Geislingen(Steige)|Göppingen|Plochingen|Esslingen(Neckar)|Stuttgart Hbf"/>
+	</s>
+	<s id="-2878806544999587672-2502032349-1">
+		<tl t="p" o="B7" c="Bus" n="57619"/>
+		<dp pt="2502032349" pp="" l="EV" ppth="Neu-Ulm|Finningerstraße|Gerlenhofen|Senden|Wullenstetten|Witzighausen|Weißenhorn-Eschach|Weißenhorn"/>
+	</s>
+	<s id="5069589255347072550-2502032246-2">
+		<tl f="F" t="p" o="80" c="IC" n="461"/>
+		<ar pt="2502032333" pp="2" ppth="Stuttgart Hbf"/>
+		<dp pt="2502032335" pp="2" ppth="Augsburg Hbf|München-Pasing|München Ost|Rosenheim|Traunstein|Freilassing|Salzburg Hbf|Neumarkt am Wallersee|Vöcklabruck|Attnang-Puchheim|Wels Hbf|Linz Hbf|St. Valentin|Amstetten NÖ|St.Pölten Hbf|Tullnerfeld|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="-7053595867515891340-2502032142-22">
+		<tl t="p" o="GAMEX" c="MEX" n="19177"/>
+		<ar pt="2502032322" pp="4 Nord" l="16" ppth="Stuttgart Hbf|Stuttgart-Bad Cannstatt|Esslingen(Neckar)|Plochingen|Reichenbach(Fils)|Ebersbach(Fils)|Uhingen|Faurndau|Göppingen|Eislingen(Fils)|Salach|Süßen|Gingen(Fils)|Kuchen|Geislingen(Steige)West|Geislingen(Steige)|Amstetten(Württ)|Urspring|Lonsee|Westerstetten|Beimerstetten"/>
+	</s>
+	<s id="-5425302918995479956-2502031529-16">
+		<tl f="F" t="p" o="80" c="ICE" n="615"/>
+		<ar pt="2502032310" pp="2" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Osnabrück Hbf|Münster(Westf)Hbf|Dortmund Hbf|Hagen Hbf|Wuppertal Hbf|Solingen Hbf|Köln Hbf|Frankfurt(M) Flughafen Fernbf|Mannheim Hbf|Stuttgart Hbf"/>
+		<dp pt="2502032312" pp="2" ppth="Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-4896468785972896802-2502032346-1">
+		<tl t="p" o="GAMEX" c="MEX" n="19188"/>
+		<dp pt="2502032346" pp="4 Nord" l="16" ppth="Beimerstetten|Westerstetten|Lonsee|Urspring|Amstetten(Württ)|Geislingen(Steige)|Geislingen(Steige)West|Kuchen|Gingen(Fils)|Süßen|Salach|Eislingen(Fils)|Göppingen|Faurndau|Uhingen|Ebersbach(Fils)|Reichenbach(Fils)|Plochingen|Esslingen(Neckar)|Stuttgart-Bad Cannstatt|Stuttgart Hbf"/>
+	</s>
+</timetable>
