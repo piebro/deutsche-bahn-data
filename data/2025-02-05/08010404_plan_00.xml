@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin-Spandau">
+	<s id="-5538611005332795976-2502050030-1">
+		<tl t="p" o="BB" c="Bus" n="83165"/>
+		<dp pt="2502050030" pp="" l="RE4" ppth="Berlin-Staaken|Dallgow-Döberitz|Elstal|Wustermark"/>
+	</s>
+	<s id="-5194156004862660093-2502042125-24">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62038"/>
+		<ar pt="2502050021" pp="5" l="8" ppth="Wismar|Dorf Mecklenburg|Bad Kleinen|Lübstorf|Schwerin Hbf|Schwerin Mitte|Schwerin Süd|Holthusen|Sülstorf|Rastow|Lüblow(Meckl)|Ludwigslust|Grabow(Meckl)|Karstädt|Wittenberge|Bad Wilsnack|Glöwen|Breddin|Neustadt(Dosse)|Friesack(Mark)|Paulinenaue|Nauen|Falkensee"/>
+		<dp pt="2502050023" pp="5" l="8" ppth="Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz|Flughafen BER"/>
+	</s>
+	<s id="6182068753204726904-2502042343-9">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62045"/>
+		<ar pt="2502050032" pp="3" l="8" ppth="Flughafen BER|Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Charlottenburg"/>
+		<dp pt="2502050034" pp="3" l="8" ppth="Albrechtshof|Seegefeld|Falkensee|Finkenkrug|Brieselang|Nauen"/>
+	</s>
+	<s id="5554857220674495144-2502042134-4">
+		<tl f="F" t="p" o="80" c="ICE" n="805"/>
+		<ar pt="2502050032" pp="5" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf"/>
+		<dp pt="2502050034" pp="5" ppth="Berlin Hbf|Berlin Südkreuz"/>
+	</s>
+	<s id="-8771098246972152119-2502042308-7">
+		<tl t="p" o="BB" c="Bus" n="63138"/>
+		<ar pt="2502050009" pp="" l="RE2" ppth="Nauen|Brieselang|Finkenkrug|Falkensee ZOB|Seegefeld|Albrechtshof"/>
+	</s>
+	<s id="3731427069207899427-2502042345-5">
+		<tl t="p" o="BB" c="Bus" n="73182"/>
+		<ar pt="2502050029" pp="" l="RE4" ppth="Wustermark|Elstal|Dallgow-Döberitz|Berlin-Staaken"/>
+	</s>
+</timetable>
