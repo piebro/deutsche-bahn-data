@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin-Spandau">
+	<s id="8067495932162376830-2502060714-18">
+		<tl f="N" t="p" o="800158" c="RE" n="3149"/>
+		<ar pt="2502060906" pp="3" l="4" ppth="Falkenberg(Elster)|Herzberg(Elster)|Holzdorf(Elster)|Linda(Elster)|Zellendorf|Oehna|Jüterbog|Luckenwalde|Woltersdorf/Nuthe-Urstromtal|Trebbin|Thyrow|Ludwigsfelde|Berlin-Lichterfelde Ost|Berlin Südkreuz|Berlin Potsdamer Platz|Berlin Hbf|Berlin Jungfernheide"/>
+		<dp pt="2502060908" pp="3" l="4" ppth="Berlin-Staaken|Dallgow-Döberitz|Elstal|Wustermark|Buschow|Nennhausen|Rathenow"/>
+	</s>
+	<s id="3633423506968040756-2502060718-4">
+		<tl f="F" t="p" o="80" c="ICE" n="703"/>
+		<ar pt="2502060910" pp="5" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf"/>
+		<dp pt="2502060912" pp="5" ppth="Berlin Hbf|Berlin Südkreuz|Bitterfeld|Halle(Saale)Hbf|Erfurt Hbf|Bamberg|Nürnberg Hbf|Ingolstadt Hbf|München Hbf"/>
+	</s>
+	<s id="3450532721221209704-2502060539-10">
+		<tl f="F" t="p" o="80" c="ICE" n="1604"/>
+		<ar pt="2502060946" pp="3" wings="-1533583722018076654-2502060641" ppth="Nürnberg Hbf|Erlangen|Bamberg|Coburg|Erfurt Hbf|Leipzig Hbf|Lutherstadt Wittenberg Hbf|Berlin Südkreuz|Berlin Hbf"/>
+		<dp pt="2502060947" pp="3" wings="-1533583722018076654-2502060641" ppth="Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-8524917772827254727-2502060806-10">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62008"/>
+		<ar pt="2502060921" pp="3" l="8" ppth="Wittenberge|Bad Wilsnack|Glöwen|Breddin|Neustadt(Dosse)|Friesack(Mark)|Paulinenaue|Nauen|Falkensee"/>
+	</s>
+	<s id="-8749238490785162617-2502060922-7">
+		<tl f="N" t="p" o="800165" c="RB" n="18609"/>
+		<ar pt="2502060956" pp="5" l="14" ppth="Nauen|Brieselang|Finkenkrug|Falkensee|Seegefeld|Albrechtshof"/>
+		<dp pt="2502060958" pp="5" l="14" ppth="Berlin Jungfernheide|Berlin Hbf|Berlin Potsdamer Platz|Berlin Südkreuz"/>
+	</s>
+	<s id="7506805165296073510-2502060842-5">
+		<tl f="N" t="p" o="800165" c="RB" n="18606"/>
+		<ar pt="2502060900" pp="3" l="14" ppth="Berlin Südkreuz|Berlin Potsdamer Platz|Berlin Hbf|Berlin Jungfernheide"/>
+		<dp pt="2502060903" pp="3" l="14" ppth="Albrechtshof|Seegefeld|Falkensee|Finkenkrug|Brieselang|Nauen"/>
+	</s>
+	<s id="-7484276807966870981-2502060916-3">
+		<tl f="F" t="p" o="80" c="ICE" n="793"/>
+		<ar pt="2502060934" pp="4" hi="1" ppth="Berlin Südkreuz|Berlin Hbf"/>
+		<dp pt="2502060936" pp="4" ppth="Stendal Hbf|Wolfsburg Hbf|Braunschweig Hbf|Hildesheim Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Frankfurt(Main)Süd|Frankfurt(M) Flughafen Fernbf"/>
+	</s>
+	<s id="-6613161538024503824-2502060751-3">
+		<tl f="F" t="p" o="80" c="ICE" n="93"/>
+		<ar pt="2502060943" pp="5" ppth="Hamburg-Altona|Hamburg Hbf"/>
+		<dp pt="2502060945" pp="5" ppth="Berlin Hbf|Berlin Südkreuz|Halle(Saale)Hbf|Erfurt Hbf|Coburg|Nürnberg Hbf|Regensburg Hbf|Straubing|Passau Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="5704185483562774566-2502060845-8">
+		<tl f="N" t="p" o="800158" c="RE" n="3168"/>
+		<ar pt="2502060949" pp="6" l="4" ppth="Stendal Hbf|Rathenow|Nennhausen|Wustermark|Elstal|Dallgow-Döberitz|Berlin-Staaken"/>
+		<dp pt="2502060951" pp="6" l="4" ppth="Berlin Jungfernheide|Berlin Hbf|Berlin Potsdamer Platz|Berlin Südkreuz|Berlin-Lichterfelde Ost|Ludwigsfelde|Thyrow|Trebbin|Woltersdorf/Nuthe-Urstromtal|Luckenwalde|Jüterbog"/>
+	</s>
+	<s id="-1533583722018076654-2502060641-9">
+		<tl f="F" t="p" o="80" c="ICE" n="1704"/>
+		<ar pt="2502060946" pp="3" ppth="Jena-Göschwitz|Jena Paradies|Naumburg(Saale)Hbf|Weißenfels|Leipzig Hbf|Lutherstadt Wittenberg Hbf|Berlin Südkreuz|Berlin Hbf"/>
+		<dp pt="2502060947" pp="3" ppth="Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="886782899794647271-2502060700-5">
+		<tl f="F" t="p" o="80" c="ICE" n="870"/>
+		<ar pt="2502060915" pp="3" ppth="Dresden Hbf|Dresden-Neustadt|Berlin Südkreuz|Berlin Hbf"/>
+		<dp pt="2502060917" pp="3" ppth="Wittenberge|Ludwigslust|Büchen|Hamburg-Bergedorf|Hamburg Hbf|Hamburg-Altona"/>
+	</s>
+	<s id="2849935743769498435-2502060938-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62011"/>
+		<dp pt="2502060938" pp="3" l="8" ppth="Falkensee|Nauen|Paulinenaue|Friesack(Mark)|Neustadt(Dosse)|Breddin|Glöwen|Bad Wilsnack|Wittenberge|Karstädt|Grabow(Meckl)|Ludwigslust|Lüblow(Meckl)|Rastow|Sülstorf|Holthusen|Schwerin Süd|Schwerin Mitte|Schwerin Hbf|Lübstorf|Bad Kleinen|Dorf Mecklenburg|Wismar"/>
+	</s>
+</timetable>
