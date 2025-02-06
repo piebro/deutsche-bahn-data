@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin-Spandau">
+	<s id="419905059134699973-2502062145-5">
+		<tl t="p" o="BB" c="Bus" n="73180"/>
+		<ar pt="2502062229" pp="" l="RE4" ppth="Wustermark|Elstal|Dallgow-Döberitz|Berlin-Staaken"/>
+	</s>
+	<s id="1703320405196668584-2502062240-1">
+		<tl t="p" o="BB" c="Bus" n="83185"/>
+		<dp pt="2502062240" pp="" l="RE4" ppth="Berlin-Staaken|Dallgow-Döberitz|Elstal|Wustermark"/>
+	</s>
+	<s id="856602161279574018-2502062238-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62037"/>
+		<dp pt="2502062238" pp="3" l="8" ppth="Falkensee|Nauen|Paulinenaue|Friesack(Mark)|Neustadt(Dosse)|Breddin|Glöwen|Bad Wilsnack|Wittenberge"/>
+	</s>
+	<s id="-4489058445047465881-2502062215-5">
+		<tl t="p" o="BB" c="Bus" n="78274"/>
+		<ar pt="2502062259" pp="" l="RB21" ppth="Wustermark|Elstal|Dallgow-Döberitz|Berlin-Staaken"/>
+	</s>
+	<s id="3499338043235512572-2502062017-5">
+		<tl f="F" t="p" o="80" c="ICE" n="609"/>
+		<ar pt="2502062211" pp="6" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Ludwigslust"/>
+		<dp pt="2502062213" pp="6" hi="1" ppth="Berlin Hbf|Berlin Südkreuz"/>
+	</s>
+	<s id="-7270903746020321847-2502062245-1">
+		<tl t="p" o="BB" c="Bus" n="63137"/>
+		<dp pt="2502062245" pp="" l="RE2" ppth="Albrechtshof|Seegefeld|Falkensee ZOB|Finkenkrug|Brieselang|Nauen"/>
+	</s>
+	<s id="-5700683944019507237-2502061924-24">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62034"/>
+		<ar pt="2502062221" pp="3" l="8" ppth="Wismar|Dorf Mecklenburg|Bad Kleinen|Lübstorf|Schwerin Hbf|Schwerin Mitte|Schwerin Süd|Holthusen|Sülstorf|Rastow|Lüblow(Meckl)|Ludwigslust|Grabow(Meckl)|Karstädt|Wittenberge|Bad Wilsnack|Glöwen|Breddin|Neustadt(Dosse)|Friesack(Mark)|Paulinenaue|Nauen|Falkensee"/>
+	</s>
+	<s id="4527502747804446727-2502062226-3">
+		<tl f="F" t="p" o="80" c="ICE" n="700"/>
+		<ar pt="2502062246" pp="3" ppth="Berlin Südkreuz|Berlin Hbf"/>
+		<dp pt="2502062248" pp="3" ppth="Wittenberge|Ludwigslust|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+</timetable>

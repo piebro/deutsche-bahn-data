@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin-Spandau">
+	<s id="-348564877984200386-2502061409-10">
+		<tl f="F" t="p" o="80" c="ICE" n="796"/>
+		<ar pt="2502061822" pp="6" ppth="Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Süd|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hildesheim Hbf|Braunschweig Hbf|Wolfsburg Hbf|Stendal Hbf"/>
+		<dp pt="2502061824" pp="6" hi="1" ppth="Berlin Hbf|Berlin Südkreuz"/>
+	</s>
+	<s id="-3489426435689347223-2502061827-7">
+		<tl f="N" t="p" o="800165" c="RB" n="18627"/>
+		<ar pt="2502061856" pp="5" l="14" ppth="Nauen|Brieselang|Finkenkrug|Falkensee|Seegefeld|Albrechtshof"/>
+		<dp pt="2502061858" pp="5" l="14" ppth="Berlin Jungfernheide|Berlin Hbf|Berlin Potsdamer Platz|Berlin Südkreuz"/>
+	</s>
+	<s id="-7147339730808320662-2502061802-8">
+		<tl f="N" t="p" o="800158" c="RE" n="3158"/>
+		<ar pt="2502061850" pp="5" l="4" ppth="Rathenow|Nennhausen|Buschow|Wustermark|Elstal|Dallgow-Döberitz|Berlin-Staaken"/>
+		<dp pt="2502061852" pp="5" l="4" ppth="Berlin Jungfernheide|Berlin Hbf|Berlin Potsdamer Platz|Berlin Südkreuz|Berlin-Lichterfelde Ost|Ludwigsfelde|Thyrow|Trebbin|Luckenwalde|Jüterbog|Oehna|Zellendorf|Linda(Elster)|Holzdorf(Elster)|Herzberg(Elster)|Falkenberg(Elster)"/>
+	</s>
+	<s id="-4091689442186587732-2502061838-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62029"/>
+		<dp pt="2502061838" pp="3" l="8" ppth="Falkensee|Nauen|Paulinenaue|Friesack(Mark)|Neustadt(Dosse)|Breddin|Glöwen|Bad Wilsnack|Wittenberge"/>
+	</s>
+	<s id="3991231642426322847-2502061637-6">
+		<tl f="F" t="p" o="80" c="ICE" n="871"/>
+		<ar pt="2502061844" pp="5" ppth="Hamburg-Altona|Hamburg Hbf|Büchen|Ludwigslust|Wittenberge"/>
+		<dp pt="2502061846" pp="5" ppth="Berlin Hbf|Berlin Südkreuz|Dresden-Neustadt|Dresden Hbf"/>
+	</s>
+	<s id="909759495485484647-2502061741-5">
+		<tl f="N" t="p" o="800165" c="RB" n="18624"/>
+		<ar pt="2502061800" pp="3" l="14" ppth="Berlin Südkreuz|Berlin Potsdamer Platz|Berlin Hbf|Berlin Jungfernheide"/>
+		<dp pt="2502061803" pp="3" l="14" ppth="Albrechtshof|Seegefeld|Falkensee|Finkenkrug|Brieselang|Nauen"/>
+	</s>
+	<s id="-1570002527680489764-2502061801-3">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62026"/>
+		<ar pt="2502061821" pp="3" l="8" pde="Wismar" ppth="Nauen|Falkensee"/>
+	</s>
+	<s id="4628797216718709444-2502061353-10">
+		<tl f="F" t="p" o="80" c="ICE" n="706"/>
+		<ar pt="2502061845" pp="3" ppth="München Hbf|Ingolstadt Hbf|Nürnberg Hbf|Bamberg|Erfurt Hbf|Halle(Saale)Hbf|Bitterfeld|Berlin Südkreuz|Berlin Hbf"/>
+		<dp pt="2502061846" pp="3" ppth="Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="5010526028320168631-2502061703-11">
+		<tl f="N" t="p" o="800158" c="RE" n="3179"/>
+		<ar pt="2502061807" pp="3" l="4" ppth="Jüterbog|Luckenwalde|Trebbin|Thyrow|Ludwigsfelde|Berlin-Lichterfelde Ost|Berlin Südkreuz|Berlin Potsdamer Platz|Berlin Hbf|Berlin Jungfernheide"/>
+		<dp pt="2502061809" pp="3" l="4" ppth="Berlin-Staaken|Dallgow-Döberitz|Elstal|Wustermark|Buschow|Nennhausen|Rathenow|Stendal Hbf"/>
+	</s>
+	<s id="5943675838823476295-2502061616-4">
+		<tl f="F" t="p" o="80" c="ICE" n="1705"/>
+		<ar pt="2502061808" pp="5" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf"/>
+		<dp pt="2502061810" pp="5" ppth="Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Leipzig Hbf|Naumburg(Saale)Hbf|Jena Paradies|Jena-Göschwitz"/>
+	</s>
+	<s id="6823598612451527303-2502061616-4">
+		<tl f="F" t="p" o="80" c="ICE" n="1605"/>
+		<ar pt="2502061808" pp="5" wings="5943675838823476295-2502061616" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf"/>
+		<dp pt="2502061810" pp="5" wings="5943675838823476295-2502061616" ppth="Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Leipzig Hbf|Erfurt Hbf|Erlangen|Nürnberg Hbf|München Hbf"/>
+	</s>
+	<s id="7263013751365542337-2502061013-15">
+		<tl f="F" t="p" o="81" c="ICE" n="92"/>
+		<ar pt="2502061813" pp="3" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Passau Hbf|Plattling|Straubing|Regensburg Hbf|Nürnberg Hbf|Coburg|Erfurt Hbf|Halle(Saale)Hbf|Berlin Südkreuz|Berlin Hbf"/>
+		<dp pt="2502061815" pp="3" ppth="Hamburg Hbf|Hamburg-Altona"/>
+	</s>
+</timetable>
