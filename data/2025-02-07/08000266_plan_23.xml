@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<timetable station="Wuppertal Hbf">
+	<s id="5623322532771945210-2502072330-1">
+		<tl t="p" o="TDRR" c="Bus" n="69159"/>
+		<dp pt="2502072330" pp="" l="S7" ppth="Wuppertal-Unterbarmen|Wuppertal-Barmen|Wuppertal-Oberbarmen|Wuppertal-Ronsdorf|Remscheid-Lüttringhausen|Remscheid-Lennep"/>
+	</s>
+	<s id="-8420772237478255700-2502071933-9">
+		<tl f="F" t="p" o="80" c="ICE" n="872"/>
+		<ar pt="2502072359" pp="1" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin-Spandau|Wolfsburg Hbf|Hannover Hbf|Bielefeld Hbf|Hamm(Westf)Hbf|Hagen Hbf"/>
+		<dp pt="2502080001" pp="1" ppth="Köln Hbf"/>
+	</s>
+	<s id="-7395912628743683063-2502072230-7">
+		<tl t="p" o="TDRR" c="Bus" n="69148"/>
+		<ar pt="2502072326" pp="" l="S7" ppth="Remscheid-Lennep|Remscheid-Lüttringhausen|Wuppertal-Ronsdorf|Wuppertal-Oberbarmen|Wuppertal-Barmen|Wuppertal-Unterbarmen"/>
+	</s>
+	<s id="1650541163120487813-2502072143-15">
+		<tl t="p" o="B2" c="Bus" n="953"/>
+		<ar pt="2502072301" pp="" l="S9" ppth="Hagen Hbf|Hagen-Wehringhausen|Hagen-Heubing|Hagen-Westerbauer|Gevelsberg-Knapp|Gevelsberg Hbf|Gevelsberg-Kipp|Gevelsberg West|Schwelm|Schwelm West|Wuppertal-Langerfeld|Wuppertal-Oberbarmen|Wuppertal-Barmen|Wuppertal-Unterbarmen"/>
+		<dp pt="2502072301" pp="" l="S9" ppth="Wuppertal-Steinbeck|Wuppertal-Zoologischer Garten|Wuppertal-Sonnborn|Wuppertal-Vohwinkel|Wülfrath-Aprath|Velbert Rosenhügel|Velbert-Neviges|Velbert-Langenberg"/>
+	</s>
+	<s id="-4000828831600789452-2502072220-9">
+		<tl t="p" o="B2" c="Bus" n="952"/>
+		<ar pt="2502072322" pp="" l="S9" ppth="Velbert-Langenberg|Velbert-Neviges|Velbert Rosenhügel|Wülfrath-Aprath|Wuppertal-Vohwinkel|Wuppertal-Sonnborn|Wuppertal-Zoologischer Garten|Wuppertal-Steinbeck"/>
+		<dp pt="2502072322" pp="" l="S9" ppth="Wuppertal-Unterbarmen|Wuppertal-Barmen|Wuppertal-Oberbarmen|Wuppertal-Langerfeld|Schwelm West|Schwelm|Gevelsberg West|Gevelsberg-Kipp|Gevelsberg Hbf|Gevelsberg-Knapp|Hagen-Westerbauer|Hagen-Heubing|Hagen-Wehringhausen|Hagen Hbf"/>
+	</s>
+	<s id="-1761638564869737876-2502072224-20">
+		<tl f="S" t="p" o="800354" c="S" n="31839"/>
+		<ar pt="2502072332" pp="5" l="8" ppth="Mönchengladbach Hbf|Mönchengladbach-Lürrip|Korschenbroich|Kleinenbroich|Büttgen|Neuss Hbf|Neuss Am Kaiser|Neuss Rheinparkcenter|Düsseldorf-Hamm|Düsseldorf Völklinger Str.|Düsseldorf-Bilk|Düsseldorf Friedrichstadt|Düsseldorf Hbf|Düsseldorf-Flingern|Düsseldorf-Gerresheim|Erkrath|Hochdahl|Hochdahl-Millrath|Wuppertal-Vohwinkel"/>
+		<dp pt="2502072333" pp="5" l="8" ppth="Wuppertal-Barmen|Wuppertal-Oberbarmen"/>
+	</s>
+	<s id="-834367168156036540-2502072309-9">
+		<tl f="N" t="p" o="NXRE" c="RE" n="26440"/>
+		<ar pt="2502072356" pp="1" l="4" ppth="Dortmund Hbf|Witten Hbf|Wetter(Ruhr)|Hagen Hbf|Ennepetal|Schwelm|Wuppertal-Oberbarmen|Wuppertal-Barmen"/>
+		<dp pt="2502072357" pp="1" l="4" ppth="Wuppertal-Vohwinkel|Düsseldorf Hbf"/>
+	</s>
+	<s id="-3813109555375925551-2502072316-7">
+		<tl f="S" t="p" o="800354" c="S" n="31840"/>
+		<ar pt="2502072357" pp="4" l="8" ppth="Hagen Hbf|Ennepetal|Schwelm|Wuppertal-Oberbarmen|Wuppertal-Barmen|Wuppertal-Unterbarmen"/>
+		<dp pt="2502072358" pp="4" l="8" ppth="Wuppertal-Steinbeck|Wuppertal-Zoologischer Garten|Wuppertal-Sonnborn|Wuppertal-Vohwinkel|Haan-Gruiten|Hochdahl-Millrath|Hochdahl|Erkrath|Düsseldorf-Gerresheim|Düsseldorf-Flingern|Düsseldorf Hbf|Düsseldorf Friedrichstadt|Düsseldorf-Bilk|Düsseldorf Völklinger Str.|Düsseldorf-Hamm|Neuss Rheinparkcenter|Neuss Am Kaiser|Neuss Hbf|Büttgen|Kleinenbroich|Korschenbroich|Mönchengladbach-Lürrip|Mönchengladbach Hbf"/>
+	</s>
+	<s id="853834900074970009-2502072353-1">
+		<tl f="S" t="p" o="8003L1" c="S" n="94943"/>
+		<dp pt="2502072353" pp="4" l="9" ppth="Wuppertal-Steinbeck|Wuppertal-Zoologischer Garten|Wuppertal-Sonnborn|Wuppertal-Vohwinkel"/>
+	</s>
+	<s id="3881643941102297931-2502072222-7">
+		<tl t="p" o="B2" c="Bus" n="819"/>
+		<ar pt="2502072305" pp="" l="S8" ppth="Hochdahl-Millrath|Haan-Gruiten|Wuppertal-Vohwinkel|Wuppertal-Sonnborn|Wuppertal-Zoologischer Garten|Wuppertal-Steinbeck"/>
+		<dp pt="2502072305" pp="" l="S8" ppth="Wuppertal-Unterbarmen|Wuppertal-Barmen|Wuppertal-Oberbarmen"/>
+	</s>
+	<s id="9177375332520294774-2502072250-9">
+		<tl t="p" o="B2" c="Bus" n="956"/>
+		<ar pt="2502072352" pp="" l="S9" ppth="Velbert-Langenberg|Velbert-Neviges|Velbert Rosenhügel|Wülfrath-Aprath|Wuppertal-Vohwinkel|Wuppertal-Sonnborn|Wuppertal-Zoologischer Garten|Wuppertal-Steinbeck"/>
+	</s>
+	<s id="-8266091809168941084-2502072154-20">
+		<tl f="S" t="p" o="800354" c="S" n="31837"/>
+		<ar pt="2502072302" pp="4" l="8" ppth="Mönchengladbach Hbf|Mönchengladbach-Lürrip|Korschenbroich|Kleinenbroich|Büttgen|Neuss Hbf|Neuss Am Kaiser|Neuss Rheinparkcenter|Düsseldorf-Hamm|Düsseldorf Völklinger Str.|Düsseldorf-Bilk|Düsseldorf Friedrichstadt|Düsseldorf Hbf|Düsseldorf-Flingern|Düsseldorf-Gerresheim|Erkrath|Hochdahl|Hochdahl-Millrath|Wuppertal-Vohwinkel"/>
+		<dp pt="2502072303" pp="4" l="8" ppth="Wuppertal-Barmen|Wuppertal-Oberbarmen|Schwelm|Ennepetal|Hagen Hbf"/>
+	</s>
+	<s id="6669284168060055237-2502072328-1">
+		<tl f="S" t="p" o="800354" c="S" n="31858"/>
+		<dp pt="2502072328" pp="4" l="8" ppth="Wuppertal-Vohwinkel|Düsseldorf Hbf"/>
+	</s>
+	<s id="1988308713044273901-2502072252-11">
+		<tl f="N" t="p" o="NXRB" c="RB" n="17376"/>
+		<ar pt="2502072336" pp="2" l="48" ppth="Köln Hbf|Köln Messe/Deutz|Köln-Mülheim|Leverkusen-Manfort|Opladen|Leichlingen|Solingen Hbf|Haan|Haan-Gruiten|Wuppertal-Vohwinkel"/>
+		<dp pt="2502072337" pp="2" l="48" ppth="Wuppertal-Barmen|Wuppertal-Oberbarmen"/>
+	</s>
+	<s id="-308749912574999128-2502072312-3">
+		<tl f="N" t="p" o="NXRB" c="RB" n="17381"/>
+		<ar pt="2502072319" pp="1" l="48" ppth="Wuppertal-Oberbarmen|Wuppertal-Barmen"/>
+		<dp pt="2502072320" pp="1" l="48" ppth="Wuppertal-Vohwinkel|Haan-Gruiten|Haan|Solingen Hbf|Leichlingen|Opladen|Leverkusen-Manfort|Köln-Mülheim|Köln Messe/Deutz|Köln Hbf"/>
+	</s>
+	<s id="4967774715360770659-2502072252-7">
+		<tl t="p" o="B2" c="Bus" n="805"/>
+		<ar pt="2502072335" pp="" l="S8" ppth="Hochdahl-Millrath|Haan-Gruiten|Wuppertal-Vohwinkel|Wuppertal-Sonnborn|Wuppertal-Zoologischer Garten|Wuppertal-Steinbeck"/>
+		<dp pt="2502072335" pp="" l="S8" ppth="Wuppertal-Unterbarmen|Wuppertal-Barmen|Wuppertal-Oberbarmen|Wuppertal-Langerfeld|Schwelm West|Schwelm|Gevelsberg West|Gevelsberg-Kipp|Gevelsberg Hbf|Gevelsberg-Knapp|Hagen-Westerbauer|Hagen-Heubing|Hagen-Wehringhausen|Hagen Hbf"/>
+	</s>
+	<s id="-6642859500437534418-2502072242-3">
+		<tl f="N" t="p" o="NXRE" c="RE" n="26437"/>
+		<ar pt="2502072301" pp="2" l="4" ppth="Düsseldorf Hbf|Wuppertal-Vohwinkel"/>
+		<dp pt="2502072302" pp="2" l="4" ppth="Wuppertal-Barmen|Wuppertal-Oberbarmen|Schwelm|Ennepetal|Hagen Hbf|Wetter(Ruhr)|Witten Hbf|Dortmund Hbf"/>
+	</s>
+</timetable>

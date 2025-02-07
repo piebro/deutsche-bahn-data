@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Hbf">
+	<s id="3392242502579530062-2502072016-27">
+		<tl f="N" t="p" o="800158" c="RE" n="3319"/>
+		<ar pt="2502072332" pp="3" l="3" ppth="Stralsund Hbf|Miltzow|Greifswald|Greifswald Süd|Groß Kiesow|Züssow|Klein Bünzow|Anklam|Ducherow|Ferdinandshof|Jatznick|Pasewalk|Nechlin|Prenzlau|Seehausen(Uckermark)|Warnitz(Uckermark)|Wilmersdorf(Angerm)|Angermünde|Chorin|Britz|Eberswalde Hbf|Melchow|Biesenthal|Rüdnitz|Bernau(b Berlin)|Berlin Gesundbrunnen"/>
+		<dp pt="2502072333" pp="3" l="3" pde="Lutherstadt Wittenberg Hbf" ppth="Berlin Potsdamer Platz|Berlin Südkreuz|Berlin-Lichterfelde Ost|Teltow|Großbeeren|Birkengrund|Ludwigsfelde|Thyrow|Trebbin|Woltersdorf/Nuthe-Urstromtal|Luckenwalde|Jüterbog"/>
+	</s>
+	<s id="-5498545633508872468-2502072333-1">
+		<tl f="N" t="p" o="800158" c="RE" n="3358"/>
+		<dp pt="2502072333" pp="5" l="3" ppth="Berlin Gesundbrunnen|Bernau(b Berlin)|Rüdnitz|Biesenthal|Melchow|Eberswalde Hbf"/>
+	</s>
+	<s id="5267890398427216546-2502072258-4">
+		<tl t="p" o="800165" c="FEX" n="19874"/>
+		<ar pt="2502072336" pp="4" pde="Ludwigsfelde" ppth="Flughafen BER|Berlin Ostkreuz|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="450159185692254127-2502072206-10">
+		<tl f="N" t="p" o="800158" c="RE" n="3162"/>
+		<ar pt="2502072302" pp="2" l="4" ppth="Rathenow|Nennhausen|Buschow|Wustermark|Elstal|Dallgow-Döberitz|Berlin-Staaken|Berlin-Spandau|Berlin Jungfernheide"/>
+	</s>
+	<s id="-9062453103731034880-2502071855-10">
+		<tl f="F" t="p" o="80" c="ICE" n="500"/>
+		<ar pt="2502072332" pp="7" ppth="München Hbf|Nürnberg Hbf|Erlangen|Bamberg|Erfurt Hbf|Leipzig Hbf|Bitterfeld|Lutherstadt Wittenberg Hbf|Berlin Südkreuz"/>
+		<dp pt="2502072336" pp="7" hi="1" ppth="Berlin Gesundbrunnen"/>
+	</s>
+	<s id="2502662779829118814-2502072307-1">
+		<tl f="N" t="p" o="800158" c="RE" n="3185"/>
+		<dp pt="2502072307" pp="7" l="4" ppth="Berlin Jungfernheide|Berlin-Spandau|Berlin-Staaken|Dallgow-Döberitz|Elstal|Wustermark|Buschow|Nennhausen|Rathenow|Stendal Hbf"/>
+	</s>
+	<s id="5554857220674495144-2502072134-8">
+		<tl f="F" t="p" o="80" c="ICE" n="805"/>
+		<ar pt="2502072354" pp="1" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Büchen|Ludwigslust|Wittenberge|Berlin-Spandau"/>
+		<dp pt="2502072357" pp="1" hi="1" ppth="Berlin Südkreuz"/>
+	</s>
+	<s id="1026453642466058867-2502071902-5">
+		<tl f="F" t="p" o="80" c="ICE" n="832"/>
+		<ar pt="2502072326" pp="7" ppth="Frankfurt(Main)Hbf|Erfurt Hbf|Halle(Saale)Hbf|Berlin Südkreuz"/>
+		<dp pt="2502072329" pp="7" hi="1" ppth="Berlin Gesundbrunnen"/>
+	</s>
+</timetable>
