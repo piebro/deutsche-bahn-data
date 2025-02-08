@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<timetable station="Lüneburg">
+	<s id="4170808170828201966-2502080610-10">
+		<tl f="D" t="p" o="X2" c="erx" n="81540"/>
+		<ar pt="2502080718" pp="7" l="RB32" ppth="Dannenberg Ost|Hitzacker|Leitstade|Göhrde|Neetzendorf|Dahlenburg|Bavendorf|Vastorf|Wendisch Evern"/>
+	</s>
+	<s id="-4231475941769725733-2502080741-1">
+		<tl f="D" t="p" o="X2" c="erx" n="81541"/>
+		<dp pt="2502080741" pp="7" l="RB32" ppth="Wendisch Evern|Vastorf|Bavendorf|Dahlenburg|Neetzendorf|Göhrde|Leitstade|Hitzacker|Dannenberg Ost"/>
+	</s>
+	<s id="-6798221353132050529-2502080757-1">
+		<tl t="p" o="R1" c="Bus" n="3210"/>
+		<dp pt="2502080757" pp="" l="RB31" ppth="Bardowick|Radbruch|Winsen(Luhe)"/>
+	</s>
+	<s id="4733426678694405219-2502080704-4">
+		<tl f="D" t="p" o="R1" c="ME" n="82110"/>
+		<ar pt="2502080726" pp="2" l="RE3" ppth="Uelzen|Bad Bevensen|Bienenbüttel"/>
+		<dp pt="2502080727" pp="2" l="RE3" ppth="Winsen(Luhe)|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="1748294813735023299-2502080610-9">
+		<tl f="D" t="p" o="X1" c="erx" n="21105"/>
+		<ar pt="2502080730" pp="5" l="RE83" pde="Kiel Hbf" ppth="Lübeck Hbf|Lübeck Hochschulstadtteil|Lübeck Flughafen|Ratzeburg|Mölln(Lauenb)|Büchen|Lauenburg(Elbe)|Echem"/>
+	</s>
+	<s id="-6358342590570712060-2502080712-5">
+		<tl f="F" t="p" o="80" c="IC" n="2083"/>
+		<ar pt="2502080759" pp="1" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg"/>
+		<dp pt="2502080801" pp="1" pde="Berchtesgaden Hbf" ppth="Uelzen|Celle|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Steinach(bei Rothenburg ob der Tauber)|Ansbach|Treuchtlingen|Donauwörth|Augsburg Hbf|München-Pasing|München Ost|Rosenheim|Bad Endorf|Prien am Chiemsee|Übersee|Traunstein|Freilassing"/>
+	</s>
+	<s id="-2803109567097268183-2502080745-1">
+		<tl f="D" t="p" o="X1" c="erx" n="21108"/>
+		<dp pt="2502080745" pp="5" l="RE83" pde="Kiel Hbf" ppth="Echem|Lauenburg(Elbe)|Büchen|Mölln(Lauenb)|Ratzeburg|Lübeck Flughafen|Lübeck Hochschulstadtteil|Lübeck Hbf"/>
+	</s>
+	<s id="991450022785683009-2502080713-4">
+		<tl t="p" o="R1" c="Bus" n="3111"/>
+		<ar pt="2502080755" pp="" l="RB31" ppth="Winsen(Luhe)|Radbruch|Bardowick"/>
+		<dp pt="2502080756" pp="" l="RB31" ppth="Uelzen"/>
+	</s>
+	<s id="3833910524378492033-2502080746-1">
+		<tl f="D" t="p" o="R1" c="ME" n="81690"/>
+		<dp pt="2502080746" pp="1" l="RB31" ppth="Bienenbüttel|Bad Bevensen|Uelzen"/>
+	</s>
+</timetable>
