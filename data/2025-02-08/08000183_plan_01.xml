@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<timetable station="Ingolstadt Hbf">
+	<s id="-5298915962101799535-2502080105-1">
+		<tl f="N" t="p" o="800765" c="RE" n="4047"/>
+		<dp pt="2502080105" pp="3" l="1" ppth="Rohrbach(Ilm)|Pfaffenhofen(Ilm)|Petershausen(Obb)|München Hbf"/>
+	</s>
+	<s id="540960510310126490-2502080031-13">
+		<tl f="D" t="p" o="A9" c="ag" n="84352"/>
+		<ar pt="2502080129" pp="5" l="RB17" ppth="Regensburg Hbf|Regensburg-Prüfening|Sinzing|Gundelshausen|Poikam|Bad Abbach|Saal(Donau)|Abensberg|Neustadt(Donau)|Münchsmünster|Vohburg-Rockolding|Ernsgaden"/>
+		<dp pt="2502080130" pp="5" l="RB17" ppth="Ingolstadt Nord"/>
+	</s>
+	<s id="3629161739180928125-2502080144-2">
+		<tl f="N" t="p" o="800765" c="RB" n="59197"/>
+		<ar pt="2502080149" pp="6" l="16" ppth="Ingolstadt Nord"/>
+	</s>
+	<s id="1811066918985459005-2502080031-9">
+		<tl f="N" t="p" o="800765" c="RB" n="59170"/>
+		<ar pt="2502080128" pp="4" l="16" ppth="München Hbf|Dachau Bahnhof|Petershausen(Obb)|Paindorf|Reichertshausen(Ilm)|Pfaffenhofen(Ilm)|Rohrbach(Ilm)|Baar-Ebenhausen"/>
+		<dp pt="2502080129" pp="4" l="16" ppth="Ingolstadt Nord"/>
+	</s>
+	<s id="5950655788274726626-2502071818-13">
+		<tl f="F" t="p" o="80" c="ICE" n="1607"/>
+		<ar pt="2502080115" pp="3" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Leipzig Hbf|Erfurt Hbf|Bamberg|Erlangen|Nürnberg Hbf"/>
+		<dp pt="2502080116" pp="3" ppth="München Hbf"/>
+	</s>
+</timetable>

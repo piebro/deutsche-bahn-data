@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<timetable station="Mannheim Hbf">
+	<s id="-6300823751733984827-2502080132-12">
+		<tl f="S" t="p" o="801518" c="S" n="38729"/>
+		<ar pt="2502080211" pp="1" l="6" ppth="Bensheim|Heppenheim(Bergstr)|Laudenbach(Bergstr)|Hemsbach|Weinheim-Sulzbach|Weinheim(Bergstr)Hbf|Heddesheim/Hirschberg|Ladenburg|Neu-Edingen/Friedrichsfeld|Mannheim-Seckenheim|Mannheim ARENA/Maimarkt"/>
+	</s>
+	<s id="-6494316294562870719-2502080201-3">
+		<tl f="S" t="p" o="801539" c="S" n="38303"/>
+		<ar pt="2502080208" pp="10" l="2" ppth="Ludwigshafen(Rh)Hbf|Ludwigshafen(Rhein) Mitte"/>
+		<dp pt="2502080211" pp="10" l="2" pde="Mosbach(Baden)" ppth="Mannheim ARENA/Maimarkt|Mannheim-Seckenheim|Mannheim-Friedrichsfeld Süd|Heidelberg-Pfaffengrund/Wieblingen|Heidelberg Hbf"/>
+	</s>
+	<s id="-9061060548328880741-2502071715-9">
+		<tl t="p" o="88" c="NJ" n="425"/>
+		<ar pt="2502080123" pp="2" hi="1" wings="-4775919377312079274-2502071715" ppth="Bruxelles Midi|Bruxelles-Nord|Liège-Guillemins|Aachen Hbf|Köln Hbf|Bonn-Beuel|Koblenz Hbf|Mainz Hbf"/>
+		<dp pt="2502080221" pp="2" hi="1" wings="3673026080162824134-2502071912" ppth="Frankfurt(Main)Süd|Erfurt Hbf|Halle(Saale)Hbf|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="3673026080162824134-2502071912-3">
+		<tl t="p" o="81" c="NJ" n="40469"/>
+		<ar pt="2502080117" pp="2" hi="1" ppth="Paris Est|Strasbourg"/>
+		<dp pt="2502080221" pp="2" hi="1" ppth="Frankfurt(Main)Süd|Erfurt Hbf|Halle(Saale)Hbf|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="2445748007328325452-2502071912-3">
+		<tl t="p" o="81" c="NJ" n="469"/>
+		<ar pt="2502080117" pp="2" hi="1" wings="3673026080162824134-2502071912" ppth="Paris Est|Strasbourg"/>
+		<dp pt="2502080227" pp="2" hi="1" wings="-4775919377312079274-2502071715" ppth="München Ost|Rosenheim|Freilassing|Salzburg Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="-7449365985142013989-2502080234-6">
+		<tl f="S" t="p" o="801539" c="S" n="38300"/>
+		<ar pt="2502080250" pp="1" l="3" ppth="Heidelberg Hbf|Heidelberg-Pfaffengrund/Wieblingen|Mannheim-Friedrichsfeld Süd|Mannheim-Seckenheim|Mannheim ARENA/Maimarkt"/>
+	</s>
+	<s id="544317604873000477-2502080218-1">
+		<tl f="N" t="p" o="800574" c="RE" n="15492"/>
+		<dp pt="2502080218" pp="9" l="70" ppth="Mannheim Handelshafen/Jungbusch|Mannheim-Neckarstadt|Mannheim-Luzenberg|Mannheim-Waldhof|Lampertheim|Bürstadt|Bobstadt|Biblis|Groß-Rohrheim|Gernsheim|Biebesheim|Stockstadt(Rhein)|Riedstadt-Goddelau|Riedstadt-Wolfskehlen|Groß Gerau-Dornheim|Groß Gerau-Dornberg|Mörfelden|Walldorf(Hess)|Zeppelinheim|Frankfurt am Main - Stadion|Frankfurt-Niederrad|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="7474414276230536927-2502071833-18">
+		<tl f="F" t="p" o="80" c="ICE" n="619"/>
+		<ar pt="2502080202" pp="8" ppth="Kiel Hbf|Neumünster|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Osnabrück Hbf|Münster(Westf)Hbf|Dortmund Hbf|Bochum Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Hbf|Siegburg/Bonn|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf"/>
+		<dp pt="2502080204" pp="8" ppth="Stuttgart Hbf|Ulm Hbf|Günzburg|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-4775919377312079274-2502071715-9">
+		<tl t="p" o="81" c="NJ" n="40425"/>
+		<ar pt="2502080123" pp="" hi="1" ppth="Bruxelles Midi|Bruxelles-Nord|Liège-Guillemins|Aachen Hbf|Köln Hbf|Bonn-Beuel|Koblenz Hbf|Mainz Hbf"/>
+		<dp pt="2502080227" pp="" hi="1" ppth="München Ost|Rosenheim|Freilassing|Salzburg Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+</timetable>
