@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<timetable station="Magdeburg Hbf">
+	<s id="-6285697392036082056-2502082320-14">
+		<tl t="p" o="RSMD" c="RSM" n="80385"/>
+		<ar pt="2502090032" pp="5 D-G" l="RB36" ppth="Wolfsburg Hbf|Oebisfelde|Bösdorf(Sachs-Anh)|Rätzlingen|Wegenstedt|Flechtingen|Haldensleben|Vahldorf|Groß Ammensleben|Meitzendorf|Barleben|Magdeburg-Eichenweiler|Magdeburg-Neustadt"/>
+	</s>
+	<s id="861705902661995415-2502090042-1">
+		<tl f="S" t="p" o="800489" c="S" n="39038"/>
+		<dp pt="2502090042" pp="1" l="1" ppth="Magdeburg-Neustadt|Magdeburg-Eichenweiler|Magdeburg-Rothensee|Wolmirstedt|Zielitz Ort|Zielitz|Angern-Rogätz|Mahlwinkel|Tangerhütte|Demker|Stendal Hbf"/>
+	</s>
+	<s id="-3249460443317112605-2502090053-1">
+		<tl t="p" o="RSMD" c="RSM" n="80386"/>
+		<dp pt="2502090053" pp="5 D-G" l="RB36" ppth="Magdeburg-Neustadt|Magdeburg-Eichenweiler|Barleben|Meitzendorf|Groß Ammensleben|Vahldorf|Haldensleben"/>
+	</s>
+	<s id="2273731246723666230-2502082302-12">
+		<tl f="N" t="p" o="800489" c="RE" n="16957"/>
+		<ar pt="2502090046" pp="2" l="20" tra="-1683038839159299658-2502090055-1" ppth="Uelzen|Stederdorf(Kr Uelzen)|Wieren|Soltendieck|Schnega|Salzwedel|Hohenwulsch|Stendal Hbf|Tangerhütte|Wolmirstedt|Magdeburg-Neustadt"/>
+	</s>
+	<s id="-4667701952610719523-2502090007-4">
+		<tl t="p" o="SD" c="Bus" n="16158"/>
+		<ar pt="2502090032" pp="" l="RE13" ppth="Biederitz|Magdeburg Herrenkrug|Magdeburg-Neustadt"/>
+	</s>
+	<s id="-1683038839159299658-2502090055-1">
+		<tl f="N" t="p" o="800489" c="RE" n="16301"/>
+		<dp pt="2502090055" pp="2" l="30" tra="2273731246723666230-2502082302-12" ppth="Magdeburg Hasselbachplatz|Schönebeck(Elbe)|Schönebeck-Felgeleben|Gnadau|Calbe(Saale) Ost|Sachsendorf(Calbe)|Wulfen(Anh)|Köthen"/>
+	</s>
+	<s id="1733350778224558570-2502090050-1">
+		<tl t="p" o="RSMD" c="RSM" n="80337"/>
+		<dp pt="2502090050" pp="5 A-C" l="RB41" ppth="Magdeburg-Buckau|Schönebeck(Elbe)|Schönebeck Süd|Schönebeck-Bad Salzelmen|Eggersdorf|Eickendorf|Förderstedt|Staßfurt|Neundorf(Anh)|Güsten|Giersleben|Schierstedt|Aschersleben"/>
+	</s>
+	<s id="2634627177344857140-2502082259-14">
+		<tl f="N" t="p" o="800489" c="RE" n="16338"/>
+		<ar pt="2502090006" pp="3 A-C" l="30" ppth="Halle(Saale)Hbf|Zöberitz|Niemberg|Stumsdorf|Weißandt-Gölzau|Arensdorf(Köthen)|Köthen|Wulfen(Anh)|Sachsendorf(Calbe)|Calbe(Saale) Ost|Gnadau|Schönebeck-Felgeleben|Schönebeck(Elbe)"/>
+	</s>
+</timetable>
