@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<timetable station="Lüneburg">
+	<s id="-4348512777454823718-2502092213-4">
+		<tl t="p" o="R1" c="Bus" n="3141"/>
+		<ar pt="2502092255" pp="" l="RB31" ppth="Winsen(Luhe)|Radbruch|Bardowick"/>
+		<dp pt="2502092256" pp="" l="RB31" ppth="Uelzen"/>
+	</s>
+	<s id="-9215185860134909394-2502091218-21">
+		<tl f="F" t="p" o="81" c="ICE" n="1204"/>
+		<ar pt="2502092158" pp="2" ppth="Innsbruck Hbf|Seefeld in Tirol|Mittenwald|Garmisch-Partenkirchen|Murnau|Weilheim(Oberbay)|Tutzing|München Hbf|München-Pasing|Augsburg Hbf|Donauwörth|Treuchtlingen|Ansbach|Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen"/>
+		<dp pt="2502092200" pp="2" ppth="Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-7927538604654488322-2502092110-9">
+		<tl f="D" t="p" o="X1" c="erx" n="21135"/>
+		<ar pt="2502092215" pp="5" l="RE83" pde="Kiel Hbf" ppth="Lübeck Hbf|Lübeck Hochschulstadtteil|Lübeck Flughafen|Ratzeburg|Mölln(Lauenb)|Büchen|Lauenburg(Elbe)|Echem"/>
+	</s>
+	<s id="1071068956703566664-2502092230-1">
+		<tl f="D" t="p" o="X1" c="erx" n="21138"/>
+		<dp pt="2502092230" pp="5" l="RE83" ppth="Echem|Lauenburg(Elbe)|Büchen|Mölln(Lauenb)|Ratzeburg|Lübeck Flughafen|Lübeck Hochschulstadtteil|Lübeck Hbf"/>
+	</s>
+	<s id="-8399705108000530188-2502092201-4">
+		<tl f="D" t="p" o="R1" c="ME" n="81640"/>
+		<ar pt="2502092224" pp="3" l="RB31" ppth="Uelzen|Bad Bevensen|Bienenbüttel"/>
+		<dp pt="2502092232" pp="3" l="RB31" ppth="Bardowick|Radbruch|Winsen(Luhe)|Ashausen|Stelle|Maschen|Meckelfeld|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="37502440152360177-2502092233-1">
+		<tl f="D" t="p" o="R1" c="ME" n="81695"/>
+		<dp pt="2502092233" pp="5" l="RB31" ppth="Bienenbüttel|Bad Bevensen|Uelzen"/>
+	</s>
+	<s id="7597089806492032299-2502092221-4">
+		<tl f="F" t="p" o="80" c="ICE" n="1081"/>
+		<ar pt="2502092257" pp="1" ppth="Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg"/>
+		<dp pt="2502092259" pp="1" ppth="Uelzen|Celle|Hannover Hbf|Göttingen|Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf|München Hbf"/>
+	</s>
+	<s id="-566732643625155291-2502091716-11">
+		<tl f="F" t="p" o="80" c="ICE" n="582"/>
+		<ar pt="2502092235" pp="2" ppth="München Hbf|Ingolstadt Hbf|Nürnberg Hbf|Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen"/>
+		<dp pt="2502092237" pp="2" ppth="Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+</timetable>
