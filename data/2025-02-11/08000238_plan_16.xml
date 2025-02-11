@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<timetable station="Lüneburg">
+	<s id="-906419768599859220-2502111613-4">
+		<tl t="p" o="R1" c="Bus" n="3129"/>
+		<ar pt="2502111655" pp="" l="RB31" ppth="Winsen(Luhe)|Radbruch|Bardowick"/>
+	</s>
+	<s id="1904735696591848531-2502111510-9">
+		<tl f="D" t="p" o="X1" c="erx" n="21123"/>
+		<ar pt="2502111615" pp="5" l="RE83" pde="Kiel Hbf" ppth="Lübeck Hbf|Lübeck Hochschulstadtteil|Lübeck Flughafen|Ratzeburg|Mölln(Lauenb)|Büchen|Lauenburg(Elbe)|Echem"/>
+	</s>
+	<s id="5847648822533792755-2502111601-4">
+		<tl f="D" t="p" o="R1" c="ME" n="82128"/>
+		<ar pt="2502111624" pp="3" l="RE3" ppth="Uelzen|Bad Bevensen|Bienenbüttel"/>
+		<dp pt="2502111628" pp="3" l="RE3" ppth="Winsen(Luhe)|Hamburg-Harburg"/>
+	</s>
+	<s id="2989400286608042814-2502111657-1">
+		<tl t="p" o="R1" c="Bus" n="3228"/>
+		<dp pt="2502111657" pp="" l="RB31" ppth="Bardowick|Radbruch|Winsen(Luhe)"/>
+	</s>
+	<s id="6963620878818373460-2502111510-10">
+		<tl f="D" t="p" o="X2" c="erx" n="81546"/>
+		<ar pt="2502111618" pp="7" l="RB32" ppth="Dannenberg Ost|Hitzacker|Leitstade|Göhrde|Neetzendorf|Dahlenburg|Bavendorf|Vastorf|Wendisch Evern"/>
+	</s>
+	<s id="-2613730664193740411-2502111557-4">
+		<tl f="D" t="p" o="R1" c="ME" n="82129"/>
+		<ar pt="2502111633" pp="1" l="RE3" ppth="Hamburg Hbf|Hamburg-Harburg|Winsen(Luhe)"/>
+		<dp pt="2502111634" pp="1" l="RE3" ppth="Bienenbüttel|Bad Bevensen|Uelzen"/>
+	</s>
+	<s id="-3501308660553043576-2502111630-1">
+		<tl f="D" t="p" o="X1" c="erx" n="21126"/>
+		<dp pt="2502111630" pp="5" l="RE83" pde="Kiel Hbf" ppth="Echem|Lauenburg(Elbe)|Büchen|Mölln(Lauenb)|Ratzeburg|Lübeck Flughafen|Lübeck Hochschulstadtteil|Lübeck Hbf"/>
+	</s>
+	<s id="1184509608867288236-2502111117-11">
+		<tl f="F" t="p" o="80" c="ICE" n="588"/>
+		<ar pt="2502111641" pp="2" ppth="München Hbf|Ingolstadt Hbf|Nürnberg Hbf|Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen"/>
+		<dp pt="2502111643" pp="2" ppth="Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+</timetable>
