@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<timetable station="Rheine">
+	<s id="8897274227786964332-2502132008-1">
+		<tl f="N" t="p" o="NXRE" c="RE" n="17435"/>
+		<dp pt="2502132008" pp="8" l="7" ppth="Emsdetten|Greven|Münster(Westf)Hbf|Münster-Hiltrup|Drensteinfurt|Hamm(Westf)Hbf"/>
+	</s>
+	<s id="-2517546130397205322-2502132053-1">
+		<tl f="N" t="p" o="R2RB" c="RB" n="52355"/>
+		<dp pt="2502132053" pp="5" l="65" ppth="Rheine-Mesum|Emsdetten|Reckenfeld|Greven|Münster-Sprakel|Münster(W)Zentrum Nord|Münster(Westf)Hbf"/>
+	</s>
+	<s id="-2340800596409390062-2502132048-1">
+		<tl t="p" o="B1" c="Bus" n="11517"/>
+		<dp pt="2502132048" pp="" l="RE62" ppth="Osnabrück Hbf"/>
+	</s>
+	<s id="-1728301202573041429-2502132000-1">
+		<tl t="p" o="W3" c="Bus" n="60789"/>
+		<dp pt="2502132000" pp="" l="EV" ppth="Osnabrück Hbf"/>
+	</s>
+	<s id="2309972195216980593-2502131851-2">
+		<tl t="p" o="W3" c="Bus" n="60782"/>
+		<ar pt="2502132000" pp="" l="EV" ppth="Osnabrück Hbf"/>
+	</s>
+	<s id="-3301018149004817737-2502131934-6">
+		<tl f="N" t="p" o="R2RB" c="RB" n="20383"/>
+		<ar pt="2502132011" pp="2" l="61" ppth="Hengelo|Oldenzaal|Bad Bentheim|Schüttorf|Salzbergen"/>
+	</s>
+	<s id="7440050562638271263-2502131852-13">
+		<tl f="D" t="p" o="W3" c="WFB" n="90295"/>
+		<ar pt="2502132027" pp="5" l="RE15" ppth="Emden Hbf|Leer(Ostfriesl)|Papenburg(Ems)|Aschendorf|Dörpen|Lathen|Haren(Ems)|Meppen|Geeste|Lingen(Ems)|Leschede|Salzbergen"/>
+		<dp pt="2502132029" pp="5" l="RE15" ppth="Emsdetten|Reckenfeld|Greven|Münster(Westf)Hbf"/>
+	</s>
+	<s id="1114243400076906664-2502132049-1">
+		<tl f="N" t="p" o="R2RB" c="RB" n="20382"/>
+		<dp pt="2502132049" pp="2" l="61" ppth="Salzbergen|Schüttorf|Bad Bentheim|Oldenzaal|Hengelo"/>
+	</s>
+	<s id="2078769880633547351-2502131935-8">
+		<tl f="N" t="p" o="R2RB" c="RB" n="52350"/>
+		<ar pt="2502132008" pp="3" l="65" ppth="Münster(Westf)Hbf|Münster(W)Zentrum Nord|Münster-Sprakel|Greven|Reckenfeld|Emsdetten|Rheine-Mesum"/>
+	</s>
+	<s id="8638871978357186290-2502132021-1">
+		<tl t="p" o="R2" c="Bus" n="6161"/>
+		<dp pt="2502132021" pp="" l="RB61" ppth="Hörstel|Ibbenbüren-Esch|Ibbenbüren"/>
+	</s>
+	<s id="8422899464883069635-2502131939-4">
+		<tl t="p" o="R2" c="Bus" n="6160"/>
+		<ar pt="2502132030" pp="" l="RB61" ppth="Ibbenbüren|Ibbenbüren-Esch|Hörstel"/>
+	</s>
+	<s id="5156814714618662356-2502132005-4">
+		<tl f="D" t="p" o="W3" c="WFB" n="90296"/>
+		<ar pt="2502132032" pp="4" l="RE15" ppth="Münster(Westf)Hbf|Greven|Emsdetten"/>
+		<dp pt="2502132033" pp="4" l="RE15" ppth="Salzbergen|Leschede|Lingen(Ems)|Geeste|Meppen|Haren(Ems)|Lathen|Dörpen|Aschendorf|Papenburg(Ems)|Leer(Ostfriesl)|Emden Hbf"/>
+	</s>
+</timetable>
