@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Köln Messe/Deutz Gl.11-12">
+	<s id="-5387624129932720070-2502161113-14">
+		<tl f="F" t="p" o="81" c="ICE" n="26"/>
+		<ar pt="2502162051" pp="12" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Passau Hbf|Plattling|Regensburg Hbf|Nürnberg Hbf|Würzburg Hbf|Aschaffenburg Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf"/>
+		<dp pt="2502162053" pp="12" ppth="Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf"/>
+	</s>
+	<s id="2721476196163475506-2502161641-9">
+		<tl f="F" t="p" o="80" c="ICE" n="620"/>
+		<ar pt="2502162027" pp="12" ppth="Nürnberg Hbf|Würzburg Hbf|Aschaffenburg Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Limburg Süd|Montabaur|Siegburg/Bonn"/>
+		<dp pt="2502162030" pp="12" ppth="Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf"/>
+	</s>
+	<s id="-977669644680017628-2502161628-9">
+		<tl f="F" t="p" o="80" c="ICE" n="912"/>
+		<ar pt="2502162048" pp="11" ppth="München Hbf|München-Pasing|Augsburg Hbf|Ulm Hbf|Stuttgart Hbf|Mannheim Hbf|Frankfurt(M) Flughafen Fernbf|Siegburg/Bonn"/>
+		<dp pt="2502162050" pp="11" ppth="Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf"/>
+	</s>
+	<s id="-6750794421454638985-2502161628-9">
+		<tl f="F" t="p" o="80" c="ICE" n="224"/>
+		<ar pt="2502162048" pp="11" wings="-977669644680017628-2502161628" ppth="München Hbf|München-Pasing|Augsburg Hbf|Ulm Hbf|Stuttgart Hbf|Mannheim Hbf|Frankfurt(M) Flughafen Fernbf|Siegburg/Bonn"/>
+		<dp pt="2502162050" pp="11" wings="-977669644680017628-2502161628" ppth="Düsseldorf Hbf|Duisburg Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="2004656983232721339-2502161939-4">
+		<tl f="F" t="p" o="80" c="ICE" n="823"/>
+		<ar pt="2502162028" pp="11" ppth="Essen Hbf|Duisburg Hbf|Düsseldorf Hbf"/>
+		<dp pt="2502162033" pp="11" ppth="Montabaur|Limburg Süd|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-7949491460536242261-2502161245-21">
+		<tl f="F" t="p" o="80" c="IC" n="2442"/>
+		<ar pt="2502162046" pp="11" ppth="Dresden Hbf|Dresden-Neustadt|Riesa|Leipzig Hbf|Leipzig/Halle Flughafen|Halle(Saale)Hbf|Köthen|Magdeburg Hbf|Braunschweig Hbf|Hannover Hbf|Minden(Westf)|Bad Oeynhausen|Bielefeld Hbf|Gütersloh Hbf|Hamm(Westf)Hbf|Dortmund Hbf|Bochum Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf"/>
+		<dp pt="2502162048" pp="11" ppth="Bonn-Beuel|Mainz Hbf|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf"/>
+	</s>
+</timetable>
