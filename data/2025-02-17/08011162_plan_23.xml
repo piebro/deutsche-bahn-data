@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Ostkreuz">
+	<s id="-5104995048053060913-2502172301-1">
+		<tl t="p" o="800165" c="FEX" n="93074"/>
+		<dp pt="2502172318" pp="" tra="-5519356991500934871-2502172301-2" ppth="Berlin-Lichtenberg"/>
+	</s>
+	<s id="-7468302600247760402-2502172133-15">
+		<tl f="N" t="p" o="NBRB12" c="RB" n="61146"/>
+		<ar pt="2502172302" pp="7" l="12" ppth="Templin Stadt|Templin|Hammelspring|Vogelsang(Kr Oberhavel)|Zehdenick-Neuhof|Zehdenick(Mark)|Bergsdorf|Löwenberg(Mark)|Grüneberg|Nassenheide|Sachsenhausen(Nordb)|Oranienburg|Berlin-Hohenschönhausen|Berlin-Lichtenberg"/>
+	</s>
+	<s id="-5519356991500934871-2502172301-2">
+		<tl t="p" o="800165" c="FEX" n="93714"/>
+		<ar pt="2502172316" pp="14" tra="-5104995048053060913-2502172301-1" ppth="Schönefeld(bei Berlin)"/>
+	</s>
+	<s id="-387109652999914349-2502172330-1">
+		<tl t="p" o="800165" c="FEX" n="93076"/>
+		<dp pt="2502172348" pp="" tra="-3477951870974271641-2502172330-2" ppth="Berlin-Lichtenberg"/>
+	</s>
+	<s id="-3477951870974271641-2502172330-2">
+		<tl t="p" o="800165" c="FEX" n="93716"/>
+		<ar pt="2502172346" pp="14" tra="-387109652999914349-2502172330-1" ppth="Schönefeld(bei Berlin)"/>
+	</s>
+	<s id="-5572896968252088750-2502172334-2">
+		<tl t="p" o="800165" c="FEX" n="94501"/>
+		<ar pt="2502172338" pp="13" ppth="Berlin-Lichtenberg"/>
+		<dp pt="2502172340" pp="13" ppth="Berlin-Schöneweide|Schönefeld(bei Berlin)"/>
+	</s>
+</timetable>
