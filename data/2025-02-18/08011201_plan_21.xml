@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="4261148642862347211-2502182027-3">
+		<tl f="N" t="p" o="NZ" c="RE" n="52275"/>
+		<ar pt="2502182050" pp="4" l="17" ppth="Berlin-Lichtenberg|Berlin Ostkreuz"/>
+		<dp pt="2502182101" pp="4" l="17" ppth="Doberlug-Kirchhain|Elsterwerda"/>
+	</s>
+	<s id="1702733222426386686-2502182109-2">
+		<tl f="N" t="p" o="800165" c="RB" n="18135"/>
+		<ar pt="2502182121" pp="4" l="22" ppth="Königs Wusterhausen"/>
+		<dp pt="2502182123" pp="4" l="22" ppth="Ludwigsfelde-Struveshof|Saarmund|Potsdam Pirschheide|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof|Potsdam Hbf"/>
+	</s>
+	<s id="420388843497242401-2502182056-3">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62084"/>
+		<ar pt="2502182125" pp="" l="8" ppth="Berlin Südkreuz|Berlin-Lichterfelde Ost"/>
+		<dp pt="2502182134" pp="" l="8" ppth="Blankenfelde(Teltow-Fläming)|Dahlewitz|Rangsdorf|Dabendorf|Zossen|Wünsdorf-Waldstadt|Neuhof(b Zossen)|Baruth(Mark)"/>
+	</s>
+	<s id="6670631784435320551-2502182048-8">
+		<tl f="N" t="p" o="800165" c="RB" n="18134"/>
+		<ar pt="2502182136" pp="1" l="22" ppth="Potsdam Hbf|Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Potsdam Pirschheide|Saarmund|Ludwigsfelde-Struveshof"/>
+		<dp pt="2502182138" pp="1" l="22" ppth="Königs Wusterhausen"/>
+	</s>
+	<s id="8486175913816788878-2502182027-3">
+		<tl f="F" t="p" o="80" c="IC" n="2275"/>
+		<ar pt="2502182050" pp="4" wings="4261148642862347211-2502182027" ppth="Berlin-Lichtenberg|Berlin Ostkreuz"/>
+		<dp pt="2502182101" pp="4" wings="4261148642862347211-2502182027" ppth="Doberlug-Kirchhain|Elsterwerda|Dresden-Neustadt|Dresden Hbf"/>
+	</s>
+</timetable>
