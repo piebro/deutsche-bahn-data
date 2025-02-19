@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Mannheim Hbf">
+	<s id="2686007473625185344-2502190000-8">
+		<tl f="F" t="p" o="80" c="ICE" n="618"/>
+		<ar pt="2502190355" pp="2" ppth="München Hbf|München-Pasing|Augsburg Hbf|Günzburg|Ulm Hbf|Stuttgart Hbf|Heidelberg Hbf"/>
+		<dp pt="2502190401" pp="2" ppth="Frankfurt(Main)Hbf|Siegburg/Bonn|Köln Hbf|Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Münster(Westf)Hbf|Osnabrück Hbf|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Neumünster|Kiel Hbf"/>
+	</s>
+	<s id="-344271757147009936-2502181856-6">
+		<tl t="p" o="81" c="NJ" n="40424"/>
+		<ar pt="2502190123" pp="4" hi="1" ppth="Berlin Ostbahnhof|Berlin Hbf|Göttingen|Kassel-Wilhelmshöhe|Frankfurt(Main)Süd"/>
+		<dp pt="2502190317" pp="4" hi="1" ppth="Strasbourg|Paris Est"/>
+	</s>
+	<s id="8016523767626847908-2502181813-9">
+		<tl t="p" o="81" c="NJ" n="468"/>
+		<ar pt="2502190213" pp="5" hi="1" wings="3178546308999030105-2502181813" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Salzburg Hbf|Freilassing|Rosenheim|München Ost"/>
+		<dp pt="2502190317" pp="4" hi="1" wings="-344271757147009936-2502181856" ppth="Strasbourg|Paris Est"/>
+	</s>
+	<s id="-4915262827455374610-2502181950-11">
+		<tl t="p" o="81" c="NJ" n="403"/>
+		<ar pt="2502190334" pp="3" hi="1" wings="7582314568044505717-2502181950" ppth="Amsterdam Centraal|Utrecht Centraal|Eindhoven Centraal|Venlo|Köln Hbf|Bonn-Beuel|Koblenz Hbf|Mainz Hbf|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf"/>
+		<dp pt="2502190336" pp="3" hi="1" wings="7582314568044505717-2502181950" ppth="Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="7582314568044505717-2502181950-11">
+		<tl f="F" t="p" o="NZ" c="IC" n="60403"/>
+		<ar pt="2502190334" pp="3" ppth="Amsterdam Centraal|Utrecht Centraal|Eindhoven Centraal|Venlo|Köln Hbf|Bonn-Beuel|Koblenz Hbf|Mainz Hbf|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf"/>
+		<dp pt="2502190336" pp="3" ppth="Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-7138074359361066746-2502181902-13">
+		<tl f="F" t="p" o="80" c="ICE" n="699"/>
+		<ar pt="2502190313" pp="3" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Berlin-Spandau|Berlin Hbf|Berlin Ostbahnhof|Lutherstadt Wittenberg Hbf|Bitterfeld|Leipzig Hbf|Erfurt Hbf|Eisenach Hbf|Frankfurt(Main)Hbf"/>
+		<dp pt="2502190315" pp="3" ppth="Heidelberg Hbf|Stuttgart Hbf|Ulm Hbf|Günzburg|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+</timetable>

@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Düsseldorf Hbf">
+	<s id="-2759468027791879900-2502190230-1">
+		<tl t="p" o="NX" c="Bus" n="845"/>
+		<dp pt="2502190230" pp="" l="RE6" ppth="Düsseldorf Flughafen|Duisburg Hbf|Mülheim(Ruhr)Hbf|Essen Hbf|Wattenscheid|Bochum Hbf"/>
+	</s>
+	<s id="6968878894409847227-2502190134-6">
+		<tl t="p" o="B2" c="Bus" n="16002"/>
+		<ar pt="2502190208" pp="" l="S11" ppth="Düsseldorf Flughafen Terminal|Düsseldorf-Unterrath|Düsseldorf-Derendorf|Düsseldorf-Zoo|Düsseldorf Wehrhahn"/>
+	</s>
+	<s id="-4068911222865023920-2502190222-1">
+		<tl f="N" t="p" o="NXRE" c="RE" n="26845"/>
+		<dp pt="2502190222" pp="7" l="1" ppth="Essen-Altenessen|Gelsenkirchen Hbf|Herne|Dortmund Hbf"/>
+	</s>
+	<s id="6756901700619036642-2502190222-5">
+		<tl t="p" o="B2" c="Bus" n="460"/>
+		<ar pt="2502190248" pp="" l="S1" ppth="Düsseldorf-Unterrath|Düsseldorf-Derendorf|Düsseldorf-Zoo|Düsseldorf Wehrhahn"/>
+	</s>
+	<s id="7787443887918510126-2502190152-7">
+		<tl t="p" o="B2" c="Bus" n="6302"/>
+		<ar pt="2502190223" pp="" l="S6" ppth="Ratingen Ost|Düsseldorf-Rath|Düsseldorf-Rath Mitte|Düsseldorf-Derendorf|Düsseldorf-Zoo|Düsseldorf Wehrhahn"/>
+	</s>
+	<s id="2774174590951633862-2502182229-13">
+		<tl f="F" t="p" o="80" c="ICE" n="921"/>
+		<ar pt="2502190247" pp="15" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Osnabrück Hbf|Münster(Westf)Hbf|Hamm(Westf)Hbf|Dortmund Hbf|Bochum Hbf|Essen Hbf|Duisburg Hbf"/>
+		<dp pt="2502190249" pp="15" ppth="Köln Messe/Deutz Gl.11-12|Koblenz Hbf|Bingen(Rhein) Hbf|Mainz Hbf|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="3535502922361569880-2502190147-6">
+		<tl f="S" t="p" o="8003S" c="S" n="31657"/>
+		<ar pt="2502190228" pp="14" l="6" ppth="Köln-Mülheim|Köln-Stammheim|Leverkusen Chempark|Leverkusen Mitte|Düsseldorf-Benrath"/>
+	</s>
+	<s id="8503777394879306018-2502182325-6">
+		<tl f="F" t="p" o="80" c="ICE" n="920"/>
+		<ar pt="2502190233" pp="17" ppth="Frankfurt(Main)Hbf|Mainz Hbf|Bingen(Rhein) Hbf|Koblenz Hbf|Köln Messe/Deutz Gl.11-12"/>
+		<dp pt="2502190235" pp="17" ppth="Dortmund Hbf|Hamm(Westf)Hbf|Münster(Westf)Hbf|Osnabrück Hbf|Diepholz|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+</timetable>

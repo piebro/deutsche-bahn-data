@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<timetable station="Bochum Hbf">
+	<s id="2851551822660401321-2502190153-9">
+		<tl f="S" t="p" o="800337" c="S" n="30102"/>
+		<ar pt="2502190216" pp="7" l="1" ppth="Dortmund Hbf|Dortmund-Dorstfeld|Dortmund-Dorstfeld Süd|Dortmund Universität|Dortmund-Oespel|Dortmund-Kley|Bochum-Langendreer|Bochum-Langendreer West"/>
+	</s>
+	<s id="-8728981612427222991-2502190030-7">
+		<tl t="p" o="NX" c="Bus" n="855"/>
+		<ar pt="2502190225" pp="" l="RE6" ppth="Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Mülheim(Ruhr)Hbf|Essen Hbf|Wattenscheid"/>
+		<dp pt="2502190225" pp="" l="RE6" ppth="Dortmund Hbf"/>
+	</s>
+	<s id="-2850536344288765402-2502190245-2">
+		<tl f="N" t="p" o="NXRE" c="RE" n="26848"/>
+		<ar pt="2502190254" pp="3" l="1" ppth="Dortmund Hbf"/>
+		<dp pt="2502190255" pp="3" l="1" ppth="Wattenscheid|Essen Hbf|Mülheim(Ruhr)Hbf|Duisburg Hbf|Düsseldorf Hbf|Düsseldorf-Benrath|Leverkusen Mitte|Köln-Mülheim|Köln Messe/Deutz|Köln Hbf"/>
+	</s>
+</timetable>
