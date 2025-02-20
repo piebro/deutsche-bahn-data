@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="Dresden-Neustadt">
+	<s id="4053611253052347442-2502200048-5">
+		<tl f="N" t="p" o="800456" c="RE" n="93360"/>
+		<ar pt="2502200111" pp="7" l="50" ppth="Priestewitz|Niederau|Weinböhla Hp|Coswig(b Dresden)"/>
+		<dp pt="2502200113" pp="7" l="50" ppth="Dresden Mitte|Dresden Hbf"/>
+	</s>
+	<s id="1202483610931944812-2502192318-21">
+		<tl t="p" o="LD" c="TL" n="76536"/>
+		<ar pt="2502200130" pp="4" l="RB60" wings="-4077660302039874198-2502200030" ppth="Görlitz|Görlitz-Rauschwalde|Gersdorf(Görlitz)|Reichenbach(Oberlausitz)|Zoblitz|Löbau(Sachs)|Breitendorf|Pommritz|Kubschütz|Bautzen|Seitschen|Demitz-Thumitz|Bischofswerda|Weickersdorf(Sachs)|Großharthau|Arnsdorf(Dresden)|Radeberg|Langebrück(Sachs)|Dresden-Klotzsche|Dresden Industriegelände"/>
+		<dp pt="2502200130" pp="4" l="RB60" wings="-4077660302039874198-2502200030" ppth="Dresden Mitte|Dresden Hbf"/>
+	</s>
+	<s id="-5251979787845317603-2502191826-12">
+		<tl f="F" t="p" o="80" c="ICE" n="1657"/>
+		<ar pt="2502200101" pp="8" ppth="Wiesbaden Hbf|Mainz Hbf|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf|Fulda|Bad Hersfeld|Eisenach Hbf|Gotha|Erfurt Hbf|Leipzig Hbf|Elsterwerda"/>
+		<dp pt="2502200103" pp="8" ppth="Dresden Hbf"/>
+	</s>
+	<s id="-4077660302039874198-2502200030-13">
+		<tl t="p" o="LD" c="TL" n="94158"/>
+		<ar pt="2502200130" pp="4" l="RB61" ppth="Wilthen|Neukirch(Lausitz)Ost|Putzkau|Schmölln(Ol)|Bischofswerda|Weickersdorf(Sachs)|Großharthau|Arnsdorf(Dresden)|Radeberg|Langebrück(Sachs)|Dresden-Klotzsche|Dresden Industriegelände"/>
+		<dp pt="2502200130" pp="4" l="RB61" ppth="Dresden Mitte|Dresden Hbf"/>
+	</s>
+</timetable>
