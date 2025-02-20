@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<timetable station="Oberhausen Hbf">
+	<s id="7684316814832194714-2502201016-3">
+		<tl f="D" t="p" o="R4NRN" c="VIA" n="20016"/>
+		<ar pt="2502201049" pp="9" l="RE19" wings="-5636719679432785052-2502201016" ppth="Düsseldorf Hbf|Duisburg Hbf"/>
+		<dp pt="2502201050" pp="9" l="RE19" wings="-5636719679432785052-2502201016" ppth="Oberhausen-Sterkrade|Oberhausen-Holten|Dinslaken|Voerde(Niederrhein)|Wesel|Wesel Feldmark|Mehrhoog|Haldern(Rheinl)|Empel-Rees|Millingen(b Rees)|Praest|Emmerich|Emmerich-Elten|Zevenaar|Arnhem Centraal"/>
+	</s>
+	<s id="-5636719679432785052-2502201016-3">
+		<tl f="D" t="p" o="R4NRN" c="VIA" n="77016"/>
+		<ar pt="2502201049" pp="9" l="RE19" ppth="Düsseldorf Hbf|Duisburg Hbf"/>
+		<dp pt="2502201050" pp="9" l="RE19" ppth="Oberhausen-Sterkrade|Oberhausen-Holten|Dinslaken|Voerde(Niederrhein)|Wesel|Wesel-Blumenkamp|Hamminkeln|Hamminkeln-Dingden|Bocholt"/>
+	</s>
+	<s id="-7463692926261219534-2502201039-6">
+		<tl f="D" t="p" o="R4NRN" c="VIA" n="52253"/>
+		<ar pt="2502201056" pp="7" l="RB35" ppth="Gelsenkirchen Hbf|Essen-Zollverein Nord|Essen-Altenessen|Essen-Bergeborbeck|Essen-Dellwig"/>
+	</s>
+	<s id="-7540221329643117498-2502200830-19">
+		<tl f="N" t="p" o="NXRE" c="RE" n="28510"/>
+		<ar pt="2502201024" pp="9" l="5" ppth="Remagen|Oberwinter|Bonn-Mehlem|Bonn-Bad Godesberg|Bonn UN Campus|Bonn Hbf|Roisdorf|Sechtem|Brühl|Köln Süd|Köln Hbf|Köln Messe/Deutz|Köln-Mülheim|Leverkusen Mitte|Düsseldorf-Benrath|Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf"/>
+		<dp pt="2502201025" pp="9" l="5" ppth="Oberhausen-Sterkrade|Oberhausen-Holten|Dinslaken|Voerde(Niederrhein)|Friedrichsfeld(Niederrhein)"/>
+	</s>
+	<s id="-7067623833202487825-2502201007-6">
+		<tl f="N" t="p" o="NXRE" c="RE" n="28513"/>
+		<ar pt="2502201027" pp="12" l="5" ppth="Friedrichsfeld(Niederrhein)|Voerde(Niederrhein)|Dinslaken|Oberhausen-Holten|Oberhausen-Sterkrade"/>
+		<dp pt="2502201028" pp="12" l="5" ppth="Duisburg Hbf|Düsseldorf Flughafen|Düsseldorf Hbf|Düsseldorf-Benrath|Leverkusen Mitte|Köln-Mülheim|Köln Messe/Deutz|Köln Hbf|Köln Süd|Brühl|Sechtem|Roisdorf|Bonn Hbf|Bonn UN Campus|Bonn-Bad Godesberg|Bonn-Mehlem|Oberwinter|Remagen"/>
+	</s>
+	<s id="5947163723817845098-2502200933-13">
+		<tl f="S" t="p" o="8003L1" c="S" n="30325"/>
+		<ar pt="2502201014" pp="11" l="3" ppth="Hattingen(Ruhr) Mitte|Hattingen(Ruhr)|Bochum-Dahlhausen|Essen-Horst|Essen-Steele Ost|Essen-Steele|Essen Hbf|Essen West|Essen-Frohnhausen|Mülheim(Ruhr)Hbf|Mülheim(Ruhr)West|Mülheim(Ruhr)Styrum"/>
+	</s>
+	<s id="-5338310177459019148-2502200959-5">
+		<tl t="p" o="TDRR" c="Bus" n="65663"/>
+		<ar pt="2502201028" pp="" l="36/44" ppth="Duisburg-Ruhrort|Duisburg-Meiderich Süd|Duisburg-Meiderich Ost|Duisburg-Obermeiderich"/>
+		<dp pt="2502201028" pp="" l="36/44" ppth="Oberhausen-Osterfeld Süd|Bottrop-Vonderort|Bottrop Hbf"/>
+	</s>
+	<s id="-4184548495737811045-2502201017-1">
+		<tl f="S" t="p" o="8003L1" c="S" n="30326"/>
+		<dp pt="2502201017" pp="10" l="3" ppth="Mülheim(Ruhr)Styrum|Mülheim(Ruhr)West|Mülheim(Ruhr)Hbf|Essen-Frohnhausen|Essen West|Essen Hbf|Essen-Steele|Essen-Steele Ost|Essen-Horst|Bochum-Dahlhausen|Hattingen(Ruhr)|Hattingen(Ruhr) Mitte"/>
+	</s>
+	<s id="-2805278316312883162-2502201029-5">
+		<tl t="p" o="TDRR" c="Bus" n="65665"/>
+		<ar pt="2502201058" pp="" l="36/44" ppth="Duisburg-Ruhrort|Duisburg-Meiderich Süd|Duisburg-Meiderich Ost|Duisburg-Obermeiderich"/>
+		<dp pt="2502201058" pp="" l="36/44" ppth="Oberhausen-Osterfeld Süd|Bottrop-Vonderort|Bottrop Hbf"/>
+	</s>
+	<s id="8925131609579025451-2502200908-11">
+		<tl f="N" t="p" o="8003L1" c="RE" n="30299"/>
+		<ar pt="2502201005" pp="11" l="49" ppth="Wuppertal Hbf|Wuppertal-Vohwinkel|Velbert-Neviges|Velbert-Langenberg|Essen-Kupferdreh|Essen-Steele|Essen Hbf|Essen West|Mülheim(Ruhr)Hbf|Mülheim(Ruhr)Styrum"/>
+		<dp pt="2502201007" pp="11" l="49" ppth="Oberhausen-Sterkrade|Oberhausen-Holten|Dinslaken|Voerde(Niederrhein)|Friedrichsfeld(Niederrhein)"/>
+	</s>
+	<s id="7292118889822659420-2502201034-6">
+		<tl f="N" t="p" o="8003L1" c="RE" n="30390"/>
+		<ar pt="2502201054" pp="12" l="49" ppth="Friedrichsfeld(Niederrhein)|Voerde(Niederrhein)|Dinslaken|Oberhausen-Holten|Oberhausen-Sterkrade"/>
+		<dp pt="2502201056" pp="12" l="49" ppth="Mülheim(Ruhr)Styrum|Mülheim(Ruhr)Hbf|Essen West|Essen Hbf|Essen-Steele|Essen-Kupferdreh|Velbert-Langenberg|Velbert-Neviges|Wuppertal-Vohwinkel|Wuppertal Hbf"/>
+	</s>
+	<s id="8257423993265522726-2502201003-13">
+		<tl f="S" t="p" o="8003L1" c="S" n="30327"/>
+		<ar pt="2502201044" pp="10" l="3" ppth="Hattingen(Ruhr) Mitte|Hattingen(Ruhr)|Bochum-Dahlhausen|Essen-Horst|Essen-Steele Ost|Essen-Steele|Essen Hbf|Essen West|Essen-Frohnhausen|Mülheim(Ruhr)Hbf|Mülheim(Ruhr)West|Mülheim(Ruhr)Styrum"/>
+	</s>
+	<s id="2959753941548257602-2502200930-4">
+		<tl t="p" o="TDRR" c="Bus" n="65664"/>
+		<ar pt="2502201000" pp="" l="36/44" ppth="Bottrop Hbf|Bottrop-Vonderort|Oberhausen-Osterfeld Süd"/>
+		<dp pt="2502201001" pp="" l="36/44" ppth="Duisburg-Obermeiderich|Duisburg-Meiderich Ost|Duisburg-Meiderich Süd|Duisburg-Ruhrort"/>
+	</s>
+	<s id="8331308991075512055-2502201034-2">
+		<tl f="N" t="p" o="8003L1" c="RB" n="31254"/>
+		<ar pt="2502201040" pp="6" l="32" ppth="Duisburg Hbf"/>
+		<dp pt="2502201041" pp="6" l="32" ppth="Essen-Dellwig|Essen-Bergeborbeck|Essen-Altenessen|Essen-Zollverein Nord|Gelsenkirchen Hbf|Wanne-Eickel Hbf|Herne|Castrop-Rauxel Hbf|Dortmund-Mengede|Dortmund Hbf"/>
+	</s>
+	<s id="2430881209696286925-2502201002-1">
+		<tl f="D" t="p" o="R4NRN" c="VIA" n="52246"/>
+		<dp pt="2502201002" pp="7" l="RB35" ppth="Essen-Dellwig|Essen-Bergeborbeck|Essen-Altenessen|Essen-Zollverein Nord|Gelsenkirchen Hbf"/>
+	</s>
+	<s id="396380641889250798-2502201047-1">
+		<tl f="S" t="p" o="8003L1" c="S" n="30328"/>
+		<dp pt="2502201047" pp="11" l="3" ppth="Mülheim(Ruhr)Styrum|Mülheim(Ruhr)West|Mülheim(Ruhr)Hbf|Essen-Frohnhausen|Essen West|Essen Hbf|Essen-Steele|Essen-Steele Ost|Essen-Horst|Bochum-Dahlhausen|Hattingen(Ruhr)|Hattingen(Ruhr) Mitte"/>
+	</s>
+	<s id="2883544721332064690-2502200933-11">
+		<tl f="N" t="p" o="8003L1" c="RB" n="31253"/>
+		<ar pt="2502201018" pp="7" l="32" ppth="Dortmund Hbf|Dortmund-Mengede|Castrop-Rauxel Hbf|Herne|Wanne-Eickel Hbf|Gelsenkirchen Hbf|Essen-Zollverein Nord|Essen-Altenessen|Essen-Bergeborbeck|Essen-Dellwig"/>
+		<dp pt="2502201019" pp="7" l="32" ppth="Duisburg Hbf"/>
+	</s>
+	<s id="8726949769717056632-2502200930-14">
+		<tl f="N" t="p" o="R2RE" c="RE" n="89876"/>
+		<ar pt="2502201042" pp="7" l="3" ppth="Hamm(Westf)Hbf|Bönen-Nordbögge|Kamen|Kamen-Methler|Dortmund-Kurl|Dortmund-Scharnhorst|Dortmund Hbf|Dortmund-Mengede|Castrop-Rauxel Hbf|Herne|Wanne-Eickel Hbf|Gelsenkirchen Hbf|Essen-Altenessen"/>
+	</s>
+	<s id="4716131631729680621-2502201000-4">
+		<tl t="p" o="TDRR" c="Bus" n="65666"/>
+		<ar pt="2502201030" pp="" l="36/44" ppth="Bottrop Hbf|Bottrop-Vonderort|Oberhausen-Osterfeld Süd"/>
+		<dp pt="2502201031" pp="" l="36/44" ppth="Duisburg-Obermeiderich|Duisburg-Meiderich Ost|Duisburg-Meiderich Süd|Duisburg-Ruhrort"/>
+	</s>
+	<s id="1814744080333322068-2502201016-1">
+		<tl f="N" t="p" o="R2RE" c="RE" n="89875"/>
+		<dp pt="2502201016" pp="6" l="3" ppth="Essen-Altenessen|Gelsenkirchen Hbf|Wanne-Eickel Hbf|Herne|Castrop-Rauxel Hbf|Dortmund-Mengede|Dortmund Hbf|Dortmund-Scharnhorst|Dortmund-Kurl|Kamen-Methler|Kamen|Bönen-Nordbögge|Hamm(Westf)Hbf"/>
+	</s>
+	<s id="-3482704518387342076-2502200938-4">
+		<tl f="F" t="p" o="80" c="IC" n="2204"/>
+		<ar pt="2502201032" pp="6" ppth="Köln Hbf|Düsseldorf Hbf|Duisburg Hbf"/>
+		<dp pt="2502201034" pp="6" ppth="Gelsenkirchen Hbf|Wanne-Eickel Hbf|Recklinghausen Hbf|Münster(Westf)Hbf|Rheine|Lingen(Ems)|Meppen|Papenburg(Ems)|Leer(Ostfriesl)|Emden Hbf"/>
+	</s>
+	<s id="7056881702170227654-2502200915-10">
+		<tl f="D" t="p" o="R4NRN" c="VIA" n="77015"/>
+		<ar pt="2502201007" pp="12" l="RE19" ppth="Bocholt|Hamminkeln-Dingden|Hamminkeln|Wesel-Blumenkamp|Wesel|Voerde(Niederrhein)|Dinslaken|Oberhausen-Holten|Oberhausen-Sterkrade"/>
+		<dp pt="2502201008" pp="12" l="RE19" ppth="Duisburg Hbf|Düsseldorf Hbf"/>
+	</s>
+	<s id="-5407950231655354025-2502200845-16">
+		<tl f="D" t="p" o="R4NRN" c="VIA" n="20015"/>
+		<ar pt="2502201007" pp="12" l="RE19" wings="7056881702170227654-2502200915" ppth="Arnhem Centraal|Zevenaar|Emmerich-Elten|Emmerich|Praest|Millingen(b Rees)|Empel-Rees|Haldern(Rheinl)|Mehrhoog|Wesel Feldmark|Wesel|Voerde(Niederrhein)|Dinslaken|Oberhausen-Holten|Oberhausen-Sterkrade"/>
+		<dp pt="2502201008" pp="12" l="RE19" wings="7056881702170227654-2502200915" ppth="Duisburg Hbf|Düsseldorf Hbf"/>
+	</s>
+</timetable>
