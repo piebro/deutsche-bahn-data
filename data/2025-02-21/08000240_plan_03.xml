@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="Mainz Hbf">
+	<s id="-2211103324120395242-2502210353-1">
+		<tl t="p" o="B4" c="Bus" n="807"/>
+		<dp pt="2502210353" pp="" l="S8E" ppth="Bahnhof Römisches Theater, Mainz|Mainz-Bischofsheim|Rüsselsheim Opelwerk|Rüsselsheim|Bahnhof Nordseite, Raunheim|Kelsterbach"/>
+	</s>
+	<s id="-7824652150875120987-2502210217-9">
+		<tl t="p" o="B4" c="Bus" n="88808"/>
+		<ar pt="2502210323" pp="" l="S8E" ppth="Kelsterbach|Bahnhof Nordseite, Raunheim|Rüsselsheim|Rüsselsheim Opelwerk|Mainz-Bischofsheim|Gustavsburg Am Alten Fährhs., Ginsheim-Gustavsburg|Mainz-Kastel|Bahnhof Römisches Theater, Mainz"/>
+		<dp pt="2502210323" pp="" l="S8E" ppth="Biebrich Bahnhof Wiesbaden Ost, Wiesbaden|Wiesbaden Hbf"/>
+	</s>
+	<s id="2583258734065542966-2502210247-9">
+		<tl t="p" o="B4" c="Bus" n="88810"/>
+		<ar pt="2502210353" pp="" l="S8E" ppth="Kelsterbach|Bahnhof Nordseite, Raunheim|Rüsselsheim|Rüsselsheim Opelwerk|Mainz-Bischofsheim|Gustavsburg Am Alten Fährhs., Ginsheim-Gustavsburg|Mainz-Kastel|Bahnhof Römisches Theater, Mainz"/>
+		<dp pt="2502210353" pp="" l="S8E" ppth="Biebrich Bahnhof Wiesbaden Ost, Wiesbaden|Wiesbaden Hbf"/>
+	</s>
+	<s id="6605738156091480315-2502210323-1">
+		<tl t="p" o="B4" c="Bus" n="805"/>
+		<dp pt="2502210323" pp="" l="S8E" ppth="Bahnhof Römisches Theater, Mainz|Mainz-Bischofsheim|Rüsselsheim Opelwerk|Rüsselsheim|Bahnhof Nordseite, Raunheim|Kelsterbach"/>
+	</s>
+	<s id="4753870957390372842-2502202134-11">
+		<tl f="F" t="p" o="NZ" c="IC" n="60402"/>
+		<ar pt="2502210347" pp="1a/b" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf"/>
+		<dp pt="2502210349" pp="1a/b" ppth="Koblenz Hbf|Bonn-Beuel|Köln Hbf|Eindhoven Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="8868050453695511606-2502202134-11">
+		<tl t="p" o="85" c="NJ" n="402"/>
+		<ar pt="2502210347" pp="1a/b" hi="1" wings="4753870957390372842-2502202134" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf"/>
+		<dp pt="2502210349" pp="1a/b" hi="1" wings="4753870957390372842-2502202134" ppth="Koblenz Hbf|Bonn-Beuel|Köln Hbf|Eindhoven Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+</timetable>
