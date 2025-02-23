@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<timetable station="Göttingen">
+	<s id="-516464000539209768-2502230508-1">
+		<tl f="D" t="p" o="R1" c="ME" n="82812"/>
+		<dp pt="2502230508" pp="6" l="RE2" ppth="Nörten-Hardenberg|Northeim(Han)|Einbeck-Salzderhelden|Kreiensen|Freden(Leine)|Alfeld(Leine)|Banteln|Elze(Han)|Nordstemmen|Sarstedt|Hannover Hbf|Langenhagen Mitte|Isernhagen|Großburgwedel|Celle|Eschede|Unterlüß|Suderburg|Uelzen"/>
+	</s>
+	<s id="-5591597380485360579-2502222059-11">
+		<tl f="F" t="p" o="NZ" c="IC" n="60470"/>
+		<ar pt="2502230542" pp="4" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Bruchsal|Heidelberg Hbf|Darmstadt Hbf"/>
+		<dp pt="2502230544" pp="4" ppth="Hannover Hbf|Nienburg(Weser)|Verden(Aller)|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="1003446772902483359-2502222059-11">
+		<tl t="p" o="85" c="NJ" n="470"/>
+		<ar pt="2502230542" pp="4" wings="-5591597380485360579-2502222059" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Bruchsal|Heidelberg Hbf|Darmstadt Hbf"/>
+		<dp pt="2502230544" pp="4" hi="1" wings="-5591597380485360579-2502222059" ppth="Hannover Hbf|Nienburg(Weser)|Verden(Aller)|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+</timetable>
