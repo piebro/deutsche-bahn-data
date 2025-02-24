@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<timetable station="Göttingen">
+	<s id="5446419279451908244-2502241954-6">
+		<tl f="F" t="p" o="80" c="ICE" n="887"/>
+		<ar pt="2502242200" pp="10" ppth="Hamburg Dammtor|Hamburg Hbf|Lüneburg|Uelzen|Hannover Hbf"/>
+		<dp pt="2502242202" pp="10" ppth="Kassel-Wilhelmshöhe|Fulda|Hanau Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Wiesbaden Hbf"/>
+	</s>
+	<s id="-4528509362927408967-2502242205-6">
+		<tl f="N" t="p" o="N4" c="RB" n="24094"/>
+		<ar pt="2502242243" pp="5" l="87" pde="Bebra" ppth="Eschwege|Eschwege-Niederhone|Bad Sooden-Allendorf|Eichenberg|Friedland(Han)"/>
+	</s>
+	<s id="-4078520201979776142-2502242155-3">
+		<tl t="p" o="B1" c="Bus" n="14022"/>
+		<ar pt="2502242230" pp="" l="RB82" ppth="Northeim(Han)|Nörten-Hardenberg"/>
+	</s>
+	<s id="8849850357444188253-2502242016-8">
+		<tl f="F" t="p" o="80" c="ICE" n="879"/>
+		<ar pt="2502242250" pp="10" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Spandau|Wolfsburg Hbf|Braunschweig Hbf|Hildesheim Hbf"/>
+		<dp pt="2502242252" pp="10" ppth="Kassel-Wilhelmshöhe"/>
+	</s>
+	<s id="-1127662010857074514-2502242136-12">
+		<tl f="D" t="p" o="R1" c="ME" n="82835"/>
+		<ar pt="2502242251" pp="6" l="RE2" ppth="Hannover Hbf|Sarstedt|Nordstemmen|Elze(Han)|Banteln|Alfeld(Leine)|Freden(Leine)|Kreiensen|Einbeck-Salzderhelden|Northeim(Han)|Nörten-Hardenberg"/>
+	</s>
+	<s id="1828768601108687702-2502242214-1">
+		<tl f="N" t="p" o="N4" c="RB" n="24097"/>
+		<dp pt="2502242214" pp="5" l="87" pde="Sontra" ppth="Friedland(Han)|Eichenberg|Bad Sooden-Allendorf|Eschwege-Niederhone|Eschwege"/>
+	</s>
+	<s id="7294013479362593560-2502242209-1">
+		<tl f="D" t="p" o="R1" c="ME" n="82846"/>
+		<dp pt="2502242209" pp="6" l="RE2" ppth="Nörten-Hardenberg|Northeim(Han)|Einbeck-Salzderhelden|Kreiensen|Freden(Leine)|Alfeld(Leine)|Banteln|Elze(Han)|Nordstemmen|Sarstedt|Hannover Hbf"/>
+	</s>
+	<s id="-7111096984085943650-2502242115-3">
+		<tl f="F" t="p" o="80" c="ICE" n="790"/>
+		<ar pt="2502242209" pp="9" ppth="Fulda|Kassel-Wilhelmshöhe"/>
+		<dp pt="2502242210" pp="9" ppth="Hildesheim Hbf|Braunschweig Hbf|Wolfsburg Hbf|Stendal Hbf|Berlin-Spandau|Berlin Zoologischer Garten|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="-7671002063929779381-2502242225-1">
+		<tl t="p" o="B1" c="Bus" n="14029"/>
+		<dp pt="2502242225" pp="" l="RB82" ppth="Nörten-Hardenberg|Northeim(Han)"/>
+	</s>
+	<s id="5913854552999394033-2502242146-11">
+		<tl f="N" t="p" o="N4" c="RB" n="24034"/>
+		<ar pt="2502242243" pp="5" l="83" wings="-4528509362927408967-2502242205" ppth="Kassel Hbf|Vellmar-Niedervellmar|Fuldatal-Ihringshausen|Speele|Hann Münden|Hedemünden|Gertenbach|Witzenhausen Nord|Eichenberg|Friedland(Han)"/>
+	</s>
+	<s id="6992012378128167215-2502241956-5">
+		<tl t="p" o="81" c="NJ" n="40491"/>
+		<ar pt="2502242237" pp="10" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf"/>
+		<dp pt="2502242239" pp="10" ppth="Kassel-Wilhelmshöhe|Würzburg Hbf|Nürnberg Hbf|Augsburg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="-2044723357159653206-2502241956-5">
+		<tl t="p" o="81" c="NJ" n="491"/>
+		<ar pt="2502242237" pp="10" wings="6992012378128167215-2502241956" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf"/>
+		<dp pt="2502242239" pp="10" wings="6992012378128167215-2502241956" ppth="Kassel-Wilhelmshöhe|Würzburg Hbf|Nürnberg Hbf|Regensburg Hbf|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+</timetable>
