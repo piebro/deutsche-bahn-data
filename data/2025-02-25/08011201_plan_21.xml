@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="-6272353519131270189-2502252005-18">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62085"/>
+		<ar pt="2502252143" pp="" l="8" ppth="Elsterwerda|Hohenleipisch|Rückersdorf|Doberlug-Kirchhain|Walddrehna|Luckau-Uckro|Drahnsdorf|Golßen(Niederlausitz)|Klasdorf Glashütte|Baruth(Mark)|Neuhof(b Zossen)|Wünsdorf-Waldstadt|Zossen|Dabendorf|Rangsdorf|Dahlewitz|Blankenfelde(Teltow-Fläming)"/>
+		<dp pt="2502252148" pp="" l="8" ppth="Berlin-Lichterfelde Ost|Berlin Südkreuz"/>
+	</s>
+	<s id="-9026523123890304183-2502252034-4">
+		<tl t="p" o="800165" c="FEX" n="19871"/>
+		<ar pt="2502252104" pp="4" tra="7535029924397126426-2502252109-1" pde="Nauen" ppth="Berlin-Lichtenberg|Berlin Ostkreuz|Berlin-Schöneweide"/>
+	</s>
+	<s id="-1246312238388053590-2502252114-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18172"/>
+		<dp pt="2502252114" pp="3 D-G" l="23" ppth="Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Charlottenburg"/>
+	</s>
+	<s id="1702733222426386686-2502252109-2">
+		<tl f="N" t="p" o="800165" c="RB" n="18135"/>
+		<ar pt="2502252121" pp="4" l="22" ppth="Königs Wusterhausen"/>
+		<dp pt="2502252123" pp="4" l="22" ppth="Ludwigsfelde-Struveshof|Saarmund|Potsdam Pirschheide|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof|Potsdam Hbf"/>
+	</s>
+	<s id="5505348089403655832-2502252128-1">
+		<tl t="p" o="800165" c="FEX" n="19868"/>
+		<dp pt="2502252128" pp="1" tra="-7391961203821279230-2502252105-4" ppth="Berlin-Schöneweide|Berlin Ostkreuz|Berlin-Lichtenberg"/>
+	</s>
+	<s id="-7391961203821279230-2502252105-4">
+		<tl f="N" t="p" o="800165" c="RB" n="18374"/>
+		<ar pt="2502252118" pp="1" l="24" tra="5505348089403655832-2502252128-1" ppth="Rangsdorf|Dahlewitz|Blankenfelde(Teltow-Fläming)"/>
+	</s>
+	<s id="420388843497242401-2502252049-3">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62084"/>
+		<ar pt="2502252113" pp="" l="8" ppth="Berlin Südkreuz|Berlin-Lichterfelde Ost"/>
+		<dp pt="2502252118" pp="" l="8" ppth="Blankenfelde(Teltow-Fläming)|Dahlewitz|Rangsdorf|Dabendorf|Zossen|Wünsdorf-Waldstadt|Neuhof(b Zossen)|Baruth(Mark)"/>
+	</s>
+	<s id="7041708861515459285-2502252105-4">
+		<tl t="p" o="800165" c="FEX" n="19873"/>
+		<ar pt="2502252130" pp="4" tra="8992523295929948948-2502252138-1" ppth="Berlin-Lichtenberg|Berlin Ostkreuz|Berlin-Schöneweide"/>
+	</s>
+	<s id="2271755327039391638-2502252144-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62037"/>
+		<dp pt="2502252144" pp="2" l="8" ppth="Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Spandau|Falkensee|Nauen|Paulinenaue|Friesack(Mark)|Neustadt(Dosse)|Breddin|Glöwen|Bad Wilsnack|Wittenberge"/>
+	</s>
+	<s id="1139779810323429879-2502252139-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18684"/>
+		<ar pt="2502252155" pp="1" l="32" tra="-7704358330040186143-2502252158-1" ppth="Ludwigsfelde|Birkengrund"/>
+	</s>
+	<s id="6670631784435320551-2502252048-8">
+		<tl f="N" t="p" o="800165" c="RB" n="18134"/>
+		<ar pt="2502252136" pp="1" l="22" ppth="Potsdam Hbf|Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Potsdam Pirschheide|Saarmund|Ludwigsfelde-Struveshof"/>
+		<dp pt="2502252138" pp="1" l="22" ppth="Königs Wusterhausen"/>
+	</s>
+	<s id="7535029924397126426-2502252109-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18685"/>
+		<dp pt="2502252109" pp="4" l="32" tra="-9026523123890304183-2502252034-4" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+	<s id="4261148642862347211-2502252027-3">
+		<tl f="N" t="p" o="NZ" c="RE" n="52275"/>
+		<ar pt="2502252050" pp="4" l="17" ppth="Berlin-Lichtenberg|Berlin Ostkreuz"/>
+		<dp pt="2502252101" pp="4" l="17" ppth="Doberlug-Kirchhain|Elsterwerda"/>
+	</s>
+	<s id="5944457552858036889-2502252119-3">
+		<tl f="N" t="p" o="OWRE" c="RE" n="94596"/>
+		<ar pt="2502252141" pp="" l="8" ppth="Berlin Südkreuz|Berlin-Lichterfelde Ost"/>
+		<dp pt="2502252150" pp="" l="8" ppth="Blankenfelde(Teltow-Fläming)|Dahlewitz|Rangsdorf|Dabendorf|Zossen|Wünsdorf-Waldstadt|Neuhof(b Zossen)|Baruth(Mark)|Klasdorf Glashütte|Golßen(Niederlausitz)|Drahnsdorf|Luckau-Uckro|Walddrehna|Doberlug-Kirchhain|Rückersdorf|Hohenleipisch|Elsterwerda"/>
+	</s>
+	<s id="-7704358330040186143-2502252158-1">
+		<tl t="p" o="800165" c="FEX" n="19870"/>
+		<dp pt="2502252158" pp="1" tra="1139779810323429879-2502252139-3" ppth="Berlin-Schöneweide|Berlin Ostkreuz|Berlin-Lichtenberg"/>
+	</s>
+	<s id="8486175913816788878-2502252027-3">
+		<tl f="F" t="p" o="80" c="IC" n="2275"/>
+		<ar pt="2502252050" pp="4" wings="4261148642862347211-2502252027" ppth="Berlin-Lichtenberg|Berlin Ostkreuz"/>
+		<dp pt="2502252101" pp="4" wings="4261148642862347211-2502252027" ppth="Doberlug-Kirchhain|Elsterwerda|Dresden-Neustadt|Dresden Hbf"/>
+	</s>
+	<s id="-4164707025796134307-2502251724-31">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62030"/>
+		<ar pt="2502252115" pp="2" l="8" ppth="Wismar|Dorf Mecklenburg|Bad Kleinen|Lübstorf|Schwerin Hbf|Schwerin Mitte|Schwerin Süd|Holthusen|Sülstorf|Rastow|Lüblow(Meckl)|Ludwigslust|Grabow(Meckl)|Karstädt|Wittenberge|Bad Wilsnack|Glöwen|Breddin|Neustadt(Dosse)|Friesack(Mark)|Paulinenaue|Nauen|Falkensee|Berlin-Spandau|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz"/>
+	</s>
+	<s id="8992523295929948948-2502252138-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18377"/>
+		<dp pt="2502252138" pp="4" l="24" tra="7041708861515459285-2502252105-4" ppth="Blankenfelde(Teltow-Fläming)|Dahlewitz|Rangsdorf"/>
+	</s>
+</timetable>
