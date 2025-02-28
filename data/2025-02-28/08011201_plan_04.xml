@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="6094278819194714827-2502280349-7">
+		<tl f="N" t="p" o="800165" c="RB" n="18340"/>
+		<ar pt="2502280421" pp="1" l="24" ppth="Wünsdorf-Waldstadt|Zossen|Dabendorf|Rangsdorf|Dahlewitz|Blankenfelde(Teltow-Fläming)"/>
+	</s>
+	<s id="976888597252262936-2502280444-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62003"/>
+		<dp pt="2502280444" pp="2" l="8" ppth="Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Spandau|Falkensee|Nauen|Paulinenaue|Friesack(Mark)|Neustadt(Dosse)|Breddin|Glöwen|Bad Wilsnack|Wittenberge|Karstädt|Grabow(Meckl)|Ludwigslust|Lüblow(Meckl)|Rastow|Sülstorf|Holthusen|Schwerin Süd|Schwerin Mitte|Schwerin Hbf|Lübstorf|Bad Kleinen|Dorf Mecklenburg|Wismar"/>
+	</s>
+	<s id="2138088866152133492-2502280439-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18650"/>
+		<ar pt="2502280455" pp="1" l="32" tra="1587664332490671964-2502280458-1" ppth="Ludwigsfelde|Birkengrund"/>
+	</s>
+	<s id="-3663725125142417725-2502280409-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18651"/>
+		<dp pt="2502280409" pp="4" l="32" tra="6396981473835428031-2502280337-3" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+	<s id="1587664332490671964-2502280458-1">
+		<tl t="p" o="800165" c="FEX" n="19802"/>
+		<dp pt="2502280458" pp="1" tra="2138088866152133492-2502280439-3" ppth="Berlin-Schöneweide|Berlin Ostkreuz|Berlin-Lichtenberg"/>
+	</s>
+	<s id="-6375599884650630977-2502280405-4">
+		<tl t="p" o="800165" c="FEX" n="19805"/>
+		<ar pt="2502280430" pp="4" tra="1862343480432810325-2502280437-1" ppth="Berlin-Lichtenberg|Berlin Ostkreuz|Berlin-Schöneweide"/>
+	</s>
+	<s id="1862343480432810325-2502280437-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18343"/>
+		<dp pt="2502280437" pp="4" l="24" tra="-6375599884650630977-2502280405-4" ppth="Blankenfelde(Teltow-Fläming)|Dahlewitz|Rangsdorf|Dabendorf|Wünsdorf-Waldstadt"/>
+	</s>
+	<s id="6396981473835428031-2502280337-3">
+		<tl t="p" o="800165" c="FEX" n="19803"/>
+		<ar pt="2502280403" pp="4" tra="-3663725125142417725-2502280409-1" ppth="Berlin Hbf|Berlin Südkreuz"/>
+	</s>
+</timetable>
