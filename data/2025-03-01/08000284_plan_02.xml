@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<timetable station="Nürnberg Hbf">
+	<s id="455271153470259148-2503010123-10">
+		<tl f="S" t="p" o="800721" c="S" n="58827"/>
+		<ar pt="2503010205" pp="15" l="6" ppth="Neustadt(Aisch)Bahnhof|Neustadt(Aisch)Mitte|Emskirchen|Hagenbüchach|Puschendorf|Siegelsdorf|Fürth-Burgfarrnbach|Fürth-Unterfürberg|Fürth(Bay)Hbf"/>
+	</s>
+	<s id="5485481748956569176-2503010214-14">
+		<tl f="S" t="p" o="800721" c="S" n="39499"/>
+		<ar pt="2503010255" pp="22" l="4" ppth="Ansbach|Sachsen(b Ansbach)|Wicklesgreuth|Petersaurach Nord|Heilsbronn|Raitersaich|Roßtal Wegbrücke|Roßtal|Anwanden|Oberasbach|Unterasbach|Nürnberg-Stein|Nürnberg-Schweinau"/>
+	</s>
+	<s id="3699390662403790359-2503010107-20">
+		<tl f="S" t="p" o="800721" c="S" n="39225"/>
+		<ar pt="2503010208" pp="3" l="1" ppth="Bamberg|Strullendorf|Hirschaid|Buttenheim|Eggolsheim|Forchheim Nord|Forchheim(Oberfr)|Kersbach|Baiersdorf|Bubenreuth|Erlangen|Erlangen Paul-Gossen-Straße|Erlangen-Bruck|Eltersdorf|Vach|Fürth-Klinikum|Fürth(Bay)Hbf|Nürnberg Rothenburger Str.|Nürnberg-Steinbühl"/>
+		<dp pt="2503010210" pp="3" l="1" ppth="Feucht|Feucht Ost|Ochenbruck|Mimberg|Burgthann|Oberferrieden|Postbauer-Heng|Pölling|Neumarkt(Oberpf)"/>
+	</s>
+	<s id="-6918433389801349994-2503010206-1">
+		<tl f="S" t="p" o="800721" c="S" n="39496"/>
+		<dp pt="2503010206" pp="22" l="4" ppth="Nürnberg-Schweinau|Nürnberg-Stein|Unterasbach|Oberasbach|Anwanden|Roßtal|Roßtal Wegbrücke|Raitersaich|Heilsbronn|Petersaurach Nord|Wicklesgreuth|Sachsen(b Ansbach)|Ansbach"/>
+	</s>
+	<s id="-8677182982400525824-2502282046-8">
+		<tl t="p" o="81" c="NJ" n="40420"/>
+		<ar pt="2503010053" pp="4" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Hbf|Augsburg Hbf"/>
+		<dp pt="2503010208" pp="4" ppth="Würzburg Hbf|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="3272146161175325165-2502282046-8">
+		<tl t="p" o="81" c="NJ" n="420"/>
+		<ar pt="2503010053" pp="4" wings="-8677182982400525824-2502282046" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Hbf|Augsburg Hbf"/>
+		<dp pt="2503010204" pp="5" wings="-6813803786124510421-2502282010" ppth="Würzburg Hbf|Kassel-Wilhelmshöhe|Hamm(Westf)Hbf|Münster(Westf)Hbf|Deventer|Amersfoort Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="-1767093700912896446-2503010133-18">
+		<tl f="S" t="p" o="800721" c="S" n="39696"/>
+		<ar pt="2503010217" pp="1" l="2" ppth="Hartmannshof|Pommelsbrunn|Happurg|Hersbruck(l Pegnitz)|Henfenfeld|Ottensoos|Lauf(links Pegnitz)|Lauf West|Röthenbach-Seespitze|Röthenbach-Steinberg|Röthenbach(Pegnitz)|Schwaig|Nürnberg-Laufamholz|Nürnberg-Rehhof|Nürnberg-Mögeldorf|Nürnberg Ostring|Nürnberg-Dürrenhof"/>
+		<dp pt="2503010221" pp="1" l="2" ppth="Nürnberg-Steinbühl|Nürnberg-Sandreuth|Nürnberg-Eibach|Nürnberg-Reichelsdorf|Reichelsdorfer Keller|Katzwang|Schwabach-Limbach|Schwabach|Rednitzhembach|Büchenbach|Roth"/>
+	</s>
+	<s id="7835310557815061402-2503010210-12">
+		<tl f="S" t="p" o="800721" c="S" n="39697"/>
+		<ar pt="2503010238" pp="3" l="2" ppth="Roth|Büchenbach|Rednitzhembach|Schwabach|Schwabach-Limbach|Katzwang|Reichelsdorfer Keller|Nürnberg-Reichelsdorf|Nürnberg-Eibach|Nürnberg-Sandreuth|Nürnberg-Steinbühl"/>
+		<dp pt="2503010243" pp="3" l="2" ppth="Nürnberg-Dürrenhof|Nürnberg Ostring|Nürnberg-Mögeldorf|Nürnberg-Rehhof|Nürnberg-Laufamholz|Schwaig|Röthenbach(Pegnitz)|Röthenbach-Steinberg|Röthenbach-Seespitze|Lauf West|Lauf(links Pegnitz)|Ottensoos|Henfenfeld|Hersbruck(l Pegnitz)|Happurg|Pommelsbrunn|Hartmannshof"/>
+	</s>
+	<s id="-6813803786124510421-2502282010-8">
+		<tl t="p" o="81" c="NJ" n="40490"/>
+		<ar pt="2503010124" pp="5" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Passau Hbf|Regensburg Hbf"/>
+		<dp pt="2503010204" pp="5" ppth="Würzburg Hbf|Kassel-Wilhelmshöhe|Hamm(Westf)Hbf|Münster(Westf)Hbf|Deventer|Amersfoort Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="-7547304040443208216-2502282010-8">
+		<tl t="p" o="81" c="NJ" n="490"/>
+		<ar pt="2503010124" pp="5" wings="-6813803786124510421-2502282010" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Passau Hbf|Regensburg Hbf"/>
+		<dp pt="2503010208" pp="4" wings="-8677182982400525824-2502282046" ppth="Würzburg Hbf|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-453644648962468087-2503010210-10">
+		<tl f="S" t="p" o="800721" c="S" n="39226"/>
+		<ar pt="2503010248" pp="1" l="1" ppth="Neumarkt(Oberpf)|Pölling|Postbauer-Heng|Oberferrieden|Burgthann|Mimberg|Ochenbruck|Feucht Ost|Feucht"/>
+		<dp pt="2503010249" pp="1" l="1" ppth="Nürnberg-Steinbühl|Nürnberg Rothenburger Str.|Fürth(Bay)Hbf|Fürth-Klinikum|Vach|Eltersdorf|Erlangen-Bruck|Erlangen Paul-Gossen-Straße|Erlangen|Bubenreuth|Baiersdorf|Kersbach|Forchheim(Oberfr)|Forchheim Nord|Eggolsheim|Buttenheim|Hirschaid|Strullendorf|Bamberg"/>
+	</s>
+	<s id="-6735702384737515666-2502282310-13">
+		<tl t="p" o="A9" c="Bus" n="214"/>
+		<ar pt="2503010220" pp="" l="EV" ppth="Hauptbahnhof, Regensburg|Etterzhausen Bahnhof, Nittendorf|Undorf Bahnhof, Nittendorf|Bahnhof, Deuerling|Laaber|Bahnhof, Beratzhausen|Mausheim Abzw., Beratzhausen|Bahnhof, Parsberg|Bahnhof, Seubersdorf i.d. Oberpfalz|Batzhausen|Bahnhof, Deining|Bahnhof, Neumarkt i.d. Oberpfalz"/>
+	</s>
+	<s id="-9090977216907339259-2503010232-1">
+		<tl f="S" t="p" o="800721" c="S" n="58828"/>
+		<dp pt="2503010232" pp="15" l="6" ppth="Fürth(Bay)Hbf|Fürth-Unterfürberg|Fürth-Burgfarrnbach|Siegelsdorf|Puschendorf|Hagenbüchach|Emskirchen|Neustadt(Aisch)Mitte|Neustadt(Aisch)Bahnhof"/>
+	</s>
+</timetable>
