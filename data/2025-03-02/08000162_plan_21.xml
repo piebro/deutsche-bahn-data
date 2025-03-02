@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<timetable station="Herford">
+	<s id="8819027153632387369-2503022146-1">
+		<tl t="p" o="W3" c="Bus" n="70839"/>
+		<dp pt="2503022146" pp="" l="EV" ppth="Löhne(Westf)|Bad Oeynhausen|Porta Westfalica|Minden(Westf)"/>
+	</s>
+	<s id="4678566397357734244-2503022034-3">
+		<tl t="p" o="R2" c="Bus" n="6100"/>
+		<ar pt="2503022104" pp="" l="RB61" ppth="Bielefeld Hbf|Brake(b Bielefeld)"/>
+		<dp pt="2503022104" pp="" l="RB61" ppth="Hiddenhausen-Schweicheln|Kirchlengern|Bünde(Westf)"/>
+	</s>
+	<s id="-4560621317688750532-2503022122-4">
+		<tl t="p" o="R2" c="Bus" n="6101"/>
+		<ar pt="2503022154" pp="" l="RB61" ppth="Bünde(Westf)|Kirchlengern|Hiddenhausen-Schweicheln"/>
+		<dp pt="2503022154" pp="" l="RB61" ppth="Brake(b Bielefeld)|Bielefeld Hbf"/>
+	</s>
+	<s id="3987509206643683036-2503022005-10">
+		<tl f="N" t="p" o="R2RB" c="RB" n="89663"/>
+		<ar pt="2503022100" pp="6" l="71" ppth="Rahden|Espelkamp|Lübbecke(Westf)|Bad Holzhausen|Mesch Neue Mühle|Bieren-Rödinghausen|Bünde(Westf)|Kirchlengern|Hiddenhausen-Schweicheln"/>
+		<dp pt="2503022101" pp="6" l="71" ppth="Brake(b Bielefeld)|Bielefeld Hbf"/>
+	</s>
+	<s id="7738103792191820531-2503022010-5">
+		<tl t="p" o="W3" c="Bus" n="70836"/>
+		<ar pt="2503022119" pp="" l="EV" ppth="Minden(Westf)|Porta Westfalica|Bad Oeynhausen|Löhne(Westf)"/>
+	</s>
+	<s id="6645667221475667380-2503022117-1">
+		<tl t="p" o="W3" c="Bus" n="6735"/>
+		<dp pt="2503022117" pp="" l="EV" ppth="Löhne(Westf)|Bad Oeynhausen|Porta Westfalica|Minden(Westf)|Bückeburg|Stadthagen"/>
+	</s>
+	<s id="2045638832177818162-2503022031-5">
+		<tl t="p" o="W3" c="Bus" n="6740"/>
+		<ar pt="2503022140" pp="" l="EV" ppth="Minden(Westf)|Porta Westfalica|Bad Oeynhausen|Löhne(Westf)"/>
+	</s>
+	<s id="3547341801549951413-2503022021-11">
+		<tl f="N" t="p" o="R2RB" c="RB" n="90680"/>
+		<ar pt="2503022127" pp="2" l="72" ppth="Paderborn Hbf|Altenbeken|Steinheim-Sandebeck|Leopoldstal|Horn-Bad Meinberg|Detmold|Lage(Lippe)|Bad Salzuflen-Sylbach|Schötmar|Bad Salzuflen"/>
+	</s>
+	<s id="7800339250684086320-2503022133-1">
+		<tl f="N" t="p" o="R2RB" c="RB" n="90677"/>
+		<dp pt="2503022133" pp="2" l="72" ppth="Bad Salzuflen|Schötmar|Bad Salzuflen-Sylbach|Lage(Lippe)|Detmold|Horn-Bad Meinberg|Leopoldstal|Steinheim-Sandebeck|Altenbeken|Paderborn Hbf"/>
+	</s>
+	<s id="-7294956573682553968-2503021955-11">
+		<tl f="N" t="p" o="NXRE" c="RE" n="89733"/>
+		<ar pt="2503022107" pp="4" l="6" ppth="Dortmund Hbf|Kamen|Hamm(Westf)Hbf|Hamm-Heessen|Ahlen(Westf)|Beckum-Neubeckum|Oelde|Rheda-Wiedenbrück|Gütersloh Hbf|Bielefeld Hbf"/>
+		<dp pt="2503022108" pp="4" l="6" ppth="Löhne(Westf)"/>
+	</s>
+	<s id="4417224664904924561-2503021909-9">
+		<tl f="F" t="p" o="80" c="IC" n="2041"/>
+		<ar pt="2503022127" pp="4" ppth="Köln Hbf|Solingen Hbf|Wuppertal Hbf|Hagen Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Gütersloh Hbf|Bielefeld Hbf"/>
+		<dp pt="2503022128" pp="4" ppth="Bad Oeynhausen|Minden(Westf)|Hannover Hbf"/>
+	</s>
+	<s id="-2819571829187717755-2503022144-2">
+		<tl f="N" t="p" o="NXRE" c="RE" n="89740"/>
+		<ar pt="2503022151" pp="6" l="6" ppth="Löhne(Westf)"/>
+		<dp pt="2503022152" pp="6" l="6" ppth="Bielefeld Hbf"/>
+	</s>
+</timetable>
