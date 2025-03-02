@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<timetable station="Darmstadt Hbf">
+	<s id="1546105376587794681-2503021234-3">
+		<tl f="N" t="p" o="800574" c="RE" n="4665"/>
+		<ar pt="2503021251" pp="10" l="60" ppth="Frankfurt(Main)Hbf|Langen(Hess)"/>
+		<dp pt="2503021253" pp="10" l="60" ppth="Bickenbach(Bergstr)|Zwingenberg(Bergstr)|Bensheim|Heppenheim(Bergstr)|Hemsbach|Weinheim(Bergstr)Hbf|Ladenburg|Neu-Edingen/Friedrichsfeld|Mannheim Hbf"/>
+	</s>
+	<s id="3668429146252643644-2503021242-6">
+		<tl f="S" t="p" o="800528" c="S" n="33833"/>
+		<ar pt="2503021256" pp="" l="6" ppth="Langen(Hess)|Egelsbach|Erzhausen|Darmstadt-Wixhausen|Darmstadt-Arheilgen"/>
+	</s>
+	<s id="-5602752550635686646-2503020927-7">
+		<tl t="p" o="FLX10" c="FLX" n="1244"/>
+		<ar pt="2503021251" pp="5" l="10" ppth="Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Heidelberg Hbf"/>
+		<dp pt="2503021253" pp="5" l="10" ppth="Frankfurt(Main)Süd|Fulda|Bad Hersfeld|Erfurt Hbf|Halle(Saale)Hbf|Berlin Hbf"/>
+	</s>
+	<s id="6655603368374909050-2503021120-19">
+		<tl f="N" t="p" o="800574" c="RB" n="15314"/>
+		<ar pt="2503021228" pp="7" l="68" ppth="Heidelberg Hbf|Heidelberg-Pfaffengrund/Wieblingen|Neu-Edingen/Friedrichsfeld|Ladenburg|Heddesheim/Hirschberg|Weinheim-Lützelsachsen|Weinheim(Bergstr)Hbf|Weinheim-Sulzbach|Hemsbach|Laudenbach(Bergstr)|Heppenheim(Bergstr)|Bensheim|Bensheim-Auerbach|Zwingenberg(Bergstr)|Hähnlein-Alsbach|Bickenbach(Bergstr)|Darmstadt-Eberstadt|Darmstadt Süd"/>
+		<dp pt="2503021230" pp="7" l="68" ppth="Langen(Hess)|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-836406057359441022-2503021115-10">
+		<tl f="N" t="p" o="800574" c="RE" n="4662"/>
+		<ar pt="2503021205" pp="5" l="60" ppth="Mannheim Hbf|Neu-Edingen/Friedrichsfeld|Ladenburg|Weinheim(Bergstr)Hbf|Hemsbach|Heppenheim(Bergstr)|Bensheim|Zwingenberg(Bergstr)|Bickenbach(Bergstr)"/>
+		<dp pt="2503021207" pp="5" l="60" ppth="Langen(Hess)|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="7664716784806827541-2503021212-6">
+		<tl f="S" t="p" o="800528" c="S" n="33831"/>
+		<ar pt="2503021226" pp="" l="6" ppth="Langen(Hess)|Egelsbach|Erzhausen|Darmstadt-Wixhausen|Darmstadt-Arheilgen"/>
+	</s>
+	<s id="-5092787164634469542-2503021235-1">
+		<tl f="S" t="p" o="800528" c="S" n="33836"/>
+		<dp pt="2503021235" pp="" l="6" ppth="Darmstadt-Arheilgen|Darmstadt-Wixhausen|Erzhausen|Egelsbach|Langen(Hess)"/>
+	</s>
+	<s id="-1314672275990659504-2503021205-1">
+		<tl f="S" t="p" o="800528" c="S" n="33834"/>
+		<dp pt="2503021205" pp="" l="6" ppth="Darmstadt-Arheilgen|Darmstadt-Wixhausen|Erzhausen|Egelsbach|Langen(Hess)"/>
+	</s>
+	<s id="6683281867803209767-2503021116-18">
+		<tl f="N" t="p" o="800574" c="RB" n="15414"/>
+		<ar pt="2503021228" pp="7" l="67" wings="6655603368374909050-2503021120" ppth="Schwetzingen|Neu-Edingen/Friedrichsfeld|Ladenburg|Heddesheim/Hirschberg|Weinheim-Lützelsachsen|Weinheim(Bergstr)Hbf|Weinheim-Sulzbach|Hemsbach|Laudenbach(Bergstr)|Heppenheim(Bergstr)|Bensheim|Bensheim-Auerbach|Zwingenberg(Bergstr)|Hähnlein-Alsbach|Bickenbach(Bergstr)|Darmstadt-Eberstadt|Darmstadt Süd"/>
+		<dp pt="2503021230" pp="7" l="67" wings="6655603368374909050-2503021120" ppth="Langen(Hess)|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="7065259282760334107-2503021217-2">
+		<tl f="F" t="p" o="80" c="EC" n="219"/>
+		<ar pt="2503021233" pp="10" ppth="Frankfurt(Main)Hbf"/>
+		<dp pt="2503021235" pp="10" ppth="Bensheim|Weinheim(Bergstr)Hbf|Heidelberg Hbf|Esslingen(Neckar)|Ulm Hbf|Günzburg|Augsburg Hbf|München Hbf|München Ost|Rosenheim|Prien am Chiemsee|Traunstein|Freilassing|Salzburg Hbf|Salzburg Süd|Hallein|Golling-Abtenau|Werfen|Bischofshofen|Radstadt|Schladming|Stainach-Irdning|Liezen|Selzthal|St.Michael in Obersteiermark|Leoben Hbf|Graz Hbf"/>
+	</s>
+	<s id="-2933198606797457443-2503021202-1">
+		<tl t="p" o="R4" c="Bus" n="5482"/>
+		<dp pt="2503021202" pp="" l="RB66" ppth="Darmstadt Süd|Darmstadt-Eberstadt|Pfungstadt"/>
+	</s>
+	<s id="-4998724457607087235-2503021147-11">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="28716"/>
+		<ar pt="2503021227" pp="9" l="RB75" ppth="Aschaffenburg Hbf|Mainaschaff|Stockstadt(Main)|Babenhausen(Hess)|Hergershausen|Altheim(Hess)|Dieburg|Messel|Darmstadt-Kranichstein|Darmstadt Nord"/>
+		<dp pt="2503021238" pp="9" l="RB75" ppth="Weiterstadt|Klein Gerau|Groß Gerau|Nauheim(b Gr.Gerau)|Mainz-Bischofsheim|Mainz-Gustavsburg|Mainz Römisches Theater|Mainz Hbf|Wiesbaden Hbf"/>
+	</s>
+	<s id="6649573421786983444-2503021206-3">
+		<tl f="N" t="p" o="800574" c="RB" n="15317"/>
+		<ar pt="2503021225" pp="10" l="68" wings="2083186520009173094-2503021206" ppth="Frankfurt(Main)Hbf|Langen(Hess)"/>
+		<dp pt="2503021230" pp="10" l="68" wings="2083186520009173094-2503021206" ppth="Darmstadt Süd|Darmstadt-Eberstadt|Bickenbach(Bergstr)|Hähnlein-Alsbach|Zwingenberg(Bergstr)|Bensheim-Auerbach|Bensheim|Heppenheim(Bergstr)|Laudenbach(Bergstr)|Hemsbach|Weinheim-Sulzbach|Weinheim(Bergstr)Hbf|Weinheim-Lützelsachsen|Heddesheim/Hirschberg|Ladenburg|Neu-Edingen/Friedrichsfeld|Heidelberg-Pfaffengrund/Wieblingen|Heidelberg Hbf"/>
+	</s>
+	<s id="6880639992858032713-2503021136-10">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="28715"/>
+		<ar pt="2503021221" pp="8" l="RB75" ppth="Wiesbaden Hbf|Mainz Hbf|Mainz Römisches Theater|Mainz-Gustavsburg|Mainz-Bischofsheim|Nauheim(b Gr.Gerau)|Groß Gerau|Klein Gerau|Weiterstadt"/>
+		<dp pt="2503021231" pp="8" l="RB75" ppth="Darmstadt Nord|Darmstadt-Kranichstein|Messel|Dieburg|Altheim(Hess)|Hergershausen|Babenhausen(Hess)|Stockstadt(Main)|Mainaschaff|Aschaffenburg Hbf"/>
+	</s>
+	<s id="4190393766441019395-2503021235-4">
+		<tl t="p" o="R4" c="Bus" n="5483"/>
+		<ar pt="2503021255" pp="" l="RB66" ppth="Pfungstadt|Darmstadt-Eberstadt|Darmstadt Süd"/>
+	</s>
+	<s id="2083186520009173094-2503021206-3">
+		<tl f="N" t="p" o="800574" c="RB" n="15417"/>
+		<ar pt="2503021225" pp="10" l="67" ppth="Frankfurt(Main)Hbf|Langen(Hess)"/>
+		<dp pt="2503021230" pp="10" l="67" ppth="Darmstadt Süd|Darmstadt-Eberstadt|Bickenbach(Bergstr)|Hähnlein-Alsbach|Zwingenberg(Bergstr)|Bensheim-Auerbach|Bensheim|Heppenheim(Bergstr)|Laudenbach(Bergstr)|Hemsbach|Weinheim-Sulzbach|Weinheim(Bergstr)Hbf|Weinheim-Lützelsachsen|Heddesheim/Hirschberg|Ladenburg|Neu-Edingen/Friedrichsfeld|Schwetzingen"/>
+	</s>
+</timetable>
