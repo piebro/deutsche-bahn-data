@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<timetable station="Oberhausen Hbf">
+	<s id="7564378794179067056-2503020624-5">
+		<tl t="p" o="TDRR" c="Bus" n="65649"/>
+		<ar pt="2503020653" pp="" l="36/44" ppth="Duisburg-Ruhrort|Duisburg-Meiderich Süd|Duisburg-Meiderich Ost|Duisburg-Obermeiderich"/>
+		<dp pt="2503020653" pp="" l="36/44" ppth="Oberhausen-Osterfeld Süd|Bottrop-Vonderort|Bottrop Hbf"/>
+	</s>
+	<s id="3320190301828353084-2503020633-1">
+		<tl f="N" t="p" o="NXRE" c="RE" n="28505"/>
+		<dp pt="2503020633" pp="13" l="5" ppth="Duisburg Hbf"/>
+	</s>
+	<s id="1967019562913876929-2503020521-6">
+		<tl t="p" o="B2" c="Bus" n="3217"/>
+		<ar pt="2503020624" pp="" l="RB32" ppth="Gelsenkirchen Hbf|Essen-Zollverein Nord|Essen-Altenessen|Essen-Bergeborbeck|Essen-Dellwig"/>
+		<dp pt="2503020624" pp="" l="RB32" ppth="Duisburg Hbf"/>
+	</s>
+	<s id="-5484563502096146011-2503020640-1">
+		<tl t="p" o="NX" c="Bus" n="8506"/>
+		<dp pt="2503020640" pp="" l="RE5" ppth="Oberhausen-Sterkrade|Oberhausen-Holten|Dinslaken|Voerde(Niederrhein)|Friedrichsfeld(Niederrhein)|Friedrichsfeld Post, Voerde (Niederrhein)|Friedrichsfeld Bahnhof, Voerde (Niederrhein)|Wesel"/>
+	</s>
+	<s id="-697987823896281960-2503020619-2">
+		<tl f="N" t="p" o="NXRE" c="RE" n="28502"/>
+		<ar pt="2503020624" pp="13" l="5" ppth="Duisburg Hbf"/>
+	</s>
+	<s id="5642966164279390190-2503020608-1">
+		<tl f="D" t="p" o="R4NRN" c="VIA" n="20007"/>
+		<dp pt="2503020608" pp="13" l="RE19" ppth="Duisburg Hbf|Düsseldorf Flughafen|Düsseldorf Hbf"/>
+	</s>
+	<s id="167229356239338391-2503020626-4">
+		<tl f="D" t="p" o="R4NRN" c="VIA" n="20008"/>
+		<ar pt="2503020652" pp="13" l="RE19" ppth="Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf"/>
+	</s>
+	<s id="-3428352176591309326-2503020600-1">
+		<tl t="p" o="R4NRN" c="Bus" n="1906"/>
+		<dp pt="2503020600" pp="" l="RE19" ppth="Oberhausen-Sterkrade|Oberhausen-Holten|Dinslaken|Voerde(Niederrhein)|Friedrichsfeld(Niederrhein)|Friedrichsfeld Post, Voerde (Niederrhein)|Friedrichsfeld Bahnhof, Voerde (Niederrhein)|Wesel|Wesel Feldmark|Mehrhoog|Haldern(Rheinl)|Empel-Rees|Millingen(b Rees)|Praest|Emmerich"/>
+	</s>
+	<s id="3980407984787217295-2503020603-8">
+		<tl f="N" t="p" o="R2RE" c="RE" n="89868"/>
+		<ar pt="2503020642" pp="7" l="3" ppth="Dortmund Hbf|Dortmund-Mengede|Castrop-Rauxel Hbf|Herne|Wanne-Eickel Hbf|Gelsenkirchen Hbf|Essen-Altenessen"/>
+		<dp pt="2503020643" pp="7" l="3" ppth="Duisburg Hbf|Düsseldorf Flughafen|Düsseldorf Hbf"/>
+	</s>
+	<s id="6277753951407147042-2503020600-1">
+		<tl t="p" o="R4NRN" c="Bus" n="2006"/>
+		<dp pt="2503020600" pp="" l="X" ppth="Wesel|Emmerich|Emmerich-Elten|Zevenaar|Arnhem Centraal"/>
+	</s>
+	<s id="246210010640493544-2503020530-4">
+		<tl t="p" o="TDRR" c="Bus" n="65648"/>
+		<ar pt="2503020600" pp="" l="36/44" ppth="Bottrop Hbf|Bottrop-Vonderort|Oberhausen-Osterfeld Süd"/>
+		<dp pt="2503020601" pp="" l="36/44" ppth="Duisburg-Obermeiderich|Duisburg-Meiderich Ost|Duisburg-Meiderich Süd|Duisburg-Ruhrort"/>
+	</s>
+	<s id="6233443961335462622-2503020603-6">
+		<tl f="N" t="p" o="8003L1" c="RB" n="31243"/>
+		<ar pt="2503020619" pp="7" l="32" pde="Dortmund Hbf" ppth="Gelsenkirchen Hbf|Essen-Zollverein Nord|Essen-Altenessen|Essen-Bergeborbeck|Essen-Dellwig"/>
+		<dp pt="2503020620" pp="7" l="32" ppth="Duisburg Hbf"/>
+	</s>
+	<s id="-4205548313517328001-2503020458-9">
+		<tl t="p" o="NX" c="Bus" n="8503"/>
+		<ar pt="2503020618" pp="" l="RE5" ppth="Wesel|Friedrichsfeld Bahnhof, Voerde (Niederrhein)|Friedrichsfeld Post, Voerde (Niederrhein)|Friedrichsfeld(Niederrhein)|Voerde(Niederrhein)|Dinslaken|Oberhausen-Holten|Oberhausen-Sterkrade"/>
+	</s>
+	<s id="-3656784614010702662-2503020617-1">
+		<tl f="S" t="p" o="8003L1" c="S" n="30310"/>
+		<dp pt="2503020617" pp="10" l="3" ppth="Mülheim(Ruhr)Styrum|Mülheim(Ruhr)West|Mülheim(Ruhr)Hbf|Essen-Frohnhausen|Essen West|Essen Hbf|Essen-Steele|Essen-Steele Ost|Essen-Horst|Bochum-Dahlhausen|Hattingen(Ruhr)|Hattingen(Ruhr) Mitte"/>
+	</s>
+	<s id="5761185085428408247-2503020436-16">
+		<tl t="p" o="R4NRN" c="Bus" n="1909"/>
+		<ar pt="2503020658" pp="" l="RE19" ppth="Emmerich|Praest|Millingen(b Rees)|Empel-Rees|Haldern(Rheinl)|Mehrhoog|Wesel Feldmark|Wesel|Friedrichsfeld Bahnhof, Voerde (Niederrhein)|Friedrichsfeld Post, Voerde (Niederrhein)|Friedrichsfeld(Niederrhein)|Voerde(Niederrhein)|Dinslaken|Oberhausen-Holten|Oberhausen-Sterkrade"/>
+	</s>
+	<s id="-9042801060907521028-2503020647-1">
+		<tl f="S" t="p" o="8003L1" c="S" n="30312"/>
+		<dp pt="2503020647" pp="11" l="3" ppth="Mülheim(Ruhr)Styrum|Mülheim(Ruhr)West|Mülheim(Ruhr)Hbf|Essen-Frohnhausen|Essen West|Essen Hbf|Essen-Steele|Essen-Steele Ost|Essen-Horst|Bochum-Dahlhausen|Hattingen(Ruhr)|Hattingen(Ruhr) Mitte"/>
+	</s>
+	<s id="7552950262755971305-2503020634-2">
+		<tl f="N" t="p" o="8003L1" c="RB" n="31246"/>
+		<ar pt="2503020640" pp="6" l="32" ppth="Duisburg Hbf"/>
+		<dp pt="2503020641" pp="6" l="32" pde="Dortmund Hbf" ppth="Essen-Dellwig|Essen-Bergeborbeck|Essen-Altenessen|Essen-Zollverein Nord|Gelsenkirchen Hbf"/>
+	</s>
+	<s id="1052689385281549333-2503020529-3">
+		<tl t="p" o="R4NRN" c="Bus" n="2009"/>
+		<ar pt="2503020658" pp="" l="X" ppth="Emmerich|Wesel"/>
+	</s>
+	<s id="-4901511039416148688-2503020603-13">
+		<tl f="S" t="p" o="8003L1" c="S" n="30311"/>
+		<ar pt="2503020644" pp="10" l="3" ppth="Hattingen(Ruhr) Mitte|Hattingen(Ruhr)|Bochum-Dahlhausen|Essen-Horst|Essen-Steele Ost|Essen-Steele|Essen Hbf|Essen West|Essen-Frohnhausen|Mülheim(Ruhr)Hbf|Mülheim(Ruhr)West|Mülheim(Ruhr)Styrum"/>
+	</s>
+</timetable>
