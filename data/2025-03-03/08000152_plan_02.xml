@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<timetable station="Hannover Hbf">
+	<s id="7633297469939212508-2503030240-1">
+		<tl t="p" o="TDHS" c="Bus" n="5510"/>
+		<dp pt="2503030240" pp="" l="S5" ppth="Hannover-Nordstadt|Hannover-Ledeburg|Hannover-Vinnhorst|Langenhagen Mitte"/>
+	</s>
+	<s id="-5665344241809673775-2503030220-5">
+		<tl t="p" o="TDHS" c="Bus" n="5509"/>
+		<ar pt="2503030253" pp="" l="S5" ppth="Langenhagen Mitte|Hannover-Vinnhorst|Hannover-Ledeburg|Hannover-Nordstadt"/>
+	</s>
+	<s id="4275385698506401374-2503030209-4">
+		<tl f="S" t="p" o="TDHS" c="S" n="34509"/>
+		<ar pt="2503030226" pp="1" l="5" ppth="Hannover Flughafen|Langenhagen Pferdemarkt|Langenhagen Mitte"/>
+	</s>
+	<s id="-7943794576343768944-2503030234-1">
+		<tl f="S" t="p" o="TDHS" c="S" n="34510"/>
+		<dp pt="2503030234" pp="2" l="5" ppth="Langenhagen Pferdemarkt|Hannover Flughafen"/>
+	</s>
+	<s id="4121683295209577191-2503022315-7">
+		<tl f="F" t="p" o="80" c="ICE" n="271"/>
+		<ar pt="2503030137" pp="13" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Spandau|Stendal Hbf|Wolfsburg Hbf"/>
+		<dp pt="2503030210" pp="13" ppth="Göttingen|Kassel-Wilhelmshöhe|Fulda|Hanau Hbf|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB|Sargans|Landquart|Chur"/>
+	</s>
+	<s id="3199623009169073885-2503030011-8">
+		<tl f="F" t="p" o="80" c="ICE" n="101"/>
+		<ar pt="2503030255" pp="12" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Wannsee|Potsdam Hbf|Brandenburg Hbf|Magdeburg Hbf"/>
+		<dp pt="2503030303" pp="12" ppth="Hamm(Westf)Hbf|Dortmund Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Hbf|Frankfurt(M) Flughafen Fernbf|Mannheim Hbf|Karlsruhe Hbf"/>
+	</s>
+	<s id="8850452489523868017-2503022102-12">
+		<tl f="F" t="p" o="80" c="ICE" n="100"/>
+		<ar pt="2503030259" pp="9" ppth="Karlsruhe Hbf|Mannheim Hbf|Frankfurt(M) Flughafen Fernbf|Siegburg/Bonn|Köln Hbf|Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Dortmund Hbf|Hamm(Westf)Hbf"/>
+		<dp pt="2503030302" pp="9" ppth="Magdeburg Hbf|Brandenburg Hbf|Potsdam Hbf|Berlin Zoologischer Garten|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+</timetable>

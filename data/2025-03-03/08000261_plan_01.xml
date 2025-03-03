@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf">
+	<s id="-2957667686167959496-2503021715-16">
+		<tl f="F" t="p" o="80" c="ICE" n="695"/>
+		<ar pt="2503030131" pp="15" ppth="Berlin Gesundbrunnen|Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Leipzig Hbf|Erfurt Hbf|Eisenach Hbf|Fulda|Frankfurt(Main)Hbf|Mannheim Hbf|Stuttgart Hbf|Ulm Hbf|Günzburg|Augsburg Hbf|München-Pasing"/>
+	</s>
+	<s id="484255968888087470-2503030109-3">
+		<tl f="D" t="p" o="A8N" c="ALX" n="94246"/>
+		<ar pt="2503030152" pp="23" l="RE25" ppth="Landshut(Bay)Hbf|Freising"/>
+	</s>
+	<s id="3365409376481099659-2503021915-9">
+		<tl f="F" t="p" o="80" c="ICE" n="635"/>
+		<ar pt="2503030145" pp="15" ppth="Bremen Hbf|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf"/>
+	</s>
+	<s id="-2598752354042315433-2503022026-8">
+		<tl f="F" t="p" o="80" c="ICE" n="685"/>
+		<ar pt="2503030145" pp="15" wings="3365409376481099659-2503021915" ppth="Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf"/>
+	</s>
+</timetable>

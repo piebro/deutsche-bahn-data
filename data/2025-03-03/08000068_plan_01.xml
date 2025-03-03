@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<timetable station="Darmstadt Hbf">
+	<s id="-5591597380485360579-2503021934-10">
+		<tl f="F" t="p" o="NZ" c="IC" n="60470"/>
+		<ar pt="2503030150" pp="5" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Bruchsal|Heidelberg Hbf"/>
+		<dp pt="2503030153" pp="5" ppth="Göttingen|Hannover Hbf|Nienburg(Weser)|Verden(Aller)|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="6232645273329334546-2503030112-6">
+		<tl f="S" t="p" o="800528" c="S" n="33783"/>
+		<ar pt="2503030126" pp="" l="6" ppth="Langen(Hess)|Egelsbach|Erzhausen|Darmstadt-Wixhausen|Darmstadt-Arheilgen"/>
+	</s>
+	<s id="4734708111102040482-2503030105-1">
+		<tl f="S" t="p" o="800528" c="S" n="33786"/>
+		<dp pt="2503030105" pp="" l="6" ppth="Darmstadt-Arheilgen|Darmstadt-Wixhausen|Erzhausen|Egelsbach|Langen(Hess)"/>
+	</s>
+	<s id="1003446772902483359-2503021934-10">
+		<tl t="p" o="85" c="NJ" n="470"/>
+		<ar pt="2503030150" pp="5" hi="1" wings="-5591597380485360579-2503021934" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Bruchsal|Heidelberg Hbf"/>
+		<dp pt="2503030153" pp="5" hi="1" wings="-5591597380485360579-2503021934" ppth="Göttingen|Hannover Hbf|Nienburg(Weser)|Verden(Aller)|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-4491357869215058254-2503030142-6">
+		<tl f="S" t="p" o="800528" c="S" n="33785"/>
+		<ar pt="2503030156" pp="" l="6" ppth="Langen(Hess)|Egelsbach|Erzhausen|Darmstadt-Wixhausen|Darmstadt-Arheilgen"/>
+	</s>
+</timetable>
