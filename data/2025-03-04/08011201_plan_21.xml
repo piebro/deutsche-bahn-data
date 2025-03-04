@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="-1246312238388053590-2503042114-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18172"/>
+		<dp pt="2503042114" pp="3 D-G" l="23" ppth="Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Charlottenburg"/>
+	</s>
+	<s id="8486175913816788878-2503042027-3">
+		<tl f="F" t="p" o="80" c="IC" n="2275"/>
+		<ar pt="2503042050" pp="4" wings="4261148642862347211-2503042027" ppth="Berlin-Lichtenberg|Berlin Ostkreuz"/>
+		<dp pt="2503042101" pp="4" wings="4261148642862347211-2503042027" ppth="Doberlug-Kirchhain|Elsterwerda|Dresden-Neustadt|Dresden Hbf"/>
+	</s>
+	<s id="7041708861515459285-2503042105-4">
+		<tl t="p" o="800165" c="FEX" n="19873"/>
+		<ar pt="2503042130" pp="4" ppth="Berlin-Lichtenberg|Berlin Ostkreuz|Berlin-Schöneweide"/>
+	</s>
+	<s id="7535029924397126426-2503042109-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18685"/>
+		<dp pt="2503042109" pp="4" l="32" tra="-9026523123890304183-2503042034-4" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+	<s id="-9026523123890304183-2503042034-4">
+		<tl t="p" o="800165" c="FEX" n="19871"/>
+		<ar pt="2503042104" pp="4" tra="7535029924397126426-2503042109-1" ppth="Berlin-Lichtenberg|Berlin Ostkreuz|Berlin-Schöneweide"/>
+	</s>
+	<s id="4261148642862347211-2503042027-3">
+		<tl f="N" t="p" o="NZ" c="RE" n="52275"/>
+		<ar pt="2503042050" pp="4" l="17" ppth="Berlin-Lichtenberg|Berlin Ostkreuz"/>
+		<dp pt="2503042101" pp="4" l="17" ppth="Doberlug-Kirchhain|Elsterwerda"/>
+	</s>
+</timetable>

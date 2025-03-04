@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<timetable station="Herford">
+	<s id="8745163817572479565-2503042210-5">
+		<tl t="p" o="W3" c="Bus" n="70838"/>
+		<ar pt="2503042319" pp="" l="EV" ppth="Minden(Westf)|Porta Westfalica|Bad Oeynhausen|Löhne(Westf)"/>
+	</s>
+	<s id="-6608300051659599075-2503042152-11">
+		<tl f="N" t="p" o="NXRE" c="RE" n="89737"/>
+		<ar pt="2503042307" pp="4" l="6" ppth="Dortmund Hbf|Kamen|Hamm(Westf)Hbf|Hamm-Heessen|Ahlen(Westf)|Beckum-Neubeckum|Oelde|Rheda-Wiedenbrück|Gütersloh Hbf|Bielefeld Hbf"/>
+		<dp pt="2503042308" pp="4" l="6" ppth="Löhne(Westf)"/>
+	</s>
+	<s id="-5920271073045631314-2503042312-3">
+		<tl f="N" t="p" o="R2RB" c="RB" n="88286"/>
+		<ar pt="2503042323" pp="1" l="61" ppth="Bielefeld Hbf|Brake(b Bielefeld)"/>
+	</s>
+	<s id="-8957484325052121716-2503041901-12">
+		<tl f="F" t="p" o="80" c="ICE" n="102"/>
+		<ar pt="2503042326" pp="4" ppth="Karlsruhe Hbf|Mannheim Hbf|Frankfurt(M) Flughafen Fernbf|Köln Hbf|Solingen Hbf|Wuppertal Hbf|Hagen Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Gütersloh Hbf|Bielefeld Hbf"/>
+		<dp pt="2503042328" pp="4" ppth="Bad Oeynhausen|Minden(Westf)|Hannover Hbf"/>
+	</s>
+	<s id="-1526882473624203800-2503042336-1">
+		<tl f="N" t="p" o="R2RB" c="RB" n="88285"/>
+		<dp pt="2503042336" pp="3" l="61" ppth="Brake(b Bielefeld)|Bielefeld Hbf"/>
+	</s>
+	<s id="-7065070621393688511-2503042216-5">
+		<tl t="p" o="R2" c="Bus" n="6105"/>
+		<ar pt="2503042304" pp="" l="RB61" ppth="Bruchmühlen|Bünde(Westf)|Kirchlengern|Hiddenhausen-Schweicheln"/>
+	</s>
+	<s id="6596991550584712474-2503042325-3">
+		<tl t="p" o="W3" c="Bus" n="70899"/>
+		<ar pt="2503042351" pp="" l="EV" ppth="Bielefeld Hbf|Brake(b Bielefeld)"/>
+		<dp pt="2503042351" pp="" l="EV" ppth="Löhne(Westf)|Bad Oeynhausen|Porta Westfalica|Minden(Westf)"/>
+	</s>
+	<s id="-876254985661224810-2503042120-13">
+		<tl f="D" t="p" o="W3" c="WFB" n="95838"/>
+		<ar pt="2503042317" pp="6" l="RE70" ppth="Braunschweig Hbf|Vechelde|Peine|Vöhrum|Hämelerwald|Lehrte|Hannover Hbf|Wunstorf|Haste|Stadthagen|Bückeburg|Minden(Westf)"/>
+		<dp pt="2503042320" pp="6" l="RE70" ppth="Bielefeld Hbf"/>
+	</s>
+	<s id="6992638815419571984-2503042343-1">
+		<tl t="p" o="R2" c="Bus" n="6106"/>
+		<dp pt="2503042343" pp="" l="RB61" ppth="Hiddenhausen-Schweicheln|Kirchlengern|Bünde(Westf)|Bruchmühlen"/>
+	</s>
+</timetable>
