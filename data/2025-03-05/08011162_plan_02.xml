@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Ostkreuz">
+	<s id="1633414087353205537-2503050204-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="91742"/>
+		<dp pt="2503050204" pp="1" l="8" tra="2426968161302299329-2503050138-7" ppth="Schönefeld(bei Berlin)"/>
+	</s>
+	<s id="-5615624856482777606-2503050244-2">
+		<tl f="N" t="p" o="OWRE" c="RE" n="91743"/>
+		<ar pt="2503050256" pp="2" l="8" tra="-7959403420151416267-2503050257-1" ppth="Schönefeld(bei Berlin)"/>
+	</s>
+	<s id="-7959403420151416267-2503050257-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62043"/>
+		<dp pt="2503050257" pp="2" l="8" tra="-5615624856482777606-2503050244-2" ppth="Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Charlottenburg"/>
+	</s>
+	<s id="2426968161302299329-2503050138-7">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62042"/>
+		<ar pt="2503050202" pp="1" l="8" tra="1633414087353205537-2503050204-1" ppth="Berlin-Charlottenburg|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof"/>
+	</s>
+</timetable>
