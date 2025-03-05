@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<timetable station="Osnabrück Hbf">
+	<s id="5420395334828793414-2503052211-1">
+		<tl t="p" o="NWBus" c="Bus" n="5188"/>
+		<dp pt="2503052211" pp="" l="RB75" ppth="Osnabrück-Sutthausen|Oesede|Kloster Oesede|Wellendorf"/>
+	</s>
+	<s id="601208318005647306-2503052020-16">
+		<tl f="D" t="p" o="W3" c="WFB" n="95786"/>
+		<ar pt="2503052241" pp="12" l="RE60" ppth="Braunschweig Hbf|Vechelde|Peine|Vöhrum|Hämelerwald|Lehrte|Hannover Hbf|Wunstorf|Haste|Stadthagen|Bückeburg|Minden(Westf)|Kirchlengern|Bünde(Westf)|Melle"/>
+		<dp pt="2503052246" pp="12" l="RE60" ppth="Osnabrück Altstadt|Ibbenbüren-Laggenbeck|Ibbenbüren|Ibbenbüren-Esch|Hörstel|Rheine"/>
+	</s>
+	<s id="5750402792036773694-2503052139-4">
+		<tl f="N" t="p" o="800262" c="RE" n="11517"/>
+		<ar pt="2503052206" pp="11" l="62" ppth="Rheine|Ibbenbüren|Osnabrück Altstadt"/>
+		<dp pt="2503052208" pp="11" l="62" ppth="Melle|Bünde(Westf)|Kirchlengern|Löhne(Westf)"/>
+	</s>
+	<s id="-4619218685635930531-2503052023-13">
+		<tl f="N" t="p" o="800295" c="RE" n="4467"/>
+		<ar pt="2503052227" pp="1" l="9" ppth="Bremerhaven-Lehe|Bremerhaven Hbf|Osterholz-Scharmbeck|Bremen Hbf|Kirchweyhe|Syke|Bassum|Twistringen|Barnstorf(Han)|Diepholz|Lemförde|Bohmte"/>
+	</s>
+	<s id="7968851056265898096-2503052227-1">
+		<tl f="N" t="p" o="800295" c="RE" n="14070"/>
+		<dp pt="2503052227" pp="5 Nord" l="9" ppth="Bohmte|Lemförde|Diepholz|Barnstorf(Han)|Twistringen|Bassum|Syke|Kirchweyhe|Bremen Hbf"/>
+	</s>
+	<s id="5783050236218766401-2503052208-5">
+		<tl t="p" o="NWBus" c="Bus" n="5183"/>
+		<ar pt="2503052247" pp="" l="RB75" ppth="Wellendorf|Kloster Oesede|Oesede|Osnabrück-Sutthausen"/>
+	</s>
+	<s id="-6778490285557656000-2503052220-1">
+		<tl t="p" o="R2" c="Bus" n="6613"/>
+		<dp pt="2503052220" pp="" l="RB66" ppth="Hasbergen|Natrup-Hagen|Lengerich(Westf)|Kattenvenne|Ostbevern|Westbevern|Münster(Westf)Hbf"/>
+	</s>
+	<s id="-225379736867923791-2503052105-8">
+		<tl t="p" o="R2" c="Bus" n="6610"/>
+		<ar pt="2503052259" pp="" l="RB66" ppth="Münster(Westf)Hbf|Westbevern|Ostbevern|Kattenvenne|Lengerich(Westf)|Natrup-Hagen|Hasbergen"/>
+	</s>
+	<s id="-5040855886902453859-2503051527-11">
+		<tl f="F" t="p" o="80" c="ICE" n="514"/>
+		<ar pt="2503052221" pp="3" ppth="München Hbf|München-Pasing|Augsburg Hbf|Ulm Hbf|Stuttgart Hbf|Mannheim Hbf|Frankfurt(M) Flughafen Fernbf|Köln Hbf|Dortmund Hbf|Münster(Westf)Hbf"/>
+		<dp pt="2503052223" pp="3" ppth="Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="6092765153933060006-2503052201-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="75337"/>
+		<dp pt="2503052201" pp="13" l="RE18" ppth="Osnabrück Altstadt|Bramsche|Bersenbrück|Quakenbrück|Essen(Oldb)|Cloppenburg|Ahlhorn|Großenkneten|Huntlosen|Sandkrug|Oldenburg(Oldb)Hbf|Rastede|Jaderberg|Varel(Oldb)|Sande|Wilhelmshaven"/>
+	</s>
+	<s id="8341458247546975375-2503052134-12">
+		<tl f="N" t="p" o="R2RB" c="RB" n="20387"/>
+		<ar pt="2503052245" pp="11" l="61" ppth="Hengelo|Oldenzaal|Bad Bentheim|Schüttorf|Salzbergen|Rheine|Hörstel|Ibbenbüren-Esch|Ibbenbüren|Ibbenbüren-Laggenbeck|Osnabrück Altstadt"/>
+		<dp pt="2503052247" pp="11" l="61" ppth="Wissingen|Westerhausen|Melle|Bruchmühlen|Bünde(Westf)|Kirchlengern|Hiddenhausen-Schweicheln|Herford|Brake(b Bielefeld)|Bielefeld Hbf"/>
+	</s>
+	<s id="2990536952625275411-2503052112-11">
+		<tl f="N" t="p" o="R2RB" c="RB" n="20386"/>
+		<ar pt="2503052212" pp="12" l="61" ppth="Bielefeld Hbf|Brake(b Bielefeld)|Herford|Hiddenhausen-Schweicheln|Kirchlengern|Bünde(Westf)|Bruchmühlen|Melle|Westerhausen|Wissingen"/>
+		<dp pt="2503052214" pp="12" l="61" ppth="Osnabrück Altstadt|Ibbenbüren-Laggenbeck|Ibbenbüren|Ibbenbüren-Esch|Hörstel|Rheine|Salzbergen|Schüttorf|Bad Bentheim|Oldenzaal|Hengelo"/>
+	</s>
+	<s id="-3716388928394116380-2503052019-22">
+		<tl f="D" t="p" o="N1" c="NWB" n="75272"/>
+		<ar pt="2503052234" pp="13" l="RB58" ppth="Bremen Hbf|Bremen Neustadt|Delmenhorst|Ganderkesee|Brettorf|Wildeshausen|Rechterfeld|Goldenstedt(Oldb)|Lutten|Vechta|Lohne(Oldb)|Mühlen(Oldb)|Steinfeld(Oldb)|Holdorf(Oldb)|Neuenkirchen(Oldb)|Rieste|Hesepe|Bramsche|Achmer|Halen|Osnabrück Altstadt"/>
+	</s>
+	<s id="-1480929564094960148-2503052040-17">
+		<tl f="D" t="p" o="N1" c="NWB" n="75332"/>
+		<ar pt="2503052258" pp="14" l="RE18" ppth="Wilhelmshaven|Sande|Varel(Oldb)|Jaderberg|Rastede|Oldenburg(Oldb)Hbf|Sandkrug|Huntlosen|Großenkneten|Ahlhorn|Cloppenburg|Essen(Oldb)|Quakenbrück|Bersenbrück|Bramsche|Osnabrück Altstadt"/>
+	</s>
+</timetable>
