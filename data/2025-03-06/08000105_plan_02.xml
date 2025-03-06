@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<timetable station="Frankfurt(Main)Hbf">
+	<s id="4753870957390372842-2503052134-8">
+		<tl f="F" t="p" o="NZ" c="IC" n="60402"/>
+		<ar pt="2503060245" pp="18" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf"/>
+		<dp pt="2503060313" pp="18" ppth="Frankfurt(M) Flughafen Fernbf|Koblenz Hbf|Bonn-Beuel|Köln Hbf|Eindhoven Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="7108274583246193747-2503052151-9">
+		<tl f="F" t="p" o="80" c="ICE" n="698"/>
+		<ar pt="2503060240" pp="8" ppth="München Hbf|Augsburg Hbf|Günzburg|Ulm Hbf|Stuttgart Hbf|Heidelberg Hbf|Mannheim Hbf|Frankfurt(M) Flughafen Fernbf"/>
+		<dp pt="2503060249" pp="8" ppth="Kassel-Wilhelmshöhe|Halle(Saale)Hbf|Bitterfeld|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="8868050453695511606-2503052134-8">
+		<tl t="p" o="85" c="NJ" n="402"/>
+		<ar pt="2503060245" pp="18" hi="1" wings="4753870957390372842-2503052134" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf"/>
+		<dp pt="2503060313" pp="18" hi="1" wings="4753870957390372842-2503052134" ppth="Frankfurt(M) Flughafen Fernbf|Koblenz Hbf|Bonn-Beuel|Köln Hbf|Eindhoven Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="7582314568044505717-2503051915-8">
+		<tl f="F" t="p" o="NZ" c="IC" n="60403"/>
+		<ar pt="2503060229" pp="19" ppth="Amsterdam Centraal|Utrecht Centraal|Eindhoven Centraal|Köln Hbf|Bonn-Beuel|Koblenz Hbf|Frankfurt(M) Flughafen Fernbf"/>
+		<dp pt="2503060249" pp="19" ppth="Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-5851721557238592488-2503051915-8">
+		<tl t="p" o="84" c="NJ" n="403"/>
+		<ar pt="2503060229" pp="19" hi="1" wings="7582314568044505717-2503051915" ppth="Amsterdam Centraal|Utrecht Centraal|Eindhoven Centraal|Köln Hbf|Bonn-Beuel|Koblenz Hbf|Frankfurt(M) Flughafen Fernbf"/>
+		<dp pt="2503060249" pp="19" hi="1" wings="7582314568044505717-2503051915" ppth="Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+</timetable>
