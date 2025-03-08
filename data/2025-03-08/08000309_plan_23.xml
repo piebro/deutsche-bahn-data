@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<timetable station="Regensburg Hbf">
+	<s id="6831237685329186839-2503082238-13">
+		<tl f="D" t="p" o="A9" c="ag" n="84215"/>
+		<ar pt="2503082331" pp="8" l="RB51" ppth="Neumarkt(Oberpf)|Deining(Oberpf)|Batzhausen|Seubersdorf|Parsberg|Mausheim|Beratzhausen|Laaber|Deuerling|Undorf|Etterzhausen|Regensburg-Prüfening"/>
+	</s>
+	<s id="3581950073516808533-2503082230-5">
+		<tl f="N" t="p" o="8007H3" c="RE" n="4868"/>
+		<ar pt="2503082312" pp="4" l="2" ppth="Landshut(Bay)Hbf|Ergoldsbach|Neufahrn(Niederbay)|Eggmühl"/>
+		<dp pt="2503082322" pp="4" l="2" ppth="Regenstauf|Maxhütte-Haidhof|Schwandorf"/>
+	</s>
+	<s id="7765027423884361562-2503082211-8">
+		<tl f="N" t="p" o="800767" c="RE" n="59495"/>
+		<ar pt="2503082317" pp="9" l="22" tra="8885945001163170193-2503082319-1" ppth="Nürnberg Hbf|Neumarkt(Oberpf)|Parsberg|Beratzhausen|Undorf|Etterzhausen|Regensburg-Prüfening"/>
+	</s>
+	<s id="4776809182740207489-2503082321-6">
+		<tl f="D" t="p" o="A9" c="ag" n="56887"/>
+		<ar pt="2503082337" pp="9" l="RB17" ppth="Bad Abbach|Poikam|Gundelshausen|Sinzing|Regensburg-Prüfening"/>
+	</s>
+	<s id="-7547304040443208216-2503082010-7">
+		<tl t="p" o="81" c="NJ" n="490"/>
+		<ar pt="2503082355" pp="5" wings="-6813803786124510421-2503082010" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Passau Hbf"/>
+		<dp pt="2503082357" pp="5" wings="-6813803786124510421-2503082010" ppth="Nürnberg Hbf|Würzburg Hbf|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg"/>
+	</s>
+	<s id="8428028954903351107-2503081635-12">
+		<tl f="F" t="p" o="80" c="ICE" n="929"/>
+		<ar pt="2503082338" pp="9" ppth="Dortmund Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Messe/Deutz Gl.11-12|Koblenz Hbf|Mainz Hbf|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf|Aschaffenburg Hbf|Würzburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2503082340" pp="9" ppth="Plattling|Passau Hbf"/>
+	</s>
+	<s id="3340206291414855994-2503082216-16">
+		<tl f="N" t="p" o="800767" c="RE" n="57940"/>
+		<ar pt="2503082347" pp="5" l="22" ppth="München Flughafen Terminal|München Flughafen Besucherpark|Freising|Marzling|Langenbach(Oberbay)|Moosburg|Bruckberg|Gündlkofen|Landshut(Bay)Hbf|Ergoldsbach|Neufahrn(Niederbay)|Eggmühl|Hagelstadt|Köfering|Obertraubling"/>
+	</s>
+	<s id="-267266533157360844-2503082310-1">
+		<tl f="D" t="p" o="A9" c="ag" n="56865"/>
+		<dp pt="2503082310" pp="9" l="RB17" ppth="Regensburg-Burgweinting|Obertraubling|Sünching|Radldorf(Niederbay)|Straubing|Straßkirchen|Plattling"/>
+	</s>
+	<s id="3170346184579601852-2503082330-1">
+		<tl f="D" t="p" o="S9" c="ag" n="84114"/>
+		<dp pt="2503082330" pp="1" l="RE50" ppth="Regensburg-Prüfening|Etterzhausen|Undorf|Deuerling|Laaber|Beratzhausen|Mausheim|Parsberg|Seubersdorf|Batzhausen|Deining(Oberpf)|Neumarkt(Oberpf)|Nürnberg Hbf"/>
+	</s>
+	<s id="-5065801516765768983-2503082301-4">
+		<tl f="D" t="p" o="A8N" c="ALX" n="79866"/>
+		<ar pt="2503082335" pp="4" l="RE25" ppth="Schwandorf|Maxhütte-Haidhof|Regenstauf"/>
+		<dp pt="2503082349" pp="4" l="RE25" ppth="Obertraubling|Eggmühl|Neufahrn(Niederbay)|Ergoldsbach|Landshut(Bay)Hbf|Freising|München Hbf"/>
+	</s>
+	<s id="8885945001163170193-2503082319-1">
+		<tl f="N" t="p" o="800767" c="RE" n="57949"/>
+		<dp pt="2503082319" pp="9" l="22" tra="7765027423884361562-2503082211-8" ppth="Regensburg-Burgweinting|Obertraubling|Köfering|Hagelstadt|Eggmühl|Neufahrn(Niederbay)|Ergoldsbach|Landshut(Bay)Hbf"/>
+	</s>
+	<s id="-6813803786124510421-2503082010-7">
+		<tl t="p" o="81" c="NJ" n="40490"/>
+		<ar pt="2503082355" pp="5" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Passau Hbf"/>
+		<dp pt="2503082357" pp="5" ppth="Nürnberg Hbf|Würzburg Hbf|Kassel-Wilhelmshöhe|Hamm(Westf)Hbf|Münster(Westf)Hbf|Deventer|Amersfoort Centraal"/>
+	</s>
+	<s id="8949391598596981859-2503082308-8">
+		<tl f="D" t="p" o="A9" c="ag" n="84216"/>
+		<ar pt="2503082350" pp="1" l="RB51" ppth="Plattling|Straßkirchen|Straubing|Radldorf(Niederbay)|Sünching|Obertraubling|Regensburg-Burgweinting"/>
+	</s>
+</timetable>
