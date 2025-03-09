@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<timetable station="Würzburg Hbf">
+	<s id="-1830150766494017803-2503082023-5">
+		<tl t="p" o="81" c="NJ" n="40491"/>
+		<ar pt="2503090133" pp="6" ppth="Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe"/>
+		<dp pt="2503090148" pp="6" ppth="Nürnberg Hbf|Augsburg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="2288601335607710715-2503082023-5">
+		<tl t="p" o="81" c="NJ" n="491"/>
+		<ar pt="2503090133" pp="6" wings="-1830150766494017803-2503082023" ppth="Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe"/>
+		<dp pt="2503090148" pp="6" wings="-1830150766494017803-2503082023" ppth="Nürnberg Hbf|Regensburg Hbf|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="5002808764059930451-2503082330-27">
+		<tl f="N" t="p" o="800772" c="RE" n="4645"/>
+		<ar pt="2503090128" pp="9" l="54" ppth="Frankfurt(Main)Hbf|Frankfurt(Main)Süd|Frankfurt(Main)Ost|Frankfurt-Mainkur|Maintal West|Maintal Ost|Hanau-Wilhelmsbad|Hanau West|Hanau Hbf|Großauheim(Kr Hanau)|Großkrotzenburg|Kahl(Main)|Dettingen(Main)|Rückersbacher Schlucht|Kleinostheim|Aschaffenburg Hbf|Hösbach|Laufach|Heigenbrücken|Wiesthal|Partenstein|Lohr Bahnhof|Langenprozelten|Gemünden(Main)|Karlstadt(Main)|Retzbach-Zellingen"/>
+	</s>
+	<s id="8209469800275406026-2503082201-4">
+		<tl f="F" t="p" o="80" c="ICE" n="1080"/>
+		<ar pt="2503090117" pp="6" ppth="München Hbf|Ingolstadt Hbf|Nürnberg Hbf"/>
+		<dp pt="2503090120" pp="6" ppth="Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf"/>
+	</s>
+</timetable>
