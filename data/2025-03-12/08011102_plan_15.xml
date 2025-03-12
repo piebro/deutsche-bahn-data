@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Gesundbrunnen">
+	<s id="7810615636994129126-2503121527-3">
+		<tl f="N" t="p" o="NBRB27" c="RB" n="61076"/>
+		<ar pt="2503121550" pp="8" l="27" ppth="Basdorf|Schönerlinde"/>
+	</s>
+	<s id="3410337216855636131-2503121531-3">
+		<tl f="N" t="p" o="NZ" c="RE" n="51072"/>
+		<ar pt="2503121545" pp="6" l="21" ppth="Berlin Südkreuz|Berlin Hbf"/>
+		<dp pt="2503121548" pp="6" l="21" ppth="Bernau(b Berlin)|Eberswalde Hbf|Angermünde|Prenzlau"/>
+	</s>
+	<s id="-3237394639762759024-2503121506-1">
+		<tl f="N" t="p" o="800158" c="RE" n="3336"/>
+		<dp pt="2503121506" pp="6" l="3" ppth="Bernau(b Berlin)|Eberswalde Hbf|Angermünde"/>
+	</s>
+	<s id="7278165848534840281-2503121435-11">
+		<tl f="N" t="p" o="800158" c="RE" n="3350"/>
+		<ar pt="2503121535" pp="10" l="3" ppth="Jüterbog|Luckenwalde|Ludwigsfelde|Birkengrund|Großbeeren|Teltow|Berlin-Lichterfelde Ost|Berlin Südkreuz|Berlin Potsdamer Platz|Berlin Hbf"/>
+		<dp pt="2503121538" pp="10" l="3" ppth="Bernau(b Berlin)|Eberswalde Hbf|Britz|Chorin|Angermünde|Pinnow(Uckermark)|Schwedt(Oder)Mitte|Schwedt(Oder)"/>
+	</s>
+	<s id="5374131658366371247-2503121427-9">
+		<tl f="N" t="p" o="800165" c="RB" n="18619"/>
+		<ar pt="2503121510" pp="10" l="14" ppth="Nauen|Brieselang|Finkenkrug|Falkensee|Seegefeld|Albrechtshof|Berlin-Spandau|Berlin Jungfernheide"/>
+		<dp pt="2503121512" pp="10" l="14" pde="Flughafen BER" ppth="Berlin-Lichtenberg"/>
+	</s>
+	<s id="6031749484906216466-2503121326-7">
+		<tl f="F" t="p" o="80" c="IC" n="2176"/>
+		<ar pt="2503121533" pp="8" ppth="Dresden Hbf|Dresden-Neustadt|Elsterwerda|Doberlug-Kirchhain|Flughafen BER|Berlin Ostkreuz"/>
+		<dp pt="2503121544" pp="8" ppth="Oranienburg|Neustrelitz Hbf|Waren(Müritz)|Rostock Hbf"/>
+	</s>
+	<s id="6405219558271738174-2503121500-1">
+		<tl f="N" t="p" o="NBRB27" c="RB" n="61085"/>
+		<dp pt="2503121500" pp="9" l="27" ppth="Schönerlinde|Schönwalde(Barnim)|Basdorf"/>
+	</s>
+	<s id="4457957377660634660-2503121555-1">
+		<tl f="N" t="p" o="800158" c="RE" n="3514"/>
+		<dp pt="2503121555" pp="10" l="5" ppth="Oranienburg|Löwenberg(Mark)|Gransee|Fürstenberg(Havel)|Neustrelitz Hbf|Blankensee(Meckl)|Cammin(Meckl)|Burg Stargard(Meckl)"/>
+	</s>
+	<s id="-5728366907918492169-2503121219-11">
+		<tl f="F" t="p" o="80" c="ICE" n="1075"/>
+		<ar pt="2503121559" pp="6" wings="-6432755363532012897-2503121454" ppth="Ostseebad Binz|Bergen auf Rügen|Stralsund Hbf|Greifswald|Züssow|Anklam|Pasewalk|Prenzlau|Angermünde|Eberswalde Hbf"/>
+		<dp pt="2503121604" pp="6" hi="1" wings="-6432755363532012897-2503121454" ppth="Berlin Hbf"/>
+	</s>
+	<s id="2264056890572470364-2503121531-3">
+		<tl f="F" t="p" o="80" c="ICE" n="1072"/>
+		<ar pt="2503121545" pp="6" hi="1" wings="3410337216855636131-2503121531" ppth="Berlin Südkreuz|Berlin Hbf"/>
+		<dp pt="2503121548" pp="6" wings="3410337216855636131-2503121531" ppth="Bernau(b Berlin)|Eberswalde Hbf|Angermünde|Prenzlau|Pasewalk|Anklam|Züssow|Greifswald|Stralsund Hbf|Bergen auf Rügen|Ostseebad Binz"/>
+	</s>
+	<s id="298704023283530748-2503121529-2">
+		<tl f="N" t="p" o="800165" c="RB" n="18620"/>
+		<ar pt="2503121540" pp="7" l="14" pde="Flughafen BER" ppth="Berlin-Lichtenberg"/>
+		<dp pt="2503121542" pp="7" l="14" ppth="Berlin Jungfernheide|Berlin-Spandau|Albrechtshof|Seegefeld|Falkensee|Finkenkrug|Brieselang|Nauen"/>
+	</s>
+	<s id="6369012127099086972-2503121436-13">
+		<tl f="N" t="p" o="800165" c="RB" n="18260"/>
+		<ar pt="2503121539" pp="9" l="21" ppth="Potsdam Hbf|Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Marquardt|Priort|Wustermark|Elstal|Dallgow-Döberitz|Berlin-Staaken|Berlin-Spandau|Berlin Jungfernheide"/>
+	</s>
+	<s id="5428913058894445078-2503121234-11">
+		<tl f="N" t="p" o="800158" c="RE" n="4361"/>
+		<ar pt="2503121504" pp="5" l="5" ppth="Rostock Hbf|Güstrow|Langhagen|Waren(Müritz)|Kratzeburg|Neustrelitz Hbf|Fürstenberg(Havel)|Dannenwalde(Gransee)|Gransee|Oranienburg"/>
+	</s>
+	<s id="-6432755363532012897-2503121454-4">
+		<tl f="N" t="p" o="NZ" c="RE" n="51075"/>
+		<ar pt="2503121559" pp="6" l="21" ppth="Prenzlau|Angermünde|Eberswalde Hbf"/>
+		<dp pt="2503121604" pp="6" l="21" ppth="Berlin Hbf"/>
+	</s>
+	<s id="-1131123544761911019-2503121219-23">
+		<tl f="N" t="p" o="800158" c="RE" n="3311"/>
+		<ar pt="2503121522" pp="6" l="3" ppth="Stralsund Hbf|Miltzow|Greifswald|Greifswald Süd|Groß Kiesow|Züssow|Klein Bünzow|Anklam|Ducherow|Ferdinandshof|Jatznick|Pasewalk|Nechlin|Prenzlau|Seehausen(Uckermark)|Warnitz(Uckermark)|Wilmersdorf(Angerm)|Angermünde|Chorin|Britz|Eberswalde Hbf|Bernau(b Berlin)"/>
+		<dp pt="2503121525" pp="6" l="3" ppth="Berlin Hbf|Berlin Potsdamer Platz|Berlin Südkreuz|Berlin-Lichterfelde Ost|Teltow|Großbeeren|Birkengrund|Ludwigsfelde|Luckenwalde|Jüterbog"/>
+	</s>
+	<s id="3734400738937518806-2503121000-13">
+		<tl f="F" t="p" o="84" c="IC" n="145"/>
+		<ar pt="2503121542" pp="10" ppth="Amsterdam Centraal|Hilversum|Amersfoort Centraal|Apeldoorn|Deventer|Hengelo|Bad Bentheim|Rheine|Osnabrück Hbf|Bünde(Westf)|Hannover Hbf|Berlin-Spandau"/>
+	</s>
+	<s id="-9195590069004936627-2503121102-6">
+		<tl f="F" t="p" o="80" c="ICE" n="930"/>
+		<ar pt="2503121507" pp="8" ppth="Frankfurt(Main)Hbf|Erfurt Hbf|Halle(Saale)Hbf|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+</timetable>
