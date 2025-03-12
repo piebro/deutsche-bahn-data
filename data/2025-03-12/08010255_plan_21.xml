@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Ostbahnhof">
+	<s id="5735453695384784814-2503121447-13">
+		<tl f="F" t="p" o="80" c="ICE" n="1053"/>
+		<ar pt="2503122102" pp="6" ppth="Aachen Hbf|Düren|Köln Hbf|Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Wanne-Eickel Hbf|Münster(Westf)Hbf|Osnabrück Hbf|Hannover Hbf|Berlin-Spandau|Berlin Hbf"/>
+	</s>
+	<s id="-157208555968192668-2503121644-8">
+		<tl f="F" t="p" o="80" c="ICE" n="653"/>
+		<ar pt="2503122114" pp="6" ppth="Köln Hbf|Wuppertal Hbf|Hagen Hbf|Bielefeld Hbf|Hannover Hbf|Berlin-Spandau|Berlin Hbf"/>
+	</s>
+	<s id="4748933319574762670-2503122026-11">
+		<tl f="N" t="p" o="OWRE" c="RE" n="93791"/>
+		<ar pt="2503122129" pp="6" l="1" ppth="Frankfurt(Oder)|Frankfurt(Oder)-Rosengarten|Pillgram|Jacobsdorf(Mark)|Briesen(Mark)|Berkenbrück|Fürstenwalde(Spree)|Fangschleuse|Erkner|Berlin Ostkreuz"/>
+		<dp pt="2503122130" pp="6" l="1" ppth="Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Wannsee"/>
+	</s>
+	<s id="4514032599072385676-2503122155-1">
+		<tl t="p" o="080001" c="Bus" n="7002"/>
+		<dp pt="2503122155" pp="" l="S7" ppth="Berlin Jannowitzbrücke|Alexanderplatz (S+U)/Grunerstr., Berlin|Alexanderplatz Bahnhof (S+U)/Memhardstr., Berlin|Berlin Friedrichstraße"/>
+	</s>
+	<s id="483621636183338944-2503122150-1">
+		<tl t="p" o="080001" c="Bus" n="7000"/>
+		<dp pt="2503122150" pp="" l="S7" ppth="Berlin Jannowitzbrücke|Alexanderplatz (S+U)/Grunerstr., Berlin|Alexanderplatz Bahnhof (S+U)/Memhardstr., Berlin|Berlin Friedrichstraße"/>
+	</s>
+	<s id="3114558477905074050-2503122108-5">
+		<tl f="N" t="p" o="OWRE" c="RE" n="93086"/>
+		<ar pt="2503122124" pp="3" l="1" ppth="Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz"/>
+		<dp pt="2503122125" pp="3" l="1" ppth="Berlin Ostkreuz|Erkner|Fangschleuse|Fürstenwalde(Spree)|Berkenbrück|Briesen(Mark)|Jacobsdorf(Mark)|Pillgram|Frankfurt(Oder)-Rosengarten|Frankfurt(Oder)"/>
+	</s>
+	<s id="5128623837400545187-2503122040-7">
+		<tl f="N" t="p" o="OWRE" c="RE" n="93744"/>
+		<ar pt="2503122109" pp="3" l="1" ppth="Berlin-Wannsee|Berlin-Charlottenburg|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz"/>
+		<dp pt="2503122110" pp="3" l="1" ppth="Berlin Ostkreuz|Erkner|Fangschleuse|Hangelsberg|Fürstenwalde(Spree)|Frankfurt(Oder)"/>
+	</s>
+</timetable>

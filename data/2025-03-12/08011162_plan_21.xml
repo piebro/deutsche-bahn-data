@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Ostkreuz">
+	<s id="4391119489554333399-2503122148-1">
+		<tl f="N" t="p" o="NBRB12" c="RB" n="61145"/>
+		<dp pt="2503122148" pp="8" l="12" ppth="Berlin-Lichtenberg|Berlin-Hohenschönhausen|Oranienburg|Sachsenhausen(Nordb)|Nassenheide|Grüneberg|Löwenberg(Mark)|Bergsdorf|Zehdenick(Mark)|Zehdenick-Neuhof|Vogelsang(Kr Oberhavel)|Hammelspring|Templin|Templin Stadt"/>
+	</s>
+	<s id="-8646915411687691101-2503122045-4">
+		<tl f="N" t="p" o="800165" c="RB" n="18235"/>
+		<ar pt="2503122117" pp="13" l="32" ppth="Oranienburg|Berlin-Hohenschönhausen|Berlin-Lichtenberg"/>
+		<dp pt="2503122119" pp="13" l="32" ppth="Berlin-Schöneweide|Schönefeld(bei Berlin)"/>
+	</s>
+	<s id="-7695489387434029533-2503122122-1">
+		<tl f="N" t="p" o="NBRB25" c="RB" n="61225"/>
+		<dp pt="2503122122" pp="7" l="25" ppth="Berlin-Lichtenberg|Ahrensfelde|Ahrensfelde Friedhof|Ahrensfelde Nord|Blumberg-Rehhahn|Blumberg(b Berlin)|Seefeld(Mark)|Werneuchen"/>
+	</s>
+	<s id="7380629469162393216-2503122049-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18332"/>
+		<ar pt="2503122106" pp="14" l="24" ppth="Schönefeld(bei Berlin)|Berlin-Schöneweide"/>
+		<dp pt="2503122108" pp="14" l="24" ppth="Berlin-Lichtenberg"/>
+	</s>
+	<s id="-5012011239870139553-2503122002-16">
+		<tl f="N" t="p" o="51PR" c="RB" n="5182"/>
+		<ar pt="2503122129" pp="7" l="26" ppth="Kostrzyn|Küstrin-Kietz|Gorgast|Golzow(Oderbruch)|Werbig|Seelow-Gusow|Alt Rosenthal|Trebnitz(Mark)|Obersdorf|Müncheberg(Mark)|Rehfelde|Herrensee|Strausberg|Berlin-Mahlsdorf|Berlin-Lichtenberg"/>
+	</s>
+	<s id="2059692089558871499-2503122028-3">
+		<tl f="N" t="p" o="NZ" c="RE" n="50256"/>
+		<ar pt="2503122144" pp="2" l="27" ppth="Elsterwerda|Doberlug-Kirchhain"/>
+		<dp pt="2503122146" pp="2" l="27" ppth="Berlin Hbf"/>
+	</s>
+	<s id="4748933319574762670-2503122026-10">
+		<tl f="N" t="p" o="OWRE" c="RE" n="93791"/>
+		<ar pt="2503122123" pp="2" l="1" ppth="Frankfurt(Oder)|Frankfurt(Oder)-Rosengarten|Pillgram|Jacobsdorf(Mark)|Briesen(Mark)|Berkenbrück|Fürstenwalde(Spree)|Fangschleuse|Erkner"/>
+		<dp pt="2503122125" pp="2" l="1" ppth="Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Wannsee"/>
+	</s>
+	<s id="2974718767128084803-2503121933-15">
+		<tl f="N" t="p" o="NBRB12" c="RB" n="61142"/>
+		<ar pt="2503122103" pp="7" l="12" ppth="Templin Stadt|Templin|Hammelspring|Vogelsang(Kr Oberhavel)|Zehdenick-Neuhof|Zehdenick(Mark)|Bergsdorf|Löwenberg(Mark)|Grüneberg|Nassenheide|Sachsenhausen(Nordb)|Oranienburg|Berlin-Hohenschönhausen|Berlin-Lichtenberg"/>
+	</s>
+	<s id="3114558477905074050-2503122108-6">
+		<tl f="N" t="p" o="OWRE" c="RE" n="93086"/>
+		<ar pt="2503122130" pp="1" l="1" ppth="Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof"/>
+		<dp pt="2503122132" pp="1" l="1" ppth="Erkner|Fangschleuse|Fürstenwalde(Spree)|Berkenbrück|Briesen(Mark)|Jacobsdorf(Mark)|Pillgram|Frankfurt(Oder)-Rosengarten|Frankfurt(Oder)"/>
+	</s>
+	<s id="-921591545879737884-2503121026-22">
+		<tl t="p" o="81" c="RJ" n="256"/>
+		<ar pt="2503122144" pp="2" wings="2059692089558871499-2503122028" ppth="Graz Hbf|Bruck/Mur|Kapfenberg|Mürzzuschlag|Semmering|Wiener Neustadt Hbf|Wien Meidling|Wien Hbf|Breclav|Brno hl.n.|Ceska Trebova|Pardubice hl.n.|Praha hl.n.|Praha-Holesovice|Usti nad Labem hl.n.|Decin hl.n.|Bad Schandau|Dresden Hbf|Dresden-Neustadt|Elsterwerda|Doberlug-Kirchhain"/>
+		<dp pt="2503122146" pp="2" hi="1" wings="2059692089558871499-2503122028" ppth="Berlin Hbf|Berlin-Charlottenburg"/>
+	</s>
+	<s id="5128623837400545187-2503122040-8">
+		<tl f="N" t="p" o="OWRE" c="RE" n="93744"/>
+		<ar pt="2503122113" pp="1" l="1" ppth="Berlin-Wannsee|Berlin-Charlottenburg|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof"/>
+		<dp pt="2503122115" pp="1" l="1" ppth="Erkner|Fangschleuse|Hangelsberg|Fürstenwalde(Spree)|Frankfurt(Oder)"/>
+	</s>
+	<s id="7041708861515459285-2503122105-2">
+		<tl t="p" o="800165" c="FEX" n="19873"/>
+		<ar pt="2503122109" pp="13" ppth="Berlin-Lichtenberg"/>
+		<dp pt="2503122111" pp="13" pde="Rangsdorf" ppth="Berlin-Schöneweide|Flughafen BER"/>
+	</s>
+</timetable>
