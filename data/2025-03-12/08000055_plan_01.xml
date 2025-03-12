@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<timetable station="Bruchsal">
+	<s id="8089787289061971337-2503120048-6">
+		<tl f="S" t="p" o="A6S32" c="S" n="85174"/>
+		<ar pt="2503120110" pp="1b" l="32" wings="-8499285088432056733-2503120048" ppth="Karlsruhe Hbf|Karlsruhe-Durlach|Weingarten(Baden)|Untergrombach|Bruchsal Bildungszentrum"/>
+		<dp pt="2503120112" pp="1b" l="32" wings="-8499285088432056733-2503120048" ppth="Bruchsal Schloßgarten|Bruchsal Stegwiesen|Ubstadt Ort|Ubstadt Salzbrunnenstr|Unteröwisheim M.-Luther-Str.|Unteröwisheim Bf|Oberöwisheim|Münzesheim|Münzesheim Ost|Gochsheim(Baden)|Bahnbrücken|Menzingen(Baden)"/>
+	</s>
+	<s id="-8499285088432056733-2503120048-6">
+		<tl f="S" t="p" o="A6S31" c="S" n="85274"/>
+		<ar pt="2503120110" pp="1b" l="31" ppth="Karlsruhe Hbf|Karlsruhe-Durlach|Weingarten(Baden)|Untergrombach|Bruchsal Bildungszentrum"/>
+		<dp pt="2503120112" pp="1b" l="31" ppth="Bruchsal Schloßgarten|Bruchsal Stegwiesen|Ubstadt Ort|Ubstadt Uhlandstr.|Stettfeld(Baden)|Zeutern Sportplatz|Zeutern Bf|Zeutern Ost|Odenheim West|Odenheim Bf"/>
+	</s>
+	<s id="5234007734129169740-2503120135-1">
+		<tl t="p" o="SBSBUS" c="Bus" n="51285"/>
+		<dp pt="2503120135" pp="" l="EV" ppth="Durlacher Straße, Bruchsal|Bruchsal Schlachthof|Heidelsheim Malzfabrik, Bruchsal|Heidelsheim Marktplatz|Helmsheim B35/Bf|Gondelsheim Graf-Douglas-Straße|Gondelsheim Marktplatz|Diedelsheim, Bretten|Diedelsheim Rathaus, Bretten|Bretten"/>
+	</s>
+	<s id="2274326711152863997-2503112301-10">
+		<tl f="S" t="p" o="801539" c="S" n="38383"/>
+		<ar pt="2503120112" pp="4" l="3" pde="Kaiserslautern Hbf" ppth="Heidelberg Hbf|Heidelberg-Kirchheim/Rohrbach|St Ilgen-Sandhausen|Wiesloch-Walldorf|Rot-Malsch|Bad Schönborn-Kronau|Bad Schönborn Süd|Stettfeld-Weiher|Ubstadt-Weiher"/>
+		<dp pt="2503120113" pp="4" l="3" ppth="Bruchsal Bildungszentrum|Untergrombach|Weingarten(Baden)|Karlsruhe-Durlach|Karlsruhe Hbf"/>
+	</s>
+	<s id="759686388944520445-2503120102-11">
+		<tl t="p" o="SBSBUS" c="Bus" n="51246"/>
+		<ar pt="2503120135" pp="" l="EV" ppth="Bretten|Diedelsheim Rathaus, Bretten|Diedelsheim, Bretten|Gondelsheim Marktplatz|Gondelsheim Graf-Douglas-Straße|Helmsheim B35/Bf|Heidelsheim Marktplatz|Heidelsheim Malzfabrik, Bruchsal|Bruchsal Schlachthof|Durlacher Straße, Bruchsal"/>
+	</s>
+	<s id="7608345763048477547-2503112352-19">
+		<tl t="p" o="SBSBUS" c="Bus" n="51658"/>
+		<ar pt="2503120104" pp="" l="EV" ppth="Busbahnhof, Mühlacker|Ötisheim|Maulbronn West|Ölbronn Hindenburgstr.|Kleinvillars, Knittlingen|Kleinvillars Ortsmitte, Knittlingen|Ruit Knittlinger Straße|Bretten Stadtmitte|Bretten|Diedelsheim Rathaus, Bretten|Diedelsheim, Bretten|Gondelsheim Marktplatz|Gondelsheim Graf-Douglas-Straße|Helmsheim B35/Bf|Heidelsheim Marktplatz|Heidelsheim Malzfabrik, Bruchsal|Bruchsal Schlachthof|Durlacher Straße, Bruchsal"/>
+	</s>
+</timetable>

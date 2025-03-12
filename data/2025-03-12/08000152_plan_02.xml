@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<timetable station="Hannover Hbf">
+	<s id="-7542251644394529376-2503120138-6">
+		<tl t="p" o="TDHS" c="Bus" n="5509"/>
+		<ar pt="2503120223" pp="" l="S5" ppth="Hannover Flughafen|Langenhagen Mitte|Hannover-Vinnhorst|Hannover-Ledeburg|Hannover-Nordstadt"/>
+	</s>
+	<s id="-4768330375831781564-2503120245-1">
+		<tl t="p" o="TDHS" c="Bus" n="5514"/>
+		<dp pt="2503120245" pp="" l="S5" ppth="Hannover-Nordstadt|Hannover-Ledeburg|Hannover-Vinnhorst|Langenhagen Mitte|Hannover Flughafen"/>
+	</s>
+	<s id="4121683295209577191-2503112315-7">
+		<tl f="F" t="p" o="80" c="ICE" n="271"/>
+		<ar pt="2503120137" pp="13" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Spandau|Stendal Hbf|Wolfsburg Hbf"/>
+		<dp pt="2503120210" pp="13" ppth="Göttingen|Fulda|Hanau Hbf|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB|Sargans|Landquart|Chur"/>
+	</s>
+	<s id="8850452489523868017-2503112102-14">
+		<tl f="F" t="p" o="80" c="ICE" n="100"/>
+		<ar pt="2503120223" pp="9" ppth="Karlsruhe Hbf|Mannheim Hbf|Frankfurt(M) Flughafen Fernbf|Siegburg/Bonn|Köln Hbf|Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Bielefeld Hbf|Minden(Westf)"/>
+		<dp pt="2503120240" pp="9" ppth="Berlin Zoologischer Garten|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+</timetable>
