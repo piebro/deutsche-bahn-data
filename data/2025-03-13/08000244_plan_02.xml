@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<timetable station="Mannheim Hbf">
+	<s id="3673026080162824134-2503121912-3">
+		<tl t="p" o="81" c="NJ" n="40469"/>
+		<ar pt="2503130117" pp="2" hi="1" ppth="Paris Est|Strasbourg"/>
+		<dp pt="2503130221" pp="2" hi="1" ppth="Frankfurt(Main)Süd|Erfurt Hbf|Halle(Saale)Hbf|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="2445748007328325452-2503121912-3">
+		<tl t="p" o="81" c="NJ" n="469"/>
+		<ar pt="2503130117" pp="2" hi="1" wings="3673026080162824134-2503121912" ppth="Paris Est|Strasbourg"/>
+		<dp pt="2503130227" pp="2" hi="1" wings="-4775919377312079274-2503121730" ppth="München Ost|Rosenheim|Freilassing|Salzburg Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="-4775919377312079274-2503121730-9">
+		<tl t="p" o="81" c="NJ" n="40425"/>
+		<ar pt="2503130120" pp="" hi="1" ppth="Bruxelles Midi|Bruxelles-Nord|Liège-Guillemins|Aachen Hbf|Köln Hbf|Bonn-Beuel|Koblenz Hbf|Mainz Hbf"/>
+		<dp pt="2503130227" pp="" hi="1" ppth="München Ost|Rosenheim|Freilassing|Salzburg Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="-9061060548328880741-2503121730-9">
+		<tl t="p" o="88" c="NJ" n="425"/>
+		<ar pt="2503130120" pp="2" hi="1" wings="-4775919377312079274-2503121730" ppth="Bruxelles Midi|Bruxelles-Nord|Liège-Guillemins|Aachen Hbf|Köln Hbf|Bonn-Beuel|Koblenz Hbf|Mainz Hbf"/>
+		<dp pt="2503130221" pp="2" hi="1" wings="3673026080162824134-2503121912" ppth="Frankfurt(Main)Süd|Erfurt Hbf|Halle(Saale)Hbf|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="-1696482145472978640-2503121946-14">
+		<tl f="F" t="p" o="80" c="ICE" n="619"/>
+		<ar pt="2503130202" pp="8" ppth="Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Osnabrück Hbf|Münster(Westf)Hbf|Recklinghausen Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Hbf|Siegburg/Bonn|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf"/>
+		<dp pt="2503130204" pp="8" ppth="Heidelberg Hbf|Stuttgart Hbf|Ulm Hbf|Günzburg|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+</timetable>
