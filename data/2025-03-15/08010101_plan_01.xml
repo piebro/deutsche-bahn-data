@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<timetable station="Erfurt Hbf">
+	<s id="9044879416614194813-2503150020-11">
+		<tl f="N" t="p" o="SB" c="RB" n="91382"/>
+		<ar pt="2503150118" pp="8" l="46" ppth="Ilmenau|Ilmenau Pörlitzer Höhe|Ilmenau-Roda|Elgersburg|Geraberg|Plaue(Thür)|Arnstadt Süd|Arnstadt Hbf|Neudietendorf|Erfurt-Bischleben"/>
+	</s>
+	<s id="6560876390095561422-2503150053-6">
+		<tl f="N" t="p" o="SB" c="RB" n="91374"/>
+		<ar pt="2503150118" pp="8" l="44" wings="9044879416614194813-2503150020" ppth="Plaue(Thür)|Arnstadt Süd|Arnstadt Hbf|Neudietendorf|Erfurt-Bischleben"/>
+	</s>
+	<s id="-9099408592995129457-2503142343-14">
+		<tl f="N" t="p" o="AMRB" c="RB" n="74640"/>
+		<ar pt="2503150105" pp="3a" l="20" ppth="Großkorbetha|Weißenfels|Leißling|Naumburg(Saale)Hbf|Bad Kösen|Großheringen|Bad Sulza|Niedertrebra|Apolda|Oßmannstedt|Weimar|Hopfgarten(Weimar)|Vieselbach"/>
+	</s>
+	<s id="-8970221616640311918-2503142026-6">
+		<tl f="F" t="p" o="80" c="ICE" n="1659"/>
+		<ar pt="2503150059" pp="" ppth="Wiesbaden Hbf|Mainz Hbf|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf|Würzburg Hbf"/>
+		<dp pt="2503150104" pp="" ppth="Leipzig Hbf"/>
+	</s>
+</timetable>

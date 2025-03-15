@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<timetable station="Oldenburg(Oldb)Hbf">
+	<s id="3289076546028806639-2503150005-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="83389"/>
+		<dp pt="2503150005" pp="3" l="RS3" ppth="Wüsting|Hude|Bookholzberg|Schierbrok|Hoykenkamp|Delmenhorst|Heidkrug|Bremen Neustadt|Bremen Hbf"/>
+	</s>
+	<s id="-5276714428972672585-2503150003-1">
+		<tl t="p" o="B1" c="Bus" n="9434"/>
+		<dp pt="2503150003" pp="" l="RE1" ppth="Leer(Ostfriesl)|Hauptbahnhof, Emden (Ostfriesland)"/>
+	</s>
+	<s id="-8282505962499090417-2503142315-10">
+		<tl t="p" o="NWBus" c="Bus" n="53386"/>
+		<ar pt="2503150047" pp="" l="EV" ppth="Bremen Hbf|Bremen Neustadt|Heidkrug|Delmenhorst|Hoykenkamp|Schierbrok|Bookholzberg|Hude|Wüsting"/>
+	</s>
+	<s id="-4779857911008727942-2503142301-13">
+		<tl f="D" t="p" o="N1" c="NWB" n="75339"/>
+		<ar pt="2503150029" pp="5" l="RE18" ppth="Osnabrück Hbf|Osnabrück Altstadt|Bramsche|Hesepe|Bersenbrück|Quakenbrück|Essen(Oldb)|Cloppenburg|Ahlhorn|Großenkneten|Huntlosen|Sandkrug"/>
+	</s>
+	<s id="2869769973922245820-2503142032-12">
+		<tl f="F" t="p" o="80" c="ICE" n="540"/>
+		<ar pt="2503150023" pp="4" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Spandau|Stendal Hbf|Wolfsburg Hbf|Hannover Hbf|Nienburg(Weser)|Verden(Aller)|Bremen Hbf|Delmenhorst"/>
+	</s>
+	<s id="-1616170807799540363-2503150006-1">
+		<tl t="p" o="B1" c="Bus" n="4434"/>
+		<dp pt="2503150006" pp="" l="RE1" ppth="Bad Zwischenahn|Westerstede-Ocholt|Augustfehn Bahnhof, Apen|Leer(Ostfriesl)|Hauptbahnhof, Emden (Ostfriesland)"/>
+	</s>
+</timetable>

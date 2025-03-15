@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<timetable station="Fürth(Bay)Hbf">
+	<s id="-2050844061540859286-2503150543-2">
+		<tl f="S" t="p" o="800721" c="S" n="58780"/>
+		<ar pt="2503150550" pp="4" l="6" ppth="Nürnberg Hbf"/>
+		<dp pt="2503150551" pp="4" l="6" ppth="Fürth-Unterfürberg|Fürth-Burgfarrnbach|Siegelsdorf|Puschendorf|Hagenbüchach|Emskirchen|Neustadt(Aisch)Mitte|Neustadt(Aisch)Bahnhof"/>
+	</s>
+	<s id="-7030738507201735165-2503150439-5">
+		<tl f="N" t="p" o="800755" c="RE" n="4961"/>
+		<ar pt="2503150510" pp="3" l="14" ppth="Bamberg|Hirschaid|Forchheim(Oberfr)|Erlangen"/>
+		<dp pt="2503150511" pp="3" l="14" ppth="Nürnberg Hbf"/>
+	</s>
+	<s id="8920093997757020574-2503150507-17">
+		<tl f="S" t="p" o="800721" c="S" n="39107"/>
+		<ar pt="2503150559" pp="21" l="1" ppth="Bamberg|Strullendorf|Hirschaid|Buttenheim|Eggolsheim|Forchheim Nord|Forchheim(Oberfr)|Kersbach|Baiersdorf|Bubenreuth|Erlangen|Erlangen Paul-Gossen-Straße|Erlangen-Bruck|Eltersdorf|Vach|Fürth-Klinikum"/>
+		<dp pt="2503150600" pp="21" l="1" ppth="Nürnberg Rothenburger Str.|Nürnberg-Steinbühl|Nürnberg Hbf|Feucht|Feucht Ost|Ochenbruck|Mimberg|Burgthann|Oberferrieden|Postbauer-Heng|Pölling|Neumarkt(Oberpf)"/>
+	</s>
+	<s id="543420569430149718-2503150347-9">
+		<tl t="p" o="B7" c="Bus" n="58781"/>
+		<ar pt="2503150506" pp="" l="EV" ppth="Markt Bibart|Neustadt(Aisch)Bahnhof|Neustadt(Aisch)Mitte|Emskirchen|Hagenbüchach|Puschendorf|Siegelsdorf|Fürth-Burgfarrnbach"/>
+		<dp pt="2503150506" pp="" l="EV" ppth="Nürnberg Hbf"/>
+	</s>
+	<s id="8082544718772432516-2503150529-2">
+		<tl f="N" t="p" o="800755" c="RE" n="4980"/>
+		<ar pt="2503150535" pp="2" l="14" ppth="Nürnberg Hbf"/>
+		<dp pt="2503150536" pp="2" l="14" ppth="Erlangen|Forchheim(Oberfr)|Hirschaid|Bamberg|Breitengüßbach|Zapfendorf|Ebensfeld|Bad Staffelstein|Lichtenfels|Hochstadt-Marktzeuln|Kronach|Gundelsdorf|Stockheim(Oberfr)|Pressig-Rothenkirchen|Förtschendorf|Steinbach am Wald|Ludwigsstadt|Probstzella|Unterloquitz|Kaulsdorf(Saale)|Breternitz|Saalfeld(Saale)"/>
+	</s>
+	<s id="5773117864158915108-2503150452-13">
+		<tl f="S" t="p" o="800721" c="S" n="39106"/>
+		<ar pt="2503150537" pp="20" l="1" ppth="Neumarkt(Oberpf)|Pölling|Postbauer-Heng|Oberferrieden|Burgthann|Mimberg|Ochenbruck|Feucht Ost|Feucht|Nürnberg Hbf|Nürnberg-Steinbühl|Nürnberg Rothenburger Str."/>
+		<dp pt="2503150538" pp="20" l="1" ppth="Fürth-Klinikum|Vach|Eltersdorf|Erlangen-Bruck|Erlangen Paul-Gossen-Straße|Erlangen"/>
+	</s>
+	<s id="-497925337118696278-2503150529-2">
+		<tl f="N" t="p" o="800755" c="RE" n="4782"/>
+		<ar pt="2503150535" pp="2" l="20" wings="8082544718772432516-2503150529" ppth="Nürnberg Hbf"/>
+		<dp pt="2503150536" pp="2" l="20" wings="8082544718772432516-2503150529" ppth="Erlangen|Forchheim(Oberfr)|Hirschaid|Bamberg|Haßfurt|Schweinfurt Hbf|Würzburg Hbf"/>
+	</s>
+	<s id="-1761970914599042765-2503150512-13">
+		<tl f="S" t="p" o="800721" c="S" n="39108"/>
+		<ar pt="2503150556" pp="20" l="1" ppth="Neumarkt(Oberpf)|Pölling|Postbauer-Heng|Oberferrieden|Burgthann|Mimberg|Ochenbruck|Feucht Ost|Feucht|Nürnberg Hbf|Nürnberg-Steinbühl|Nürnberg Rothenburger Str."/>
+		<dp pt="2503150557" pp="20" l="1" ppth="Fürth-Klinikum|Vach|Eltersdorf|Erlangen-Bruck|Erlangen Paul-Gossen-Straße|Erlangen|Bubenreuth|Baiersdorf|Kersbach|Forchheim(Oberfr)|Forchheim Nord|Eggolsheim|Buttenheim|Hirschaid|Strullendorf|Bamberg"/>
+	</s>
+</timetable>

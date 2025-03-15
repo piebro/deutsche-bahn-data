@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Hbf">
+	<s id="7639501042302955844-2503142009-7">
+		<tl f="F" t="p" o="80" c="ICE" n="1100"/>
+		<ar pt="2503150141" pp="11" ppth="München Hbf|Nürnberg Hbf|Erfurt Hbf|Halle(Saale)Hbf|Berlin-Wannsee|Berlin Zoologischer Garten"/>
+		<dp pt="2503150145" pp="11" hi="1" ppth="Berlin Ostbahnhof"/>
+	</s>
+	<s id="-6022441864414238654-2503150101-4">
+		<tl f="N" t="p" o="OWRE" c="RE" n="93794"/>
+		<ar pt="2503150121" pp="12" l="1" ppth="Berlin-Wannsee|Berlin-Charlottenburg|Berlin Zoologischer Garten"/>
+		<dp pt="2503150123" pp="12" l="1" ppth="Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz|Erkner|Fangschleuse|Hangelsberg|Fürstenwalde(Spree)|Berkenbrück|Briesen(Mark)|Jacobsdorf(Mark)|Pillgram|Frankfurt(Oder)-Rosengarten|Frankfurt(Oder)"/>
+	</s>
+	<s id="1559170705338853654-2503150024-15">
+		<tl f="N" t="p" o="OWRE" c="RE" n="93753"/>
+		<ar pt="2503150139" pp="13" l="1" ppth="Frankfurt(Oder)|Frankfurt(Oder)-Rosengarten|Pillgram|Jacobsdorf(Mark)|Briesen(Mark)|Berkenbrück|Fürstenwalde(Spree)|Hangelsberg|Fangschleuse|Erkner|Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße"/>
+		<dp pt="2503150141" pp="13" l="1" ppth="Berlin Zoologischer Garten|Berlin-Charlottenburg|Berlin-Wannsee"/>
+	</s>
+	<s id="3778695356863398992-2503141950-10">
+		<tl f="F" t="p" o="80" c="ICE" n="947"/>
+		<ar pt="2503150103" pp="11" ppth="Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Hannover Hbf|Wolfsburg Hbf|Berlin-Spandau|Berlin Zoologischer Garten"/>
+		<dp pt="2503150107" pp="11" hi="1" ppth="Berlin Ostbahnhof"/>
+	</s>
+	<s id="1608799031198059101-2503150040-6">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62041"/>
+		<ar pt="2503150113" pp="13" l="8" ppth="Flughafen BER|Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße"/>
+		<dp pt="2503150115" pp="13" l="8" ppth="Berlin Zoologischer Garten|Berlin-Charlottenburg|Berlin-Spandau|Albrechtshof|Seegefeld|Falkensee|Finkenkrug|Brieselang|Nauen"/>
+	</s>
+	<s id="4757722904942764530-2503141957-10">
+		<tl f="F" t="p" o="80" c="ICE" n="657"/>
+		<ar pt="2503150146" pp="11" ppth="Aachen Hbf|Düren|Köln Hbf|Wuppertal Hbf|Hagen Hbf|Hannover Hbf|Wolfsburg Hbf|Berlin-Spandau|Berlin Zoologischer Garten"/>
+		<dp pt="2503150149" pp="11" hi="1" ppth="Berlin Ostbahnhof"/>
+	</s>
+	<s id="8940076016382522010-2503150104-10">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62042"/>
+		<ar pt="2503150146" pp="12" l="8" ppth="Nauen|Brieselang|Finkenkrug|Falkensee|Seegefeld|Albrechtshof|Berlin-Spandau|Berlin-Charlottenburg|Berlin Zoologischer Garten"/>
+		<dp pt="2503150148" pp="12" l="8" ppth="Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz|Flughafen BER"/>
+	</s>
+	<s id="-8808645503446287990-2503150058-2">
+		<tl f="N" t="p" o="800165" c="RE" n="93652"/>
+		<ar pt="2503150103" pp="11" l="7" ppth="Berlin Zoologischer Garten"/>
+		<dp pt="2503150105" pp="11" l="7" ppth="Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz"/>
+	</s>
+	<s id="-2451771813568964797-2503141946-9">
+		<tl f="F" t="p" o="80" c="ICE" n="957"/>
+		<ar pt="2503150103" pp="11" wings="3778695356863398992-2503141950" ppth="Köln Hbf|Wuppertal Hbf|Hagen Hbf|Hamm(Westf)Hbf|Hannover Hbf|Wolfsburg Hbf|Berlin-Spandau|Berlin Zoologischer Garten"/>
+		<dp pt="2503150107" pp="11" hi="1" wings="3778695356863398992-2503141950" ppth="Berlin Ostbahnhof"/>
+	</s>
+	<s id="3916491121868625246-2503150115-6">
+		<tl t="p" o="800165" c="FEX" n="19880"/>
+		<ar pt="2503150146" pp="14" ppth="Flughafen BER|Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße"/>
+		<dp pt="2503150147" pp="14" ppth="Berlin Zoologischer Garten|Berlin-Charlottenburg"/>
+	</s>
+</timetable>
