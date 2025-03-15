@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Hbf">
+	<s id="3068970291511821285-2503151337-4">
+		<tl f="N" t="p" o="NZ" c="RE" n="50933"/>
+		<ar pt="2503151451" pp="5" l="15" ppth="Prenzlau|Angermünde|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="-5972138610189741789-2503151204-3">
+		<tl f="F" t="p" o="80" c="ICE" n="1695"/>
+		<ar pt="2503151353" pp="6" ppth="Hamburg Hbf|Berlin-Spandau"/>
+		<dp pt="2503151401" pp="6" ppth="Berlin Südkreuz|Halle(Saale)Hbf|Erfurt Hbf|Coburg|Nürnberg Hbf|Donauwörth|Augsburg Hbf|München Hbf"/>
+	</s>
+	<s id="5225340137258686286-2503151232-6">
+		<tl f="F" t="p" o="80" c="ICE" n="1601"/>
+		<ar pt="2503151422" pp="7" ppth="Hamburg Hbf|Büchen|Ludwigslust|Wittenberge|Berlin-Spandau"/>
+		<dp pt="2503151427" pp="7" wings="3385058391639482402-2503151021" ppth="Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Leipzig Hbf|Erfurt Hbf|Erlangen|Nürnberg Hbf|München Hbf"/>
+	</s>
+	<s id="3657993984016871147-2503150946-9">
+		<tl f="F" t="p" o="80" c="ICE" n="800"/>
+		<ar pt="2503151422" pp="8" ppth="München Hbf|Ingolstadt Hbf|Nürnberg Hbf|Bamberg|Erfurt Hbf|Halle(Saale)Hbf|Bitterfeld|Berlin Südkreuz"/>
+		<dp pt="2503151436" pp="8" ppth="Berlin-Spandau|Hamburg Hbf"/>
+	</s>
+	<s id="2342573116787471412-2503150838-10">
+		<tl f="F" t="p" o="80" c="ICE" n="1694"/>
+		<ar pt="2503151355" pp="7" ppth="München Hbf|München-Pasing|Augsburg Hbf|Donauwörth|Nürnberg Hbf|Coburg|Erfurt Hbf|Halle(Saale)Hbf|Berlin Südkreuz"/>
+		<dp pt="2503151405" pp="7" ppth="Berlin-Spandau|Hamburg Hbf"/>
+	</s>
+	<s id="-795470299631124600-2503151056-11">
+		<tl f="F" t="p" o="80" c="ICE" n="933"/>
+		<ar pt="2503151451" pp="5" wings="3068970291511821285-2503151337" ppth="Ostseebad Binz|Bergen auf Rügen|Stralsund Hbf|Greifswald|Züssow|Anklam|Pasewalk|Prenzlau|Angermünde|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="3385058391639482402-2503151021-13">
+		<tl f="F" t="p" o="80" c="ICE" n="1711"/>
+		<ar pt="2503151415" pp="7" wings="-8834602605908093710-2503151254" ppth="Ostseebad Binz|Bergen auf Rügen|Stralsund Hbf|Greifswald|Züssow|Anklam|Pasewalk|Prenzlau|Angermünde|Eberswalde Hbf|Bernau(b Berlin)|Berlin Gesundbrunnen"/>
+		<dp pt="2503151427" pp="7" wings="-8834602605908093710-2503151254" ppth="Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Leipzig Hbf|Erfurt Hbf|Erlangen|Nürnberg Hbf|München Hbf"/>
+	</s>
+	<s id="1178538766683133182-2503150606-14">
+		<tl f="F" t="p" o="80" c="ICE" n="2534"/>
+		<ar pt="2503151434" pp="7" ppth="Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Würzburg Hbf|Erfurt Hbf|Leipzig Hbf|Lutherstadt Wittenberg Hbf|Berlin Südkreuz"/>
+		<dp pt="2503151440" pp="7" hi="1" ppth="Berlin Gesundbrunnen"/>
+	</s>
+	<s id="-6539604507256114562-2503150613-13">
+		<tl f="F" t="p" o="81" c="ICE" n="94"/>
+		<ar pt="2503151355" pp="7" wings="2342573116787471412-2503150838" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Passau Hbf|Regensburg Hbf|Nürnberg Hbf|Coburg|Erfurt Hbf|Halle(Saale)Hbf|Berlin Südkreuz"/>
+		<dp pt="2503151405" pp="7" wings="2342573116787471412-2503150838" ppth="Berlin-Spandau|Hamburg Hbf"/>
+	</s>
+	<s id="-323524537261309369-2503151452-2">
+		<tl f="F" t="p" o="80" c="ICE" n="1111"/>
+		<ar pt="2503151456" pp="6" hi="1" ppth="Berlin Gesundbrunnen"/>
+		<dp pt="2503151502" pp="6" ppth="Berlin Südkreuz|Halle(Saale)Hbf|Erfurt Hbf|Nürnberg Hbf"/>
+	</s>
+	<s id="-8834602605908093710-2503151254-6">
+		<tl f="N" t="p" o="NZ" c="RE" n="51711"/>
+		<ar pt="2503151415" pp="7" l="28" ppth="Prenzlau|Angermünde|Eberswalde Hbf|Bernau(b Berlin)|Berlin Gesundbrunnen"/>
+		<dp pt="2503151427" pp="7" l="28" ppth="Berlin Südkreuz"/>
+	</s>
+	<s id="983020091730728350-2503151204-3">
+		<tl f="F" t="p" o="80" c="ICE" n="95"/>
+		<ar pt="2503151353" pp="6" wings="-5972138610189741789-2503151204" ppth="Hamburg Hbf|Berlin-Spandau"/>
+		<dp pt="2503151401" pp="6" wings="-5972138610189741789-2503151204" ppth="Berlin Südkreuz|Halle(Saale)Hbf|Erfurt Hbf|Coburg|Nürnberg Hbf|Regensburg Hbf|Plattling|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="3514107659935101549-2503150958-9">
+		<tl f="F" t="p" o="80" c="ICE" n="2542"/>
+		<ar pt="2503151437" pp="5" ppth="Frankfurt(Main)Hbf|Kassel-Wilhelmshöhe|Göttingen|Hildesheim Hbf|Braunschweig Hbf|Wolfsburg Hbf|Stendal Hbf|Berlin-Spandau"/>
+		<dp pt="2503151440" pp="5" ppth="Berlin Südkreuz"/>
+	</s>
+</timetable>
