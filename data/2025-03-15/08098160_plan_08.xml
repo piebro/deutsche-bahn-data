@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Hbf">
+	<s id="2544998982356218950-2503150857-1">
+		<tl f="F" t="p" o="80" c="ICE" n="837"/>
+		<dp pt="2503150857" pp="5" ppth="Berlin Südkreuz|Halle(Saale)Hbf|Erfurt Hbf|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-1084094223186560071-2503150641-3">
+		<tl t="p" o="FLX35" c="FLX" n="1360"/>
+		<ar pt="2503150803" pp="7" l="35" ppth="Leipzig Hbf|Berlin Südkreuz"/>
+		<dp pt="2503150809" pp="7" l="35" ppth="Hamburg-Bergedorf"/>
+	</s>
+	<s id="-979463545696935694-2503141920-17">
+		<tl t="p" o="81" c="NJ" n="456"/>
+		<ar pt="2503150816" pp="8" wings="-5698565967924214055-2503141930" ppth="Graz Hbf|Bruck/Mur|Mürzzuschlag|Wiener Neustadt Hbf|Wien Hbf|Breclav|Brno hl.n.|Pardubice hl.n.|Praha hl.n.|Praha-Holesovice|Usti nad Labem hl.n.|Decin hl.n.|Bad Schandau|Dresden Hbf|Dresden-Neustadt|Berlin Südkreuz"/>
+	</s>
+	<s id="-7701132928332510424-2503150812-1">
+		<tl f="F" t="p" o="80" c="ICE" n="1003"/>
+		<dp pt="2503150812" pp="6" ppth="Berlin Südkreuz|Nürnberg Hbf|München Hbf"/>
+	</s>
+	<s id="-9061060548328880741-2503141906-12">
+		<tl t="p" o="88" c="NJ" n="425"/>
+		<ar pt="2503150824" pp="7" wings="3673026080162824134-2503141912" ppth="Bruxelles Midi|Bruxelles-Nord|Liège-Guillemins|Aachen Hbf|Köln Hbf|Bonn-Beuel|Koblenz Hbf|Mainz Hbf|Mannheim Hbf|Halle(Saale)Hbf|Berlin Südkreuz"/>
+	</s>
+	<s id="3673026080162824134-2503141912-6">
+		<tl t="p" o="81" c="NJ" n="40469"/>
+		<ar pt="2503150824" pp="7" ppth="Paris Est|Strasbourg|Mannheim Hbf|Halle(Saale)Hbf|Berlin Südkreuz"/>
+	</s>
+	<s id="-511596864634753267-2503150716-4">
+		<tl f="F" t="p" o="80" c="ICE" n="806"/>
+		<ar pt="2503150833" pp="8" ppth="Leipzig Hbf|Lutherstadt Wittenberg Hbf|Berlin Südkreuz"/>
+		<dp pt="2503150836" pp="8" ppth="Berlin-Spandau|Hamburg Hbf"/>
+	</s>
+	<s id="844999617633169979-2503150631-6">
+		<tl f="F" t="p" o="80" c="ICE" n="505"/>
+		<ar pt="2503150820" pp="6" ppth="Hamburg Hbf|Büchen|Ludwigslust|Wittenberge|Berlin-Spandau"/>
+		<dp pt="2503150825" pp="6" ppth="Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Leipzig Hbf|Erfurt Hbf|Bamberg|Erlangen|Nürnberg Hbf|München Hbf"/>
+	</s>
+	<s id="-5698565967924214055-2503141930-18">
+		<tl f="F" t="p" o="55" c="EN" n="40476"/>
+		<ar pt="2503150816" pp="8" ppth="Budapest-Nyugati|Vac|Sturovo|Nove Zamky|Bratislava hl.st.|Kuty|Breclav|Brno hl.n.|Pardubice hl.n.|Praha hl.n.|Praha-Holesovice|Usti nad Labem hl.n.|Decin hl.n.|Bad Schandau|Dresden Hbf|Dresden-Neustadt|Berlin Südkreuz"/>
+	</s>
+</timetable>
