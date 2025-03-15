@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<timetable station="Fulda">
+	<s id="6795910860971448858-2503151911-17">
+		<tl f="N" t="p" o="N4" c="RB" n="24243"/>
+		<ar pt="2503152037" pp="4" l="5" ppth="Kassel Hbf|Kassel-Wilhelmshöhe|Guxhagen|Melsungen|Malsfeld|Malsfeld-Beiseförth|Altmorschen|Heinebach|Rotenburg a.d. Fulda|Lispenhausen|Bebra|Ludwigsau-Friedlos|Bad Hersfeld|Haunetal-Neukirchen|Burghaun(Hünfeld)|Hünfeld"/>
+	</s>
+	<s id="3288545037773066566-2503152020-1">
+		<tl f="N" t="p" o="N4" c="RB" n="24242"/>
+		<dp pt="2503152020" pp="8" l="5" ppth="Hünfeld|Burghaun(Hünfeld)|Haunetal-Neukirchen|Bad Hersfeld|Ludwigsau-Friedlos|Bebra|Lispenhausen|Rotenburg a.d. Fulda|Heinebach|Altmorschen|Malsfeld-Beiseförth|Malsfeld|Melsungen|Guxhagen|Kassel-Wilhelmshöhe|Kassel Hbf"/>
+	</s>
+	<s id="3763506680802059955-2503151812-5">
+		<tl f="F" t="p" o="80" c="ICE" n="885"/>
+		<ar pt="2503152054" pp="4" ppth="Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe"/>
+		<dp pt="2503152056" pp="4" ppth="Würzburg Hbf|Ingolstadt Hbf|München Hbf"/>
+	</s>
+	<s id="6533716776927649369-2503151833-3">
+		<tl f="F" t="p" o="80" c="ICE" n="582"/>
+		<ar pt="2503152001" pp="6" wings="-8609120402991554192-2503151833" ppth="Nürnberg Hbf|Würzburg Hbf"/>
+		<dp pt="2503152003" pp="6" wings="-8609120402991554192-2503151833" ppth="Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg"/>
+	</s>
+	<s id="7902106904120340790-2503151745-31">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="24867"/>
+		<ar pt="2503152039" pp="37" l="RB45" ppth="Aumenau|Fürfurt|Gräveneck|Weilburg|Löhnberg|Stockhausen(Lahn)|Leun/Braunfels|Solms|Albshausen|Wetzlar|Dutenhofen(Wetzlar)|Gießen|Gießen Licher Str|Großen Buseck|Reiskirchen(Kr Gi)|Saasen|Göbelnrod|Grünberg(Oberhess)|Lehnheim|Mücke(Hess)|Nieder-Ohmen|Burg-u. Nieder Gemünden|Ehringshausen(Oberhess)|Zell-Romrod|Alsfeld(Oberhess)|Lauterbach(Hess)Nord|Angersbach|Bad Salzschlirf|Großenlüder|Oberbimbach"/>
+	</s>
+	<s id="-1522805556282568117-2503152020-1">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="29771"/>
+		<dp pt="2503152020" pp="9" l="RB52" ppth="Eichenzell|Welkers|Rönshausen|Lütter|Ried|Schmalnau|Hettenhausen|Altenfeld(Rhön)|Gersfeld(Rhön)"/>
+	</s>
+	<s id="-8609120402991554192-2503151833-3">
+		<tl f="F" t="p" o="80" c="ICE" n="532"/>
+		<ar pt="2503152001" pp="6" ppth="Nürnberg Hbf|Würzburg Hbf"/>
+		<dp pt="2503152003" pp="6" ppth="Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Nienburg(Weser)|Verden(Aller)|Bremen Hbf"/>
+	</s>
+	<s id="-3746817127465080930-2503151411-8">
+		<tl f="F" t="p" o="80" c="ICE" n="2504"/>
+		<ar pt="2503152012" pp="" ppth="München Hbf|München-Pasing|Augsburg Hbf|Ulm Hbf|Stuttgart Hbf|Mannheim Hbf|Frankfurt(Main)Hbf"/>
+		<dp pt="2503152014" pp="" ppth="Kassel-Wilhelmshöhe|Göttingen|Hildesheim Hbf|Braunschweig Hbf|Wolfsburg Hbf|Berlin-Spandau|Berlin Zoologischer Garten|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="-7816007130146005040-2503152010-1">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="24836"/>
+		<dp pt="2503152010" pp="38" l="RB45" ppth="Oberbimbach|Großenlüder|Bad Salzschlirf|Angersbach|Lauterbach(Hess)Nord|Alsfeld(Oberhess)|Zell-Romrod|Ehringshausen(Oberhess)|Burg-u. Nieder Gemünden|Nieder-Ohmen|Mücke(Hess)|Lehnheim|Grünberg(Oberhess)|Göbelnrod|Saasen|Reiskirchen(Kr Gi)|Großen Buseck|Gießen Licher Str|Gießen"/>
+	</s>
+	<s id="5479749642765982453-2503152016-10">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="29770"/>
+		<ar pt="2503152057" pp="9" l="RB52" ppth="Gersfeld(Rhön)|Altenfeld(Rhön)|Hettenhausen|Schmalnau|Ried|Lütter|Rönshausen|Welkers|Eichenzell"/>
+	</s>
+</timetable>
