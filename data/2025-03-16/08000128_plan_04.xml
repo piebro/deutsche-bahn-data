@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<timetable station="Göttingen">
+	<s id="-5591597380485360579-2503152059-11">
+		<tl f="F" t="p" o="NZ" c="IC" n="60470"/>
+		<ar pt="2503160449" pp="4" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Bruchsal|Heidelberg Hbf|Darmstadt Hbf"/>
+		<dp pt="2503160451" pp="4" ppth="Hannover Hbf|Nienburg(Weser)|Verden(Aller)|Bremen Hbf|Hamburg-Harburg"/>
+	</s>
+	<s id="8209469800275406026-2503152222-4">
+		<tl f="F" t="p" o="80" c="ICE" n="1080"/>
+		<ar pt="2503160439" pp="4" ppth="München Hbf|Nürnberg Hbf|Würzburg Hbf"/>
+		<dp pt="2503160441" pp="4" ppth="Hannover Hbf"/>
+	</s>
+	<s id="1003446772902483359-2503152059-11">
+		<tl t="p" o="85" c="NJ" n="470"/>
+		<ar pt="2503160449" pp="4" wings="-5591597380485360579-2503152059" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Bruchsal|Heidelberg Hbf|Darmstadt Hbf"/>
+		<dp pt="2503160451" pp="4" hi="1" wings="-5591597380485360579-2503152059" ppth="Hannover Hbf|Nienburg(Weser)|Verden(Aller)|Bremen Hbf|Hamburg-Harburg"/>
+	</s>
+</timetable>
