@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Hbf">
+	<s id="1980910822671238492-2503161113-11">
+		<tl f="F" t="p" o="80" c="ICE" n="708"/>
+		<ar pt="2503161622" pp="8" ppth="München Hbf|München-Pasing|Augsburg Hbf|Donauwörth|Nürnberg Hbf|Bamberg|Erfurt Hbf|Halle(Saale)Hbf|Bitterfeld|Berlin Südkreuz"/>
+		<dp pt="2503161636" pp="8" ppth="Berlin-Spandau|Hamburg Hbf"/>
+	</s>
+	<s id="8014721459581774259-2503160813-13">
+		<tl f="F" t="p" o="80" c="ICE" n="2522"/>
+		<ar pt="2503161634" pp="7" ppth="Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Würzburg Hbf|Erfurt Hbf|Leipzig Hbf|Lutherstadt Wittenberg Hbf|Berlin Südkreuz"/>
+		<dp pt="2503161639" pp="7" hi="1" ppth="Berlin Gesundbrunnen"/>
+	</s>
+	<s id="161175387118129149-2503161201-9">
+		<tl f="F" t="p" o="80" c="ICE" n="2548"/>
+		<ar pt="2503161638" pp="5" ppth="Frankfurt(Main)Hbf|Kassel-Wilhelmshöhe|Göttingen|Hildesheim Hbf|Braunschweig Hbf|Wolfsburg Hbf|Stendal Hbf|Berlin-Spandau"/>
+		<dp pt="2503161641" pp="5" ppth="Berlin Südkreuz"/>
+	</s>
+	<s id="-7029968941391677408-2503161642-2">
+		<tl f="F" t="p" o="80" c="ICE" n="1113"/>
+		<ar pt="2503161649" pp="5" hi="1" ppth="Berlin Gesundbrunnen"/>
+		<dp pt="2503161657" pp="5" ppth="Berlin Südkreuz|Halle(Saale)Hbf|Erfurt Hbf|Nürnberg Hbf|München Hbf"/>
+	</s>
+	<s id="-1429225085830587754-2503161435-3">
+		<tl f="F" t="p" o="80" c="ICE" n="603"/>
+		<ar pt="2503161620" pp="6" ppth="Hamburg Hbf|Berlin-Spandau"/>
+		<dp pt="2503161626" pp="6" ppth="Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Leipzig Hbf|Erfurt Hbf|Bamberg|Erlangen|Nürnberg Hbf|München Hbf"/>
+	</s>
+	<s id="-6432755363532012897-2503161454-5">
+		<tl f="N" t="p" o="NZ" c="RE" n="51075"/>
+		<ar pt="2503161609" pp="5" l="21" ppth="Prenzlau|Angermünde|Eberswalde Hbf|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="-5728366907918492169-2503161219-12">
+		<tl f="F" t="p" o="80" c="ICE" n="1075"/>
+		<ar pt="2503161609" pp="5" wings="-6432755363532012897-2503161454" ppth="Ostseebad Binz|Bergen auf Rügen|Stralsund Hbf|Greifswald|Züssow|Anklam|Pasewalk|Prenzlau|Angermünde|Eberswalde Hbf|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="-8313994063514605243-2503161611-1">
+		<tl f="F" t="p" o="80" c="ICE" n="1007"/>
+		<dp pt="2503161611" pp="7" ppth="Berlin Südkreuz|Nürnberg Hbf|München Hbf"/>
+	</s>
+</timetable>
