@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<timetable station="Mainz Hbf">
+	<s id="4753870957390372842-2503172134-11">
+		<tl f="F" t="p" o="NZ" c="IC" n="60402"/>
+		<ar pt="2503180347" pp="1a/b" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf"/>
+		<dp pt="2503180349" pp="1a/b" ppth="Koblenz Hbf|Bonn-Beuel|Köln Hbf|Eindhoven Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="8868050453695511606-2503172134-11">
+		<tl t="p" o="85" c="NJ" n="402"/>
+		<ar pt="2503180347" pp="1a/b" hi="1" wings="4753870957390372842-2503172134" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf"/>
+		<dp pt="2503180349" pp="1a/b" hi="1" wings="4753870957390372842-2503172134" ppth="Koblenz Hbf|Bonn-Beuel|Köln Hbf|Eindhoven Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="4516837953224946704-2503180343-1">
+		<tl t="p" o="B4" c="Bus" n="893"/>
+		<dp pt="2503180343" pp="" l="S8E" ppth="Bahnhof Römisches Theater, Mainz|Mainz-Bischofsheim|Rüsselsheim Opelwerk|Rüsselsheim|Bahnhof Nordseite, Raunheim|Kelsterbach|Flughafen Terminal 1, Frankfurt a.M."/>
+	</s>
+	<s id="7245751139318006777-2503180313-1">
+		<tl t="p" o="B4" c="Bus" n="891"/>
+		<dp pt="2503180313" pp="" l="S8E" ppth="Bahnhof Römisches Theater, Mainz|Mainz-Bischofsheim|Rüsselsheim Opelwerk|Rüsselsheim|Bahnhof Nordseite, Raunheim|Kelsterbach|Flughafen Terminal 1, Frankfurt a.M."/>
+	</s>
+	<s id="-1128006259884877731-2503180206-11">
+		<tl t="p" o="B4" c="Bus" n="888"/>
+		<ar pt="2503180332" pp="" l="S8E" ppth="Frankfurt(Main)-Gateway Gardens|Flughafen Terminal 1, Frankfurt a.M.|Kelsterbach|Bahnhof Nordseite, Raunheim|Rüsselsheim|Rüsselsheim Opelwerk|Mainz-Bischofsheim|Gustavsburg Am Alten Fährhs., Ginsheim-Gustavsburg|Mainz-Kastel|Bahnhof Römisches Theater, Mainz"/>
+		<dp pt="2503180332" pp="" l="S8E" ppth="Biebrich Bahnhof Wiesbaden Ost, Wiesbaden|Wiesbaden Hbf"/>
+	</s>
+</timetable>

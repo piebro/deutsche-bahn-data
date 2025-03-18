@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Hbf">
+	<s id="5597303123860052865-2503171926-12">
+		<tl f="F" t="p" o="80" c="ICE" n="947"/>
+		<ar pt="2503180018" pp="11" ppth="Köln Hbf|Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Bielefeld Hbf|Hannover Hbf|Wolfsburg Hbf|Berlin-Spandau|Berlin Zoologischer Garten"/>
+		<dp pt="2503180022" pp="11" hi="1" ppth="Berlin Ostbahnhof"/>
+	</s>
+	<s id="-7260953034263185039-2503172009-12">
+		<tl f="F" t="p" o="80" c="ICE" n="790"/>
+		<ar pt="2503180043" pp="11" ppth="Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Süd|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hildesheim Hbf|Braunschweig Hbf|Wolfsburg Hbf|Stendal Hbf|Berlin-Spandau|Berlin Zoologischer Garten"/>
+		<dp pt="2503180046" pp="11" hi="1" ppth="Berlin Ostbahnhof"/>
+	</s>
+	<s id="-5194156004862660093-2503172125-26">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62038"/>
+		<ar pt="2503180038" pp="12" l="8" ppth="Wismar|Dorf Mecklenburg|Bad Kleinen|Lübstorf|Schwerin Hbf|Schwerin Mitte|Schwerin Süd|Holthusen|Sülstorf|Rastow|Lüblow(Meckl)|Ludwigslust|Grabow(Meckl)|Karstädt|Wittenberge|Bad Wilsnack|Glöwen|Breddin|Neustadt(Dosse)|Friesack(Mark)|Paulinenaue|Nauen|Falkensee|Berlin-Spandau|Berlin Zoologischer Garten"/>
+		<dp pt="2503180040" pp="12" l="8" ppth="Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz|Flughafen BER"/>
+	</s>
+	<s id="-4788967137190903769-2503180006-6">
+		<tl t="p" o="800165" c="FEX" n="94526"/>
+		<ar pt="2503180033" pp="" ppth="Schönefeld(bei Berlin)|Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße"/>
+		<dp pt="2503180034" pp="" ppth="Berlin Zoologischer Garten|Berlin-Charlottenburg"/>
+	</s>
+	<s id="-1265823008982761148-2503180030-4">
+		<tl f="N" t="p" o="OWRE" c="RE" n="93797"/>
+		<ar pt="2503180039" pp="" l="1" ppth="Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße"/>
+		<dp pt="2503180044" pp="" l="1" ppth="Berlin Zoologischer Garten|Berlin-Charlottenburg|Berlin-Wannsee"/>
+	</s>
+	<s id="4766668665631721788-2503180005-4">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62045"/>
+		<ar pt="2503180015" pp="14" l="8" ppth="Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße"/>
+		<dp pt="2503180016" pp="14" l="8" ppth="Berlin Zoologischer Garten|Berlin-Charlottenburg|Berlin-Spandau|Albrechtshof|Seegefeld|Falkensee|Finkenkrug|Brieselang|Nauen"/>
+	</s>
+</timetable>

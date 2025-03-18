@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<timetable station="Rosenheim">
+	<s id="-7226604022876462423-2503172029-6">
+		<tl f="F" t="p" o="78" c="EN" n="40237"/>
+		<ar pt="2503180031" pp="4" ppth="Stuttgart Hbf|Göppingen|Ulm Hbf|Augsburg Hbf|München Ost"/>
+		<dp pt="2503180033" pp="4" ppth="Salzburg Hbf|Selzthal|Leoben Hbf|Graz Hbf|Maribor|Pragersko|Celje|Sevnica|Krsko|Dobova|Zapresic|Zagreb Glavni kolodvor"/>
+	</s>
+	<s id="6746955278691408993-2503172029-6">
+		<tl f="F" t="p" o="55" c="EN" n="50237"/>
+		<ar pt="2503180031" pp="4" ppth="Stuttgart Hbf|Göppingen|Ulm Hbf|Augsburg Hbf|München Ost"/>
+		<dp pt="2503180033" pp="4" ppth="Salzburg Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf|Hegyeshalom|Mosonmagyarovar|Györ|Tatabanya|Budapest-Kelenföld|Budapest-Keleti"/>
+	</s>
+	<s id="9058812738668447209-2503180046-1">
+		<tl t="p" o="M8" c="Bus" n="60197"/>
+		<dp pt="2503180046" pp="" l="EV" ppth="Raubling|Brannenburg"/>
+	</s>
+	<s id="5949417852042325682-2503172029-6">
+		<tl t="p" o="81" c="NJ" n="237"/>
+		<ar pt="2503180031" pp="4" hi="1" wings="-7226604022876462423-2503172029|6746955278691408993-2503172029" ppth="Stuttgart Hbf|Göppingen|Ulm Hbf|Augsburg Hbf|München Ost"/>
+		<dp pt="2503180033" pp="4" hi="1" wings="-7226604022876462423-2503172029|6746955278691408993-2503172029" ppth="Salzburg Hbf"/>
+	</s>
+	<s id="2931906224447066494-2503172252-11">
+		<tl f="D" t="p" o="M8" c="BRB" n="79048"/>
+		<ar pt="2503180009" pp="1" l="RE5" ppth="Salzburg Hbf|Salzburg Mülln-Altstadt|Freilassing|Teisendorf|Traunstein|Bergen(Oberbay)|Übersee|Bernau a Chiemsee|Prien am Chiemsee|Bad Endorf"/>
+		<dp pt="2503180012" pp="1" l="RE5" ppth="Großkarolinenfeld|Ostermünchen|Aßling(Oberbay)|Grafing Bahnhof|München Ost|München Hbf Gl.5-10"/>
+	</s>
+	<s id="-276896031776243712-2503172351-7">
+		<tl f="D" t="p" o="M8" c="BRB" n="79049"/>
+		<ar pt="2503180037" pp="4" l="RE5" ppth="München Hbf Gl.5-10|München Ost|Grafing Bahnhof|Aßling(Oberbay)|Ostermünchen|Großkarolinenfeld"/>
+		<dp pt="2503180038" pp="4" l="RE5" ppth="Bad Endorf|Prien am Chiemsee|Bernau a Chiemsee|Übersee|Bergen(Oberbay)|Traunstein|Teisendorf|Freilassing|Salzburg Hbf"/>
+	</s>
+	<s id="-5432042171990017907-2503172328-11">
+		<tl t="p" o="M8" c="Bus" n="60157"/>
+		<ar pt="2503180023" pp="" l="EV" ppth="Westerham|Feldolling|Bruckmühl|Heufeldmühle|Hinrichssegen|Heufeld|Bad Aibling|Bad Aibling Kurpark|Kolbermoor|Rosenheim Aicherpark"/>
+	</s>
+</timetable>
