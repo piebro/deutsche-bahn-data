@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin-Lichtenberg">
+	<s id="6972771076416183152-2503190934-1">
+		<tl t="p" o="800165" c="FEX" n="19827"/>
+		<dp pt="2503190934" pp="22" tra="-29635495822321864-2503190827-10" pde="Ludwigsfelde" ppth="Berlin Ostkreuz|Berlin-Schöneweide|Flughafen BER"/>
+	</s>
+	<s id="-6727276910681770739-2503190928-4">
+		<tl t="p" o="800165" c="FEX" n="19820"/>
+		<ar pt="2503190954" pp="22" ppth="Flughafen BER|Berlin-Schöneweide|Berlin Ostkreuz"/>
+	</s>
+	<s id="-3383247908921911749-2503190905-1">
+		<tl t="p" o="800165" c="FEX" n="19825"/>
+		<dp pt="2503190905" pp="22" ppth="Berlin Ostkreuz|Berlin-Schöneweide|Flughafen BER"/>
+	</s>
+	<s id="-4657992691427089772-2503190906-2">
+		<tl f="N" t="p" o="NBRB26" c="RB" n="61260"/>
+		<ar pt="2503190909" pp="15" l="26" ppth="Berlin Ostkreuz"/>
+		<dp pt="2503190910" pp="15" l="26" ppth="Strausberg|Herrensee|Rehfelde|Müncheberg(Mark)"/>
+	</s>
+	<s id="-29635495822321864-2503190827-10">
+		<tl f="N" t="p" o="800165" c="RB" n="18607"/>
+		<ar pt="2503190926" pp="22" l="14" tra="6972771076416183152-2503190934-1" ppth="Nauen|Brieselang|Finkenkrug|Falkensee|Seegefeld|Albrechtshof|Berlin-Spandau|Berlin Jungfernheide|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="5803008133303189573-2503190858-4">
+		<tl t="p" o="800165" c="FEX" n="19818"/>
+		<ar pt="2503190922" pp="21" tra="6044257956471697279-2503190929-1" pde="Ludwigsfelde" ppth="Flughafen BER|Berlin-Schöneweide|Berlin Ostkreuz"/>
+	</s>
+	<s id="-4486641478031433931-2503190824-5">
+		<tl f="N" t="p" o="NBRB26" c="RB" n="61257"/>
+		<ar pt="2503190905" pp="16" l="26" ppth="Müncheberg(Mark)|Rehfelde|Herrensee|Strausberg"/>
+		<dp pt="2503190910" pp="16" l="26" ppth="Berlin Ostkreuz"/>
+	</s>
+	<s id="6044257956471697279-2503190929-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18608"/>
+		<dp pt="2503190929" pp="21" l="14" tra="5803008133303189573-2503190858-4" ppth="Berlin Gesundbrunnen|Berlin Jungfernheide|Berlin-Spandau|Albrechtshof|Seegefeld|Falkensee|Finkenkrug|Brieselang|Nauen"/>
+	</s>
+</timetable>

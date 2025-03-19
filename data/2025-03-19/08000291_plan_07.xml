@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<timetable station="Oldenburg(Oldb)Hbf">
+	<s id="-5144709096796817750-2503190630-12">
+		<tl f="D" t="p" o="N1" c="NWB" n="75355"/>
+		<ar pt="2503190759" pp="4" l="RE18" ppth="Osnabrück Hbf|Osnabrück Altstadt|Bramsche|Bersenbrück|Quakenbrück|Essen(Oldb)|Cloppenburg|Ahlhorn|Großenkneten|Huntlosen|Sandkrug"/>
+	</s>
+	<s id="-2333116384704344513-2503190702-1">
+		<tl t="p" o="NWBus" c="Bus" n="316"/>
+		<dp pt="2503190702" pp="" l="EV" ppth="Oldenburg-Wechloy|Bad Zwischenahn"/>
+	</s>
+	<s id="7656714157081379427-2503190520-13">
+		<tl f="N" t="p" o="800295" c="RE" n="4402"/>
+		<ar pt="2503190723" pp="6" l="1" ppth="Hannover Hbf|Wunstorf|Neustadt am Rübenberge|Nienburg(Weser)|Eystrup|Dörverden|Verden(Aller)|Achim|Bremen-Mahndorf|Bremen Hbf|Delmenhorst|Hude"/>
+		<dp pt="2503190733" pp="6" l="1" ppth="Bad Zwischenahn|Westerstede-Ocholt|Augustfehn|Leer(Ostfriesl)|Emden Hbf|Marienhafe|Norden|Norddeich|Norddeich Mole"/>
+	</s>
+	<s id="1323981346361293612-2503190705-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="83319"/>
+		<dp pt="2503190705" pp="3" l="RS30" ppth="Hude|Delmenhorst|Bremen Hbf"/>
+	</s>
+	<s id="7651620894713652882-2503190630-10">
+		<tl f="D" t="p" o="N1" c="NWB" n="83352"/>
+		<ar pt="2503190709" pp="5" l="RS3" ppth="Bremen Hbf|Bremen Neustadt|Heidkrug|Delmenhorst|Hoykenkamp|Schierbrok|Bookholzberg|Hude|Wüsting"/>
+		<dp pt="2503190711" pp="5" l="RS3" ppth="Rastede|Jaderberg|Varel(Oldb)|Sande|Wilhelmshaven"/>
+	</s>
+	<s id="5748670837428659193-2503190708-6">
+		<tl f="D" t="p" o="N1" c="NWB" n="83357"/>
+		<ar pt="2503190747" pp="5" l="RS3" ppth="Wilhelmshaven|Sande|Varel(Oldb)|Jaderberg|Rastede"/>
+		<dp pt="2503190749" pp="5" l="RS3" ppth="Wüsting|Hude|Bookholzberg|Schierbrok|Hoykenkamp|Delmenhorst|Heidkrug|Bremen Neustadt|Bremen Hbf"/>
+	</s>
+	<s id="-2911133294801865811-2503190601-12">
+		<tl f="D" t="p" o="N1" c="NWB" n="75305"/>
+		<ar pt="2503190729" pp="5" l="RE18" ppth="Osnabrück Hbf|Osnabrück Altstadt|Bramsche|Bersenbrück|Quakenbrück|Essen(Oldb)|Cloppenburg|Ahlhorn|Großenkneten|Huntlosen|Sandkrug"/>
+		<dp pt="2503190736" pp="5" l="RE18" ppth="Rastede|Jaderberg|Varel(Oldb)|Sande|Wilhelmshaven"/>
+	</s>
+	<s id="-748736215535098197-2503190722-3">
+		<tl t="p" o="NWBus" c="Bus" n="321"/>
+		<ar pt="2503190757" pp="" l="EV" ppth="Bad Zwischenahn|Oldenburg-Wechloy"/>
+	</s>
+	<s id="4162660029587946623-2503190640-6">
+		<tl f="D" t="p" o="N1" c="NWB" n="75304"/>
+		<ar pt="2503190724" pp="4" l="RE18" ppth="Wilhelmshaven|Sande|Varel(Oldb)|Jaderberg|Rastede"/>
+		<dp pt="2503190729" pp="4" l="RE18" ppth="Sandkrug|Huntlosen|Großenkneten|Ahlhorn|Cloppenburg|Essen(Oldb)|Quakenbrück|Bersenbrück|Bramsche|Osnabrück Altstadt|Osnabrück Hbf"/>
+	</s>
+	<s id="-7153281104219713135-2503190535-9">
+		<tl f="N" t="p" o="NZ" c="RE" n="52035"/>
+		<ar pt="2503190723" pp="3" l="56" ppth="Norddeich|Norden|Marienhafe|Emden Hbf|Leer(Ostfriesl)|Augustfehn|Westerstede-Ocholt|Bad Zwischenahn"/>
+		<dp pt="2503190735" pp="3" l="56" ppth="Hude|Delmenhorst|Bremen Hbf"/>
+	</s>
+	<s id="3252533140265970650-2503190726-4">
+		<tl f="D" t="p" o="N1" c="NWB" n="83318"/>
+		<ar pt="2503190753" pp="6" l="RS30" ppth="Bremen Hbf|Delmenhorst|Hude"/>
+	</s>
+	<s id="4085750436512223701-2503190535-9">
+		<tl f="F" t="p" o="80" c="IC" n="2035"/>
+		<ar pt="2503190723" pp="3" wings="-7153281104219713135-2503190535" ppth="Norddeich|Norden|Marienhafe|Emden Hbf|Leer(Ostfriesl)|Augustfehn|Westerstede-Ocholt|Bad Zwischenahn"/>
+		<dp pt="2503190735" pp="3" wings="-7153281104219713135-2503190535" ppth="Hude|Delmenhorst|Bremen Hbf|Verden(Aller)|Nienburg(Weser)|Hannover Hbf|Braunschweig Hbf|Wolfsburg Hbf|Stendal Hbf|Berlin Zoologischer Garten|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+</timetable>

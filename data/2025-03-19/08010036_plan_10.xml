@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin-Lichtenberg">
+	<s id="-5363912670122745374-2503191029-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18610"/>
+		<dp pt="2503191029" pp="21" l="14" tra="-7146230685584606626-2503190958-4" ppth="Berlin Gesundbrunnen|Berlin Jungfernheide|Berlin-Spandau|Albrechtshof|Seegefeld|Falkensee|Finkenkrug|Brieselang|Nauen"/>
+	</s>
+	<s id="-8977473208868211527-2503191034-1">
+		<tl t="p" o="800165" c="FEX" n="19831"/>
+		<dp pt="2503191034" pp="22" tra="-8749238490785162617-2503190922-10" pde="Ludwigsfelde" ppth="Berlin Ostkreuz|Berlin-Schöneweide|Flughafen BER"/>
+	</s>
+	<s id="-4519128852804692348-2503191005-1">
+		<tl t="p" o="800165" c="FEX" n="19829"/>
+		<dp pt="2503191005" pp="22" pde="Rangsdorf" ppth="Berlin Ostkreuz|Berlin-Schöneweide|Flughafen BER"/>
+	</s>
+	<s id="-7146230685584606626-2503190958-4">
+		<tl t="p" o="800165" c="FEX" n="19822"/>
+		<ar pt="2503191022" pp="21" tra="-5363912670122745374-2503191029-1" pde="Ludwigsfelde" ppth="Flughafen BER|Berlin-Schöneweide|Berlin Ostkreuz"/>
+	</s>
+	<s id="-8749238490785162617-2503190922-10">
+		<tl f="N" t="p" o="800165" c="RB" n="18609"/>
+		<ar pt="2503191026" pp="22" l="14" tra="-8977473208868211527-2503191034-1" ppth="Nauen|Brieselang|Finkenkrug|Falkensee|Seegefeld|Albrechtshof|Berlin-Spandau|Berlin Jungfernheide|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="-8813647042908920665-2503190924-5">
+		<tl f="N" t="p" o="NBRB26" c="RB" n="61259"/>
+		<ar pt="2503191005" pp="16" l="26" ppth="Müncheberg(Mark)|Rehfelde|Herrensee|Strausberg"/>
+		<dp pt="2503191010" pp="16" l="26" ppth="Berlin Ostkreuz"/>
+	</s>
+	<s id="3865134466374904487-2503191006-2">
+		<tl f="N" t="p" o="NBRB26" c="RB" n="61262"/>
+		<ar pt="2503191009" pp="15" l="26" ppth="Berlin Ostkreuz"/>
+		<dp pt="2503191010" pp="15" l="26" ppth="Strausberg|Herrensee|Rehfelde|Müncheberg(Mark)"/>
+	</s>
+	<s id="6825140485433042150-2503191028-4">
+		<tl t="p" o="800165" c="FEX" n="19824"/>
+		<ar pt="2503191054" pp="22" pde="Rangsdorf" ppth="Flughafen BER|Berlin-Schöneweide|Berlin Ostkreuz"/>
+	</s>
+</timetable>
