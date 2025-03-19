@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin-Lichtenberg">
+	<s id="5374131658366371247-2503191427-10">
+		<tl f="N" t="p" o="800165" c="RB" n="18619"/>
+		<ar pt="2503191526" pp="22" l="14" tra="-1433459420899484740-2503191534-1" ppth="Nauen|Brieselang|Finkenkrug|Falkensee|Seegefeld|Albrechtshof|Berlin-Spandau|Berlin Jungfernheide|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="-266216004112239154-2503191424-5">
+		<tl f="N" t="p" o="NBRB26" c="RB" n="61269"/>
+		<ar pt="2503191505" pp="16" l="26" ppth="Müncheberg(Mark)|Rehfelde|Herrensee|Strausberg"/>
+		<dp pt="2503191510" pp="16" l="26" ppth="Berlin Ostkreuz"/>
+	</s>
+	<s id="-1433459420899484740-2503191534-1">
+		<tl t="p" o="800165" c="FEX" n="19851"/>
+		<dp pt="2503191534" pp="22" tra="5374131658366371247-2503191427-10" pde="Ludwigsfelde" ppth="Berlin Ostkreuz|Berlin-Schöneweide|Flughafen BER"/>
+	</s>
+	<s id="-8669736770225136809-2503191505-1">
+		<tl t="p" o="800165" c="FEX" n="19849"/>
+		<dp pt="2503191505" pp="22" ppth="Berlin Ostkreuz|Berlin-Schöneweide|Flughafen BER"/>
+	</s>
+	<s id="-1874589838217005072-2503191528-4">
+		<tl t="p" o="800165" c="FEX" n="19844"/>
+		<ar pt="2503191554" pp="22" ppth="Flughafen BER|Berlin-Schöneweide|Berlin Ostkreuz"/>
+	</s>
+	<s id="-2372014567937558074-2503191458-4">
+		<tl t="p" o="800165" c="FEX" n="19842"/>
+		<ar pt="2503191522" pp="21" tra="298704023283530748-2503191529-1" pde="Ludwigsfelde" ppth="Flughafen BER|Berlin-Schöneweide|Berlin Ostkreuz"/>
+	</s>
+	<s id="-2315523009323456954-2503191506-2">
+		<tl f="N" t="p" o="NBRB26" c="RB" n="61272"/>
+		<ar pt="2503191509" pp="15" l="26" ppth="Berlin Ostkreuz"/>
+		<dp pt="2503191510" pp="15" l="26" ppth="Strausberg|Herrensee|Rehfelde|Müncheberg(Mark)"/>
+	</s>
+	<s id="298704023283530748-2503191529-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18620"/>
+		<dp pt="2503191529" pp="21" l="14" tra="-2372014567937558074-2503191458-4" ppth="Berlin Gesundbrunnen|Berlin Jungfernheide|Berlin-Spandau|Albrechtshof|Seegefeld|Falkensee|Finkenkrug|Brieselang|Nauen"/>
+	</s>
+</timetable>

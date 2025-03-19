@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin-Lichtenberg">
+	<s id="6726352036895070420-2503191328-4">
+		<tl t="p" o="800165" c="FEX" n="19836"/>
+		<ar pt="2503191354" pp="22" pde="Rangsdorf" ppth="Flughafen BER|Berlin-Schöneweide|Berlin Ostkreuz"/>
+	</s>
+	<s id="-1803796652696443029-2503191227-10">
+		<tl f="N" t="p" o="800165" c="RB" n="18615"/>
+		<ar pt="2503191326" pp="22" l="14" tra="-3595201491616797726-2503191334-1" ppth="Nauen|Brieselang|Finkenkrug|Falkensee|Seegefeld|Albrechtshof|Berlin-Spandau|Berlin Jungfernheide|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="939689742618361429-2503191224-5">
+		<tl f="N" t="p" o="NBRB26" c="RB" n="61265"/>
+		<ar pt="2503191305" pp="16" l="26" ppth="Müncheberg(Mark)|Rehfelde|Herrensee|Strausberg"/>
+		<dp pt="2503191310" pp="16" l="26" ppth="Berlin Ostkreuz"/>
+	</s>
+	<s id="3815670775651138320-2503191305-1">
+		<tl t="p" o="800165" c="FEX" n="19841"/>
+		<dp pt="2503191305" pp="22" ppth="Berlin Ostkreuz|Berlin-Schöneweide|Flughafen BER"/>
+	</s>
+	<s id="5581347420250322403-2503191306-2">
+		<tl f="N" t="p" o="NBRB26" c="RB" n="61268"/>
+		<ar pt="2503191309" pp="15" l="26" ppth="Berlin Ostkreuz"/>
+		<dp pt="2503191310" pp="15" l="26" ppth="Strausberg|Herrensee|Rehfelde|Müncheberg(Mark)"/>
+	</s>
+	<s id="-8512400562586738356-2503191329-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18616"/>
+		<dp pt="2503191329" pp="20" l="14" tra="-2493683425291854936-2503191258-4" ppth="Berlin Gesundbrunnen|Berlin Jungfernheide|Berlin-Spandau|Albrechtshof|Seegefeld|Falkensee|Finkenkrug|Brieselang|Nauen"/>
+	</s>
+	<s id="-2493683425291854936-2503191258-4">
+		<tl t="p" o="800165" c="FEX" n="19834"/>
+		<ar pt="2503191322" pp="20" tra="-8512400562586738356-2503191329-1" pde="Ludwigsfelde" ppth="Flughafen BER|Berlin-Schöneweide|Berlin Ostkreuz"/>
+	</s>
+	<s id="-3595201491616797726-2503191334-1">
+		<tl t="p" o="800165" c="FEX" n="19843"/>
+		<dp pt="2503191334" pp="22" tra="-1803796652696443029-2503191227-10" pde="Ludwigsfelde" ppth="Berlin Ostkreuz|Berlin-Schöneweide|Flughafen BER"/>
+	</s>
+</timetable>
