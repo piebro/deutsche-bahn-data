@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<timetable station="Neumünster">
+	<s id="-2519388830257234271-2503201537-10">
+		<tl f="D" t="p" o="O0" c="NBE" n="82182"/>
+		<ar pt="2503201626" pp="2" l="RB82" ppth="Bad Oldesloe|Fresenburg|Wakendorf|Altengörs|Bad Segeberg|Fahrenkrug|Wahlstedt|Rickling|Neumünster Süd AKN"/>
+	</s>
+	<s id="2028916425846017892-2503201602-5">
+		<tl f="N" t="p" o="800201" c="RE" n="11277"/>
+		<ar pt="2503201626" pp="5" l="7" ppth="Kiel Hbf|Flintbek|Bordesholm|Einfeld"/>
+		<dp pt="2503201628" pp="5" l="7" ppth="Elmshorn|Pinneberg"/>
+	</s>
+	<s id="-5863679247814871252-2503201431-19">
+		<tl f="D" t="p" o="O0" c="NBE" n="83811"/>
+		<ar pt="2503201625" pp="6" l="RB63" ppth="Büsum|Reinsbüttel|Süderdeich|Wesselburen|Jarrenwisch|Tiebensee|Heide(Holst)|Nordhastedt|Albersdorf|Beldorf|Hademarschen|Gokels|Beringstedt|Osterstedt|Hohenwestedt|Aukrug|Wasbek|Neumünster Stadtwald"/>
+	</s>
+	<s id="-4676442039434656722-2503201633-1">
+		<tl f="D" t="p" o="A0" c="AKN" n="82458"/>
+		<dp pt="2503201633" pp="1" l="A2" ppth="Neumünster Süd AKN|Boostedt|Großenaspe|Wiemersdorf|Bad Bramstedt|Bad Bramstedt Kurhaus|Lentföhrden|Nützen|Dodenhof|Holstentherme|Kaltenkirchen(Holst)|Kaltenkirchen Süd|Henstedt-Ulzburg|Ulzburg Süd|Meeschensee|Haslohfurth|Quickborner Straße|Friedrichsgabe|Moorbekhalle|Norderstedt Mitte"/>
+	</s>
+	<s id="729176663586867087-2503201538-5">
+		<tl f="N" t="p" o="800201" c="RE" n="11222"/>
+		<ar pt="2503201613" pp="3" l="70" ppth="Pinneberg|Elmshorn|Wrist|Brokstedt"/>
+		<dp pt="2503201614" pp="3" l="70" ppth="Bordesholm|Kiel Hbf"/>
+	</s>
+	<s id="-3188431469960858092-2503201515-8">
+		<tl f="N" t="p" o="800201" c="RE" n="11177"/>
+		<ar pt="2503201622" pp="5" l="7" ppth="Flensburg|Tarp|Jübek|Schleswig|Owschlag|Rendsburg|Nortorf"/>
+		<dp pt="2503201628" pp="5" l="7" wings="2028916425846017892-2503201602" ppth="Elmshorn|Pinneberg"/>
+	</s>
+	<s id="-1549946618007627364-2503201635-1">
+		<tl f="D" t="p" o="O0" c="NBE" n="83782"/>
+		<dp pt="2503201635" pp="6" l="RB63" ppth="Neumünster Stadtwald|Wasbek|Aukrug|Hohenwestedt"/>
+	</s>
+	<s id="2474655575976218391-2503201518-21">
+		<tl f="D" t="p" o="A0" c="AKN" n="82455"/>
+		<ar pt="2503201623" pp="1" l="A2" ppth="Norderstedt Mitte|Moorbekhalle|Friedrichsgabe|Quickborner Straße|Haslohfurth|Meeschensee|Ulzburg Süd|Henstedt-Ulzburg|Kaltenkirchen Süd|Kaltenkirchen(Holst)|Holstentherme|Dodenhof|Nützen|Lentföhrden|Bad Bramstedt Kurhaus|Bad Bramstedt|Wiemersdorf|Großenaspe|Boostedt|Neumünster Süd AKN"/>
+	</s>
+	<s id="-1540995538453723069-2503201623-3">
+		<tl f="N" t="p" o="800201" c="RE" n="11227"/>
+		<ar pt="2503201641" pp="4" l="70" ppth="Kiel Hbf|Bordesholm"/>
+		<dp pt="2503201642" pp="4" l="70" ppth="Brokstedt|Wrist|Elmshorn|Pinneberg"/>
+	</s>
+	<s id="3543862867272391156-2503201600-3">
+		<tl f="N" t="p" o="800201" c="RE" n="11272"/>
+		<ar pt="2503201630" pp="3" l="7" ppth="Pinneberg|Elmshorn"/>
+		<dp pt="2503201634" pp="3" l="7" ppth="Einfeld|Bordesholm|Flintbek|Kiel Hbf"/>
+	</s>
+	<s id="6084259860603904013-2503201600-3">
+		<tl f="N" t="p" o="800201" c="RE" n="11172"/>
+		<ar pt="2503201630" pp="3" l="7" wings="3543862867272391156-2503201600" ppth="Pinneberg|Elmshorn"/>
+		<dp pt="2503201632" pp="3" l="7" ppth="Nortorf|Rendsburg|Owschlag|Schleswig|Jübek|Tarp|Flensburg"/>
+	</s>
+</timetable>
