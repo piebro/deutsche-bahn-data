@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<timetable station="Regensburg Hbf">
+	<s id="531269361952407296-2503230450-8">
+		<tl f="D" t="p" o="S9" c="ag" n="84110"/>
+		<ar pt="2503230532" pp="5" l="RE50" ppth="Plattling|Straßkirchen|Straubing|Radldorf(Niederbay)|Sünching|Obertraubling|Regensburg-Burgweinting"/>
+		<dp pt="2503230533" pp="5" l="RE50" ppth="Regensburg-Prüfening|Etterzhausen|Undorf|Deuerling|Laaber|Beratzhausen|Mausheim|Parsberg|Seubersdorf|Batzhausen|Deining(Oberpf)|Neumarkt(Oberpf)|Nürnberg Hbf"/>
+	</s>
+	<s id="-2044723357159653206-2503221956-9">
+		<tl t="p" o="81" c="NJ" n="491"/>
+		<ar pt="2503230507" pp="9" wings="-4272298498907669914-2503221900" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Würzburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2503230509" pp="9" wings="-4272298498907669914-2503221900" ppth="Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="1952490731005838832-2503230520-1">
+		<tl t="p" o="B7" c="Bus" n="57907"/>
+		<dp pt="2503230520" pp="" l="EV" ppth="Obertraubling|Köfering|Hagelstadt|Eggmühl|Neufahrn(Niederbay)|Ergoldsbach|Landshut(Bay)Hbf"/>
+	</s>
+	<s id="-5437942066161436690-2503230546-1">
+		<tl f="D" t="p" o="A8N" c="ALX" n="79860"/>
+		<dp pt="2503230546" pp="4" l="RE25" ppth="Neufahrn(Niederbay)|Ergoldsbach|Landshut(Bay)Hbf|Freising|München Hbf"/>
+	</s>
+	<s id="-4272298498907669914-2503221900-9">
+		<tl t="p" o="81" c="NJ" n="40421"/>
+		<ar pt="2503230507" pp="9" ppth="Amsterdam Centraal|Amersfoort Centraal|Deventer|Münster(Westf)Hbf|Hamm(Westf)Hbf|Kassel-Wilhelmshöhe|Würzburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2503230509" pp="9" ppth="Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+</timetable>
