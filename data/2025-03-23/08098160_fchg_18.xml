@@ -1,0 +1,93 @@
+<?xml version="1.0" ?><timetable station="Berlin Hbf" eva="8098160">
+
+<s id="-2221597426497896240-2503240720-1" eva="8098160">
+    <dp>
+        <m id="r15184993" t="f" c="1000" ts="2503231900" ts-tts="25-03-23 19:00:32.514"/>
+    </dp>
+</s>
+
+
+<s id="-8657109725447363025-2503240519-1" eva="8098160">
+    <dp>
+        <m id="r15184994" t="f" c="1000" ts="2503231900" ts-tts="25-03-23 19:00:32.514"/>
+    </dp>
+</s>
+
+
+<s id="1467273773993904365-2503241053-4" eva="8098160">
+    <dp>
+        <m id="r15185000" t="f" c="1000" ts="2503231900" ts-tts="25-03-23 19:00:32.514"/>
+    </dp>
+</s>
+
+
+<s id="5254114651454294172-2503240908-2" eva="8098160">
+    <dp>
+        <m id="r15184992" t="f" c="1000" ts="2503231900" ts-tts="25-03-23 19:00:32.514"/>
+    </dp>
+</s>
+
+
+<s id="-979463545696935694-2503231920-17" eva="8098160">
+    <m id="r2371104" t="h" from="2503010000" to="2504302359" cat="Information" ts="2502282302" ts-tts="25-03-22 23:16:04.683" pr="1"/>
+    <ar ct="2503240815"/>
+</s>
+
+
+<s id="-5698565967924214055-2503231930-18" eva="8098160">
+    <ar ct="2503240815"/>
+</s>
+
+
+<s id="8627919913190420403-2503231913-24" eva="8098160">
+    <m id="r2371086" t="h" from="2503010000" to="2504302359" cat="Information" ts="2502282302" ts-tts="25-03-22 23:16:04.683" pr="1"/>
+    <ar ct="2503240632"/>
+    <dp ct="2503240636"/>
+</s>
+
+
+<s id="7022789033164733279-2503232300-19" eva="8098160">
+    <ar cpth="Lutherstadt Wittenberg Hbf|Zörnigall|Bülzig|Zahna|Blönsdorf|Niedergörsdorf|Jüterbog|Luckenwalde|Woltersdorf/Nuthe-Urstromtal|Trebbin|Thyrow|Ludwigsfelde|Birkengrund|Großbeeren|Teltow|Berlin-Lichterfelde Ost|Berlin Südkreuz" cs="c" clt="2503231822" l="3">
+        <m id="r15179789" t="q" c="80" ts="2503231626" ts-tts="25-03-23 16:26:36.008"/>
+        <m id="r15183563" t="d" c="31" ts="2503231822" ts-tts="25-03-23 18:22:14.782"/>
+    </ar>
+    <dp cpth="" cs="c" clt="2503231822" l="3">
+        <m id="r15179789" t="q" c="80" ts="2503231626" ts-tts="25-03-23 16:26:36.008"/>
+        <m id="r15183563" t="d" c="31" ts="2503231822" ts-tts="25-03-23 18:22:14.782"/>
+    </dp>
+</s>
+
+
+<s id="4822129587249250383-2503241021-100" eva="8098160">
+    <dp cpth="Berlin Südkreuz|Halle(Saale)Hbf|Erfurt Hbf|Nürnberg Hbf|München Hbf" ppth="Halle(Saale)Hbf|Erfurt Hbf|Nürnberg Hbf|München Hbf" pp="8" pt="2503240902" ps="a">
+        <m id="r15173268" t="d" c="31" ts="2503231322" ts-tts="25-03-23 13:22:48.467"/>
+        <m id="r15173445" t="d" c="31" ts="2503231328" ts-tts="25-03-23 13:28:34.895"/>
+    </dp>
+    <tl f="F" t="p" o="80" c="ICE" n="1105"/>
+</s>
+
+
+<s id="5587501995840217860-2503230855-8" eva="8098160">
+    <ar cpth="München Hbf|Nürnberg Hbf|Erlangen|Erfurt Hbf|Leipzig Hbf|Lutherstadt Wittenberg Hbf" ct="2503231329" cs="c" clt="2503230946">
+        <m id="r15167379" t="d" c="31" ts="2503230946" ts-tts="25-03-23 09:47:02.013"/>
+        <m id="r15167608" t="f" c="0" ts="2503230954" ts-tts="25-03-23 09:54:40.893"/>
+        <m id="r15167623" t="f" c="0" ts="2503230954" ts-tts="25-03-23 09:54:56.602"/>
+    </ar>
+    <dp cpth="Berlin Gesundbrunnen|Bernau(b Berlin)|Eberswalde Hbf|Angermünde|Prenzlau|Pasewalk|Anklam|Züssow|Greifswald|Stralsund Hbf|Bergen auf Rügen|Ostseebad Binz" ct="2503231341" cs="c" clt="2503230946">
+        <m id="r15167379" t="d" c="31" ts="2503230946" ts-tts="25-03-23 09:47:02.013"/>
+        <m id="r15167608" t="f" c="0" ts="2503230954" ts-tts="25-03-23 09:54:40.893"/>
+        <m id="r15167623" t="f" c="0" ts="2503230954" ts-tts="25-03-23 09:54:56.602"/>
+    </dp>
+</s>
+
+
+<s id="-1798373683483756141-2503231324-2" eva="8098160">
+    <ar cpth="" ct="2503231329" cs="c" clt="2503230946" l="28">
+        <m id="r15167380" t="d" c="31" ts="2503230946" ts-tts="25-03-23 09:47:02.013"/>
+    </ar>
+    <dp cpth="Berlin Gesundbrunnen|Bernau(b Berlin)|Eberswalde Hbf|Angermünde|Prenzlau" ct="2503231341" cs="c" clt="2503230946" l="28">
+        <m id="r15167380" t="d" c="31" ts="2503230946" ts-tts="25-03-23 09:47:02.013"/>
+    </dp>
+</s>
+
+</timetable>
