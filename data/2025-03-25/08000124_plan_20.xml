@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<timetable station="Gießen">
+	<s id="-5038273185526805270-2503251954-6">
+		<tl f="D" t="p" o="K4RE" c="HLB" n="24517"/>
+		<ar pt="2503252046" pp="4" l="RE99" ppth="Siegen Hbf|Haiger|Dillenburg|Herborn(Dillkr)|Wetzlar"/>
+		<dp pt="2503252055" pp="4" l="RE99" ppth="Friedberg(Hess)|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="3370030444338167439-2503251933-11">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="15083"/>
+		<ar pt="2503252026" pp="1" l="RB37" ppth="Frankfurt(Main)Hbf|Frankfurt(Main)West|Bad Vilbel|Friedberg(Hess)|Bad Nauheim|Ostheim(b Butzbach)|Butzbach|Kirch Göns|Lang Göns|Großen Linden"/>
+	</s>
+	<s id="1565230823417159870-2503252015-1">
+		<tl f="D" t="p" o="K4RE" c="HLB" n="24570"/>
+		<dp pt="2503252015" pp="1" l="RE99" ppth="Wetzlar|Herborn(Dillkr)|Dillenburg|Haiger|Siegen Hbf"/>
+	</s>
+	<s id="-7908451041935798366-2503251918-3">
+		<tl f="N" t="p" o="8005MW" c="RE" n="4164"/>
+		<ar pt="2503252002" pp="2" l="30" ppth="Frankfurt(Main)Hbf|Friedberg(Hess)"/>
+		<dp pt="2503252004" pp="2" l="30" ppth="Marburg(Lahn)"/>
+	</s>
+	<s id="8427643844771946574-2503251931-13">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="15129"/>
+		<ar pt="2503252014" pp="4" l="RB40" ppth="Dillenburg|Niederscheld(Dillkr)Süd|Burg(Dillkr) Nord|Herborn(Dillkr)|Sinn|Edingen(Wetzlar)|Katzenfurt|Ehringshausen(Kr Wetzlar)|Werdorf|Aßlar|Wetzlar|Dutenhofen(Wetzlar)"/>
+		<dp pt="2503252032" pp="4" l="RB40" ppth="Großen Linden|Lang Göns|Kirch Göns|Butzbach|Ostheim(b Butzbach)|Bad Nauheim|Friedberg(Hess)|Bad Vilbel"/>
+	</s>
+	<s id="-1949569066339017119-2503251950-6">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="15128"/>
+		<ar pt="2503252034" pp="2" l="RB40" ppth="Frankfurt(Main)Hbf|Frankfurt(Main)West|Friedberg(Hess)|Bad Nauheim|Butzbach"/>
+		<dp pt="2503252040" pp="2" l="RB40" ppth="Dutenhofen(Wetzlar)|Wetzlar|Aßlar|Werdorf|Ehringshausen(Kr Wetzlar)|Katzenfurt|Edingen(Wetzlar)|Sinn|Herborn(Dillkr)|Burg(Dillkr) Nord|Niederscheld(Dillkr)Süd|Dillenburg"/>
+	</s>
+	<s id="6436110229877365409-2503251911-17">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="15029"/>
+		<ar pt="2503252018" pp="4" l="RB41" ppth="Treysa|Schwalmstadt-Wiera|Neustadt(Kr Marburg)|Stadtallendorf|Kirchhain(Bz Kassel)|Anzefahr|Bürgeln|Cölbe|Marburg(Lahn)|Marburg Süd|Niederweimar|Niederwalgern|Fronhausen(Lahn)|Friedelhausen|Lollar|Gießen Oswaldsgarten"/>
+		<dp pt="2503252032" pp="4" l="RB41" wings="8427643844771946574-2503251931" ppth="Großen Linden|Lang Göns|Kirch Göns|Butzbach|Ostheim(b Butzbach)|Bad Nauheim|Friedberg(Hess)|Bad Vilbel"/>
+	</s>
+	<s id="-3863211215924100829-2503251905-19">
+		<tl f="D" t="p" o="K4RE" c="HLB" n="24417"/>
+		<ar pt="2503252055" pp="4" l="RE98" hi="1" ppth="Kassel Hbf|Kassel-Wilhelmshöhe|Baunatal-Guntershausen|Edermünde-Grifte|Felsberg-Wolfershausen|Felsberg-Altenbrunslar|Felsberg-Gensungen|Wabern(Bz Kassel)|Singlis|Borken(Hess)|Zimmersrode|Schlierbach(Schwalm-Eder-Kr.)|Treysa|Schwalmstadt-Wiera|Neustadt(Kr Marburg)|Stadtallendorf|Kirchhain(Bz Kassel)|Cölbe"/>
+		<dp pt="2503252055" pp="4" l="RE98" wings="-5038273185526805270-2503251954" ppth="Friedberg(Hess)|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="2999842467467260619-2503251950-6">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="15028"/>
+		<ar pt="2503252034" pp="2" l="RB41" wings="-1949569066339017119-2503251950" ppth="Frankfurt(Main)Hbf|Frankfurt(Main)West|Friedberg(Hess)|Bad Nauheim|Butzbach"/>
+		<dp pt="2503252039" pp="2" l="RB41" ppth="Gießen Oswaldsgarten|Lollar|Friedelhausen|Fronhausen(Lahn)|Niederwalgern|Niederweimar|Marburg Süd|Marburg(Lahn)|Cölbe|Bürgeln|Anzefahr|Kirchhain(Bz Kassel)"/>
+	</s>
+	<s id="8697622681642385097-2503251951-4">
+		<tl f="N" t="p" o="801526" c="RE" n="4293"/>
+		<ar pt="2503252042" pp="9" l="25" ppth="Limburg(Lahn)|Weilburg|Wetzlar"/>
+	</s>
+</timetable>

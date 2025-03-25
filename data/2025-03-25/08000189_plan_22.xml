@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<timetable station="Kaiserslautern Hbf">
+	<s id="-5725548565983448321-2503252057-16">
+		<tl f="N" t="p" o="8005L2" c="RB" n="12758"/>
+		<ar pt="2503252226" pp="1" l="65" ppth="Bingen(Rhein) Hbf|Münster-Sarmsheim|Laubenheim(Nahe)|Langenlonsheim|Bretzenheim(Nahe)|Bad Kreuznach|Bad Münster a Stein|Altenbamberg|Hochstätten(Pfalz)|Alsenz|Rockenhausen|Imsweiler|Winnweiler|Münchweiler(Alsenz)|Enkenbach"/>
+	</s>
+	<s id="-5749542828843670006-2503252253-1">
+		<tl f="N" t="p" o="8005L2" c="RB" n="12757"/>
+		<dp pt="2503252253" pp="1" l="65" ppth="Enkenbach|Münchweiler(Alsenz)|Winnweiler|Imsweiler|Rockenhausen|Alsenz|Hochstätten(Pfalz)|Altenbamberg|Bad Münster a Stein|Bad Kreuznach"/>
+	</s>
+	<s id="-2166490935379426781-2503252138-9">
+		<tl t="p" o="B5" c="Bus" n="92545"/>
+		<ar pt="2503252243" pp="" l="RB70" ppth="Homburg(Saar)Hbf|Bruchmühlbach-Miesau|Hauptstuhl|Landstuhl|Kindsbach|Einsiedlerhof|Vogelweh|Kennelgarten"/>
+	</s>
+	<s id="5190954981982648263-2503252253-1">
+		<tl f="S" t="p" o="801539" c="S" n="21952"/>
+		<dp pt="2503252253" pp="3" l="1" ppth="Kennelgarten|Vogelweh|Einsiedlerhof|Kindsbach|Landstuhl|Hauptstuhl|Bruchmühlbach-Miesau|Homburg(Saar)Hbf"/>
+	</s>
+	<s id="8421883523246652194-2503252210-1">
+		<tl t="p" o="801539" c="Bus" n="98267"/>
+		<dp pt="2503252210" pp="" l="S2" ppth="Hochspeyer|Frankenstein(Pfalz)|Weidenthal|Neidenfels|Lambrecht(Pfalz)|Neustadt(Weinstr)Hbf"/>
+	</s>
+	<s id="-5591457179524074239-2503252205-1">
+		<tl f="N" t="p" o="8015A1" c="RB" n="12548"/>
+		<dp pt="2503252205" pp="2" l="70" ppth="Einsiedlerhof|Kindsbach|Landstuhl|Hauptstuhl|Bruchmühlbach-Miesau|Homburg(Saar)Hbf|Limbach(b Homburg,Saar)|Kirkel|St Ingbert|Rentrisch|Scheidt(Saar)|Saarbrücken Hbf"/>
+	</s>
+	<s id="4011391143588531096-2503251438-15">
+		<tl f="F" t="p" o="80" c="ICE" n="935"/>
+		<ar pt="2503252243" pp="3" ppth="Hamburg-Altona|Hamburg Hbf|Büchen|Ludwigslust|Wittenberge|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz|Erfurt Hbf|Frankfurt(Main)Hbf|Darmstadt Hbf|Bensheim|Mannheim Hbf|Neustadt(Weinstr)Hbf"/>
+		<dp pt="2503252245" pp="3" ppth="Homburg(Saar)Hbf|Saarbrücken Hbf"/>
+	</s>
+	<s id="6256325767097073839-2503252106-12">
+		<tl f="N" t="p" o="800520" c="RE" n="12042"/>
+		<ar pt="2503252226" pp="5" l="6" ppth="Karlsruhe Hbf|Wörth(Rhein)|Kandel|Winden(Pfalz)|Landau(Pfalz)Hbf|Knöringen-Essingen|Edesheim(Pfalz)|Edenkoben|Maikammer-Kirrweiler|Neustadt(Weinstr) Süd|Neustadt(Weinstr)Hbf"/>
+	</s>
+</timetable>
