@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<timetable station="Oberhausen Hbf">
+	<s id="-8579699905201603283-2503272117-1">
+		<tl f="S" t="p" o="8003L1" c="S" n="30370"/>
+		<dp pt="2503272117" pp="12" l="3" ppth="Mülheim(Ruhr)Styrum|Mülheim(Ruhr)West|Mülheim(Ruhr)Hbf|Essen-Frohnhausen|Essen West|Essen Hbf|Essen-Steele|Essen-Steele Ost|Essen-Horst|Bochum-Dahlhausen|Hattingen(Ruhr)|Hattingen(Ruhr) Mitte"/>
+	</s>
+	<s id="2208652206865212913-2503272103-13">
+		<tl f="S" t="p" o="8003L1" c="S" n="30371"/>
+		<ar pt="2503272144" pp="12" l="3" ppth="Hattingen(Ruhr) Mitte|Hattingen(Ruhr)|Bochum-Dahlhausen|Essen-Horst|Essen-Steele Ost|Essen-Steele|Essen Hbf|Essen West|Essen-Frohnhausen|Mülheim(Ruhr)Hbf|Mülheim(Ruhr)West|Mülheim(Ruhr)Styrum"/>
+	</s>
+	<s id="2658390677619558051-2503272147-1">
+		<tl f="S" t="p" o="8003L1" c="S" n="30372"/>
+		<dp pt="2503272147" pp="11" l="3" ppth="Mülheim(Ruhr)Styrum|Mülheim(Ruhr)West|Mülheim(Ruhr)Hbf|Essen-Frohnhausen|Essen West|Essen Hbf|Essen-Steele|Essen-Steele Ost|Essen-Horst|Bochum-Dahlhausen|Hattingen(Ruhr)|Hattingen(Ruhr) Mitte"/>
+	</s>
+	<s id="4004625592850433183-2503272030-4">
+		<tl t="p" o="TDRR" c="Bus" n="65352"/>
+		<ar pt="2503272100" pp="" l="36/44" ppth="Bottrop Hbf|Bottrop-Vonderort|Oberhausen-Osterfeld Süd"/>
+		<dp pt="2503272101" pp="" l="36/44" ppth="Duisburg-Obermeiderich|Duisburg-Meiderich Ost|Duisburg-Meiderich Süd|Duisburg-Ruhrort"/>
+	</s>
+	<s id="2572402660165950814-2503272033-13">
+		<tl f="S" t="p" o="8003L1" c="S" n="30369"/>
+		<ar pt="2503272114" pp="11" l="3" ppth="Hattingen(Ruhr) Mitte|Hattingen(Ruhr)|Bochum-Dahlhausen|Essen-Horst|Essen-Steele Ost|Essen-Steele|Essen Hbf|Essen West|Essen-Frohnhausen|Mülheim(Ruhr)Hbf|Mülheim(Ruhr)West|Mülheim(Ruhr)Styrum"/>
+	</s>
+	<s id="730005109291081814-2503272123-2">
+		<tl t="p" o="R4NRN" c="Bus" n="19038"/>
+		<ar pt="2503272141" pp="" l="RE19" ppth="Duisburg Hbf"/>
+	</s>
+	<s id="8905612634820037233-2503272124-5">
+		<tl t="p" o="TDRR" c="Bus" n="65353"/>
+		<ar pt="2503272153" pp="" l="36/44" ppth="Duisburg-Ruhrort|Duisburg-Meiderich Süd|Duisburg-Meiderich Ost|Duisburg-Obermeiderich"/>
+		<dp pt="2503272153" pp="" l="36/44" ppth="Oberhausen-Osterfeld Süd|Bottrop-Vonderort|Bottrop Hbf"/>
+	</s>
+	<s id="3402752981757204439-2503272150-1">
+		<tl f="D" t="p" o="R4NRN" c="VIA" n="20038"/>
+		<dp pt="2503272150" pp="13" l="RE19" ppth="Oberhausen-Sterkrade|Oberhausen-Holten|Dinslaken|Voerde(Niederrhein)|Wesel|Wesel Feldmark|Mehrhoog|Haldern(Rheinl)|Empel-Rees|Millingen(b Rees)|Praest|Emmerich|Emmerich-Elten|Zevenaar|Arnhem Centraal"/>
+	</s>
+	<s id="-1398118047575906425-2503271945-16">
+		<tl f="D" t="p" o="R4NRN" c="VIA" n="20037"/>
+		<ar pt="2503272107" pp="13" l="RE19" ppth="Arnhem Centraal|Zevenaar|Emmerich-Elten|Emmerich|Praest|Millingen(b Rees)|Empel-Rees|Haldern(Rheinl)|Mehrhoog|Wesel Feldmark|Wesel|Voerde(Niederrhein)|Dinslaken|Oberhausen-Holten|Oberhausen-Sterkrade"/>
+	</s>
+	<s id="20899389058301897-2503272117-1">
+		<tl t="p" o="R4NRN" c="Bus" n="19037"/>
+		<dp pt="2503272117" pp="" l="RE19" ppth="Duisburg Hbf|Düsseldorf Flughafen|Düsseldorf Hbf"/>
+	</s>
+</timetable>
