@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<timetable station="Fulda">
+	<s id="-1197270886930040789-2503262256-3">
+		<tl f="F" t="p" o="NZ" c="IC" n="60408"/>
+		<ar pt="2503270239" pp="4" hi="1" ppth="Berlin Hbf|Berlin Südkreuz"/>
+		<dp pt="2503270241" pp="4" hi="1" ppth="Frankfurt(Main)Süd|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="5331894847185138451-2503262256-3">
+		<tl t="p" o="81" c="NJ" n="408"/>
+		<ar pt="2503270239" pp="4" hi="1" wings="-1197270886930040789-2503262256" ppth="Berlin Hbf|Berlin Südkreuz"/>
+		<dp pt="2503270241" pp="4" hi="1" wings="-1197270886930040789-2503262256" ppth="Frankfurt(Main)Süd|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+</timetable>
