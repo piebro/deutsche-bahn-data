@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<timetable station="Solingen Hbf">
+	<s id="5651570756915075168-2503290237-1">
+		<tl f="N" t="p" o="NXRB" c="RB" n="17393"/>
+		<dp pt="2503290237" pp="1" l="48" ppth="Leichlingen|Opladen|Leverkusen-Manfort|Köln-Mülheim|Köln Messe/Deutz|Köln Hbf"/>
+	</s>
+	<s id="5805260809320721616-2503290152-7">
+		<tl f="N" t="p" o="NXRB" c="RB" n="17388"/>
+		<ar pt="2503290219" pp="3" l="48" ppth="Köln Hbf|Köln Messe/Deutz|Köln-Mülheim|Leverkusen-Manfort|Opladen|Leichlingen"/>
+		<dp pt="2503290220" pp="3" l="48" ppth="Haan|Haan-Gruiten|Wuppertal-Vohwinkel|Wuppertal Hbf|Wuppertal-Barmen|Wuppertal-Oberbarmen"/>
+	</s>
+	<s id="-3038401909579577943-2503290113-13">
+		<tl t="p" o="TDRR" c="RRB" n="90161"/>
+		<ar pt="2503290207" pp="9" l="S7" ppth="Wuppertal Hbf|Wuppertal-Unterbarmen|Wuppertal-Barmen|Wuppertal-Oberbarmen|Wuppertal-Ronsdorf|Remscheid-Lüttringhausen|Remscheid-Lennep|Remscheid Hbf|Remscheid-Güldenwerth|Solingen-Schaberg|Solingen Mitte|Solingen Grünewald"/>
+	</s>
+	<s id="-271439043524453845-2503290252-1">
+		<tl t="p" o="TDRR" c="RRB" n="90160"/>
+		<dp pt="2503290252" pp="9" l="S7" ppth="Solingen Grünewald|Solingen Mitte|Solingen-Schaberg|Remscheid-Güldenwerth|Remscheid Hbf|Remscheid-Lennep"/>
+	</s>
+	<s id="8973778827418665156-2503290133-9">
+		<tl t="p" o="B2" c="Bus" n="588"/>
+		<ar pt="2503290236" pp="" l="S1" ppth="Düsseldorf Hbf|Düsseldorf Volksgarten|Düsseldorf-Oberbilk|Düsseldorf-Eller Mitte|Düsseldorf-Eller|Hilden|Hilden Süd|Solingen Vogelpark"/>
+	</s>
+	<s id="-91051169676650236-2503290225-1">
+		<tl t="p" o="B2" c="Bus" n="605"/>
+		<dp pt="2503290225" pp="" l="S1X" ppth="Hilden|Düsseldorf Hbf"/>
+	</s>
+	<s id="-2696780763094365512-2503290220-1">
+		<tl t="p" o="B2" c="Bus" n="505"/>
+		<dp pt="2503290220" pp="" l="S1" ppth="Solingen Vogelpark|Hilden Süd|Hilden|Düsseldorf-Eller|Düsseldorf-Eller Mitte|Düsseldorf-Oberbilk|Düsseldorf Volksgarten|Düsseldorf Hbf"/>
+	</s>
+	<s id="-8186256999655489056-2503290138-3">
+		<tl t="p" o="B2" c="Bus" n="688"/>
+		<ar pt="2503290212" pp="" l="S1X" ppth="Düsseldorf Hbf|Hilden"/>
+	</s>
+</timetable>
