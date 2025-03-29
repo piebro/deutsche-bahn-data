@@ -1,0 +1,123 @@
+<?xml version="1.0" ?>
+<timetable station="Kassel-Wilhelmshöhe">
+	<s id="2737274120239826370-2503291009-4">
+		<tl f="F" t="p" o="80" c="ICE" n="992"/>
+		<ar pt="2503291147" pp="3" ppth="Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Süd|Fulda"/>
+		<dp pt="2503291149" pp="3" ppth="Göttingen|Hildesheim Hbf|Braunschweig Hbf|Wolfsburg Hbf|Stendal Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz"/>
+	</s>
+	<s id="9189286672621079244-2503291027-2">
+		<tl t="p" o="SD" c="Bus" n="16254"/>
+		<ar pt="2503291127" pp="" l="RE2" ppth="Eichenberg"/>
+	</s>
+	<s id="1993197743817953470-2503291035-10">
+		<tl f="D" t="p" o="H4" c="RT" n="20500"/>
+		<ar pt="2503291105" pp="9" l="5" ppth="Melsungen|Melsungen Bartenwetzerbrücke|Melsungen-Schwarzenberg|Melsungen-Röhrenfurth|Körle|Guxhagen|Baunatal-Guntershausen|Baunatal-Rengershausen|Kassel-Oberzwehren"/>
+		<dp pt="2503291105" pp="9" l="5" ppth="Kassel Hbf (tief)"/>
+	</s>
+	<s id="-6453768719706789881-2503291138-2">
+		<tl f="N" t="p" o="N4RE" c="RE" n="24273"/>
+		<ar pt="2503291142" pp="7" l="5" ppth="Kassel Hbf"/>
+		<dp pt="2503291143" pp="7" l="5" ppth="Melsungen|Rotenburg a.d. Fulda|Bebra|Bad Hersfeld"/>
+	</s>
+	<s id="5822632449192208977-2503290809-10">
+		<tl f="F" t="p" o="80" c="ICE" n="1207"/>
+		<ar pt="2503291100" pp="2" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Lüneburg|Uelzen|Celle|Hannover Hbf|Göttingen"/>
+		<dp pt="2503291107" pp="2" ppth="Fulda|Würzburg Hbf|Augsburg Hbf|München Hbf Gl.27-36|Weilheim(Oberbay)|Murnau|Garmisch-Partenkirchen|Mittenwald|Seefeld in Tirol|Innsbruck Hbf"/>
+	</s>
+	<s id="-8160985285898732989-2503290559-9">
+		<tl f="F" t="p" o="85" c="ICE" n="78"/>
+		<ar pt="2503291120" pp="3" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf"/>
+		<dp pt="2503291122" pp="3" ppth="Göttingen|Hannover Hbf|Hamburg Hbf"/>
+	</s>
+	<s id="3405443160145129820-2503291111-2">
+		<tl f="N" t="p" o="N4" c="RB" n="24227"/>
+		<ar pt="2503291114" pp="7" l="5" ppth="Kassel Hbf"/>
+		<dp pt="2503291115" pp="7" l="5" ppth="Guxhagen|Melsungen|Malsfeld|Malsfeld-Beiseförth|Altmorschen|Heinebach|Rotenburg a.d. Fulda|Lispenhausen|Bebra|Ludwigsau-Friedlos|Bad Hersfeld|Haunetal-Neukirchen|Burghaun(Hünfeld)|Hünfeld|Fulda"/>
+	</s>
+	<s id="-8965117659663328208-2503290842-6">
+		<tl f="F" t="p" o="80" c="ICE" n="535"/>
+		<ar pt="2503291121" pp="2" ppth="Oldenburg(Oldb)Hbf|Delmenhorst|Bremen Hbf|Hannover Hbf|Göttingen"/>
+		<dp pt="2503291123" pp="2" ppth="Fulda|Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf|München Hbf"/>
+	</s>
+	<s id="486583059417690094-2503290816-6">
+		<tl f="F" t="p" o="80" c="ICE" n="585"/>
+		<ar pt="2503291121" pp="2" wings="-8965117659663328208-2503290842" ppth="Lübeck Hbf|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen"/>
+		<dp pt="2503291123" pp="2" wings="-8965117659663328208-2503290842" ppth="Fulda|Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf|München Hbf"/>
+	</s>
+	<s id="-7792289106581292369-2503291118-2">
+		<tl f="D" t="p" o="H4" c="RT" n="20507"/>
+		<ar pt="2503291122" pp="7" l="5" ppth="Kassel Hbf (tief)"/>
+		<dp pt="2503291123" pp="7" l="5" ppth="Kassel-Oberzwehren|Baunatal-Rengershausen|Baunatal-Guntershausen|Guxhagen|Körle|Melsungen-Röhrenfurth|Melsungen-Schwarzenberg|Melsungen Bartenwetzerbrücke|Melsungen"/>
+	</s>
+	<s id="-534158183375955515-2503291139-1">
+		<tl f="N" t="p" o="800523" c="RB" n="23013"/>
+		<dp pt="2503291139" pp="4" l="4" ppth="Vellmar-Obervellmar|Ahnatal-Weimar|Zierenberg|Wolfhagen|Ehringen|Volkmarsen|Külte-Wetterburg|Bad Arolsen|Mengeringhausen|Twiste|Korbach Hbf"/>
+	</s>
+	<s id="4236778138763071312-2503291132-1">
+		<tl t="p" o="AM" c="Bus" n="10711"/>
+		<dp pt="2503291132" pp="" l="RE9" ppth="Eichenberg"/>
+	</s>
+	<s id="4546279269362232017-2503291148-2">
+		<tl f="D" t="p" o="H4" c="RT" n="20509"/>
+		<ar pt="2503291152" pp="7" l="5" ppth="Kassel Hbf (tief)"/>
+		<dp pt="2503291153" pp="7" l="5" ppth="Kassel-Oberzwehren|Baunatal-Rengershausen|Baunatal-Guntershausen|Guxhagen|Körle|Melsungen-Röhrenfurth|Melsungen-Schwarzenberg|Melsungen Bartenwetzerbrücke|Melsungen"/>
+	</s>
+	<s id="-4937836983754978233-2503291103-1">
+		<tl f="N" t="p" o="NXRE" c="RE" n="26716"/>
+		<dp pt="2503291103" pp="8" l="11" ppth="Hofgeismar|Warburg(Westf)|Willebadessen|Altenbeken|Paderborn Hbf|Lippstadt|Soest|Hamm(Westf)Hbf|Kamen|Dortmund Hbf"/>
+	</s>
+	<s id="5377652111292159737-2503290941-8">
+		<tl f="F" t="p" o="80" c="ICE" n="1223"/>
+		<ar pt="2503291156" pp="2" ppth="Dortmund Hbf|Hamm(Westf)Hbf|Soest|Lippstadt|Paderborn Hbf|Altenbeken|Warburg(Westf)"/>
+		<dp pt="2503291158" pp="2" ppth="Fulda|Würzburg Hbf|Nürnberg Hbf"/>
+	</s>
+	<s id="-4029781444932737612-2503291005-12">
+		<tl f="N" t="p" o="800523" c="RB" n="23012"/>
+		<ar pt="2503291121" pp="4" l="4" ppth="Korbach Hbf|Twiste|Mengeringhausen|Bad Arolsen|Külte-Wetterburg|Volkmarsen|Ehringen|Wolfhagen|Zierenberg|Ahnatal-Weimar|Vellmar-Obervellmar"/>
+	</s>
+	<s id="3065578097127168832-2503291105-10">
+		<tl f="D" t="p" o="H4" c="RT" n="20502"/>
+		<ar pt="2503291135" pp="9" l="5" ppth="Melsungen|Melsungen Bartenwetzerbrücke|Melsungen-Schwarzenberg|Melsungen-Röhrenfurth|Körle|Guxhagen|Baunatal-Guntershausen|Baunatal-Rengershausen|Kassel-Oberzwehren"/>
+		<dp pt="2503291135" pp="9" l="5" ppth="Kassel Hbf (tief)"/>
+	</s>
+	<s id="-2082433902018755133-2503291142-2">
+		<tl f="N" t="p" o="800523" c="RB" n="23115"/>
+		<ar pt="2503291147" pp="7" l="39" ppth="Kassel Hbf"/>
+		<dp pt="2503291148" pp="7" l="39" ppth="Baunatal-Rengershausen|Baunatal-Guntershausen|Edermünde-Grifte|Felsberg-Wolfershausen|Felsberg-Altenbrunslar|Felsberg-Gensungen|Wabern(Bz Kassel)|Zennern|Fritzlar|Ungedanken|Mandern|Wega|Bad Wildungen"/>
+	</s>
+	<s id="-4151394777712103696-2503290817-5">
+		<tl f="F" t="p" o="80" c="ICE" n="882"/>
+		<ar pt="2503291134" pp="3" ppth="München Hbf|Nürnberg Hbf|Würzburg Hbf|Fulda"/>
+		<dp pt="2503291136" pp="3" ppth="Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Neumünster|Kiel Hbf"/>
+	</s>
+	<s id="1409628509556846116-2503290915-5">
+		<tl f="F" t="p" o="80" c="ICE" n="575"/>
+		<ar pt="2503291135" pp="2" ppth="Hamburg Dammtor|Hamburg Hbf|Hannover Hbf|Göttingen"/>
+		<dp pt="2503291137" pp="2" ppth="Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mannheim Hbf|Stuttgart Hbf"/>
+	</s>
+	<s id="-4218232252739946939-2503291105-2">
+		<tl f="D" t="p" o="K4RE" c="HLB" n="24409"/>
+		<ar pt="2503291109" pp="7" l="RE98" ppth="Kassel Hbf"/>
+		<dp pt="2503291110" pp="7" l="RE98" ppth="Baunatal-Guntershausen|Edermünde-Grifte|Felsberg-Wolfershausen|Felsberg-Altenbrunslar|Felsberg-Gensungen|Wabern(Bz Kassel)|Singlis|Borken(Hess)|Zimmersrode|Schlierbach(Schwalm-Eder-Kr.)|Treysa|Schwalmstadt-Wiera|Neustadt(Kr Marburg)|Stadtallendorf|Kirchhain(Bz Kassel)|Cölbe|Gießen|Friedberg(Hess)|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-6487138318620481477-2503290921-5">
+		<tl f="F" t="p" o="80" c="ICE" n="1083"/>
+		<ar pt="2503291145" pp="1" ppth="Hamburg Dammtor|Hamburg Hbf|Hannover Hbf|Göttingen"/>
+		<dp pt="2503291204" pp="1" ppth="Fulda|Hanau Hbf|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="2099414438856208129-2503291020-16">
+		<tl f="N" t="p" o="N4" c="RB" n="24220"/>
+		<ar pt="2503291142" pp="9" l="5" ppth="Fulda|Hünfeld|Burghaun(Hünfeld)|Haunetal-Neukirchen|Bad Hersfeld|Ludwigsau-Friedlos|Bebra|Lispenhausen|Rotenburg a.d. Fulda|Heinebach|Altmorschen|Malsfeld-Beiseförth|Malsfeld|Melsungen|Guxhagen"/>
+		<dp pt="2503291143" pp="9" l="5" ppth="Kassel Hbf"/>
+	</s>
+	<s id="2278117661468300015-2503290816-8">
+		<tl f="F" t="p" o="80" c="ICE" n="279"/>
+		<ar pt="2503291112" pp="2" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin-Spandau|Wolfsburg Hbf|Braunschweig Hbf|Hildesheim Hbf|Göttingen"/>
+		<dp pt="2503291114" pp="2" ppth="Fulda|Hanau Hbf|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB"/>
+	</s>
+	<s id="3355427801752445422-2503290809-10">
+		<tl f="F" t="p" o="80" c="ICE" n="1577"/>
+		<ar pt="2503291100" pp="2" wings="5822632449192208977-2503290809" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Lüneburg|Uelzen|Celle|Hannover Hbf|Göttingen"/>
+		<dp pt="2503291104" pp="2" ppth="Frankfurt(Main)Hbf|Darmstadt Hbf|Bensheim|Weinheim(Bergstr)Hbf|Heidelberg Hbf|Wiesloch-Walldorf|Stuttgart Hbf"/>
+	</s>
+</timetable>
