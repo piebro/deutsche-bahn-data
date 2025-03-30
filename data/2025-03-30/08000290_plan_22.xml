@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<timetable station="Offenburg">
+	<s id="-31217340064994015-2503302114-14">
+		<tl f="D" t="p" o="S6" c="SWE" n="87389"/>
+		<ar pt="2503302203" pp="7" l="RS2" ppth="Bad Griesbach(Schwarzwald)|Bad Peterstal|Löcherberg|Ibach|Oppenau|Ramsbach Birkhof|Ramsbach Höfle|Hubacker|Lautenbach(Baden)|Oberkirch-Köhlersiedlung|Oberkirch|Zusenhofen|Appenweier"/>
+	</s>
+	<s id="2051357771150740602-2503302201-14">
+		<tl f="D" t="p" o="S6" c="SWE" n="87393"/>
+		<ar pt="2503302248" pp="7" l="RS2" ppth="Bad Griesbach(Schwarzwald)|Bad Peterstal|Löcherberg|Ibach|Oppenau|Ramsbach Birkhof|Ramsbach Höfle|Hubacker|Lautenbach(Baden)|Oberkirch-Köhlersiedlung|Oberkirch|Zusenhofen|Appenweier"/>
+	</s>
+	<s id="682737022119058919-2503301939-16">
+		<tl f="N" t="p" o="800647" c="RE" n="4740"/>
+		<ar pt="2503302159" pp="6" l="2" ppth="Konstanz|Konstanz-Petershausen|Allensbach|Radolfzell|Singen(Hohentwiel)|Engen|Immendingen|Donaueschingen|Villingen(Schwarzw)|St Georgen(Schwarzw)|Triberg|Hornberg(Schwarzw)|Hausach|Haslach|Biberach(Baden)"/>
+		<dp pt="2503302202" pp="6" l="2" ppth="Appenweier|Renchen|Achern|Bühl(Baden)|Baden-Baden|Rastatt|Karlsruhe Hbf"/>
+	</s>
+	<s id="-5677468493735331097-2503302217-4">
+		<tl f="D" t="p" o="S6" c="SWE" n="87391"/>
+		<ar pt="2503302233" pp="7" l="RS2" tra="3711111789156148951-2503302241-1" ppth="Oberkirch|Zusenhofen|Appenweier"/>
+	</s>
+	<s id="-8727038862272870614-2503302152-5">
+		<tl f="D" t="p" o="S6" c="SWE" n="87459"/>
+		<ar pt="2503302222" pp="5" l="RS4" pde="Strasbourg" ppth="Kehl|Kork|Legelshurst|Appenweier"/>
+	</s>
+	<s id="-5282244633591912464-2503302101-13">
+		<tl f="D" t="p" o="S6" c="SWE" n="87548"/>
+		<ar pt="2503302214" pp="7" l="RS1" ppth="Freudenstadt Hbf|Alpirsbach|Schiltach Mitte|Schiltach|Halbmeil|Wolfach|Hausach|Haslach|Steinach(Baden)|Biberach(Baden)|Gengenbach|Offenburg Kreisschulzentrum"/>
+	</s>
+	<s id="-2068194360374856795-2503302028-30">
+		<tl f="N" t="p" o="8006C5" c="RE" n="17030"/>
+		<ar pt="2503302217" pp="6" l="7" ppth="Basel Bad Bf|Weil am Rhein|Haltingen|Eimeldingen|Efringen-Kirchen|Istein|Kleinkems|Rheinweiler|Bad Bellingen|Schliengen|Auggen|Müllheim im Markgräflerland|Buggingen|Heitersheim|Bad Krozingen|Norsingen|Schallstadt|Ebringen|Freiburg-St Georgen|Freiburg(Breisgau) Hbf|Denzlingen|Emmendingen|Riegel-Malterdingen|Kenzingen|Herbolzheim(Breisg)|Ringsheim/Europa-Park|Orschweier|Lahr(Schwarzw)|Friesenheim(Baden)"/>
+	</s>
+	<s id="3711111789156148951-2503302241-1">
+		<tl f="D" t="p" o="S6" c="SWE" n="88609"/>
+		<dp pt="2503302241" pp="7" l="RS1" tra="-5677468493735331097-2503302217-4" ppth="Offenburg Kreisschulzentrum|Gengenbach|Biberach(Baden)|Steinach(Baden)|Haslach|Hausach|Wolfach|Halbmeil|Schiltach|Schiltach Mitte|Schenkenzell|Alpirsbach|Loßburg-Rodt|Freudenstadt Hbf"/>
+	</s>
+</timetable>
