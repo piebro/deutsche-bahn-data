@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg-Altona">
+	<s id="3991231642426322847-2503311637-1">
+		<tl f="F" t="p" o="80" c="ICE" n="871"/>
+		<dp pt="2503311637" pp="12" ppth="Hamburg Hbf|Büchen|Ludwigslust|Wittenberge|Berlin-Spandau|Berlin Hbf|Berlin Ostbahnhof|Dresden-Neustadt|Dresden Hbf"/>
+	</s>
+	<s id="2342573116787471412-2503310838-13">
+		<tl f="F" t="p" o="80" c="ICE" n="1694"/>
+		<ar pt="2503311620" pp="6" ppth="München Hbf|München-Pasing|Augsburg Hbf|Donauwörth|Nürnberg Hbf|Coburg|Erfurt Hbf|Halle(Saale)Hbf|Berlin Südkreuz|Berlin Hbf|Berlin-Spandau|Hamburg Hbf"/>
+	</s>
+	<s id="5943675838823476295-2503311616-1">
+		<tl f="F" t="p" o="80" c="ICE" n="1705"/>
+		<dp pt="2503311616" pp="9" ppth="Hamburg Dammtor|Hamburg Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Leipzig Hbf|Naumburg(Saale)Hbf|Jena Paradies|Jena-Göschwitz"/>
+	</s>
+	<s id="-2019839073025463546-2503311523-8">
+		<tl f="D" t="p" o="O0" c="NBE" n="81877"/>
+		<ar pt="2503311604" pp="8" l="RB71" ppth="Wrist|Dauenhof|Horst(Holst)|Elmshorn|Tornesch|Prisdorf|Pinneberg"/>
+	</s>
+	<s id="6823598612451527303-2503311616-1">
+		<tl f="F" t="p" o="80" c="ICE" n="1605"/>
+		<dp pt="2503311616" pp="9" wings="5943675838823476295-2503311616" ppth="Hamburg Dammtor|Hamburg Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Leipzig Hbf|Erfurt Hbf|Erlangen|Nürnberg Hbf|München Hbf"/>
+	</s>
+	<s id="-8126071574567891320-2503311635-1">
+		<tl f="N" t="p" o="8002B5" c="RE" n="11024"/>
+		<dp pt="2503311635" pp="9" l="6" ppth="Elmshorn|Itzehoe|Heide(Holst)|Lunden|Friedrichstadt|Husum|Bredstedt|Langenhorn(Schlesw)|Niebüll|Klanxbüll|Morsum|Keitum|Westerland(Sylt)"/>
+	</s>
+	<s id="-3484523595346373865-2503311623-1">
+		<tl f="F" t="p" o="80" c="IC" n="2233"/>
+		<dp pt="2503311623" pp="11" ppth="Hamburg Hbf|Hamburg-Harburg|Lüneburg|Uelzen|Salzwedel|Stendal Hbf|Magdeburg Hbf"/>
+	</s>
+	<s id="4492027683943521323-2503311654-1">
+		<tl f="D" t="p" o="O0" c="NBE" n="82154"/>
+		<dp pt="2503311654" pp="8" l="RB71" ppth="Pinneberg|Prisdorf|Tornesch|Elmshorn|Herzhorn|Glückstadt|Krempe|Kremperheide|Itzehoe"/>
+	</s>
+	<s id="1731559878950819355-2503311654-1">
+		<tl f="D" t="p" o="O0" c="NBE" n="81884"/>
+		<dp pt="2503311654" pp="8" l="RB71" wings="4492027683943521323-2503311654" ppth="Pinneberg|Prisdorf|Tornesch|Elmshorn|Horst(Holst)|Dauenhof|Wrist"/>
+	</s>
+	<s id="-6539604507256114562-2503310613-16">
+		<tl f="F" t="p" o="81" c="ICE" n="94"/>
+		<ar pt="2503311620" pp="6" wings="2342573116787471412-2503310838" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Passau Hbf|Regensburg Hbf|Nürnberg Hbf|Coburg|Erfurt Hbf|Halle(Saale)Hbf|Berlin Südkreuz|Berlin Hbf|Berlin-Spandau|Hamburg Hbf"/>
+	</s>
+	<s id="3657993984016871147-2503310954-13">
+		<tl f="F" t="p" o="80" c="ICE" n="800"/>
+		<ar pt="2503311638" pp="5" ppth="München Hbf|Ingolstadt Hbf|Nürnberg Hbf|Bamberg|Erfurt Hbf|Halle(Saale)Hbf|Bitterfeld|Berlin Südkreuz|Berlin Hbf|Berlin-Spandau|Hamburg Hbf|Hamburg Dammtor"/>
+	</s>
+	<s id="5781797999410176100-2503310511-19">
+		<tl f="F" t="p" o="80" c="ICE" n="1020"/>
+		<ar pt="2503311621" pp="5" ppth="Passau Hbf|Plattling|Straubing|Regensburg Hbf|Nürnberg Hbf|Würzburg Hbf|Hanau Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf|Köln Messe/Deutz Gl.11-12|Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Münster(Westf)Hbf|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="8285808673956799845-2503311307-13">
+		<tl f="N" t="p" o="8002B5" c="RE" n="11025"/>
+		<ar pt="2503311621" pp="9" l="6" ppth="Westerland(Sylt)|Keitum|Klanxbüll|Niebüll|Langenhorn(Schlesw)|Bredstedt|Husum|Friedrichstadt|Lunden|Heide(Holst)|Itzehoe|Elmshorn"/>
+	</s>
+	<s id="-6235789055676348186-2503311629-1">
+		<tl f="F" t="p" o="80" c="ICE" n="205"/>
+		<dp pt="2503311629" pp="7" ppth="Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Osnabrück Hbf|Münster(Westf)Hbf|Wanne-Eickel Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Hbf|Frankfurt(M) Flughafen Fernbf|Mannheim Hbf|Karlsruhe Hbf"/>
+	</s>
+</timetable>
