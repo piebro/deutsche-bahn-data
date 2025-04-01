@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="-9026523123890304183-2504012034-4">
+		<tl t="p" o="800165" c="FEX" n="19871"/>
+		<ar pt="2504012104" pp="4" tra="7535029924397126426-2504012109-1" ppth="Berlin-Lichtenberg|Berlin Ostkreuz|Berlin-Schöneweide"/>
+	</s>
+	<s id="-1246312238388053590-2504012114-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18172"/>
+		<dp pt="2504012114" pp="3 D-G" l="23" ppth="Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Charlottenburg"/>
+	</s>
+	<s id="4306201299399525432-2504012034-2">
+		<tl f="N" t="p" o="NZ" c="RE" n="52275"/>
+		<ar pt="2504012050" pp="4" l="17" ppth="Berlin Ostkreuz"/>
+		<dp pt="2504012101" pp="4" l="17" ppth="Doberlug-Kirchhain|Elsterwerda"/>
+	</s>
+	<s id="8883652730926797595-2504011754-8">
+		<tl f="F" t="p" o="80" c="IC" n="2275"/>
+		<ar pt="2504012050" pp="4" wings="4306201299399525432-2504012034" ppth="Warnemünde|Rostock Hbf|Waren(Müritz)|Neustrelitz Hbf|Oranienburg|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+		<dp pt="2504012101" pp="4" wings="4306201299399525432-2504012034" ppth="Doberlug-Kirchhain|Elsterwerda|Dresden-Neustadt|Dresden Hbf"/>
+	</s>
+	<s id="7535029924397126426-2504012109-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18685"/>
+		<dp pt="2504012109" pp="4" l="32" tra="-9026523123890304183-2504012034-4" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+</timetable>

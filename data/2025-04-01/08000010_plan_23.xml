@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<timetable station="Aschaffenburg Hbf">
+	<s id="4244664659270419821-2504012358-1">
+		<tl f="N" t="p" o="800603" c="RB" n="23335"/>
+		<dp pt="2504012358" pp="3" l="88" ppth="Aschaffenburg Hochschule|Aschaffenburg Süd|Obernau|Sulzbach(Main)|Kleinwallstadt|Obernburg-Elsenfeld|Glanzstoffwerke|Erlenbach(Main)|Wörth(Main)|Klingenberg(Main)|Laudenbach am Main|Kleinheubach|Miltenberg"/>
+	</s>
+	<s id="8573811631662133764-2504011959-4">
+		<tl f="F" t="p" o="80" c="ICE" n="520"/>
+		<ar pt="2504012358" pp="8" ppth="München Hbf|Nürnberg Hbf|Würzburg Hbf"/>
+		<dp pt="2504012359" pp="8" ppth="Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="6840331359736172319-2504012234-8">
+		<tl t="p" o="K4" c="Bus" n="58667"/>
+		<ar pt="2504012335" pp="" l="EV" ppth="Hanau Hbf|Großauheim(Kr Hanau)|Großkrotzenburg|Kahl(Main)|Dettingen(Main)|Rückersbacher Schlucht|Kleinostheim"/>
+	</s>
+	<s id="5903101010412136106-2504011713-11">
+		<tl f="F" t="p" o="81" c="ICE" n="20"/>
+		<ar pt="2504012317" pp="8" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Passau Hbf|Plattling|Regensburg Hbf|Nürnberg Hbf|Würzburg Hbf"/>
+		<dp pt="2504012318" pp="8" ppth="Hanau Hbf|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-2807885641046949287-2504012358-1">
+		<tl t="p" o="B7" c="Bus" n="4636"/>
+		<dp pt="2504012358" pp="" l="EV" ppth="Kleinostheim|Dettingen(Main)|Kahl(Main)|Großkrotzenburg|Großauheim(Kr Hanau)|Hanau Hbf"/>
+	</s>
+	<s id="9117006994590991223-2504012236-17">
+		<tl f="N" t="p" o="800772" c="RE" n="4636"/>
+		<ar pt="2504012350" pp="8" l="54" ppth="Würzburg Hbf|Würzburg-Zell|Veitshöchheim|Thüngersheim|Retzbach-Zellingen|Himmelstadt|Karlstadt(Main)|Wernfeld|Gemünden(Main)|Langenprozelten|Lohr Bahnhof|Partenstein|Wiesthal|Heigenbrücken|Laufach|Hösbach"/>
+	</s>
+	<s id="7705396428285892876-2504012347-1">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="28740"/>
+		<dp pt="2504012347" pp="4" l="RB75" ppth="Mainaschaff|Stockstadt(Main)|Babenhausen(Hess)|Hergershausen|Altheim(Hess)|Dieburg|Messel|Darmstadt-Kranichstein|Darmstadt Nord|Darmstadt Hbf"/>
+	</s>
+	<s id="2588514830515545206-2504012322-1">
+		<tl f="N" t="p" o="800772" c="RE" n="4635"/>
+		<dp pt="2504012322" pp="6" l="54" ppth="Hösbach|Laufach|Heigenbrücken|Wiesthal|Partenstein|Lohr Bahnhof|Langenprozelten|Gemünden(Main)|Karlstadt(Main)|Retzbach-Zellingen|Würzburg Hbf"/>
+	</s>
+	<s id="3634674998228486039-2504012302-1">
+		<tl f="N" t="p" o="800603" c="RB" n="23333"/>
+		<dp pt="2504012302" pp="4" l="88" ppth="Aschaffenburg Hochschule|Aschaffenburg Süd|Obernau|Sulzbach(Main)|Kleinwallstadt|Obernburg-Elsenfeld|Glanzstoffwerke|Erlenbach(Main)|Wörth(Main)|Klingenberg(Main)|Laudenbach am Main|Kleinheubach|Miltenberg"/>
+	</s>
+	<s id="-8539805261732360549-2504012205-7">
+		<tl t="p" o="B7" c="Bus" n="4633"/>
+		<ar pt="2504012307" pp="" l="EV" ppth="Hanau Hbf|Großauheim(Kr Hanau)|Großkrotzenburg|Kahl(Main)|Dettingen(Main)|Kleinostheim"/>
+	</s>
+	<s id="5174543088190819495-2504012136-18">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="28735"/>
+		<ar pt="2504012318" pp="4" l="RB75" ppth="Wiesbaden Hbf|Mainz-Kastel|Mainz-Bischofsheim|Nauheim(b Gr.Gerau)|Groß Gerau|Klein Gerau|Weiterstadt|Darmstadt Hbf|Darmstadt Nord|Darmstadt-Kranichstein|Messel|Dieburg|Altheim(Hess)|Hergershausen|Babenhausen(Hess)|Stockstadt(Main)|Mainaschaff"/>
+	</s>
+</timetable>
