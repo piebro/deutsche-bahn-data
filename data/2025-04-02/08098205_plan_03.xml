@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<timetable station="Leipzig Hbf (tief)">
+	<s id="2627468314687675338-2504020329-6">
+		<tl f="S" t="p" o="800486" c="S" n="37500"/>
+		<ar pt="2504020339" pp="2" l="5X" ppth="Leipzig-Connewitz|Leipzig MDR|Leipzig Bayerischer Bahnhof|Leipzig Wilhelm-Leuschner-Platz|Leipzig Markt"/>
+		<dp pt="2504020341" pp="2" l="5X" ppth="Leipzig Messe|Leipzig/Halle Flughafen"/>
+	</s>
+	<s id="-877435894088265085-2504020320-7">
+		<tl f="S" t="p" o="800486" c="S" n="37388"/>
+		<ar pt="2504020332" pp="2" l="3" ppth="Leipzig-Stötteritz|Leipzig Völkerschlachtdenkmal|Leipzig MDR|Leipzig Bayerischer Bahnhof|Leipzig Wilhelm-Leuschner-Platz|Leipzig Markt"/>
+		<dp pt="2504020334" pp="2" l="3" ppth="Leipzig-Gohlis|Leipzig Olbrichtstraße|Leipzig Slevogtstraße|Leipzig-Wahren|Leipzig-Lützschena|Schkeuditz|Schkeuditz West|Großkugel|Gröbers|Dieskau|Halle Messe|Halle(Saale)Hbf"/>
+	</s>
+	<s id="-2819238151300076653-2504020316-14">
+		<tl f="S" t="p" o="800486" c="S" n="37680"/>
+		<ar pt="2504020355" pp="2" l="6" tra="-8735318621162259357-2504020358-1" ppth="Borna(Leipzig)|Lobstädt|Neukieritzsch|Böhlen Werke|Böhlen(Leipzig)|Markkleeberg-Großstädteln|Markkleeberg|Markkleeberg Nord|Leipzig-Connewitz|Leipzig MDR|Leipzig Bayerischer Bahnhof|Leipzig Wilhelm-Leuschner-Platz|Leipzig Markt"/>
+	</s>
+	<s id="-8735318621162259357-2504020358-1">
+		<tl f="S" t="p" o="800486" c="S" n="37502"/>
+		<dp pt="2504020358" pp="2" l="5X" tra="-2819238151300076653-2504020316-14" ppth="Leipzig Messe|Leipzig/Halle Flughafen|Halle(Saale)Hbf"/>
+	</s>
+</timetable>
