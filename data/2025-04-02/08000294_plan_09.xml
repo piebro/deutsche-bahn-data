@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<timetable station="Osnabrück Hbf">
+	<s id="3365433031089575725-2504020924-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="75253"/>
+		<dp pt="2504020924" pp="14" l="RB58" ppth="Osnabrück Altstadt|Halen|Achmer|Bramsche|Hesepe|Rieste|Neuenkirchen(Oldb)|Holdorf(Oldb)|Steinfeld(Oldb)|Mühlen(Oldb)|Lohne(Oldb)|Vechta|Lutten|Goldenstedt(Oldb)|Rechterfeld|Wildeshausen|Brettorf|Ganderkesee|Delmenhorst|Bremen Neustadt|Bremen Hbf"/>
+	</s>
+	<s id="-280421485424254335-2504020907-1">
+		<tl t="p" o="NWBus" c="Bus" n="15126"/>
+		<dp pt="2504020907" pp="" l="RB75" ppth="Osnabrück-Sutthausen|Oesede|Kloster Oesede|Wellendorf"/>
+	</s>
+	<s id="6041615626494508088-2504020719-22">
+		<tl f="D" t="p" o="N1" c="NWB" n="75246"/>
+		<ar pt="2504020934" pp="14" l="RB58" ppth="Bremen Hbf|Bremen Neustadt|Delmenhorst|Ganderkesee|Brettorf|Wildeshausen|Rechterfeld|Goldenstedt(Oldb)|Lutten|Vechta|Lohne(Oldb)|Mühlen(Oldb)|Steinfeld(Oldb)|Holdorf(Oldb)|Neuenkirchen(Oldb)|Rieste|Hesepe|Bramsche|Achmer|Halen|Osnabrück Altstadt"/>
+	</s>
+	<s id="1179810196779242077-2504020710-7">
+		<tl f="F" t="p" o="80" c="ICE" n="208"/>
+		<ar pt="2504020921" pp="2" ppth="Köln Hbf|Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Recklinghausen Hbf|Münster(Westf)Hbf"/>
+		<dp pt="2504020923" pp="2" ppth="Bremen Hbf|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="-6159380476190121550-2504020706-16">
+		<tl f="N" t="p" o="800349" c="RE" n="10207"/>
+		<ar pt="2504020910" pp="4" l="2" ppth="Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Mülheim(Ruhr)Hbf|Essen Hbf|Gelsenkirchen Hbf|Wanne-Eickel Hbf|Recklinghausen Hbf|Haltern am See|Dülmen|Münster(Westf)Hbf|Westbevern|Ostbevern|Lengerich(Westf)|Hasbergen"/>
+	</s>
+	<s id="3412386077918361881-2504020812-11">
+		<tl f="N" t="p" o="R2RB" c="RB" n="20360"/>
+		<ar pt="2504020912" pp="12" l="61" ppth="Bielefeld Hbf|Brake(b Bielefeld)|Herford|Hiddenhausen-Schweicheln|Kirchlengern|Bünde(Westf)|Bruchmühlen|Melle|Westerhausen|Wissingen"/>
+		<dp pt="2504020914" pp="12" l="61" ppth="Osnabrück Altstadt|Ibbenbüren-Laggenbeck|Ibbenbüren|Ibbenbüren-Esch|Hörstel|Rheine|Salzbergen|Schüttorf|Bad Bentheim|Oldenzaal|Hengelo"/>
+	</s>
+	<s id="2832146940171001446-2504020918-5">
+		<tl f="N" t="p" o="800262" c="RE" n="11504"/>
+		<ar pt="2504020948" pp="12" l="62" ppth="Löhne(Westf)|Kirchlengern|Bünde(Westf)|Melle"/>
+		<dp pt="2504020950" pp="12" l="62" ppth="Osnabrück Altstadt|Ibbenbüren|Rheine"/>
+	</s>
+	<s id="-9119563903294684520-2504020901-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="75311"/>
+		<dp pt="2504020901" pp="14" l="RE18" ppth="Osnabrück Altstadt|Bramsche|Bersenbrück|Quakenbrück|Essen(Oldb)|Cloppenburg|Ahlhorn|Großenkneten|Huntlosen|Sandkrug|Oldenburg(Oldb)Hbf|Rastede|Jaderberg|Varel(Oldb)|Sande|Wilhelmshaven"/>
+	</s>
+	<s id="-6796543952584381775-2504020834-12">
+		<tl f="N" t="p" o="R2RB" c="RB" n="20361"/>
+		<ar pt="2504020945" pp="11" l="61" ppth="Hengelo|Oldenzaal|Bad Bentheim|Schüttorf|Salzbergen|Rheine|Hörstel|Ibbenbüren-Esch|Ibbenbüren|Ibbenbüren-Laggenbeck|Osnabrück Altstadt"/>
+		<dp pt="2504020947" pp="11" l="61" ppth="Wissingen|Westerhausen|Melle|Bruchmühlen|Bünde(Westf)|Kirchlengern|Hiddenhausen-Schweicheln|Herford|Brake(b Bielefeld)|Bielefeld Hbf"/>
+	</s>
+	<s id="4599088370419344101-2504020553-6">
+		<tl f="F" t="p" o="80" c="IC" n="240"/>
+		<ar pt="2504020904" pp="12" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin-Spandau|Hannover Hbf|Bünde(Westf)"/>
+		<dp pt="2504020906" pp="12" ppth="Rheine|Bad Bentheim|Hengelo|Deventer|Apeldoorn|Amersfoort Centraal"/>
+	</s>
+	<s id="7006118749138032199-2504020838-7">
+		<tl f="D" t="p" o="W3" c="WFB" n="95777"/>
+		<ar pt="2504020913" pp="11" l="RE60" ppth="Rheine|Hörstel|Ibbenbüren-Esch|Ibbenbüren|Ibbenbüren-Laggenbeck|Osnabrück Altstadt"/>
+		<dp pt="2504020917" pp="11" l="RE60" ppth="Melle|Bünde(Westf)|Kirchlengern|Löhne(Westf)|Bad Oeynhausen|Porta Westfalica|Minden(Westf)|Bückeburg|Stadthagen|Haste|Wunstorf|Hannover Hbf|Lehrte|Hämelerwald|Vöhrum|Peine|Vechelde|Braunschweig Hbf"/>
+	</s>
+	<s id="-4602427783665327588-2504020729-6">
+		<tl f="F" t="p" o="80" c="ICE" n="517"/>
+		<ar pt="2504020935" pp="2" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Bremen Hbf"/>
+		<dp pt="2504020937" pp="2" ppth="Münster(Westf)Hbf|Dortmund Hbf|Hagen Hbf|Wuppertal Hbf|Solingen Hbf|Köln Hbf|Frankfurt(M) Flughafen Fernbf|Mannheim Hbf|Stuttgart Hbf|Ulm Hbf|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-1211218468119279951-2504020814-10">
+		<tl f="N" t="p" o="800295" c="RE" n="14057"/>
+		<ar pt="2504020927" pp="3" l="9" ppth="Bremen Hbf|Kirchweyhe|Syke|Bassum|Twistringen|Barnstorf(Han)|Diepholz|Lemförde|Bohmte"/>
+	</s>
+	<s id="6065987942969979065-2504020903-8">
+		<tl f="N" t="p" o="R2RB" c="RB" n="90588"/>
+		<ar pt="2504020939" pp="3" l="66" ppth="Münster(Westf)Hbf|Westbevern|Ostbevern|Kattenvenne|Lengerich(Westf)|Natrup-Hagen|Hasbergen"/>
+	</s>
+	<s id="-153400799490531256-2504020927-1">
+		<tl f="N" t="p" o="800295" c="RE" n="4454"/>
+		<dp pt="2504020927" pp="4" l="9" ppth="Bohmte|Lemförde|Diepholz|Barnstorf(Han)|Twistringen|Bassum|Syke|Kirchweyhe|Bremen Hbf|Osterholz-Scharmbeck|Bremerhaven Hbf|Bremerhaven-Lehe"/>
+	</s>
+	<s id="6555650653607414111-2504020904-5">
+		<tl t="p" o="NWBus" c="Bus" n="15117"/>
+		<ar pt="2504020943" pp="" l="RB75" ppth="Wellendorf|Kloster Oesede|Oesede|Osnabrück-Sutthausen"/>
+	</s>
+	<s id="6554664680479426577-2504020947-1">
+		<tl f="N" t="p" o="800349" c="RE" n="10212"/>
+		<dp pt="2504020947" pp="4" l="2" ppth="Hasbergen|Natrup-Hagen|Lengerich(Westf)|Kattenvenne|Ostbevern|Westbevern|Münster(Westf)Hbf|Dülmen|Haltern am See|Recklinghausen Hbf|Wanne-Eickel Hbf|Gelsenkirchen Hbf|Essen Hbf|Mülheim(Ruhr)Hbf|Duisburg Hbf|Düsseldorf Flughafen|Düsseldorf Hbf"/>
+	</s>
+	<s id="2182574730466099617-2504020740-17">
+		<tl f="D" t="p" o="N1" c="NWB" n="75306"/>
+		<ar pt="2504020958" pp="13" l="RE18" ppth="Wilhelmshaven|Sande|Varel(Oldb)|Jaderberg|Rastede|Oldenburg(Oldb)Hbf|Sandkrug|Huntlosen|Großenkneten|Ahlhorn|Cloppenburg|Essen(Oldb)|Quakenbrück|Bersenbrück|Bramsche|Osnabrück Altstadt"/>
+	</s>
+</timetable>
