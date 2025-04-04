@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<timetable station="Dortmund Hbf">
+	<s id="9174687789945809335-2504040239-1">
+		<tl f="N" t="p" o="NXRE" c="RE" n="92972"/>
+		<dp pt="2504040239" pp="21" l="1" ppth="Herne|Essen Hbf"/>
+	</s>
+	<s id="-7896861531857184495-2504040136-7">
+		<tl t="p" o="B2" c="Bus" n="2054"/>
+		<ar pt="2504040218" pp="" l="S2" ppth="Dortmund-Mengede|Dortmund-Nette/Oestrich|Dortmund-Westerfilde|Dortmund-Huckarde|Dortmund-Wischlingen|Dortmund-Dorstfeld"/>
+	</s>
+	<s id="-8582649586800771554-2504040152-1">
+		<tl f="N" t="p" o="NXRE" c="RE" n="75482"/>
+		<dp pt="2504040220" pp="20" l="1" tra="3694584917576776810-2504040152-3" ppth="Kamen|Hamm(Westf)Hbf"/>
+	</s>
+	<s id="-415672408867932483-2504040105-4">
+		<tl t="p" o="NX" c="Bus" n="2182"/>
+		<ar pt="2504040213" pp="" l="RE1" ppth="Essen Hbf Kruppstraße/Am Thyssenhaus|Wattenscheid|Bochum Hbf (Buddenbergplatz)"/>
+		<dp pt="2504040213" pp="" l="RE1" ppth="Dortmund-Scharnhorst|Dortmund-Kurl|Kamen-Methler|Kamen|Bönen-Nordbögge|Hamm(Westf)Hbf"/>
+	</s>
+	<s id="3694584917576776810-2504040152-3">
+		<tl f="N" t="p" o="NXRE" c="RE" n="92981"/>
+		<ar pt="2504040218" pp="20" l="1" tra="-8582649586800771554-2504040152-1" ppth="Essen Hbf|Herne"/>
+	</s>
+	<s id="-422780742363751543-2504040120-7">
+		<tl t="p" o="NX" c="Bus" n="2187"/>
+		<ar pt="2504040252" pp="" l="RE1" ppth="Hamm(Westf)Hbf|Bönen-Nordbögge|Kamen|Kamen-Methler|Dortmund-Kurl|Dortmund-Scharnhorst"/>
+		<dp pt="2504040252" pp="" l="RE1" ppth="Bochum Hbf (Buddenbergplatz)|Wattenscheid|Essen Hbf Kruppstraße/Am Thyssenhaus"/>
+	</s>
+	<s id="-3847634946598460685-2504040207-5">
+		<tl f="S" t="p" o="8003L1" c="S" n="30202"/>
+		<ar pt="2504040242" pp="6" l="2" pde="Duisburg Hbf" ppth="Gelsenkirchen Hbf|Wanne-Eickel Hbf|Herne|Castrop-Rauxel Hbf"/>
+	</s>
+	<s id="4584806807655155350-2504040217-1">
+		<tl f="S" t="p" o="8003L1" c="S" n="30205"/>
+		<dp pt="2504040217" pp="6" l="2" pde="Duisburg Hbf" ppth="Dortmund-Dorstfeld|Dortmund-Wischlingen|Dortmund-Huckarde|Dortmund-Westerfilde|Dortmund-Nette/Oestrich|Dortmund-Mengede|Castrop-Rauxel Hbf|Herne|Wanne-Eickel Hbf|Gelsenkirchen Hbf"/>
+	</s>
+	<s id="4618937975840112517-2504040126-15">
+		<tl f="S" t="p" o="800337" c="S" n="30101"/>
+		<ar pt="2504040207" pp="7" l="1" ppth="Essen Hbf|Essen-Steele|Essen-Steele Ost|Essen-Eiberg|Wattenscheid-Höntrop|Bochum-Ehrenfeld|Bochum Hbf|Bochum-Langendreer West|Bochum-Langendreer|Dortmund-Kley|Dortmund-Oespel|Dortmund Universität|Dortmund-Dorstfeld Süd|Dortmund-Dorstfeld"/>
+	</s>
+</timetable>
