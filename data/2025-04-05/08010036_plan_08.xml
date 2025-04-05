@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin-Lichtenberg">
+	<s id="-3787711924698746533-2504050859-1">
+		<tl f="N" t="p" o="NBRB12" c="RB" n="91442"/>
+		<dp pt="2504050859" pp="15" l="12" ppth="Berlin Ostkreuz"/>
+	</s>
+	<s id="-2462281602049893729-2504050814-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18209"/>
+		<dp pt="2504050814" pp="21" l="32" ppth="Berlin Ostkreuz|Berlin-Schöneweide|Schönefeld(bei Berlin)"/>
+	</s>
+	<s id="793552436829448153-2504050848-2">
+		<tl f="N" t="p" o="NBRB12" c="RB" n="91453"/>
+		<ar pt="2504050851" pp="15" l="12" ppth="Berlin Ostkreuz"/>
+	</s>
+	<s id="2106905227247033425-2504050838-1">
+		<tl f="N" t="p" o="NBRB26" c="RB" n="5157"/>
+		<dp pt="2504050838" pp="15" l="26" ppth="Berlin-Mahlsdorf|Strausberg|Herrensee|Rehfelde|Müncheberg(Mark)|Obersdorf|Trebnitz(Mark)|Alt Rosenthal|Seelow-Gusow|Werbig|Küstrin-Kietz|Kostrzyn"/>
+	</s>
+	<s id="-667614990444766393-2504050818-4">
+		<tl f="N" t="p" o="800165" c="RB" n="18206"/>
+		<ar pt="2504050839" pp="21" l="32" ppth="Schönefeld(bei Berlin)|Berlin-Schöneweide|Berlin Ostkreuz"/>
+	</s>
+	<s id="8424280707882411907-2504050805-1">
+		<tl t="p" o="800165" c="FEX" n="19821"/>
+		<dp pt="2504050805" pp="22" pde="Rangsdorf" ppth="Berlin Ostkreuz|Berlin-Schöneweide|Flughafen BER"/>
+	</s>
+	<s id="1000988636776480658-2504050829-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18606"/>
+		<dp pt="2504050829" pp="20" l="14" tra="-5588514608763010091-2504050758-4" ppth="Berlin Gesundbrunnen|Berlin Jungfernheide|Berlin-Spandau|Albrechtshof|Seegefeld|Falkensee|Finkenkrug|Brieselang|Nauen"/>
+	</s>
+	<s id="-7356524302393958087-2504050828-4">
+		<tl t="p" o="800165" c="FEX" n="19816"/>
+		<ar pt="2504050854" pp="22" pde="Wünsdorf-Waldstadt" ppth="Flughafen BER|Berlin-Schöneweide|Berlin Ostkreuz"/>
+	</s>
+	<s id="-1797928516168997982-2504050834-1">
+		<tl t="p" o="800165" c="FEX" n="19823"/>
+		<dp pt="2504050834" pp="22" pde="Ludwigsfelde" ppth="Berlin Ostkreuz|Berlin-Schöneweide|Flughafen BER"/>
+	</s>
+	<s id="-5588514608763010091-2504050758-4">
+		<tl t="p" o="800165" c="FEX" n="19814"/>
+		<ar pt="2504050822" pp="22" tra="1000988636776480658-2504050829-1" pde="Ludwigsfelde" ppth="Flughafen BER|Berlin-Schöneweide|Berlin Ostkreuz"/>
+	</s>
+	<s id="-7939460096977291812-2504050702-15">
+		<tl f="N" t="p" o="51PR" c="RB" n="5156"/>
+		<ar pt="2504050824" pp="15" l="26" ppth="Kostrzyn|Küstrin-Kietz|Gorgast|Golzow(Oderbruch)|Werbig|Seelow-Gusow|Alt Rosenthal|Trebnitz(Mark)|Obersdorf|Müncheberg(Mark)|Rehfelde|Herrensee|Strausberg|Berlin-Mahlsdorf"/>
+	</s>
+</timetable>
