@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin-Lichtenberg">
+	<s id="-2105956665839074159-2504051759-1">
+		<tl f="N" t="p" o="NBRB12" c="RB" n="91474"/>
+		<dp pt="2504051759" pp="15" l="12" ppth="Berlin Ostkreuz"/>
+	</s>
+	<s id="2911270094209133641-2504051748-2">
+		<tl f="N" t="p" o="NBRB12" c="RB" n="91476"/>
+		<ar pt="2504051751" pp="15" l="12" ppth="Berlin Ostkreuz"/>
+	</s>
+	<s id="-1730443791789456930-2504051734-1">
+		<tl t="p" o="800165" c="FEX" n="19859"/>
+		<dp pt="2504051734" pp="22" tra="-4811582816413051002-2504051627-10" pde="Ludwigsfelde" ppth="Berlin Ostkreuz|Berlin-Schöneweide|Flughafen BER"/>
+	</s>
+	<s id="-6005186634162586755-2504051708-7">
+		<tl f="N" t="p" o="800165" c="RB" n="18327"/>
+		<ar pt="2504051747" pp="22" l="24" ppth="Eberswalde Hbf|Melchow|Biesenthal|Rüdnitz|Bernau(b Berlin)|Berlin-Hohenschönhausen"/>
+		<dp pt="2504051749" pp="22" l="24" ppth="Berlin Ostkreuz|Berlin-Schöneweide|Schönefeld(bei Berlin)"/>
+	</s>
+	<s id="-4811582816413051002-2504051627-10">
+		<tl f="N" t="p" o="800165" c="RB" n="18623"/>
+		<ar pt="2504051726" pp="22" l="14" tra="-1730443791789456930-2504051734-1" ppth="Nauen|Brieselang|Finkenkrug|Falkensee|Seegefeld|Albrechtshof|Berlin-Spandau|Berlin Jungfernheide|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="9146527039752587991-2504051718-4">
+		<tl f="N" t="p" o="800165" c="RB" n="18224"/>
+		<ar pt="2504051739" pp="21" l="32" ppth="Schönefeld(bei Berlin)|Berlin-Schöneweide|Berlin Ostkreuz"/>
+	</s>
+	<s id="-6025304145799063279-2504051714-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18227"/>
+		<dp pt="2504051714" pp="21" l="32" ppth="Berlin Ostkreuz|Berlin-Schöneweide|Schönefeld(bei Berlin)"/>
+	</s>
+	<s id="2895332176463754165-2504051658-4">
+		<tl t="p" o="800165" c="FEX" n="19850"/>
+		<ar pt="2504051722" pp="21" tra="4574792162430308870-2504051729-1" pde="Ludwigsfelde" ppth="Flughafen BER|Berlin-Schöneweide|Berlin Ostkreuz"/>
+	</s>
+	<s id="4574792162430308870-2504051729-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18624"/>
+		<dp pt="2504051729" pp="21" l="14" tra="2895332176463754165-2504051658-4" ppth="Berlin Gesundbrunnen|Berlin Jungfernheide|Berlin-Spandau|Albrechtshof|Seegefeld|Falkensee|Finkenkrug|Brieselang|Nauen"/>
+	</s>
+	<s id="-2608829124952938993-2504051704-8">
+		<tl f="N" t="p" o="NBRB25" c="RB" n="61096"/>
+		<ar pt="2504051735" pp="17" l="25" ppth="Werneuchen|Seefeld(Mark)|Blumberg(b Berlin)|Blumberg-Rehhahn|Ahrensfelde Nord|Ahrensfelde Friedhof|Ahrensfelde"/>
+		<dp pt="2504051740" pp="17" l="25" ppth="Berlin Ostkreuz"/>
+	</s>
+	<s id="-8122498676978546911-2504051722-2">
+		<tl f="N" t="p" o="NBRB25" c="RB" n="55797"/>
+		<ar pt="2504051725" pp="17" l="25" ppth="Berlin Ostkreuz"/>
+		<dp pt="2504051729" pp="17" l="25" ppth="Ahrensfelde|Ahrensfelde Friedhof|Ahrensfelde Nord|Blumberg-Rehhahn|Blumberg(b Berlin)|Seefeld(Mark)|Werneuchen"/>
+	</s>
+	<s id="5369519633465143368-2504051705-1">
+		<tl t="p" o="800165" c="FEX" n="19857"/>
+		<dp pt="2504051705" pp="22" pde="Rangsdorf" ppth="Berlin Ostkreuz|Berlin-Schöneweide|Flughafen BER"/>
+	</s>
+	<s id="-7197989234773703542-2504051649-4">
+		<tl f="N" t="p" o="800165" c="RB" n="18324"/>
+		<ar pt="2504051712" pp="20" l="24" ppth="Schönefeld(bei Berlin)|Berlin-Schöneweide|Berlin Ostkreuz"/>
+		<dp pt="2504051714" pp="20" l="24" ppth="Berlin-Hohenschönhausen|Bernau(b Berlin)|Rüdnitz|Biesenthal|Melchow|Eberswalde Hbf"/>
+	</s>
+	<s id="-8748190250174552495-2504051738-1">
+		<tl f="N" t="p" o="NBRB26" c="RB" n="5175"/>
+		<dp pt="2504051738" pp="15" l="26" ppth="Berlin-Mahlsdorf|Strausberg|Herrensee|Rehfelde|Müncheberg(Mark)|Obersdorf|Trebnitz(Mark)|Alt Rosenthal|Seelow-Gusow|Werbig|Golzow(Oderbruch)|Gorgast|Küstrin-Kietz|Kostrzyn"/>
+	</s>
+	<s id="7392091474638905772-2504051728-4">
+		<tl t="p" o="800165" c="FEX" n="19852"/>
+		<ar pt="2504051754" pp="22" ppth="Flughafen BER|Berlin-Schöneweide|Berlin Ostkreuz"/>
+	</s>
+	<s id="5982280322824081817-2504051602-15">
+		<tl f="N" t="p" o="51PR" c="RB" n="5174"/>
+		<ar pt="2504051724" pp="15" l="26" ppth="Kostrzyn|Küstrin-Kietz|Gorgast|Golzow(Oderbruch)|Werbig|Seelow-Gusow|Alt Rosenthal|Trebnitz(Mark)|Obersdorf|Müncheberg(Mark)|Rehfelde|Herrensee|Strausberg|Berlin-Mahlsdorf"/>
+	</s>
+</timetable>
