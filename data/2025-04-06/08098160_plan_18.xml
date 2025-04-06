@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Hbf">
+	<s id="-6400209055042475724-2504061700-16">
+		<tl f="N" t="p" o="800158" c="RE" n="3316"/>
+		<ar pt="2504061831" pp="3" l="3" ppth="Lutherstadt Wittenberg Hbf|Zörnigall|Bülzig|Zahna|Blönsdorf|Niedergörsdorf|Jüterbog|Luckenwalde|Ludwigsfelde|Birkengrund|Großbeeren|Teltow|Berlin-Lichterfelde Ost|Berlin Südkreuz|Berlin Potsdamer Platz"/>
+		<dp pt="2504061833" pp="3" l="3" ppth="Berlin Gesundbrunnen|Bernau(b Berlin)|Eberswalde Hbf|Britz|Chorin|Angermünde|Wilmersdorf(Angerm)|Warnitz(Uckermark)|Seehausen(Uckermark)|Prenzlau|Nechlin|Pasewalk|Jatznick|Ferdinandshof|Ducherow|Anklam|Klein Bünzow|Züssow|Groß Kiesow|Greifswald Süd|Greifswald|Miltzow|Stralsund Hbf"/>
+	</s>
+	<s id="-7708686407047676670-2504061655-6">
+		<tl f="N" t="p" o="NZ" c="RE" n="50715"/>
+		<ar pt="2504061816" pp="1" l="21" ppth="Prenzlau|Angermünde|Eberswalde Hbf|Bernau(b Berlin)|Berlin Gesundbrunnen"/>
+		<dp pt="2504061820" pp="1" l="21" ppth="Berlin Südkreuz"/>
+	</s>
+	<s id="-4033146237363829522-2504061704-9">
+		<tl f="N" t="p" o="800158" c="RE" n="3176"/>
+		<ar pt="2504061801" pp="2" l="4" ppth="Rathenow|Nennhausen|Wustermark|Elstal|Dallgow-Döberitz|Berlin-Staaken|Berlin-Spandau|Berlin Jungfernheide"/>
+		<dp pt="2504061803" pp="2" l="4" ppth="Berlin Potsdamer Platz|Berlin Südkreuz|Berlin-Lichterfelde Ost|Ludwigsfelde|Thyrow|Trebbin|Woltersdorf/Nuthe-Urstromtal|Luckenwalde|Jüterbog"/>
+	</s>
+	<s id="-1140931938119300259-2504061706-10">
+		<tl f="N" t="p" o="800158" c="RE" n="3353"/>
+		<ar pt="2504061828" pp="1" l="3" ppth="Schwedt(Oder)|Schwedt(Oder)Mitte|Pinnow(Uckermark)|Angermünde|Chorin|Britz|Eberswalde Hbf|Bernau(b Berlin)|Berlin Gesundbrunnen"/>
+		<dp pt="2504061832" pp="1" l="3" ppth="Berlin Potsdamer Platz|Berlin Südkreuz|Berlin-Lichterfelde Ost|Teltow|Großbeeren|Birkengrund|Ludwigsfelde|Luckenwalde|Jüterbog|Niedergörsdorf|Blönsdorf|Zahna|Bülzig|Zörnigall|Lutherstadt Wittenberg Hbf"/>
+	</s>
+	<s id="6823598612451527303-2504061616-5">
+		<tl f="F" t="p" o="80" c="ICE" n="1605"/>
+		<ar pt="2504061821" pp="3" wings="5943675838823476295-2504061616" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Berlin-Spandau"/>
+		<dp pt="2504061826" pp="3" wings="5943675838823476295-2504061616" ppth="Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Leipzig Hbf|Erfurt Hbf|Erlangen|Nürnberg Hbf|München Hbf"/>
+	</s>
+	<s id="-9111350698231530956-2504061857-1">
+		<tl f="F" t="p" o="80" c="ICE" n="937"/>
+		<dp pt="2504061857" pp="2" ppth="Berlin Südkreuz|Halle(Saale)Hbf|Erfurt Hbf|Frankfurt(Main)Hbf|Darmstadt Hbf|Bensheim|Weinheim(Bergstr)Hbf|Heidelberg Hbf|Vaihingen(Enz)|Stuttgart Hbf"/>
+	</s>
+	<s id="8348599519188501363-2504061802-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18526"/>
+		<ar pt="2504061809" pp="3" l="10" ppth="Berlin Südkreuz|Berlin Potsdamer Platz"/>
+		<dp pt="2504061812" pp="3" l="10" ppth="Berlin Jungfernheide|Berlin-Spandau|Albrechtshof|Seegefeld|Falkensee|Finkenkrug|Brieselang|Nauen"/>
+	</s>
+	<s id="-4977828185211986223-2504061420-13">
+		<tl f="F" t="p" o="80" c="ICE" n="715"/>
+		<ar pt="2504061816" pp="1" wings="-7708686407047676670-2504061655" ppth="Ostseebad Binz|Bergen auf Rügen|Stralsund Hbf|Greifswald|Züssow|Anklam|Pasewalk|Prenzlau|Angermünde|Eberswalde Hbf|Bernau(b Berlin)|Berlin Gesundbrunnen"/>
+		<dp pt="2504061820" pp="1" hi="1" wings="-7708686407047676670-2504061655" ppth="Berlin Südkreuz"/>
+	</s>
+	<s id="-2325958637038279218-2504061852-2">
+		<tl f="F" t="p" o="80" c="ICE" n="1115"/>
+		<ar pt="2504061856" pp="1" hi="1" ppth="Berlin Gesundbrunnen"/>
+		<dp pt="2504061901" pp="1" ppth="Berlin Südkreuz|Halle(Saale)Hbf|Erfurt Hbf|Nürnberg Hbf|München Hbf"/>
+	</s>
+	<s id="7263013751365542337-2504061013-14">
+		<tl f="F" t="p" o="81" c="ICE" n="92"/>
+		<ar pt="2504061755" pp="3" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Passau Hbf|Plattling|Straubing|Regensburg Hbf|Nürnberg Hbf|Coburg|Erfurt Hbf|Halle(Saale)Hbf|Berlin Südkreuz"/>
+		<dp pt="2504061805" pp="3" ppth="Berlin-Spandau|Hamburg Hbf|Hamburg-Altona"/>
+	</s>
+	<s id="5943675838823476295-2504061616-5">
+		<tl f="F" t="p" o="80" c="ICE" n="1705"/>
+		<ar pt="2504061821" pp="3" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Berlin-Spandau"/>
+		<dp pt="2504061826" pp="3" ppth="Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Leipzig Hbf|Naumburg(Saale)Hbf|Jena Paradies"/>
+	</s>
+	<s id="-5187474858684168105-2504061442-6">
+		<tl f="F" t="p" o="80" c="ICE" n="1106"/>
+		<ar pt="2504061856" pp="3" ppth="München Hbf|Nürnberg Hbf|Erfurt Hbf|Halle(Saale)Hbf|Berlin Südkreuz"/>
+	</s>
+	<s id="8983673647294408675-2504060842-20">
+		<tl f="F" t="p" o="81" c="ICE" n="1218"/>
+		<ar pt="2504061834" pp="2" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Ost|München Hbf|München-Pasing|Augsburg Hbf|Ulm Hbf|Stuttgart Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Fulda|Eisenach Hbf|Erfurt Hbf|Leipzig Hbf|Lutherstadt Wittenberg Hbf|Berlin Südkreuz"/>
+		<dp pt="2504061840" pp="2" hi="1" ppth="Berlin Gesundbrunnen"/>
+	</s>
+	<s id="6273561646192769716-2504061714-16">
+		<tl f="N" t="p" o="800158" c="RE" n="3159"/>
+		<ar pt="2504061853" pp="4" l="4" ppth="Falkenberg(Elster)|Herzberg(Elster)|Holzdorf(Elster)|Linda(Elster)|Zellendorf|Oehna|Jüterbog|Luckenwalde|Woltersdorf/Nuthe-Urstromtal|Trebbin|Thyrow|Ludwigsfelde|Berlin-Lichterfelde Ost|Berlin Südkreuz|Berlin Potsdamer Platz"/>
+		<dp pt="2504061857" pp="4" l="4" ppth="Berlin Jungfernheide|Berlin-Spandau|Berlin-Staaken|Dallgow-Döberitz|Elstal|Wustermark|Buschow|Nennhausen|Rathenow"/>
+	</s>
+	<s id="2993256781443139465-2504061808-9">
+		<tl f="N" t="p" o="800165" c="RB" n="18527"/>
+		<ar pt="2504061846" pp="1" l="10" ppth="Nauen|Brieselang|Finkenkrug|Falkensee|Seegefeld|Albrechtshof|Berlin-Spandau|Berlin Jungfernheide"/>
+		<dp pt="2504061848" pp="1" l="10" ppth="Berlin Potsdamer Platz|Berlin Südkreuz"/>
+	</s>
+	<s id="4628797216718709444-2504061346-9">
+		<tl f="F" t="p" o="80" c="ICE" n="706"/>
+		<ar pt="2504061825" pp="4" ppth="München Hbf|Ingolstadt Hbf|Nürnberg Hbf|Bamberg|Erfurt Hbf|Halle(Saale)Hbf|Bitterfeld|Berlin Südkreuz"/>
+		<dp pt="2504061836" pp="4" ppth="Berlin-Spandau|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-7124042740131696708-2504061641-3">
+		<tl t="p" o="FLX35" c="FLX" n="1366"/>
+		<ar pt="2504061801" pp="4" l="35" ppth="Leipzig Hbf|Berlin Südkreuz"/>
+		<dp pt="2504061808" pp="4" l="35" ppth="Hamburg Hbf"/>
+	</s>
+	<s id="739501285753119427-2504061537-5">
+		<tl f="F" t="p" o="80" c="ICE" n="1009"/>
+		<ar pt="2504061755" pp="1" ppth="Hamburg-Altona|Hamburg Hbf|Ludwigslust|Berlin-Spandau"/>
+		<dp pt="2504061812" pp="1" ppth="Berlin Südkreuz|Nürnberg Hbf|München Hbf"/>
+	</s>
+</timetable>
