@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<timetable station="Würzburg Hbf">
+	<s id="-8677182982400525824-2504052046-9">
+		<tl t="p" o="81" c="NJ" n="40420"/>
+		<ar pt="2504060427" pp="7" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Hbf|Augsburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2504060429" pp="7" ppth="Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="3272146161175325165-2504052046-9">
+		<tl t="p" o="81" c="NJ" n="420"/>
+		<ar pt="2504060420" pp="6" wings="-6813803786124510421-2504052010" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Hbf|Augsburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2504060422" pp="6" wings="-6813803786124510421-2504052010" ppth="Kassel-Wilhelmshöhe|Dortmund Hbf|Essen Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="-4256402265114507618-2504052226-8">
+		<tl f="F" t="p" o="80" c="IC" n="495"/>
+		<ar pt="2504060434" pp="2" ppth="Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Bitterfeld|Leipzig Hbf|Halle(Saale)Hbf|Erfurt Hbf"/>
+		<dp pt="2504060436" pp="2" ppth="München Ost|Salzburg Hbf"/>
+	</s>
+	<s id="-7547304040443208216-2504052010-8">
+		<tl t="p" o="81" c="NJ" n="490"/>
+		<ar pt="2504060427" pp="7" wings="-8677182982400525824-2504052046" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Salzburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2504060429" pp="7" wings="-8677182982400525824-2504052046" ppth="Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-6813803786124510421-2504052010-8">
+		<tl t="p" o="81" c="NJ" n="40490"/>
+		<ar pt="2504060420" pp="6" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Salzburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2504060422" pp="6" ppth="Kassel-Wilhelmshöhe|Dortmund Hbf|Essen Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+</timetable>
