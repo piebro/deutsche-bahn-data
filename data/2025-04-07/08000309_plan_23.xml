@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Regensburg Hbf">
+	<s id="6698284078850639967-2504072231-7">
+		<tl f="N" t="p" o="800767" c="RE" n="59495"/>
+		<ar pt="2504072330" pp="9" l="22" tra="8885945001163170193-2504072332-1" ppth="Neumarkt(Oberpf)|Parsberg|Beratzhausen|Undorf|Etterzhausen|Regensburg-Prüfening"/>
+	</s>
+	<s id="-5065801516765768983-2504072301-4">
+		<tl f="D" t="p" o="A8N" c="ALX" n="79866"/>
+		<ar pt="2504072335" pp="4" l="RE25" ppth="Schwandorf|Maxhütte-Haidhof|Regenstauf"/>
+		<dp pt="2504072349" pp="4" l="RE25" ppth="Obertraubling|Eggmühl|Neufahrn(Niederbay)|Ergoldsbach|Landshut(Bay)Hbf|Freising|München Hbf"/>
+	</s>
+	<s id="8885945001163170193-2504072332-1">
+		<tl f="N" t="p" o="800767" c="RE" n="57949"/>
+		<dp pt="2504072332" pp="9" l="22" tra="6698284078850639967-2504072231-7" ppth="Regensburg-Burgweinting|Obertraubling|Köfering|Hagelstadt|Eggmühl|Neufahrn(Niederbay)|Ergoldsbach|Landshut(Bay)Hbf"/>
+	</s>
+	<s id="3581950073516808533-2504072230-5">
+		<tl f="N" t="p" o="8007H3" c="RE" n="4868"/>
+		<ar pt="2504072312" pp="4" l="2" ppth="Landshut(Bay)Hbf|Ergoldsbach|Neufahrn(Niederbay)|Eggmühl"/>
+		<dp pt="2504072322" pp="4" l="2" ppth="Regenstauf|Maxhütte-Haidhof|Schwandorf"/>
+	</s>
+	<s id="3170346184579601852-2504072330-1">
+		<tl f="D" t="p" o="S9" c="ag" n="84114"/>
+		<dp pt="2504072330" pp="1" l="RE50" ppth="Regensburg-Prüfening|Etterzhausen|Undorf|Deuerling|Laaber|Beratzhausen|Mausheim|Parsberg|Seubersdorf|Batzhausen|Deining(Oberpf)|Neumarkt(Oberpf)|Pölling|Postbauer-Heng|Oberferrieden|Burgthann|Mimberg|Ochenbruck|Feucht Ost|Feucht|Nürnberg Hbf"/>
+	</s>
+	<s id="-3262256816161634412-2504072159-13">
+		<tl f="D" t="p" o="A9" c="ag" n="84347"/>
+		<ar pt="2504072308" pp="9" l="RB17" ppth="Ingolstadt Nord|Ingolstadt Hbf|Ernsgaden|Vohburg-Rockolding|Münchsmünster|Neustadt(Donau)|Abensberg|Saal(Donau)|Bad Abbach|Poikam|Sinzing|Regensburg-Prüfening"/>
+	</s>
+	<s id="3340206291414855994-2504072216-12">
+		<tl f="N" t="p" o="800767" c="RE" n="57940"/>
+		<ar pt="2504072341" pp="5" l="22" ppth="München Flughafen Terminal|München Flughafen Besucherpark|Freising|Moosburg|Landshut(Bay)Hbf|Ergoldsbach|Neufahrn(Niederbay)|Eggmühl|Hagelstadt|Köfering|Obertraubling"/>
+	</s>
+	<s id="-3455294313896985635-2504072211-22">
+		<tl f="D" t="p" o="S9" c="ag" n="92031"/>
+		<ar pt="2504072341" pp="" l="RE50" ppth="Nürnberg Hbf|Feucht|Feucht Ost|Ochenbruck|Mimberg|Burgthann|Oberferrieden|Postbauer-Heng|Pölling|Neumarkt(Oberpf)|Deining(Oberpf)|Batzhausen|Seubersdorf|Parsberg|Mausheim|Beratzhausen|Laaber|Deuerling|Undorf|Etterzhausen|Regensburg-Prüfening"/>
+	</s>
+</timetable>

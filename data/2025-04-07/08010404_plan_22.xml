@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin-Spandau">
+	<s id="8973299807407277806-2504072256-1">
+		<tl t="p" o="BB" c="Bus" n="53137"/>
+		<dp pt="2504072256" pp="" l="RE2" ppth="Albrechtshof|Seegefeld|Falkensee ZOB|Finkenkrug|Brieselang|Nauen"/>
+	</s>
+	<s id="416223917512060305-2504072103-11">
+		<tl f="N" t="p" o="800158" c="RE" n="3183"/>
+		<ar pt="2504072207" pp="3" l="4" ppth="Jüterbog|Luckenwalde|Trebbin|Thyrow|Ludwigsfelde|Berlin-Lichterfelde Ost|Berlin Südkreuz|Berlin Potsdamer Platz|Berlin Hbf|Berlin Jungfernheide"/>
+		<dp pt="2504072209" pp="3" l="4" ppth="Berlin-Staaken|Dallgow-Döberitz|Elstal|Wustermark|Buschow|Nennhausen|Rathenow"/>
+	</s>
+	<s id="4527502747804446727-2504072211-3">
+		<tl f="F" t="p" o="80" c="ICE" n="700"/>
+		<ar pt="2504072246" pp="3" ppth="Berlin Südkreuz|Berlin Hbf"/>
+		<dp pt="2504072248" pp="3" ppth="Wittenberge|Ludwigslust|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-5700683944019507237-2504071924-24">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62034"/>
+		<ar pt="2504072221" pp="5" l="8" ppth="Wismar|Dorf Mecklenburg|Bad Kleinen|Lübstorf|Schwerin Hbf|Schwerin Mitte|Schwerin Süd|Holthusen|Sülstorf|Rastow|Lüblow(Meckl)|Ludwigslust|Grabow(Meckl)|Karstädt|Wittenberge|Bad Wilsnack|Glöwen|Breddin|Neustadt(Dosse)|Friesack(Mark)|Paulinenaue|Nauen|Falkensee"/>
+	</s>
+	<s id="856602161279574018-2504072238-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62037"/>
+		<dp pt="2504072238" pp="4" l="8" ppth="Falkensee|Nauen|Paulinenaue|Friesack(Mark)|Neustadt(Dosse)|Breddin|Glöwen|Bad Wilsnack|Wittenberge"/>
+	</s>
+	<s id="450159185692254127-2504072206-8">
+		<tl f="N" t="p" o="800158" c="RE" n="3162"/>
+		<ar pt="2504072250" pp="6" l="4" ppth="Rathenow|Nennhausen|Buschow|Wustermark|Elstal|Dallgow-Döberitz|Berlin-Staaken"/>
+		<dp pt="2504072252" pp="6" l="4" ppth="Berlin Jungfernheide|Berlin Hbf"/>
+	</s>
+	<s id="-1307073549543457332-2504072209-5">
+		<tl f="N" t="p" o="800165" c="RB" n="18274"/>
+		<ar pt="2504072225" pp="6" l="21" ppth="Wustermark|Elstal|Dallgow-Döberitz|Berlin-Staaken"/>
+		<dp pt="2504072227" pp="6" l="21" ppth="Berlin Jungfernheide|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="6565901499507191012-2504072020-5">
+		<tl f="F" t="p" o="80" c="IC" n="495"/>
+		<ar pt="2504072214" pp="" ppth="Rostock Hbf|Waren(Müritz)|Neustrelitz Hbf|Oranienburg"/>
+		<dp pt="2504072216" pp="" ppth="Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Bitterfeld|Leipzig Hbf|Halle(Saale)Hbf|Erfurt Hbf|Würzburg Hbf|München Ost|Salzburg Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="3499338043235512572-2504072017-5">
+		<tl f="F" t="p" o="80" c="ICE" n="609"/>
+		<ar pt="2504072211" pp="6" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Ludwigslust"/>
+		<dp pt="2504072213" pp="6" hi="1" ppth="Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+</timetable>
