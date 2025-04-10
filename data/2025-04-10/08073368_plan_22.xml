@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<timetable station="Köln Messe/Deutz Gl.11-12">
+	<s id="1533663287236953729-2504101313-15">
+		<tl f="F" t="p" o="81" c="ICE" n="1220"/>
+		<ar pt="2504102213" pp="11" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Passau Hbf|Plattling|Regensburg Hbf|Nürnberg Hbf|Würzburg Hbf|Hanau Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf"/>
+		<dp pt="2504102215" pp="11" ppth="Solingen Hbf|Wuppertal Hbf|Hagen Hbf|Dortmund Hbf"/>
+	</s>
+	<s id="-4272298498907669914-2504101900-6">
+		<tl t="p" o="81" c="NJ" n="40421"/>
+		<ar pt="2504102238" pp="11" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Duisburg Hbf|Düsseldorf Hbf"/>
+		<dp pt="2504102244" pp="11" ppth="Koblenz Hbf|Mainz Hbf|Frankfurt(Main)Süd|Würzburg Hbf|Nürnberg Hbf|Regensburg Hbf|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="53646546693918791-2504101903-6">
+		<tl f="F" t="p" o="80" c="ICE" n="526"/>
+		<ar pt="2504102220" pp="12" ppth="Nürnberg Hbf|Würzburg Hbf|Aschaffenburg Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf"/>
+		<dp pt="2504102222" pp="12" ppth="Düsseldorf Hbf|Duisburg Hbf|Oberhausen Hbf|Dortmund Hbf"/>
+	</s>
+	<s id="6195485783263057734-2504101827-9">
+		<tl f="F" t="p" o="80" c="ICE" n="910"/>
+		<ar pt="2504102247" pp="12" ppth="München Hbf|München-Pasing|Augsburg Hbf|Ulm Hbf|Stuttgart Hbf|Mannheim Hbf|Frankfurt(M) Flughafen Fernbf|Siegburg/Bonn"/>
+		<dp pt="2504102249" pp="12" ppth="Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Dortmund Hbf"/>
+	</s>
+	<s id="-3823254010841261196-2504101900-6">
+		<tl t="p" o="84" c="NJ" n="421"/>
+		<ar pt="2504102238" pp="11" wings="-4272298498907669914-2504101900" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Duisburg Hbf|Düsseldorf Hbf"/>
+		<dp pt="2504102244" pp="11" wings="-4272298498907669914-2504101900" ppth="Koblenz Hbf|Mainz Hbf|Frankfurt(Main)Süd|Würzburg Hbf|Nürnberg Hbf|Augsburg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+</timetable>
