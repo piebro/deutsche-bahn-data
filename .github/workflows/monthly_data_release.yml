@@ -1,29 +1,39 @@
 name: Monthly Data Release
-
 on:
   schedule:
     # Runs at 14:00 UTC on the first day of every month
     - cron: '0 14 1 * *'
   workflow_dispatch:
-
 jobs:
   create-monthly-release:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
+      - name: Get previous month
+        id: get-month
+        run: |
+          prev_month=$(date -d "last month" '+%Y-%m')
+          echo "prev_month=$prev_month" >> $GITHUB_OUTPUT
+          
+      - name: Sparse Checkout
         uses: actions/checkout@v3
-
+        with:
+          sparse-checkout: |
+            /*
+            !/data/**
+            /data/${{ steps.get-month.outputs.prev_month }}-*
+          sparse-checkout-cone-mode: false
+      
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
-
+      
       - name: Install Dependencies
         run: pip install -r requirements.txt
-
+      
       - name: Run Monthly Data Release Script
         run: python create_monthly_data_release.py
-
+      
       - name: Commit and Push
         run: |
           git config --local user.email "noreply@github.com"
@@ -31,4 +41,3 @@ jobs:
           git add monthly_data_releases/*
           git commit -m "Monthly data release from last month"
           git push
-
