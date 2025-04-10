@@ -20,8 +20,15 @@ jobs:
           sparse-checkout: |
             /*
             !/data/**
+            /data/
             /data/${{ steps.get-month.outputs.prev_month }}-*
           sparse-checkout-cone-mode: false
+      
+      - name: List root directory contents
+        run: ls -la
+      
+      - name: List data directory contents
+        run: ls -la data/
       
       - name: Setup Python
         uses: actions/setup-python@v4
