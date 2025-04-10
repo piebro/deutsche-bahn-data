@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Hbf">
+	<s id="-2609968643722016545-2504100514-16">
+		<tl f="N" t="p" o="800158" c="RE" n="3147"/>
+		<ar pt="2504100653" pp="4" l="4" ppth="Falkenberg(Elster)|Herzberg(Elster)|Holzdorf(Elster)|Linda(Elster)|Zellendorf|Oehna|Jüterbog|Luckenwalde|Woltersdorf/Nuthe-Urstromtal|Trebbin|Thyrow|Ludwigsfelde|Berlin-Lichterfelde Ost|Berlin Südkreuz|Berlin Potsdamer Platz"/>
+		<dp pt="2504100657" pp="4" l="4" ppth="Berlin Jungfernheide|Berlin-Spandau|Berlin-Staaken|Dallgow-Döberitz|Elstal|Wustermark|Buschow|Nennhausen|Rathenow"/>
+	</s>
+	<s id="7779716386210166228-2504100608-9">
+		<tl f="N" t="p" o="800165" c="RB" n="18503"/>
+		<ar pt="2504100645" pp="1" l="10" ppth="Nauen|Brieselang|Finkenkrug|Falkensee|Seegefeld|Albrechtshof|Berlin-Spandau|Berlin Jungfernheide"/>
+		<dp pt="2504100647" pp="1" l="10" ppth="Berlin Potsdamer Platz|Berlin Südkreuz"/>
+	</s>
+	<s id="8049328993498305601-2504100617-2">
+		<tl f="F" t="p" o="80" c="ICE" n="503"/>
+		<ar pt="2504100622" pp="2" hi="1" ppth="Berlin Gesundbrunnen"/>
+		<dp pt="2504100624" pp="2" ppth="Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Leipzig Hbf|Erfurt Hbf|Bamberg|Erlangen|Nürnberg Hbf|München Hbf"/>
+	</s>
+	<s id="7372708349454996763-2504100655-1">
+		<tl f="F" t="p" o="80" c="ICE" n="835"/>
+		<dp pt="2504100655" pp="2" ppth="Berlin Südkreuz|Halle(Saale)Hbf|Erfurt Hbf|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-1804202290422051562-2504100507-17">
+		<tl f="N" t="p" o="800158" c="RE" n="3304"/>
+		<ar pt="2504100630" pp="3" l="3" ppth="Lutherstadt Wittenberg Hbf|Zörnigall|Bülzig|Zahna|Blönsdorf|Niedergörsdorf|Jüterbog|Luckenwalde|Trebbin|Ludwigsfelde|Birkengrund|Großbeeren|Teltow|Berlin-Lichterfelde Ost|Berlin Südkreuz|Berlin Potsdamer Platz"/>
+		<dp pt="2504100633" pp="3" l="3" ppth="Berlin Gesundbrunnen|Bernau(b Berlin)|Eberswalde Hbf|Britz|Chorin|Angermünde|Wilmersdorf(Angerm)|Warnitz(Uckermark)|Seehausen(Uckermark)|Prenzlau|Nechlin|Pasewalk|Jatznick|Ferdinandshof|Ducherow|Anklam|Klein Bünzow|Züssow|Groß Kiesow|Greifswald Süd|Greifswald|Miltzow|Stralsund Hbf"/>
+	</s>
+	<s id="-6209016006766867506-2504100602-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18502"/>
+		<ar pt="2504100609" pp="4" l="10" ppth="Berlin Südkreuz|Berlin Potsdamer Platz"/>
+		<dp pt="2504100612" pp="4" l="10" ppth="Berlin Jungfernheide|Berlin-Spandau|Albrechtshof|Seegefeld|Falkensee|Finkenkrug|Brieselang|Nauen"/>
+	</s>
+	<s id="1235622964461153188-2504100618-2">
+		<tl f="F" t="p" o="80" c="ICE" n="808"/>
+		<ar pt="2504100624" pp="4" hi="1" ppth="Berlin Südkreuz"/>
+		<dp pt="2504100636" pp="4" ppth="Berlin-Spandau|Ludwigslust|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="8562549415697587240-2504100551-2">
+		<tl f="F" t="p" o="80" c="ICE" n="833"/>
+		<ar pt="2504100557" pp="3" hi="1" ppth="Berlin Gesundbrunnen"/>
+		<dp pt="2504100600" pp="3" ppth="Berlin Südkreuz|Halle(Saale)Hbf|Erfurt Hbf|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-5537757728709206682-2504100508-10">
+		<tl f="N" t="p" o="800158" c="RE" n="3164"/>
+		<ar pt="2504100602" pp="1" l="4" ppth="Rathenow|Nennhausen|Buschow|Wustermark|Elstal|Dallgow-Döberitz|Berlin-Staaken|Berlin-Spandau|Berlin Jungfernheide"/>
+		<dp pt="2504100606" pp="1" l="4" ppth="Berlin Potsdamer Platz|Berlin Südkreuz|Berlin-Lichterfelde Ost|Ludwigsfelde|Thyrow|Trebbin|Woltersdorf/Nuthe-Urstromtal|Luckenwalde|Jüterbog"/>
+	</s>
+	<s id="-7202919247926513511-2504100551-2">
+		<tl f="F" t="p" o="80" c="ICE" n="1001"/>
+		<ar pt="2504100557" pp="3" hi="1" wings="8562549415697587240-2504100551" ppth="Berlin Gesundbrunnen"/>
+		<dp pt="2504100600" pp="3" wings="8562549415697587240-2504100551" ppth="Berlin Südkreuz|Halle(Saale)Hbf|Erfurt Hbf|Nürnberg Hbf|München Hbf"/>
+	</s>
+	<s id="-7057690758873848175-2504100506-10">
+		<tl f="N" t="p" o="800158" c="RE" n="3341"/>
+		<ar pt="2504100628" pp="1" l="3" ppth="Schwedt(Oder)|Schwedt(Oder)Mitte|Pinnow(Uckermark)|Angermünde|Chorin|Britz|Eberswalde Hbf|Bernau(b Berlin)|Berlin Gesundbrunnen"/>
+		<dp pt="2504100632" pp="1" l="3" ppth="Berlin Potsdamer Platz|Berlin Südkreuz|Berlin-Lichterfelde Ost|Teltow|Großbeeren|Birkengrund|Ludwigsfelde|Luckenwalde|Jüterbog|Niedergörsdorf|Blönsdorf|Zahna|Bülzig|Zörnigall|Lutherstadt Wittenberg Hbf"/>
+	</s>
+</timetable>
