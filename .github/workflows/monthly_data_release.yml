@@ -18,10 +18,14 @@ jobs:
         uses: actions/checkout@v3
         with:
           sparse-checkout: |
-            /*
-            !/data/**
-            /data/
-            /data/${{ steps.get-month.outputs.prev_month }}-*
+            .github/workflows/
+            /
+            .gitignore
+            alternative_station_name_to_station_name.json
+            create_monthly_data_release.py
+            pyproject.toml
+            requirements.txt
+            data/${{ steps.get-month.outputs.prev_month }}-*
           sparse-checkout-cone-mode: false
       
       - name: List root directory contents
@@ -29,6 +33,9 @@ jobs:
       
       - name: List data directory contents
         run: ls -la data/
+
+      - name: Create monthly_data_releases dir
+        run: mkdir monthly_data_releases
       
       - name: Setup Python
         uses: actions/setup-python@v4
