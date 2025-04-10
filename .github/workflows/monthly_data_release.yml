@@ -25,17 +25,15 @@ jobs:
             create_monthly_data_release.py
             pyproject.toml
             requirements.txt
+            monthly_data_releases/
             data/${{ steps.get-month.outputs.prev_month }}-*
           sparse-checkout-cone-mode: false
       
       - name: List root directory contents
-        run: ls -la
+        run: ls monthly_data_releases/
       
       - name: List data directory contents
-        run: ls -la data/
-
-      - name: Create monthly_data_releases dir
-        run: mkdir monthly_data_releases
+        run: ls data/
       
       - name: Setup Python
         uses: actions/setup-python@v4
