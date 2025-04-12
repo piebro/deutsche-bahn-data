@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Bonn Hbf">
+	<s id="6275705913186333435-2504122209-1">
+		<tl f="S" t="p" o="800352" c="S" n="31960"/>
+		<dp pt="2504122209" pp="5" l="23" ppth="Bonn-Endenich Nord|Bonn Helmholtzstraße|Bonn-Duisdorf|Alfter-Impekoven|Alfter-Witterschlick|Meckenheim Kottenforst|Meckenheim Industriepark|Meckenheim(Bz Köln)|Rheinbach Römerkanal|Rheinbach|Swisttal-Odendorf|Euskirchen-Kuchenheim|Euskirchen"/>
+	</s>
+	<s id="1244491205618395242-2504122136-13">
+		<tl f="S" t="p" o="800352" c="S" n="31963"/>
+		<ar pt="2504122220" pp="5" l="23" ppth="Euskirchen|Euskirchen-Kuchenheim|Swisttal-Odendorf|Rheinbach|Rheinbach Römerkanal|Meckenheim(Bz Köln)|Meckenheim Industriepark|Alfter-Witterschlick|Alfter-Impekoven|Bonn-Duisdorf|Bonn Helmholtzstraße|Bonn-Endenich Nord"/>
+	</s>
+	<s id="-5697846968555067052-2504122212-4">
+		<tl f="N" t="p" o="TR" c="RB" n="25443"/>
+		<ar pt="2504122225" pp="3" l="26" ppth="Brühl|Sechtem|Roisdorf"/>
+		<dp pt="2504122227" pp="3" l="26" ppth="Bonn UN Campus|Bonn-Bad Godesberg|Bonn-Mehlem|Rolandseck|Oberwinter|Remagen"/>
+	</s>
+	<s id="-3927996707024153784-2504122253-1">
+		<tl t="p" o="TR" c="Bus" n="65535"/>
+		<dp pt="2504122253" pp="" l="RB26" ppth="Oberwinter|Remagen|Bad Breisig|Koblenz Stadtmitte|Koblenz Hbf"/>
+	</s>
+	<s id="-3433345543664694863-2504122035-6">
+		<tl t="p" o="TR" c="Bus" n="65536"/>
+		<ar pt="2504122205" pp="" l="RB26" ppth="Koblenz Hbf|Koblenz Stadtmitte|Bad Breisig|Remagen|Oberwinter"/>
+	</s>
+	<s id="2105269577070271922-2504122239-1">
+		<tl f="S" t="p" o="800352" c="S" n="31962"/>
+		<dp pt="2504122239" pp="5" l="23" ppth="Bonn-Endenich Nord|Bonn Helmholtzstraße|Bonn-Duisdorf|Alfter-Impekoven|Alfter-Witterschlick|Meckenheim Industriepark|Meckenheim(Bz Köln)|Rheinbach Römerkanal|Rheinbach|Swisttal-Odendorf|Euskirchen-Kuchenheim|Euskirchen"/>
+	</s>
+	<s id="3028765454205857070-2504122206-14">
+		<tl f="S" t="p" o="800352" c="S" n="31965"/>
+		<ar pt="2504122250" pp="5" l="23" ppth="Euskirchen|Euskirchen-Kuchenheim|Swisttal-Odendorf|Rheinbach|Rheinbach Römerkanal|Meckenheim(Bz Köln)|Meckenheim Industriepark|Meckenheim Kottenforst|Alfter-Witterschlick|Alfter-Impekoven|Bonn-Duisdorf|Bonn Helmholtzstraße|Bonn-Endenich Nord"/>
+	</s>
+	<s id="7329073923173522792-2504122211-7">
+		<tl f="N" t="p" o="TR" c="RB" n="25442"/>
+		<ar pt="2504122231" pp="1" l="26" ppth="Remagen|Oberwinter|Rolandseck|Bonn-Mehlem|Bonn-Bad Godesberg|Bonn UN Campus"/>
+		<dp pt="2504122233" pp="1" l="26" ppth="Roisdorf|Sechtem|Brühl"/>
+	</s>
+</timetable>

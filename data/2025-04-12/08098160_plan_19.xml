@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Hbf">
+	<s id="8290912034684684315-2504121720-6">
+		<tl f="F" t="p" o="80" c="ICE" n="803"/>
+		<ar pt="2504121923" pp="1" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Wittenberge|Berlin-Spandau"/>
+		<dp pt="2504121930" pp="1" ppth="Berlin Südkreuz|Bitterfeld|Halle(Saale)Hbf|Erfurt Hbf|Würzburg Hbf|Nürnberg Hbf"/>
+	</s>
+	<s id="5388399388935565669-2504121502-5">
+		<tl f="F" t="p" o="80" c="ICE" n="836"/>
+		<ar pt="2504121901" pp="4" ppth="Frankfurt(Main)Hbf|Erfurt Hbf|Halle(Saale)Hbf|Berlin Südkreuz"/>
+	</s>
+	<s id="-1588936129122896413-2504121321-8">
+		<tl f="F" t="p" o="80" c="ICE" n="504"/>
+		<ar pt="2504121931" pp="4" ppth="München Hbf|Augsburg Hbf|Würzburg Hbf|Erfurt Hbf|Leipzig Hbf|Lutherstadt Wittenberg Hbf|Berlin Südkreuz"/>
+		<dp pt="2504121938" pp="4" ppth="Berlin-Spandau|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-7147339730808320662-2504121802-10">
+		<tl f="N" t="p" o="800158" c="RE" n="3158"/>
+		<ar pt="2504121902" pp="2" l="4" ppth="Rathenow|Nennhausen|Buschow|Wustermark|Elstal|Dallgow-Döberitz|Berlin-Staaken|Berlin-Spandau|Berlin Jungfernheide"/>
+		<dp pt="2504121906" pp="2" l="4" ppth="Berlin Potsdamer Platz|Berlin Südkreuz|Berlin-Lichterfelde Ost|Ludwigsfelde|Thyrow|Trebbin|Luckenwalde|Jüterbog|Oehna|Zellendorf|Linda(Elster)|Holzdorf(Elster)|Herzberg(Elster)|Falkenberg(Elster)"/>
+	</s>
+	<s id="-6746382463649118804-2504121918-1">
+		<tl f="F" t="p" o="55" c="EN" n="40457"/>
+		<dp pt="2504121918" pp="1" ppth="Berlin Südkreuz|Dresden-Neustadt|Dresden Hbf|Bad Schandau|Decin hl.n.|Usti nad Labem hl.n.|Praha-Holesovice|Praha hl.n.|Pardubice hl.n.|Brno hl.n.|Breclav|Hodonin|Kuty|Bratislava hl.st.|Nove Zamky|Sturovo|Vac|Budapest-Nyugati"/>
+	</s>
+	<s id="2346955522981538962-2504121903-9">
+		<tl f="N" t="p" o="800158" c="RE" n="3181"/>
+		<ar pt="2504121955" pp="4" l="4" ppth="Jüterbog|Luckenwalde|Trebbin|Thyrow|Ludwigsfelde|Berlin-Lichterfelde Ost|Berlin Südkreuz|Berlin Potsdamer Platz"/>
+		<dp pt="2504121957" pp="4" l="4" ppth="Berlin Jungfernheide|Berlin-Spandau|Berlin-Staaken|Dallgow-Döberitz|Elstal|Wustermark|Buschow|Nennhausen|Rathenow"/>
+	</s>
+	<s id="6228365463182028347-2504121913-2">
+		<tl f="F" t="p" o="80" c="ICE" n="697"/>
+		<ar pt="2504121917" pp="2" hi="1" ppth="Berlin Gesundbrunnen"/>
+		<dp pt="2504121923" pp="2" ppth="Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Leipzig Hbf|Erfurt Hbf|Eisenach Hbf|Fulda|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-4422387316416887223-2504121918-1">
+		<tl t="p" o="81" c="NJ" n="457"/>
+		<dp pt="2504121918" pp="1" wings="-6746382463649118804-2504121918" ppth="Berlin Südkreuz|Dresden-Neustadt|Dresden Hbf|Bad Schandau|Decin hl.n.|Usti nad Labem hl.n.|Praha-Holesovice|Praha hl.n.|Pardubice hl.n.|Brno hl.n.|Breclav|Wien Hbf|Wien Meidling|Wiener Neustadt Hbf|Mürzzuschlag|Bruck/Mur|Graz Hbf"/>
+	</s>
+</timetable>
