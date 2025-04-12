@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<timetable station="Nürnberg Hbf">
+	<s id="-7547304040443208216-2504112010-7">
+		<tl t="p" o="81" c="NJ" n="490"/>
+		<ar pt="2504120258" pp="5" wings="-6813803786124510421-2504112010" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Salzburg Hbf"/>
+		<dp pt="2504120343" pp="4" wings="-8677182982400525824-2504112046" ppth="Würzburg Hbf|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-8677182982400525824-2504112046-8">
+		<tl t="p" o="81" c="NJ" n="40420"/>
+		<ar pt="2504120053" pp="4" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Hbf|Augsburg Hbf"/>
+		<dp pt="2504120343" pp="4" ppth="Würzburg Hbf|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-6813803786124510421-2504112010-7">
+		<tl t="p" o="81" c="NJ" n="40490"/>
+		<ar pt="2504120258" pp="5" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Salzburg Hbf"/>
+		<dp pt="2504120338" pp="5" ppth="Würzburg Hbf|Mainz Hbf|Koblenz Hbf|Köln Hbf|s-Hertogenbosch|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="7179290082595886525-2504120233-18">
+		<tl f="S" t="p" o="800721" c="S" n="39698"/>
+		<ar pt="2504120317" pp="1" l="2" ppth="Hartmannshof|Pommelsbrunn|Happurg|Hersbruck(l Pegnitz)|Henfenfeld|Ottensoos|Lauf(links Pegnitz)|Lauf West|Röthenbach-Seespitze|Röthenbach-Steinberg|Röthenbach(Pegnitz)|Schwaig|Nürnberg-Laufamholz|Nürnberg-Rehhof|Nürnberg-Mögeldorf|Nürnberg Ostring|Nürnberg-Dürrenhof"/>
+		<dp pt="2504120321" pp="1" l="2" ppth="Nürnberg-Steinbühl|Nürnberg-Sandreuth|Nürnberg-Eibach|Nürnberg-Reichelsdorf|Reichelsdorfer Keller|Katzwang|Schwabach-Limbach|Schwabach|Rednitzhembach|Büchenbach|Roth"/>
+	</s>
+	<s id="6992012378128167215-2504111956-8">
+		<tl t="p" o="81" c="NJ" n="40491"/>
+		<ar pt="2504120315" pp="9" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Würzburg Hbf"/>
+		<dp pt="2504120436" pp="9" ppth="Augsburg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="-2044723357159653206-2504111956-8">
+		<tl t="p" o="81" c="NJ" n="491"/>
+		<ar pt="2504120315" pp="9" wings="6992012378128167215-2504111956" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Würzburg Hbf"/>
+		<dp pt="2504120408" pp="8" wings="-4272298498907669914-2504112006" ppth="Regensburg Hbf|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="3272146161175325165-2504112046-8">
+		<tl t="p" o="81" c="NJ" n="420"/>
+		<ar pt="2504120053" pp="4" wings="-8677182982400525824-2504112046" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Hbf|Augsburg Hbf"/>
+		<dp pt="2504120338" pp="5" wings="-6813803786124510421-2504112010" ppth="Würzburg Hbf|Mainz Hbf|Koblenz Hbf|Köln Hbf|s-Hertogenbosch|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="3678449018525468205-2504120306-1">
+		<tl f="S" t="p" o="800721" c="S" n="39498"/>
+		<dp pt="2504120306" pp="22" l="4" ppth="Nürnberg-Schweinau|Nürnberg-Stein|Unterasbach|Oberasbach|Anwanden|Roßtal|Roßtal Wegbrücke|Raitersaich|Heilsbronn|Petersaurach Nord|Wicklesgreuth|Sachsen(b Ansbach)|Ansbach"/>
+	</s>
+	<s id="3284701066619383102-2504120310-12">
+		<tl f="S" t="p" o="800721" c="S" n="39699"/>
+		<ar pt="2504120338" pp="3" l="2" ppth="Roth|Büchenbach|Rednitzhembach|Schwabach|Schwabach-Limbach|Katzwang|Reichelsdorfer Keller|Nürnberg-Reichelsdorf|Nürnberg-Eibach|Nürnberg-Sandreuth|Nürnberg-Steinbühl"/>
+	</s>
+	<s id="5550100207833423414-2504120228-14">
+		<tl f="S" t="p" o="800721" c="S" n="39227"/>
+		<ar pt="2504120308" pp="3" l="1" ppth="Forchheim(Oberfr)|Kersbach|Baiersdorf|Bubenreuth|Erlangen|Erlangen Paul-Gossen-Straße|Erlangen-Bruck|Eltersdorf|Vach|Fürth-Klinikum|Fürth(Bay)Hbf|Nürnberg Rothenburger Str.|Nürnberg-Steinbühl"/>
+		<dp pt="2504120310" pp="3" l="1" ppth="Nürnberg-Dürrenhof|Nürnberg-Gleißhammer|Nürnberg-Dutzendteich|Nürnberg Frankenstadion|Fischbach(Nürnberg)|Feucht|Feucht Ost|Ochenbruck|Mimberg|Burgthann|Oberferrieden|Postbauer-Heng|Pölling|Neumarkt(Oberpf)"/>
+	</s>
+	<s id="3827638676587159776-2504120349-1">
+		<tl f="S" t="p" o="800721" c="S" n="39228"/>
+		<dp pt="2504120349" pp="1" l="1" ppth="Nürnberg-Steinbühl|Nürnberg Rothenburger Str.|Fürth(Bay)Hbf|Fürth-Klinikum|Vach|Eltersdorf|Erlangen-Bruck|Erlangen Paul-Gossen-Straße|Erlangen"/>
+	</s>
+	<s id="5165816532451086812-2504112006-9">
+		<tl t="p" o="81" c="NJ" n="421"/>
+		<ar pt="2504120344" pp="8" wings="-4272298498907669914-2504112006" ppth="Amsterdam Centraal|Utrecht Centraal|Venlo|Köln Hbf|Koblenz Hbf|Mainz Hbf|Frankfurt(Main)Süd|Würzburg Hbf"/>
+		<dp pt="2504120436" pp="9" wings="6992012378128167215-2504111956" ppth="Augsburg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="-4272298498907669914-2504112006-9">
+		<tl t="p" o="81" c="NJ" n="40421"/>
+		<ar pt="2504120344" pp="8" ppth="Amsterdam Centraal|Utrecht Centraal|Venlo|Köln Hbf|Koblenz Hbf|Mainz Hbf|Frankfurt(Main)Süd|Würzburg Hbf"/>
+		<dp pt="2504120408" pp="8" ppth="Regensburg Hbf|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+</timetable>

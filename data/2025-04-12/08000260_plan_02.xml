@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<timetable station="Würzburg Hbf">
+	<s id="8627919913190420403-2504111913-13">
+		<tl f="F" t="p" o="81" c="IC" n="494"/>
+		<ar pt="2504120209" pp="6" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Attnang-Puchheim|Vöcklabruck|Neumarkt am Wallersee|Salzburg Hbf|Freilassing|Traunstein|München Ost"/>
+		<dp pt="2504120220" pp="6" ppth="Erfurt Hbf|Halle(Saale)Hbf|Bitterfeld|Lutherstadt Wittenberg Hbf|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="5165816532451086812-2504112006-8">
+		<tl t="p" o="81" c="NJ" n="421"/>
+		<ar pt="2504120250" pp="4" wings="-4272298498907669914-2504112006" ppth="Amsterdam Centraal|Utrecht Centraal|Venlo|Köln Hbf|Koblenz Hbf|Mainz Hbf|Frankfurt(Main)Süd"/>
+		<dp pt="2504120252" pp="4" wings="-4272298498907669914-2504112006" ppth="Nürnberg Hbf|Augsburg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="-4272298498907669914-2504112006-8">
+		<tl t="p" o="81" c="NJ" n="40421"/>
+		<ar pt="2504120250" pp="4" ppth="Amsterdam Centraal|Utrecht Centraal|Venlo|Köln Hbf|Koblenz Hbf|Mainz Hbf|Frankfurt(Main)Süd"/>
+		<dp pt="2504120252" pp="4" ppth="Nürnberg Hbf|Regensburg Hbf|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+</timetable>
