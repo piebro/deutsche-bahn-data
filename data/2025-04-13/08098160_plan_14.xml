@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Hbf">
+	<s id="3370223805767021677-2504131314-16">
+		<tl f="N" t="p" o="800158" c="RE" n="3155"/>
+		<ar pt="2504131453" pp="4" l="4" ppth="Falkenberg(Elster)|Herzberg(Elster)|Holzdorf(Elster)|Linda(Elster)|Zellendorf|Oehna|Jüterbog|Luckenwalde|Woltersdorf/Nuthe-Urstromtal|Trebbin|Thyrow|Ludwigsfelde|Berlin-Lichterfelde Ost|Berlin Südkreuz|Berlin Potsdamer Platz"/>
+		<dp pt="2504131457" pp="4" l="4" ppth="Berlin Jungfernheide|Berlin-Spandau|Berlin-Staaken|Dallgow-Döberitz|Elstal|Wustermark|Buschow|Nennhausen|Rathenow"/>
+	</s>
+	<s id="-795470299631124600-2504131027-6">
+		<tl f="F" t="p" o="80" c="ICE" n="933"/>
+		<ar pt="2504131451" pp="2" ppth="Ostseebad Binz|Bergen auf Rügen|Stralsund Hbf|Neustrelitz Hbf|Berlin Gesundbrunnen"/>
+		<dp pt="2504131457" pp="2" ppth="Berlin Südkreuz|Halle(Saale)Hbf|Erfurt Hbf|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-690776802853422910-2504130641-14">
+		<tl f="F" t="p" o="80" c="ICE" n="692"/>
+		<ar pt="2504131435" pp="3" ppth="München Hbf|München-Pasing|Augsburg Hbf|Ulm Hbf|Stuttgart Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Fulda|Eisenach Hbf|Erfurt Hbf|Leipzig Hbf|Lutherstadt Wittenberg Hbf|Berlin Südkreuz"/>
+		<dp pt="2504131440" pp="3" hi="1" ppth="Berlin Gesundbrunnen"/>
+	</s>
+	<s id="-9195590069004936627-2504131102-5">
+		<tl f="F" t="p" o="80" c="ICE" n="930"/>
+		<ar pt="2504131456" pp="3" ppth="Frankfurt(Main)Hbf|Erfurt Hbf|Halle(Saale)Hbf|Berlin Südkreuz"/>
+		<dp pt="2504131503" pp="3" hi="1" ppth="Berlin Gesundbrunnen"/>
+	</s>
+	<s id="3657993984016871147-2504130751-9">
+		<tl f="F" t="p" o="80" c="ICE" n="800"/>
+		<ar pt="2504131422" pp="4" ppth="München Hbf|Augsburg Hbf|Nürnberg Hbf|Würzburg Hbf|Erfurt Hbf|Halle(Saale)Hbf|Bitterfeld|Berlin Südkreuz"/>
+		<dp pt="2504131436" pp="4" ppth="Berlin-Spandau|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="1438737353021601604-2504131407-1">
+		<tl f="N" t="p" o="800158" c="RE" n="91486"/>
+		<dp pt="2504131407" pp="4" l="4" ppth="Berlin Potsdamer Platz|Berlin Südkreuz|Berlin-Lichterfelde Ost|Ludwigsfelde|Thyrow|Trebbin|Woltersdorf/Nuthe-Urstromtal|Luckenwalde|Jüterbog"/>
+	</s>
+	<s id="3385058391639482402-2504130922-6">
+		<tl f="F" t="p" o="80" c="ICE" n="1711"/>
+		<ar pt="2504131415" pp="2" ppth="Ostseebad Binz|Bergen auf Rügen|Stralsund Hbf|Neustrelitz Hbf|Berlin Gesundbrunnen"/>
+		<dp pt="2504131427" pp="2" ppth="Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Leipzig Hbf|Erfurt Hbf|Fulda|Würzburg Hbf|Augsburg Hbf|München Hbf"/>
+	</s>
+	<s id="235347214713352060-2504131215-5">
+		<tl f="F" t="p" o="80" c="ICE" n="1601"/>
+		<ar pt="2504131422" pp="2" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Berlin-Spandau"/>
+		<dp pt="2504131427" pp="2" wings="3385058391639482402-2504130922" ppth="Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Leipzig Hbf|Erfurt Hbf|Fulda|Würzburg Hbf|Augsburg Hbf|München Hbf"/>
+	</s>
+</timetable>
