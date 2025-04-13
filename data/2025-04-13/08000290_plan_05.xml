@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="Offenburg">
+	<s id="-5676428147416065355-2504130548-1">
+		<tl f="N" t="p" o="800647" c="RE" n="4702"/>
+		<dp pt="2504130548" pp="5" l="2" ppth="Appenweier|Renchen|Achern|Bühl(Baden)|Baden-Baden|Rastatt|Muggensturm|Malsch|Bruchhausen(b Ettlingen)|Ettlingen West|Karlsruhe Hbf"/>
+	</s>
+	<s id="-7933222209613530264-2504130556-1">
+		<tl f="N" t="p" o="800647" c="RE" n="4707"/>
+		<dp pt="2504130556" pp="6" l="2" tra="-6780728349443800314-2504130456-9" ppth="Biberach(Baden)|Haslach|Hausach"/>
+	</s>
+	<s id="5117997816741756006-2504130546-1">
+		<tl f="D" t="p" o="S6" c="SWE" n="87503"/>
+		<dp pt="2504130546" pp="7" l="RS1" pde="Freudenstadt Hbf" ppth="Offenburg Kreisschulzentrum|Gengenbach|Biberach(Baden)|Steinach(Baden)|Haslach|Hausach"/>
+	</s>
+	<s id="3684057508643086493-2504130500-1">
+		<tl f="D" t="p" o="S6" c="SWE" n="87354"/>
+		<dp pt="2504130500" pp="7" l="RS2" ppth="Appenweier|Zusenhofen|Oberkirch|Oberkirch-Köhlersiedlung|Lautenbach(Baden)|Hubacker|Ramsbach Höfle|Ramsbach Birkhof|Oppenau|Ibach|Löcherberg|Bad Peterstal|Bad Griesbach(Schwarzwald)"/>
+	</s>
+	<s id="-6780728349443800314-2504130456-9">
+		<tl f="N" t="p" o="800647" c="RE" n="4701"/>
+		<ar pt="2504130540" pp="6" l="2" tra="-7933222209613530264-2504130556-1" ppth="Karlsruhe Hbf|Muggensturm|Rastatt|Baden-Baden|Bühl(Baden)|Achern|Renchen|Appenweier"/>
+	</s>
+</timetable>
