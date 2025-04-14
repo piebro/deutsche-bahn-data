@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Ingolstadt Hbf">
+	<s id="5028473175569704025-2504140355-2">
+		<tl f="F" t="p" o="80" c="ICE" n="888"/>
+		<ar pt="2504140440" pp="4" ppth="München Hbf"/>
+		<dp pt="2504140442" pp="4" ppth="Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="-2068972056873159167-2504140420-5">
+		<tl f="D" t="p" o="A9" c="ag" n="84308"/>
+		<ar pt="2504140442" pp="7" l="RB17" ppth="Neustadt(Donau)|Münchsmünster|Vohburg-Rockolding|Ernsgaden"/>
+	</s>
+	<s id="7606147327866673072-2504140407-1">
+		<tl f="N" t="p" o="800765" c="RB" n="59140"/>
+		<dp pt="2504140407" pp="5" l="16" ppth="Ingolstadt Nord|Ingolstadt Audi|Gaimersheim|Eitensheim|Tauberfeld|Adelschlag|Eichstätt Bahnhof|Dollnstein|Solnhofen|Pappenheim|Treuchtlingen|Weißenburg(Bay)|Ellingen(Bay)|Pleinfeld|Mühlstetten|Georgensgmünd|Unterheckenhofen|Roth|Schwabach|Nürnberg Hbf"/>
+	</s>
+	<s id="2948952881247611386-2504140410-1">
+		<tl f="N" t="p" o="800765" c="RB" n="59198"/>
+		<dp pt="2504140410" pp="1" l="16" ppth="Ingolstadt Nord"/>
+	</s>
+	<s id="-5712675707758551236-2504140431-1">
+		<tl t="p" o="Y8" c="Bus" n="60400"/>
+		<dp pt="2504140431" pp="" l="EV" ppth="Brunnen(Oberbay)|Schrobenhausen"/>
+	</s>
+	<s id="-8987841866346689354-2504140431-2">
+		<tl f="N" t="p" o="800765" c="RB" n="59171"/>
+		<ar pt="2504140436" pp="3" l="16" ppth="Ingolstadt Nord"/>
+		<dp pt="2504140437" pp="3" l="16" ppth="Baar-Ebenhausen|Rohrbach(Ilm)|Pfaffenhofen(Ilm)|Reichertshausen(Ilm)|Paindorf|Petershausen(Obb)|Dachau Bahnhof|München Hbf"/>
+	</s>
+	<s id="-965501803229921880-2504140452-1">
+		<tl f="D" t="p" o="A9" c="ag" n="84311"/>
+		<dp pt="2504140452" pp="7" l="RB17" ppth="Ernsgaden|Vohburg-Rockolding|Münchsmünster|Neustadt(Donau)|Abensberg|Saal(Donau)|Bad Abbach|Poikam|Gundelshausen|Sinzing|Regensburg-Prüfening|Regensburg Hbf"/>
+	</s>
+</timetable>
