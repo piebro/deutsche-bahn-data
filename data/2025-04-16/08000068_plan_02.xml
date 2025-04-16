@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<timetable station="Darmstadt Hbf">
+	<s id="-5591597380485360579-2504152054-4">
+		<tl f="F" t="p" o="NZ" c="IC" n="60470"/>
+		<ar pt="2504160250" pp="5" ppth="Zürich HB|Bruchsal|Heidelberg Hbf"/>
+		<dp pt="2504160253" pp="5" ppth="Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="1003446772902483359-2504152054-4">
+		<tl t="p" o="85" c="NJ" n="470"/>
+		<ar pt="2504160250" pp="5" hi="1" wings="-5591597380485360579-2504152054" ppth="Zürich HB|Bruchsal|Heidelberg Hbf"/>
+		<dp pt="2504160253" pp="5" hi="1" wings="-5591597380485360579-2504152054" ppth="Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+</timetable>

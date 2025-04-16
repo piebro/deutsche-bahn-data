@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<timetable station="Hannover Hbf">
+	<s id="3824396230027883844-2504160306-7">
+		<tl f="S" t="p" o="TDHS" c="S" n="34513"/>
+		<ar pt="2504160324" pp="2" l="5" ppth="Hannover Flughafen|Langenhagen Pferdemarkt|Langenhagen Mitte|Hannover-Vinnhorst|Hannover-Ledeburg|Hannover-Nordstadt"/>
+	</s>
+	<s id="8850452489523868017-2504152102-10">
+		<tl f="F" t="p" o="80" c="ICE" n="100"/>
+		<ar pt="2504160325" pp="9" ppth="Karlsruhe Hbf|Mannheim Hbf|Mainz Hbf|Köln Hbf|Düsseldorf Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Bielefeld Hbf|Minden(Westf)"/>
+		<dp pt="2504160342" pp="9" ppth="Braunschweig Hbf|Magdeburg Hbf|Brandenburg Hbf|Potsdam Hbf|Berlin-Wannsee|Berlin Zoologischer Garten|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="3199623009169073885-2504160011-9">
+		<tl f="F" t="p" o="80" c="ICE" n="101"/>
+		<ar pt="2504160309" pp="12" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Wannsee|Potsdam Hbf|Brandenburg Hbf|Magdeburg Hbf|Braunschweig Hbf"/>
+		<dp pt="2504160313" pp="12" ppth="Minden(Westf)|Bielefeld Hbf|Gütersloh Hbf|Hamm(Westf)Hbf|Dortmund Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Hbf|Frankfurt(M) Flughafen Fernbf|Mannheim Hbf|Karlsruhe Hbf"/>
+	</s>
+	<s id="-4239956435354326951-2504160009-6">
+		<tl f="F" t="p" o="80" c="ICE" n="2574"/>
+		<ar pt="2504160352" pp="" ppth="Frankfurt(Main)Hbf|Frankfurt(Main)Süd|Hanau Hbf|Fulda|Göttingen"/>
+		<dp pt="2504160418" pp="" ppth="Wolfsburg Hbf|Stendal Hbf|Berlin-Spandau|Berlin Zoologischer Garten|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="7990396791094350225-2504160335-1">
+		<tl f="S" t="p" o="TDHS" c="S" n="34514"/>
+		<dp pt="2504160335" pp="2" l="5" ppth="Hannover-Nordstadt|Hannover-Ledeburg|Hannover-Vinnhorst|Langenhagen Mitte|Langenhagen Pferdemarkt|Hannover Flughafen"/>
+	</s>
+</timetable>
