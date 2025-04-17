@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg Hbf">
+	<s id="3317699822839525065-2504170415-1">
+		<tl t="p" o="R1" c="Bus" n="4107"/>
+		<dp pt="2504170415" pp="" l="EV" ppth="Hamburg-Harburg"/>
+	</s>
+	<s id="6429184803042562792-2504170436-1">
+		<tl f="N" t="p" o="800201" c="RE" n="11250"/>
+		<dp pt="2504170436" pp="12C-F" l="7" ppth="Hamburg Dammtor|Pinneberg|Elmshorn|Wrist|Brokstedt|Neumünster|Einfeld|Bordesholm|Flintbek|Kiel Hbf"/>
+	</s>
+	<s id="7152046210696401911-2504170417-3">
+		<tl f="F" t="p" o="80" c="EC" n="7"/>
+		<ar pt="2504170428" pp="14" ppth="Hamburg-Altona|Hamburg Dammtor"/>
+		<dp pt="2504170431" pp="14" ppth="Hamburg-Harburg|Bremen Hbf|Diepholz|Osnabrück Hbf|Münster(Westf)Hbf|Gelsenkirchen Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Messe/Deutz Gl.11-12|Bonn-Beuel|Koblenz Hbf|Mainz Hbf|Mannheim Hbf|Karlsruhe Hbf|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Liestal|Olten|Bern|Thun|Spiez|Interlaken West|Interlaken Ost"/>
+	</s>
+	<s id="-5967924537871298080-2504170312-8">
+		<tl f="N" t="p" o="800201" c="RE" n="11201"/>
+		<ar pt="2504170426" pp="8" l="70" ppth="Kiel Hbf|Bordesholm|Neumünster|Brokstedt|Wrist|Elmshorn|Hamburg Dammtor"/>
+	</s>
+	<s id="474224413520299351-2504170446-2">
+		<tl f="F" t="p" o="80" c="ICE" n="581"/>
+		<ar pt="2504170450" pp="14" hi="1" ppth="Hamburg Dammtor"/>
+		<dp pt="2504170454" pp="14" ppth="Hamburg-Harburg|Lüneburg|Uelzen|Celle|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Augsburg Hbf|München Hbf"/>
+	</s>
+</timetable>
