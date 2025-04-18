@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<timetable station="Darmstadt Hbf">
+	<s id="-3850980630532528611-2504180147-18">
+		<tl f="S" t="p" o="800528" c="S" n="36687"/>
+		<ar pt="2504180226" pp="3" l="6" ppth="Frankfurt Hbf (tief)|Frankfurt(M)Taunusanlage|Frankfurt(M)Hauptwache|Frankfurt(M)Konstablerwache|Frankfurt(M)Ostendstraße|Frankfurt(M)Lokalbahnhof|Frankfurt(Main)Süd|Frankfurt(M)Stresemannallee|Frankfurt-Louisa|Neu-Isenburg|Dreieich-Buchschlag|Langen-Flugsicherung|Langen(Hess)|Egelsbach|Erzhausen|Darmstadt-Wixhausen|Darmstadt-Arheilgen"/>
+	</s>
+	<s id="1171612973025887719-2504180235-1">
+		<tl f="S" t="p" o="800528" c="S" n="36690"/>
+		<dp pt="2504180235" pp="3" l="6" ppth="Darmstadt-Arheilgen|Darmstadt-Wixhausen|Erzhausen|Egelsbach|Langen(Hess)|Langen-Flugsicherung|Dreieich-Buchschlag|Neu-Isenburg|Frankfurt-Louisa|Frankfurt(M)Stresemannallee|Frankfurt(Main)Süd|Frankfurt(M)Lokalbahnhof|Frankfurt(M)Ostendstraße|Frankfurt(M)Konstablerwache|Frankfurt(M)Hauptwache|Frankfurt(M)Taunusanlage|Frankfurt Hbf (tief)"/>
+	</s>
+	<s id="6729598115043604080-2504180206-3">
+		<tl f="N" t="p" o="800574" c="RB" n="15343"/>
+		<ar pt="2504180224" pp="11" l="68" ppth="Frankfurt(Main)Hbf|Langen(Hess)"/>
+		<dp pt="2504180235" pp="11" l="68" ppth="Darmstadt Süd|Darmstadt-Eberstadt|Bickenbach(Bergstr)|Hähnlein-Alsbach|Zwingenberg(Bergstr)|Bensheim-Auerbach|Bensheim|Heppenheim(Bergstr)|Laudenbach(Bergstr)|Hemsbach|Weinheim-Sulzbach|Weinheim(Bergstr)Hbf|Weinheim-Lützelsachsen|Heddesheim/Hirschberg|Ladenburg|Neu-Edingen/Friedrichsfeld|Heidelberg-Pfaffengrund/Wieblingen|Heidelberg Hbf"/>
+	</s>
+	<s id="1003446772902483359-2504172054-4">
+		<tl t="p" o="85" c="NJ" n="470"/>
+		<ar pt="2504180256" pp="5" hi="1" wings="-5591597380485360579-2504172054" ppth="Zürich HB|Bruchsal|Heidelberg Hbf"/>
+		<dp pt="2504180258" pp="5" hi="1" wings="-5591597380485360579-2504172054" ppth="Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-5591597380485360579-2504172054-4">
+		<tl f="F" t="p" o="NZ" c="IC" n="60470"/>
+		<ar pt="2504180256" pp="5" ppth="Zürich HB|Bruchsal|Heidelberg Hbf"/>
+		<dp pt="2504180258" pp="5" ppth="Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+</timetable>

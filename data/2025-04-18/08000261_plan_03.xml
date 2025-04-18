@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf">
+	<s id="5950655788274726626-2504171818-12">
+		<tl f="F" t="p" o="80" c="ICE" n="1607"/>
+		<ar pt="2504180312" pp="17" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Leipzig Hbf|Erfurt Hbf|Würzburg Hbf|Augsburg Hbf"/>
+	</s>
+	<s id="4653126596847301158-2504180358-1">
+		<tl f="F" t="p" o="80" c="ICE" n="634"/>
+		<dp pt="2504180358" pp="22" ppth="Nürnberg Hbf|Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf"/>
+	</s>
+	<s id="-8003392339101483857-2504180358-1">
+		<tl f="F" t="p" o="80" c="ICE" n="684"/>
+		<dp pt="2504180358" pp="22" wings="4653126596847301158-2504180358" ppth="Nürnberg Hbf|Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+</timetable>
