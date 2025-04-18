@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="Oldenburg(Oldb)Hbf">
+	<s id="5769559680701882536-2504180553-4">
+		<tl f="N" t="p" o="NZ" c="RE" n="52438"/>
+		<ar pt="2504180623" pp="6" l="56" ppth="Bremen Hbf|Delmenhorst|Hude"/>
+		<dp pt="2504180633" pp="6" l="56" ppth="Bad Zwischenahn|Westerstede-Ocholt|Augustfehn|Leer(Ostfriesl)|Emden Hbf|Marienhafe|Norden|Norddeich|Norddeich Mole"/>
+	</s>
+	<s id="352621200272318542-2504180629-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="75302"/>
+		<dp pt="2504180629" pp="4" l="RE18" ppth="Sandkrug|Huntlosen|Großenkneten|Ahlhorn|Cloppenburg|Essen(Oldb)|Quakenbrück|Bersenbrück|Bramsche|Osnabrück Altstadt|Osnabrück Hbf"/>
+	</s>
+	<s id="-6655623527873823030-2504180649-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="83355"/>
+		<dp pt="2504180649" pp="3" l="RS3" ppth="Wüsting|Hude|Bookholzberg|Schierbrok|Hoykenkamp|Delmenhorst|Heidkrug|Bremen Neustadt|Bremen Hbf"/>
+	</s>
+	<s id="-5598921627012959285-2504180615-10">
+		<tl f="D" t="p" o="N1" c="NWB" n="83396"/>
+		<ar pt="2504180654" pp="6" l="RS3" ppth="Bremen Hbf|Bremen Neustadt|Heidkrug|Delmenhorst|Hoykenkamp|Schierbrok|Bookholzberg|Hude|Wüsting"/>
+		<dp pt="2504180658" pp="6" l="RS3" ppth="Oldenburg-Wechloy|Bad Zwischenahn"/>
+	</s>
+	<s id="-2530427790308150282-2504180517-6">
+		<tl f="N" t="p" o="800295" c="RE" n="4407"/>
+		<ar pt="2504180623" pp="3" l="1" ppth="Emden Hbf|Leer(Ostfriesl)|Augustfehn|Westerstede-Ocholt|Bad Zwischenahn"/>
+		<dp pt="2504180635" pp="3" l="1" ppth="Hude|Delmenhorst|Bremen Hbf|Bremen-Mahndorf|Achim|Verden(Aller)|Dörverden|Eystrup|Nienburg(Weser)|Linsburg|Hagen(Han)|Eilvese|Neustadt am Rübenberge"/>
+	</s>
+	<s id="-3011290278229936684-2504180553-4">
+		<tl f="F" t="p" o="80" c="IC" n="2438"/>
+		<ar pt="2504180623" pp="6" wings="5769559680701882536-2504180553" ppth="Bremen Hbf|Delmenhorst|Hude"/>
+		<dp pt="2504180633" pp="6" wings="5769559680701882536-2504180553" ppth="Bad Zwischenahn|Westerstede-Ocholt|Augustfehn|Leer(Ostfriesl)|Emden Hbf|Marienhafe|Norden|Norddeich|Norddeich Mole"/>
+	</s>
+</timetable>

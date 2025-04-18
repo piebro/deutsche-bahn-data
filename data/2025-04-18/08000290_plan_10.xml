@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<timetable station="Offenburg">
+	<s id="6255545851641367871-2504181037-4">
+		<tl f="N" t="p" o="800647" c="RE" n="4716"/>
+		<ar pt="2504181059" pp="6" l="2" ppth="Hausach|Haslach|Gengenbach"/>
+		<dp pt="2504181102" pp="6" l="2" ppth="Appenweier|Renchen|Achern|Bühl(Baden)|Baden-Baden|Rastatt|Karlsruhe Hbf"/>
+	</s>
+	<s id="5578501384783570388-2504181005-1">
+		<tl f="D" t="p" o="S6" c="SWE" n="87422"/>
+		<dp pt="2504181005" pp="5" l="RS4" ppth="Appenweier|Legelshurst|Kork|Kehl|Krimmeri-Meinau|Strasbourg"/>
+	</s>
+	<s id="3892083033602966431-2504180937-4">
+		<tl f="N" t="p" o="800647" c="RE" n="4714"/>
+		<ar pt="2504180959" pp="6" l="2" ppth="Hausach|Haslach|Biberach(Baden)"/>
+		<dp pt="2504181002" pp="6" l="2" ppth="Appenweier|Renchen|Achern|Bühl(Baden)|Baden-Baden|Rastatt|Karlsruhe Hbf"/>
+	</s>
+	<s id="-2020970457976764734-2504181041-1">
+		<tl f="D" t="p" o="S6" c="SWE" n="87515"/>
+		<dp pt="2504181041" pp="6" l="RS1" ppth="Offenburg Kreisschulzentrum|Gengenbach|Biberach(Baden)|Steinach(Baden)|Haslach|Hausach|Wolfach|Halbmeil|Schiltach|Schiltach Mitte|Alpirsbach|Freudenstadt Hbf"/>
+	</s>
+	<s id="7219061120901394833-2504180914-14">
+		<tl f="D" t="p" o="S6" c="SWE" n="87361"/>
+		<ar pt="2504181003" pp="7" l="RS2" ppth="Bad Griesbach(Schwarzwald)|Bad Peterstal|Löcherberg|Ibach|Oppenau|Ramsbach Birkhof|Ramsbach Höfle|Hubacker|Lautenbach(Baden)|Oberkirch-Köhlersiedlung|Oberkirch|Zusenhofen|Appenweier"/>
+	</s>
+	<s id="-109000605698583854-2504181007-8">
+		<tl f="N" t="p" o="800647" c="RE" n="4721"/>
+		<ar pt="2504181057" pp="5" l="2" ppth="Karlsruhe Hbf|Rastatt|Baden-Baden|Bühl(Baden)|Achern|Renchen|Appenweier"/>
+		<dp pt="2504181059" pp="5" l="2" ppth="Gengenbach|Haslach|Hausach"/>
+	</s>
+	<s id="5575042404891227858-2504181035-1">
+		<tl f="D" t="p" o="S6" c="SWE" n="88480"/>
+		<dp pt="2504181035" pp="7" l="RS4" tra="-1480168144771175695-2504180901-13" ppth="Appenweier|Legelshurst|Kork|Kehl"/>
+	</s>
+	<s id="-8157672666334057039-2504181057-1">
+		<tl f="D" t="p" o="S6" c="SWE" n="87368"/>
+		<dp pt="2504181057" pp="7" l="RS2" ppth="Appenweier|Zusenhofen|Oberkirch|Oberkirch-Köhlersiedlung|Lautenbach(Baden)|Hubacker|Ramsbach Höfle|Ramsbach Birkhof|Oppenau|Ibach|Löcherberg|Bad Peterstal|Bad Griesbach(Schwarzwald)"/>
+	</s>
+	<s id="-1480168144771175695-2504180901-13">
+		<tl f="D" t="p" o="S6" c="SWE" n="87512"/>
+		<ar pt="2504181014" pp="7" l="RS1" tra="5575042404891227858-2504181035-1" ppth="Freudenstadt Hbf|Alpirsbach|Schiltach Mitte|Schiltach|Halbmeil|Wolfach|Hausach|Haslach|Steinach(Baden)|Biberach(Baden)|Gengenbach|Offenburg Kreisschulzentrum"/>
+	</s>
+	<s id="8809883873903132937-2504181003-5">
+		<tl f="D" t="p" o="S6" c="SWE" n="87409"/>
+		<ar pt="2504181022" pp="6" l="RS4" ppth="Kehl|Kork|Legelshurst|Appenweier"/>
+	</s>
+</timetable>
