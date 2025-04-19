@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg Hbf">
+	<s id="365509070552487928-2504190843-1">
+		<tl f="N" t="p" o="800201" c="RE" n="11158"/>
+		<dp pt="2504190843" pp="6D-F" l="7" pde="Kiel Hbf" ppth="Hamburg Dammtor|Elmshorn|Neumünster"/>
+	</s>
+	<s id="-4966898132615481032-2504190833-1">
+		<tl f="D" t="p" o="R1" c="ME" n="81615"/>
+		<dp pt="2504190833" pp="12A-B" l="RB31" ppth="Hamburg-Harburg|Meckelfeld|Maschen|Stelle|Ashausen|Winsen(Luhe)|Radbruch|Bardowick|Lüneburg"/>
+	</s>
+	<s id="-8677182982400525824-2504182046-14">
+		<tl t="p" o="81" c="NJ" n="40420"/>
+		<ar pt="2504190847" pp="11" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Hbf|Augsburg Hbf|Nürnberg Hbf|Würzburg Hbf|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg"/>
+		<dp pt="2504190853" pp="11" hi="1" ppth="Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="6220447137645637542-2504190723-8">
+		<tl f="N" t="p" o="800201" c="RE" n="11209"/>
+		<ar pt="2504190837" pp="7G-I" l="70" ppth="Kiel Hbf|Bordesholm|Neumünster|Brokstedt|Wrist|Elmshorn|Hamburg Dammtor"/>
+	</s>
+	<s id="-7547304040443208216-2504182010-13">
+		<tl t="p" o="81" c="NJ" n="490"/>
+		<ar pt="2504190847" pp="11" wings="-8677182982400525824-2504182046" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Salzburg Hbf|Nürnberg Hbf|Würzburg Hbf|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg"/>
+		<dp pt="2504190853" pp="11" hi="1" wings="-8677182982400525824-2504182046" ppth="Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="5795328241854656879-2504190658-15">
+		<tl f="D" t="p" o="R1" c="ME" n="81910"/>
+		<ar pt="2504190826" pp="12A-B" l="RB41" ppth="Bremen Hbf|Bremen-Oberneuland|Sagehorn|Ottersberg(Han)|Sottrum|Rotenburg(Wümme)|Scheeßel|Lauenbrück|Tostedt|Sprötze|Buchholz(Nordheide)|Klecken|Hittfeld|Hamburg-Harburg"/>
+	</s>
+	<s id="1003446772902483359-2504182054-8">
+		<tl t="p" o="85" c="NJ" n="470"/>
+		<ar pt="2504190857" pp="8" ppth="Zürich HB|Bruchsal|Heidelberg Hbf|Darmstadt Hbf|Göttingen|Hannover Hbf|Hamburg-Harburg"/>
+		<dp pt="2504190900" pp="8" hi="1" ppth="Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-8426302455006620707-2504190806-1">
+		<tl f="D" t="p" o="O0" c="NBE" n="75514"/>
+		<dp pt="2504190806" pp="12C-F" l="RB61" ppth="Hamburg Dammtor|Pinneberg|Prisdorf|Tornesch|Elmshorn|Herzhorn|Glückstadt|Krempe|Kremperheide|Itzehoe"/>
+	</s>
+	<s id="7967189411430494911-2504190821-1">
+		<tl f="N" t="p" o="800155" c="RE" n="4307"/>
+		<dp pt="2504190821" pp="7A-D" l="1" ppth="Hamburg-Bergedorf|Schwarzenbek|Müssen|Büchen|Schwanheide|Boizenburg(Elbe)|Brahlstorf|Pritzier|Hagenow Land|Schwerin Süd|Schwerin Mitte|Schwerin Hbf|Bad Kleinen|Ventschow|Blankenberg(Meckl)|Bützow|Schwaan|Rostock Hbf"/>
+	</s>
+	<s id="-7457864426501814623-2504190742-4">
+		<tl f="F" t="p" o="80" c="EC" n="379"/>
+		<ar pt="2504190848" pp="5" ppth="Kiel Hbf|Neumünster|Hamburg Dammtor"/>
+		<dp pt="2504190851" pp="5" ppth="Büchen|Ludwigslust|Wittenberge|Berlin-Spandau|Berlin Gesundbrunnen|Berlin-Lichtenberg|Dresden-Neustadt|Dresden Hbf|Bad Schandau|Decin hl.n.|Usti nad Labem hl.n.|Praha-Holesovice|Praha hl.n."/>
+	</s>
+	<s id="-2467281444360141068-2504190755-3">
+		<tl f="F" t="p" o="80" c="ICE" n="507"/>
+		<ar pt="2504190810" pp="8" ppth="Hamburg-Altona|Hamburg Dammtor"/>
+		<dp pt="2504190813" pp="8" ppth="Berlin-Spandau|Berlin Gesundbrunnen|Lutherstadt Wittenberg Hbf|Leipzig Hbf|Erfurt Hbf|Würzburg Hbf|Augsburg Hbf|München Hbf"/>
+	</s>
+	<s id="-6812705754883244725-2504190815-1">
+		<tl f="D" t="p" o="R1" c="ME" n="82013"/>
+		<dp pt="2504190815" pp="13A-C" l="RE4" ppth="Hamburg-Harburg|Buchholz(Nordheide)|Tostedt|Rotenburg(Wümme)|Bremen Hbf"/>
+	</s>
+	<s id="-5703640496454004355-2504190829-3">
+		<tl f="F" t="p" o="80" c="ICE" n="107"/>
+		<ar pt="2504190841" pp="14" hi="1" ppth="Hamburg-Altona|Hamburg Dammtor"/>
+		<dp pt="2504190845" pp="14" ppth="Hamburg-Harburg|Bremen Hbf|Osnabrück Hbf|Münster(Westf)Hbf|Wanne-Eickel Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Hbf|Frankfurt(M) Flughafen Fernbf|Mannheim Hbf|Karlsruhe Hbf"/>
+	</s>
+	<s id="-7458286068466905603-2504190746-3">
+		<tl f="F" t="p" o="80" c="ICE" n="2501"/>
+		<ar pt="2504190759" pp="14" ppth="Hamburg-Altona|Hamburg Dammtor"/>
+		<dp pt="2504190802" pp="14" ppth="Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Würzburg Hbf|Augsburg Hbf|München Hbf"/>
+	</s>
+	<s id="-8569974316885649516-2504190807-5">
+		<tl f="N" t="p" o="800155" c="RE" n="13004"/>
+		<ar pt="2504190838" pp="7A-D" l="1" ppth="Büchen|Müssen|Schwarzenbek|Hamburg-Bergedorf"/>
+	</s>
+	<s id="-5560549765615302566-2504190728-4">
+		<tl f="N" t="p" o="800201" c="RE" n="11159"/>
+		<ar pt="2504190815" pp="6D-F" l="7" pde="Kiel Hbf" ppth="Neumünster|Elmshorn|Hamburg Dammtor"/>
+	</s>
+	<s id="-2275836909676922659-2504190733-6">
+		<tl f="D" t="p" o="R1" c="ME" n="82012"/>
+		<ar pt="2504190843" pp="13A-C" l="RE4" ppth="Bremen Hbf|Rotenburg(Wümme)|Tostedt|Buchholz(Nordheide)|Hamburg-Harburg"/>
+	</s>
+	<s id="-3657975130638320666-2504190849-1">
+		<tl t="p" o="FLX20" c="FLX" n="1353"/>
+		<dp pt="2504190849" pp="12" l="20" ppth="Hamburg-Harburg|Bremen Hbf|Osnabrück Hbf|Münster(Westf)Hbf|Gelsenkirchen Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Hbf"/>
+	</s>
+	<s id="6578135918072112140-2504190752-11">
+		<tl f="D" t="p" o="O0" c="NBE" n="75519"/>
+		<ar pt="2504190856" pp="13D-F" l="RB61" ppth="Itzehoe|Kremperheide|Krempe|Glückstadt|Herzhorn|Elmshorn|Tornesch|Prisdorf|Pinneberg|Hamburg Dammtor"/>
+	</s>
+	<s id="4733426678694405219-2504190704-7">
+		<tl f="D" t="p" o="R1" c="ME" n="82110"/>
+		<ar pt="2504190803" pp="13A-C" l="RE3" pde="Hannover Hbf" ppth="Uelzen|Bad Bevensen|Bienenbüttel|Lüneburg|Winsen(Luhe)|Hamburg-Harburg"/>
+	</s>
+	<s id="5716305259432966797-2504190822-1">
+		<tl f="N" t="p" o="800201" c="RE" n="11208"/>
+		<dp pt="2504190822" pp="7G-I" l="70" ppth="Hamburg Dammtor|Elmshorn|Wrist|Brokstedt|Neumünster|Bordesholm|Kiel Hbf"/>
+	</s>
+	<s id="1409628509556846116-2504190815-2">
+		<tl f="F" t="p" o="80" c="ICE" n="575"/>
+		<ar pt="2504190819" pp="14" ppth="Hamburg Dammtor"/>
+		<dp pt="2504190824" pp="14" ppth="Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Frankfurt(Main)West|Frankfurt(M) Flughafen Fernbf|Mannheim Hbf"/>
+	</s>
+	<s id="-5591597380485360579-2504182054-8">
+		<tl f="F" t="p" o="NZ" c="IC" n="60470"/>
+		<ar pt="2504190857" pp="8" ppth="Zürich HB|Bruchsal|Heidelberg Hbf|Darmstadt Hbf|Göttingen|Hannover Hbf|Hamburg-Harburg"/>
+		<dp pt="2504190900" pp="8" hi="1" ppth="Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-4384548506268273312-2504190857-1">
+		<tl f="D" t="p" o="R1" c="ME" n="82115"/>
+		<dp pt="2504190857" pp="13A-C" l="RE3" pde="Hannover Hbf" ppth="Hamburg-Harburg|Winsen(Luhe)|Lüneburg|Bienenbüttel|Bad Bevensen|Uelzen"/>
+	</s>
+</timetable>
