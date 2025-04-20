@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<timetable station="Landshut(Bay)Hbf">
+	<s id="-6418041842228442645-2504202220-8">
+		<tl t="p" o="B7" c="Bus" n="87939"/>
+		<ar pt="2504202353" pp="" l="EV" ppth="Regensburg Hbf|Obertraubling|Köfering|Hagelstadt|Eggmühl|Neufahrn(Niederbay)|Ergoldsbach"/>
+	</s>
+	<s id="5502922200206548315-2504202244-4">
+		<tl f="D" t="p" o="A8N" c="ALX" n="79869"/>
+		<ar pt="2504202330" pp="5" l="RE25" ppth="München Hbf|Freising|Moosburg"/>
+	</s>
+	<s id="4456146591772215085-2504202302-6">
+		<tl f="N" t="p" o="800767" c="RE" n="4091"/>
+		<ar pt="2504202343" pp="6" l="3" ppth="Plattling|Wallersdorf|Landau(Isar)|Dingolfing|Wörth(Isar)"/>
+		<dp pt="2504202349" pp="6" l="3" ppth="Moosburg|Freising|München Hbf"/>
+	</s>
+	<s id="4129627884885923643-2504202314-7">
+		<tl f="N" t="p" o="800767" c="RB" n="59290"/>
+		<ar pt="2504202343" pp="8" l="33" ppth="Freising|Marzling|Langenbach(Oberbay)|Moosburg|Bruckberg|Gündlkofen"/>
+	</s>
+	<s id="3507633594671281697-2504202305-1">
+		<tl f="N" t="p" o="800767" c="RE" n="57939"/>
+		<dp pt="2504202305" pp="6" l="22" ppth="Moosburg|Freising|München Flughafen Terminal"/>
+	</s>
+	<s id="4348221724037410882-2504202340-1">
+		<tl f="N" t="p" o="8013D" c="RB" n="27141"/>
+		<dp pt="2504202340" pp="1" l="45" ppth="Landshut(Bay)Süd|Geisenhausen|Vilsbiburg|Aich(Niederbay)|Egglkofen|Neumarkt-St Veit|Mühldorf(Oberbay)"/>
+	</s>
+	<s id="347380704260031951-2504202337-1">
+		<tl t="p" o="A8N" c="Bus" n="60869"/>
+		<dp pt="2504202337" pp="" l="RE25" ppth="Ergoldsbach|Neufahrn(Niederbay)|Eggmühl|Obertraubling|Regensburg Hbf"/>
+	</s>
+	<s id="-2543630036829878149-2504202240-8">
+		<tl f="N" t="p" o="8013D" c="RB" n="27142"/>
+		<ar pt="2504202328" pp="1" l="45" pde="Salzburg Hbf" ppth="Mühldorf(Oberbay)|Neumarkt-St Veit|Egglkofen|Aich(Niederbay)|Vilsbiburg|Geisenhausen|Landshut(Bay)Süd"/>
+	</s>
+	<s id="185568078432564234-2504202224-4">
+		<tl f="N" t="p" o="800767" c="RE" n="4090"/>
+		<ar pt="2504202312" pp="5" l="3" ppth="München Hbf|Freising|Moosburg"/>
+		<dp pt="2504202315" pp="5" l="3" ppth="Wörth(Isar)|Dingolfing|Landau(Isar)|Wallersdorf|Plattling"/>
+	</s>
+</timetable>
