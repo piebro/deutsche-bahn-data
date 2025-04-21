@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf Gl.27-36">
+	<s id="-3752042868029839784-2504211936-1">
+		<tl f="S" t="p" o="800725" c="S" n="8668"/>
+		<dp pt="2504211936" pp="" l="6" ppth="München-Pasing|München-Westkreuz|Lochham|Gräfelfing|Planegg|Stockdorf|Gauting|Starnberg Nord|Starnberg|Possenhofen|Feldafing|Tutzing"/>
+	</s>
+	<s id="3336562791046240759-2504211932-1">
+		<tl f="N" t="p" o="800790" c="RB" n="59463"/>
+		<dp pt="2504211932" pp="" l="6" ppth="München-Pasing|Tutzing"/>
+	</s>
+	<s id="8826279271093432166-2504211956-1">
+		<tl f="S" t="p" o="800725" c="S" n="8670"/>
+		<dp pt="2504211956" pp="" l="6" ppth="München-Pasing|München-Westkreuz|Lochham|Gräfelfing|Planegg|Stockdorf|Gauting|Starnberg Nord|Starnberg"/>
+	</s>
+	<s id="1223287150720401040-2504211822-11">
+		<tl f="D" t="p" o="T8" c="BRB" n="87026"/>
+		<ar pt="2504211932" pp="" l="RB57" ppth="Tegernsee|Gmund(Tegernsee)|Finsterwald|Moosrain|Schaftlach|Warngau|Holzkirchen|München-Solln|München Harras|München Donnersbergerbrücke"/>
+	</s>
+	<s id="3365446420146364280-2504211832-4">
+		<tl f="N" t="p" o="800790" c="RB" n="59632"/>
+		<ar pt="2504211900" pp="" l="66" ppth="Tutzing|Starnberg|München-Pasing"/>
+	</s>
+	<s id="-3890393145707066819-2504211929-1">
+		<tl f="D" t="p" o="T8" c="BRB" n="77399"/>
+		<dp pt="2504211929" pp="" l="RB55" wings="-3750809973619793700-2504211929|-1648568719455319730-2504211929" ppth="München Donnersbergerbrücke|München Harras|München-Solln|Holzkirchen|Darching|Miesbach|Agatharied|Hausham|Schliersee"/>
+	</s>
+	<s id="1487317161185178649-2504211902-1">
+		<tl f="D" t="p" o="T8" c="BRB" n="86897"/>
+		<dp pt="2504211902" pp="" l="RB56" wings="5281705744253420089-2504211902" ppth="München Donnersbergerbrücke|München Harras|München-Solln|Holzkirchen|Warngau|Schaftlach|Reichersbeuern|Bad Tölz|Gaißach|Obergries|Lenggries"/>
+	</s>
+	<s id="5488064530858494201-2504211916-1">
+		<tl f="S" t="p" o="800725" c="S" n="8666"/>
+		<dp pt="2504211916" pp="" l="6" ppth="München-Pasing|München-Westkreuz|Lochham|Gräfelfing|Planegg|Stockdorf|Gauting|Starnberg Nord|Starnberg|Possenhofen|Feldafing|Tutzing"/>
+	</s>
+	<s id="3621651082913971169-2504211900-3">
+		<tl f="N" t="p" o="800790" c="RB" n="59416"/>
+		<ar pt="2504211926" pp="" l="6" ppth="Tutzing|München-Pasing"/>
+	</s>
+	<s id="-8271465736865727730-2504211847-12">
+		<tl f="D" t="p" o="T8" c="BRB" n="87008"/>
+		<ar pt="2504211955" pp="" l="RB56" wings="-8488147413015526490-2504211852" ppth="Lenggries|Obergries|Gaißach|Bad Tölz|Reichersbeuern|Schaftlach|Warngau|Holzkirchen|München-Solln|München Harras|München Donnersbergerbrücke"/>
+	</s>
+	<s id="-8488147413015526490-2504211852-11">
+		<tl f="D" t="p" o="T8" c="BRB" n="87028"/>
+		<ar pt="2504211955" pp="" l="RB57" ppth="Tegernsee|Gmund(Tegernsee)|Finsterwald|Moosrain|Schaftlach|Warngau|Holzkirchen|München-Solln|München Harras|München Donnersbergerbrücke"/>
+	</s>
+	<s id="7591034644954622023-2504211904-13">
+		<tl f="S" t="p" o="800725" c="S" n="8671"/>
+		<ar pt="2504211944" pp="" l="6" ppth="Tutzing|Feldafing|Possenhofen|Starnberg|Starnberg Nord|Gauting|Stockdorf|Planegg|Gräfelfing|Lochham|München-Westkreuz|München-Pasing"/>
+	</s>
+	<s id="5281705744253420089-2504211902-1">
+		<tl f="D" t="p" o="T8" c="BRB" n="86997"/>
+		<dp pt="2504211902" pp="" l="RB57" ppth="München Donnersbergerbrücke|München Harras|München-Solln|Holzkirchen|Warngau|Schaftlach|Moosrain|Finsterwald|Gmund(Tegernsee)|Tegernsee"/>
+	</s>
+	<s id="-3750809973619793700-2504211929-1">
+		<tl f="D" t="p" o="T8" c="BRB" n="86899"/>
+		<dp pt="2504211929" pp="" l="RB56" wings="-1648568719455319730-2504211929" ppth="München Donnersbergerbrücke|München Harras|München-Solln|Holzkirchen|Warngau|Schaftlach|Reichersbeuern|Bad Tölz|Gaißach|Obergries|Lenggries"/>
+	</s>
+	<s id="4344592537781679369-2504211803-15">
+		<tl f="D" t="p" o="T8" c="BRB" n="86786"/>
+		<ar pt="2504211932" pp="" l="RB55" wings="-7076424630947620065-2504211817|1223287150720401040-2504211822" ppth="Bayrischzell|Osterhofen(Oberbay)|Geitau|Fischbachau|Fischhausen-Neuhaus|Schliersee|Hausham|Agatharied|Miesbach|Darching|Holzkirchen|München-Solln|München Harras|München Donnersbergerbrücke"/>
+	</s>
+	<s id="-384975893550853352-2504211920-1">
+		<tl f="N" t="p" o="8007D5" c="RE" n="7892"/>
+		<dp pt="2504211920" pp="30" l="76" ppth="München-Pasing|Geltendorf|Kaufering|Buchloe|Kaufbeuren|Kempten(Allgäu)Hbf|Martinszell(Allgäu)|Immenstadt|Blaichach(Allgäu)|Sonthofen|Altstädten(Allgäu)|Fischen|Langenwang(Schwab)|Oberstdorf"/>
+	</s>
+	<s id="-858939765902821470-2504211959-1">
+		<tl f="N" t="p" o="800790" c="RB" n="59543"/>
+		<dp pt="2504211959" pp="" l="65" ppth="München-Pasing|Starnberg|Tutzing"/>
+	</s>
+	<s id="5148399812569862967-2504211533-4">
+		<tl t="p" o="85" c="ECE" n="195"/>
+		<ar pt="2504211904" pp="" pde="Zürich HB" ppth="Lindau-Reutin|Memmingen|Buchloe"/>
+	</s>
+	<s id="6523266399399988461-2504211920-1">
+		<tl f="N" t="p" o="8007D5" c="RE" n="3892"/>
+		<dp pt="2504211920" pp="" l="70" wings="-384975893550853352-2504211920" ppth="München-Pasing|Geltendorf|Kaufering|Buchloe|Kaufbeuren|Kempten(Allgäu)Hbf|Martinszell(Allgäu)|Immenstadt|Oberstaufen|Röthenbach(Allgäu)|Heimenkirch|Hergatz|Lindau-Reutin|Lindau-Insel"/>
+	</s>
+	<s id="-1771436510360501644-2504211824-13">
+		<tl f="S" t="p" o="800725" c="S" n="8667"/>
+		<ar pt="2504211904" pp="" l="6" ppth="Tutzing|Feldafing|Possenhofen|Starnberg|Starnberg Nord|Gauting|Stockdorf|Planegg|Gräfelfing|Lochham|München-Westkreuz|München-Pasing"/>
+	</s>
+	<s id="-98745368468316763-2504211939-1">
+		<tl f="D" t="p" o="Y8" c="BRB" n="62706"/>
+		<dp pt="2504211939" pp="" l="RB68" ppth="München-Pasing|Geltendorf|Kaufering|Buchloe|Kaufbeuren|Biessenhofen|Ebenhofen|Marktoberdorf|Marktoberdorf Schule|Leuterschach|Lengenwang|Seeg|Weizern-Hopferau|Füssen"/>
+	</s>
+	<s id="-1648568719455319730-2504211929-1">
+		<tl f="D" t="p" o="T8" c="BRB" n="86999"/>
+		<dp pt="2504211929" pp="" l="RB57" ppth="München Donnersbergerbrücke|München Harras|München-Solln|Holzkirchen|Warngau|Schaftlach|Moosrain|Finsterwald|Gmund(Tegernsee)|Tegernsee"/>
+	</s>
+	<s id="-7076424630947620065-2504211817-12">
+		<tl f="D" t="p" o="T8" c="BRB" n="87006"/>
+		<ar pt="2504211932" pp="" l="RB56" wings="1223287150720401040-2504211822" ppth="Lenggries|Obergries|Gaißach|Bad Tölz|Reichersbeuern|Schaftlach|Warngau|Holzkirchen|München-Solln|München Harras|München Donnersbergerbrücke"/>
+	</s>
+	<s id="8113538862510765263-2504211844-13">
+		<tl f="S" t="p" o="800725" c="S" n="8669"/>
+		<ar pt="2504211924" pp="" l="6" ppth="Tutzing|Feldafing|Possenhofen|Starnberg|Starnberg Nord|Gauting|Stockdorf|Planegg|Gräfelfing|Lochham|München-Westkreuz|München-Pasing"/>
+	</s>
+	<s id="-2559331019782740405-2504211720-15">
+		<tl f="D" t="p" o="Y8" c="BRB" n="62709"/>
+		<ar pt="2504211919" pp="" l="RB68" ppth="Füssen|Weizern-Hopferau|Seeg|Lengenwang|Leuterschach|Marktoberdorf Schule|Marktoberdorf|Ebenhofen|Biessenhofen|Kaufbeuren|Buchloe|Kaufering|Geltendorf|München-Pasing"/>
+	</s>
+</timetable>
