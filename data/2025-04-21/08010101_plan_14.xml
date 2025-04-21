@@ -1,0 +1,130 @@
+<?xml version="1.0" ?>
+<timetable station="Erfurt Hbf">
+	<s id="-4917702376265965252-2504211243-18">
+		<tl f="N" t="p" o="SB" c="RB" n="81206"/>
+		<ar pt="2504211417" pp="6" l="46" ppth="Rennsteig|Stützerbach|Manebach|Ilmenau Bad|Ilmenau|Ilmenau Pörlitzer Höhe|Ilmenau-Roda|Elgersburg|Geraberg|Martinroda|Plaue(Thür)|Arnstadt Süd|Arnstadt Hbf|Haarhausen|Sülzenbrücken|Neudietendorf|Erfurt-Bischleben"/>
+	</s>
+	<s id="2167743840256423242-2504211438-1">
+		<tl f="N" t="p" o="SB" c="RB" n="81207"/>
+		<dp pt="2504211438" pp="6" l="46" ppth="Erfurt-Bischleben|Neudietendorf|Sülzenbrücken|Haarhausen|Arnstadt Hbf|Arnstadt Süd|Plaue(Thür)|Martinroda|Geraberg|Elgersburg|Ilmenau-Roda|Ilmenau Pörlitzer Höhe|Ilmenau|Ilmenau Bad|Manebach|Stützerbach|Rennsteig"/>
+	</s>
+	<s id="-3580917122362304390-2504211149-22">
+		<tl f="N" t="p" o="AMRB" c="RB" n="74618"/>
+		<ar pt="2504211355" pp="3a" l="20" ppth="Leipzig Hbf|Leipzig-Leutzsch|Leipzig-Rückmarsdorf|Leipzig-Miltitz|Markranstädt|Großlehna|Kötzschau|Bad Dürrenberg|Großkorbetha|Weißenfels|Leißling|Naumburg(Saale)Hbf|Bad Kösen|Großheringen|Bad Sulza|Niedertrebra|Apolda|Oßmannstedt|Weimar|Hopfgarten(Weimar)|Vieselbach"/>
+		<dp pt="2504211400" pp="3a" l="20" ppth="Erfurt-Bischleben|Neudietendorf|Wandersleben|Seebergen|Gotha|Fröttstädt|Mechterstädt|Sättelstädt|Schönau(Hörsel)|Wutha|Eisenach Hbf"/>
+	</s>
+	<s id="364356506026184607-2504211312-13">
+		<tl f="N" t="p" o="EB" c="RB" n="80990"/>
+		<ar pt="2504211417" pp="6" l="23" wings="-4917702376265965252-2504211243" ppth="Saalfeld(Saale)|Bad Blankenburg(Thüringerw)|Rottenbach|Singen(Thür)|Stadtilm|Niederwillingen|Marlishausen|Arnstadt Hbf|Haarhausen|Sülzenbrücken|Neudietendorf|Erfurt-Bischleben"/>
+	</s>
+	<s id="1379597336739889786-2504210917-13">
+		<tl f="F" t="p" o="80" c="IC" n="2155"/>
+		<ar pt="2504211442" pp="10" ppth="Köln Hbf|Hagen Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Soest|Lippstadt|Paderborn Hbf|Altenbeken|Warburg(Westf)|Kassel-Wilhelmshöhe|Eisenach Hbf|Gotha"/>
+		<dp pt="2504211444" pp="10" wings="-8385239583586491560-2504211444" ppth="Weimar|Jena West|Jena-Göschwitz|Stadtroda|Hermsdorf-Klosterlausnitz|Gera Hbf"/>
+	</s>
+	<s id="6289498206777184904-2504211226-20">
+		<tl t="p" o="RSMD" c="SMD" n="74845"/>
+		<ar pt="2504211451" pp="8" l="RE10" ppth="Magdeburg Hbf|Magdeburg-Buckau|Schönebeck(Elbe)|Staßfurt|Güsten|Sandersleben(Anh)|Hettstedt|Klostermansfeld|Sangerhausen|Oberröblingen|Voigtstedt|Artern|Heldrungen|Griefstedt|Leubingen|Sömmerda|Großrudestedt|Stotternheim|Erfurt Ost"/>
+	</s>
+	<s id="-2365943148004192003-2504211319-18">
+		<tl f="N" t="p" o="800487" c="RB" n="16291"/>
+		<ar pt="2504211446" pp="3" l="52" ppth="Leinefelde|Birkungen|Silberhausen|Dachrieden|Ammern|Mühlhausen(Thür)|Seebach(Mühlhausen)|Großengottern|Schönstedt|Bad Langensalza|Gräfentonna|Döllstädt|Dachwig|Elxleben|Kühnhausen|Erfurt-Gispersleben|Erfurt Nord"/>
+	</s>
+	<s id="-7334830811489709769-2504211210-9">
+		<tl f="N" t="p" o="800755" c="RE" n="4912"/>
+		<ar pt="2504211403" pp="3" l="29" ppth="Nürnberg Hbf|Fürth(Bay)Hbf|Erlangen|Forchheim(Oberfr)|Hirschaid|Bamberg|Coburg|Coburg Nord"/>
+	</s>
+	<s id="1980910822671238492-2504211119-7">
+		<tl f="F" t="p" o="80" c="ICE" n="708"/>
+		<ar pt="2504211430" pp="9" ppth="München Hbf|München-Pasing|Augsburg Hbf|Donauwörth|Nürnberg Hbf|Bamberg"/>
+		<dp pt="2504211432" pp="9" ppth="Halle(Saale)Hbf|Bitterfeld|Berlin Ostbahnhof|Berlin Hbf|Berlin-Spandau|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-8385239583586491560-2504211444-1">
+		<tl f="N" t="p" o="NZ" c="RE" n="52155"/>
+		<dp pt="2504211444" pp="10" l="51" ppth="Weimar|Jena West|Jena-Göschwitz|Stadtroda|Hermsdorf-Klosterlausnitz|Gera Hbf"/>
+	</s>
+	<s id="-7211139863672830743-2504211231-11">
+		<tl f="N" t="p" o="8004NT" c="RE" n="3660"/>
+		<ar pt="2504211407" pp="8a" l="1" ppth="Gößnitz|Schmölln(Thür)|Ronneburg(Thür)|Gera Süd|Gera Hbf|Hermsdorf-Klosterlausnitz|Stadtroda|Jena-Göschwitz|Jena West|Weimar"/>
+		<dp pt="2504211409" pp="8a" l="1" ppth="Neudietendorf|Gotha|Bad Langensalza|Mühlhausen(Thür)|Leinefelde|Heilbad Heiligenstadt|Göttingen"/>
+	</s>
+	<s id="-1474942826302176746-2504211325-15">
+		<tl f="N" t="p" o="EB" c="RB" n="80896"/>
+		<ar pt="2504211443" pp="5" l="21" ppth="Gera Hbf|Töppeln|Kraftsdorf|Hermsdorf-Klosterlausnitz|Papiermühle(Stadtr)|Stadtroda|Neue Schenke|Jena-Göschwitz|Jena West|Großschwabhausen|Mellingen(Thür)|Oberweimar|Weimar|Vieselbach"/>
+	</s>
+	<s id="-5640385034831487405-2504211433-1">
+		<tl f="N" t="p" o="800487" c="RE" n="16260"/>
+		<dp pt="2504211433" pp="2" l="2" ppth="Döllstädt|Bad Langensalza|Mühlhausen(Thür)|Dachrieden|Silberhausen|Leinefelde|Heilbad Heiligenstadt|Uder|Arenshausen|Eichenberg|Witzenhausen Nord|Hann Münden|Kassel-Wilhelmshöhe"/>
+	</s>
+	<s id="-8657781205239698076-2504211406-12">
+		<tl f="N" t="p" o="AMRB" c="RB" n="74625"/>
+		<ar pt="2504211453" pp="8a" l="20" ppth="Eisenach Hbf|Wutha|Schönau(Hörsel)|Sättelstädt|Mechterstädt|Fröttstädt|Gotha|Seebergen|Wandersleben|Neudietendorf|Erfurt-Bischleben"/>
+		<dp pt="2504211504" pp="8a" l="20" ppth="Vieselbach|Hopfgarten(Weimar)|Weimar|Oßmannstedt|Apolda|Niedertrebra|Bad Sulza|Großheringen|Bad Kösen|Naumburg(Saale)Hbf|Leißling|Weißenfels|Großkorbetha|Bad Dürrenberg|Kötzschau|Großlehna|Markranstädt|Leipzig-Miltitz|Leipzig-Rückmarsdorf|Leipzig-Leutzsch|Leipzig Hbf"/>
+	</s>
+	<s id="4576371871462061629-2504210917-8">
+		<tl f="F" t="p" o="80" c="ICE" n="2542"/>
+		<ar pt="2504211426" pp="" ppth="Baden-Baden|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Aschaffenburg Hbf|Fulda|Eisenach Hbf"/>
+		<dp pt="2504211428" pp="" ppth="Leipzig Hbf|Lutherstadt Wittenberg Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="789335602764010828-2504211405-1">
+		<tl f="N" t="p" o="SB" c="RB" n="81281"/>
+		<dp pt="2504211405" pp="6" l="44" ppth="Neudietendorf|Arnstadt Hbf|Arnstadt Süd|Plaue(Thür)|Gräfenroda|Dörrberg|Gehlberg|Zella-Mehlis|Suhl|Suhl-Heinrichs|Dietzhausen|Rohr(Thür)|Grimmenthal|Untermaßfeld|Meiningen"/>
+	</s>
+	<s id="-2938250141698044711-2504211249-22">
+		<tl f="N" t="p" o="AMRB" c="RB" n="74620"/>
+		<ar pt="2504211455" pp="3a" l="20" ppth="Leipzig Hbf|Leipzig-Leutzsch|Leipzig-Rückmarsdorf|Leipzig-Miltitz|Markranstädt|Großlehna|Kötzschau|Bad Dürrenberg|Großkorbetha|Weißenfels|Leißling|Naumburg(Saale)Hbf|Bad Kösen|Großheringen|Bad Sulza|Niedertrebra|Apolda|Oßmannstedt|Weimar|Hopfgarten(Weimar)|Vieselbach"/>
+		<dp pt="2504211505" pp="3a" l="20" ppth="Erfurt-Bischleben|Neudietendorf|Wandersleben|Seebergen|Gotha|Fröttstädt|Mechterstädt|Sättelstädt|Schönau(Hörsel)|Wutha|Eisenach Hbf"/>
+	</s>
+	<s id="-7810134847354827599-2504211435-1">
+		<tl f="N" t="p" o="AMRE" c="RE" n="73979"/>
+		<dp pt="2504211435" pp="4" l="16" ppth="Weimar|Apolda"/>
+	</s>
+	<s id="859816784605384407-2504211313-12">
+		<tl f="N" t="p" o="AMRB" c="RB" n="74623"/>
+		<ar pt="2504211358" pp="10" l="20" ppth="Eisenach Hbf|Wutha|Schönau(Hörsel)|Sättelstädt|Mechterstädt|Fröttstädt|Gotha|Seebergen|Wandersleben|Neudietendorf|Erfurt-Bischleben"/>
+		<dp pt="2504211404" pp="10" l="20" ppth="Vieselbach|Hopfgarten(Weimar)|Weimar|Oßmannstedt|Apolda|Niedertrebra|Bad Sulza|Großheringen|Bad Kösen|Naumburg(Saale)Hbf|Leißling|Weißenfels|Großkorbetha|Bad Dürrenberg|Kötzschau|Großlehna|Markranstädt|Leipzig-Miltitz|Leipzig-Rückmarsdorf|Leipzig-Leutzsch|Leipzig Hbf"/>
+	</s>
+	<s id="1578303357513069311-2504211438-1">
+		<tl f="N" t="p" o="EB" c="RB" n="80993"/>
+		<dp pt="2504211438" pp="6" l="23" wings="2167743840256423242-2504211438" ppth="Erfurt-Bischleben|Neudietendorf|Sülzenbrücken|Haarhausen|Arnstadt Hbf|Marlishausen|Niederwillingen|Stadtilm|Singen(Thür)|Paulinzella|Rottenbach|Bad Blankenburg(Thüringerw)|Saalfeld(Saale)"/>
+	</s>
+	<s id="-442009752924376298-2504211210-5">
+		<tl f="F" t="p" o="80" c="ICE" n="1558"/>
+		<ar pt="2504211416" pp="1" ppth="Dresden Hbf|Dresden-Neustadt|Riesa|Leipzig Hbf"/>
+		<dp pt="2504211418" pp="1" ppth="Gotha|Eisenach Hbf|Bad Hersfeld|Fulda|Aschaffenburg Hbf|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-4318438616914785877-2504211245-4">
+		<tl f="F" t="p" o="80" c="ICE" n="2511"/>
+		<ar pt="2504211444" pp="" ppth="Berlin Ostbahnhof|Lutherstadt Wittenberg Hbf|Halle(Saale)Hbf"/>
+		<dp pt="2504211447" pp="" ppth="Eisenach Hbf|Fulda|Aschaffenburg Hbf|Frankfurt(Main)Hbf|Mannheim Hbf|Stuttgart Hbf|Ulm Hbf|Günzburg|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-502444458290614507-2504211329-16">
+		<tl f="N" t="p" o="800487" c="RE" n="16577"/>
+		<ar pt="2504211456" pp="4" l="56" ppth="Nordhausen|Werther|Wolkramshausen|Kleinfurra|Großfurra|Glückauf|Sondershausen|Hohenebra Ort|Niederspier|Wasserthaleben|Greußen|Gangloffsömmern|Straußfurt|Ringleben-Gebesee|Erfurt Nord"/>
+	</s>
+	<s id="-2271803111890997286-2504211201-13">
+		<tl f="N" t="p" o="8004NT" c="RE" n="3756"/>
+		<ar pt="2504211421" pp="8a" l="7" ppth="Würzburg Hbf|Schweinfurt Hbf|Ebenhausen(Unterfr)|Münnerstadt|Bad Neustadt(Saale)|Mellrichstadt Bf|Grimmenthal|Suhl|Zella-Mehlis|Plaue(Thür)|Arnstadt Hbf|Neudietendorf"/>
+	</s>
+	<s id="-8313378675731044505-2504211409-1">
+		<tl f="N" t="p" o="AMRB" c="RB" n="74589"/>
+		<dp pt="2504211409" pp="5" l="59" ppth="Erfurt Ost|Stotternheim|Großrudestedt|Sömmerda|Leubingen|Etzleben|Heldrungen|Bretleben|Reinsdorf(Artern)|Artern|Sangerhausen"/>
+	</s>
+	<s id="-4237431069235454222-2504211420-1">
+		<tl f="N" t="p" o="8004NT" c="RE" n="3961"/>
+		<dp pt="2504211420" pp="8" l="3" ppth="Weimar|Jena West|Jena-Göschwitz"/>
+	</s>
+	<s id="3570813661258774062-2504211402-1">
+		<tl f="N" t="p" o="800487" c="RE" n="16560"/>
+		<dp pt="2504211402" pp="4" l="55" ppth="Erfurt Nord|Erfurt-Gispersleben|Kühnhausen|Walschleben|Ringleben-Gebesee|Straußfurt|Greußen|Sondershausen|Wolkramshausen|Nordhausen"/>
+	</s>
+	<s id="-1143039985688737547-2504210955-9">
+		<tl f="F" t="p" o="80" c="ICE" n="2557"/>
+		<ar pt="2504211429" pp="10" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Berlin-Spandau|Berlin Gesundbrunnen|Ludwigsfelde|Lutherstadt Wittenberg Hbf|Leipzig Hbf"/>
+		<dp pt="2504211431" pp="10" ppth="Bamberg|Erlangen|Nürnberg Hbf|München Hbf"/>
+	</s>
+	<s id="416160715671297393-2504211402-3">
+		<tl f="N" t="p" o="AMRE" c="RE" n="73976"/>
+		<ar pt="2504211426" pp="4" l="16" ppth="Apolda|Weimar"/>
+	</s>
+</timetable>
