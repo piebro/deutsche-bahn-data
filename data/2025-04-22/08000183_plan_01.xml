@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<timetable station="Ingolstadt Hbf">
+	<s id="5822124379955087267-2504220144-2">
+		<tl f="N" t="p" o="800765" c="RB" n="59195"/>
+		<ar pt="2504220149" pp="1" l="16" ppth="Ingolstadt Nord"/>
+	</s>
+	<s id="-408641586177959359-2504212026-7">
+		<tl f="F" t="p" o="80" c="ICE" n="635"/>
+		<ar pt="2504220117" pp="3" ppth="Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2504220119" pp="3" ppth="München Hbf"/>
+	</s>
+	<s id="-524151628723159576-2504211854-10">
+		<tl f="F" t="p" o="80" c="ICE" n="685"/>
+		<ar pt="2504220117" pp="3" wings="-408641586177959359-2504212026" ppth="Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2504220119" pp="3" wings="-408641586177959359-2504212026" ppth="München Hbf"/>
+	</s>
+	<s id="1811066918985459005-2504220031-9">
+		<tl f="N" t="p" o="800765" c="RB" n="59170"/>
+		<ar pt="2504220128" pp="4" l="16" ppth="München Hbf|Dachau Bahnhof|Petershausen(Obb)|Paindorf|Reichertshausen(Ilm)|Pfaffenhofen(Ilm)|Rohrbach(Ilm)|Baar-Ebenhausen"/>
+		<dp pt="2504220129" pp="4" l="16" ppth="Ingolstadt Nord"/>
+	</s>
+</timetable>
