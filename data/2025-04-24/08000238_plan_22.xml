@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<timetable station="Lüneburg">
+	<s id="3655846017428359643-2504242232-1">
+		<tl f="D" t="p" o="R1" c="ME" n="81640"/>
+		<dp pt="2504242232" pp="3" l="RB31" ppth="Winsen(Luhe)|Stelle|Maschen|Meckelfeld|Hamburg-Harburg"/>
+	</s>
+	<s id="-7927538604654488322-2504242110-9">
+		<tl f="D" t="p" o="X1" c="erx" n="21135"/>
+		<ar pt="2504242215" pp="5" l="RE83" pde="Kiel Hbf" ppth="Lübeck Hbf|Lübeck Hochschulstadtteil|Lübeck Flughafen|Ratzeburg|Mölln(Lauenb)|Büchen|Lauenburg(Elbe)|Echem"/>
+	</s>
+	<s id="5101763145850337332-2504241617-8">
+		<tl f="F" t="p" o="80" c="ICE" n="2560"/>
+		<ar pt="2504242214" pp="2" ppth="Baden-Baden|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)West|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf"/>
+		<dp pt="2504242216" pp="2" ppth="Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="7597089806492032299-2504242221-4">
+		<tl f="F" t="p" o="80" c="ICE" n="1081"/>
+		<ar pt="2504242257" pp="1" ppth="Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg"/>
+		<dp pt="2504242259" pp="1" ppth="Uelzen|Celle|Hannover Hbf|Göttingen|Würzburg Hbf|Augsburg Hbf|München Hbf"/>
+	</s>
+	<s id="-6541349172276474179-2504242145-9">
+		<tl f="D" t="p" o="R1" c="ME" n="81641"/>
+		<ar pt="2504242223" pp="6" l="RB31" ppth="Hamburg-Harburg|Meckelfeld|Maschen|Stelle|Ashausen|Winsen(Luhe)|Radbruch|Bardowick"/>
+	</s>
+	<s id="-5776617363706178690-2504242157-4">
+		<tl f="D" t="p" o="R1" c="ME" n="82141"/>
+		<ar pt="2504242233" pp="1" l="RE3" ppth="Hamburg Hbf|Hamburg-Harburg|Winsen(Luhe)"/>
+		<dp pt="2504242234" pp="1" l="RE3" ppth="Bienenbüttel|Bad Bevensen|Uelzen"/>
+	</s>
+	<s id="1071068956703566664-2504242230-1">
+		<tl f="D" t="p" o="X1" c="erx" n="21138"/>
+		<dp pt="2504242230" pp="5" l="RE83" ppth="Echem|Lauenburg(Elbe)|Büchen|Mölln(Lauenb)|Ratzeburg|Lübeck Flughafen|Lübeck Hochschulstadtteil|Lübeck Hbf"/>
+	</s>
+	<s id="-7193636000516531658-2504242201-4">
+		<tl f="D" t="p" o="R1" c="ME" n="82140"/>
+		<ar pt="2504242224" pp="3" l="RE3" ppth="Uelzen|Bad Bevensen|Bienenbüttel"/>
+		<dp pt="2504242228" pp="3" l="RE3" ppth="Winsen(Luhe)|Hamburg-Harburg"/>
+	</s>
+	<s id="-725719887903667271-2504242250-1">
+		<tl t="p" o="R1" c="Bus" n="4340"/>
+		<dp pt="2504242250" pp="" l="EV" ppth="Bardowick|Radbruch|Winsen(Luhe)"/>
+	</s>
+</timetable>
