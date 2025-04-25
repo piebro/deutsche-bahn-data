@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<timetable station="Fulda">
+	<s id="5360399308984251250-2504251326-7">
+		<tl f="F" t="p" o="80" c="ICE" n="2545"/>
+		<ar pt="2504251647" pp="3" ppth="Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Leipzig Hbf|Erfurt Hbf|Eisenach Hbf"/>
+		<dp pt="2504251649" pp="3" ppth="Aschaffenburg Hbf|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden"/>
+	</s>
+	<s id="6694115126725105036-2504251434-3">
+		<tl f="F" t="p" o="80" c="ICE" n="536"/>
+		<ar pt="2504251601" pp="6" ppth="Nürnberg Hbf|Würzburg Hbf"/>
+		<dp pt="2504251603" pp="6" ppth="Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf"/>
+	</s>
+	<s id="-2591070875382036307-2504251413-6">
+		<tl f="F" t="p" o="80" c="ICE" n="881"/>
+		<ar pt="2504251654" pp="4" ppth="Hamburg-Harburg|Lüneburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe"/>
+		<dp pt="2504251656" pp="4" ppth="Würzburg Hbf|Ingolstadt Hbf|München Hbf"/>
+	</s>
+	<s id="-7459823331390406091-2504251323-4">
+		<tl t="p" o="FLX10" c="FLX" n="1247"/>
+		<ar pt="2504251641" pp="3" l="10" ppth="Berlin Hbf|Halle(Saale)Hbf|Erfurt Hbf"/>
+		<dp pt="2504251643" pp="3" l="10" ppth="Frankfurt(Main)Süd|Mannheim Hbf|Karlsruhe Hbf"/>
+	</s>
+	<s id="6728146359553862661-2504251511-17">
+		<tl f="N" t="p" o="N4" c="RB" n="24235"/>
+		<ar pt="2504251637" pp="4" l="5" ppth="Kassel Hbf|Kassel-Wilhelmshöhe|Guxhagen|Melsungen|Malsfeld|Malsfeld-Beiseförth|Altmorschen|Heinebach|Rotenburg a.d. Fulda|Lispenhausen|Bebra|Ludwigsau-Friedlos|Bad Hersfeld|Haunetal-Neukirchen|Burghaun(Hünfeld)|Hünfeld"/>
+	</s>
+	<s id="-4252034488300424026-2504251620-1">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="29763"/>
+		<dp pt="2504251620" pp="9" l="RB52" ppth="Eichenzell|Welkers|Rönshausen|Lütter|Ried|Schmalnau|Hettenhausen|Altenfeld(Rhön)|Gersfeld(Rhön)"/>
+	</s>
+	<s id="4471729078023853954-2504251303-6">
+		<tl f="F" t="p" o="80" c="ICE" n="691"/>
+		<ar pt="2504251600" pp="3" ppth="Berlin Hbf|Berlin Südkreuz|Halle(Saale)Hbf|Erfurt Hbf|Eisenach Hbf"/>
+		<dp pt="2504251602" pp="3" ppth="Frankfurt(Main)Hbf|Mannheim Hbf|Stuttgart Hbf"/>
+	</s>
+	<s id="3919429207693112249-2504251633-1">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="24830"/>
+		<dp pt="2504251633" pp="38" l="RB45" ppth="Oberbimbach|Großenlüder|Bad Salzschlirf|Angersbach|Lauterbach(Hess)Nord|Alsfeld(Oberhess)|Zell-Romrod|Ehringshausen(Oberhess)|Burg-u. Nieder Gemünden|Nieder-Ohmen|Mücke(Hess)|Lehnheim|Grünberg(Oberhess)|Reiskirchen(Kr Gi)|Großen Buseck|Gießen Licher Str|Gießen|Dutenhofen(Wetzlar)|Wetzlar|Albshausen|Solms|Leun/Braunfels|Stockhausen(Lahn)|Löhnberg|Weilburg|Gräveneck|Fürfurt|Aumenau|Arfurt(Lahn)|Villmar|Kerkerbach|Eschhofen|Limburg(Lahn)"/>
+	</s>
+	<s id="-2313669143793228483-2504251434-3">
+		<tl f="F" t="p" o="80" c="ICE" n="586"/>
+		<ar pt="2504251601" pp="6" wings="6694115126725105036-2504251434" ppth="Nürnberg Hbf|Würzburg Hbf"/>
+		<dp pt="2504251603" pp="6" wings="6694115126725105036-2504251434" ppth="Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="8075809897581811239-2504251620-1">
+		<tl f="N" t="p" o="N4" c="RB" n="24232"/>
+		<dp pt="2504251620" pp="8" l="5" ppth="Hünfeld|Burghaun(Hünfeld)|Haunetal-Neukirchen|Bad Hersfeld|Ludwigsau-Friedlos|Bebra|Lispenhausen|Rotenburg a.d. Fulda|Heinebach|Altmorschen|Malsfeld-Beiseförth|Malsfeld|Melsungen|Guxhagen|Kassel-Wilhelmshöhe|Kassel Hbf"/>
+	</s>
+	<s id="-6287889668127162228-2504251616-10">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="29762"/>
+		<ar pt="2504251657" pp="9" l="RB52" ppth="Gersfeld(Rhön)|Altenfeld(Rhön)|Hettenhausen|Schmalnau|Ried|Lütter|Rönshausen|Welkers|Eichenzell"/>
+	</s>
+	<s id="-1151057268452720658-2504251311-10">
+		<tl f="F" t="p" o="80" c="ICE" n="1205"/>
+		<ar pt="2504251629" pp="3" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Lüneburg|Uelzen|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe"/>
+		<dp pt="2504251632" pp="3" ppth="Würzburg Hbf|Ansbach|Treuchtlingen|Donauwörth|Augsburg Hbf|München-Pasing|München Hbf|Tutzing|Weilheim(Oberbay)|Murnau|Garmisch-Partenkirchen|Mittenwald|Seefeld in Tirol|Innsbruck Hbf"/>
+	</s>
+	<s id="5826915489895679494-2504251317-6">
+		<tl f="F" t="p" o="80" c="ICE" n="2538"/>
+		<ar pt="2504251655" pp="6" ppth="Baden-Baden|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Aschaffenburg Hbf"/>
+		<dp pt="2504251657" pp="6" ppth="Eisenach Hbf|Erfurt Hbf|Leipzig Hbf|Lutherstadt Wittenberg Hbf|Berlin Südkreuz|Berlin Hbf|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="-3618870681745488411-2504251424-3">
+		<tl f="F" t="p" o="80" c="ICE" n="1653"/>
+		<ar pt="2504251613" pp="7" ppth="Frankfurt(Main)Hbf|Aschaffenburg Hbf"/>
+		<dp pt="2504251615" pp="7" ppth="Bad Hersfeld|Eisenach Hbf|Gotha|Erfurt Hbf|Leipzig Hbf|Riesa|Dresden-Neustadt|Dresden Hbf"/>
+	</s>
+	<s id="552403387556789715-2504251323-35">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="24827"/>
+		<ar pt="2504251646" pp="38" l="RB45" ppth="Limburg(Lahn)|Eschhofen|Kerkerbach|Runkel|Villmar|Arfurt(Lahn)|Aumenau|Fürfurt|Gräveneck|Weilburg|Löhnberg|Stockhausen(Lahn)|Leun/Braunfels|Solms|Albshausen|Wetzlar|Dutenhofen(Wetzlar)|Gießen|Gießen Licher Str|Großen Buseck|Reiskirchen(Kr Gi)|Grünberg(Oberhess)|Lehnheim|Mücke(Hess)|Nieder-Ohmen|Burg-u. Nieder Gemünden|Ehringshausen(Oberhess)|Zell-Romrod|Alsfeld(Oberhess)|Lauterbach(Hess)Nord|Angersbach|Bad Salzschlirf|Großenlüder|Oberbimbach"/>
+	</s>
+</timetable>
