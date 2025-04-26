@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin-Spandau">
+	<s id="-2450694951068715892-2504260400-7">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62048"/>
+		<ar pt="2504260423" pp="5" l="8" ppth="Nauen|Brieselang|Finkenkrug|Falkensee|Seegefeld|Albrechtshof"/>
+	</s>
+	<s id="5420612460041529580-2504260431-1">
+		<tl f="F" t="p" o="80" c="ICE" n="646"/>
+		<dp pt="2504260441" pp="3" tra="-6351662991842213824-2504260431-2" ppth="Wolfsburg Hbf|Hannover Hbf|Minden(Westf)|Herford|Bielefeld Hbf|Hamm(Westf)Hbf|Dortmund Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Flughafen|Düsseldorf Hbf"/>
+	</s>
+	<s id="-6351662991842213824-2504260431-2">
+		<tl f="F" t="p" o="80" c="IC" n="646"/>
+		<ar pt="2504260439" pp="3" hi="1" tra="5420612460041529580-2504260431-1" ppth="Berlin Hbf"/>
+	</s>
+	<s id="4643047070553497889-2504260434-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62001"/>
+		<dp pt="2504260434" pp="4" l="8" ppth="Albrechtshof|Seegefeld|Falkensee|Finkenkrug|Brieselang|Nauen|Paulinenaue|Friesack(Mark)|Neustadt(Dosse)|Breddin|Glöwen|Bad Wilsnack|Wittenberge|Karstädt|Grabow(Meckl)|Ludwigslust|Lüblow(Meckl)|Rastow|Sülstorf|Holthusen|Schwerin Süd|Schwerin Mitte|Schwerin Hbf"/>
+	</s>
+</timetable>
