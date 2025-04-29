@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<timetable station="Wolfsburg Hbf">
+	<s id="-4895514507913038239-2504292214-1">
+		<tl t="p" o="R0" c="ENO" n="83534"/>
+		<dp pt="2504292214" pp="4" l="RE30" ppth="Fallersleben|Calberlah|Gifhorn|Leiferde(b Gifhorn)|Meinersen|Dedenhausen|Dollbergen|Immensen-Arpke|Lehrte|Hannover Hbf"/>
+	</s>
+	<s id="-39011125139256000-2504292204-1">
+		<tl t="p" o="R0" c="Bus" n="2584"/>
+		<dp pt="2504292204" pp="" l="EV" ppth="Fallersleben"/>
+	</s>
+	<s id="4447890004106418758-2504291851-11">
+		<tl f="F" t="p" o="80" c="ICE" n="645"/>
+		<ar pt="2504292202" pp="5" ppth="Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Bielefeld Hbf|Minden(Westf)|Hannover Hbf"/>
+		<dp pt="2504292203" pp="5" ppth="Berlin-Spandau|Berlin Zoologischer Garten|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="-4601217447578394251-2504292243-2">
+		<tl t="p" o="R0" c="Bus" n="2585"/>
+		<ar pt="2504292254" pp="" l="EV" ppth="Fallersleben"/>
+	</s>
+	<s id="2121877044531283563-2504292113-6">
+		<tl f="F" t="p" o="80" c="ICE" n="840"/>
+		<ar pt="2504292247" pp="1" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Spandau|Stendal Hbf"/>
+		<dp pt="2504292248" pp="1" ppth="Hannover Hbf"/>
+	</s>
+	<s id="2869769973922245820-2504292032-6">
+		<tl f="F" t="p" o="80" c="ICE" n="540"/>
+		<ar pt="2504292207" pp="1" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Spandau|Stendal Hbf"/>
+		<dp pt="2504292208" pp="1" ppth="Hannover Hbf"/>
+	</s>
+	<s id="7557927196995716311-2504292130-14">
+		<tl t="p" o="RSMD" c="SMD" n="80382"/>
+		<ar pt="2504292244" pp="9" l="RB36" ppth="Magdeburg Hbf|Magdeburg-Neustadt|Magdeburg-Eichenweiler|Barleben|Meitzendorf|Groß Ammensleben|Vahldorf|Haldensleben|Flechtingen|Wegenstedt|Rätzlingen|Bösdorf(Sachs-Anh)|Oebisfelde"/>
+	</s>
+	<s id="1284421182583611192-2504292147-11">
+		<tl t="p" o="R0" c="ENO" n="83535"/>
+		<ar pt="2504292243" pp="4" l="RE30" ppth="Hannover Hbf|Lehrte|Immensen-Arpke|Dollbergen|Dedenhausen|Meinersen|Leiferde(b Gifhorn)|Gifhorn|Calberlah|Fallersleben"/>
+	</s>
+	<s id="-4947827194116587130-2504292223-1">
+		<tl t="p" o="RSMD" c="SMD" n="80383"/>
+		<dp pt="2504292223" pp="9" l="RB36" ppth="Oebisfelde|Bösdorf(Sachs-Anh)|Rätzlingen|Wegenstedt|Flechtingen|Haldensleben|Vahldorf|Groß Ammensleben|Meitzendorf|Barleben|Magdeburg-Eichenweiler|Magdeburg-Neustadt|Magdeburg Hbf"/>
+	</s>
+</timetable>
