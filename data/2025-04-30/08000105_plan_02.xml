@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="Frankfurt(Main)Hbf">
+	<s id="7108274583246193747-2504292151-7">
+		<tl f="F" t="p" o="80" c="ICE" n="698"/>
+		<ar pt="2504300226" pp="8" ppth="München Hbf|Augsburg Hbf|Günzburg|Ulm Hbf|Stuttgart Hbf|Mannheim Hbf"/>
+		<dp pt="2504300235" pp="8" ppth="Würzburg Hbf|Erfurt Hbf|Weimar|Naumburg(Saale)Hbf|Halle(Saale)Hbf|Bitterfeld|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="-7138074359361066746-2504291800-13">
+		<tl f="F" t="p" o="80" c="ICE" n="699"/>
+		<ar pt="2504300211" pp="8" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Bitterfeld|Leipzig Hbf|Erfurt Hbf|Würzburg Hbf|Aschaffenburg Hbf"/>
+		<dp pt="2504300225" pp="8" ppth="Frankfurt(M) Flughafen Fernbf|Mannheim Hbf|Stuttgart Hbf|Ulm Hbf|Günzburg|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="7582314568044505717-2504292015-7">
+		<tl f="F" t="p" o="NZ" c="IC" n="60403"/>
+		<ar pt="2504300221" pp="19" ppth="Amsterdam Centraal|Utrecht Centraal|Eindhoven Centraal|Köln Hbf|Bonn-Beuel|Koblenz Hbf"/>
+		<dp pt="2504300245" pp="19" ppth="Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-5851721557238592488-2504292015-7">
+		<tl t="p" o="84" c="NJ" n="403"/>
+		<ar pt="2504300221" pp="19" hi="1" wings="7582314568044505717-2504292015" ppth="Amsterdam Centraal|Utrecht Centraal|Eindhoven Centraal|Köln Hbf|Bonn-Beuel|Koblenz Hbf"/>
+		<dp pt="2504300245" pp="19" hi="1" wings="7582314568044505717-2504292015" ppth="Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-4157699638141294426-2504300230-5">
+		<tl f="S" t="p" o="800528" c="S" n="36799"/>
+		<ar pt="2504300244" pp="22" l="9" ppth="Frankfurt(M) Flughafen Regionalbf|Frankfurt(Main)-Gateway Gardens|Frankfurt am Main - Stadion|Frankfurt-Niederrad"/>
+	</s>
+	<s id="5423242052115687736-2504300217-1">
+		<tl f="S" t="p" o="800528" c="S" n="36790"/>
+		<dp pt="2504300217" pp="20" l="8" ppth="Frankfurt-Niederrad|Frankfurt am Main - Stadion|Frankfurt(Main)-Gateway Gardens|Frankfurt(M) Flughafen Regionalbf"/>
+	</s>
+</timetable>
