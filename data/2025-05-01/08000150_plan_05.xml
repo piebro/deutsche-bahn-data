@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Hanau Hbf">
+	<s id="-713855592034264679-2505010530-1">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="28606"/>
+		<dp pt="2505010530" pp="101" l="RB58" ppth="Hanau West|Hanau-Wilhelmsbad|Maintal Ost|Maintal West|Frankfurt-Mainkur|Frankfurt(Main)Ost|Frankfurt(Main)Süd|Frankfurt(M) Flughafen Fernbf|Raunheim|Rüsselsheim"/>
+	</s>
+	<s id="-5453835309889600672-2505010450-9">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="28601"/>
+		<ar pt="2505010519" pp="101" l="RB58" ppth="Frankfurt(Main)Hbf|Frankfurt(Main)Süd|Frankfurt(Main)Ost|Frankfurt-Mainkur|Maintal West|Maintal Ost|Hanau-Wilhelmsbad|Hanau West"/>
+	</s>
+	<s id="5255152757081711594-2505010519-4">
+		<tl f="N" t="p" o="8005KG" c="RE" n="4500"/>
+		<ar pt="2505010539" pp="5" l="50" ppth="Frankfurt(Main)Hbf|Frankfurt(Main)Süd|Offenbach(Main)Hbf"/>
+	</s>
+	<s id="6665127611958008200-2505010555-1">
+		<tl f="N" t="p" o="8005KG" c="RB" n="15537"/>
+		<dp pt="2505010555" pp="5" l="51" ppth="Offenbach(Main)Hbf|Frankfurt(Main)Süd|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-9209401792619189089-2505010502-1">
+		<tl f="N" t="p" o="8005KG" c="RE" n="4501"/>
+		<dp pt="2505010502" pp="7" l="50" ppth="Offenbach(Main)Hbf|Frankfurt(Main)Süd|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="7130605216857004791-2505010321-7">
+		<tl f="F" t="p" o="80" c="ICE" n="827"/>
+		<ar pt="2505010508" pp="103" ppth="Köln Hbf|Siegburg/Bonn|Montabaur|Limburg Süd|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf"/>
+		<dp pt="2505010510" pp="103" ppth="Aschaffenburg Hbf|Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf|München Hbf"/>
+	</s>
+	<s id="-1220238936954175649-2505010536-7">
+		<tl f="N" t="p" o="800772" c="RE" n="4644"/>
+		<ar pt="2505010558" pp="102" l="54" ppth="Aschaffenburg Hbf|Kleinostheim|Dettingen(Main)|Kahl(Main)|Großkrotzenburg|Großauheim(Kr Hanau)"/>
+		<dp pt="2505010603" pp="102" l="54" ppth="Hanau West|Hanau-Wilhelmsbad|Maintal Ost|Maintal West|Frankfurt-Mainkur|Frankfurt(Main)Ost|Frankfurt(Main)Süd|Frankfurt(Main)Hbf"/>
+	</s>
+</timetable>
