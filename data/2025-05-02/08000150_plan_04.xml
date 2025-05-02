@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="Hanau Hbf">
+	<s id="2446164127141487212-2505020404-1">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="28600"/>
+		<dp pt="2505020404" pp="6" l="RB58" ppth="Hanau West|Hanau-Wilhelmsbad|Maintal Ost|Maintal West|Frankfurt-Mainkur|Frankfurt(Main)Ost|Frankfurt(Main)Süd|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-521217330813819261-2505012152-10">
+		<tl t="p" o="81" c="NJ" n="471"/>
+		<ar pt="2505020408" pp="102" hi="1" wings="5489382238418385337-2505012152" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Verden(Aller)|Nienburg(Weser)|Hannover Hbf|Göttingen"/>
+		<dp pt="2505020410" pp="102" hi="1" wings="5489382238418385337-2505012152" ppth="Frankfurt(Main)Süd|Darmstadt Hbf|Heidelberg Hbf|Karlsruhe Hbf|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="448956048228241523-2505020428-8">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="28602"/>
+		<ar pt="2505020452" pp="102" l="RB58" ppth="Aschaffenburg Hbf|Kleinostheim|Rückersbacher Schlucht|Dettingen(Main)|Kahl(Main)|Großkrotzenburg|Großauheim(Kr Hanau)"/>
+		<dp pt="2505020453" pp="102" l="RB58" ppth="Hanau West|Hanau-Wilhelmsbad|Maintal Ost|Maintal West|Frankfurt-Mainkur|Frankfurt(Main)Ost|Frankfurt(Main)Süd|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-4056496698483670978-2505020422-1">
+		<tl f="D" t="p" o="K4RE" c="HLB" n="28680"/>
+		<dp pt="2505020422" pp="106" l="RE59" ppth="Maintal Ost|Frankfurt(Main)Ost|Frankfurt(Main)Süd|Frankfurt(M) Flughafen Regionalbf"/>
+	</s>
+	<s id="5489382238418385337-2505012152-10">
+		<tl f="F" t="p" o="NZ" c="IC" n="60471"/>
+		<ar pt="2505020408" pp="102" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Verden(Aller)|Nienburg(Weser)|Hannover Hbf|Göttingen"/>
+		<dp pt="2505020410" pp="102" ppth="Frankfurt(Main)Süd|Darmstadt Hbf|Heidelberg Hbf|Karlsruhe Hbf|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="6289938859164500858-2505020440-4">
+		<tl f="N" t="p" o="8005KG" c="RB" n="15500"/>
+		<ar pt="2505020459" pp="7" l="51" ppth="Frankfurt(Main)Hbf|Frankfurt(Main)Süd|Offenbach(Main)Hbf"/>
+		<dp pt="2505020500" pp="7" l="51" ppth="Wolfgang(Kr Hanau)|Rodenbach(b Hanau)|Langenselbold|Niedermittlau|Hailer-Meerholz|Gelnhausen|Haitz-Höchst|Wirtheim|Wächtersbach"/>
+	</s>
+</timetable>
