@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<timetable station="Oldenburg(Oldb)Hbf">
+	<s id="7632093703333864308-2505031400-3">
+		<tl t="p" o="NWBus" c="Bus" n="53366"/>
+		<ar pt="2505031433" pp="" l="EV" ppth="Hude|Wüsting"/>
+	</s>
+	<s id="-8145244906437443119-2505031423-1">
+		<tl t="p" o="NWBus" c="Bus" n="53371"/>
+		<dp pt="2505031423" pp="" l="EV" ppth="Wüsting|Hude"/>
+	</s>
+	<s id="-2220042801339115541-2505031411-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="81775"/>
+		<dp pt="2505031411" pp="5" l="RS3" ppth="Rastede|Jaderberg|Varel(Oldb)|Sande|Wilhelmshaven"/>
+	</s>
+	<s id="-5067077136997775392-2505031424-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="81774"/>
+		<dp pt="2505031424" pp="6" l="RS3" ppth="Oldenburg-Wechloy|Bad Zwischenahn"/>
+	</s>
+	<s id="4422725869027106366-2505031405-1">
+		<tl t="p" o="NWBus" c="Bus" n="6370"/>
+		<dp pt="2505031405" pp="" l="EV" ppth="Sandkrug"/>
+	</s>
+	<s id="-391557325291169923-2505031445-3">
+		<tl f="D" t="p" o="N1" c="NWB" n="81270"/>
+		<ar pt="2505031457" pp="3" l="RS30" ppth="Bad Zwischenahn|Oldenburg-Wechloy"/>
+	</s>
+	<s id="-2323749378635075229-2505031429-2">
+		<tl t="p" o="NWBus" c="Bus" n="6367"/>
+		<ar pt="2505031451" pp="" l="EV" ppth="Sandkrug"/>
+	</s>
+	<s id="-5082181950917364654-2505031436-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="20163"/>
+		<dp pt="2505031436" pp="5" l="RE18" ppth="Rastede|Jaderberg|Varel(Oldb)|Sande|Wilhelmshaven"/>
+	</s>
+	<s id="-4404449855523482481-2505031440-1">
+		<tl t="p" o="NWBus" c="Bus" n="53335"/>
+		<dp pt="2505031440" pp="" l="EV" ppth="Hude"/>
+	</s>
+	<s id="-2206427995391108893-2505031403-1">
+		<tl t="p" o="B1" c="Bus" n="44231"/>
+		<dp pt="2505031403" pp="" l="RE1" ppth="Hude"/>
+	</s>
+	<s id="-3233715329749154150-2505031403-1">
+		<tl f="N" t="p" o="800295" c="RE" n="55964"/>
+		<dp pt="2505031403" pp="6" l="1" ppth="Bad Zwischenahn|Westerstede-Ocholt|Augustfehn|Leer(Ostfriesl)|Emden Hbf|Marienhafe|Norden|Norddeich|Norddeich Mole"/>
+	</s>
+	<s id="2339384032483070575-2505031347-2">
+		<tl t="p" o="NWBus" c="Bus" n="53330"/>
+		<ar pt="2505031416" pp="" l="EV" ppth="Hude"/>
+	</s>
+	<s id="-1587518685269908945-2505031347-5">
+		<tl f="D" t="p" o="N1" c="NWB" n="20174"/>
+		<ar pt="2505031424" pp="" l="RE18" pde="Esens(Ostfriesl)" ppth="Sande|Varel(Oldb)|Jaderberg|Rastede"/>
+	</s>
+</timetable>
