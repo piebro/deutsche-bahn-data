@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<timetable station="Oldenburg(Oldb)Hbf">
+	<s id="1340024229655918830-2505032100-3">
+		<tl t="p" o="NWBus" c="Bus" n="53380"/>
+		<ar pt="2505032133" pp="" l="EV" ppth="Hude|Wüsting"/>
+	</s>
+	<s id="829275977668762710-2505032138-1">
+		<tl t="p" o="NWBus" c="Bus" n="53385"/>
+		<dp pt="2505032138" pp="" l="EV" ppth="Wüsting|Hude"/>
+	</s>
+	<s id="2714890087868745503-2505032047-2">
+		<tl t="p" o="NWBus" c="Bus" n="53344"/>
+		<ar pt="2505032116" pp="" l="EV" ppth="Hude"/>
+	</s>
+	<s id="6478612148658577219-2505032105-1">
+		<tl t="p" o="NWBus" c="Bus" n="6384"/>
+		<dp pt="2505032105" pp="" l="EV" ppth="Sandkrug"/>
+	</s>
+	<s id="8378766189464930199-2505032136-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="20395"/>
+		<dp pt="2505032136" pp="5" l="RE18" ppth="Rastede|Jaderberg|Varel(Oldb)|Sande|Wilhelmshaven"/>
+	</s>
+	<s id="-3718896656919658150-2505032009-10">
+		<tl f="N" t="p" o="800295" c="RE" n="55993"/>
+		<ar pt="2505032153" pp="" l="1" ppth="Norddeich Mole|Norddeich|Norden|Marienhafe|Emden Hbf|Leer(Ostfriesl)|Augustfehn|Westerstede-Ocholt|Bad Zwischenahn"/>
+	</s>
+	<s id="-1829898374844972002-2505032129-2">
+		<tl t="p" o="NWBus" c="Bus" n="6381"/>
+		<ar pt="2505032151" pp="" l="EV" ppth="Sandkrug"/>
+	</s>
+	<s id="-1789892874948025171-2505032016-6">
+		<tl f="F" t="p" o="80" c="IC" n="2439"/>
+		<ar pt="2505032123" pp="1" wings="-6456236842039559522-2505032016" ppth="Emden Hbf|Leer(Ostfriesl)|Augustfehn|Westerstede-Ocholt|Bad Zwischenahn"/>
+	</s>
+	<s id="8200914485847354532-2505032040-6">
+		<tl f="D" t="p" o="N1" c="NWB" n="20996"/>
+		<ar pt="2505032124" pp="" l="RE18" ppth="Wilhelmshaven|Sande|Varel(Oldb)|Jaderberg|Rastede"/>
+	</s>
+	<s id="-6456236842039559522-2505032016-6">
+		<tl f="N" t="p" o="NZ" c="RE" n="52439"/>
+		<ar pt="2505032123" pp="1" l="56" ppth="Emden Hbf|Leer(Ostfriesl)|Augustfehn|Westerstede-Ocholt|Bad Zwischenahn"/>
+	</s>
+	<s id="-1123043794331736302-2505032145-3">
+		<tl f="D" t="p" o="N1" c="NWB" n="81761"/>
+		<ar pt="2505032157" pp="3" l="RS30" ppth="Bad Zwischenahn|Oldenburg-Wechloy"/>
+	</s>
+	<s id="1795060370661492720-2505032121-2">
+		<tl t="p" o="B1" c="Bus" n="44301"/>
+		<ar pt="2505032151" pp="" l="RE1" ppth="Hude"/>
+	</s>
+	<s id="2398473429047658269-2505032124-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="81849"/>
+		<dp pt="2505032124" pp="6" l="RS3" ppth="Oldenburg-Wechloy|Bad Zwischenahn"/>
+	</s>
+</timetable>
