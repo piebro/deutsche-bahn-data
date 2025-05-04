@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<timetable station="Oldenburg(Oldb)Hbf">
+	<s id="-1491077561497992764-2505032345-3">
+		<tl f="D" t="p" o="N1" c="NWB" n="83389"/>
+		<ar pt="2505032357" pp="3" l="RS3" ppth="Bad Zwischenahn|Oldenburg-Wechloy"/>
+		<dp pt="2505040005" pp="3" l="RS3" ppth="Wüsting|Hude|Bookholzberg|Schierbrok|Hoykenkamp|Delmenhorst|Heidkrug|Bremen Neustadt|Bremen Hbf"/>
+	</s>
+	<s id="5481643690907402247-2505040029-2">
+		<tl t="p" o="NWBus" c="Bus" n="6387"/>
+		<ar pt="2505040051" pp="" l="EV" ppth="Sandkrug"/>
+	</s>
+	<s id="-2287416759143185906-2505040004-1">
+		<tl t="p" o="NWBus" c="Bus" n="6388"/>
+		<dp pt="2505040004" pp="" l="EV" ppth="Sandkrug|Huntlosen|Großenkneten|Ahlhorn|Cloppenburg"/>
+	</s>
+	<s id="192383409843110441-2505040038-1">
+		<tl t="p" o="NWBus" c="Bus" n="53391"/>
+		<dp pt="2505040038" pp="" l="EV" ppth="Wüsting|Hude"/>
+	</s>
+	<s id="1944480056571612785-2505032343-3">
+		<tl t="p" o="NWBus" c="Bus" n="53386"/>
+		<ar pt="2505040016" pp="" l="EV" ppth="Hude|Wüsting"/>
+	</s>
+</timetable>

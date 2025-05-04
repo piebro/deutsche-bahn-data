@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="Erfurt Hbf">
+	<s id="-404265089816561397-2505040246-1">
+		<tl f="N" t="p" o="SB" c="RB" n="81185"/>
+		<dp pt="2505040246" pp="8a" l="46" ppth="Erfurt-Bischleben|Neudietendorf|Sülzenbrücken|Haarhausen|Arnstadt Hbf|Arnstadt Süd|Plaue(Thür)|Geraberg|Elgersburg|Ilmenau-Roda|Ilmenau Pörlitzer Höhe|Ilmenau"/>
+	</s>
+	<s id="2484959947726432198-2505032342-4">
+		<tl f="F" t="p" o="80" c="EC" n="459"/>
+		<ar pt="2505040244" pp="10" hi="1" wings="5763527940252399800-2505032342" ppth="Mannheim Hbf|Frankfurt(Main)Süd|Fulda"/>
+		<dp pt="2505040246" pp="10" wings="5763527940252399800-2505032342" ppth="Leipzig Hbf|Riesa|Dresden-Neustadt|Dresden Hbf|Bad Schandau|Decin hl.n.|Usti nad Labem hl.n.|Praha-Holesovice|Praha hl.n."/>
+	</s>
+	<s id="-7178501572266148634-2505040141-7">
+		<tl f="N" t="p" o="EB" c="RB" n="80918"/>
+		<ar pt="2505040221" pp="8" l="21" ppth="Jena-Göschwitz|Jena West|Großschwabhausen|Mellingen(Thür)|Oberweimar|Weimar"/>
+	</s>
+	<s id="5763527940252399800-2505032342-4">
+		<tl f="F" t="p" o="81" c="EN" n="40459"/>
+		<ar pt="2505040244" pp="10" hi="1" ppth="Mannheim Hbf|Frankfurt(Main)Süd|Fulda"/>
+		<dp pt="2505040246" pp="10" hi="1" ppth="Leipzig Hbf|Riesa|Dresden-Neustadt|Dresden Hbf|Bad Schandau|Decin hl.n.|Usti nad Labem hl.n.|Praha-Holesovice|Praha hl.n."/>
+	</s>
+	<s id="1811207988841492172-2505032342-4">
+		<tl t="p" o="81" c="NJ" n="409"/>
+		<ar pt="2505040244" pp="10" hi="1" wings="8523006378069772349-2505032342" ppth="Mannheim Hbf|Frankfurt(Main)Süd|Fulda"/>
+		<dp pt="2505040246" pp="10" hi="1" wings="8523006378069772349-2505032342" ppth="Leipzig Hbf|Halle(Saale)Hbf|Bitterfeld|Lutherstadt Wittenberg Hbf|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="8523006378069772349-2505032342-4">
+		<tl f="F" t="p" o="NZ" c="IC" n="60409"/>
+		<ar pt="2505040244" pp="10" ppth="Mannheim Hbf|Frankfurt(Main)Süd|Fulda"/>
+		<dp pt="2505040246" pp="10" ppth="Leipzig Hbf|Halle(Saale)Hbf|Bitterfeld|Lutherstadt Wittenberg Hbf|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+</timetable>
