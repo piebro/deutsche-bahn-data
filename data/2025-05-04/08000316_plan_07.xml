@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<timetable station="Rheine">
+	<s id="-1694396716822918716-2505040748-1">
+		<tl f="N" t="p" o="R2RB" c="RB" n="20354"/>
+		<dp pt="2505040748" pp="2" l="61" ppth="Salzbergen|Schüttorf|Bad Bentheim|Oldenzaal|Hengelo"/>
+	</s>
+	<s id="-9027499952765049801-2505040753-1">
+		<tl f="N" t="p" o="R2RB" c="RB" n="52313"/>
+		<dp pt="2505040753" pp="5" l="65" ppth="Rheine-Mesum|Emsdetten|Reckenfeld|Greven|Münster-Sprakel|Münster(W)Zentrum Nord|Münster(Westf)Hbf"/>
+	</s>
+	<s id="4753870957390372842-2505032053-6">
+		<tl f="F" t="p" o="NZ" c="IC" n="60402"/>
+		<ar pt="2505040727" pp="8" ppth="Zürich HB|Mannheim Hbf|Mainz Hbf|Bonn-Beuel|Köln Messe/Deutz Gl.11-12"/>
+		<dp pt="2505040729" pp="8" ppth="Deventer|Amersfoort Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="-4108887003217745037-2505040702-7">
+		<tl f="D" t="p" o="W3" c="WFB" n="90270"/>
+		<ar pt="2505040732" pp="4" l="RE15" ppth="Münster(Westf)Hbf|Münster(W)Zentrum Nord|Greven|Reckenfeld|Emsdetten|Rheine-Mesum"/>
+		<dp pt="2505040733" pp="4" l="RE15" pde="Emden Außenhafen" ppth="Salzbergen|Leschede|Lingen(Ems)|Geeste|Meppen|Haren(Ems)|Lathen|Dörpen|Aschendorf|Papenburg(Ems)|Leer(Ostfriesl)|Emden Hbf"/>
+	</s>
+	<s id="-1634004309638327536-2505040556-4">
+		<tl f="F" t="p" o="80" c="IC" n="242"/>
+		<ar pt="2505040733" pp="3" ppth="Hannover Hbf|Bünde(Westf)|Osnabrück Hbf"/>
+		<dp pt="2505040736" pp="3" ppth="Bad Bentheim|Hengelo|Deventer|Apeldoorn|Amersfoort Centraal|Hilversum|Amsterdam Centraal"/>
+	</s>
+	<s id="-3174926814805011225-2505040646-7">
+		<tl f="D" t="p" o="W3" c="WFB" n="95770"/>
+		<ar pt="2505040722" pp="2" l="RE60" ppth="Osnabrück Hbf|Osnabrück Altstadt|Ibbenbüren-Laggenbeck|Ibbenbüren|Ibbenbüren-Esch|Hörstel"/>
+	</s>
+	<s id="8868050453695511606-2505032053-6">
+		<tl t="p" o="85" c="NJ" n="402"/>
+		<ar pt="2505040727" pp="3" ppth="Zürich HB|Mannheim Hbf|Mainz Hbf|Bonn-Beuel|Köln Messe/Deutz Gl.11-12"/>
+		<dp pt="2505040729" pp="3" hi="1" ppth="Deventer|Amersfoort Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="2579417710945611052-2505040650-6">
+		<tl f="D" t="p" o="W3" c="WFB" n="90269"/>
+		<ar pt="2505040727" pp="5" l="RE15" ppth="Meppen|Geeste|Lingen(Ems)|Leschede|Salzbergen"/>
+		<dp pt="2505040729" pp="5" l="RE15" ppth="Emsdetten|Greven|Münster(Westf)Hbf"/>
+	</s>
+</timetable>
