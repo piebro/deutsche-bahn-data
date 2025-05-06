@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<timetable station="Gelsenkirchen Hbf">
+	<s id="-2238166171655545371-2505060156-4">
+		<tl f="S" t="p" o="8003L1" c="S" n="30202"/>
+		<ar pt="2505060206" pp="7" l="2" ppth="Essen Hbf|Essen-Kray Nord|Gelsenkirchen-Rotthausen"/>
+		<dp pt="2505060207" pp="7" l="2" ppth="Wanne-Eickel Hbf|Herne|Castrop-Rauxel Hbf|Dortmund-Mengede|Dortmund-Nette/Oestrich|Dortmund-Westerfilde|Dortmund-Huckarde|Dortmund-Wischlingen|Dortmund-Dorstfeld|Dortmund Hbf"/>
+	</s>
+	<s id="4584806807655155350-2505060217-11">
+		<tl f="S" t="p" o="8003L1" c="S" n="30205"/>
+		<ar pt="2505060253" pp="4" l="2" ppth="Dortmund Hbf|Dortmund-Dorstfeld|Dortmund-Wischlingen|Dortmund-Huckarde|Dortmund-Westerfilde|Dortmund-Nette/Oestrich|Dortmund-Mengede|Castrop-Rauxel Hbf|Herne|Wanne-Eickel Hbf"/>
+		<dp pt="2505060254" pp="4" l="2" ppth="Gelsenkirchen-Rotthausen|Essen-Kray Nord|Essen Hbf"/>
+	</s>
+	<s id="1967019562913876929-2505060221-1">
+		<tl t="p" o="B2" c="Bus" n="3217"/>
+		<dp pt="2505060221" pp="" l="RB32" ppth="Essen-Zollverein Nord|Essen-Altenessen|Essen-Bergeborbeck|Essen-Dellwig|Oberhausen Hbf|Duisburg Hbf"/>
+	</s>
+	<s id="2072136365630211169-2505060044-7">
+		<tl t="p" o="B2" c="Bus" n="3232"/>
+		<ar pt="2505060207" pp="" l="RB32" ppth="Duisburg Hbf|Oberhausen Hbf|Essen-Dellwig|Essen-Bergeborbeck|Essen-Altenessen|Essen-Zollverein Nord"/>
+		<dp pt="2505060207" pp="" l="RB32" ppth="Wanne-Eickel Hbf"/>
+	</s>
+</timetable>
