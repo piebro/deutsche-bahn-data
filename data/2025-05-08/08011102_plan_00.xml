@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Gesundbrunnen">
+	<s id="4824401641905319986-2505080052-1">
+		<tl f="N" t="p" o="800158" c="RE" n="91365"/>
+		<dp pt="2505080052" pp="6" l="4" pde="Rathenow" ppth="Berlin Jungfernheide"/>
+	</s>
+	<s id="2660799683395160059-2505072245-2">
+		<tl f="N" t="p" o="800158" c="RE" n="90182"/>
+		<ar pt="2505080006" pp="" l="4" pde="Stendal Hbf" ppth="Berlin Jungfernheide"/>
+	</s>
+	<s id="-7260953034263185039-2505072009-10">
+		<tl f="F" t="p" o="80" c="ICE" n="790"/>
+		<ar pt="2505080054" pp="8" ppth="Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Süd|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Messe/Laatzen|Wolfsburg Hbf|Stendal Hbf|Berlin-Spandau"/>
+	</s>
+	<s id="-7265364076564664702-2505071955-7">
+		<tl f="F" t="p" o="80" c="ICE" n="1018"/>
+		<ar pt="2505080025" pp="10" ppth="München Hbf|Nürnberg Hbf|Erfurt Hbf|Leipzig Hbf|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="-4713259397532046404-2505072328-3">
+		<tl t="p" o="800165" c="FEX" n="19876"/>
+		<ar pt="2505080005" pp="7" pde="Rangsdorf" ppth="Flughafen BER|Berlin-Lichtenberg"/>
+		<dp pt="2505080006" pp="7" ppth="Berlin Hbf"/>
+	</s>
+</timetable>
