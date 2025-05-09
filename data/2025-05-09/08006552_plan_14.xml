@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<timetable station="Wolfsburg Hbf">
+	<s id="8054547070521763430-2505090559-21">
+		<tl f="F" t="p" o="85" c="ICE" n="372"/>
+		<ar pt="2505091418" pp="5" ppth="Interlaken Ost|Interlaken West|Spiez|Thun|Bern|Olten|Liestal|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Hanau Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hildesheim Hbf|Braunschweig Hbf"/>
+		<dp pt="2505091419" pp="5" ppth="Berlin-Spandau|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="211585818996437737-2505091051-11">
+		<tl f="F" t="p" o="80" c="ICE" n="547"/>
+		<ar pt="2505091402" pp="5" ppth="Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Bielefeld Hbf|Minden(Westf)|Hannover Hbf"/>
+		<dp pt="2505091403" pp="5" ppth="Berlin-Spandau|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="896906900836473456-2505091328-14">
+		<tl t="p" o="RSMD" c="SMD" n="80362"/>
+		<ar pt="2505091444" pp="9" l="RB36" ppth="Magdeburg Hbf|Magdeburg-Neustadt|Magdeburg-Eichenweiler|Barleben|Meitzendorf|Groß Ammensleben|Vahldorf|Haldensleben|Flechtingen|Wegenstedt|Rätzlingen|Bösdorf(Sachs-Anh)|Oebisfelde"/>
+	</s>
+	<s id="-5047123384798654324-2505091332-4">
+		<tl f="F" t="p" o="80" c="ICE" n="858"/>
+		<ar pt="2505091452" pp="1" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin-Spandau"/>
+		<dp pt="2505091453" pp="1" ppth="Hannover Hbf|Hamm(Westf)Hbf|Hagen Hbf|Wuppertal Hbf|Köln Hbf"/>
+	</s>
+	<s id="-8454170383214874348-2505091408-11">
+		<tl t="p" o="R0" c="ENO" n="83597"/>
+		<ar pt="2505091459" pp="8" l="RE30" ppth="Hannover Hbf|Lehrte|Immensen-Arpke|Dollbergen|Dedenhausen|Meinersen|Leiferde(b Gifhorn)|Gifhorn|Calberlah|Fallersleben"/>
+	</s>
+	<s id="5868363889496507967-2505091332-4">
+		<tl f="F" t="p" o="80" c="ICE" n="848"/>
+		<ar pt="2505091452" pp="1" wings="-5047123384798654324-2505091332" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin-Spandau"/>
+		<dp pt="2505091453" pp="1" wings="-5047123384798654324-2505091332" ppth="Hannover Hbf|Hamm(Westf)Hbf|Dortmund Hbf|Bochum Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Flughafen|Düsseldorf Hbf"/>
+	</s>
+	<s id="-4950120247832127018-2505091306-11">
+		<tl t="p" o="RSMD" c="SMD" n="80320"/>
+		<ar pt="2505091408" pp="9" l="RB35" ppth="Stendal Hbf|Möringen(Altm)|Vinzelberg|Uchtspringe|Jävenitz|Gardelegen|Solpke|Mieste|Miesterhorst|Oebisfelde"/>
+	</s>
+	<s id="-728658670126279120-2505091418-1">
+		<tl t="p" o="R0" c="ENO" n="83568"/>
+		<dp pt="2505091418" pp="8" l="RE50" ppth="Fallersleben|Weddel(Braunschw)|Braunschweig Hbf|Lengede-Broistedt|Woltwiesche|Hoheneggelsen|Hildesheim Hbf"/>
+	</s>
+	<s id="-1285817131277507418-2505091347-11">
+		<tl t="p" o="R0" c="ENO" n="83519"/>
+		<ar pt="2505091444" pp="4" l="RE30" ppth="Hannover Hbf|Lehrte|Immensen-Arpke|Dollbergen|Dedenhausen|Meinersen|Leiferde(b Gifhorn)|Gifhorn|Calberlah|Fallersleben"/>
+	</s>
+	<s id="75132414861520015-2505091350-8">
+		<tl t="p" o="R0" c="ENO" n="83569"/>
+		<ar pt="2505091441" pp="8" l="RE50" ppth="Hildesheim Hbf|Hoheneggelsen|Woltwiesche|Lengede-Broistedt|Braunschweig Hbf|Weddel(Braunschw)|Fallersleben"/>
+	</s>
+	<s id="-4621484548772349636-2505091450-1">
+		<tl t="p" o="RSMD" c="SMD" n="80323"/>
+		<dp pt="2505091450" pp="9" l="RB35" ppth="Oebisfelde|Miesterhorst|Mieste|Solpke|Gardelegen|Jävenitz|Uchtspringe|Vinzelberg|Möringen(Altm)|Stendal Hbf"/>
+	</s>
+	<s id="-3293102965109218731-2505091414-1">
+		<tl t="p" o="R0" c="ENO" n="83518"/>
+		<dp pt="2505091414" pp="4" l="RE30" ppth="Fallersleben|Calberlah|Gifhorn|Leiferde(b Gifhorn)|Meinersen|Dedenhausen|Dollbergen|Immensen-Arpke|Lehrte|Hannover Hbf"/>
+	</s>
+	<s id="6856026124471559920-2505091424-1">
+		<tl t="p" o="RSMD" c="SMD" n="80297"/>
+		<dp pt="2505091424" pp="9" l="RE6" pde="Aschersleben" ppth="Oebisfelde|Rätzlingen|Flechtingen|Haldensleben|Barleben|Magdeburg-Neustadt|Magdeburg Hbf"/>
+	</s>
+	<s id="-8925058069543186153-2505091308-11">
+		<tl t="p" o="R0" c="ENO" n="83595"/>
+		<ar pt="2505091411" pp="3" l="RE30" ppth="Hannover Hbf|Lehrte|Immensen-Arpke|Dollbergen|Dedenhausen|Meinersen|Leiferde(b Gifhorn)|Gifhorn|Calberlah|Fallersleben"/>
+	</s>
+</timetable>
