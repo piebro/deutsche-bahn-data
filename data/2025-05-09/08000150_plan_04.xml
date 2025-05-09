@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<timetable station="Hanau Hbf">
+	<s id="5489382238418385337-2505082152-8">
+		<tl f="F" t="p" o="NZ" c="IC" n="60471"/>
+		<ar pt="2505090414" pp="6" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Hannover Hbf|Göttingen"/>
+		<dp pt="2505090416" pp="6" ppth="Frankfurt(Main)Süd|Darmstadt Hbf|Heidelberg Hbf|Karlsruhe Hbf|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-7433442722618839393-2505090418-10">
+		<tl f="N" t="p" o="8005KG" c="RB" n="15501"/>
+		<ar pt="2505090456" pp="101" l="51" ppth="Wächtersbach|Wirtheim|Haitz-Höchst|Gelnhausen|Hailer-Meerholz|Niedermittlau|Langenselbold|Rodenbach(b Hanau)|Wolfgang(Kr Hanau)"/>
+		<dp pt="2505090456" pp="101" l="51" ppth="Offenbach(Main)Hbf|Frankfurt(Main)Süd|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="6289938859164500858-2505090440-4">
+		<tl f="N" t="p" o="8005KG" c="RB" n="15500"/>
+		<ar pt="2505090459" pp="7" l="51" ppth="Frankfurt(Main)Hbf|Frankfurt(Main)Süd|Offenbach(Main)Hbf"/>
+		<dp pt="2505090500" pp="7" l="51" ppth="Wolfgang(Kr Hanau)|Rodenbach(b Hanau)|Langenselbold|Niedermittlau|Hailer-Meerholz|Gelnhausen|Haitz-Höchst|Wirtheim|Wächtersbach"/>
+	</s>
+	<s id="-521217330813819261-2505082152-8">
+		<tl t="p" o="81" c="NJ" n="471"/>
+		<ar pt="2505090414" pp="6" hi="1" wings="5489382238418385337-2505082152" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Hannover Hbf|Göttingen"/>
+		<dp pt="2505090416" pp="6" hi="1" wings="5489382238418385337-2505082152" ppth="Frankfurt(Main)Süd|Darmstadt Hbf|Heidelberg Hbf|Karlsruhe Hbf|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="4582737323842858804-2505090415-18">
+		<tl f="S" t="p" o="800528" c="S" n="35903"/>
+		<ar pt="2505090459" pp="2" l="9" ppth="Frankfurt(M) Flughafen Regionalbf|Frankfurt(Main)-Gateway Gardens|Frankfurt am Main - Stadion|Frankfurt-Niederrad|Frankfurt Hbf (tief)|Frankfurt(M)Taunusanlage|Frankfurt(M)Hauptwache|Frankfurt(M)Konstablerwache|Frankfurt(M)Ostendstraße|Frankfurt(M)Mühlberg|Offenbach(Main) Kaiserlei|Offenbach(Main) Ledermuseum|Offenbach(Main) Marktplatz|Offenbach(Main)Ost|Mühlheim(Main)|Mühlheim(Main)-Dietesheim|Steinheim(Main)"/>
+	</s>
+	<s id="7463196883080092866-2505090330-10">
+		<tl f="S" t="p" o="800528" c="S" n="35895"/>
+		<ar pt="2505090414" pp="2" l="8" ppth="Frankfurt(M) Flughafen Regionalbf|Frankfurt(Main)-Gateway Gardens|Frankfurt am Main - Stadion|Frankfurt(Main)Süd|Offenbach(Main)Hbf|Offenbach(Main)Ost|Mühlheim(Main)|Mühlheim(Main)-Dietesheim|Steinheim(Main)"/>
+	</s>
+	<s id="-6151434078641775962-2505090356-8">
+		<tl f="D" t="p" o="K4RE" c="HLB" n="28990"/>
+		<ar pt="2505090418" pp="102" l="RE59" ppth="Aschaffenburg Hbf|Kleinostheim|Rückersbacher Schlucht|Dettingen(Main)|Kahl(Main)|Großkrotzenburg|Großauheim(Kr Hanau)"/>
+		<dp pt="2505090419" pp="102" l="RE59" ppth="Hanau West|Hanau-Wilhelmsbad|Maintal Ost|Maintal West|Frankfurt-Mainkur|Frankfurt(Main)Ost|Frankfurt(Main)Süd|Frankfurt(M) Flughafen Regionalbf"/>
+	</s>
+</timetable>

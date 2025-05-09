@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Gesundbrunnen">
+	<s id="8055140796578231506-2505082306-9">
+		<tl f="N" t="p" o="800158" c="RE" n="3361"/>
+		<ar pt="2505090021" pp="7" l="3" tra="1256161398442667162-2505082306-1" ppth="Schwedt(Oder)|Schwedt(Oder)Mitte|Pinnow(Uckermark)|Angermünde|Chorin|Britz|Eberswalde Hbf|Bernau(b Berlin)"/>
+	</s>
+	<s id="4824401641905319986-2505090052-1">
+		<tl f="N" t="p" o="800158" c="RE" n="91365"/>
+		<dp pt="2505090052" pp="6" l="4" pde="Rathenow" ppth="Berlin Jungfernheide"/>
+	</s>
+	<s id="2660799683395160059-2505082245-2">
+		<tl f="N" t="p" o="800158" c="RE" n="90182"/>
+		<ar pt="2505090006" pp="8" l="4" pde="Stendal Hbf" ppth="Berlin Jungfernheide"/>
+	</s>
+	<s id="-7265364076564664702-2505081955-7">
+		<tl f="F" t="p" o="80" c="ICE" n="1018"/>
+		<ar pt="2505090025" pp="10" ppth="München Hbf|Nürnberg Hbf|Erfurt Hbf|Leipzig Hbf|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="1256161398442667162-2505082306-1">
+		<tl f="N" t="p" o="800158" c="RE" n="91361"/>
+		<dp pt="2505090024" pp="7" l="3" tra="8055140796578231506-2505082306-9" ppth="Berlin-Lichtenberg"/>
+	</s>
+</timetable>
