@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<timetable station="Bielefeld Hbf">
+	<s id="8777802995474203009-2505100015-1">
+		<tl f="N" t="p" o="R2RB" c="RB" n="90261"/>
+		<dp pt="2505100015" pp="1" l="73" ppth="Bielefeld Ost|Oldentrup|Ubbedissen|Oerlinghausen|Helpup|Ehlenbruch|Lage(Lippe)|Hörstmar(Lippe)|Lemgo|Lemgo-Lüttfeld"/>
+	</s>
+	<s id="6656233419488757116-2505100012-1">
+		<tl f="N" t="p" o="R2RB" c="RB" n="20392"/>
+		<dp pt="2505100012" pp="3 A-C" l="61" ppth="Brake(b Bielefeld)|Herford|Hiddenhausen-Schweicheln|Kirchlengern|Bünde(Westf)|Bruchmühlen|Melle|Westerhausen|Wissingen|Osnabrück Hbf"/>
+	</s>
+	<s id="-8895734916175346822-2505100032-1">
+		<tl f="D" t="p" o="W3" c="WFB" n="89863"/>
+		<dp pt="2505100032" pp="3 C-E" l="RE70" ppth="Brake(b Bielefeld)|Herford|Löhne(Westf)|Bad Oeynhausen|Porta Westfalica|Minden(Westf)"/>
+	</s>
+	<s id="-3819562627105736116-2505100020-2">
+		<tl t="p" o="NWBus" c="Bus" n="5088"/>
+		<ar pt="2505100032" pp="" l="RB74" ppth="Bielefeld-Brackwede"/>
+	</s>
+	<s id="437165378644976508-2505092355-2">
+		<tl t="p" o="NWBus" c="Bus" n="5188"/>
+		<ar pt="2505100007" pp="" l="RB75" ppth="Bielefeld-Brackwede"/>
+	</s>
+	<s id="709788440437645733-2505100006-10">
+		<tl f="N" t="p" o="R2RB" c="RB" n="90087"/>
+		<ar pt="2505100051" pp="3 C-E" l="69" ppth="Hamm(Westf)Hbf|Hamm-Heessen|Ahlen(Westf)|Beckum-Neubeckum|Oelde|Rheda-Wiedenbrück|Gütersloh Hbf|Isselhorst-Avenwedde|Bielefeld-Brackwede"/>
+	</s>
+	<s id="9100341696430146403-2505100004-11">
+		<tl f="N" t="p" o="R2RB" c="RB" n="90262"/>
+		<ar pt="2505100045" pp="1" l="73" ppth="Lemgo-Lüttfeld|Lemgo|Hörstmar(Lippe)|Lage(Lippe)|Ehlenbruch|Helpup|Oerlinghausen|Ubbedissen|Oldentrup|Bielefeld Ost"/>
+	</s>
+	<s id="9039115513119831216-2505100030-1">
+		<tl t="p" o="NWBus" c="Bus" n="5091"/>
+		<dp pt="2505100030" pp="" l="RB74" ppth="Bielefeld-Brackwede"/>
+	</s>
+	<s id="5729393359484274537-2505100007-1">
+		<tl f="N" t="p" o="R2RB" c="RB" n="89996"/>
+		<dp pt="2505100007" pp="4" l="69" ppth="Bielefeld-Brackwede|Isselhorst-Avenwedde|Gütersloh Hbf|Rheda-Wiedenbrück|Oelde|Beckum-Neubeckum|Ahlen(Westf)|Hamm-Heessen|Hamm(Westf)Hbf"/>
+	</s>
+	<s id="-8304744246774224499-2505092234-22">
+		<tl f="N" t="p" o="R2RB" c="RB" n="20389"/>
+		<ar pt="2505100047" pp="4" l="61" ppth="Hengelo|Oldenzaal|Bad Bentheim|Schüttorf|Salzbergen|Rheine|Hörstel|Ibbenbüren-Esch|Ibbenbüren|Ibbenbüren-Laggenbeck|Osnabrück Altstadt|Osnabrück Hbf|Wissingen|Westerhausen|Melle|Bruchmühlen|Bünde(Westf)|Kirchlengern|Hiddenhausen-Schweicheln|Herford|Brake(b Bielefeld)"/>
+	</s>
+	<s id="4257212589590374082-2505092320-9">
+		<tl f="N" t="p" o="R2RB" c="RB" n="26992"/>
+		<ar pt="2505100006" pp="2" l="69" ppth="Hamm(Westf)Hbf|Hamm-Heessen|Ahlen(Westf)|Beckum-Neubeckum|Oelde|Rheda-Wiedenbrück|Gütersloh Hbf|Bielefeld-Brackwede"/>
+	</s>
+	<s id="67273429190528841-2505091814-13">
+		<tl f="F" t="p" o="80" c="IC" n="2448"/>
+		<ar pt="2505100034" pp="4" ppth="Dresden Hbf|Dresden-Neustadt|Riesa|Leipzig Hbf|Leipzig/Halle Flughafen|Halle(Saale)Hbf|Köthen|Magdeburg Hbf|Hannover Hbf|Minden(Westf)|Bad Oeynhausen|Herford"/>
+		<dp pt="2505100035" pp="4" ppth="Gütersloh Hbf|Hamm(Westf)Hbf|Dortmund Hbf"/>
+	</s>
+</timetable>
