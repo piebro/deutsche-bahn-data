@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<timetable station="Tübingen Hbf">
+	<s id="1187394900273759575-2505142015-3">
+		<tl f="N" t="p" o="800693" c="RE" n="3865"/>
+		<ar pt="2505142058" pp="2" l="6" ppth="Stuttgart Hbf|Reutlingen Hbf"/>
+		<dp pt="2505142103" pp="2" l="6" ppth="Kiebingen|Rottenburg(Neckar)"/>
+	</s>
+	<s id="8004625226321323460-2505142015-3">
+		<tl f="N" t="p" o="800693" c="RE" n="3265"/>
+		<ar pt="2505142058" pp="2" l="6" wings="1187394900273759575-2505142015" ppth="Stuttgart Hbf|Reutlingen Hbf"/>
+		<dp pt="2505142100" pp="2" l="6" ppth="Mössingen|Hechingen|Balingen(Württ)|Albstadt-Ebingen|Sigmaringen|Mengen|Herbertingen|Herbertingen Ort|Bad Saulgau|Altshausen|Aulendorf"/>
+	</s>
+	<s id="3606964217102766435-2505142018-17">
+		<tl f="D" t="p" o="S6" c="SWE" n="86278"/>
+		<ar pt="2505142128" pp="3" l="RB66" ppth="Albstadt-Ebingen|Albstadt-Ebingen West|Albstadt-Lautlingen|Albstadt-Laufen Ort|Frommern|Balingen Süd|Balingen(Württ)|Engstlatt|Bisingen|Hechingen|Bodelshausen|Bad Sebastiansweiler-Belsen|Mössingen|Nehren|Dußlingen|Tübingen-Derendingen"/>
+	</s>
+	<s id="8730867314174353663-2505142110-5">
+		<tl f="N" t="p" o="SBSRE" c="RE" n="19395"/>
+		<ar pt="2505142159" pp="2" l="6" ppth="Stuttgart Hbf|Nürtingen|Metzingen(Württ)|Reutlingen Hbf"/>
+	</s>
+	<s id="5468004188142824624-2505142139-1">
+		<tl f="N" t="p" o="8006D2" c="RB" n="22868"/>
+		<dp pt="2505142139" pp="1" l="63" ppth="Tübingen-Lustnau|Kirchentellinsfurt|Wannweil|Reutlingen-Betzingen|Reutlingen West|Reutlingen Hbf|Reutlingen-Sondelfingen|Metzingen(Württ)|Metzingen-Neuhausen|Dettingen Lehen|Dettingen-Mitte|Dettingen Freibad|Dettingen Gsaidt|Bad Urach Wasserfall|Bad Urach Ermstalklinik|Bad Urach"/>
+	</s>
+	<s id="4261752897263738554-2505142133-1">
+		<tl t="p" o="SBSMEX" c="MEX" n="19338"/>
+		<dp pt="2505142133" pp="2" l="18" ppth="Reutlingen Hbf|Metzingen(Württ)|Nürtingen|Wendlingen(Neckar)|Plochingen|Esslingen(Neckar)|Stuttgart-Bad Cannstatt|Stuttgart Hbf|Ludwigsburg|Bietigheim-Bissingen|Besigheim|Walheim(Württ)|Kirchheim(Neckar)|Lauffen(Neckar)|Nordheim(Württ)|Heilbronn Hbf|Heilbronn Sülmertor|Neckarsulm"/>
+	</s>
+	<s id="-7744789936799681953-2505141906-12">
+		<tl f="N" t="p" o="800693" c="RE" n="3266"/>
+		<ar pt="2505142057" pp="3" l="6" ppth="Aulendorf|Altshausen|Bad Saulgau|Herbertingen Ort|Herbertingen|Mengen|Sigmaringen|Albstadt-Ebingen|Balingen(Württ)|Hechingen|Mössingen"/>
+		<dp pt="2505142100" pp="3" l="6" ppth="Reutlingen Hbf|Stuttgart Hbf"/>
+	</s>
+	<s id="-8040061019734089135-2505142133-1">
+		<tl f="D" t="p" o="S6" c="SWE" n="86275"/>
+		<dp pt="2505142133" pp="6" l="RB66" ppth="Tübingen-Derendingen|Dußlingen|Nehren|Mössingen|Bad Sebastiansweiler-Belsen|Bodelshausen|Hechingen|Bisingen|Engstlatt|Balingen(Württ)|Balingen Süd|Frommern|Albstadt-Laufen Ort|Albstadt-Lautlingen|Albstadt-Ebingen West|Albstadt-Ebingen"/>
+	</s>
+	<s id="219211570333097637-2505142143-3">
+		<tl f="N" t="p" o="800693" c="RE" n="3867"/>
+		<ar pt="2505142152" pp="6" l="6" ppth="Rottenburg(Neckar)|Kiebingen"/>
+	</s>
+	<s id="-605476343020607591-2505142105-1">
+		<tl t="p" o="SBSMEX" c="MEX" n="19358"/>
+		<dp pt="2505142105" pp="5" l="12" ppth="Reutlingen Hbf|Metzingen(Württ)|Bempflingen|Nürtingen|Oberboihingen|Wendlingen(Neckar)|Plochingen|Esslingen(Neckar)|Stuttgart-Bad Cannstatt|Stuttgart Hbf|Ludwigsburg|Bietigheim-Bissingen|Besigheim|Walheim(Württ)|Kirchheim(Neckar)|Lauffen(Neckar)|Nordheim(Württ)|Heilbronn Hbf"/>
+	</s>
+	<s id="8275315832976233086-2505142129-1">
+		<tl f="N" t="p" o="800632" c="RB" n="32523"/>
+		<dp pt="2505142129" pp="2 F-G" l="74" pde="Pforzheim Hbf" ppth="Kiebingen|Rottenburg(Neckar)|Bieringen|Eyach|Mühlen(b Horb)|Horb"/>
+	</s>
+	<s id="-2438006598886458568-2505142032-17">
+		<tl f="N" t="p" o="8006D2" c="RB" n="22877"/>
+		<ar pt="2505142119" pp="1" l="63" ppth="Bad Urach|Bad Urach Ermstalklinik|Bad Urach Wasserfall|Dettingen Gsaidt|Dettingen Freibad|Dettingen-Mitte|Dettingen Lehen|Metzingen-Neuhausen|Metzingen(Württ)|Reutlingen-Sondelfingen|Reutlingen Hbf|Reutlingen West|Reutlingen-Betzingen|Wannweil|Kirchentellinsfurt|Tübingen-Lustnau"/>
+	</s>
+	<s id="8139391170105512340-2505142049-9">
+		<tl f="N" t="p" o="8006D2" c="RB" n="22866"/>
+		<ar pt="2505142117" pp="13" l="63" ppth="Herrenberg|Gültstein|Altingen(Württ)|Entringen|Pfäffingen|Unterjesingen Mitte|Unterjesingen Sandäcker|Tübingen West"/>
+	</s>
+	<s id="-2428703063609131405-2505141957-19">
+		<tl t="p" o="SBSMEX" c="MEX" n="19349"/>
+		<ar pt="2505142153" pp="1" l="12" ppth="Heilbronn Hbf|Nordheim(Württ)|Lauffen(Neckar)|Kirchheim(Neckar)|Walheim(Württ)|Besigheim|Bietigheim-Bissingen|Ludwigsburg|Stuttgart Hbf|Stuttgart-Bad Cannstatt|Esslingen(Neckar)|Plochingen|Wendlingen(Neckar)|Oberboihingen|Nürtingen|Bempflingen|Metzingen(Württ)|Reutlingen Hbf"/>
+	</s>
+	<s id="8613868310247526629-2505142141-1">
+		<tl f="N" t="p" o="8006D2" c="RB" n="22879"/>
+		<dp pt="2505142141" pp="13" l="63" ppth="Tübingen West|Unterjesingen Sandäcker|Unterjesingen Mitte|Pfäffingen|Entringen|Altingen(Württ)|Gültstein|Herrenberg"/>
+	</s>
+	<s id="-8109577220092481634-2505142119-9">
+		<tl f="N" t="p" o="8006D2" c="RB" n="22870"/>
+		<ar pt="2505142147" pp="13" l="63" ppth="Herrenberg|Gültstein|Altingen(Württ)|Entringen|Pfäffingen|Unterjesingen Mitte|Unterjesingen Sandäcker|Tübingen West"/>
+	</s>
+	<s id="-4112095503688632050-2505142158-1">
+		<tl f="N" t="p" o="SBSRE" c="RE" n="19394"/>
+		<dp pt="2505142158" pp="5" l="6" ppth="Reutlingen Hbf|Metzingen(Württ)|Nürtingen|Stuttgart Hbf"/>
+	</s>
+	<s id="1074882191789160867-2505142111-1">
+		<tl f="N" t="p" o="8006D2" c="RB" n="22875"/>
+		<dp pt="2505142111" pp="13" l="63" ppth="Tübingen West|Unterjesingen Sandäcker|Unterjesingen Mitte|Pfäffingen|Entringen|Altingen(Württ)|Gültstein|Herrenberg"/>
+	</s>
+	<s id="2153478361562331607-2505141836-30">
+		<tl t="p" o="SBSMEX" c="MEX" n="19333"/>
+		<ar pt="2505142122" pp="5" l="18" ppth="Osterburken|Adelsheim Ost|Sennfeld|Roigheim|Möckmühl|Züttlingen|Siglingen|Neudenau|Herbolzheim(Jagst)|Untergriesheim|Bad Friedrichshall Hbf|Neckarsulm|Heilbronn Sülmertor|Heilbronn Hbf|Nordheim(Württ)|Lauffen(Neckar)|Kirchheim(Neckar)|Walheim(Württ)|Besigheim|Bietigheim-Bissingen|Ludwigsburg|Stuttgart Hbf|Stuttgart-Bad Cannstatt|Esslingen(Neckar)|Plochingen|Wendlingen(Neckar)|Nürtingen|Metzingen(Württ)|Reutlingen Hbf"/>
+	</s>
+	<s id="3351578681270891887-2505142052-8">
+		<tl f="N" t="p" o="800632" c="RB" n="32526"/>
+		<ar pt="2505142124" pp="12" l="74" pde="Pforzheim Hbf" ppth="Horb|Mühlen(b Horb)|Eyach|Bieringen|Bad Niedernau|Rottenburg(Neckar)|Kiebingen"/>
+	</s>
+</timetable>
