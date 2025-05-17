@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<timetable station="Solingen Hbf">
+	<s id="2466840802885411881-2505170052-1">
+		<tl t="p" o="TDRR" c="RRB" n="90156"/>
+		<dp pt="2505170052" pp="9" l="S7" ppth="Solingen Grünewald|Solingen Mitte|Solingen-Schaberg|Remscheid-Güldenwerth|Remscheid Hbf|Remscheid-Lennep|Remscheid-Lüttringhausen|Wuppertal-Ronsdorf|Wuppertal-Oberbarmen|Wuppertal-Barmen|Wuppertal-Unterbarmen|Wuppertal Hbf"/>
+	</s>
+	<s id="-2265948527808662320-2505162300-7">
+		<tl t="p" o="NX" c="Bus" n="307"/>
+		<ar pt="2505170012" pp="" l="RB48" ppth="Wuppertal-Oberbarmen|Wuppertal-Barmen|Wuppertal Hbf|Wuppertal-Vohwinkel|Haan-Gruiten|Haan"/>
+		<dp pt="2505170012" pp="" l="RB48" ppth="Leichlingen|Opladen|Leverkusen-Manfort|Köln-Mülheim|Köln Messe/Deutz"/>
+	</s>
+	<s id="-4403820629020091227-2505162313-13">
+		<tl t="p" o="TDRR" c="RRB" n="90157"/>
+		<ar pt="2505170007" pp="9" l="S7" ppth="Wuppertal Hbf|Wuppertal-Unterbarmen|Wuppertal-Barmen|Wuppertal-Oberbarmen|Wuppertal-Ronsdorf|Remscheid-Lüttringhausen|Remscheid-Lennep|Remscheid Hbf|Remscheid-Güldenwerth|Solingen-Schaberg|Solingen Mitte|Solingen Grünewald"/>
+	</s>
+	<s id="-8735278521006767594-2505162330-6">
+		<tl t="p" o="NX" c="Bus" n="306"/>
+		<ar pt="2505170047" pp="" l="RB48" ppth="Köln Messe/Deutz|Köln-Mülheim|Leverkusen-Manfort|Opladen|Leichlingen"/>
+		<dp pt="2505170047" pp="" l="RB48" ppth="Haan|Haan-Gruiten|Wuppertal-Vohwinkel|Wuppertal Hbf|Wuppertal-Barmen|Wuppertal-Oberbarmen"/>
+	</s>
+	<s id="5458620096640874968-2505170024-1">
+		<tl t="p" o="B2" c="Bus" n="11701"/>
+		<dp pt="2505170024" pp="" l="S1" ppth="Solingen Vogelpark|Hilden Süd|Hilden|Düsseldorf-Eller|Düsseldorf-Eller Mitte|Düsseldorf-Oberbilk|Düsseldorf Volksgarten|Düsseldorf Hbf"/>
+	</s>
+	<s id="-2380639757009641786-2505162332-9">
+		<tl t="p" o="B2" c="Bus" n="11882"/>
+		<ar pt="2505170035" pp="" l="S1" ppth="Düsseldorf Hbf|Düsseldorf Volksgarten|Düsseldorf-Oberbilk|Düsseldorf-Eller Mitte|Düsseldorf-Eller|Hilden|Hilden Süd|Solingen Vogelpark"/>
+	</s>
+	<s id="-1524938240322922162-2505162302-9">
+		<tl t="p" o="B2" c="Bus" n="11884"/>
+		<ar pt="2505170005" pp="" l="S1" ppth="Düsseldorf Hbf|Düsseldorf Volksgarten|Düsseldorf-Oberbilk|Düsseldorf-Eller Mitte|Düsseldorf-Eller|Hilden|Hilden Süd|Solingen Vogelpark"/>
+	</s>
+	<s id="-4463983841688751065-2505162029-12">
+		<tl f="F" t="p" o="80" c="ICE" n="209"/>
+		<ar pt="2505170026" pp="1" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Diepholz|Osnabrück Hbf|Münster(Westf)Hbf|Dortmund Hbf|Hagen Hbf|Wuppertal Hbf"/>
+		<dp pt="2505170027" pp="1" ppth="Köln Hbf"/>
+	</s>
+	<s id="-1546265973456942792-2505170000-2">
+		<tl t="p" o="NX" c="Bus" n="322"/>
+		<ar pt="2505170040" pp="" l="RB48X" ppth="Köln Hbf (Breslauer Platz)"/>
+		<dp pt="2505170040" pp="" l="RB48X" ppth="Wuppertal Hbf"/>
+	</s>
+	<s id="-900468952161245208-2505162330-2">
+		<tl t="p" o="NX" c="Bus" n="323"/>
+		<ar pt="2505170005" pp="" l="RB48X" ppth="Wuppertal Hbf"/>
+		<dp pt="2505170005" pp="" l="RB48X" ppth="Köln Hbf (Breslauer Platz)"/>
+	</s>
+</timetable>

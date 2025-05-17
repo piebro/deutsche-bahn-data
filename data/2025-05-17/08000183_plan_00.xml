@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<timetable station="Ingolstadt Hbf">
+	<s id="5950655788274726626-2505161818-13">
+		<tl f="F" t="p" o="80" c="ICE" n="1607"/>
+		<ar pt="2505170057" pp="3" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Leipzig Hbf|Erfurt Hbf|Bamberg|Erlangen|Nürnberg Hbf"/>
+		<dp pt="2505170058" pp="3" ppth="München Hbf"/>
+	</s>
+	<s id="-2480303027028645831-2505162326-9">
+		<tl f="N" t="p" o="800765" c="RB" n="59176"/>
+		<ar pt="2505170027" pp="4" l="16" ppth="München Hbf|Dachau Bahnhof|Petershausen(Obb)|Paindorf|Reichertshausen(Ilm)|Pfaffenhofen(Ilm)|Rohrbach(Ilm)|Baar-Ebenhausen"/>
+		<dp pt="2505170029" pp="4" l="16" ppth="Ingolstadt Nord"/>
+	</s>
+	<s id="5472562903720777205-2505170043-2">
+		<tl f="N" t="p" o="800765" c="RB" n="59191"/>
+		<ar pt="2505170048" pp="6" l="16" ppth="Ingolstadt Nord"/>
+	</s>
+	<s id="1541083601495226126-2505170038-1">
+		<tl f="D" t="p" o="A9" c="ag" n="84302"/>
+		<dp pt="2505170038" pp="2" l="RB15" ppth="Weichering|Rohrenfeld|Neuburg(Donau)|Unterhausen(Bay)|Straß-Moos|Burgheim|Rain|Genderkingen|Donauwörth"/>
+	</s>
+	<s id="7255926203441774243-2505170025-2">
+		<tl f="D" t="p" o="A9" c="ag" n="84351"/>
+		<ar pt="2505170029" pp="5" l="RB17" ppth="Ingolstadt Nord"/>
+		<dp pt="2505170041" pp="5" l="RB17" ppth="Ernsgaden|Vohburg-Rockolding|Münchsmünster|Neustadt(Donau)"/>
+	</s>
+	<s id="6924447488352088653-2505162337-5">
+		<tl f="N" t="p" o="800765" c="RE" n="4047"/>
+		<ar pt="2505170023" pp="3" l="1" ppth="Nürnberg Hbf|Allersberg(Rothsee)|Kinding(Altmühltal)|Ingolstadt Nord"/>
+		<dp pt="2505170024" pp="3" l="1" ppth="Rohrbach(Ilm)|Pfaffenhofen(Ilm)|Petershausen(Obb)|München Hbf"/>
+	</s>
+	<s id="-5360929052622400028-2505162300-8">
+		<tl t="p" o="Y8" c="Bus" n="60410"/>
+		<ar pt="2505170052" pp="" l="EV" ppth="Friedberg(Augsburg)|Dasing|Obergriesbach|Aichach|Radersdorf|Schrobenhausen|Brunnen(Oberbay)"/>
+	</s>
+	<s id="3365409376481099659-2505161915-8">
+		<tl f="F" t="p" o="80" c="ICE" n="635"/>
+		<ar pt="2505170002" pp="3" ppth="Bremen Hbf|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2505170004" pp="3" ppth="München Hbf"/>
+	</s>
+	<s id="-524151628723159576-2505161854-10">
+		<tl f="F" t="p" o="80" c="ICE" n="685"/>
+		<ar pt="2505170002" pp="3" wings="3365409376481099659-2505161915" ppth="Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2505170004" pp="3" wings="3365409376481099659-2505161915" ppth="München Hbf"/>
+	</s>
+</timetable>
