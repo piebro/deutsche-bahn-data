@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="6484739238016304640-2505171128-1">
+		<tl t="p" o="800165" c="FEX" n="19828"/>
+		<dp pt="2505171128" pp="1" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="8211005156495413590-2505171021-4">
+		<tl t="p" o="800165" c="FEX" n="19831"/>
+		<ar pt="2505171104" pp="4" tra="-3789886827529615803-2505171109-1" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="-7265443927573671588-2505170821-8">
+		<tl f="F" t="p" o="80" c="IC" n="2175"/>
+		<ar pt="2505171053" pp="3 A-D" wings="5658297647256092992-2505171026" ppth="Rostock Hbf|Waren(Müritz)|Neustrelitz Hbf|Oranienburg|Berlin Gesundbrunnen|Berlin Hbf|Berlin Südkreuz"/>
+		<dp pt="2505171101" pp="3 A-D" wings="5658297647256092992-2505171026" ppth="Doberlug-Kirchhain|Elsterwerda|Dresden-Neustadt|Dresden Hbf"/>
+	</s>
+	<s id="-1760207367303502931-2505170826-7">
+		<tl f="F" t="p" o="80" c="IC" n="2270"/>
+		<ar pt="2505171058" pp="2" wings="-4250776295477638006-2505171004" ppth="Chemnitz Hbf|Freiberg(Sachs)|Dresden Hbf|Dresden-Neustadt|Elsterwerda|Doberlug-Kirchhain"/>
+		<dp pt="2505171105" pp="2" wings="-4250776295477638006-2505171004" ppth="Berlin Südkreuz|Berlin Hbf|Berlin Gesundbrunnen|Oranienburg|Neustrelitz Hbf|Waren(Müritz)|Rostock Hbf"/>
+	</s>
+	<s id="-8639608035380892689-2505171109-2">
+		<tl f="N" t="p" o="800165" c="RB" n="18115"/>
+		<ar pt="2505171121" pp="4" l="22" ppth="Königs Wusterhausen"/>
+		<dp pt="2505171123" pp="4" l="22" ppth="Ludwigsfelde-Struveshof|Saarmund|Potsdam Pirschheide|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof|Potsdam Hbf"/>
+	</s>
+	<s id="-4250776295477638006-2505171004-3">
+		<tl f="N" t="p" o="NZ" c="RE" n="52270"/>
+		<ar pt="2505171058" pp="2" l="17" ppth="Elsterwerda|Doberlug-Kirchhain"/>
+		<dp pt="2505171105" pp="2" l="17" ppth="Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="-3789886827529615803-2505171109-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18665"/>
+		<dp pt="2505171109" pp="4" l="32" tra="8211005156495413590-2505171021-4" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+	<s id="5658297647256092992-2505171026-3">
+		<tl f="N" t="p" o="NZ" c="RE" n="52175"/>
+		<ar pt="2505171053" pp="3 A-D" l="17" ppth="Berlin Hbf|Berlin Südkreuz"/>
+		<dp pt="2505171101" pp="3 A-D" l="17" ppth="Doberlug-Kirchhain|Elsterwerda"/>
+	</s>
+	<s id="-6267694711720463803-2505171158-1">
+		<tl t="p" o="800165" c="FEX" n="19830"/>
+		<dp pt="2505171158" pp="1" tra="-7909132823050569300-2505171139-3" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="-7909132823050569300-2505171139-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18664"/>
+		<ar pt="2505171155" pp="1" l="32" tra="-6267694711720463803-2505171158-1" ppth="Ludwigsfelde|Birkengrund"/>
+	</s>
+	<s id="5834016043406903972-2505171051-4">
+		<tl t="p" o="800165" c="FEX" n="19833"/>
+		<ar pt="2505171130" pp="4" tra="1782676809905479059-2505171154-1" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="1782676809905479059-2505171154-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18357"/>
+		<dp pt="2505171154" pp="4" l="24" tra="5834016043406903972-2505171051-4" ppth="Blankenfelde(Teltow-Fläming)|Dahlewitz|Rangsdorf"/>
+	</s>
+	<s id="5319974267055661422-2505171048-8">
+		<tl f="N" t="p" o="800165" c="RB" n="18114"/>
+		<ar pt="2505171136" pp="1" l="22" ppth="Potsdam Hbf|Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Potsdam Pirschheide|Saarmund|Ludwigsfelde-Struveshof"/>
+		<dp pt="2505171138" pp="1" l="22" ppth="Königs Wusterhausen"/>
+	</s>
+</timetable>
