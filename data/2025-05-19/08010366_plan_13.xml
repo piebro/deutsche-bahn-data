@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<timetable station="Weimar">
+	<s id="-8316478508966750425-2505191302-3">
+		<tl f="N" t="p" o="8004NT" c="RE" n="3958"/>
+		<ar pt="2505191322" pp="4" l="3" ppth="Jena-Göschwitz|Jena West"/>
+		<dp pt="2505191324" pp="4" l="3" ppth="Erfurt Hbf"/>
+	</s>
+	<s id="5503046623048511589-2505191333-2">
+		<tl f="N" t="p" o="AMRE" c="RE" n="73977"/>
+		<ar pt="2505191345" pp="2" l="16" ppth="Erfurt Hbf"/>
+		<dp pt="2505191346" pp="2" l="16" ppth="Apolda"/>
+	</s>
+	<s id="8934521651957772737-2505191250-2">
+		<tl f="N" t="p" o="8004NT" c="RE" n="3929"/>
+		<ar pt="2505191302" pp="2" l="3" ppth="Erfurt Hbf"/>
+		<dp pt="2505191304" pp="2" l="3" ppth="Jena West|Jena-Göschwitz|Stadtroda|Hermsdorf-Klosterlausnitz|Gera Hbf|Gera Süd|Gera-Zwötzen|Wünschendorf|Berga(Elster)|Neumühle(Elster)|Greiz"/>
+	</s>
+	<s id="6213148598798477117-2505191312-1">
+		<tl f="N" t="p" o="EB" c="RB" n="80939"/>
+		<dp pt="2505191312" pp="1" l="26" ppth="Weimar West|Weimar Berkaer Bf|Nohra(Weimar)|Obergrunstedt|Holzdorf(b Weimar)|Legefeld|Hetschburg|Bad Berka Zeughausplatz|Bad Berka|München(Bad Berka)|Tannroda|Kranichfeld"/>
+	</s>
+	<s id="6270968194640810761-2505191317-3">
+		<tl f="N" t="p" o="EB" c="RB" n="80893"/>
+		<ar pt="2505191332" pp="2" l="21" ppth="Erfurt Hbf|Vieselbach"/>
+		<dp pt="2505191333" pp="2" l="21" ppth="Oberweimar|Mellingen(Thür)|Großschwabhausen|Jena West|Jena-Göschwitz|Neue Schenke|Stadtroda|Papiermühle(Stadtr)|Hermsdorf-Klosterlausnitz|Kraftsdorf|Töppeln|Gera Hbf"/>
+	</s>
+	<s id="-5710193971307432213-2505191206-15">
+		<tl f="N" t="p" o="AMRB" c="RB" n="74621"/>
+		<ar pt="2505191320" pp="2" l="20" ppth="Eisenach Hbf|Wutha|Schönau(Hörsel)|Sättelstädt|Mechterstädt|Fröttstädt|Gotha|Seebergen|Wandersleben|Neudietendorf|Erfurt-Bischleben|Erfurt Hbf|Vieselbach|Hopfgarten(Weimar)"/>
+		<dp pt="2505191322" pp="2" l="20" ppth="Oßmannstedt|Apolda|Niedertrebra|Bad Sulza|Großheringen|Bad Kösen|Naumburg(Saale)Hbf|Leißling|Weißenfels|Großkorbetha|Bad Dürrenberg|Kötzschau|Großlehna|Markranstädt|Leipzig-Miltitz|Leipzig-Rückmarsdorf|Leipzig-Leutzsch|Leipzig-Möckern|Leipzig Hbf"/>
+	</s>
+	<s id="-8750803673781214551-2505191204-6">
+		<tl f="N" t="p" o="NZ" c="RE" n="52152"/>
+		<ar pt="2505191302" pp="5" l="51" ppth="Gera Hbf|Hermsdorf-Klosterlausnitz|Stadtroda|Jena-Göschwitz|Jena West"/>
+		<dp pt="2505191304" pp="5" l="51" ppth="Erfurt Hbf"/>
+	</s>
+	<s id="-3580917122362304390-2505191209-20">
+		<tl f="N" t="p" o="AMRB" c="RB" n="74618"/>
+		<ar pt="2505191337" pp="3" l="20" ppth="Leipzig Hbf|Leipzig-Möckern|Leipzig-Leutzsch|Leipzig-Rückmarsdorf|Leipzig-Miltitz|Markranstädt|Großlehna|Kötzschau|Bad Dürrenberg|Großkorbetha|Weißenfels|Leißling|Naumburg(Saale)Hbf|Bad Kösen|Großheringen|Bad Sulza|Niedertrebra|Apolda|Oßmannstedt"/>
+		<dp pt="2505191338" pp="3" l="20" ppth="Hopfgarten(Weimar)|Vieselbach|Erfurt Hbf|Erfurt-Bischleben|Neudietendorf|Wandersleben|Seebergen|Gotha|Fröttstädt|Mechterstädt|Sättelstädt|Schönau(Hörsel)|Wutha|Eisenach Hbf"/>
+	</s>
+	<s id="153980156516181634-2505191304-13">
+		<tl f="N" t="p" o="EB" c="RB" n="80938"/>
+		<ar pt="2505191349" pp="1" l="26" ppth="Kranichfeld|Tannroda|München(Bad Berka)|Bad Berka|Bad Berka Zeughausplatz|Hetschburg|Legefeld|Holzdorf(b Weimar)|Obergrunstedt|Nohra(Weimar)|Weimar Berkaer Bf|Weimar West"/>
+	</s>
+	<s id="-8750926457781455409-2505191204-6">
+		<tl f="F" t="p" o="80" c="IC" n="2152"/>
+		<ar pt="2505191302" pp="5" wings="-8750803673781214551-2505191204" ppth="Gera Hbf|Hermsdorf-Klosterlausnitz|Stadtroda|Jena-Göschwitz|Jena West"/>
+		<dp pt="2505191304" pp="5" wings="-8750803673781214551-2505191204" ppth="Erfurt Hbf|Gotha|Eisenach Hbf|Kassel-Wilhelmshöhe|Warburg(Westf)|Altenbeken|Paderborn Hbf|Soest|Hamm(Westf)Hbf|Dortmund Hbf|Bochum Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Flughafen|Düsseldorf Hbf"/>
+	</s>
+	<s id="7681615890422939097-2505191309-1">
+		<tl f="N" t="p" o="AMRE" c="RE" n="73974"/>
+		<dp pt="2505191309" pp="4" l="16" ppth="Erfurt Hbf"/>
+	</s>
+	<s id="8310075469751214371-2505191318-6">
+		<tl f="N" t="p" o="EB" c="RB" n="80894"/>
+		<ar pt="2505191344" pp="4" l="21" ppth="Jena-Göschwitz|Jena West|Großschwabhausen|Mellingen(Thür)|Oberweimar"/>
+	</s>
+	<s id="-7211139863672830743-2505191231-10">
+		<tl f="N" t="p" o="8004NT" c="RE" n="3660"/>
+		<ar pt="2505191352" pp="4" l="1" ppth="Gößnitz|Schmölln(Thür)|Ronneburg(Thür)|Gera Süd|Gera Hbf|Hermsdorf-Klosterlausnitz|Stadtroda|Jena-Göschwitz|Jena West"/>
+		<dp pt="2505191354" pp="4" l="1" ppth="Erfurt Hbf|Neudietendorf|Gotha|Bad Langensalza|Mühlhausen(Thür)|Leinefelde|Heilbad Heiligenstadt|Göttingen"/>
+	</s>
+	<s id="1621442479220822598-2505191250-2">
+		<tl f="N" t="p" o="8004NT" c="RE" n="3909"/>
+		<ar pt="2505191302" pp="2" l="3" wings="8934521651957772737-2505191250" ppth="Erfurt Hbf"/>
+		<dp pt="2505191304" pp="2" l="3" wings="8934521651957772737-2505191250" ppth="Jena West|Jena-Göschwitz|Stadtroda|Hermsdorf-Klosterlausnitz|Gera Hbf|Gera Süd|Ronneburg(Thür)|Nöbdenitz|Schmölln(Thür)|Lehndorf(Altenburg)|Altenburg"/>
+	</s>
+</timetable>
