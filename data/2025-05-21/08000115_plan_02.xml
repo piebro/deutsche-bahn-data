@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<timetable station="Fulda">
+	<s id="5331894847185138451-2505202103-7">
+		<tl t="p" o="81" c="NJ" n="408"/>
+		<ar pt="2505210239" pp="4" hi="1" wings="-1197270886930040789-2505202103" ppth="Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Bitterfeld|Leipzig Hbf|Erfurt Hbf"/>
+		<dp pt="2505210241" pp="4" hi="1" wings="-1197270886930040789-2505202103" ppth="Frankfurt(Main)Süd|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="7597089806492032299-2505202221-9">
+		<tl f="F" t="p" o="80" c="ICE" n="1081"/>
+		<ar pt="2505210236" pp="" ppth="Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Lüneburg|Uelzen|Celle|Hannover Messe/Laatzen|Göttingen"/>
+		<dp pt="2505210238" pp="" ppth="Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf|München Hbf"/>
+	</s>
+	<s id="-1197270886930040789-2505202103-7">
+		<tl f="F" t="p" o="NZ" c="IC" n="60408"/>
+		<ar pt="2505210239" pp="4" hi="1" ppth="Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Bitterfeld|Leipzig Hbf|Erfurt Hbf"/>
+		<dp pt="2505210241" pp="4" hi="1" ppth="Frankfurt(Main)Süd|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-8716776747589038458-2505201828-11">
+		<tl f="F" t="p" o="81" c="EN" n="40458"/>
+		<ar pt="2505210239" pp="4" hi="1" ppth="Praha hl.n.|Praha-Holesovice|Usti nad Labem hl.n.|Decin hl.n.|Bad Schandau|Dresden Hbf|Dresden-Neustadt|Riesa|Leipzig Hbf|Erfurt Hbf"/>
+		<dp pt="2505210241" pp="4" hi="1" ppth="Frankfurt(Main)Süd|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-8572647521164952896-2505201828-11">
+		<tl f="F" t="p" o="54" c="EC" n="458"/>
+		<ar pt="2505210239" pp="4" hi="1" wings="-8716776747589038458-2505201828|5331894847185138451-2505202103" ppth="Praha hl.n.|Praha-Holesovice|Usti nad Labem hl.n.|Decin hl.n.|Bad Schandau|Dresden Hbf|Dresden-Neustadt|Riesa|Leipzig Hbf|Erfurt Hbf"/>
+		<dp pt="2505210241" pp="4" hi="1" wings="-8716776747589038458-2505201828|5331894847185138451-2505202103" ppth="Frankfurt(Main)Süd|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+</timetable>

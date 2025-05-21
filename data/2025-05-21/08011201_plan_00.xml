@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="-7460128831778763104-2505210002-1">
+		<tl t="p" o="800165" c="FEX" n="19878"/>
+		<dp pt="2505210002" pp="1" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="649878001262503139-2505210018-2">
+		<tl f="N" t="p" o="800165" c="RB" n="18101"/>
+		<ar pt="2505210029" pp="4" l="22" ppth="Königs Wusterhausen"/>
+		<dp pt="2505210031" pp="4" l="22" ppth="Ludwigsfelde-Struveshof|Saarmund|Potsdam Pirschheide|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof|Potsdam Hbf"/>
+	</s>
+	<s id="8357393075483600022-2505202321-4">
+		<tl t="p" o="800165" c="FEX" n="19881"/>
+		<ar pt="2505210000" pp="4" tra="2550964200555955868-2505210022-1" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="-4398534199326013641-2505210012-9">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62089"/>
+		<ar pt="2505210052" pp="1" l="8" ppth="Baruth(Mark)|Neuhof(b Zossen)|Wünsdorf-Waldstadt|Zossen|Dabendorf|Rangsdorf|Dahlewitz|Blankenfelde(Teltow-Fläming)"/>
+		<dp pt="2505210055" pp="1" l="8" ppth="Berlin-Schöneweide|Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="6988871964362406533-2505202206-17">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62036"/>
+		<ar pt="2505210015" pp="1" l="8" ppth="Wittenberge|Bad Wilsnack|Glöwen|Breddin|Neustadt(Dosse)|Friesack(Mark)|Paulinenaue|Nauen|Falkensee|Berlin-Spandau|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz"/>
+	</s>
+	<s id="-8745930355234119378-2505210009-3">
+		<tl f="F" t="p" o="80" c="EC" n="259"/>
+		<ar pt="2505210041" pp="4" hi="1" ppth="Berlin Hbf|Berlin Ostbahnhof"/>
+		<dp pt="2505210045" pp="4" ppth="Dresden-Neustadt|Dresden Hbf|Bad Schandau|Decin hl.n.|Usti nad Labem hl.n.|Praha-Holesovice|Praha hl.n."/>
+	</s>
+	<s id="2550964200555955868-2505210022-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18337"/>
+		<dp pt="2505210022" pp="4" l="24" tra="8357393075483600022-2505202321-4" ppth="Blankenfelde(Teltow-Fläming)|Dahlewitz|Rangsdorf|Dabendorf|Zossen|Wünsdorf-Waldstadt"/>
+	</s>
+</timetable>
