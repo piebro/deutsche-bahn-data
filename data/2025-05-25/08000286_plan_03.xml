@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<timetable station="Oberhausen Hbf">
+	<s id="968678521329545848-2505250341-1">
+		<tl f="N" t="p" o="8003L1" c="RB" n="31286"/>
+		<dp pt="2505250341" pp="9" l="32" ppth="Essen-Bergeborbeck|Essen-Altenessen|Essen-Zollverein Nord|Gelsenkirchen Hbf"/>
+	</s>
+	<s id="-4201254989828899373-2505250349-1">
+		<tl t="p" o="B2" c="Bus" n="3350"/>
+		<dp pt="2505250349" pp="" l="RB32" ppth="Essen-Dellwig"/>
+	</s>
+	<s id="-4615536472310719044-2505250250-2">
+		<tl t="p" o="B2" c="Bus" n="3204"/>
+		<ar pt="2505250310" pp="" l="RB32" ppth="Duisburg Hbf"/>
+	</s>
+	<s id="-1616687389182706992-2505250304-6">
+		<tl f="N" t="p" o="8003L1" c="RB" n="31285"/>
+		<ar pt="2505250321" pp="7" l="32" ppth="Gelsenkirchen Hbf|Essen-Zollverein Nord|Essen-Altenessen|Essen-Bergeborbeck|Essen-Dellwig"/>
+	</s>
+	<s id="1092014454866930735-2505250317-1">
+		<tl f="S" t="p" o="8003L1" c="S" n="30384"/>
+		<dp pt="2505250317" pp="10" l="3" ppth="Mülheim(Ruhr)Styrum|Mülheim(Ruhr)West|Mülheim(Ruhr)Hbf|Essen-Frohnhausen|Essen West|Essen Hbf"/>
+	</s>
+	<s id="1980330664937697871-2505250344-2">
+		<tl f="D" t="p" o="R4NRN" c="VIA" n="20004"/>
+		<ar pt="2505250349" pp="9" l="RE19" pde="Düsseldorf Hbf" ppth="Duisburg Hbf"/>
+		<dp pt="2505250350" pp="9" l="RE19" ppth="Oberhausen-Sterkrade|Oberhausen-Holten|Dinslaken|Voerde(Niederrhein)|Wesel"/>
+	</s>
+	<s id="-1422994621630569369-2505250318-2">
+		<tl t="p" o="B2" c="Bus" n="3349"/>
+		<ar pt="2505250333" pp="" l="RB32" ppth="Essen-Dellwig"/>
+	</s>
+	<s id="-7747901333888452948-2505250330-1">
+		<tl t="p" o="B2" c="Bus" n="3205"/>
+		<dp pt="2505250330" pp="" l="RB32" ppth="Duisburg Hbf"/>
+	</s>
+</timetable>
