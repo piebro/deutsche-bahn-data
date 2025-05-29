@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<timetable station="Oldenburg(Oldb)Hbf">
+	<s id="9022204647261448359-2505290640-1">
+		<tl f="F" t="p" o="80" c="ICE" n="533"/>
+		<dp pt="2505290640" pp="1" ppth="Delmenhorst|Bremen Hbf|Hannover Hbf|Hannover Messe/Laatzen|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf|München Hbf"/>
+	</s>
+	<s id="352621200272318542-2505290629-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="75302"/>
+		<dp pt="2505290629" pp="4" l="RE18" ppth="Sandkrug|Huntlosen|Großenkneten|Ahlhorn|Cloppenburg|Essen(Oldb)|Quakenbrück|Bersenbrück|Bramsche|Osnabrück Altstadt|Osnabrück Hbf"/>
+	</s>
+	<s id="5769559680701882536-2505290553-4">
+		<tl f="N" t="p" o="NZ" c="RE" n="52438"/>
+		<ar pt="2505290623" pp="6" l="56" ppth="Bremen Hbf|Delmenhorst|Hude"/>
+		<dp pt="2505290633" pp="6" l="56" ppth="Bad Zwischenahn|Westerstede-Ocholt|Augustfehn|Leer(Ostfriesl)|Emden Hbf|Marienhafe|Norden|Norddeich|Norddeich Mole"/>
+	</s>
+	<s id="-3011290278229936684-2505290553-4">
+		<tl f="F" t="p" o="80" c="IC" n="2438"/>
+		<ar pt="2505290623" pp="6" wings="5769559680701882536-2505290553" ppth="Bremen Hbf|Delmenhorst|Hude"/>
+		<dp pt="2505290633" pp="6" wings="5769559680701882536-2505290553" ppth="Bad Zwischenahn|Westerstede-Ocholt|Augustfehn|Leer(Ostfriesl)|Emden Hbf|Marienhafe|Norden|Norddeich|Norddeich Mole"/>
+	</s>
+	<s id="-5598921627012959285-2505290615-10">
+		<tl f="D" t="p" o="N1" c="NWB" n="83396"/>
+		<ar pt="2505290654" pp="6" l="RS3" ppth="Bremen Hbf|Bremen Neustadt|Heidkrug|Delmenhorst|Hoykenkamp|Schierbrok|Bookholzberg|Hude|Wüsting"/>
+		<dp pt="2505290658" pp="6" l="RS3" ppth="Oldenburg-Wechloy|Bad Zwischenahn"/>
+	</s>
+	<s id="-2530427790308150282-2505290517-6">
+		<tl f="N" t="p" o="800295" c="RE" n="4407"/>
+		<ar pt="2505290623" pp="3" l="1" ppth="Emden Hbf|Leer(Ostfriesl)|Augustfehn|Westerstede-Ocholt|Bad Zwischenahn"/>
+		<dp pt="2505290635" pp="3" l="1" ppth="Hude|Delmenhorst|Bremen Hbf|Bremen-Mahndorf|Achim|Verden(Aller)|Dörverden|Eystrup|Nienburg(Weser)|Neustadt am Rübenberge|Wunstorf|Hannover Hbf"/>
+	</s>
+	<s id="-6655623527873823030-2505290649-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="83355"/>
+		<dp pt="2505290649" pp="3" l="RS3" ppth="Wüsting|Hude|Bookholzberg|Schierbrok|Hoykenkamp|Delmenhorst|Heidkrug|Bremen Neustadt|Bremen Hbf"/>
+	</s>
+</timetable>

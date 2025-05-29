@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<timetable station="Potsdam Hbf">
+	<s id="2351100564277521904-2505290609-9">
+		<tl f="N" t="p" o="800165" c="RB" n="18105"/>
+		<ar pt="2505290714" pp="4" l="22" ppth="Königs Wusterhausen|Flughafen BER|Ludwigsfelde-Struveshof|Saarmund|Potsdam Pirschheide|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof"/>
+	</s>
+	<s id="8829742557352838941-2505290748-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18108"/>
+		<dp pt="2505290748" pp="1" l="22" ppth="Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Potsdam Pirschheide|Saarmund|Ludwigsfelde-Struveshof|Flughafen BER|Königs Wusterhausen"/>
+	</s>
+	<s id="2315349635893901870-2505290711-7">
+		<tl t="p" o="RSMD" c="SMD" n="80436"/>
+		<ar pt="2505290751" pp="3" l="HBX" hi="1" ppth="Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Wannsee"/>
+		<dp pt="2505290753" pp="3" l="HBX" ppth="Brandenburg Hbf|Genthin|Burg(Magdeburg)|Magdeburg Hbf|Magdeburg-Buckau|Osterweddingen|Oschersleben(Bode)|Nienhagen(Halberst)|Halberstadt Hbf|Wernigerode Hbf|Wernigerode Elmowerk|Darlingerode|Ilsenburg|Stapelburg|Vienenburg|Goslar"/>
+	</s>
+	<s id="1900851663974082671-2505290526-17">
+		<tl f="N" t="p" o="OWRE" c="RE" n="73761"/>
+		<ar pt="2505290705" pp="3" l="1" ppth="Frankfurt(Oder)|Frankfurt(Oder)-Rosengarten|Pillgram|Jacobsdorf(Mark)|Briesen(Mark)|Berkenbrück|Fürstenwalde(Spree)|Fangschleuse|Erkner|Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Wannsee"/>
+		<dp pt="2505290707" pp="3" l="1" ppth="Potsdam Charlottenhof|Potsdam Park Sanssouci|Werder(Havel)|Groß Kreutz|Götz|Brandenburg Hbf"/>
+	</s>
+	<s id="8535840730163568731-2505290719-7">
+		<tl f="N" t="p" o="OWRE" c="RE" n="73760"/>
+		<ar pt="2505290748" pp="4" l="1" ppth="Brandenburg Hbf|Götz|Groß Kreutz|Werder(Havel)|Potsdam Park Sanssouci|Potsdam Charlottenhof"/>
+		<dp pt="2505290750" pp="4" l="1" ppth="Berlin-Wannsee|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz|Erkner|Fangschleuse|Fürstenwalde(Spree)|Berkenbrück|Briesen(Mark)|Jacobsdorf(Mark)|Pillgram|Frankfurt(Oder)-Rosengarten|Frankfurt(Oder)"/>
+	</s>
+	<s id="138851745623435944-2505290555-14">
+		<tl f="N" t="p" o="OWRE" c="RE" n="73721"/>
+		<ar pt="2505290729" pp="3" l="1" ppth="Frankfurt(Oder)|Fürstenwalde(Spree)|Hangelsberg|Fangschleuse|Erkner|Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Charlottenburg|Berlin-Wannsee"/>
+		<dp pt="2505290731" pp="3" l="1" ppth="Werder(Havel)|Brandenburg Hbf|Kirchmöser|Wusterwitz|Genthin|Güsen(b Genthin)|Burg(Magdeburg)|Magdeburg-Neustadt|Magdeburg Hbf"/>
+	</s>
+	<s id="-1212260349764834885-2505290741-1">
+		<tl f="N" t="p" o="OWRB" c="RB" n="62126"/>
+		<dp pt="2505290741" pp="2" l="33" ppth="Potsdam Charlottenhof|Potsdam Pirschheide|Caputh-Geltow|Caputh Schwielowsee|Ferch-Lienewitz|Beelitz Stadt|Elsholz|Buchholz(Zauche)|Treuenbrietzen|Treuenbrietzen Süd|Altes Lager|Jüterbog"/>
+	</s>
+	<s id="-7055223809518241113-2505290711-7">
+		<tl t="p" o="RSMD" c="SMD" n="80426"/>
+		<ar pt="2505290751" pp="3" l="HBX" hi="1" wings="2315349635893901870-2505290711" ppth="Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Wannsee"/>
+		<dp pt="2505290753" pp="3" l="HBX" wings="2315349635893901870-2505290711" ppth="Brandenburg Hbf|Genthin|Burg(Magdeburg)|Magdeburg Hbf|Magdeburg-Buckau|Osterweddingen|Oschersleben(Bode)|Nienhagen(Halberst)|Halberstadt Hbf|Wegeleben|Ditfurt|Quedlinburg|Neinstedt|Thale Musestieg|Thale Hbf"/>
+	</s>
+	<s id="1311032476927890137-2505290612-10">
+		<tl f="N" t="p" o="OWRE" c="RE" n="73718"/>
+		<ar pt="2505290729" pp="4" l="1" ppth="Magdeburg Hbf|Magdeburg-Neustadt|Burg(Magdeburg)|Güsen(b Genthin)|Genthin|Wusterwitz|Kirchmöser|Brandenburg Hbf|Werder(Havel)"/>
+		<dp pt="2505290731" pp="4" l="1" ppth="Berlin-Wannsee|Berlin-Charlottenburg|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz|Erkner|Fangschleuse|Hangelsberg|Fürstenwalde(Spree)|Frankfurt(Oder)"/>
+	</s>
+	<s id="-7479934948121846295-2505290610-13">
+		<tl f="N" t="p" o="OWRB" c="RB" n="62127"/>
+		<ar pt="2505290719" pp="2" l="33" ppth="Jüterbog|Altes Lager|Treuenbrietzen Süd|Treuenbrietzen|Buchholz(Zauche)|Elsholz|Beelitz Stadt|Ferch-Lienewitz|Caputh Schwielowsee|Caputh-Geltow|Potsdam Pirschheide|Potsdam Charlottenhof"/>
+	</s>
+</timetable>
