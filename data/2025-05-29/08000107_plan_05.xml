@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="Freiburg(Breisgau) Hbf">
+	<s id="-1939073885227459762-2505290556-1">
+		<tl f="N" t="p" o="8006C4" c="RB" n="17102"/>
+		<dp pt="2505290556" pp="2" l="26" ppth="Denzlingen|Emmendingen|Teningen-Mundingen|Köndringen|Riegel-Malterdingen|Kenzingen|Herbolzheim(Breisg)|Ringsheim/Europa-Park|Orschweier|Lahr(Schwarzw)|Friesenheim(Baden)|Offenburg"/>
+	</s>
+	<s id="7582314568044505717-2505282015-11">
+		<tl f="F" t="p" o="NZ" c="IC" n="60403"/>
+		<ar pt="2505290526" pp="3" ppth="Amsterdam Centraal|Utrecht Centraal|Eindhoven Centraal|Bonn-Beuel|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg"/>
+		<dp pt="2505290528" pp="3" ppth="Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-5851721557238592488-2505282015-11">
+		<tl t="p" o="84" c="NJ" n="403"/>
+		<ar pt="2505290526" pp="3" wings="7582314568044505717-2505282015" ppth="Amsterdam Centraal|Utrecht Centraal|Eindhoven Centraal|Bonn-Beuel|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg"/>
+		<dp pt="2505290528" pp="3" hi="1" wings="7582314568044505717-2505282015" ppth="Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="5200833042495231556-2505290501-9">
+		<tl f="S" t="p" o="8006C6" c="S" n="9703"/>
+		<ar pt="2505290526" pp="7" l="1" ppth="Breisach|Ihringen|Wasenweiler|Gottenheim|Hugstetten|Freiburg-Landwasser|Freiburg Messe/Universität|Freiburg Klinikum"/>
+		<dp pt="2505290536" pp="7" l="1" ppth="Freiburg-Wiehre|Freiburg-Littenweiler|Kirchzarten|Himmelreich|Hinterzarten|Titisee|Neustadt(Schwarzw)|Rötenbach(Baden)|Löffingen|Bachheim|Unadingen|Döggingen|Hüfingen Mitte|Donaueschingen|Donaueschingen Mitte/Siedlung|Brigachtal Klengen|Brigachtal Kirchdorf|Marbach West(Villingen-Schwenningen)|Villingen(Schwarzw)"/>
+	</s>
+	<s id="-6004557489205239816-2505290508-2">
+		<tl f="F" t="p" o="80" c="ICE" n="474"/>
+		<ar pt="2505290540" pp="1" ppth="Basel Bad Bf"/>
+		<dp pt="2505290541" pp="1" ppth="Baden-Baden|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Kassel-Wilhelmshöhe|Göttingen|Hannover Messe/Laatzen|Hannover Hbf|Hamburg Hbf|Hamburg Dammtor|Neumünster|Kiel Hbf"/>
+	</s>
+	<s id="7324599449476517398-2505290406-20">
+		<tl f="N" t="p" o="8006C4" c="RB" n="17150"/>
+		<ar pt="2505290510" pp="4" l="27" ppth="Basel Bad Bf|Weil am Rhein|Haltingen|Eimeldingen|Efringen-Kirchen|Istein|Kleinkems|Rheinweiler|Bad Bellingen|Schliengen|Auggen|Müllheim im Markgräflerland|Buggingen|Heitersheim|Bad Krozingen|Norsingen|Schallstadt|Ebringen|Freiburg-St Georgen"/>
+	</s>
+</timetable>

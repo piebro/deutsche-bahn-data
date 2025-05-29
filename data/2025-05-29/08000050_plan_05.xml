@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<timetable station="Bremen Hbf">
+	<s id="-2219451915632335541-2505290517-1">
+		<tl f="N" t="p" o="800295" c="RE" n="4443"/>
+		<dp pt="2505290517" pp="5" l="1" ppth="Bremen-Mahndorf|Achim|Verden(Aller)|Dörverden|Eystrup|Nienburg(Weser)|Neustadt am Rübenberge|Wunstorf|Hannover Hbf"/>
+	</s>
+	<s id="6934699668924356050-2505290420-10">
+		<tl f="N" t="p" o="800295" c="RE" n="4448"/>
+		<ar pt="2505290539" pp="7" l="8" ppth="Hannover Hbf|Wunstorf|Neustadt am Rübenberge|Nienburg(Weser)|Eystrup|Dörverden|Verden(Aller)|Achim|Bremen-Mahndorf"/>
+	</s>
+	<s id="-135934637287446585-2505290558-1">
+		<tl f="D" t="p" o="R1" c="ME" n="81908"/>
+		<dp pt="2505290558" pp="9" l="RB41" ppth="Bremen-Oberneuland|Sagehorn|Ottersberg(Han)|Sottrum|Rotenburg(Wümme)|Scheeßel|Lauenbrück|Tostedt|Sprötze|Buchholz(Nordheide)|Klecken|Hittfeld|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="5769559680701882536-2505290553-1">
+		<tl f="N" t="p" o="NZ" c="RE" n="52438"/>
+		<dp pt="2505290553" pp="3" l="56" ppth="Delmenhorst|Hude|Oldenburg(Oldb)Hbf|Bad Zwischenahn|Westerstede-Ocholt|Augustfehn|Leer(Ostfriesl)|Emden Hbf|Marienhafe|Norden|Norddeich|Norddeich Mole"/>
+	</s>
+	<s id="-3011290278229936684-2505290553-1">
+		<tl f="F" t="p" o="80" c="IC" n="2438"/>
+		<dp pt="2505290553" pp="3" wings="5769559680701882536-2505290553" ppth="Delmenhorst|Hude|Oldenburg(Oldb)Hbf|Bad Zwischenahn|Westerstede-Ocholt|Augustfehn|Leer(Ostfriesl)|Emden Hbf|Marienhafe|Norden|Norddeich|Norddeich Mole"/>
+	</s>
+	<s id="-1242935073022339718-2505290504-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="83192"/>
+		<dp pt="2505290504" pp="5" l="RS1" ppth="Bremen-Walle|Bremen-Oslebshausen|Bremen-Burg|Bremen-Lesum|Bremen-St Magnus|Bremen-Schönebeck|Bremen-Vegesack"/>
+	</s>
+	<s id="-3981055665609001332-2505290440-3">
+		<tl f="F" t="p" o="80" c="ICE" n="841"/>
+		<ar pt="2505290508" pp="1" ppth="Oldenburg(Oldb)Hbf|Delmenhorst"/>
+		<dp pt="2505290510" pp="1" ppth="Verden(Aller)|Nienburg(Weser)|Hannover Hbf|Wolfsburg Hbf|Stendal Hbf|Berlin-Spandau|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="5730796502908319929-2505290535-8">
+		<tl f="D" t="p" o="N1" c="NWB" n="83189"/>
+		<ar pt="2505290554" pp="5" l="RS1" ppth="Bremen-Vegesack|Bremen-Schönebeck|Bremen-St Magnus|Bremen-Lesum|Bremen-Burg|Bremen-Oslebshausen|Bremen-Walle"/>
+	</s>
+</timetable>
