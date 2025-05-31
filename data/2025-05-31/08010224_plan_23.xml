@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<timetable station="Magdeburg Hbf">
+	<s id="4447890004106418758-2505311851-12">
+		<tl f="F" t="p" o="80" c="ICE" n="645"/>
+		<ar pt="2505312305" pp="" ppth="Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Bielefeld Hbf|Minden(Westf)|Hannover Hbf|Wolfsburg Hbf"/>
+		<dp pt="2505312316" pp="" ppth="Berlin-Spandau|Berlin Zoologischer Garten|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="58133983524038883-2505312321-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="73794"/>
+		<dp pt="2505312321" pp="6 D-G" l="1" ppth="Magdeburg-Neustadt|Magdeburg Herrenkrug|Biederitz|Gerwisch|Möser|Burg(Magdeburg)|Güsen(b Genthin)|Genthin|Wusterwitz|Kirchmöser|Brandenburg Hbf|Götz|Groß Kreutz|Werder(Havel)|Potsdam Park Sanssouci|Potsdam Charlottenhof|Potsdam Hbf"/>
+	</s>
+	<s id="-462852272572806563-2505312310-1">
+		<tl f="S" t="p" o="800489" c="S" n="39036"/>
+		<dp pt="2505312310" pp="1" l="1" ppth="Magdeburg-Neustadt|Magdeburg-Eichenweiler|Magdeburg-Rothensee|Wolmirstedt|Zielitz Ort|Zielitz|Angern-Rogätz|Mahlwinkel|Tangerhütte|Demker|Stendal Hbf"/>
+	</s>
+	<s id="-752329130849343138-2505312307-1">
+		<tl f="N" t="p" o="800489" c="RE" n="16341"/>
+		<dp pt="2505312307" pp="2 A-C" l="30" tra="-790877867127436268-2505312102-17" ppth="Magdeburg-Buckau|Magdeburg Südost|Schönebeck(Elbe)|Schönebeck-Felgeleben|Gnadau|Calbe(Saale) Ost|Sachsendorf(Calbe)|Wulfen(Anh)|Köthen|Arensdorf(Köthen)|Weißandt-Gölzau|Stumsdorf|Niemberg|Zöberitz|Halle(Saale)Hbf"/>
+	</s>
+	<s id="9111145155358191355-2505312308-11">
+		<tl f="N" t="p" o="800489" c="RB" n="16441"/>
+		<ar pt="2505312352" pp="9" l="40" ppth="Helmstedt|Marienborn|Wefensleben|Eilsleben(b Magdeburg)|Ovelgünne|Dreileben-Drackenstedt|Ochtmersleben|Wellen(Magdeburg)|Niederndodeleben|Magdeburg-Sudenburg"/>
+	</s>
+	<s id="-790877867127436268-2505312102-17">
+		<tl f="N" t="p" o="800489" c="RE" n="16955"/>
+		<ar pt="2505312302" pp="2 A-C" l="20" tra="-752329130849343138-2505312307-1" ppth="Uelzen|Stederdorf(Kr Uelzen)|Wieren|Soltendieck|Schnega|Salzwedel|Pretzier(Altm)|Fleetmark|Brunau-Packebusch|Hohenwulsch|Kläden(Stendal)|Steinfeld(Stendal)|Stendal Hbf|Tangerhütte|Wolmirstedt|Magdeburg-Neustadt"/>
+	</s>
+	<s id="2757151696284905279-2505312347-1">
+		<tl f="N" t="p" o="800489" c="RB" n="16438"/>
+		<dp pt="2505312347" pp="4" l="40" ppth="Magdeburg-Sudenburg|Niederndodeleben|Wellen(Magdeburg)|Ochtmersleben|Dreileben-Drackenstedt|Ovelgünne|Eilsleben(b Magdeburg)|Wefensleben|Marienborn|Helmstedt"/>
+	</s>
+	<s id="4121683295209577191-2505312146-5">
+		<tl f="F" t="p" o="80" c="ICE" n="271"/>
+		<ar pt="2505312338" pp="" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Spandau"/>
+		<dp pt="2505312349" pp="" ppth="Stendal Hbf|Wolfsburg Hbf|Hannover Hbf|Göttingen|Fulda|Hanau Hbf|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB|Sargans|Landquart|Chur"/>
+	</s>
+	<s id="9016403526930832374-2505311845-6">
+		<tl f="F" t="p" o="80" c="ICE" n="655"/>
+		<ar pt="2505312251" pp="" ppth="Köln Hbf|Wuppertal Hbf|Hagen Hbf|Bielefeld Hbf|Hannover Hbf"/>
+		<dp pt="2505312301" pp="" ppth="Berlin-Spandau|Berlin Zoologischer Garten|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="-84631522691913405-2505312207-18">
+		<tl f="N" t="p" o="OWRE" c="RE" n="73791"/>
+		<ar pt="2505312340" pp="8" l="1" ppth="Potsdam Hbf|Potsdam Charlottenhof|Potsdam Park Sanssouci|Werder(Havel)|Groß Kreutz|Götz|Brandenburg Hbf|Kirchmöser|Wusterwitz|Genthin|Güsen(b Genthin)|Burg(Magdeburg)|Möser|Gerwisch|Biederitz|Magdeburg Herrenkrug|Magdeburg-Neustadt"/>
+	</s>
+	<s id="266998012410083520-2505312238-3">
+		<tl t="p" o="RSMD" c="Bus" n="11410"/>
+		<ar pt="2505312317" pp="" l="RB41" ppth="Schönebeck(Elbe)|Magdeburg-Buckau"/>
+	</s>
+	<s id="1026898644105813975-2505312320-1">
+		<tl t="p" o="RSMD" c="SMD" n="80528"/>
+		<dp pt="2505312320" pp="6 A-C" l="RE11" wings="2321573505072103913-2505312320" ppth="Magdeburg-Buckau|Magdeburg SKET Industriepark|Beyendorf|Dodendorf|Osterweddingen|Langenweddingen|Hadmersleben|Oschersleben(Bode)|Nienhagen(Halberst)|Halberstadt Hbf|Wegeleben|Ditfurt|Quedlinburg|Neinstedt|Thale Musestieg|Thale Hbf"/>
+	</s>
+	<s id="1116577686148397167-2505311613-15">
+		<tl f="F" t="p" o="80" c="ICE" n="274"/>
+		<ar pt="2505312320" pp="" ppth="Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Hanau Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hildesheim Hbf|Braunschweig Hbf|Wolfsburg Hbf"/>
+		<dp pt="2505312331" pp="" ppth="Berlin-Spandau|Berlin Zoologischer Garten|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="4418601203457559951-2505312327-1">
+		<tl t="p" o="RSMD" c="SMD" n="80384"/>
+		<dp pt="2505312327" pp="5" l="RB36" ppth="Magdeburg-Neustadt|Magdeburg-Eichenweiler|Barleben|Meitzendorf|Groß Ammensleben|Vahldorf|Haldensleben"/>
+	</s>
+	<s id="2321573505072103913-2505312320-1">
+		<tl t="p" o="RSMD" c="SMD" n="75766"/>
+		<dp pt="2505312320" pp="6 A-C" l="RE21" ppth="Magdeburg-Buckau|Magdeburg SKET Industriepark|Beyendorf|Dodendorf|Osterweddingen|Langenweddingen|Hadmersleben|Oschersleben(Bode)|Nienhagen(Halberst)|Halberstadt Hbf|Wernigerode Hbf|Wernigerode Elmowerk|Darlingerode|Ilsenburg"/>
+	</s>
+	<s id="-2307147161920068908-2505312257-12">
+		<tl f="S" t="p" o="800489" c="S" n="39041"/>
+		<ar pt="2505312345" pp="2" l="1" ppth="Stendal Hbf|Demker|Tangerhütte|Mahlwinkel|Angern-Rogätz|Zielitz|Zielitz Ort|Wolmirstedt|Magdeburg-Rothensee|Magdeburg-Eichenweiler|Magdeburg-Neustadt"/>
+	</s>
+	<s id="-57927306437958961-2505312317-1">
+		<tl f="N" t="p" o="8004A9" c="RE" n="16159"/>
+		<dp pt="2505312317" pp="7" l="13" ppth="Magdeburg-Neustadt|Magdeburg Herrenkrug|Biederitz|Königsborn|Wahlitz|Gommern|Prödel|Lübs(Magdeburg)|Güterglück|Zerbst/Anhalt|Rodleben|Roßlau(Elbe)|Dessau Hbf"/>
+	</s>
+</timetable>
