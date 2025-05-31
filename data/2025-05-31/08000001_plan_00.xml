@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<timetable station="Aachen Hbf">
+	<s id="217231491871653781-2505310030-1">
+		<tl t="p" o="B2" c="Bus" n="1808"/>
+		<dp pt="2505310030" pp="" l="RE18" ppth="Aachen West|Herzogenrath|Eygelshoven Markt|Landgraaf|Heerlen"/>
+	</s>
+	<s id="8790816678984756212-2505302324-6">
+		<tl t="p" o="B2" c="Bus" n="1805"/>
+		<ar pt="2505310027" pp="" l="RE18" ppth="Heerlen|Landgraaf|Eygelshoven Markt|Herzogenrath|Aachen West"/>
+	</s>
+	<s id="2949693812661161775-2505302351-6">
+		<tl f="N" t="p" o="NXRE" c="RE" n="94134"/>
+		<ar pt="2505310019" pp="7" l="1" ppth="Düren|Langerwehe|Eschweiler Hbf|Stolberg(Rheinl)Hbf|Aachen-Rothe Erde"/>
+	</s>
+	<s id="5033462916554808430-2505310028-1">
+		<tl f="N" t="p" o="NXRE" c="RE" n="94127"/>
+		<dp pt="2505310028" pp="7" l="1" ppth="Aachen-Rothe Erde|Stolberg(Rheinl)Hbf|Eschweiler Hbf|Langerwehe|Düren"/>
+	</s>
+	<s id="8149297999640529689-2505310037-1">
+		<tl f="N" t="p" o="800333" c="RB" n="10300"/>
+		<dp pt="2505310037" pp="6" l="33" wings="-4528361791873529800-2505310037" ppth="Aachen Schanz|Aachen West|Kohlscheid|Herzogenrath|Übach-Palenberg|Geilenkirchen|Lindern|Brachelen|Hückelhoven-Baal|Erkelenz|Herrath|Wickrath|Rheydt Hbf|Mönchengladbach Hbf|Viersen|Anrath|Forsthaus|Krefeld Hbf|Krefeld-Oppum|Krefeld-Linn|Krefeld-Uerdingen|Krefeld-Hohenbudberg Chempark|Rheinhausen|Rheinhausen Ost|Duisburg-Hochfeld Süd|Duisburg Hbf"/>
+	</s>
+	<s id="-4528361791873529800-2505310037-1">
+		<tl f="N" t="p" o="800333" c="RB" n="10350"/>
+		<dp pt="2505310037" pp="6" l="33" ppth="Aachen Schanz|Aachen West|Kohlscheid|Herzogenrath|Übach-Palenberg|Geilenkirchen|Lindern|Heinsberg-Randerath|Heinsberg-Horst|Heinsberg-Porselen|Heinsberg-Dremmen|Heinsberg-Oberbruch|Heinsberg Kreishaus|Heinsberg(Rheinl)"/>
+	</s>
+	<s id="-2262821027578570368-2505302350-5">
+		<tl t="p" o="B2" c="Bus" n="2009"/>
+		<ar pt="2505310020" pp="" l="RB20" ppth="Herzogenrath|Kohlscheid|Aachen West|Aachen Schanz"/>
+		<dp pt="2505310020" pp="" l="RB20" ppth="Aachen-Rothe Erde|Eilendorf|Stolberg(Rheinl)Hbf|Stolberg-Schneidmühle|Stolberg-Mühlener Bahnhof|Stolberg-Rathaus"/>
+	</s>
+	<s id="5934311296443830033-2505310011-1">
+		<tl t="p" o="B2" c="Bus" n="2008"/>
+		<dp pt="2505310011" pp="" l="RB20" ppth="Aachen Schanz|Aachen West|Kohlscheid|Herzogenrath|Herzogenrath-Alt-Merkstein|Herzogenrath-August-Schmidt-Platz|Alsdorf-Busch|Alsdorf-Annapark"/>
+	</s>
+	<s id="-1095863660843387454-2505302235-27">
+		<tl f="N" t="p" o="800333" c="RB" n="10347"/>
+		<ar pt="2505310027" pp="6" l="33" ppth="Duisburg Hbf|Duisburg-Hochfeld Süd|Rheinhausen Ost|Rheinhausen|Krefeld-Hohenbudberg Chempark|Krefeld-Uerdingen|Krefeld-Linn|Krefeld-Oppum|Krefeld Hbf|Forsthaus|Anrath|Viersen|Mönchengladbach Hbf|Rheydt Hbf|Wickrath|Herrath|Erkelenz|Hückelhoven-Baal|Brachelen|Lindern|Geilenkirchen|Übach-Palenberg|Herzogenrath|Kohlscheid|Aachen West|Aachen Schanz"/>
+	</s>
+</timetable>
