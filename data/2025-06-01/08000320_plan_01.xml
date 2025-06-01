@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="Rosenheim">
+	<s id="5069589255347072550-2505312246-7">
+		<tl f="F" t="p" o="80" c="IC" n="461"/>
+		<ar pt="2506010139" pp="4" ppth="Stuttgart Hbf|Ulm Hbf|Augsburg Hbf|München-Pasing|München Hbf|München Ost"/>
+		<dp pt="2506010144" pp="4" ppth="Traunstein|Freilassing|Salzburg Hbf|Neumarkt am Wallersee|Vöcklabruck|Attnang-Puchheim|Wels Hbf|Linz Hbf|St. Valentin|Amstetten NÖ|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="5049461118844353393-2505312128-14">
+		<tl f="F" t="p" o="81" c="IC" n="460"/>
+		<ar pt="2506010151" pp="2" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Amstetten NÖ|St. Valentin|Linz Hbf|Wels Hbf|Attnang-Puchheim|Vöcklabruck|Neumarkt am Wallersee|Salzburg Hbf|Freilassing|Traunstein"/>
+		<dp pt="2506010153" pp="2" ppth="München Ost|München Hbf Gl.5-10|München-Pasing|Augsburg Hbf|Ulm Hbf|Stuttgart Hbf"/>
+	</s>
+	<s id="1196901638743974227-2506010053-7">
+		<tl f="D" t="p" o="M8" c="BRB" n="79163"/>
+		<ar pt="2506010150" pp="4" l="RB54" wings="346306083456569278-2506010053" ppth="München Hbf Gl.5-10|München Ost|Grafing Bahnhof|Aßling(Oberbay)|Ostermünchen|Großkarolinenfeld"/>
+		<dp pt="2506010200" pp="4" l="RB54" ppth="Raubling|Brannenburg|Flintsbach|Oberaudorf|Kiefersfelden|Kufstein"/>
+	</s>
+	<s id="346306083456569278-2506010053-7">
+		<tl f="D" t="p" o="M8" c="BRB" n="79401"/>
+		<ar pt="2506010150" pp="4" l="RE5" ppth="München Hbf Gl.5-10|München Ost|Grafing Bahnhof|Aßling(Oberbay)|Ostermünchen|Großkarolinenfeld"/>
+		<dp pt="2506010205" pp="4" l="RE5" ppth="Bad Endorf|Prien am Chiemsee|Bernau a Chiemsee|Übersee|Bergen(Oberbay)|Traunstein|Teisendorf|Freilassing"/>
+	</s>
+</timetable>
