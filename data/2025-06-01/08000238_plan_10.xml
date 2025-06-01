@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<timetable station="Lüneburg">
+	<s id="-5551015773134005548-2506011030-1">
+		<tl f="D" t="p" o="X1" c="erx" n="56014"/>
+		<dp pt="2506011030" pp="5" l="RE83" ppth="Echem|Lauenburg(Elbe)|Büchen"/>
+	</s>
+	<s id="-1494893474156392079-2506011032-1">
+		<tl f="D" t="p" o="R1" c="ME" n="81616"/>
+		<dp pt="2506011032" pp="6" l="RB31" ppth="Bardowick|Radbruch|Winsen(Luhe)|Ashausen|Stelle|Maschen|Meckelfeld|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="5337043510026542063-2506010950-4">
+		<tl f="D" t="p" o="X1" c="erx" n="56011"/>
+		<ar pt="2506011015" pp="5" l="RE83" ppth="Büchen|Lauenburg(Elbe)|Echem"/>
+	</s>
+	<s id="-5959358126767996816-2506011001-4">
+		<tl f="D" t="p" o="R1" c="ME" n="82116"/>
+		<ar pt="2506011024" pp="3" l="RE3" ppth="Uelzen|Bad Bevensen|Bienenbüttel"/>
+		<dp pt="2506011028" pp="3" l="RE3" ppth="Winsen(Luhe)|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="-3680388747366275612-2506010933-10">
+		<tl f="D" t="p" o="R1" c="ME" n="81617"/>
+		<ar pt="2506011023" pp="6" l="RB31" ppth="Hamburg Hbf|Hamburg-Harburg|Meckelfeld|Maschen|Stelle|Ashausen|Winsen(Luhe)|Radbruch|Bardowick"/>
+	</s>
+	<s id="-5592824990971072116-2506011013-5">
+		<tl f="F" t="p" o="80" c="ICE" n="1579"/>
+		<ar pt="2506011057" pp="1" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg"/>
+		<dp pt="2506011059" pp="1" ppth="Uelzen|Celle|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Treysa|Marburg(Lahn)|Gießen|Friedberg(Hess)|Frankfurt(Main)Hbf|Darmstadt Hbf|Bensheim|Weinheim(Bergstr)Hbf|Heidelberg Hbf|Wiesloch-Walldorf|Bruchsal|Karlsruhe Hbf"/>
+	</s>
+	<s id="3052352470445208682-2506010957-4">
+		<tl f="D" t="p" o="R1" c="ME" n="82117"/>
+		<ar pt="2506011033" pp="1" l="RE3" ppth="Hamburg Hbf|Hamburg-Harburg|Winsen(Luhe)"/>
+		<dp pt="2506011034" pp="1" l="RE3" ppth="Bienenbüttel|Bad Bevensen|Uelzen"/>
+	</s>
+</timetable>
