@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<timetable station="Würzburg Hbf">
+	<s id="-6813803786124510421-2506031935-9">
+		<tl t="p" o="81" c="NJ" n="40490"/>
+		<ar pt="2506040338" pp="6" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Passau Hbf|Regensburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2506040340" pp="6" ppth="Kassel-Wilhelmshöhe|Hamm(Westf)Hbf|Münster(Westf)Hbf|Deventer|Amersfoort Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="3272146161175325165-2506032046-8">
+		<tl t="p" o="81" c="NJ" n="420"/>
+		<ar pt="2506040338" pp="6" wings="-6813803786124510421-2506031935" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Hbf|Nürnberg Hbf"/>
+		<dp pt="2506040340" pp="6" wings="-6813803786124510421-2506031935" ppth="Kassel-Wilhelmshöhe|Hamm(Westf)Hbf|Münster(Westf)Hbf|Deventer|Amersfoort Centraal|Amsterdam Centraal"/>
+	</s>
+</timetable>

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="Augsburg Hbf">
+	<s id="-3320823616504360835-2506040415-12">
+		<tl f="N" t="p" o="GYRB" c="RB" n="57105"/>
+		<ar pt="2506040455" pp="8 C-E" l="87" ppth="Donauwörth|Bäumenheim|Mertingen Bahnhof|Nordendorf|Westendorf|Meitingen|Herbertshofen|Langweid(Lech)|Gablingen|Gersthofen|Augsburg-Oberhausen"/>
+		<dp pt="2506040501" pp="8 C-E" l="87" ppth="Augsburg Haunstetterstraße|Augsburg-Hochzoll|Kissing|Mering-St Afra|Mering|Althegnenberg|Haspelmoor|Mammendorf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-6568101061024225189-2506040441-2">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86501"/>
+		<ar pt="2506040445" pp="7 A-C" l="RB67" ppth="Augsburg-Oberhausen"/>
+		<dp pt="2506040448" pp="7 A-C" l="RB67" ppth="Augsburg Haunstetterstraße|Augsburg-Hochzoll|Kissing|Mering-St Afra|Mering|Merching|Schmiechen(Schwab)|Egling|Walleshausen|Geltendorf|St Ottilien|Schondorf(Bay)|Utting|Riederau|St Alban|Dießen|Raisting|Weilheim(Oberbay)|Peißenberg Nord|Peißenberg"/>
+	</s>
+	<s id="8737320772759093957-2506040450-1">
+		<tl f="N" t="p" o="8007D4" c="RE" n="57400"/>
+		<dp pt="2506040450" pp="10 C-E" l="79" ppth="Augsburg Morellstr.|Augsburg Messe|Inningen|Bobingen|Schwabmünchen|Buchloe|Kaufbeuren|Biessenhofen|Günzach|Kempten(Allgäu)Hbf"/>
+	</s>
+	<s id="7536485922280434660-2506040432-1">
+		<tl f="N" t="p" o="GYRB" c="RB" n="57003"/>
+		<dp pt="2506040432" pp="8 A-C" l="87" ppth="Augsburg Haunstetterstraße|Augsburg-Hochzoll|Kissing|Mering-St Afra|Mering|München-Pasing|München Hbf"/>
+	</s>
+	<s id="1847313071699172804-2506040407-3">
+		<tl f="F" t="p" o="80" c="ICE" n="1068"/>
+		<ar pt="2506040441" pp="1" ppth="München Hbf|München-Pasing"/>
+		<dp pt="2506040443" pp="1" ppth="Ulm Hbf|Stuttgart Hbf|Karlsruhe Hbf"/>
+	</s>
+	<s id="-4818673389474582712-2506040425-8">
+		<tl f="N" t="p" o="GYRB" c="RB" n="57005"/>
+		<ar pt="2506040451" pp="8" l="86" ppth="Dinkelscherben|Kutzenhausen|Gessertshausen|Diedorf(Schwab)|Westheim(Schwab)|Neusäß|Augsburg-Oberhausen"/>
+		<dp pt="2506040501" pp="8" l="86" wings="-3320823616504360835-2506040415" ppth="Augsburg Haunstetterstraße|Augsburg-Hochzoll|Kissing|Mering-St Afra|Mering|Althegnenberg|Haspelmoor|Mammendorf|München-Pasing|München Hbf"/>
+	</s>
+</timetable>

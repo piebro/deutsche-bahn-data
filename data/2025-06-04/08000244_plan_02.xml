@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<timetable station="Mannheim Hbf">
+	<s id="6506105724695131324-2506040257-1">
+		<tl t="p" o="81" c="NJ" n="478"/>
+		<dp pt="2506040257" pp="5" hi="1" ppth="Mainz Hbf|Bonn-Beuel|Köln Hbf|Aachen Hbf|Liège-Guillemins|Bruxelles-Nord|Bruxelles Midi"/>
+	</s>
+	<s id="7474414276230536927-2506031833-18">
+		<tl f="F" t="p" o="80" c="ICE" n="619"/>
+		<ar pt="2506040202" pp="8" ppth="Kiel Hbf|Neumünster|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Osnabrück Hbf|Münster(Westf)Hbf|Dortmund Hbf|Bochum Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Hbf|Siegburg/Bonn|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf"/>
+		<dp pt="2506040204" pp="8" ppth="Heidelberg Hbf|Stuttgart Hbf|Ulm Hbf|Günzburg|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="3219111170828539127-2506032308-20">
+		<tl t="p" o="801518" c="Bus" n="98685"/>
+		<ar pt="2506040206" pp="" l="S6" ppth="Mainz Hbf|Mainz Römisches Theater|Mainz-Laubenheim|Bodenheim|Nackenheim|Nierstein|Oppenheim|Dienheim|Guntersblum|Mettenheim|Alsheim|Osthofen|Worms Hbf|Bobenheim|Frankenthal Hbf|Frankenthal Süd|Ludwigshafen-Oggersheim|Ludwigshafen(Rh)Hbf|Ludwigshafen(Rhein) Mitte"/>
+	</s>
+	<s id="3178546308999030105-2506031804-7">
+		<tl t="p" o="81" c="NJ" n="40468"/>
+		<ar pt="2506040213" pp="5" hi="1" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Passau Hbf|Nürnberg Hbf"/>
+		<dp pt="2506040257" pp="5" hi="1" ppth="Mainz Hbf|Bonn-Beuel|Köln Hbf|Aachen Hbf|Liège-Guillemins|Bruxelles-Nord|Bruxelles Midi"/>
+	</s>
+	<s id="8016523767626847908-2506031804-7">
+		<tl t="p" o="81" c="NJ" n="468"/>
+		<ar pt="2506040213" pp="4" hi="1" wings="3178546308999030105-2506031804" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Passau Hbf|Nürnberg Hbf"/>
+		<dp pt="2506040400" pp="4" hi="1" wings="-344271757147009936-2506031855" ppth="Paris Est"/>
+	</s>
+</timetable>

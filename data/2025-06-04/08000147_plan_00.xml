@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg-Harburg">
+	<s id="-6343647441292652630-2506040033-2">
+		<tl f="D" t="p" o="R1" c="ME" n="81647"/>
+		<ar pt="2506040044" pp="4" l="RB31" ppth="Hamburg Hbf"/>
+		<dp pt="2506040045" pp="4" l="RB31" ppth="Meckelfeld|Maschen|Stelle|Ashausen|Winsen(Luhe)|Radbruch|Bardowick|Lüneburg|Bienenbüttel|Bad Bevensen|Uelzen"/>
+	</s>
+	<s id="-5040855886902453859-2506031502-15">
+		<tl f="F" t="p" o="80" c="ICE" n="514"/>
+		<ar pt="2506040001" pp="2" ppth="München Hbf|München-Pasing|Augsburg Hbf|Ulm Hbf|Stuttgart Hbf|Mannheim Hbf|Frankfurt(M) Flughafen Fernbf|Köln Hbf|Solingen Hbf|Düsseldorf Hbf|Dortmund Hbf|Münster(Westf)Hbf|Osnabrück Hbf|Bremen Hbf"/>
+		<dp pt="2506040003" pp="2" hi="1" ppth="Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="4760651137475633059-2506032359-8">
+		<tl f="D" t="p" o="R1" c="ME" n="81644"/>
+		<ar pt="2506040056" pp="4" l="RB31" ppth="Uelzen|Bad Bevensen|Bienenbüttel|Lüneburg|Bardowick|Radbruch|Winsen(Luhe)"/>
+		<dp pt="2506040057" pp="4" l="RB31" ppth="Hamburg Hbf"/>
+	</s>
+	<s id="-8273732431140914832-2506032354-2">
+		<tl t="p" o="R1" c="Bus" n="3305"/>
+		<ar pt="2506040008" pp="" l="EV" ppth="Meckelfeld"/>
+	</s>
+	<s id="-1810148006535098573-2506040021-1">
+		<tl t="p" o="R1" c="Bus" n="3308"/>
+		<dp pt="2506040021" pp="" l="EV" ppth="Meckelfeld"/>
+	</s>
+	<s id="-5610966871480323789-2506032312-14">
+		<tl f="D" t="p" o="R1" c="ME" n="81942"/>
+		<ar pt="2506040034" pp="2" l="RB41" ppth="Bremen Hbf|Bremen-Oberneuland|Sagehorn|Ottersberg(Han)|Sottrum|Rotenburg(Wümme)|Scheeßel|Lauenbrück|Tostedt|Sprötze|Buchholz(Nordheide)|Klecken|Hittfeld"/>
+		<dp pt="2506040035" pp="2" l="RB41" ppth="Hamburg Hbf"/>
+	</s>
+	<s id="-4550435493069381661-2506032306-11">
+		<tl f="D" t="p" o="R1" c="ME" n="81642"/>
+		<ar pt="2506040015" pp="4" l="RB31" ppth="Uelzen|Bad Bevensen|Bienenbüttel|Lüneburg|Bardowick|Radbruch|Winsen(Luhe)|Ashausen|Stelle|Maschen"/>
+		<dp pt="2506040016" pp="4" l="RB31" ppth="Hamburg Hbf"/>
+	</s>
+	<s id="-1290839640796586839-2506031818-12">
+		<tl f="F" t="p" o="80" c="ICE" n="782"/>
+		<ar pt="2506040012" pp="4" ppth="München Hbf|Ingolstadt Hbf|Nürnberg Hbf|Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen|Lüneburg"/>
+		<dp pt="2506040014" pp="4" hi="1" ppth="Hamburg Hbf"/>
+	</s>
+</timetable>

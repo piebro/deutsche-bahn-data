@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<timetable station="Mainz Hbf">
+	<s id="7582314568044505717-2506032015-6">
+		<tl f="F" t="p" o="NZ" c="IC" n="60403"/>
+		<ar pt="2506040158" pp="4a/b" ppth="Amsterdam Centraal|Utrecht Centraal|Eindhoven Centraal|Bonn Hbf|Koblenz Hbf"/>
+		<dp pt="2506040200" pp="4a/b" ppth="Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="3645384801179095957-2506040102-3">
+		<tl t="p" o="B4" c="Bus" n="8289"/>
+		<ar pt="2506040125" pp="" l="S8E" ppth="Wiesbaden Hbf|Biebrich Bahnhof Wiesbaden Ost, Wiesbaden"/>
+	</s>
+	<s id="-5851721557238592488-2506032015-6">
+		<tl t="p" o="84" c="NJ" n="403"/>
+		<ar pt="2506040158" pp="4a/b" hi="1" wings="7582314568044505717-2506032015" ppth="Amsterdam Centraal|Utrecht Centraal|Eindhoven Centraal|Bonn Hbf|Koblenz Hbf"/>
+		<dp pt="2506040200" pp="4a/b" hi="1" wings="7582314568044505717-2506032015" ppth="Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="1403660328108933192-2506040121-13">
+		<tl f="S" t="p" o="800528" c="S" n="55926"/>
+		<ar pt="2506040158" pp="" l="8" ppth="Frankfurt(Main)Hbf|Frankfurt-Niederrad|Frankfurt am Main - Stadion|Frankfurt(Main)-Gateway Gardens|Frankfurt(M) Flughafen Regionalbf|Kelsterbach|Raunheim|Rüsselsheim|Rüsselsheim Opelwerk|Mainz-Bischofsheim|Mainz-Gustavsburg|Mainz Römisches Theater"/>
+	</s>
+	<s id="2016656486718619580-2506040048-4">
+		<tl f="S" t="p" o="800528" c="S" n="35887"/>
+		<ar pt="2506040100" pp="5a" l="8" ppth="Wiesbaden Hbf|Wiesbaden Ost|Mainz Nord"/>
+		<dp pt="2506040102" pp="5a" l="8" ppth="Mainz Römisches Theater|Mainz-Gustavsburg|Mainz-Bischofsheim|Rüsselsheim Opelwerk|Rüsselsheim|Raunheim|Kelsterbach|Frankfurt(M) Flughafen Regionalbf|Frankfurt(Main)-Gateway Gardens|Frankfurt am Main - Stadion|Frankfurt-Niederrad|Frankfurt(Main)Hbf|Mühlheim(Main)|Mühlheim(Main)-Dietesheim|Steinheim(Main)|Hanau Hbf"/>
+	</s>
+	<s id="-7508169084222145372-2506040106-1">
+		<tl t="p" o="B4" c="Bus" n="8220"/>
+		<dp pt="2506040106" pp="" l="S8E" ppth="Biebrich Bahnhof Wiesbaden Ost, Wiesbaden|Wiesbaden Hbf"/>
+	</s>
+	<s id="725440059721760628-2506040132-1">
+		<tl f="S" t="p" o="800528" c="S" n="36789"/>
+		<dp pt="2506040132" pp="1a" l="8" ppth="Mainz Römisches Theater|Mainz-Gustavsburg|Mainz-Bischofsheim|Rüsselsheim Opelwerk|Rüsselsheim|Raunheim|Kelsterbach|Frankfurt(M) Flughafen Regionalbf|Frankfurt(Main)-Gateway Gardens|Frankfurt am Main - Stadion|Frankfurt-Niederrad|Frankfurt Hbf (tief)|Frankfurt(M)Taunusanlage|Frankfurt(M)Hauptwache|Frankfurt(M)Konstablerwache"/>
+	</s>
+	<s id="-735106260445585124-2506040132-3">
+		<tl t="p" o="B4" c="Bus" n="8291"/>
+		<ar pt="2506040155" pp="" l="S8E" ppth="Wiesbaden Hbf|Biebrich Bahnhof Wiesbaden Ost, Wiesbaden"/>
+	</s>
+	<s id="4062478160167227433-2506040051-13">
+		<tl f="S" t="p" o="800528" c="S" n="55924"/>
+		<ar pt="2506040128" pp="" l="8" ppth="Frankfurt(Main)Hbf|Frankfurt-Niederrad|Frankfurt am Main - Stadion|Frankfurt(Main)-Gateway Gardens|Frankfurt(M) Flughafen Regionalbf|Kelsterbach|Raunheim|Rüsselsheim|Rüsselsheim Opelwerk|Mainz-Bischofsheim|Mainz-Gustavsburg|Mainz Römisches Theater"/>
+	</s>
+	<s id="6945500966926404610-2506040136-1">
+		<tl t="p" o="B4" c="Bus" n="8222"/>
+		<dp pt="2506040136" pp="" l="S8E" ppth="Biebrich Bahnhof Wiesbaden Ost, Wiesbaden|Wiesbaden Hbf"/>
+	</s>
+</timetable>
