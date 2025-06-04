@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Wolfsburg Hbf">
+	<s id="5597303123860052865-2506041926-11">
+		<tl f="F" t="p" o="80" c="ICE" n="947"/>
+		<ar pt="2506042303" pp="5" ppth="Köln Hbf|Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Bielefeld Hbf|Hannover Hbf"/>
+		<dp pt="2506042304" pp="5" ppth="Berlin-Spandau|Berlin Zoologischer Garten|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="7286983591704120480-2506042321-4">
+		<tl t="p" o="R0" c="ENO" n="83587"/>
+		<ar pt="2506042341" pp="4" l="RE50" ppth="Braunschweig Hbf|Weddel(Braunschw)|Fallersleben"/>
+	</s>
+	<s id="4378451044692913065-2506042233-4">
+		<tl t="p" o="R0" c="Bus" n="3235"/>
+		<ar pt="2506042316" pp="" l="EV" ppth="Gifhorn|Calberlah|Fallersleben"/>
+	</s>
+	<s id="7212250846188793073-2506042345-1">
+		<tl t="p" o="R0" c="Bus" n="3938"/>
+		<dp pt="2506042345" pp="" l="EV" ppth="Fallersleben|Calberlah|Gifhorn"/>
+	</s>
+	<s id="-7260953034263185039-2506042009-7">
+		<tl f="F" t="p" o="80" c="ICE" n="790"/>
+		<ar pt="2506042336" pp="5" ppth="Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Süd|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Messe/Laatzen"/>
+		<dp pt="2506042337" pp="5" ppth="Stendal Hbf|Berlin-Spandau|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="1685709864218984895-2506042318-1">
+		<tl t="p" o="R0" c="ENO" n="83586"/>
+		<dp pt="2506042318" pp="8" l="RE50" ppth="Fallersleben|Weddel(Braunschw)|Braunschweig Hbf"/>
+	</s>
+	<s id="9024658818508190993-2506042320-1">
+		<tl t="p" o="RSMD" c="SMD" n="80385"/>
+		<dp pt="2506042320" pp="9" l="RB36" ppth="Oebisfelde|Bösdorf(Sachs-Anh)|Rätzlingen|Wegenstedt|Flechtingen|Haldensleben|Vahldorf|Groß Ammensleben|Meitzendorf|Barleben|Magdeburg-Eichenweiler|Magdeburg-Neustadt|Magdeburg Hbf"/>
+	</s>
+</timetable>
