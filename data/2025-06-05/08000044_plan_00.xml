@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<timetable station="Bonn Hbf">
+	<s id="1760966962120051478-2506050020-1">
+		<tl t="p" o="B2" c="Bus" n="2302"/>
+		<dp pt="2506050020" pp="" l="S23" ppth="Bonn Helmholtzstraße|Bonn-Duisdorf|Alfter-Impekoven|Alfter-Witterschlick"/>
+	</s>
+	<s id="8995734659731062414-2506042344-5">
+		<tl t="p" o="B2" c="Bus" n="2315"/>
+		<ar pt="2506050011" pp="" l="S23" ppth="Alfter-Witterschlick|Alfter-Impekoven|Bonn-Duisdorf|Bonn Helmholtzstraße"/>
+	</s>
+	<s id="1727253806425969981-2506050043-4">
+		<tl f="N" t="p" o="NXRB" c="RB" n="17386"/>
+		<ar pt="2506050053" pp="1" l="48" ppth="Bonn-Mehlem|Bonn-Bad Godesberg|Bonn UN Campus"/>
+		<dp pt="2506050054" pp="1" l="48" ppth="Roisdorf|Sechtem|Brühl|Hürth-Kalscheuren|Köln Süd|Köln West|Köln Hbf"/>
+	</s>
+	<s id="-4890700159633136576-2506042326-17">
+		<tl f="N" t="p" o="TR" c="RB" n="25448"/>
+		<ar pt="2506050031" pp="1" l="26" ppth="Koblenz Hbf|Koblenz Stadtmitte|Koblenz-Lützel|Mülheim-Kärlich|Weißenthurm|Andernach|Namedy|Brohl|Bad Breisig|Sinzig(Rhein)|Remagen|Oberwinter|Rolandseck|Bonn-Mehlem|Bonn-Bad Godesberg|Bonn UN Campus"/>
+		<dp pt="2506050033" pp="1" l="26" ppth="Roisdorf|Sechtem|Brühl|Hürth-Kalscheuren|Köln Süd|Köln West|Köln Hbf"/>
+	</s>
+	<s id="3321732101889754889-2506042307-14">
+		<tl f="N" t="p" o="NXRB" c="RB" n="17379"/>
+		<ar pt="2506050006" pp="3" l="48" ppth="Solingen Hbf|Leichlingen|Opladen|Leverkusen-Manfort|Köln-Mülheim|Köln Messe/Deutz|Köln Hbf|Köln West|Köln Süd|Hürth-Kalscheuren|Brühl|Sechtem|Roisdorf"/>
+		<dp pt="2506050008" pp="3" l="48" ppth="Bonn UN Campus|Bonn-Bad Godesberg|Bonn-Mehlem"/>
+	</s>
+	<s id="-918754718309607115-2506050014-5">
+		<tl t="p" o="B2" c="Bus" n="2317"/>
+		<ar pt="2506050041" pp="" l="S23" ppth="Alfter-Witterschlick|Alfter-Impekoven|Bonn-Duisdorf|Bonn Helmholtzstraße"/>
+	</s>
+	<s id="-3649806636332678942-2506042356-8">
+		<tl f="N" t="p" o="TR" c="RB" n="25447"/>
+		<ar pt="2506050025" pp="3" l="26" ppth="Köln Hbf|Köln West|Köln Süd|Hürth-Kalscheuren|Brühl|Sechtem|Roisdorf"/>
+		<dp pt="2506050027" pp="3" l="26" ppth="Bonn UN Campus|Bonn-Bad Godesberg|Bonn-Mehlem|Rolandseck|Oberwinter|Remagen|Sinzig(Rhein)|Bad Breisig|Brohl|Namedy|Andernach|Weißenthurm|Mülheim-Kärlich|Koblenz-Lützel|Koblenz Stadtmitte|Koblenz Hbf"/>
+	</s>
+</timetable>
