@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<timetable station="Paderborn Hbf">
+	<s id="-3719982820367997836-2506062315-1">
+		<tl f="N" t="p" o="R2RB" c="RB" n="90042"/>
+		<dp pt="2506062315" pp="2" l="89" ppth="Scharmede|Salzkotten|Geseke|Ehringhausen(Kr Lippstadt)|Dedinghausen|Lippstadt|Bad Sassendorf|Soest|Borgeln|Welver|Hamm-Westtünnen|Hamm(Westf)Hbf|Hamm-Bockum-Hövel|Mersch(Westf)|Drensteinfurt|Rinkerode|Münster-Hiltrup|Münster(Westf)Hbf"/>
+	</s>
+	<s id="-1267458957326134472-2506062316-6">
+		<tl t="p" o="NWBus" c="Bus" n="5087"/>
+		<ar pt="2506062359" pp="" l="RB74" ppth="Hövelhof|Paderborn-Sennelager|Paderborn-Schloss Neuhaus|Paderborn Nord|Paderborn Kasseler Tor"/>
+	</s>
+	<s id="-6701522263685907214-2506062315-1">
+		<tl f="D" t="p" o="N2" c="NWB" n="74998"/>
+		<dp pt="2506062315" pp="5" l="RB84" ppth="Altenbeken|Bad Driburg(Westf)|Brakel(Höxter)|Höxter-Ottbergen|Höxter-Godelheim|Höxter Rathaus|Höxter-Lüchtringen|Holzminden"/>
+	</s>
+	<s id="7643928719136820228-2506062110-15">
+		<tl f="D" t="p" o="N2" c="NWB" n="74934"/>
+		<ar pt="2506062305" pp="5" l="RB85" ppth="Göttingen|Lenglern|Lödingsen|Adelebsen|Offensen(Kr North)|Vernawahlshausen|Bodenfelde|Bad Karlshafen|Lauenförde-Beverungen|Beverungen-Wehrden|Höxter-Ottbergen|Brakel(Höxter)|Bad Driburg(Westf)|Altenbeken"/>
+	</s>
+	<s id="-7668229572420232040-2506062203-6">
+		<tl f="N" t="p" o="NXRE" c="RE" n="26738"/>
+		<ar pt="2506062310" pp="1" l="11" ppth="Kassel-Wilhelmshöhe|Hofgeismar|Warburg(Westf)|Willebadessen|Altenbeken"/>
+		<dp pt="2506062312" pp="1" l="11" ppth="Lippstadt|Soest|Hamm(Westf)Hbf"/>
+	</s>
+	<s id="5865238542895507270-2506062307-1">
+		<tl f="S" t="p" o="TDHS" c="S" n="34598"/>
+		<dp pt="2506062307" pp="3" l="5" ppth="Altenbeken|Steinheim(Westf)|Schieder|Lügde|Bad Pyrmont|Emmerthal|Hameln|Bad Münder(Deister)|Springe|Völksen/Eldagsen|Bennigsen|Holtensen/Linderte|Weetzen|Hannover-Linden/Fischerhof|Hannover Bismarckstr.|Hannover Hbf|Hannover-Nordstadt|Hannover-Ledeburg|Hannover-Vinnhorst|Langenhagen Mitte|Langenhagen Pferdemarkt|Hannover Flughafen"/>
+	</s>
+	<s id="-3002932469703720519-2506062302-6">
+		<tl f="N" t="p" o="R2RB" c="RB" n="90679"/>
+		<ar pt="2506062341" pp="4" l="72" ppth="Detmold|Horn-Bad Meinberg|Leopoldstal|Steinheim-Sandebeck|Altenbeken"/>
+	</s>
+	<s id="374896730340570108-2506062203-15">
+		<tl f="S" t="p" o="TDHS" c="S" n="34587"/>
+		<ar pt="2506062346" pp="3" l="5" ppth="Hannover-Linden/Fischerhof|Weetzen|Holtensen/Linderte|Bennigsen|Völksen/Eldagsen|Springe|Bad Münder(Deister)|Hameln|Emmerthal|Bad Pyrmont|Lügde|Schieder|Steinheim(Westf)|Altenbeken"/>
+	</s>
+	<s id="3407748365940290007-2506062127-11">
+		<tl f="D" t="p" o="N2" c="NWB" n="74979"/>
+		<ar pt="2506062305" pp="5" l="RB84" wings="7643928719136820228-2506062110" ppth="Kreiensen|Stadtoldendorf|Holzminden|Höxter-Lüchtringen|Höxter Rathaus|Höxter-Godelheim|Höxter-Ottbergen|Brakel(Höxter)|Bad Driburg(Westf)|Altenbeken"/>
+	</s>
+	<s id="-1925068453691323391-2506062323-1">
+		<tl f="D" t="p" o="N2" c="NWB" n="75086"/>
+		<dp pt="2506062323" pp="5" l="RB74" ppth="Paderborn Kasseler Tor|Paderborn Nord|Paderborn-Schloss Neuhaus|Paderborn-Sennelager|Hövelhof|Hövelriege|Schloß Holte|Bielefeld-Sennestadt|Bielefeld-Windelsbleiche|Bielefeld-Senne|Bielefeld-Brackwede"/>
+	</s>
+	<s id="6939180207874173021-2506061956-7">
+		<tl f="F" t="p" o="80" c="ICE" n="550"/>
+		<ar pt="2506062328" pp="1" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Spandau|Hannover Hbf|Altenbeken"/>
+		<dp pt="2506062330" pp="1" ppth="Soest|Hamm(Westf)Hbf|Münster(Westf)Hbf"/>
+	</s>
+</timetable>
