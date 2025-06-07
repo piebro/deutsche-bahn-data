@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Hbf">
+	<s id="-8745930355234119378-2506070007-1">
+		<tl f="F" t="p" o="80" c="EC" n="259"/>
+		<dp pt="2506070007" pp="11" ppth="Berlin Ostbahnhof|Flughafen BER|Dresden-Neustadt|Dresden Hbf|Bad Schandau|Decin hl.n.|Usti nad Labem hl.n.|Praha-Holesovice|Praha hl.n."/>
+	</s>
+	<s id="-2451771813568964797-2506061858-9">
+		<tl f="F" t="p" o="80" c="ICE" n="957"/>
+		<ar pt="2506070018" pp="11" wings="3778695356863398992-2506061857" ppth="Köln Hbf|Wuppertal Hbf|Hagen Hbf|Hamm(Westf)Hbf|Hannover Hbf|Wolfsburg Hbf|Berlin-Spandau|Berlin Zoologischer Garten"/>
+		<dp pt="2506070022" pp="11" hi="1" wings="3778695356863398992-2506061857" ppth="Berlin Ostbahnhof"/>
+	</s>
+	<s id="3199623009169073885-2506070013-2">
+		<tl f="F" t="p" o="80" c="ICE" n="101"/>
+		<ar pt="2506070020" pp="14" hi="1" ppth="Berlin Ostbahnhof"/>
+		<dp pt="2506070023" pp="14" ppth="Berlin Zoologischer Garten|Potsdam Hbf|Brandenburg Hbf|Magdeburg Hbf|Braunschweig Hbf|Hannover Hbf|Hannover Messe/Laatzen|Dortmund Hbf|Bochum Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Hbf|Frankfurt(M) Flughafen Fernbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB"/>
+	</s>
+	<s id="3778695356863398992-2506061857-12">
+		<tl f="F" t="p" o="80" c="ICE" n="947"/>
+		<ar pt="2506070018" pp="11" ppth="Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Hannover Hbf|Wolfsburg Hbf|Berlin-Spandau|Berlin Zoologischer Garten"/>
+		<dp pt="2506070022" pp="11" hi="1" ppth="Berlin Ostbahnhof"/>
+	</s>
+</timetable>

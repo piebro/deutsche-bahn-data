@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf">
+	<s id="-4140419682653860-2506070411-11">
+		<tl f="S" t="p" o="800725" c="S" n="8013"/>
+		<ar pt="2506070452" pp="34" l="1" ppth="München Flughafen Terminal|München Flughafen Besucherpark|Neufahrn(b Freising)|Eching|Lohhof|Unterschleißheim|Oberschleißheim|München-Feldmoching|München-Fasanerie|München-Moosach"/>
+	</s>
+	<s id="5109203113098376280-2506070408-1">
+		<tl f="S" t="p" o="800725" c="S" n="6004"/>
+		<dp pt="2506070408" pp="26" l="1" ppth="München-Moosach|München-Fasanerie|München-Feldmoching|Oberschleißheim|Unterschleißheim|Lohhof|Eching|Neufahrn(b Freising)|München Flughafen Besucherpark|München Flughafen Terminal"/>
+	</s>
+	<s id="-6223962037244896084-2506070447-1">
+		<tl f="F" t="p" o="80" c="ICE" n="822"/>
+		<dp pt="2506070447" pp="23" ppth="Ingolstadt Hbf|Nürnberg Hbf|Würzburg Hbf|Aschaffenburg Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Siegburg/Bonn|Köln Hbf|Düsseldorf Hbf"/>
+	</s>
+	<s id="7619468162815671239-2506070448-1">
+		<tl f="S" t="p" o="800725" c="S" n="6008"/>
+		<dp pt="2506070448" pp="26" l="1" ppth="München-Moosach|München-Fasanerie|München-Feldmoching|Oberschleißheim|Unterschleißheim|Lohhof|Eching|Neufahrn(b Freising)|München Flughafen Besucherpark|München Flughafen Terminal"/>
+	</s>
+	<s id="3702294605281290344-2506070428-1">
+		<tl f="S" t="p" o="800725" c="S" n="8006"/>
+		<dp pt="2506070428" pp="26" l="1" wings="-6688605661475555809-2506070428" ppth="München-Moosach|München-Fasanerie|München-Feldmoching|Oberschleißheim|Unterschleißheim|Lohhof|Eching|Neufahrn(b Freising)|Pulling(b Freising)|Freising"/>
+	</s>
+	<s id="1847313071699172804-2506070459-1">
+		<tl f="F" t="p" o="80" c="ICE" n="1068"/>
+		<dp pt="2506070459" pp="15" ppth="München-Pasing|Augsburg Hbf|Ulm Hbf|Stuttgart Hbf|Karlsruhe Hbf"/>
+	</s>
+	<s id="-6688605661475555809-2506070428-1">
+		<tl f="S" t="p" o="800725" c="S" n="6906"/>
+		<dp pt="2506070428" pp="26" l="1" ppth="München-Moosach|München-Fasanerie|München-Feldmoching|Oberschleißheim|Unterschleißheim|Lohhof|Eching|Neufahrn(b Freising)|München Flughafen Besucherpark|München Flughafen Terminal"/>
+	</s>
+	<s id="-34956637342536947-2506070444-1">
+		<tl f="D" t="p" o="A8N" c="ALX" n="365"/>
+		<dp pt="2506070444" pp="25" l="RE25" pde="Praha hl.n." ppth="Freising|Landshut(Bay)Hbf|Neufahrn(Niederbay)|Regensburg Hbf|Schwandorf|Roding|Cham(Oberpf)|Furth im Wald"/>
+	</s>
+</timetable>
