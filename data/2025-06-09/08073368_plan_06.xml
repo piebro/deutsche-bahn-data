@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<timetable station="Köln Messe/Deutz Gl.11-12">
+	<s id="-7586352224211082006-2506090523-6">
+		<tl f="F" t="p" o="80" c="ICE" n="525"/>
+		<ar pt="2506090642" pp="11" ppth="Dortmund Hbf|Bochum Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf"/>
+		<dp pt="2506090644" pp="11" ppth="Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf|Aschaffenburg Hbf|Würzburg Hbf|Nürnberg Hbf|München Hbf"/>
+	</s>
+	<s id="4753870957390372842-2506081936-19">
+		<tl f="F" t="p" o="NZ" c="IC" n="60402"/>
+		<ar pt="2506090603" pp="12" ppth="Zürich HB|Baden(CH)|Brugg AG|Frick|Stein-Säckingen|Rheinfelden(CH)|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf|Bonn-Beuel"/>
+		<dp pt="2506090605" pp="12" ppth="Düsseldorf Hbf|Duisburg Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="8868050453695511606-2506081936-19">
+		<tl t="p" o="85" c="NJ" n="402"/>
+		<ar pt="2506090603" pp="12" wings="4753870957390372842-2506081936" ppth="Zürich HB|Baden(CH)|Brugg AG|Frick|Stein-Säckingen|Rheinfelden(CH)|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf|Bonn-Beuel"/>
+		<dp pt="2506090605" pp="12" hi="1" wings="4753870957390372842-2506081936" ppth="Düsseldorf Hbf|Duisburg Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+</timetable>
