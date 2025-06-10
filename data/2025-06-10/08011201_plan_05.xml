@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="1672294977889446701-2506100539-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18652"/>
+		<ar pt="2506100555" pp="1" l="32" tra="-3289399367241805700-2506100558-1" ppth="Ludwigsfelde|Birkengrund"/>
+	</s>
+	<s id="5547616819435409899-2506100451-4">
+		<tl t="p" o="800165" c="FEX" n="19809"/>
+		<ar pt="2506100530" pp="4" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="-3289399367241805700-2506100558-1">
+		<tl t="p" o="800165" c="FEX" n="19806"/>
+		<dp pt="2506100558" pp="1" tra="1672294977889446701-2506100539-3" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="-717944806167106896-2506100421-4">
+		<tl t="p" o="800165" c="FEX" n="19807"/>
+		<ar pt="2506100500" pp="4" tra="6587236525069306157-2506100509-1" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="-7410860683214104779-2506100448-8">
+		<tl f="N" t="p" o="800165" c="RB" n="18102"/>
+		<ar pt="2506100536" pp="1" l="22" ppth="Potsdam Hbf|Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Potsdam Pirschheide|Saarmund|Ludwigsfelde-Struveshof"/>
+		<dp pt="2506100538" pp="1" l="22" ppth="Königs Wusterhausen"/>
+	</s>
+	<s id="3105587517085278592-2506100528-1">
+		<tl t="p" o="800165" c="FEX" n="19804"/>
+		<dp pt="2506100528" pp="1" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="3659752465878737902-2506100509-2">
+		<tl f="N" t="p" o="800165" c="RB" n="18103"/>
+		<ar pt="2506100521" pp="4" l="22" ppth="Königs Wusterhausen"/>
+		<dp pt="2506100523" pp="4" l="22" ppth="Ludwigsfelde-Struveshof|Saarmund|Potsdam Pirschheide|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof|Potsdam Hbf|Potsdam Griebnitzsee"/>
+	</s>
+	<s id="6587236525069306157-2506100509-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18653"/>
+		<dp pt="2506100509" pp="4" l="32" tra="-717944806167106896-2506100421-4" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+</timetable>

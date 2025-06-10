@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<timetable station="Wiesbaden Hbf">
+	<s id="6848351933679557641-2506100241-1">
+		<tl t="p" o="B4" c="Bus" n="103"/>
+		<dp pt="2506100241" pp="" l="S1E" ppth="Biebrich Bahnhof Wiesbaden Ost, Wiesbaden|Mainz-Kastel|Hochheim(Main)|Berliner Platz, Hochheim am Main|Bahnhof Nordseite, Flörsheim am Main|Eddersheim An der Lache, Hattersheim am Main|Bahnhof Südseite, Hattersheim am Main|Industriepark Höchst Tor West, Frankfurt a.M.|Frankfurt-Höchst Farbwerke|Frankfurt Höchst Bf/Leverkuser Straße"/>
+	</s>
+	<s id="7370156668038420016-2506100131-11">
+		<tl t="p" o="B4" c="Bus" n="184"/>
+		<ar pt="2506100253" pp="" l="S1E" ppth="Frankfurt Höchst Bf/Leverkuser Straße|Frankfurt-Höchst Farbwerke|Industriepark Höchst Tor West, Frankfurt a.M.|Bahnhof Südseite, Hattersheim am Main|Eddersheim An der Lache, Hattersheim am Main|Bahnhof Nordseite, Flörsheim am Main|Berliner Platz, Hochheim am Main|Hochheim(Main)|Mainz-Kastel|Biebrich Bahnhof Wiesbaden Ost, Wiesbaden"/>
+	</s>
+	<s id="7635048070308921316-2506100248-1">
+		<tl f="S" t="p" o="800528" c="S" n="22395"/>
+		<dp pt="2506100248" pp="" l="8" ppth="Wiesbaden Ost|Mainz Nord|Mainz Hbf|Mainz Römisches Theater|Mainz-Gustavsburg|Mainz-Bischofsheim|Rüsselsheim Opelwerk|Rüsselsheim|Raunheim|Kelsterbach|Frankfurt(M) Flughafen Regionalbf|Frankfurt(Main)-Gateway Gardens|Frankfurt am Main - Stadion|Frankfurt(Main)Süd|Offenbach(Main)Hbf|Offenbach(Main)Ost|Mühlheim(Main)|Mühlheim(Main)-Dietesheim|Steinheim(Main)|Hanau Hbf"/>
+	</s>
+	<s id="2822230624196530442-2506100101-11">
+		<tl t="p" o="B4" c="Bus" n="182"/>
+		<ar pt="2506100223" pp="" l="S1E" ppth="Frankfurt Höchst Bf/Leverkuser Straße|Frankfurt-Höchst Farbwerke|Industriepark Höchst Tor West, Frankfurt a.M.|Bahnhof Südseite, Hattersheim am Main|Eddersheim An der Lache, Hattersheim am Main|Bahnhof Nordseite, Flörsheim am Main|Berliner Platz, Hochheim am Main|Hochheim(Main)|Mainz-Kastel|Biebrich Bahnhof Wiesbaden Ost, Wiesbaden"/>
+	</s>
+	<s id="4753870957390372842-2506092111-9">
+		<tl f="F" t="p" o="NZ" c="IC" n="60402"/>
+		<ar pt="2506100243" pp="" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf"/>
+		<dp pt="2506100313" pp="" ppth="Koblenz Hbf|Bonn-Beuel|Köln Hbf|Eindhoven Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="8868050453695511606-2506092111-9">
+		<tl t="p" o="85" c="NJ" n="402"/>
+		<ar pt="2506100243" pp="" hi="1" wings="4753870957390372842-2506092111" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf"/>
+		<dp pt="2506100313" pp="" hi="1" wings="4753870957390372842-2506092111" ppth="Koblenz Hbf|Bonn-Beuel|Köln Hbf|Eindhoven Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+</timetable>
