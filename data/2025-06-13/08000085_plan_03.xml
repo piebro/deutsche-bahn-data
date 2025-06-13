@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<timetable station="Düsseldorf Hbf">
+	<s id="574438892786339574-2506130350-1">
+		<tl t="p" o="NX" c="Bus" n="1842"/>
+		<dp pt="2506130350" pp="" l="RE1" ppth="Düsseldorf-Benrath|Leverkusen Mitte|Köln-Mülheim"/>
+	</s>
+	<s id="-2678061805813442304-2506130314-5">
+		<tl f="S" t="p" o="800337" c="S" n="91436"/>
+		<ar pt="2506130323" pp="11" l="1" ppth="Düsseldorf-Unterrath|Düsseldorf-Derendorf|Düsseldorf-Zoo|Düsseldorf Wehrhahn"/>
+	</s>
+	<s id="8652078400714170233-2506130331-2">
+		<tl f="F" t="p" o="80" c="ICE" n="541"/>
+		<ar pt="2506130352" pp="17" ppth="Köln Hbf"/>
+		<dp pt="2506130354" pp="17" ppth="Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Hannover Hbf|Wolfsburg Hbf|Berlin-Spandau|Berlin Hbf"/>
+	</s>
+	<s id="-6058665356135913865-2506130209-16">
+		<tl f="N" t="p" o="800349" c="RE" n="10244"/>
+		<ar pt="2506130353" pp="9" l="2" ppth="Münster(Westf)Hbf|Münster-Albachten|Senden-Bösensell|Nottuln-Appelhülsen|Buldern|Dülmen|Sythen|Haltern am See|Marl-Sinsen|Recklinghausen Hbf|Recklinghausen Süd|Wanne-Eickel Hbf|Gelsenkirchen Hbf|Essen-Altenessen|Düsseldorf Flughafen"/>
+	</s>
+	<s id="-2850536344288765402-2506130245-7">
+		<tl f="N" t="p" o="NXRE" c="RE" n="26848"/>
+		<ar pt="2506130338" pp="16" l="1" ppth="Dortmund Hbf|Bochum Hbf|Wattenscheid|Essen Hbf|Mülheim(Ruhr)Hbf|Düsseldorf Flughafen"/>
+		<dp pt="2506130340" pp="16" l="1" ppth="Opladen|Köln Messe/Deutz|Köln Hbf"/>
+	</s>
+	<s id="-4964921095657007412-2506130335-1">
+		<tl f="S" t="p" o="800354" c="S" n="31848"/>
+		<dp pt="2506130335" pp="12" l="8" tra="-7077376547267783966-2506130216-26" ppth="Düsseldorf Flughafen Terminal"/>
+	</s>
+	<s id="-7077376547267783966-2506130216-26">
+		<tl f="S" t="p" o="800354" c="S" n="31846"/>
+		<ar pt="2506130330" pp="12" l="8" tra="-4964921095657007412-2506130335-1" ppth="Hagen Hbf|Hagen-Wehringhausen|Hagen-Heubing|Hagen-Westerbauer|Gevelsberg-Knapp|Gevelsberg Hbf|Gevelsberg-Kipp|Gevelsberg West|Schwelm|Schwelm West|Wuppertal-Langerfeld|Wuppertal-Oberbarmen|Wuppertal-Barmen|Wuppertal-Unterbarmen|Wuppertal Hbf|Wuppertal-Steinbeck|Wuppertal-Zoologischer Garten|Wuppertal-Sonnborn|Wuppertal-Vohwinkel|Haan-Gruiten|Hochdahl-Millrath|Hochdahl|Erkrath|Düsseldorf-Gerresheim|Düsseldorf-Flingern"/>
+	</s>
+	<s id="7269312215624622704-2506130224-9">
+		<tl t="p" o="B2" c="Bus" n="11721"/>
+		<ar pt="2506130327" pp="" l="S1" ppth="Solingen Hbf|Solingen Vogelpark|Hilden Süd|Hilden|Düsseldorf-Eller|Düsseldorf-Eller Mitte|Düsseldorf-Oberbilk|Düsseldorf Volksgarten"/>
+	</s>
+	<s id="6788626203732136155-2506130337-1">
+		<tl f="S" t="p" o="800337" c="S" n="91439"/>
+		<dp pt="2506130337" pp="14" l="1" ppth="Düsseldorf Wehrhahn|Düsseldorf-Zoo|Düsseldorf-Derendorf|Düsseldorf-Unterrath"/>
+	</s>
+</timetable>
