@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Oberhausen Hbf">
+	<s id="-7721527693083124687-2506132341-16">
+		<tl t="p" o="R4NRN" c="Bus" n="1901"/>
+		<ar pt="2506140158" pp="" l="RE19" ppth="Emmerich|Praest|Millingen(b Rees)|Empel-Rees|Haldern(Rheinl)|Mehrhoog|Wesel Feldmark|Wesel|Friedrichsfeld Bahnhof, Voerde (Niederrhein)|Friedrichsfeld Post, Voerde (Niederrhein)|Friedrichsfeld(Niederrhein)|Voerde(Niederrhein)|Dinslaken|Oberhausen-Holten|Oberhausen-Sterkrade"/>
+	</s>
+	<s id="8158618054079740185-2506140101-6">
+		<tl f="N" t="p" o="8003L1" c="RB" n="31239"/>
+		<ar pt="2506140118" pp="7" l="32" ppth="Gelsenkirchen Hbf|Essen-Zollverein Nord|Essen-Altenessen|Essen-Bergeborbeck|Essen-Dellwig"/>
+		<dp pt="2506140119" pp="7" l="32" ppth="Duisburg Hbf"/>
+	</s>
+	<s id="-5737273768333901096-2506140126-1">
+		<tl t="p" o="B2" c="Bus" n="382"/>
+		<dp pt="2506140126" pp="" l="S3" ppth="Mülheim(Ruhr)Styrum|Mülheim(Ruhr)West|Mülheim(Ruhr)Hbf|Essen-Frohnhausen|Essen West|Essen Hbf Kruppstraße/Am Thyssenhaus"/>
+	</s>
+	<s id="8902546342514321484-2506140034-7">
+		<tl t="p" o="B2" c="Bus" n="387"/>
+		<ar pt="2506140126" pp="" l="S3" ppth="Essen Hbf Kruppstraße/Am Thyssenhaus|Essen West|Essen-Frohnhausen|Mülheim(Ruhr)Hbf|Mülheim(Ruhr)West|Mülheim(Ruhr)Styrum"/>
+	</s>
+	<s id="-6985898205615833013-2506140100-1">
+		<tl t="p" o="R4NRN" c="Bus" n="1900"/>
+		<dp pt="2506140100" pp="" l="RE19" ppth="Oberhausen-Sterkrade|Oberhausen-Holten|Dinslaken|Voerde(Niederrhein)|Friedrichsfeld(Niederrhein)|Friedrichsfeld Post, Voerde (Niederrhein)|Friedrichsfeld Bahnhof, Voerde (Niederrhein)|Wesel|Wesel Feldmark|Mehrhoog|Haldern(Rheinl)|Empel-Rees|Millingen(b Rees)|Praest|Emmerich"/>
+	</s>
+	<s id="2172758297799285676-2506140100-1">
+		<tl t="p" o="R4NRN" c="Bus" n="2000"/>
+		<dp pt="2506140100" pp="" l="X" ppth="Wesel"/>
+	</s>
+	<s id="3877510686472698721-2506140134-2">
+		<tl t="p" o="R4NRN" c="Bus" n="19800"/>
+		<ar pt="2506140152" pp="" l="RE19" ppth="Duisburg Hbf"/>
+	</s>
+	<s id="2660451092632041830-2506140134-2">
+		<tl f="N" t="p" o="8003L1" c="RB" n="31282"/>
+		<ar pt="2506140140" pp="6" l="32" ppth="Duisburg Hbf"/>
+		<dp pt="2506140141" pp="6" l="32" ppth="Essen-Dellwig|Essen-Bergeborbeck|Essen-Altenessen|Essen-Zollverein Nord|Gelsenkirchen Hbf"/>
+	</s>
+</timetable>

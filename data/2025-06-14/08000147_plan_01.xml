@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg-Harburg">
+	<s id="436096027952993164-2506131659-17">
+		<tl f="F" t="p" o="85" c="ICE" n="272"/>
+		<ar pt="2506140122" pp="1" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Hanau Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen|Lüneburg"/>
+		<dp pt="2506140124" pp="1" hi="1" ppth="Hamburg Hbf"/>
+	</s>
+	<s id="-3970723350205974760-2506140057-2">
+		<tl f="D" t="p" o="R1" c="ME" n="81947"/>
+		<ar pt="2506140107" pp="3" l="RB41" ppth="Hamburg Hbf"/>
+		<dp pt="2506140108" pp="3" l="RB41" ppth="Hittfeld|Klecken|Buchholz(Nordheide)|Sprötze|Tostedt|Lauenbrück|Scheeßel|Rotenburg(Wümme)|Sottrum|Ottersberg(Han)|Sagehorn|Bremen-Oberneuland|Bremen Hbf"/>
+	</s>
+	<s id="9095766634084152066-2506140015-14">
+		<tl f="D" t="p" o="R1" c="ME" n="81944"/>
+		<ar pt="2506140131" pp="2" l="RB41" ppth="Bremen Hbf|Bremen-Oberneuland|Sagehorn|Ottersberg(Han)|Sottrum|Rotenburg(Wümme)|Scheeßel|Lauenbrück|Tostedt|Sprötze|Buchholz(Nordheide)|Klecken|Hittfeld"/>
+		<dp pt="2506140132" pp="2" l="RB41" ppth="Hamburg Hbf"/>
+	</s>
+	<s id="-2529627520637122615-2506140133-2">
+		<tl f="D" t="p" o="R1" c="ME" n="81601"/>
+		<ar pt="2506140144" pp="4" l="RB31" ppth="Hamburg Hbf"/>
+		<dp pt="2506140145" pp="4" l="RB31" ppth="Maschen|Stelle|Ashausen|Winsen(Luhe)|Lüneburg|Bienenbüttel|Bad Bevensen|Uelzen|Suderburg|Unterlüß|Eschede|Celle|Großburgwedel|Isernhagen|Langenhagen Mitte|Hannover Hbf"/>
+	</s>
+	<s id="-7099523862680441924-2506140123-2">
+		<tl t="p" o="R1" c="Bus" n="3801"/>
+		<ar pt="2506140137" pp="" l="EV" ppth="Meckelfeld"/>
+	</s>
+	<s id="3556678354395097904-2506140152-1">
+		<tl t="p" o="R1" c="Bus" n="3803"/>
+		<dp pt="2506140152" pp="" l="EV" ppth="Meckelfeld"/>
+	</s>
+</timetable>

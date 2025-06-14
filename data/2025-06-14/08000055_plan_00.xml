@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<timetable station="Bruchsal">
+	<s id="-593463216747048889-2506140035-1">
+		<tl f="N" t="p" o="SBSRB" c="RB" n="19669"/>
+		<dp pt="2506140035" pp="6" l="17c" ppth="Bruchsal Tunnelstraße|Bruchsal Schlachthof|Heidelsheim Nord|Heidelsheim|Helmsheim|Gondelsheim Schlossstadion|Gondelsheim(Baden)|Diedelsheim|Bretten"/>
+	</s>
+	<s id="1003446772902483359-2506132059-8">
+		<tl t="p" o="85" c="NJ" n="470"/>
+		<ar pt="2506140032" pp="3" hi="1" wings="-5591597380485360579-2506132059" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf"/>
+		<dp pt="2506140038" pp="3" hi="1" wings="-5591597380485360579-2506132059" ppth="Darmstadt Hbf|Frankfurt(Main)Süd|Hanau Hbf|Göttingen|Hannover Hbf|Nienburg(Weser)|Verden(Aller)|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="568059394542159172-2506132345-17">
+		<tl f="N" t="p" o="SBSRB" c="RB" n="19658"/>
+		<ar pt="2506140026" pp="6" l="17c" ppth="Mühlacker|Ötisheim|Maulbronn West|Ölbronn-Dürrn|Knittlingen-Kleinvillars|Bretten-Ruit|Bretten Rechberg|Bretten|Diedelsheim|Gondelsheim(Baden)|Gondelsheim Schlossstadion|Helmsheim|Heidelsheim|Heidelsheim Nord|Bruchsal Schlachthof|Bruchsal Tunnelstraße"/>
+	</s>
+	<s id="4780400572788706787-2506132348-6">
+		<tl f="S" t="p" o="A6S31" c="S" n="85172"/>
+		<ar pt="2506140009" pp="3a" l="31" ppth="Karlsruhe Hbf|Karlsruhe-Durlach|Weingarten(Baden)|Untergrombach|Bruchsal Bildungszentrum"/>
+	</s>
+	<s id="-1229079890731811039-2506132352-4">
+		<tl t="p" o="801539" c="Bus" n="8422"/>
+		<ar pt="2506140012" pp="" l="S33" ppth="Graben-Neudorf|Karlsdorf|Bruchsal Am Mantel"/>
+	</s>
+	<s id="-6335404094909147739-2506132354-4">
+		<tl t="p" o="801539" c="Bus" n="8377"/>
+		<ar pt="2506140018" pp="" l="S3" ppth="Bad Schönborn Süd|Stettfeld-Weiher|Ubstadt-Weiher"/>
+		<dp pt="2506140018" pp="" l="S3" ppth="Bruchsal Bildungszentrum|Untergrombach|Weingarten(Baden)|Karlsruhe-Durlach|Karlsruhe Hbf Südausgang"/>
+	</s>
+	<s id="-5591597380485360579-2506132059-8">
+		<tl f="F" t="p" o="NZ" c="IC" n="60470"/>
+		<ar pt="2506140032" pp="3" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf"/>
+		<dp pt="2506140038" pp="3" ppth="Darmstadt Hbf|Frankfurt(Main)Süd|Hanau Hbf|Göttingen|Hannover Hbf|Nienburg(Weser)|Verden(Aller)|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="1456963418440864303-2506132303-6">
+		<tl t="p" o="801539" c="Bus" n="8200"/>
+		<ar pt="2506140002" pp="" l="S3" ppth="Karlsruhe Hbf Südausgang|Karlsruhe-Durlach|Weingarten(Baden)|Untergrombach|Bruchsal Bildungszentrum"/>
+		<dp pt="2506140002" pp="" l="S3" ppth="Ubstadt-Weiher|Stettfeld-Weiher|Bad Schönborn Süd"/>
+	</s>
+	<s id="662877020835815740-2506140011-1">
+		<tl f="S" t="p" o="A6S31" c="S" n="85177"/>
+		<dp pt="2506140011" pp="1b" l="31" ppth="Bruchsal Bildungszentrum|Untergrombach|Weingarten(Baden)|Karlsruhe-Durlach|Karlsruhe Hbf"/>
+	</s>
+	<s id="8316467043332486228-2506140025-1">
+		<tl t="p" o="801539" c="Bus" n="8431"/>
+		<dp pt="2506140025" pp="" l="S33" ppth="Bruchsal Am Mantel|Karlsdorf|Graben-Neudorf"/>
+	</s>
+</timetable>
