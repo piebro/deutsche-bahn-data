@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<timetable station="Potsdam Hbf">
+	<s id="-7477137136863483975-2506152148-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18136"/>
+		<dp pt="2506152148" pp="1" l="22" ppth="Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Potsdam Pirschheide|Saarmund|Ludwigsfelde-Struveshof|Flughafen BER|Königs Wusterhausen"/>
+	</s>
+	<s id="-1438450015023320666-2506152119-3">
+		<tl t="p" o="RSMD" c="SMD" n="80438"/>
+		<ar pt="2506152153" pp="3" l="HBX" hi="1" ppth="Berlin Gesundbrunnen|Berlin-Wannsee"/>
+		<dp pt="2506152157" pp="3" l="HBX" ppth="Magdeburg Hbf|Magdeburg-Buckau|Magdeburg SKET Industriepark|Beyendorf|Dodendorf|Osterweddingen|Langenweddingen|Hadmersleben|Oschersleben(Bode)|Nienhagen(Halberst)|Halberstadt Hbf|Wernigerode Hbf|Wernigerode Elmowerk|Darlingerode|Ilsenburg"/>
+	</s>
+	<s id="-6113856399621150210-2506152009-9">
+		<tl f="N" t="p" o="800165" c="RB" n="18133"/>
+		<ar pt="2506152115" pp="2" l="22" ppth="Königs Wusterhausen|Flughafen BER|Ludwigsfelde-Struveshof|Saarmund|Potsdam Pirschheide|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof"/>
+	</s>
+	<s id="7626218017717701708-2506152119-3">
+		<tl t="p" o="RSMD" c="SMD" n="80428"/>
+		<ar pt="2506152153" pp="3" l="HBX" hi="1" wings="-1438450015023320666-2506152119" ppth="Berlin Gesundbrunnen|Berlin-Wannsee"/>
+		<dp pt="2506152157" pp="3" l="HBX" wings="-1438450015023320666-2506152119" ppth="Magdeburg Hbf|Magdeburg-Buckau|Magdeburg SKET Industriepark|Beyendorf|Dodendorf|Osterweddingen|Langenweddingen|Hadmersleben|Oschersleben(Bode)|Nienhagen(Halberst)|Halberstadt Hbf|Wegeleben|Ditfurt|Quedlinburg|Neinstedt|Thale Musestieg|Thale Hbf"/>
+	</s>
+	<s id="3691871730918186499-2506152013-13">
+		<tl f="N" t="p" o="800165" c="RB" n="18273"/>
+		<ar pt="2506152123" pp="1" l="21" ppth="Berlin Gesundbrunnen|Berlin Jungfernheide|Berlin-Spandau|Berlin-Staaken|Dallgow-Döberitz|Elstal|Wustermark|Priort|Marquardt|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof"/>
+	</s>
+	<s id="-7257264507629571169-2506152135-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18274"/>
+		<dp pt="2506152135" pp="2" l="21" ppth="Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Marquardt|Priort|Wustermark|Elstal|Dallgow-Döberitz|Berlin-Staaken|Berlin-Spandau|Berlin Jungfernheide|Berlin Gesundbrunnen"/>
+	</s>
+</timetable>
