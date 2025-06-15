@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin-Spandau">
+	<s id="5237111541425892273-2506142308-7">
+		<tl t="p" o="BB" c="Bus" n="68535"/>
+		<ar pt="2506150009" pp="" l="RB10" ppth="Nauen|Brieselang|Finkenkrug|Falkensee ZOB|Seegefeld|Albrechtshof"/>
+	</s>
+	<s id="5554857220674495144-2506142134-4">
+		<tl f="F" t="p" o="80" c="ICE" n="805"/>
+		<ar pt="2506150009" pp="" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf"/>
+		<dp pt="2506150011" pp="" hi="1" ppth="Berlin Hbf|Berlin Südkreuz"/>
+	</s>
+	<s id="-7260953034263185039-2506142009-10">
+		<tl f="F" t="p" o="80" c="ICE" n="790"/>
+		<ar pt="2506150026" pp="6" ppth="Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Süd|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hildesheim Hbf|Braunschweig Hbf|Wolfsburg Hbf|Stendal Hbf"/>
+		<dp pt="2506150028" pp="6" ppth="Berlin Hbf"/>
+	</s>
+	<s id="3778695356863398992-2506141950-10">
+		<tl f="F" t="p" o="80" c="ICE" n="947"/>
+		<ar pt="2506150000" pp="6" ppth="Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Hannover Hbf|Wolfsburg Hbf"/>
+		<dp pt="2506150003" pp="6" hi="1" ppth="Berlin Hbf"/>
+	</s>
+	<s id="-2451771813568964797-2506141946-7">
+		<tl f="F" t="p" o="80" c="ICE" n="957"/>
+		<ar pt="2506150000" pp="6" wings="3778695356863398992-2506141950" ppth="Köln Hbf|Wuppertal Hbf|Hagen Hbf|Hamm(Westf)Hbf|Hannover Hbf|Wolfsburg Hbf"/>
+		<dp pt="2506150003" pp="6" hi="1" wings="3778695356863398992-2506141950" ppth="Berlin Hbf"/>
+	</s>
+</timetable>
