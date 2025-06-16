@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<timetable station="Trier Hbf">
+	<s id="922486094128568335-2506162125-31">
+		<tl f="N" t="p" o="801512" c="RB" n="12146"/>
+		<ar pt="2506162320" pp="11 Süd" l="81" ppth="Koblenz Hbf|Koblenz-Moselweiß|Koblenz-Güls|Winningen(Mosel)|Kobern-Gondorf|Lehmen|Kattenes|Löf|Hatzenport|Moselkern|Müden(Mosel)|Treis-Karden|Pommern(Mosel)|Klotten|Cochem(Mosel)|Ediger-Eller|Neef|Bullay(DB)|Bengel|Ürzig(DB)|Wittlich Hbf|Salmtal|Sehlem(Kr Wittlich)|Hetzerath|Föhren|Schweich(DB)|Quint|Ehrang Ort|Trier Hafenstraße|Pfalzel"/>
+	</s>
+	<s id="-150082420686992760-2506162219-8">
+		<tl f="N" t="p" o="800640" c="RE" n="4134"/>
+		<ar pt="2506162340" pp="11 Süd" l="1" tra="8185338991237423528-2506162349-1" ppth="Koblenz Hbf|Kobern-Gondorf|Treis-Karden|Cochem(Mosel)|Bullay(DB)|Wittlich Hbf|Schweich(DB)"/>
+	</s>
+	<s id="5667659705442896108-2506162301-1">
+		<tl t="p" o="B5" c="Bus" n="92593"/>
+		<dp pt="2506162301" pp="" l="RB70" ppth="Trier Süd|Karthaus|Konz|Kanzem|Wiltingen(Saar)|Schoden-Ockfen|Saarburg(Bz Trier)"/>
+	</s>
+	<s id="1536215307511140440-2506162233-7">
+		<tl f="N" t="p" o="82" c="RE" n="5139"/>
+		<ar pt="2506162323" pp="13 Nord" l="11" ppth="Luxembourg|Sandweiler-Contern|Wasserbillig|Igel|Kreuz Konz|Trier Süd"/>
+	</s>
+	<s id="4490312081420936966-2506162307-1">
+		<tl f="N" t="p" o="801512" c="RB" n="12190"/>
+		<dp pt="2506162307" pp="11 Süd" l="82" ppth="Trier Süd|Karthaus|Konz Mitte|Wasserliesch|Oberbillig|Temmels|Wellen(Mosel)|Nittel|Wincheringen|Wehr(Mosel)|Palzem|Nennig|Besch|Perl"/>
+	</s>
+	<s id="8185338991237423528-2506162349-1">
+		<tl f="N" t="p" o="82" c="RE" n="5132"/>
+		<dp pt="2506162349" pp="11 Süd" l="11" tra="-150082420686992760-2506162219-8" ppth="Trier Süd|Kreuz Konz|Igel|Wasserbillig|Sandweiler-Contern|Luxembourg"/>
+	</s>
+	<s id="3458061221323732696-2506162117-15">
+		<tl t="p" o="B5" c="Bus" n="92586"/>
+		<ar pt="2506162305" pp="" l="RB71" ppth="Merzig(Saar)|Merzig(Saar) Stadtmitte|Besseringen|Mettlach|Saarhölzbach|Taben|Serrig|Saarburg(Bz Trier)|Schoden-Ockfen|Wiltingen(Saar)|Kanzem|Konz|Karthaus|Trier Süd"/>
+	</s>
+	<s id="-6275954545176067966-2506162157-5">
+		<tl t="p" o="B5" c="Bus" n="9137"/>
+		<ar pt="2506162321" pp="" l="RE1" ppth="Merzig(Saar)|Mettlach|Saarburg(Bz Trier)|Konz"/>
+	</s>
+	<s id="-683523186255400857-2506162350-1">
+		<tl t="p" o="B5" c="Bus" n="9234"/>
+		<dp pt="2506162350" pp="" l="RE1" ppth="Trier Süd|Karthaus|Konz|Kanzem|Wiltingen(Saar)|Schoden-Ockfen|Saarburg(Bz Trier)|Serrig|Taben|Saarhölzbach|Mettlach|Besseringen|Merzig(Saar) Stadtmitte|Merzig(Saar)|Fremersdorf|Beckingen(Saar)|Dillingen(Saar)|Saarlouis Hbf|Ensdorf(Saar)|Bous(Saar)|Völklingen|Luisenthal(Saar)|Burbach Mitte|Saarbrücken-Burbach|Saarbrücken Hbf"/>
+	</s>
+	<s id="4030986595140943789-2506162357-1">
+		<tl f="N" t="p" o="801512" c="RB" n="12192"/>
+		<dp pt="2506162357" pp="10 Süd" l="82" ppth="Trier Süd|Karthaus|Konz Mitte|Wasserliesch|Oberbillig|Temmels|Wellen(Mosel)|Nittel|Wincheringen|Wehr(Mosel)|Palzem|Nennig|Besch|Perl"/>
+	</s>
+	<s id="1953708297170809639-2506162226-15">
+		<tl f="N" t="p" o="801512" c="RB" n="12201"/>
+		<ar pt="2506162318" pp="12 Nord" l="81" ppth="Perl|Besch|Nennig|Palzem|Wehr(Mosel)|Wincheringen|Nittel|Wellen(Mosel)|Temmels|Oberbillig|Wasserliesch|Konz Mitte|Karthaus|Trier Süd"/>
+		<dp pt="2506162320" pp="12 Nord" l="81" ppth="Pfalzel|Trier Hafenstraße|Ehrang Ort|Quint|Schweich(DB)|Föhren|Hetzerath|Sehlem(Kr Wittlich)|Salmtal|Wittlich Hbf"/>
+	</s>
+</timetable>
