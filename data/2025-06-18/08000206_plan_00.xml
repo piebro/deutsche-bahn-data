@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<timetable station="Koblenz Hbf">
+	<s id="-7861438983339014159-2506180008-1">
+		<tl f="N" t="p" o="801512" c="RB" n="12200"/>
+		<dp pt="2506180008" pp="9" l="81" ppth="Koblenz-Moselweiß|Koblenz-Güls|Winningen(Mosel)|Kobern-Gondorf|Lehmen|Kattenes|Löf|Hatzenport|Moselkern|Müden(Mosel)|Treis-Karden|Pommern(Mosel)|Klotten|Cochem(Mosel)|Ediger-Eller|Neef|Bullay(DB)|Bengel|Ürzig(DB)|Wittlich Hbf"/>
+	</s>
+	<s id="5078737997455806676-2506172302-21">
+		<tl f="N" t="p" o="TR" c="RB" n="25450"/>
+		<ar pt="2506180027" pp="3" l="26" ppth="Mainz Hbf|Mainz-Mombach|Budenheim|Uhlerborn|Heidesheim(Rheinhess)|Ingelheim|Gau Algesheim|Bingen-Gaulsheim|Bingen(Rhein) Stadt|Bingen(Rhein) Hbf|Trechtingshausen|Niederheimbach|Bacharach|Oberwesel|St Goar|Boppard-Hirzenach|Boppard-Bad Salzig|Boppard Hbf|Spay|Rhens"/>
+		<dp pt="2506180030" pp="3" l="26" ppth="Koblenz Stadtmitte|Koblenz-Lützel|Mülheim-Kärlich|Weißenthurm|Andernach|Namedy|Brohl|Bad Breisig|Sinzig(Rhein)|Remagen"/>
+	</s>
+	<s id="8503777394879306018-2506172323-5">
+		<tl f="F" t="p" o="80" c="ICE" n="920"/>
+		<ar pt="2506180055" pp="3" ppth="Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Bingen(Rhein) Hbf"/>
+		<dp pt="2506180057" pp="3" ppth="Andernach|Remagen|Bonn Hbf|Köln Hbf|Düsseldorf Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Münster(Westf)Hbf|Osnabrück Hbf|Diepholz|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-1297855697294627038-2506172351-11">
+		<tl f="N" t="p" o="TR" c="RB" n="25445"/>
+		<ar pt="2506180026" pp="8" l="26" ppth="Remagen|Sinzig(Rhein)|Bad Breisig|Brohl|Namedy|Andernach|Weißenthurm|Mülheim-Kärlich|Koblenz-Lützel|Koblenz Stadtmitte"/>
+	</s>
+	<s id="7582314568044505717-2506172015-6">
+		<tl f="F" t="p" o="NZ" c="IC" n="60403"/>
+		<ar pt="2506180047" pp="4" ppth="Amsterdam Centraal|Utrecht Centraal|Eindhoven Centraal|Köln Hbf|Bonn-Beuel"/>
+		<dp pt="2506180049" pp="4" ppth="Mainz Hbf|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="856561047393487078-2506172316-8">
+		<tl t="p" o="B5" c="Bus" n="92994"/>
+		<ar pt="2506180003" pp="" l="RB23" ppth="Nassau(Lahn)|Dausenau|Bad Ems|Bad Ems West|Nievern|Friedrichssegen|Niederlahnstein"/>
+	</s>
+	<s id="-5851721557238592488-2506172015-6">
+		<tl t="p" o="84" c="NJ" n="403"/>
+		<ar pt="2506180047" pp="4" hi="1" wings="7582314568044505717-2506172015" ppth="Amsterdam Centraal|Utrecht Centraal|Eindhoven Centraal|Köln Hbf|Bonn-Beuel"/>
+		<dp pt="2506180049" pp="4" hi="1" wings="7582314568044505717-2506172015" ppth="Mainz Hbf|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+</timetable>
