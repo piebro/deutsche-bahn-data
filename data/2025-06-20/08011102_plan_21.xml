@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Gesundbrunnen">
+	<s id="7229707962542663595-2506201702-6">
+		<tl f="F" t="p" o="80" c="ICE" n="834"/>
+		<ar pt="2506202107" pp="8" ppth="Frankfurt(Main)Hbf|Erfurt Hbf|Halle(Saale)Hbf|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="4801753795296543201-2506201733-12">
+		<tl t="p" o="RSMD" c="SMD" n="80439"/>
+		<ar pt="2506202103" pp="8" l="HBX" ppth="Quedlinburg|Ditfurt|Wegeleben|Halberstadt Hbf|Nienhagen(Halberst)|Oschersleben(Bode)|Osterweddingen|Magdeburg-Buckau|Magdeburg Hbf|Potsdam Hbf|Berlin-Wannsee"/>
+		<dp pt="2506202104" pp="8" l="HBX" ppth="Berlin-Lichtenberg"/>
+	</s>
+	<s id="-1415760473100959366-2506201705-16">
+		<tl t="p" o="RSMD" c="SMD" n="80429"/>
+		<ar pt="2506202103" pp="8" l="HBX" wings="4801753795296543201-2506201733" ppth="Goslar|Vienenburg|Stapelburg|Ilsenburg|Darlingerode|Wernigerode Elmowerk|Wernigerode Hbf|Halberstadt Hbf|Nienhagen(Halberst)|Oschersleben(Bode)|Osterweddingen|Magdeburg-Buckau|Magdeburg Hbf|Potsdam Hbf|Berlin-Wannsee"/>
+		<dp pt="2506202104" pp="8" l="HBX" wings="4801753795296543201-2506201733" ppth="Berlin-Lichtenberg"/>
+	</s>
+	<s id="6350997234039007568-2506202006-3">
+		<tl f="F" t="p" o="80" c="ICE" n="653"/>
+		<ar pt="2506202146" pp="10" ppth="Hannover Hbf|Berlin-Spandau"/>
+	</s>
+	<s id="-1179498348683376667-2506201811-21">
+		<tl f="N" t="p" o="800158" c="RE" n="3317"/>
+		<ar pt="2506202121" pp="6" l="3" pde="Altefähr" ppth="Greifswald|Greifswald Süd|Groß Kiesow|Züssow|Klein Bünzow|Anklam|Ducherow|Ferdinandshof|Jatznick|Pasewalk|Nechlin|Prenzlau|Seehausen(Uckermark)|Warnitz(Uckermark)|Wilmersdorf(Angerm)|Angermünde|Chorin|Britz|Eberswalde Hbf|Bernau(b Berlin)"/>
+		<dp pt="2506202123" pp="6" l="3" ppth="Berlin Hbf"/>
+	</s>
+	<s id="8061355321248795348-2506202133-2">
+		<tl f="N" t="p" o="800158" c="RE" n="3328"/>
+		<ar pt="2506202137" pp="9" l="3" ppth="Berlin Hbf"/>
+		<dp pt="2506202139" pp="9" l="3" ppth="Bernau(b Berlin)|Rüdnitz|Biesenthal|Melchow|Eberswalde Hbf"/>
+	</s>
+	<s id="5254069718021379768-2506201400-11">
+		<tl f="F" t="p" o="84" c="IC" n="149"/>
+		<ar pt="2506202100" pp="10" ppth="Amsterdam Centraal|Hilversum|Amersfoort Centraal|Apeldoorn|Deventer|Hengelo|Bad Bentheim|Rheine|Hannover Hbf|Berlin-Spandau"/>
+	</s>
+</timetable>
