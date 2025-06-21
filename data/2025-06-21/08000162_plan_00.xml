@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<timetable station="Herford">
+	<s id="-8304744246774224499-2506202234-20">
+		<tl f="N" t="p" o="R2RB" c="RB" n="20389"/>
+		<ar pt="2506210027" pp="2" l="61" ppth="Hengelo|Oldenzaal|Bad Bentheim|Schüttorf|Salzbergen|Rheine|Hörstel|Ibbenbüren-Esch|Ibbenbüren|Ibbenbüren-Laggenbeck|Osnabrück Altstadt|Osnabrück Hbf|Wissingen|Westerhausen|Melle|Bruchmühlen|Bünde(Westf)|Kirchlengern|Hiddenhausen-Schweicheln"/>
+	</s>
+	<s id="4078687366664295309-2506202300-5">
+		<tl t="p" o="W3" c="Bus" n="79838"/>
+		<ar pt="2506210006" pp="" l="EV" ppth="Minden(Westf)|Porta Westfalica|Bad Oeynhausen|Löhne(Westf)"/>
+		<dp pt="2506210006" pp="" l="EV" ppth="Bielefeld Hbf"/>
+	</s>
+	<s id="27079304795442832-2506210032-1">
+		<tl f="N" t="p" o="R2RB" c="RB" n="20392"/>
+		<dp pt="2506210032" pp="1" l="61" ppth="Hiddenhausen-Schweicheln|Kirchlengern|Bünde(Westf)|Bruchmühlen|Melle|Westerhausen|Wissingen|Osnabrück Hbf"/>
+	</s>
+	<s id="1879947334636389512-2506210037-1">
+		<tl t="p" o="R2" c="Bus" n="6105"/>
+		<dp pt="2506210037" pp="" l="RB61" ppth="Brake(b Bielefeld)|Bielefeld Hbf"/>
+	</s>
+	<s id="1489992605677565305-2506202352-3">
+		<tl t="p" o="R2" c="Bus" n="6104"/>
+		<ar pt="2506210022" pp="" l="RB61" ppth="Bielefeld Hbf|Brake(b Bielefeld)"/>
+	</s>
+	<s id="4940273091112779426-2506210032-3">
+		<tl t="p" o="W3" c="Bus" n="79863"/>
+		<ar pt="2506210057" pp="" l="EV" ppth="Bielefeld Hbf|Brake(b Bielefeld)"/>
+		<dp pt="2506210057" pp="" l="EV" ppth="Löhne(Westf)|Bad Oeynhausen|Porta Westfalica|Minden(Westf)"/>
+	</s>
+</timetable>
