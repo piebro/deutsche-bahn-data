@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<timetable station="Aschaffenburg Hbf">
+	<s id="7010641888428485149-2506211650-3">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="28698"/>
+		<ar pt="2506211700" pp="7" l="RB58" ppth="Laufach|Hösbach"/>
+		<dp pt="2506211710" pp="7" l="RB58" ppth="Kleinostheim|Rückersbacher Schlucht|Dettingen(Main)|Kahl(Main)|Großkrotzenburg|Großauheim(Kr Hanau)|Hanau Hbf|Frankfurt(Main)Süd|Frankfurt(M) Flughafen Fernbf|Rüsselsheim|Rüsselsheim Opelwerk"/>
+	</s>
+	<s id="-2746528345548280105-2506211720-1">
+		<tl t="p" o="B6" c="Bus" n="253"/>
+		<dp pt="2506211720" pp="" l="RE87" ppth="Aschaffenburg Süd|Obernau|Sulzbach(Main)|Kleinwallstadt|Obernburg-Elsenfeld|Glanzstoffwerke|Erlenbach(Main)|Klingenberg(Main)|Wörth(Main)|Laudenbach am Main|Kleinheubach|Miltenberg"/>
+	</s>
+	<s id="-3292467818332395433-2506211634-8">
+		<tl f="N" t="p" o="800772" c="RE" n="4623"/>
+		<ar pt="2506211715" pp="6" l="55" ppth="Frankfurt(Main)Hbf|Frankfurt(Main)Süd|Offenbach(Main)Hbf|Hanau Hbf|Kahl(Main)|Dettingen(Main)|Kleinostheim"/>
+		<dp pt="2506211716" pp="6" l="55" ppth="Heigenbrücken|Partenstein|Lohr Bahnhof|Langenprozelten|Gemünden(Main)|Karlstadt(Main)|Retzbach-Zellingen|Würzburg Hbf"/>
+	</s>
+	<s id="-1495553963140407943-2506211633-12">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="28665"/>
+		<ar pt="2506211747" pp="7" l="RB58" ppth="Rüsselsheim Opelwerk|Rüsselsheim|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Süd|Hanau Hbf|Großauheim(Kr Hanau)|Großkrotzenburg|Kahl(Main)|Dettingen(Main)|Rückersbacher Schlucht|Kleinostheim"/>
+		<dp pt="2506211753" pp="7" l="RB58" ppth="Hösbach|Laufach"/>
+	</s>
+	<s id="2840995703214875029-2506211747-1">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="28728"/>
+		<dp pt="2506211747" pp="5" l="RB75" ppth="Mainaschaff|Stockstadt(Main)|Babenhausen(Hess)|Hergershausen|Altheim(Hess)|Dieburg|Messel|Darmstadt-Kranichstein|Darmstadt Nord|Darmstadt Hbf|Weiterstadt|Klein Gerau|Groß Gerau|Nauheim(b Gr.Gerau)|Mainz-Bischofsheim|Mainz-Gustavsburg|Mainz Römisches Theater|Mainz Hbf|Wiesbaden Hbf"/>
+	</s>
+	<s id="-7648215139782024647-2506211603-4">
+		<tl t="p" o="B6" c="Bus" n="244"/>
+		<ar pt="2506211705" pp="" l="RE87" ppth="Miltenberg|Wörth(Main)|Obernburg-Elsenfeld"/>
+	</s>
+	<s id="-8952008243877210949-2506211526-13">
+		<tl f="N" t="p" o="800772" c="RE" n="4624"/>
+		<ar pt="2506211741" pp="8" l="54" ppth="Bamberg|Haßfurt|Schweinfurt Hbf|Würzburg Hbf|Retzbach-Zellingen|Karlstadt(Main)|Gemünden(Main)|Langenprozelten|Lohr Bahnhof|Partenstein|Wiesthal|Heigenbrücken"/>
+		<dp pt="2506211743" pp="8" l="54" ppth="Kleinostheim|Dettingen(Main)|Kahl(Main)|Hanau Hbf|Offenbach(Main)Hbf|Frankfurt(Main)Süd|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-8800040756764919345-2506211536-20">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="28723"/>
+		<ar pt="2506211712" pp="5" l="RB75" ppth="Wiesbaden Hbf|Mainz Hbf|Mainz Römisches Theater|Mainz-Gustavsburg|Mainz-Bischofsheim|Nauheim(b Gr.Gerau)|Groß Gerau|Klein Gerau|Weiterstadt|Darmstadt Hbf|Darmstadt Nord|Darmstadt-Kranichstein|Messel|Dieburg|Altheim(Hess)|Hergershausen|Babenhausen(Hess)|Stockstadt(Main)|Mainaschaff"/>
+	</s>
+	<s id="2217350875448148891-2506211540-13">
+		<tl t="p" o="B6" c="Bus" n="248"/>
+		<ar pt="2506211703" pp="" l="RE87" ppth="Miltenberg|Kleinheubach|Laudenbach am Main|Wörth(Main)|Klingenberg(Main)|Erlenbach(Main)|Glanzstoffwerke|Obernburg-Elsenfeld|Kleinwallstadt|Sulzbach(Main)|Obernau|Aschaffenburg Süd"/>
+	</s>
+	<s id="958240752594003824-2506211454-7">
+		<tl f="F" t="p" o="80" c="ICE" n="723"/>
+		<ar pt="2506211722" pp="6" ppth="Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Messe/Deutz Gl.11-12|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf"/>
+		<dp pt="2506211723" pp="6" ppth="Würzburg Hbf|Nürnberg Hbf|München Hbf"/>
+	</s>
+	<s id="-2142784246140329213-2506211447-4">
+		<tl f="F" t="p" o="80" c="ICE" n="622"/>
+		<ar pt="2506211732" pp="8" ppth="München Hbf|Nürnberg Hbf|Würzburg Hbf"/>
+		<dp pt="2506211733" pp="8" ppth="Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Siegburg/Bonn|Köln Messe/Deutz Gl.11-12|Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf"/>
+	</s>
+</timetable>
