@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<timetable station="Lüneburg">
+	<s id="9037337086180847357-2506220130-1">
+		<tl t="p" o="R1" c="Bus" n="3147"/>
+		<dp pt="2506220130" pp="" l="EV" ppth="Bienenbüttel|Bad Bevensen|Uelzen"/>
+	</s>
+	<s id="8020114050452310896-2506220010-9">
+		<tl f="D" t="p" o="X1" c="erx" n="21141"/>
+		<ar pt="2506220115" pp="5" l="RE83" ppth="Lübeck Hbf|Lübeck Hochschulstadtteil|Lübeck Flughafen|Ratzeburg|Mölln(Lauenb)|Büchen|Lauenburg(Elbe)|Echem"/>
+	</s>
+	<s id="892753523127480210-2506220033-10">
+		<tl f="D" t="p" o="R1" c="ME" n="81771"/>
+		<ar pt="2506220122" pp="" l="RB31" ppth="Hamburg Hbf|Hamburg-Harburg|Meckelfeld|Maschen|Stelle|Ashausen|Winsen(Luhe)|Radbruch|Bardowick"/>
+	</s>
+	<s id="-8493433741928369285-2506220105-4">
+		<tl f="D" t="p" o="R1" c="ME" n="81658"/>
+		<ar pt="2506220128" pp="2" l="RB31" pde="Hannover Hbf" ppth="Uelzen|Bad Bevensen|Bienenbüttel"/>
+		<dp pt="2506220129" pp="2" l="RB31" ppth="Bardowick|Radbruch|Winsen(Luhe)|Ashausen|Stelle|Maschen|Meckelfeld|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+</timetable>

@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Karlsruhe Hbf">
+	<s id="3846530474941700870-2506220006-16">
+		<tl f="S" t="p" o="801518" c="S" n="38997"/>
+		<ar pt="2506220102" pp="2" l="9" ppth="Mannheim Hbf|Mannheim-Neckarau|Mannheim-Rheinau|Schwetzingen-Hirschacker|Schwetzingen Nordstadt|Schwetzingen|Oftersheim|Hockenheim|Neulußheim|Waghäusel|Wiesental|Graben-Neudorf|Friedrichstal(Baden)|Blankenloch|Karlsruhe-Hagsfeld"/>
+	</s>
+	<s id="8868050453695511606-2506212042-7">
+		<tl t="p" o="85" c="NJ" n="402"/>
+		<ar pt="2506220118" pp="3" hi="1" wings="4753870957390372842-2506212042" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden"/>
+		<dp pt="2506220120" pp="3" hi="1" wings="4753870957390372842-2506212042" ppth="Mannheim Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf|Bonn Hbf|Eindhoven Centraal|Rotterdam Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="-6773908398844685029-2506220130-1">
+		<tl f="N" t="p" o="800571" c="RB" n="15882"/>
+		<dp pt="2506220130" pp="6" l="44" ppth="Ettlingen West|Bruchhausen(b Ettlingen)|Malsch|Malsch Süd|Muggensturm Badesee|Muggensturm|Rastatt|Baden-Baden Haueneberstein|Baden-Baden|Sinzheim Nord|Sinzheim|Baden-Baden Rebland|Bühl(Baden)"/>
+	</s>
+	<s id="442689783247395044-2506220034-4">
+		<tl f="N" t="p" o="800632" c="RB" n="32582"/>
+		<ar pt="2506220100" pp="" l="74" ppth="Pforzheim Hbf|Wilferdingen-Singen|Karlsruhe-Durlach"/>
+	</s>
+	<s id="4753870957390372842-2506212042-7">
+		<tl f="F" t="p" o="NZ" c="IC" n="60402"/>
+		<ar pt="2506220118" pp="3" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden"/>
+		<dp pt="2506220120" pp="3" ppth="Mannheim Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf|Bonn Hbf|Eindhoven Centraal|Rotterdam Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="5181720942697741094-2506211916-9">
+		<tl f="F" t="p" o="80" c="ICE" n="775"/>
+		<ar pt="2506220110" pp="2" ppth="Hamburg Dammtor|Hamburg Hbf|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mannheim Hbf"/>
+	</s>
+	<s id="-8332221861054296360-2506220016-9">
+		<tl f="N" t="p" o="GARE" c="RE" n="19036"/>
+		<ar pt="2506220119" pp="14" l="1" ppth="Stuttgart Hbf|Ludwigsburg|Bietigheim-Bissingen|Vaihingen(Enz)|Mühlacker|Pforzheim Hbf|Wilferdingen-Singen|Karlsruhe-Durlach"/>
+	</s>
+</timetable>
