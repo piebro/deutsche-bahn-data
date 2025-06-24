@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<timetable station="Gelsenkirchen Hbf">
+	<s id="2660451092632041830-2506240134-7">
+		<tl f="N" t="p" o="8003L1" c="RB" n="31282"/>
+		<ar pt="2506240158" pp="6" l="32" ppth="Duisburg Hbf|Oberhausen Hbf|Essen-Dellwig|Essen-Bergeborbeck|Essen-Altenessen|Essen-Zollverein Nord"/>
+	</s>
+	<s id="1568162529197942714-2506240056-4">
+		<tl f="S" t="p" o="8003L1" c="S" n="30200"/>
+		<ar pt="2506240106" pp="7" l="2" ppth="Essen Hbf|Essen-Kray Nord|Gelsenkirchen-Rotthausen"/>
+		<dp pt="2506240107" pp="7" l="2" ppth="Wanne-Eickel Hbf|Herne|Castrop-Rauxel Hbf|Dortmund-Mengede|Dortmund-Nette/Oestrich|Dortmund-Westerfilde|Dortmund-Huckarde|Dortmund-Wischlingen|Dortmund-Dorstfeld|Dortmund Hbf"/>
+	</s>
+	<s id="1031466248248489431-2506240117-11">
+		<tl f="S" t="p" o="8003L1" c="S" n="30203"/>
+		<ar pt="2506240153" pp="4" l="2" ppth="Dortmund Hbf|Dortmund-Dorstfeld|Dortmund-Wischlingen|Dortmund-Huckarde|Dortmund-Westerfilde|Dortmund-Nette/Oestrich|Dortmund-Mengede|Castrop-Rauxel Hbf|Herne|Wanne-Eickel Hbf"/>
+		<dp pt="2506240154" pp="4" l="2" ppth="Gelsenkirchen-Rotthausen|Essen-Kray Nord|Essen Hbf"/>
+	</s>
+	<s id="2016319756191606416-2506240146-2">
+		<tl f="N" t="p" o="800349" c="RE" n="10183"/>
+		<ar pt="2506240154" pp="7" l="42" ppth="Essen Hbf"/>
+		<dp pt="2506240155" pp="7" l="42" ppth="Wanne-Eickel Hbf|Recklinghausen Süd|Recklinghausen Hbf|Marl-Sinsen|Haltern am See"/>
+	</s>
+	<s id="-970464523479391061-2506240103-1">
+		<tl t="p" o="B2" c="Bus" n="2017"/>
+		<dp pt="2506240103" pp="" l="RE42" ppth="Wanne-Eickel Hbf|Recklinghausen Süd|Recklinghausen Hbf"/>
+	</s>
+	<s id="1510448324932022955-2506240049-6">
+		<tl f="D" t="p" o="R4NRN" c="VIA" n="31398"/>
+		<ar pt="2506240111" pp="25" l="RB46" ppth="Bochum Hbf|Bochum West|Bochum-Hamme|Bochum-Riemke|Wanne-Eickel Hbf"/>
+	</s>
+</timetable>
