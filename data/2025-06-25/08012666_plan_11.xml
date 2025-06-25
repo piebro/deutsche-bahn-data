@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<timetable station="Potsdam Hbf">
+	<s id="-8970193456297105880-2506251141-1">
+		<tl f="N" t="p" o="OWRB" c="RB" n="62134"/>
+		<dp pt="2506251141" pp="2" l="33" ppth="Potsdam Charlottenhof|Potsdam Pirschheide|Caputh-Geltow|Caputh Schwielowsee|Ferch-Lienewitz|Beelitz Stadt|Elsholz|Buchholz(Zauche)|Treuenbrietzen|Treuenbrietzen Süd|Altes Lager|Jüterbog"/>
+	</s>
+	<s id="8401961774653534965-2506251010-13">
+		<tl f="N" t="p" o="OWRB" c="RB" n="62135"/>
+		<ar pt="2506251119" pp="2" l="33" ppth="Jüterbog|Altes Lager|Treuenbrietzen Süd|Treuenbrietzen|Buchholz(Zauche)|Elsholz|Beelitz Stadt|Ferch-Lienewitz|Caputh Schwielowsee|Caputh-Geltow|Potsdam Pirschheide|Potsdam Charlottenhof"/>
+	</s>
+	<s id="-4136692685937486380-2506251141-2">
+		<tl f="N" t="p" o="800165" c="RB" n="18116"/>
+		<ar pt="2506251145" pp="1" l="22" ppth="Potsdam Griebnitzsee"/>
+		<dp pt="2506251148" pp="1" l="22" ppth="Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Potsdam Pirschheide|Saarmund|Ludwigsfelde-Struveshof|Flughafen BER|Königs Wusterhausen"/>
+	</s>
+	<s id="-3690921311886348499-2506251010-9">
+		<tl f="N" t="p" o="OWRE" c="RE" n="73769"/>
+		<ar pt="2506251105" pp="3" l="1" ppth="Erkner|Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Wannsee"/>
+		<dp pt="2506251107" pp="3" l="1" ppth="Potsdam Charlottenhof|Potsdam Park Sanssouci"/>
+	</s>
+	<s id="1622964055178974255-2506251029-5">
+		<tl f="N" t="p" o="800165" c="RB" n="18461"/>
+		<ar pt="2506251115" pp="4" l="20" ppth="Hennigsdorf(b Berlin)|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof"/>
+		<dp pt="2506251117" pp="4" l="20" ppth="Potsdam Griebnitzsee"/>
+	</s>
+	<s id="-3365962739214143359-2506251130-4">
+		<tl f="N" t="p" o="800165" c="RB" n="18155"/>
+		<ar pt="2506251140" pp="4" l="23" ppth="Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof"/>
+		<dp pt="2506251142" pp="4" l="23" ppth="Potsdam Griebnitzsee"/>
+	</s>
+	<s id="4085750436512223701-2506250535-18">
+		<tl f="F" t="p" o="80" c="IC" n="2035"/>
+		<ar pt="2506251155" pp="4" ppth="Norddeich|Norden|Marienhafe|Emden Hbf|Leer(Ostfriesl)|Augustfehn|Westerstede-Ocholt|Bad Zwischenahn|Oldenburg(Oldb)Hbf|Hude|Delmenhorst|Bremen Hbf|Verden(Aller)|Nienburg(Weser)|Hannover Hbf|Braunschweig Hbf|Stendal Hbf"/>
+		<dp pt="2506251203" pp="4" ppth="Berlin-Wannsee|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="-7579227653757185679-2506251141-2">
+		<tl f="N" t="p" o="800165" c="RB" n="18464"/>
+		<ar pt="2506251145" pp="1" l="20" wings="-4136692685937486380-2506251141" ppth="Potsdam Griebnitzsee"/>
+		<dp pt="2506251148" pp="1" l="20" wings="-4136692685937486380-2506251141" ppth="Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Hennigsdorf(b Berlin)"/>
+	</s>
+	<s id="7154273966685242335-2506251009-9">
+		<tl f="N" t="p" o="800165" c="RB" n="18113"/>
+		<ar pt="2506251115" pp="4" l="22" wings="1622964055178974255-2506251029" ppth="Königs Wusterhausen|Flughafen BER|Ludwigsfelde-Struveshof|Saarmund|Potsdam Pirschheide|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof"/>
+		<dp pt="2506251117" pp="4" l="22" wings="1622964055178974255-2506251029" ppth="Potsdam Griebnitzsee"/>
+	</s>
+	<s id="-5913373018735164222-2506251015-13">
+		<tl f="N" t="p" o="800165" c="RB" n="18253"/>
+		<ar pt="2506251123" pp="1" l="21" ppth="Berlin Gesundbrunnen|Berlin Jungfernheide|Berlin-Spandau|Berlin-Staaken|Dallgow-Döberitz|Elstal|Wustermark|Priort|Marquardt|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof"/>
+	</s>
+	<s id="6648976099995333236-2506250955-14">
+		<tl f="N" t="p" o="OWRE" c="RE" n="73729"/>
+		<ar pt="2506251129" pp="3" l="1" ppth="Frankfurt(Oder)|Fürstenwalde(Spree)|Hangelsberg|Fangschleuse|Erkner|Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Charlottenburg|Berlin-Wannsee"/>
+		<dp pt="2506251131" pp="3" l="1" ppth="Werder(Havel)|Groß Kreutz"/>
+	</s>
+	<s id="4307452456920598832-2506251113-3">
+		<tl f="N" t="p" o="OWRE" c="RE" n="73726"/>
+		<ar pt="2506251129" pp="4" l="1" ppth="Groß Kreutz|Werder(Havel)"/>
+		<dp pt="2506251131" pp="4" l="1" ppth="Berlin-Wannsee|Berlin-Charlottenburg|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz|Erkner|Fangschleuse|Hangelsberg|Fürstenwalde(Spree)|Frankfurt(Oder)"/>
+	</s>
+	<s id="2504021011657361635-2506251143-3">
+		<tl f="N" t="p" o="OWRE" c="RE" n="73768"/>
+		<ar pt="2506251148" pp="4" l="1" ppth="Potsdam Park Sanssouci|Potsdam Charlottenhof"/>
+		<dp pt="2506251150" pp="4" l="1" ppth="Berlin-Wannsee|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz|Erkner"/>
+	</s>
+	<s id="-662138540699531913-2506251136-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18254"/>
+		<dp pt="2506251136" pp="1" l="21" ppth="Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Marquardt|Priort|Wustermark|Elstal|Dallgow-Döberitz|Berlin-Staaken|Berlin-Spandau|Berlin Jungfernheide|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="4561500268886352592-2506251108-2">
+		<tl f="N" t="p" o="800165" c="RB" n="18150"/>
+		<ar pt="2506251111" pp="3" l="23" ppth="Potsdam Griebnitzsee"/>
+		<dp pt="2506251113" pp="3" l="23" ppth="Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm"/>
+	</s>
+</timetable>
