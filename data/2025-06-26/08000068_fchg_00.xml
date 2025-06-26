@@ -1,0 +1,1327 @@
+<?xml version="1.0" ?><timetable station="Darmstadt Hbf" eva="8000068">
+
+<s id="5489382238418385337-2506252152-12" eva="8000068">
+    <m id="r2444956" t="h" from="2506240000" to="2507172359" cat="Information" ts="2506241537" ts-tts="25-06-24 23:16:04.786" pr="2"/>
+    <m id="r2444457" t="h" from="2506240112" to="2506262359" cat="Information" ts="2506240112" ts-tts="25-06-24 23:16:04.767" pr="3"/>
+    <m id="r2445304" t="h" from="2506250645" to="2506282359" cat="Information" ts="2506250645" ts-tts="25-06-25 06:46:09.705" pr="3"/>
+    <m id="r2445688" t="h" from="2506251930" to="2506252300" cat="Störung" ts="2506252046" ts-tts="25-06-25 20:47:02.429" pr="1"/>
+    <ar ct="2506260453">
+        <m id="r19900929" t="d" c="31" ts="2506260147" ts-tts="25-06-26 01:47:33.620"/>
+    </ar>
+    <dp ct="2506260454">
+        <m id="r19900929" t="d" c="31" ts="2506260147" ts-tts="25-06-26 01:47:33.620"/>
+    </dp>
+</s>
+
+
+<s id="-521217330813819261-2506252152-12" eva="8000068">
+    <m id="r2445688" t="h" from="2506251930" to="2506252300" cat="Störung" ts="2506252046" ts-tts="25-06-25 20:47:02.429" pr="1"/>
+    <ar ct="2506260453">
+        <m id="r19900927" t="d" c="31" ts="2506260147" ts-tts="25-06-26 01:47:33.620"/>
+    </ar>
+    <dp ct="2506260454">
+        <m id="r19900927" t="d" c="31" ts="2506260147" ts-tts="25-06-26 01:47:33.620"/>
+    </dp>
+</s>
+
+
+<s id="-3496075185645872858-2506261654-6" eva="8000068">
+    <m id="r2445304" t="h" from="2506250645" to="2506282359" cat="Information" ts="2506250645" ts-tts="25-06-25 23:16:04.999" pr="3"/>
+    <ar ppth="Stuttgart Hbf|Wiesloch-Walldorf|Heidelberg Hbf|Weinheim(Bergstr)Hbf|Bensheim" pp="5" pt="2506261822">
+        <m id="r19858574" t="f" c="0" ts="2506251051" ts-tts="25-06-25 10:51:55.431"/>
+        <m id="r19901222" t="q" c="98" ts="2506260221" ts-tts="25-06-26 02:21:46.049"/>
+    </ar>
+    <dp ppth="Frankfurt(Main)Hbf|Frankfurt(Main)West|Friedberg(Hess)|Gießen|Marburg(Lahn)|Treysa|Wabern(Bz Kassel)|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf" pp="5" pt="2506261824">
+        <m id="r19858574" t="f" c="0" ts="2506251051" ts-tts="25-06-25 10:51:55.431"/>
+        <m id="r19901222" t="q" c="98" ts="2506260221" ts-tts="25-06-26 02:21:46.049"/>
+    </dp>
+    <tl f="F" t="e" o="80" c="ICE" n="2852"/>
+</s>
+
+
+<s id="-7250579491668037228-2506260702-8" eva="8000068">
+    <m id="r2445304" t="h" from="2506250645" to="2506282359" cat="Information" ts="2506250645" ts-tts="25-06-25 23:16:04.999" pr="3"/>
+    <ar ppth="Karlsruhe Hbf|Karlsruhe-Durlach|Bruchsal|Wiesloch-Walldorf|Heidelberg Hbf|Weinheim(Bergstr)Hbf|Bensheim" pp="5" pt="2506260822">
+        <m id="r19858566" t="f" c="0" ts="2506251051" ts-tts="25-06-25 10:51:55.433"/>
+        <m id="r19901217" t="q" c="98" ts="2506260221" ts-tts="25-06-26 02:21:15.371"/>
+    </ar>
+    <dp ppth="Frankfurt(Main)Hbf|Friedberg(Hess)|Gießen|Marburg(Lahn)|Treysa|Wabern(Bz Kassel)|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen|Lüneburg|Hamburg-Harburg|Hamburg Hbf|Schwerin Hbf|Bützow|Rostock Hbf|Ribnitz-Damgarten West|Velgast|Stralsund Hbf|Bergen auf Rügen|Ostseebad Binz" pp="5" pt="2506260824">
+        <m id="r19858566" t="f" c="0" ts="2506251051" ts-tts="25-06-25 10:51:55.433"/>
+        <m id="r19901217" t="q" c="98" ts="2506260221" ts-tts="25-06-26 02:21:15.371"/>
+    </dp>
+    <tl f="F" t="e" o="80" c="ICE" n="2842"/>
+</s>
+
+
+<s id="2544681561851787677-2506270826-23" eva="8000068">
+    <ar ppth="Ostseebad Binz|Bergen auf Rügen|Stralsund Hbf|Velgast|Ribnitz-Damgarten West|Rostock Hbf|Bützow|Schwerin Hbf|Hamburg Hbf|Hamburg-Harburg|Lüneburg|Uelzen|Celle|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Wabern(Bz Kassel)|Treysa|Marburg(Lahn)|Gießen|Friedberg(Hess)|Frankfurt(Main)Hbf" pp="11" pt="2506271735">
+        <m id="r19861211" t="f" c="0" ts="2506251142" ts-tts="25-06-25 11:42:39.915"/>
+        <m id="r19900869" t="f" c="0" ts="2506260139" ts-tts="25-06-26 01:39:53.670"/>
+    </ar>
+    <dp ppth="Bensheim|Weinheim(Bergstr)Hbf|Heidelberg Hbf|Wiesloch-Walldorf|Bruchsal|Karlsruhe-Durlach|Karlsruhe Hbf" pp="11" pt="2506271737">
+        <m id="r19861211" t="f" c="0" ts="2506251142" ts-tts="25-06-25 11:42:39.915"/>
+        <m id="r19900869" t="f" c="0" ts="2506260139" ts-tts="25-06-26 01:39:53.670"/>
+    </dp>
+    <tl f="F" t="e" o="80" c="ICE" n="2841"/>
+</s>
+
+
+<s id="8419427910032747790-2506271310-7" eva="8000068">
+    <ar ppth="Karlsruhe Hbf|Bruchsal|Wiesloch-Walldorf|Heidelberg Hbf|Weinheim(Bergstr)Hbf|Bensheim" pp="5" pt="2506271422">
+        <m id="r19861187" t="f" c="0" ts="2506251142" ts-tts="25-06-25 11:42:39.913"/>
+        <m id="r19900845" t="f" c="0" ts="2506260139" ts-tts="25-06-26 01:39:53.667"/>
+    </ar>
+    <dp ppth="Frankfurt(Main)Hbf|Frankfurt(Main)West|Friedberg(Hess)|Gießen|Marburg(Lahn)|Treysa|Wabern(Bz Kassel)|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen|Lüneburg|Hamburg-Harburg|Hamburg Hbf|Schwerin Hbf|Bad Kleinen|Bützow|Rostock Hbf" pp="5" pt="2506271424">
+        <m id="r19861187" t="f" c="0" ts="2506251142" ts-tts="25-06-25 11:42:39.913"/>
+        <m id="r19900845" t="f" c="0" ts="2506260139" ts-tts="25-06-26 01:39:53.667"/>
+    </dp>
+    <tl f="F" t="e" o="80" c="ICE" n="2846"/>
+</s>
+
+
+<s id="-7250579491668037228-2506270702-8" eva="8000068">
+    <ar ppth="Karlsruhe Hbf|Karlsruhe-Durlach|Bruchsal|Wiesloch-Walldorf|Heidelberg Hbf|Weinheim(Bergstr)Hbf|Bensheim" pp="5" pt="2506270822">
+        <m id="r19861207" t="f" c="0" ts="2506251142" ts-tts="25-06-25 11:42:39.912"/>
+        <m id="r19900865" t="f" c="0" ts="2506260139" ts-tts="25-06-26 01:39:53.666"/>
+    </ar>
+    <dp ppth="Frankfurt(Main)Hbf|Friedberg(Hess)|Gießen|Marburg(Lahn)|Treysa|Wabern(Bz Kassel)|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen|Lüneburg|Hamburg-Harburg|Hamburg Hbf|Schwerin Hbf|Bützow|Rostock Hbf|Ribnitz-Damgarten West|Velgast|Stralsund Hbf|Bergen auf Rügen|Ostseebad Binz" pp="5" pt="2506270824">
+        <m id="r19861207" t="f" c="0" ts="2506251142" ts-tts="25-06-25 11:42:39.912"/>
+        <m id="r19900865" t="f" c="0" ts="2506260139" ts-tts="25-06-26 01:39:53.666"/>
+    </dp>
+    <tl f="F" t="e" o="80" c="ICE" n="2842"/>
+</s>
+
+
+<s id="-7848620680744727823-2506270557-11" eva="8000068">
+    <ar ppth="Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Wabern(Bz Kassel)|Treysa|Marburg(Lahn)|Gießen|Friedberg(Hess)|Frankfurt(Main)West|Frankfurt(Main)Hbf" pp="11" pt="2506270935">
+        <m id="r19861191" t="f" c="0" ts="2506251142" ts-tts="25-06-25 11:42:39.911"/>
+        <m id="r19900849" t="f" c="0" ts="2506260139" ts-tts="25-06-26 01:39:53.665"/>
+    </ar>
+    <dp ppth="Bensheim|Weinheim(Bergstr)Hbf|Heidelberg Hbf|Wiesloch-Walldorf|Bruchsal|Karlsruhe Hbf" pp="11" pt="2506270937">
+        <m id="r19861191" t="f" c="0" ts="2506251142" ts-tts="25-06-25 11:42:39.911"/>
+        <m id="r19900849" t="f" c="0" ts="2506260139" ts-tts="25-06-26 01:39:53.665"/>
+    </dp>
+    <tl f="F" t="e" o="80" c="ICE" n="2843"/>
+</s>
+
+
+<s id="-4085217902046003869-2506260609-11" eva="8000068">
+    <ar ct="2506260651" l="RB75"/>
+    <dp ct="2506260712" l="RB75"/>
+</s>
+
+
+<s id="-2171837563900003910-2506260602-9" eva="8000068">
+    <ar ct="2506260647" l="RB75"/>
+    <dp ct="2506260704" l="RB75"/>
+</s>
+
+
+<s id="-4884249818121601096-2506261103-5" eva="8000068">
+    <m id="r2397178" t="h" from="2504021133" to="2506302359" cat="Information" ts="2504021134" ts-tts="25-06-25 23:16:04.472" pr="3"/>
+    <m id="r2397244" t="h" from="2504021351" to="2507012359" cat="Information" ts="2504021355" ts-tts="25-06-25 23:16:04.473" pr="2"/>
+    <m id="r2445304" t="h" from="2506250645" to="2506282359" cat="Information" ts="2506250645" ts-tts="25-06-25 23:16:04.999" pr="3"/>
+    <ar cpth="" cs="c" clt="2506260158">
+        <m id="r19901011" t="d" c="36" ts="2506260158" ts-tts="25-06-26 01:59:02.747"/>
+    </ar>
+    <dp cpth="" cs="c" clt="2506260158">
+        <m id="r19901011" t="d" c="36" ts="2506260158" ts-tts="25-06-26 01:59:02.747"/>
+    </dp>
+</s>
+
+
+<s id="-3082593461708427357-2506261103-5" eva="8000068">
+    <ar ppth="Stuttgart Hbf|Heidelberg Hbf|Weinheim(Bergstr)Hbf|Bensheim" pp="5" pt="2506261222">
+        <m id="r19901012" t="d" c="36" ts="2506260158" ts-tts="25-06-26 01:59:02.747"/>
+    </ar>
+    <dp ppth="Frankfurt(Main)Hbf|Friedberg(Hess)|Gießen|Marburg(Lahn)|Treysa|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen|Bad Bevensen|Lüneburg|Hamburg-Harburg|Hamburg Hbf|Schwerin Hbf|Bad Kleinen|Bützow|Rostock Hbf|Ribnitz-Damgarten West|Velgast|Stralsund Hbf" pp="5" pt="2506261224">
+        <m id="r19901012" t="d" c="36" ts="2506260158" ts-tts="25-06-26 01:59:02.747"/>
+    </dp>
+    <tl f="F" t="e" o="80" c="ICE" n="2938"/>
+    <ref>
+        <tl f="F" t="p" o="80" c="ICE" n="1578"/>
+    </ref>
+</s>
+
+
+<s id="-5591597380485360579-2506252059-8" eva="8000068">
+    <m id="r2444956" t="h" from="2506240000" to="2507172359" cat="Information" ts="2506241537" ts-tts="25-06-24 23:16:04.786" pr="2"/>
+    <m id="r2444457" t="h" from="2506240112" to="2506262359" cat="Information" ts="2506240112" ts-tts="25-06-24 23:16:04.767" pr="3"/>
+    <m id="r2445304" t="h" from="2506250645" to="2506282359" cat="Information" ts="2506250645" ts-tts="25-06-25 06:46:09.705" pr="3"/>
+    <ar ct="2506260150">
+        <m id="r19882559" t="d" c="36" ts="2506251754" ts-tts="25-06-25 17:54:38.584"/>
+        <m id="r19896884" t="d" c="36" ts="2506252314" ts-tts="25-06-25 23:14:06.759"/>
+        <m id="r19899483" t="d" c="49" ts="2506260132" ts-tts="25-06-26 01:32:21.086"/>
+    </ar>
+    <dp ct="2506260155">
+        <m id="r19882559" t="d" c="36" ts="2506251754" ts-tts="25-06-25 17:54:38.584"/>
+        <m id="r19896884" t="d" c="36" ts="2506252314" ts-tts="25-06-25 23:14:06.759"/>
+        <m id="r19899483" t="d" c="49" ts="2506260132" ts-tts="25-06-26 01:32:21.086"/>
+    </dp>
+</s>
+
+
+<s id="-6744825649472455991-2506260055-27" eva="8000068">
+    <ar ct="2506260155" l="6"/>
+</s>
+
+
+<s id="1003446772902483359-2506252059-8" eva="8000068">
+    <m id="r2419370" t="h" from="2506212059" to="2506270809" cat="Bauarbeiten" ts="2506202303" ts-tts="25-06-24 23:16:04.491" pr="1"/>
+    <m id="r2419369" t="h" from="2506212059" to="2506270809" cat="Bauarbeiten" ts="2506202303" ts-tts="25-06-24 23:16:04.490" pr="1"/>
+    <ar ct="2506260150">
+        <m id="r19882556" t="d" c="36" ts="2506251754" ts-tts="25-06-25 17:54:38.584"/>
+        <m id="r19896882" t="d" c="36" ts="2506252314" ts-tts="25-06-25 23:14:06.759"/>
+        <m id="r19899481" t="d" c="49" ts="2506260132" ts-tts="25-06-26 01:32:21.086"/>
+    </ar>
+    <dp ct="2506260154">
+        <m id="r19882556" t="d" c="36" ts="2506251754" ts-tts="25-06-25 17:54:38.584"/>
+        <m id="r19896882" t="d" c="36" ts="2506252314" ts-tts="25-06-25 23:14:06.759"/>
+        <m id="r19899481" t="d" c="49" ts="2506260132" ts-tts="25-06-26 01:32:21.086"/>
+    </dp>
+</s>
+
+
+<s id="-3800445584638428510-2506260540-11" eva="8000068">
+    <ar ct="2506260626" l="RB75"/>
+    <dp ct="2506260638" l="RB75"/>
+</s>
+
+
+<s id="36079000425998421-2506260536-10" eva="8000068">
+    <ar ct="2506260621" l="RB75"/>
+    <dp ct="2506260630" l="RB75"/>
+</s>
+
+
+<s id="3923553182466476119-2506260025-27" eva="8000068">
+    <ar ct="2506260126" l="6"/>
+</s>
+
+
+<s id="-8641247344294665847-2506261721-13" eva="8000068">
+    <m id="r2394671" t="h" from="2505010000" to="2506302359" cat="Information" ts="2504302303" ts-tts="25-06-25 23:16:04.470" pr="1"/>
+</s>
+
+
+<s id="-9092849886162388261-2506260511-1" eva="8000068">
+    <dp ct="2506260511" l="RB75"/>
+</s>
+
+
+<s id="-433212135402525987-2506260510-11" eva="8000068">
+    <ar ct="2506260551" l="RB75"/>
+    <dp ct="2506260612" l="RB75"/>
+</s>
+
+
+<s id="-760846583069649736-2506260105-1" eva="8000068">
+    <dp ct="2506260105" l="6"/>
+</s>
+
+
+<s id="-1213221263548187249-2506260502-9" eva="8000068">
+    <ar ct="2506260547" l="RB75"/>
+    <dp ct="2506260554" l="RB75"/>
+</s>
+
+
+<s id="-7302145475047686561-2506252355-27" eva="8000068">
+    <ar ct="2506260056" l="6"/>
+</s>
+
+
+<s id="2966502824354510275-2506260449-1" eva="8000068">
+    <dp ct="2506260449" l="RB75"/>
+</s>
+
+
+<s id="-5601171491286610578-2506260443-11" eva="8000068">
+    <ar ct="2506260527" l="RB75"/>
+    <dp ct="2506260538" l="RB75"/>
+</s>
+
+
+<s id="-7982581853949141333-2506260039-1" eva="8000068">
+    <dp cp="8" ct="2506260040" l="RB81"/>
+</s>
+
+
+<s id="-1634000951474370148-2506260438-1" eva="8000068">
+    <dp ct="2506260438" l="RB75"/>
+</s>
+
+
+<s id="7269333545260304720-2506260437-10" eva="8000068">
+    <ar ct="2506260521" l="RB75"/>
+    <dp ct="2506260530" l="RB75"/>
+</s>
+
+
+<s id="-3764693656547169082-2506260035-1" eva="8000068">
+    <dp ct="2506260035" l="6"/>
+</s>
+
+
+<s id="9065203500534833-2506252325-27" eva="8000068">
+    <ar ct="2506260028" l="6"/>
+</s>
+
+
+<s id="7705396428285892876-2506252347-11" eva="8000068">
+    <ar ct="2506260029" l="RB75"/>
+</s>
+
+
+<s id="-4114929972102782733-2506252333-17" eva="8000068">
+    <m id="r2393657" t="h" from="2504010000" to="2506252359" cat="Bauarbeiten" ts="2503312303" ts-tts="25-06-24 23:16:04.308" pr="2"/>
+    <ar ct="2506260026" l="67"/>
+    <dp ct="2506260030" l="67"/>
+</s>
+
+
+<s id="8097664128135578451-2506260006-3" eva="8000068">
+    <ar ct="2506260025" l="68"/>
+    <dp ct="2506260031" l="68"/>
+</s>
+
+
+<s id="8895461512678855449-2506252359-6" eva="8000068">
+    <ar ct="2506260023" l="RB75"/>
+</s>
+
+
+<s id="-2154052854632777573-2506261654-6" eva="8000068">
+    <m id="r2445304" t="h" from="2506250645" to="2506282359" cat="Information" ts="2506250645" ts-tts="25-06-25 23:16:05.000" pr="3"/>
+    <ar cpth="" cs="c" clt="2506251051">
+        <m id="r19858572" t="d" c="36" ts="2506251051" ts-tts="25-06-25 10:51:55.431"/>
+        <m id="r19858575" t="d" c="36" ts="2506251051" ts-tts="25-06-25 10:51:55.431"/>
+    </ar>
+    <dp cpth="" cs="c" clt="2506251051">
+        <m id="r19858572" t="d" c="36" ts="2506251051" ts-tts="25-06-25 10:51:55.431"/>
+        <m id="r19858575" t="d" c="36" ts="2506251051" ts-tts="25-06-25 10:51:55.431"/>
+    </dp>
+</s>
+
+
+<s id="1425336213311806055-2506261656-2" eva="8000068">
+    <ar cpth="Frankfurt(Main)Hbf" cs="p" clt="2506251043">
+        <m id="r19858115" t="d" c="36" ts="2506251043" ts-tts="25-06-25 10:43:35.528"/>
+        <m id="r19897643" t="f" c="0" ts="2506252349" ts-tts="25-06-25 23:49:59.104"/>
+        <m id="r19897644" t="f" c="0" ts="2506252349" ts-tts="25-06-25 23:49:59.104"/>
+    </ar>
+    <dp cpth="Stuttgart Hbf" cs="p" clt="2506251043">
+        <m id="r19858115" t="d" c="36" ts="2506251043" ts-tts="25-06-25 10:43:35.528"/>
+        <m id="r19897643" t="f" c="0" ts="2506252349" ts-tts="25-06-25 23:49:59.104"/>
+        <m id="r19897644" t="f" c="0" ts="2506252349" ts-tts="25-06-25 23:49:59.104"/>
+    </dp>
+</s>
+
+
+<s id="-8396214556822456040-2506260005-1" eva="8000068">
+    <dp ct="2506260006" l="6"/>
+</s>
+
+
+<s id="-7007015678719047037-2506252255-27" eva="8000068">
+    <ar ct="2506252358" l="6"/>
+</s>
+
+
+<s id="-6396927162066470344-2506252259-6" eva="8000068">
+    <ar ct="2506252346" l="RB75"/>
+    <dp ct="2506252351" l="RB75"/>
+</s>
+
+
+<s id="2544377602079428643-2506252247-11" eva="8000068">
+    <ar ct="2506252332" l="RB75">
+        <m id="r19896049" t="d" c="21" ts="2506252242" ts-tts="25-06-25 22:43:09.560"/>
+    </ar>
+    <dp ct="2506252335" l="RB75">
+        <m id="r19896049" t="d" c="21" ts="2506252242" ts-tts="25-06-25 22:43:09.560"/>
+    </dp>
+</s>
+
+
+<s id="-8577511633944810443-2506252335-1" eva="8000068">
+    <dp ct="2506252335" l="6"/>
+</s>
+
+
+<s id="-7787995025224081314-2506252312-3" eva="8000068">
+    <m id="r2393657" t="h" from="2504010000" to="2506252359" cat="Bauarbeiten" ts="2503312303" ts-tts="25-06-24 23:16:04.308" pr="2"/>
+    <ar ct="2506252332" l="68"/>
+    <dp ct="2506252334" l="68"/>
+</s>
+
+
+<s id="6395030481339666658-2506260608-18" eva="8000068">
+    <m id="r2397178" t="h" from="2504021133" to="2506302359" cat="Information" ts="2504021134" ts-tts="25-06-25 23:16:04.472" pr="3"/>
+    <m id="r2397244" t="h" from="2504021351" to="2507012359" cat="Information" ts="2504021355" ts-tts="25-06-25 23:16:04.473" pr="2"/>
+    <m id="r2445304" t="h" from="2506250645" to="2506282359" cat="Information" ts="2506250645" ts-tts="25-06-25 23:16:04.999" pr="3"/>
+    <ar cpth="" cs="c" clt="2506252333">
+        <m id="r19897272" t="d" c="36" ts="2506252333" ts-tts="25-06-25 23:33:14.807"/>
+    </ar>
+    <dp cpth="" cs="c" clt="2506252333">
+        <m id="r19897272" t="d" c="36" ts="2506252333" ts-tts="25-06-25 23:33:14.807"/>
+    </dp>
+</s>
+
+
+<s id="-1448145632787747533-2506261510-7" eva="8000068">
+    <m id="r2397178" t="h" from="2504021133" to="2506302359" cat="Information" ts="2504021134" ts-tts="25-06-25 23:16:04.472" pr="3"/>
+    <m id="r2397244" t="h" from="2504021351" to="2507012359" cat="Information" ts="2504021355" ts-tts="25-06-25 23:16:04.473" pr="2"/>
+    <m id="r2445304" t="h" from="2506250645" to="2506282359" cat="Information" ts="2506250645" ts-tts="25-06-25 23:16:05.000" pr="3"/>
+    <ar cpth="" cs="c" clt="2506252333">
+        <m id="r19897276" t="d" c="36" ts="2506252333" ts-tts="25-06-25 23:33:14.806"/>
+    </ar>
+    <dp cpth="" cs="c" clt="2506252333">
+        <m id="r19897276" t="d" c="36" ts="2506252333" ts-tts="25-06-25 23:33:14.806"/>
+    </dp>
+</s>
+
+
+<s id="-578738868348460473-2506260608-18" eva="8000068">
+    <ar ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Lüneburg|Bad Bevensen|Uelzen|Celle|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Treysa|Marburg(Lahn)|Gießen|Friedberg(Hess)|Frankfurt(Main)West|Frankfurt(Main)Hbf" pp="11" pt="2506261135">
+        <m id="r19897273" t="d" c="36" ts="2506252333" ts-tts="25-06-25 23:33:14.808"/>
+    </ar>
+    <dp ppth="Bensheim|Weinheim(Bergstr)Hbf|Heidelberg Hbf|Wiesloch-Walldorf|Bruchsal|Karlsruhe Hbf" pp="11" pt="2506261137">
+        <m id="r19897273" t="d" c="36" ts="2506252333" ts-tts="25-06-25 23:33:14.808"/>
+    </dp>
+    <tl f="F" t="e" o="80" c="ICE" n="2815"/>
+    <ref>
+        <tl f="F" t="p" o="80" c="ICE" n="1575"/>
+    </ref>
+</s>
+
+
+<s id="6526421365031881243-2506261510-7" eva="8000068">
+    <ar ppth="Karlsruhe Hbf|Bruchsal|Wiesloch-Walldorf|Heidelberg Hbf|Weinheim(Bergstr)Hbf|Bensheim" pp="5" pt="2506261622">
+        <m id="r19897277" t="d" c="36" ts="2506252333" ts-tts="25-06-25 23:33:14.807"/>
+    </ar>
+    <dp ppth="Frankfurt(Main)Hbf|Frankfurt(Main)West|Friedberg(Hess)|Gießen|Marburg(Lahn)|Treysa|Wabern(Bz Kassel)|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen|Lüneburg|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona" pp="5" pt="2506261624">
+        <m id="r19897277" t="d" c="36" ts="2506252333" ts-tts="25-06-25 23:33:14.807"/>
+    </dp>
+    <tl f="F" t="e" o="80" c="ICE" n="2844"/>
+    <ref>
+        <tl f="F" t="p" o="80" c="ICE" n="1574"/>
+    </ref>
+</s>
+
+
+<s id="-9111350698231530956-2506251900-6" eva="8000068">
+    <m id="r2445267" t="h" from="2506250809" to="2506260051" cat="Information" ts="2506250411" ts-tts="25-06-25 04:11:16.157" pr="2"/>
+    <ar ct="2506252324">
+        <m id="r19889041" t="f" c="0" ts="2506251939" ts-tts="25-06-25 19:39:36.235"/>
+        <m id="r19896057" t="q" c="90" ts="2506252243" ts-tts="25-06-25 22:43:40.521"/>
+    </ar>
+    <dp ct="2506252326">
+        <m id="r19889041" t="f" c="0" ts="2506251939" ts-tts="25-06-25 19:39:36.235"/>
+        <m id="r19896057" t="q" c="90" ts="2506252243" ts-tts="25-06-25 22:43:40.521"/>
+    </dp>
+</s>
+
+
+<s id="1083647238329253935-2506252225-27" eva="8000068">
+    <ar ct="2506252326" l="6"/>
+</s>
+
+
+<s id="5925590440795175040-2506252233-17" eva="8000068">
+    <m id="r2393657" t="h" from="2504010000" to="2506252359" cat="Bauarbeiten" ts="2503312303" ts-tts="25-06-24 23:16:04.308" pr="2"/>
+    <ar ct="2506252322" l="67"/>
+    <dp ct="2506252331" l="67"/>
+</s>
+
+
+<s id="-3025493941246418326-2506252219-13" eva="8000068">
+    <ar cpth="Groß-Umstadt Wiebelsbach|Otzberg Lengfeld|Reinheim(Odenw)|Ober Ramstadt|Mühltal|Darmstadt TU-Lichtwiese|Darmstadt Ost|Darmstadt Nord" cp="12" ct="2506252318" l="RB81"/>
+</s>
+
+
+<s id="-7090860956696023190-2506261035-25" eva="8000068">
+    <m id="r2397178" t="h" from="2504021133" to="2506302359" cat="Information" ts="2504021134" ts-tts="25-06-25 23:16:04.472" pr="3"/>
+    <m id="r2432396" t="h" from="2506060851" to="2506302359" cat="Information" ts="2506060853" ts-tts="25-06-25 23:16:04.700" pr="2"/>
+    <m id="r2445304" t="h" from="2506250645" to="2506282359" cat="Information" ts="2506250645" ts-tts="25-06-25 23:16:05.000" pr="3"/>
+</s>
+
+
+<s id="-3281432353838358850-2506261052-21" eva="8000068">
+    <m id="r2397178" t="h" from="2504021133" to="2506302359" cat="Information" ts="2504021134" ts-tts="25-06-25 23:16:04.472" pr="3"/>
+    <m id="r2432396" t="h" from="2506060851" to="2506302359" cat="Information" ts="2506060853" ts-tts="25-06-25 23:16:04.700" pr="2"/>
+    <m id="r2445304" t="h" from="2506250645" to="2506282359" cat="Information" ts="2506250645" ts-tts="25-06-25 23:16:05.000" pr="3"/>
+</s>
+
+
+<s id="-8674838902493379360-2506260857-6" eva="8000068">
+    <m id="r2397178" t="h" from="2504021133" to="2506302359" cat="Information" ts="2504021134" ts-tts="25-06-25 23:16:04.472" pr="3"/>
+    <m id="r2432396" t="h" from="2506060851" to="2506302359" cat="Information" ts="2506060853" ts-tts="25-06-25 23:16:04.700" pr="2"/>
+    <m id="r2445304" t="h" from="2506250645" to="2506282359" cat="Information" ts="2506250645" ts-tts="25-06-25 23:16:05.000" pr="3"/>
+</s>
+
+
+<s id="-2525250539796034766-2506260557-11" eva="8000068">
+    <m id="r2445304" t="h" from="2506250645" to="2506282359" cat="Information" ts="2506250645" ts-tts="25-06-25 23:16:05.000" pr="3"/>
+</s>
+
+
+<s id="1698974169433520451-2506260702-8" eva="8000068">
+    <m id="r2397178" t="h" from="2504021133" to="2506302359" cat="Information" ts="2504021134" ts-tts="25-06-25 23:16:04.472" pr="3"/>
+    <m id="r2397244" t="h" from="2504021351" to="2507012359" cat="Information" ts="2504021355" ts-tts="25-06-25 23:16:04.473" pr="2"/>
+    <m id="r2445304" t="h" from="2506250645" to="2506282359" cat="Information" ts="2506250645" ts-tts="25-06-25 23:16:04.999" pr="3"/>
+    <ar cpth="" cs="c" clt="2506251051">
+        <m id="r19858564" t="d" c="36" ts="2506251051" ts-tts="25-06-25 10:51:55.432"/>
+        <m id="r19858567" t="d" c="36" ts="2506251051" ts-tts="25-06-25 10:51:55.432"/>
+    </ar>
+    <dp cpth="" cs="c" clt="2506251051">
+        <m id="r19858564" t="d" c="36" ts="2506251051" ts-tts="25-06-25 10:51:55.432"/>
+        <m id="r19858567" t="d" c="36" ts="2506251051" ts-tts="25-06-25 10:51:55.432"/>
+    </dp>
+</s>
+
+
+<s id="574272713930652541-2506260826-23" eva="8000068">
+    <m id="r2397178" t="h" from="2504021133" to="2506302359" cat="Information" ts="2504021134" ts-tts="25-06-25 23:16:04.472" pr="3"/>
+    <m id="r2397244" t="h" from="2504021351" to="2507012359" cat="Information" ts="2504021355" ts-tts="25-06-25 23:16:04.473" pr="2"/>
+    <m id="r2445304" t="h" from="2506250645" to="2506282359" cat="Information" ts="2506250645" ts-tts="25-06-25 23:16:04.999" pr="3"/>
+</s>
+
+
+<s id="-5592824990971072116-2506261013-16" eva="8000068">
+    <m id="r2397178" t="h" from="2504021133" to="2506302359" cat="Information" ts="2504021134" ts-tts="25-06-25 23:16:04.472" pr="3"/>
+    <m id="r2397244" t="h" from="2504021351" to="2507012359" cat="Information" ts="2504021355" ts-tts="25-06-25 23:16:04.473" pr="2"/>
+    <m id="r2445304" t="h" from="2506250645" to="2506282359" cat="Information" ts="2506250645" ts-tts="25-06-25 23:16:04.999" pr="3"/>
+</s>
+
+
+<s id="6530510302479669103-2506260521-22" eva="8000068">
+    <m id="r2397178" t="h" from="2504021133" to="2506302359" cat="Information" ts="2504021134" ts-tts="25-06-25 23:16:04.472" pr="3"/>
+    <m id="r2397244" t="h" from="2504021351" to="2507012359" cat="Information" ts="2504021355" ts-tts="25-06-25 23:16:04.473" pr="2"/>
+    <m id="r2445304" t="h" from="2506250645" to="2506282359" cat="Information" ts="2506250645" ts-tts="25-06-25 23:16:04.999" pr="3"/>
+    <ar cpth="" cs="c" clt="2506251051">
+        <m id="r19858568" t="d" c="36" ts="2506251051" ts-tts="25-06-25 10:51:55.435"/>
+        <m id="r19858571" t="d" c="36" ts="2506251051" ts-tts="25-06-25 10:51:55.435"/>
+    </ar>
+    <dp cpth="" cs="c" clt="2506251051">
+        <m id="r19858568" t="d" c="36" ts="2506251051" ts-tts="25-06-25 10:51:55.435"/>
+        <m id="r19858571" t="d" c="36" ts="2506251051" ts-tts="25-06-25 10:51:55.435"/>
+    </dp>
+</s>
+
+
+<s id="6981062773394189308-2506261310-7" eva="8000068">
+    <m id="r2397178" t="h" from="2504021133" to="2506302359" cat="Information" ts="2504021134" ts-tts="25-06-25 23:16:04.472" pr="3"/>
+    <m id="r2397244" t="h" from="2504021351" to="2507012359" cat="Information" ts="2504021355" ts-tts="25-06-25 23:16:04.473" pr="2"/>
+    <m id="r2445304" t="h" from="2506250645" to="2506282359" cat="Information" ts="2506250645" ts-tts="25-06-25 23:16:04.999" pr="3"/>
+</s>
+
+
+<s id="7708713685890239732-2506260521-22" eva="8000068">
+    <m id="r2445304" t="h" from="2506250645" to="2506282359" cat="Information" ts="2506250645" ts-tts="25-06-25 23:16:04.999" pr="3"/>
+    <ar cpth="Stralsund Hbf|Velgast|Ribnitz-Damgarten West|Rostock Hbf|Bützow|Schwerin Hbf|Hamburg Hbf|Hamburg-Harburg|Lüneburg|Uelzen|Celle|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Wabern(Bz Kassel)|Treysa|Marburg(Lahn)|Gießen|Friedberg(Hess)|Frankfurt(Main)Hbf" ppth="Stralsund Hbf|Velgast|Ribnitz-Damgarten West|Rostock Hbf|Bützow|Bad Kleinen|Schwerin Hbf|Hamburg Hbf|Hamburg-Harburg|Lüneburg|Uelzen|Celle|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Wabern(Bz Kassel)|Treysa|Marburg(Lahn)|Gießen|Friedberg(Hess)|Frankfurt(Main)Hbf" pp="11" pt="2506261335">
+        <m id="r19858570" t="f" c="0" ts="2506251051" ts-tts="25-06-25 10:51:55.436"/>
+        <m id="r19890194" t="f" c="0" ts="2506252004" ts-tts="25-06-25 20:04:37.584"/>
+        <m id="r19890264" t="f" c="0" ts="2506252005" ts-tts="25-06-25 20:05:55.760"/>
+    </ar>
+    <dp cpth="Bensheim|Weinheim(Bergstr)Hbf|Heidelberg Hbf|Wiesloch-Walldorf|Stuttgart Hbf" ppth="Bensheim|Weinheim(Bergstr)Hbf|Heidelberg Hbf|Wiesloch-Walldorf|Stuttgart Hbf" pp="11" pt="2506261337">
+        <m id="r19858570" t="f" c="0" ts="2506251051" ts-tts="25-06-25 10:51:55.436"/>
+        <m id="r19890194" t="f" c="0" ts="2506252004" ts-tts="25-06-25 20:04:37.584"/>
+        <m id="r19890264" t="f" c="0" ts="2506252005" ts-tts="25-06-25 20:05:55.760"/>
+    </dp>
+    <tl f="F" t="e" o="80" c="ICE" n="2847"/>
+</s>
+
+
+<s id="-2180335247615226138-2506260545-29" eva="8000068">
+    <m id="r2394667" t="h" from="2505010000" to="2506302359" cat="Information" ts="2504302302" ts-tts="25-06-25 23:16:04.469" pr="1"/>
+</s>
+
+
+<s id="-1900435646710379979-2506261252-19" eva="8000068">
+    <m id="r2394667" t="h" from="2505010000" to="2506302359" cat="Information" ts="2504302302" ts-tts="25-06-25 23:16:04.469" pr="1"/>
+</s>
+
+
+<s id="9084265654909040416-2506260543-16" eva="8000068">
+    <m id="r2394667" t="h" from="2505010000" to="2506302359" cat="Information" ts="2504302302" ts-tts="25-06-25 23:16:04.469" pr="1"/>
+</s>
+
+
+<s id="-9206844568518319678-2506260800-15" eva="8000068">
+    <m id="r2394667" t="h" from="2505010000" to="2506302359" cat="Information" ts="2504302302" ts-tts="25-06-25 23:16:04.469" pr="1"/>
+</s>
+
+
+<s id="-8006524328198881016-2506261516-4" eva="8000068">
+    <ar l="10">
+        <m id="r19803315" t="q" c="95" ts="2506241249" ts-tts="25-06-24 12:49:15.574"/>
+        <m id="r19839455" t="q" c="95" ts="2506250138" ts-tts="25-06-25 01:38:18.238"/>
+        <m id="r19878246" t="f" c="0" ts="2506251700" ts-tts="25-06-25 17:01:08.153"/>
+        <m id="r19878247" t="f" c="1000" ts="2506251700" ts-tts="25-06-25 17:01:08.153"/>
+    </ar>
+    <dp l="10">
+        <m id="r19803315" t="q" c="95" ts="2506241249" ts-tts="25-06-24 12:49:15.574"/>
+        <m id="r19839455" t="q" c="95" ts="2506250138" ts-tts="25-06-25 01:38:18.238"/>
+        <m id="r19878246" t="f" c="0" ts="2506251700" ts-tts="25-06-25 17:01:08.153"/>
+        <m id="r19878247" t="f" c="1000" ts="2506251700" ts-tts="25-06-25 17:01:08.153"/>
+    </dp>
+</s>
+
+
+<s id="-7782691806189085926-2506261528-7" eva="8000068">
+    <ar l="10">
+        <m id="r19878135" t="f" c="0" ts="2506251658" ts-tts="25-06-25 16:58:31.263"/>
+        <m id="r19878136" t="f" c="1000" ts="2506251658" ts-tts="25-06-25 16:58:31.263"/>
+    </ar>
+    <dp l="10">
+        <m id="r19878135" t="f" c="0" ts="2506251658" ts-tts="25-06-25 16:58:31.263"/>
+        <m id="r19878136" t="f" c="1000" ts="2506251658" ts-tts="25-06-25 16:58:31.263"/>
+    </dp>
+</s>
+
+
+<s id="-1317572317514883115-2506260518-2" eva="8000068">
+    <ar cpth="Frankfurt(Main)Hbf" cp="10" ct="2506260543" cs="p" clt="2506251043">
+        <m id="r19858113" t="d" c="36" ts="2506251043" ts-tts="25-06-25 10:43:35.528"/>
+        <m id="r19895414" t="f" c="0" ts="2506252219" ts-tts="25-06-25 22:19:54.401"/>
+        <m id="r19895415" t="f" c="0" ts="2506252219" ts-tts="25-06-25 22:19:54.401"/>
+        <m id="r19896448" t="d" c="48" ts="2506252258" ts-tts="25-06-25 22:58:37.919"/>
+    </ar>
+    <dp cpth="Bensheim|Weinheim(Bergstr)Hbf|Heidelberg Hbf|Wiesloch-Walldorf|Stuttgart Hbf" cp="10" ct="2506260544" cs="p" clt="2506251043">
+        <m id="r19858113" t="d" c="36" ts="2506251043" ts-tts="25-06-25 10:43:35.528"/>
+        <m id="r19895414" t="f" c="0" ts="2506252219" ts-tts="25-06-25 22:19:54.401"/>
+        <m id="r19895415" t="f" c="0" ts="2506252219" ts-tts="25-06-25 22:19:54.401"/>
+        <m id="r19896448" t="d" c="48" ts="2506252258" ts-tts="25-06-25 22:58:37.919"/>
+    </dp>
+</s>
+
+
+<s id="1541098393109151498-2506252155-27" eva="8000068">
+    <ar cpth="Bad Vilbel|Bad Vilbel Süd|Frankfurt-Berkersheim|Frankfurt-Frankfurter Berg|Frankfurt-Eschersheim|Frankfurt-Ginnheim|Frankfurt(Main)West|Frankfurt(Main)Messe|Frankfurt(M)Galluswarte|Frankfurt Hbf (tief)|Frankfurt(M)Taunusanlage|Frankfurt(M)Hauptwache|Frankfurt(M)Konstablerwache|Frankfurt(M)Ostendstraße|Frankfurt(M)Lokalbahnhof|Frankfurt(Main)Süd|Frankfurt(M)Stresemannallee|Frankfurt-Louisa|Neu-Isenburg|Dreieich-Buchschlag|Langen-Flugsicherung|Langen(Hess)|Egelsbach|Erzhausen|Darmstadt-Wixhausen|Darmstadt-Arheilgen" ct="2506252256" cs="p" clt="2506252112" l="6">
+        <m id="r19893188" t="d" c="38" ts="2506252112" ts-tts="25-06-25 21:12:15.213"/>
+        <m id="r19893447" t="f" c="0" ts="2506252119" ts-tts="25-06-25 21:19:47.609"/>
+    </ar>
+</s>
+
+
+<s id="-9173758089395159601-2506252234-3" eva="8000068">
+    <m id="r2393657" t="h" from="2504010000" to="2506252359" cat="Bauarbeiten" ts="2503312303" ts-tts="25-06-24 23:16:04.308" pr="2"/>
+    <ar ct="2506252253" l="60"/>
+</s>
+
+
+<s id="2146695617668863208-2506261215-10" eva="8000068">
+    <ar l="60">
+        <m id="r19896160" t="f" c="0" ts="2506252247" ts-tts="25-06-25 22:48:03.494"/>
+    </ar>
+    <dp l="60">
+        <m id="r19896160" t="f" c="0" ts="2506252247" ts-tts="25-06-25 22:48:03.494"/>
+    </dp>
+</s>
+
+
+<s id="-6187973988259687202-2506261034-3" eva="8000068">
+    <ar l="60">
+        <m id="r19896151" t="f" c="0" ts="2506252247" ts-tts="25-06-25 22:47:48.079"/>
+    </ar>
+    <dp l="60">
+        <m id="r19896151" t="f" c="0" ts="2506252247" ts-tts="25-06-25 22:47:48.079"/>
+    </dp>
+</s>
+
+
+<s id="222675062234382869-2506260722-1" eva="8000068">
+    <dp l="60">
+        <m id="r19896095" t="f" c="0" ts="2506252245" ts-tts="25-06-25 22:45:13.239"/>
+    </dp>
+</s>
+
+
+<s id="7164392974115063621-2506252147-11" eva="8000068">
+    <ar ct="2506252231" l="RB75">
+        <m id="r19895855" t="d" c="43" ts="2506252235" ts-tts="25-06-25 22:35:40.494"/>
+    </ar>
+    <dp ct="2506252235" l="RB75">
+        <m id="r19895855" t="d" c="43" ts="2506252235" ts-tts="25-06-25 22:35:40.494"/>
+    </dp>
+</s>
+
+
+<s id="-2469582091631795565-2506252236-1" eva="8000068">
+    <dp ct="2506252237" l="RB81"/>
+</s>
+
+
+<s id="4179023479734581768-2506252159-6" eva="8000068">
+    <ar ct="2506252223" l="RB75"/>
+    <dp ct="2506252232" l="RB75"/>
+</s>
+
+
+<s id="8001790715858900702-2506252235-1" eva="8000068">
+    <dp cpth="Darmstadt-Arheilgen|Darmstadt-Wixhausen|Erzhausen|Egelsbach|Langen(Hess)|Langen-Flugsicherung|Dreieich-Buchschlag|Neu-Isenburg|Frankfurt-Louisa|Frankfurt(M)Stresemannallee|Frankfurt(Main)Süd|Frankfurt(M)Lokalbahnhof|Frankfurt(M)Ostendstraße|Frankfurt(M)Konstablerwache|Frankfurt(M)Hauptwache|Frankfurt(M)Taunusanlage|Frankfurt Hbf (tief)|Frankfurt(M)Galluswarte|Frankfurt(Main)Messe|Frankfurt(Main)West|Frankfurt-Ginnheim|Frankfurt-Eschersheim|Frankfurt-Frankfurter Berg|Frankfurt-Berkersheim|Bad Vilbel Süd|Bad Vilbel" ct="2506252235" cs="p" clt="2506252111" l="6">
+        <m id="r19893148" t="d" c="38" ts="2506252111" ts-tts="25-06-25 21:11:28.541"/>
+        <m id="r19893441" t="f" c="0" ts="2506252119" ts-tts="25-06-25 21:19:31.947"/>
+    </dp>
+</s>
+
+
+<s id="5057537514611551932-2506260606-10" eva="8000068">
+    <ar l="60">
+        <m id="r19895710" t="q" c="82" ts="2506252230" ts-tts="25-06-25 22:31:01.775"/>
+    </ar>
+    <dp l="60">
+        <m id="r19895710" t="q" c="82" ts="2506252230" ts-tts="25-06-25 22:31:01.775"/>
+    </dp>
+</s>
+
+
+<s id="9089574361051167800-2506252117-18" eva="8000068">
+    <m id="r2393657" t="h" from="2504010000" to="2506252359" cat="Bauarbeiten" ts="2503312303" ts-tts="25-06-24 23:16:04.308" pr="2"/>
+    <ar ct="2506252227" l="67"/>
+    <dp ct="2506252230" l="67"/>
+</s>
+
+
+<s id="-43531377230906340-2506252120-19" eva="8000068">
+    <m id="r2393657" t="h" from="2504010000" to="2506252359" cat="Bauarbeiten" ts="2503312303" ts-tts="25-06-24 23:16:04.308" pr="2"/>
+    <ar ct="2506252227" l="68"/>
+    <dp ct="2506252230" l="68"/>
+</s>
+
+
+<s id="3065671190106352164-2506252125-27" eva="8000068">
+    <ar cpth="Bad Vilbel|Bad Vilbel Süd|Frankfurt-Berkersheim|Frankfurt-Frankfurter Berg|Frankfurt-Eschersheim|Frankfurt-Ginnheim|Frankfurt(Main)West|Frankfurt(Main)Messe|Frankfurt(M)Galluswarte|Frankfurt Hbf (tief)|Frankfurt(M)Taunusanlage|Frankfurt(M)Hauptwache|Frankfurt(M)Konstablerwache|Frankfurt(M)Ostendstraße|Frankfurt(M)Lokalbahnhof|Frankfurt(Main)Süd|Frankfurt(M)Stresemannallee|Frankfurt-Louisa|Neu-Isenburg|Dreieich-Buchschlag|Langen-Flugsicherung|Langen(Hess)|Egelsbach|Erzhausen|Darmstadt-Wixhausen|Darmstadt-Arheilgen" ct="2506252226" cs="p" clt="2506252111" l="6">
+        <m id="r19893150" t="d" c="38" ts="2506252111" ts-tts="25-06-25 21:11:28.542"/>
+        <m id="r19893439" t="f" c="0" ts="2506252119" ts-tts="25-06-25 21:19:16.403"/>
+    </ar>
+</s>
+
+
+<s id="5931431614975439760-2506252206-3" eva="8000068">
+    <m id="r2393657" t="h" from="2504010000" to="2506252359" cat="Bauarbeiten" ts="2503312303" ts-tts="25-06-24 23:16:04.308" pr="2"/>
+    <ar ct="2506252226" l="68"/>
+    <dp ct="2506252231" l="68"/>
+</s>
+
+
+<s id="-7307381460574440669-2506252205-1" eva="8000068">
+    <m id="r2393657" t="h" from="2504010000" to="2506252359" cat="Bauarbeiten" ts="2503312303" ts-tts="25-06-24 23:16:04.308" pr="2"/>
+    <dp ct="2506252209" l="60"/>
+</s>
+
+
+<s id="2249623795857689665-2506252205-1" eva="8000068">
+    <m id="r2445683" t="h" from="2506251938" to="2506252208" cat="Störung" ts="2506252012" ts-tts="25-06-25 20:12:26.448" pr="1"/>
+    <dp cpth="Darmstadt-Arheilgen|Darmstadt-Wixhausen|Erzhausen|Egelsbach|Langen(Hess)|Langen-Flugsicherung|Dreieich-Buchschlag|Neu-Isenburg|Frankfurt-Louisa|Frankfurt(M)Stresemannallee|Frankfurt(Main)Süd|Frankfurt(M)Lokalbahnhof|Frankfurt(M)Ostendstraße|Frankfurt(M)Konstablerwache|Frankfurt(M)Hauptwache|Frankfurt(M)Taunusanlage|Frankfurt Hbf (tief)|Frankfurt(M)Galluswarte|Frankfurt(Main)Messe|Frankfurt(Main)West|Frankfurt-Ginnheim|Frankfurt-Eschersheim|Frankfurt-Frankfurter Berg|Frankfurt-Berkersheim|Bad Vilbel Süd|Bad Vilbel" ct="2506252206" cs="p" clt="2506252110" l="6">
+        <m id="r19893096" t="d" c="38" ts="2506252110" ts-tts="25-06-25 21:10:41.811"/>
+        <m id="r19893333" t="f" c="0" ts="2506252115" ts-tts="25-06-25 21:15:53.545"/>
+    </dp>
+</s>
+
+
+<s id="-8641247344294665847-2506251721-13" eva="8000068">
+    <m id="r2394671" t="h" from="2505010000" to="2506302359" cat="Information" ts="2504302303" ts-tts="25-06-24 23:16:04.309" pr="1"/>
+    <ar ppth="Bregenz|Lindau-Reutin|Friedrichshafen Stadt|Ravensburg|Aulendorf|Biberach(Riß)|Ulm Hbf|Stuttgart Hbf|Wiesloch-Walldorf|Heidelberg Hbf|Weinheim(Bergstr)Hbf|Bensheim" pp="5" ct="2506252202" pt="2506252131">
+        <m id="r19876047" t="d" c="48" ts="2506251622" ts-tts="25-06-25 16:23:09.050"/>
+    </ar>
+    <dp ppth="Langen(Hess)|Frankfurt(Main)Hbf" pp="5" ct="2506252204" pt="2506252133">
+        <m id="r19876047" t="d" c="48" ts="2506251622" ts-tts="25-06-25 16:23:09.050"/>
+    </dp>
+    <tl t="p" o="81" c="RJX" n="890"/>
+</s>
+
+
+<s id="2074208094339514152-2506252134-3" eva="8000068">
+    <m id="r2393657" t="h" from="2504010000" to="2506252359" cat="Bauarbeiten" ts="2503312303" ts-tts="25-06-24 23:16:04.308" pr="2"/>
+    <ar ct="2506252204" l="60"/>
+</s>
+
+
+<s id="-370837264668826650-2506252055-27" eva="8000068">
+    <m id="r2445683" t="h" from="2506251938" to="2506252208" cat="Störung" ts="2506252012" ts-tts="25-06-25 20:12:26.448" pr="1"/>
+    <ar cpth="Bad Vilbel|Bad Vilbel Süd|Frankfurt-Berkersheim|Frankfurt-Frankfurter Berg|Frankfurt-Eschersheim|Frankfurt-Ginnheim|Frankfurt(Main)West|Frankfurt(Main)Messe|Frankfurt(M)Galluswarte|Frankfurt Hbf (tief)|Frankfurt(M)Taunusanlage|Frankfurt(M)Hauptwache|Frankfurt(M)Konstablerwache|Frankfurt(M)Ostendstraße|Frankfurt(M)Lokalbahnhof|Frankfurt(Main)Süd|Frankfurt(M)Stresemannallee|Frankfurt-Louisa|Neu-Isenburg|Dreieich-Buchschlag|Langen-Flugsicherung|Langen(Hess)|Egelsbach|Erzhausen|Darmstadt-Wixhausen|Darmstadt-Arheilgen" ct="2506252158" cs="p" clt="2506252110" l="6">
+        <m id="r19893100" t="d" c="38" ts="2506252110" ts-tts="25-06-25 21:10:41.811"/>
+        <m id="r19893324" t="f" c="0" ts="2506252115" ts-tts="25-06-25 21:15:37.998"/>
+    </ar>
+</s>
+
+
+<s id="-2897490095318256235-2506252106-3" eva="8000068">
+    <m id="r2393657" t="h" from="2504010000" to="2506252359" cat="Bauarbeiten" ts="2503312303" ts-tts="25-06-24 23:16:04.308" pr="2"/>
+    <ar ct="2506252145" l="68"/>
+    <dp ct="2506252146" l="68"/>
+</s>
+
+
+<s id="-2154052854632777573-2506251654-6" eva="8000068">
+    <m id="r2445705" t="h" from="2506252030" to="2506252300" cat="Störung" ts="2506252146" ts-tts="25-06-25 21:46:14.483" pr="1"/>
+    <m id="r2445304" t="h" from="2506250645" to="2506282359" cat="Information" ts="2506250645" ts-tts="25-06-25 06:46:09.705" pr="3"/>
+    <ar cpth="Stuttgart Hbf|Wiesloch-Walldorf|Heidelberg Hbf|Weinheim(Bergstr)Hbf|Bensheim" ct="2506251822">
+        <m id="r19871786" t="q" c="90" ts="2506251510" ts-tts="25-06-25 15:10:18.561"/>
+        <m id="r19874485" t="f" c="0" ts="2506251554" ts-tts="25-06-25 15:54:18.826"/>
+    </ar>
+    <dp cpth="Frankfurt(Main)Hbf" ct="2506251824">
+        <m id="r19871786" t="q" c="90" ts="2506251510" ts-tts="25-06-25 15:10:18.561"/>
+        <m id="r19874485" t="f" c="0" ts="2506251554" ts-tts="25-06-25 15:54:18.826"/>
+    </dp>
+</s>
+
+
+<s id="7458387242448637932-2506252059-6" eva="8000068">
+    <ar ct="2506252139" l="RB75"/>
+    <dp ct="2506252141" l="RB75"/>
+</s>
+
+
+<s id="4011391143588531096-2506251438-12" eva="8000068">
+    <ar ct="2506252138">
+        <m id="r19875868" t="d" c="8" ts="2506251618" ts-tts="25-06-25 16:19:12.900"/>
+        <m id="r19883568" t="f" c="0" ts="2506251808" ts-tts="25-06-25 18:09:04.247"/>
+        <m id="r19886773" t="d" c="38" ts="2506251904" ts-tts="25-06-25 19:04:18.133"/>
+    </ar>
+    <dp ct="2506252140">
+        <m id="r19875868" t="d" c="8" ts="2506251618" ts-tts="25-06-25 16:19:12.900"/>
+        <m id="r19883568" t="f" c="0" ts="2506251808" ts-tts="25-06-25 18:09:04.247"/>
+        <m id="r19886773" t="d" c="38" ts="2506251904" ts-tts="25-06-25 19:04:18.133"/>
+    </dp>
+</s>
+
+
+<s id="3767240132284221623-2506252047-11" eva="8000068">
+    <ar ct="2506252129" l="RB75"/>
+    <dp ct="2506252135" l="RB75"/>
+</s>
+
+
+<s id="6848318295330085708-2506252135-1" eva="8000068">
+    <m id="r2445683" t="h" from="2506251938" to="2506252208" cat="Störung" ts="2506252012" ts-tts="25-06-25 20:12:26.448" pr="1"/>
+    <dp ct="2506252136" l="6"/>
+</s>
+
+
+<s id="2441020271540917053-2506252004-22" eva="8000068">
+    <m id="r2393657" t="h" from="2504010000" to="2506252359" cat="Bauarbeiten" ts="2503312303" ts-tts="25-06-24 23:16:04.308" pr="2"/>
+    <ar ct="2506252129" l="68"/>
+    <dp ct="2506252132" l="68"/>
+</s>
+
+
+<s id="1082703226714699712-2506252014-18" eva="8000068">
+    <m id="r2393657" t="h" from="2504010000" to="2506252359" cat="Bauarbeiten" ts="2503312303" ts-tts="25-06-24 23:16:04.308" pr="2"/>
+    <ar ct="2506252129" l="67"/>
+    <dp ct="2506252132" l="67"/>
+</s>
+
+
+<s id="-7074564706453150115-2506251947-11" eva="8000068">
+    <ar ct="2506252029" l="RB75">
+        <m id="r19893772" t="d" c="45" ts="2506252128" ts-tts="25-06-25 21:28:53.021"/>
+    </ar>
+    <dp ct="2506252036" l="RB75">
+        <m id="r19893772" t="d" c="45" ts="2506252128" ts-tts="25-06-25 21:28:53.021"/>
+    </dp>
+</s>
+
+
+<s id="-5780634065360425580-2506252017-29" eva="8000068">
+    <m id="r2445683" t="h" from="2506251938" to="2506252208" cat="Störung" ts="2506252012" ts-tts="25-06-25 20:12:26.447" pr="1"/>
+    <ar ct="2506252128" l="6">
+        <m id="r19892143" t="d" c="43" ts="2506252048" ts-tts="25-06-25 20:48:05.122"/>
+        <m id="r19892203" t="d" c="43" ts="2506252049" ts-tts="25-06-25 20:49:07.668"/>
+    </ar>
+</s>
+
+
+<s id="-3458225567216673598-2506252019-13" eva="8000068">
+    <ar cp="12" ct="2506252119" l="RB81"/>
+</s>
+
+
+<s id="1595700573828912109-2506252034-3" eva="8000068">
+    <m id="r2393657" t="h" from="2504010000" to="2506252359" cat="Bauarbeiten" ts="2503312303" ts-tts="25-06-24 23:16:04.308" pr="2"/>
+    <ar ct="2506252111" l="60"/>
+    <dp ct="2506252112" l="60"/>
+</s>
+
+
+<s id="-1951767464486805580-2506252305-1" eva="8000068">
+    <dp cpth="Darmstadt-Arheilgen|Darmstadt-Wixhausen|Erzhausen|Egelsbach|Langen(Hess)|Langen-Flugsicherung|Dreieich-Buchschlag|Neu-Isenburg|Frankfurt-Louisa|Frankfurt(M)Stresemannallee|Frankfurt(Main)Süd|Frankfurt(M)Lokalbahnhof|Frankfurt(M)Ostendstraße|Frankfurt(M)Konstablerwache|Frankfurt(M)Hauptwache|Frankfurt(M)Taunusanlage|Frankfurt Hbf (tief)|Frankfurt(M)Galluswarte|Frankfurt(Main)Messe|Frankfurt(Main)West|Frankfurt-Ginnheim|Frankfurt-Eschersheim|Frankfurt-Frankfurter Berg|Frankfurt-Berkersheim|Bad Vilbel Süd|Bad Vilbel" cs="c" clt="2506252112" l="6">
+        <m id="r19893189" t="d" c="38" ts="2506252112" ts-tts="25-06-25 21:12:15.212"/>
+    </dp>
+</s>
+
+
+<s id="1245316313372058160-2506252015-10" eva="8000068">
+    <m id="r2393657" t="h" from="2504010000" to="2506252359" cat="Bauarbeiten" ts="2503312303" ts-tts="25-06-24 23:16:04.308" pr="2"/>
+    <m id="r2445676" t="h" from="2506251900" to="2506252100" cat="Störung" ts="2506251927" ts-tts="25-06-25 19:27:36.000" pr="1"/>
+    <ar cp="6" ct="2506252105" l="60"/>
+    <dp cp="6" ct="2506252106" l="60"/>
+</s>
+
+
+<s id="-1786277993571670400-2506252246-4" eva="8000068">
+    <ar ct="2506252306" l="RB66"/>
+</s>
+
+
+<s id="-8959018065734509300-2506251818-2" eva="8000068">
+    <m id="r2445689" t="h" from="2506251818" to="2506252212" cat="Information" ts="2506252059" ts-tts="25-06-25 20:59:46.730" pr="2"/>
+    <ar ct="2506251837">
+        <m id="r19885661" t="d" c="36" ts="2506251847" ts-tts="25-06-25 18:47:19.778"/>
+    </ar>
+    <dp ct="2506251852">
+        <m id="r19885661" t="d" c="36" ts="2506251847" ts-tts="25-06-25 18:47:19.778"/>
+    </dp>
+</s>
+
+
+<s id="-6464743518292203767-2506252019-2" eva="8000068">
+    <m id="r2445660" t="h" from="2506251252" to="2506252156" cat="Information" ts="2506251810" ts-tts="25-06-25 18:10:54.251" pr="2"/>
+    <ar ct="2506252049">
+        <m id="r19891316" t="d" c="38" ts="2506252029" ts-tts="25-06-25 20:29:37.107"/>
+    </ar>
+    <dp ct="2506252050">
+        <m id="r19891316" t="d" c="38" ts="2506252029" ts-tts="25-06-25 20:29:37.107"/>
+    </dp>
+</s>
+
+
+<s id="326206687174018218-2506251904-22" eva="8000068">
+    <ar ct="2506252033" l="68"/>
+    <dp ct="2506252049" l="68"/>
+</s>
+
+
+<s id="2369520926503058000-2506251916-18" eva="8000068">
+    <ar ct="2506252033" l="67"/>
+    <dp ct="2506252048" l="67"/>
+</s>
+
+
+<s id="-5723313786345715760-2506252006-3" eva="8000068">
+    <m id="r2393657" t="h" from="2504010000" to="2506252359" cat="Bauarbeiten" ts="2503312303" ts-tts="25-06-24 23:16:04.308" pr="2"/>
+    <ar ct="2506252043" l="68"/>
+    <dp ct="2506252044" l="68"/>
+</s>
+
+
+<s id="5139034167922634800-2506251936-10" eva="8000068">
+    <ar ct="2506252024" l="RB75">
+        <m id="r19889671" t="d" c="43" ts="2506251953" ts-tts="25-06-25 19:53:41.183"/>
+    </ar>
+    <dp ct="2506252033" l="RB75">
+        <m id="r19889671" t="d" c="43" ts="2506251953" ts-tts="25-06-25 19:53:41.183"/>
+    </dp>
+</s>
+
+
+<s id="1443460281398704584-2506251203-100" eva="8000068">
+    <m id="r2374964" t="h" from="2504040000" to="2509142359" cat="Information" ts="2504032302" ts-tts="25-06-24 23:16:04.300" pr="2"/>
+    <m id="r2445275" t="h" from="2506251553" to="2506251955" cat="Information" ts="2506250425" ts-tts="25-06-25 04:25:05.477" pr="2"/>
+    <m id="r2444956" t="h" from="2506240000" to="2507172359" cat="Information" ts="2506241537" ts-tts="25-06-24 23:16:04.786" pr="2"/>
+    <m id="r2445270" t="h" from="2506251553" to="2506251706" cat="Information" ts="2506250419" ts-tts="25-06-25 04:19:42.715" pr="2"/>
+    <m id="r2445339" t="h" from="2506251610" to="2506251610" cat="Information" ts="2506250835" ts-tts="25-06-25 08:35:52.805" pr="2"/>
+    <ar cpth="Frankfurt(Main)Hbf" ppth="Berlin Hbf|Berlin-Spandau|Frankfurt(Main)Süd" pp="10" ct="2506251610" pt="2506251610" cs="c" ps="a" clt="2506251151">
+        <m id="r19847812" t="d" c="36" ts="2506250730" ts-tts="25-06-25 07:30:33.531"/>
+        <m id="r19847865" t="f" c="0" ts="2506250731" ts-tts="25-06-25 07:31:35.992"/>
+        <m id="r19861672" t="d" c="36" ts="2506251151" ts-tts="25-06-25 11:51:16.723"/>
+        <m id="r19861680" t="f" c="0" ts="2506251151" ts-tts="25-06-25 11:51:32.292"/>
+        <m id="r19861695" t="d" c="36" ts="2506251151" ts-tts="25-06-25 11:52:03.373"/>
+        <m id="r19862114" t="f" c="0" ts="2506251201" ts-tts="25-06-25 12:01:25.986"/>
+        <m id="r19862836" t="f" c="0" ts="2506251215" ts-tts="25-06-25 12:15:46.678"/>
+        <m id="r19863833" t="f" c="0" ts="2506251235" ts-tts="25-06-25 12:35:20.422"/>
+    </ar>
+    <dp cpth="Karlsruhe Hbf|Strasbourg|Lorraine TGV" ppth="Karlsruhe Hbf|Strasbourg|Paris Est" pp="10" ct="2506251620" pt="2506251610" cs="c" ps="a" clt="2506251151">
+        <m id="r19847812" t="d" c="36" ts="2506250730" ts-tts="25-06-25 07:30:33.531"/>
+        <m id="r19847865" t="f" c="0" ts="2506250731" ts-tts="25-06-25 07:31:35.992"/>
+        <m id="r19861672" t="d" c="36" ts="2506251151" ts-tts="25-06-25 11:51:16.723"/>
+        <m id="r19861680" t="f" c="0" ts="2506251151" ts-tts="25-06-25 11:51:32.292"/>
+        <m id="r19861695" t="d" c="36" ts="2506251151" ts-tts="25-06-25 11:52:03.373"/>
+        <m id="r19862114" t="f" c="0" ts="2506251201" ts-tts="25-06-25 12:01:25.986"/>
+        <m id="r19862836" t="f" c="0" ts="2506251215" ts-tts="25-06-25 12:15:46.678"/>
+        <m id="r19863833" t="f" c="0" ts="2506251235" ts-tts="25-06-25 12:35:20.422"/>
+    </dp>
+    <tl f="F" t="p" o="80" c="ICE" n="9590"/>
+</s>
+
+
+<s id="-5579268138608052528-2506251915-10" eva="8000068">
+    <m id="r2445676" t="h" from="2506251900" to="2506252100" cat="Störung" ts="2506251927" ts-tts="25-06-25 19:27:36.000" pr="1"/>
+    <ar cp="6" ct="2506252019" l="60"/>
+    <dp cp="6" ct="2506252020" l="60"/>
+</s>
+
+
+<s id="7592714572193963538-2506252005-1" eva="8000068">
+    <m id="r2445683" t="h" from="2506251938" to="2506252208" cat="Störung" ts="2506252012" ts-tts="25-06-25 20:12:26.448" pr="1"/>
+    <dp cpth="Darmstadt-Arheilgen|Darmstadt-Wixhausen|Erzhausen|Egelsbach|Langen(Hess)|Langen-Flugsicherung|Dreieich-Buchschlag|Neu-Isenburg|Frankfurt-Louisa|Frankfurt(M)Stresemannallee|Frankfurt(Main)Süd|Frankfurt(M)Lokalbahnhof|Frankfurt(M)Ostendstraße|Frankfurt(M)Konstablerwache|Frankfurt(M)Hauptwache|Frankfurt(M)Taunusanlage|Frankfurt Hbf (tief)|Frankfurt(M)Galluswarte|Frankfurt(Main)Messe|Frankfurt(Main)West|Frankfurt-Ginnheim|Frankfurt-Eschersheim|Frankfurt-Frankfurter Berg|Frankfurt-Berkersheim|Bad Vilbel Süd|Bad Vilbel" ct="2506252005" cs="c" clt="2506251946" l="6">
+        <m id="r19889389" t="d" c="38" ts="2506251946" ts-tts="25-06-25 19:46:54.550"/>
+    </dp>
+</s>
+
+
+<s id="7014101837288032009-2506252105-1" eva="8000068">
+    <m id="r2445683" t="h" from="2506251938" to="2506252208" cat="Störung" ts="2506252012" ts-tts="25-06-25 20:12:26.448" pr="1"/>
+    <dp cpth="Darmstadt-Arheilgen|Darmstadt-Wixhausen|Erzhausen|Egelsbach|Langen(Hess)|Langen-Flugsicherung|Dreieich-Buchschlag|Neu-Isenburg|Frankfurt-Louisa|Frankfurt(M)Stresemannallee|Frankfurt(Main)Süd|Frankfurt(M)Lokalbahnhof|Frankfurt(M)Ostendstraße|Frankfurt(M)Konstablerwache|Frankfurt(M)Hauptwache|Frankfurt(M)Taunusanlage|Frankfurt Hbf (tief)|Frankfurt(M)Galluswarte|Frankfurt(Main)Messe|Frankfurt(Main)West|Frankfurt-Ginnheim|Frankfurt-Eschersheim|Frankfurt-Frankfurter Berg|Frankfurt-Berkersheim|Bad Vilbel Süd|Bad Vilbel" cs="c" clt="2506252008" l="6">
+        <m id="r19890397" t="d" c="38" ts="2506252008" ts-tts="25-06-25 20:08:47.750"/>
+    </dp>
+</s>
+
+
+<s id="-8200095934574613755-2506252035-1" eva="8000068">
+    <m id="r2445683" t="h" from="2506251938" to="2506252208" cat="Störung" ts="2506252012" ts-tts="25-06-25 20:12:26.448" pr="1"/>
+    <dp cpth="Darmstadt-Arheilgen|Darmstadt-Wixhausen|Erzhausen|Egelsbach|Langen(Hess)|Langen-Flugsicherung|Dreieich-Buchschlag|Neu-Isenburg|Frankfurt-Louisa|Frankfurt(M)Stresemannallee|Frankfurt(Main)Süd|Frankfurt(M)Lokalbahnhof|Frankfurt(M)Ostendstraße|Frankfurt(M)Konstablerwache|Frankfurt(M)Hauptwache|Frankfurt(M)Taunusanlage|Frankfurt Hbf (tief)|Frankfurt(M)Galluswarte|Frankfurt(Main)Messe|Frankfurt(Main)West|Frankfurt-Ginnheim|Frankfurt-Eschersheim|Frankfurt-Frankfurter Berg|Frankfurt-Berkersheim|Bad Vilbel Süd|Bad Vilbel" cs="c" clt="2506252003" l="6">
+        <m id="r19890134" t="d" c="38" ts="2506252003" ts-tts="25-06-25 20:03:19.373"/>
+    </dp>
+</s>
+
+
+<s id="5831844361083884943-2506251947-29" eva="8000068">
+    <m id="r2445683" t="h" from="2506251938" to="2506252208" cat="Störung" ts="2506252012" ts-tts="25-06-25 20:12:26.447" pr="1"/>
+    <ar cpth="Groß Karben|Dortelweil|Bad Vilbel|Bad Vilbel Süd|Frankfurt-Berkersheim|Frankfurt-Frankfurter Berg|Frankfurt-Eschersheim|Frankfurt-Ginnheim|Frankfurt(Main)West|Frankfurt(Main)Messe|Frankfurt(M)Galluswarte|Frankfurt Hbf (tief)|Frankfurt(M)Taunusanlage|Frankfurt(M)Hauptwache|Frankfurt(M)Konstablerwache|Frankfurt(M)Ostendstraße|Frankfurt(M)Lokalbahnhof|Frankfurt(Main)Süd|Frankfurt(M)Stresemannallee|Frankfurt-Louisa|Neu-Isenburg|Dreieich-Buchschlag|Langen-Flugsicherung|Langen(Hess)|Egelsbach|Erzhausen|Darmstadt-Wixhausen|Darmstadt-Arheilgen" ct="2506252055" cs="c" clt="2506252008" l="6">
+        <m id="r19890399" t="d" c="38" ts="2506252008" ts-tts="25-06-25 20:08:47.751"/>
+    </ar>
+</s>
+
+
+<s id="-985795781659066551-2506251917-29" eva="8000068">
+    <m id="r2445683" t="h" from="2506251938" to="2506252208" cat="Störung" ts="2506252012" ts-tts="25-06-25 20:12:26.447" pr="1"/>
+    <ar cpth="Groß Karben|Dortelweil|Bad Vilbel|Bad Vilbel Süd|Frankfurt-Berkersheim|Frankfurt-Frankfurter Berg|Frankfurt-Eschersheim|Frankfurt-Ginnheim|Frankfurt(Main)West|Frankfurt(Main)Messe|Frankfurt(M)Galluswarte|Frankfurt Hbf (tief)|Frankfurt(M)Taunusanlage|Frankfurt(M)Hauptwache|Frankfurt(M)Konstablerwache|Frankfurt(M)Ostendstraße|Frankfurt(M)Lokalbahnhof|Frankfurt(Main)Süd|Frankfurt(M)Stresemannallee|Frankfurt-Louisa|Neu-Isenburg|Dreieich-Buchschlag|Langen-Flugsicherung|Langen(Hess)|Egelsbach|Erzhausen|Darmstadt-Wixhausen|Darmstadt-Arheilgen" ct="2506252029" cs="c" clt="2506252003" l="6">
+        <m id="r19831503" t="f" c="0" ts="2506242029" ts-tts="25-06-24 20:30:06.111"/>
+        <m id="r19885802" t="d" c="48" ts="2506251849" ts-tts="25-06-25 18:49:09.620"/>
+        <m id="r19890136" t="d" c="38" ts="2506252003" ts-tts="25-06-25 20:03:19.374"/>
+    </ar>
+</s>
+
+
+<s id="-5759378212035241228-2506252206-1" eva="8000068">
+    <dp ct="2506252206" l="RB66"/>
+</s>
+
+
+<s id="-6323260114717487875-2506251836-10" eva="8000068">
+    <ar ct="2506251927" l="RB75">
+        <m id="r19890180" t="d" c="99" ts="2506252004" ts-tts="25-06-25 20:04:21.984"/>
+    </ar>
+    <dp ct="2506251936" l="RB75">
+        <m id="r19887778" t="f" c="0" ts="2506251919" ts-tts="25-06-25 19:19:13.416"/>
+        <m id="r19890180" t="d" c="99" ts="2506252004" ts-tts="25-06-25 20:04:21.984"/>
+    </dp>
+</s>
+
+
+<s id="-642457031392288379-2506251517-8" eva="8000068">
+    <ar ct="2506252000" l="10">
+        <m id="r19802569" t="q" c="95" ts="2506241233" ts-tts="25-06-24 12:33:57.789"/>
+        <m id="r19820839" t="f" c="0" ts="2506241713" ts-tts="25-06-24 17:14:01.558"/>
+        <m id="r19820840" t="f" c="1000" ts="2506241713" ts-tts="25-06-24 17:14:01.558"/>
+    </ar>
+    <dp ct="2506252002" l="10">
+        <m id="r19802569" t="q" c="95" ts="2506241233" ts-tts="25-06-24 12:33:57.789"/>
+        <m id="r19820839" t="f" c="0" ts="2506241713" ts-tts="25-06-24 17:14:01.558"/>
+        <m id="r19820840" t="f" c="1000" ts="2506241713" ts-tts="25-06-24 17:14:01.558"/>
+    </dp>
+</s>
+
+
+<s id="3110338756521254946-2506251931-3" eva="8000068">
+    <m id="r2445676" t="h" from="2506251900" to="2506252100" cat="Störung" ts="2506251927" ts-tts="25-06-25 19:27:36.000" pr="1"/>
+    <ar cp="12" ct="2506251957" l="60"/>
+    <dp cp="12" ct="2506251958" l="60"/>
+</s>
+
+
+<s id="-9171244078081665846-2506251847-11" eva="8000068">
+    <ar ct="2506251930" l="RB75">
+        <m id="r19889648" t="d" c="43" ts="2506251953" ts-tts="25-06-25 19:53:09.918"/>
+    </ar>
+    <dp ct="2506251942" l="RB75">
+        <m id="r19887779" t="f" c="0" ts="2506251919" ts-tts="25-06-25 19:19:13.416"/>
+        <m id="r19889648" t="d" c="43" ts="2506251953" ts-tts="25-06-25 19:53:09.918"/>
+    </dp>
+</s>
+
+
+<s id="7197166130232564374-2506251935-1" eva="8000068">
+    <dp cpth="Langen(Hess)|Langen-Flugsicherung|Dreieich-Buchschlag|Neu-Isenburg|Frankfurt-Louisa|Frankfurt(M)Stresemannallee|Frankfurt(Main)Süd|Frankfurt(M)Lokalbahnhof|Frankfurt(M)Ostendstraße|Frankfurt(M)Konstablerwache|Frankfurt(M)Hauptwache|Frankfurt(M)Taunusanlage|Frankfurt Hbf (tief)|Frankfurt(M)Galluswarte|Frankfurt(Main)Messe|Frankfurt(Main)West|Frankfurt-Ginnheim|Frankfurt-Eschersheim|Frankfurt-Frankfurter Berg|Frankfurt-Berkersheim|Bad Vilbel Süd|Bad Vilbel" ct="2506251936" cs="c" clt="2506251945" l="6">
+        <m id="r19889315" t="d" c="64" ts="2506251945" ts-tts="25-06-25 19:45:51.932"/>
+    </dp>
+</s>
+
+
+<s id="-7090860956696023190-2506251035-25" eva="8000068">
+    <m id="r2397178" t="h" from="2504021133" to="2506302359" cat="Information" ts="2504021134" ts-tts="25-06-24 23:16:04.311" pr="3"/>
+    <m id="r2432396" t="h" from="2506060851" to="2506302359" cat="Information" ts="2506060853" ts-tts="25-06-24 23:16:04.518" pr="2"/>
+    <m id="r2445407" t="h" from="2506251052" to="2506252057" cat="Information" ts="2506251040" ts-tts="25-06-25 10:40:59.033" pr="2"/>
+    <m id="r2445304" t="h" from="2506250645" to="2506282359" cat="Information" ts="2506250645" ts-tts="25-06-25 06:46:09.705" pr="3"/>
+    <ar ct="2506251940">
+        <m id="r19857688" t="q" c="98" ts="2506251034" ts-tts="25-06-25 10:35:00.059"/>
+        <m id="r19884874" t="d" c="43" ts="2506251832" ts-tts="25-06-25 18:33:11.121"/>
+    </ar>
+    <dp ct="2506251942">
+        <m id="r19857688" t="q" c="98" ts="2506251034" ts-tts="25-06-25 10:35:00.059"/>
+        <m id="r19884874" t="d" c="43" ts="2506251832" ts-tts="25-06-25 18:33:11.121"/>
+    </dp>
+</s>
+
+
+<s id="-3281432353838358850-2506251052-21" eva="8000068">
+    <m id="r2397178" t="h" from="2504021133" to="2506302359" cat="Information" ts="2504021134" ts-tts="25-06-24 23:16:04.311" pr="3"/>
+    <m id="r2432396" t="h" from="2506060851" to="2506302359" cat="Information" ts="2506060853" ts-tts="25-06-24 23:16:04.518" pr="2"/>
+    <m id="r2445407" t="h" from="2506251052" to="2506252057" cat="Information" ts="2506251040" ts-tts="25-06-25 10:40:59.033" pr="2"/>
+    <m id="r2445304" t="h" from="2506250645" to="2506282359" cat="Information" ts="2506250645" ts-tts="25-06-25 06:46:09.705" pr="3"/>
+    <ar ct="2506251940">
+        <m id="r19857686" t="q" c="98" ts="2506251034" ts-tts="25-06-25 10:35:00.058"/>
+        <m id="r19884872" t="d" c="43" ts="2506251832" ts-tts="25-06-25 18:33:11.121"/>
+    </ar>
+    <dp ct="2506251942">
+        <m id="r19857686" t="q" c="98" ts="2506251034" ts-tts="25-06-25 10:35:00.058"/>
+        <m id="r19884872" t="d" c="43" ts="2506251832" ts-tts="25-06-25 18:33:11.121"/>
+    </dp>
+</s>
+
+
+<s id="-6216857502962673344-2506251804-22" eva="8000068">
+    <ar ct="2506251933" l="68"/>
+    <dp ct="2506251940" l="68"/>
+</s>
+
+
+<s id="676841280224558151-2506251816-18" eva="8000068">
+    <ar ct="2506251933" l="67"/>
+    <dp ct="2506251938" l="67"/>
+</s>
+
+
+<s id="2409800667918511292-2506251906-3" eva="8000068">
+    <m id="r2445676" t="h" from="2506251900" to="2506252100" cat="Störung" ts="2506251927" ts-tts="25-06-25 19:27:36.000" pr="1"/>
+    <ar ct="2506251932" l="67"/>
+    <dp ct="2506251936" l="67"/>
+</s>
+
+
+<s id="-7030463320599524849-2506251906-3" eva="8000068">
+    <ar ct="2506251932" l="68"/>
+    <dp ct="2506251936" l="68"/>
+</s>
+
+
+<s id="7867255797527729316-2506252135-4" eva="8000068">
+    <ar ct="2506252155" l="RB66"/>
+</s>
+
+
+<s id="-1900435646710379979-2506251252-19" eva="8000068">
+    <m id="r2445660" t="h" from="2506251252" to="2506252156" cat="Information" ts="2506251810" ts-tts="25-06-25 18:10:54.251" pr="2"/>
+    <m id="r2394667" t="h" from="2505010000" to="2506302359" cat="Information" ts="2504302302" ts-tts="25-06-24 23:16:04.309" pr="1"/>
+    <m id="r802386172" t="c" ts="2506251919" ts-tts="25-06-25 19:19:13.329"/>
+    <m id="r802386173" t="c" ts="2506251919" ts-tts="25-06-25 19:19:13.329"/>
+    <ar cp="6" ct="2506251936">
+        <m id="r19881767" t="d" c="43" ts="2506251742" ts-tts="25-06-25 17:43:06.838"/>
+        <m id="r19882057" t="q" c="98" ts="2506251747" ts-tts="25-06-25 17:47:18.588"/>
+    </ar>
+    <dp cp="6" ct="2506251934">
+        <m id="r19881767" t="d" c="43" ts="2506251742" ts-tts="25-06-25 17:43:06.838"/>
+        <m id="r19882057" t="q" c="98" ts="2506251747" ts-tts="25-06-25 17:47:18.589"/>
+    </dp>
+</s>
+
+
+<s id="-7322960193301054880-2506252106-1" eva="8000068">
+    <dp ct="2506252106" l="RB66"/>
+</s>
+
+
+<s id="-5804428351779687327-2506261128-8" eva="8000068">
+    <ar l="10">
+        <m id="r19802933" t="q" c="95" ts="2506241240" ts-tts="25-06-24 12:41:13.389"/>
+        <m id="r19839433" t="q" c="95" ts="2506250138" ts-tts="25-06-25 01:38:18.243"/>
+        <m id="r19878042" t="f" c="0" ts="2506251657" ts-tts="25-06-25 16:57:12.795"/>
+        <m id="r19878043" t="f" c="1000" ts="2506251657" ts-tts="25-06-25 16:57:12.795"/>
+    </ar>
+    <dp l="10">
+        <m id="r19802933" t="q" c="95" ts="2506241240" ts-tts="25-06-24 12:41:13.389"/>
+        <m id="r19839433" t="q" c="95" ts="2506250138" ts-tts="25-06-25 01:38:18.243"/>
+        <m id="r19878042" t="f" c="0" ts="2506251657" ts-tts="25-06-25 16:57:12.795"/>
+        <m id="r19878043" t="f" c="1000" ts="2506251657" ts-tts="25-06-25 16:57:12.795"/>
+    </dp>
+</s>
+
+
+<s id="-446104944637726362-2506251816-11" eva="8000068">
+    <ar cp="7" ct="2506251859" l="RB75"/>
+    <dp cp="7" ct="2506251912" l="RB75"/>
+</s>
+
+
+<s id="4581266498013158147-2506251905-1" eva="8000068">
+    <dp ct="2506251905" l="6"/>
+</s>
+
+
+<s id="8892273054358425952-2506252035-4" eva="8000068">
+    <ar ct="2506252055" l="RB66"/>
+</s>
+
+
+<s id="-447699374129261319-2506252006-1" eva="8000068">
+    <dp ct="2506252006" l="RB66"/>
+</s>
+
+
+<s id="-7909142607027302041-2506251948-4" eva="8000068">
+    <ar ct="2506252008" l="RB66"/>
+</s>
+
+
+<s id="-5571151066405643883-2506251324-6" eva="8000068">
+    <m id="r2445644" t="h" from="2506251324" to="2506251957" cat="Information" ts="2506251734" ts-tts="25-06-25 17:34:26.722" pr="2"/>
+    <ar cpth="" cs="c" clt="2506242212">
+        <m id="r19835105" t="d" c="36" ts="2506242212" ts-tts="25-06-24 22:13:08.180"/>
+        <m id="r19840867" t="f" c="0" ts="2506250232" ts-tts="25-06-25 02:32:19.952"/>
+    </ar>
+    <dp cpth="Frankfurt(Main)Hbf|Berlin-Spandau|Berlin Hbf" cs="c" clt="2506242212">
+        <m id="r19835105" t="d" c="36" ts="2506242212" ts-tts="25-06-24 22:13:08.180"/>
+        <m id="r19840867" t="f" c="0" ts="2506250232" ts-tts="25-06-25 02:32:19.952"/>
+    </dp>
+</s>
+
+
+<s id="-5602752550635686646-2506260927-7" eva="8000068">
+    <ar l="10">
+        <m id="r19877702" t="f" c="0" ts="2506251651" ts-tts="25-06-25 16:51:58.331"/>
+        <m id="r19877703" t="f" c="1000" ts="2506251651" ts-tts="25-06-25 16:51:58.331"/>
+    </ar>
+    <dp l="10">
+        <m id="r19877702" t="f" c="0" ts="2506251651" ts-tts="25-06-25 16:51:58.331"/>
+        <m id="r19877703" t="f" c="1000" ts="2506251651" ts-tts="25-06-25 16:51:58.331"/>
+    </dp>
+</s>
+
+
+<s id="-3031925877358690214-2506251620-2" eva="8000068">
+    <m id="r2445640" t="h" from="2506251620" to="2506252202" cat="Information" ts="2506251714" ts-tts="25-06-25 17:14:30.941" pr="2"/>
+    <ar ct="2506251639"/>
+    <dp ct="2506251641"/>
+</s>
+
+
+<s id="-3801477481652564034-2506260726-8" eva="8000068">
+    <ar l="10">
+        <m id="r19803300" t="q" c="95" ts="2506241248" ts-tts="25-06-24 12:48:44.468"/>
+        <m id="r19839453" t="q" c="95" ts="2506250138" ts-tts="25-06-25 01:38:18.243"/>
+        <m id="r19878217" t="f" c="0" ts="2506251700" ts-tts="25-06-25 17:00:21.179"/>
+        <m id="r19878218" t="f" c="1000" ts="2506251700" ts-tts="25-06-25 17:00:21.179"/>
+    </ar>
+    <dp l="10">
+        <m id="r19803300" t="q" c="95" ts="2506241248" ts-tts="25-06-24 12:48:44.468"/>
+        <m id="r19839453" t="q" c="95" ts="2506250138" ts-tts="25-06-25 01:38:18.243"/>
+        <m id="r19878217" t="f" c="0" ts="2506251700" ts-tts="25-06-25 17:00:21.179"/>
+        <m id="r19878218" t="f" c="1000" ts="2506251700" ts-tts="25-06-25 17:00:21.179"/>
+    </dp>
+</s>
+
+
+<s id="-1036339123872447767-2506260717-3" eva="8000068">
+    <ar l="10">
+        <m id="r19802605" t="q" c="95" ts="2506241234" ts-tts="25-06-24 12:35:00.056"/>
+        <m id="r19839423" t="q" c="95" ts="2506250138" ts-tts="25-06-25 01:38:18.238"/>
+        <m id="r19877953" t="f" c="0" ts="2506251655" ts-tts="25-06-25 16:55:38.712"/>
+        <m id="r19877954" t="f" c="1000" ts="2506251655" ts-tts="25-06-25 16:55:38.712"/>
+    </ar>
+    <dp l="10">
+        <m id="r19802605" t="q" c="95" ts="2506241234" ts-tts="25-06-24 12:35:00.056"/>
+        <m id="r19839423" t="q" c="95" ts="2506250138" ts-tts="25-06-25 01:38:18.238"/>
+        <m id="r19877953" t="f" c="0" ts="2506251655" ts-tts="25-06-25 16:55:38.712"/>
+        <m id="r19877954" t="f" c="1000" ts="2506251655" ts-tts="25-06-25 16:55:38.712"/>
+    </dp>
+</s>
+
+
+<s id="-1448145632787747533-2506251510-7" eva="8000068">
+    <m id="r2397178" t="h" from="2504021133" to="2506302359" cat="Information" ts="2504021134" ts-tts="25-06-24 23:16:04.311" pr="3"/>
+    <m id="r2397244" t="h" from="2504021351" to="2507012359" cat="Information" ts="2504021355" ts-tts="25-06-24 23:16:04.312" pr="2"/>
+    <m id="r2444956" t="h" from="2506240000" to="2507172359" cat="Information" ts="2506241537" ts-tts="25-06-24 23:16:04.786" pr="2"/>
+    <m id="r2445304" t="h" from="2506250645" to="2506282359" cat="Information" ts="2506250645" ts-tts="25-06-25 06:46:09.705" pr="3"/>
+    <m id="r2445623" t="h" from="2506251510" to="2506252150" cat="Information" ts="2506251636" ts-tts="25-06-25 16:36:14.525" pr="2"/>
+    <m id="r802383679" t="c" ts="2506251613" ts-tts="25-06-25 16:13:10.386"/>
+    <m id="r802383680" t="c" ts="2506251613" ts-tts="25-06-25 16:13:10.386"/>
+    <ar ct="2506251629">
+        <m id="r19873234" t="d" c="43" ts="2506251532" ts-tts="25-06-25 15:32:18.865"/>
+    </ar>
+    <dp ct="2506251631">
+        <m id="r19873234" t="d" c="43" ts="2506251532" ts-tts="25-06-25 15:32:18.865"/>
+    </dp>
+</s>
+
+
+<s id="6981062773394189308-2506251310-7" eva="8000068">
+    <m id="r2397178" t="h" from="2504021133" to="2506302359" cat="Information" ts="2504021134" ts-tts="25-06-24 23:16:04.311" pr="3"/>
+    <m id="r2397244" t="h" from="2504021351" to="2507012359" cat="Information" ts="2504021355" ts-tts="25-06-24 23:16:04.312" pr="2"/>
+    <m id="r2444956" t="h" from="2506240000" to="2507172359" cat="Information" ts="2506241537" ts-tts="25-06-24 23:16:04.786" pr="2"/>
+    <m id="r2445304" t="h" from="2506250645" to="2506282359" cat="Information" ts="2506250645" ts-tts="25-06-25 06:46:09.705" pr="3"/>
+    <m id="r802382114" t="c" ts="2506251413" ts-tts="25-06-25 14:13:19.102"/>
+    <ar cpth="Karlsruhe Hbf|Bruchsal|Wiesloch-Walldorf|Heidelberg Hbf|Weinheim(Bergstr)Hbf|Bensheim" ct="2506251428">
+        <m id="r19867183" t="d" c="43" ts="2506251337" ts-tts="25-06-25 13:37:59.937"/>
+    </ar>
+    <dp cpth="Frankfurt(Main)Hbf|Friedberg(Hess)|Gießen|Marburg(Lahn)|Treysa|Wabern(Bz Kassel)|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen|Lüneburg|Hamburg-Harburg|Hamburg Hbf|Schwerin Hbf|Bad Kleinen|Bützow|Rostock Hbf" ct="2506251430">
+        <m id="r19867183" t="d" c="43" ts="2506251337" ts-tts="25-06-25 13:37:59.937"/>
+    </dp>
+</s>
+
+
+<s id="9042395260942796037-2506251419-2" eva="8000068">
+    <ar ct="2506251438"/>
+    <dp ct="2506251440"/>
+</s>
+
+
+<s id="7065259282760334107-2506251219-2" eva="8000068">
+    <ar cpth="" cs="c" clt="2506251115">
+        <m id="r19859683" t="d" c="36" ts="2506251113" ts-tts="25-06-25 11:14:03.254"/>
+        <m id="r19859766" t="d" c="24" ts="2506251115" ts-tts="25-06-25 11:15:37.042"/>
+        <m id="r19859972" t="f" c="0" ts="2506251119" ts-tts="25-06-25 11:19:31.153"/>
+    </ar>
+    <dp cpth="Bensheim|Weinheim(Bergstr)Hbf|Heidelberg Hbf|Stuttgart Hbf|Ulm Hbf|Günzburg|Augsburg Hbf|München Hbf|München Ost|Rosenheim|Prien am Chiemsee|Traunstein|Freilassing|Salzburg Hbf|Salzburg Süd|Hallein|Golling-Abtenau|Werfen|Bischofshofen|Radstadt|Schladming|Stainach-Irdning|Liezen|Selzthal|St.Michael in Obersteiermark|Leoben Hbf|Graz Hbf" ct="2506251248">
+        <m id="r19859683" t="d" c="36" ts="2506251113" ts-tts="25-06-25 11:14:03.254"/>
+        <m id="r19859972" t="f" c="0" ts="2506251119" ts-tts="25-06-25 11:19:31.153"/>
+    </dp>
+</s>
+
+
+<s id="6509207419032567906-2506251103-5" eva="8000068">
+    <m id="r2445200" t="h" from="2506250705" to="2506252028" cat="Information" ts="2506250037" ts-tts="25-06-25 00:37:33.244" pr="2"/>
+    <m id="r2445462" t="h" from="2506251103" to="2506252028" cat="Information" ts="2506251122" ts-tts="25-06-25 11:22:23.068" pr="2"/>
+    <m id="r2445304" t="h" from="2506250645" to="2506282359" cat="Information" ts="2506250645" ts-tts="25-06-25 06:46:09.705" pr="3"/>
+    <ar cpth="Stuttgart Hbf|Heidelberg Hbf|Weinheim(Bergstr)Hbf|Bensheim" ppth="Stuttgart Hbf|Heidelberg Hbf|Weinheim(Bergstr)Hbf|Bensheim" pp="5" ct="2506251224" pt="2506251222">
+        <m id="r19837449" t="d" c="36" ts="2506242351" ts-tts="25-06-24 23:51:31.325"/>
+        <m id="r19837556" t="f" c="0" ts="2506242356" ts-tts="25-06-24 23:56:25.024"/>
+        <m id="r19859962" t="q" c="90" ts="2506251119" ts-tts="25-06-25 11:19:15.554"/>
+    </ar>
+    <dp cpth="Frankfurt(Main)Hbf|Friedberg(Hess)|Gießen|Marburg(Lahn)|Treysa|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen|Bad Bevensen|Lüneburg|Hamburg-Harburg|Hamburg Hbf|Schwerin Hbf|Bützow|Rostock Hbf|Ribnitz-Damgarten West|Velgast|Stralsund Hbf" ppth="Frankfurt(Main)Hbf|Friedberg(Hess)|Gießen|Marburg(Lahn)|Treysa|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen|Bad Bevensen|Lüneburg|Hamburg-Harburg|Hamburg Hbf|Schwerin Hbf|Bad Kleinen|Bützow|Rostock Hbf|Ribnitz-Damgarten West|Velgast|Stralsund Hbf" pp="5" ct="2506251225" pt="2506251224">
+        <m id="r19837449" t="d" c="36" ts="2506242351" ts-tts="25-06-24 23:51:31.325"/>
+        <m id="r19837556" t="f" c="0" ts="2506242356" ts-tts="25-06-24 23:56:25.024"/>
+        <m id="r19859962" t="q" c="90" ts="2506251119" ts-tts="25-06-25 11:19:15.554"/>
+    </dp>
+    <tl f="F" t="e" o="80" c="ICE" n="2848"/>
+    <ref>
+        <tl f="F" t="p" o="80" c="ICE" n="1578"/>
+    </ref>
+</s>
+
+
+<s id="-4884249818121601096-2506251103-5" eva="8000068">
+    <m id="r2397178" t="h" from="2504021133" to="2506302359" cat="Information" ts="2504021134" ts-tts="25-06-24 23:16:04.311" pr="3"/>
+    <m id="r2397244" t="h" from="2504021351" to="2507012359" cat="Information" ts="2504021355" ts-tts="25-06-24 23:16:04.312" pr="2"/>
+    <m id="r2445304" t="h" from="2506250645" to="2506282359" cat="Information" ts="2506250645" ts-tts="25-06-25 06:46:09.705" pr="3"/>
+    <ar cpth="" cs="c" clt="2506242351">
+        <m id="r19837448" t="d" c="36" ts="2506242351" ts-tts="25-06-24 23:51:31.325"/>
+    </ar>
+    <dp cpth="" cs="c" clt="2506242351">
+        <m id="r19837448" t="d" c="36" ts="2506242351" ts-tts="25-06-24 23:51:31.325"/>
+    </dp>
+</s>
+
+</timetable>
