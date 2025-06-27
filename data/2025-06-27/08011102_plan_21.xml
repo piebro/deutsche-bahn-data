@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Gesundbrunnen">
+	<s id="-2040657979277893656-2506272107-1">
+		<tl f="F" t="p" o="743051" c="D" n="300"/>
+		<dp pt="2506272107" pp="6" ppth="Hamburg Hbf|Oerestad st|Malmö Central"/>
+	</s>
+	<s id="8061355321248795348-2506272133-2">
+		<tl f="N" t="p" o="800158" c="RE" n="3328"/>
+		<ar pt="2506272137" pp="9" l="3" ppth="Berlin Hbf"/>
+		<dp pt="2506272139" pp="9" l="3" ppth="Bernau(b Berlin)|Rüdnitz|Biesenthal|Melchow|Eberswalde Hbf|Britz|Chorin|Angermünde|Pinnow(Uckermark)|Schwedt(Oder)Mitte|Schwedt(Oder)"/>
+	</s>
+	<s id="6473414023374840114-2506271816-23">
+		<tl f="N" t="p" o="800158" c="RE" n="3317"/>
+		<ar pt="2506272121" pp="6" l="3" ppth="Stralsund Hbf|Miltzow|Greifswald|Greifswald Süd|Groß Kiesow|Züssow|Klein Bünzow|Anklam|Ducherow|Ferdinandshof|Jatznick|Pasewalk|Nechlin|Prenzlau|Seehausen(Uckermark)|Warnitz(Uckermark)|Wilmersdorf(Angerm)|Angermünde|Chorin|Britz|Eberswalde Hbf|Bernau(b Berlin)"/>
+		<dp pt="2506272123" pp="6" l="3" ppth="Berlin Hbf"/>
+	</s>
+	<s id="5511449091386928938-2506272036-13">
+		<tl f="N" t="p" o="800165" c="RB" n="18272"/>
+		<ar pt="2506272142" pp="8" l="21" ppth="Potsdam Hbf|Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Marquardt|Priort|Wustermark|Elstal|Dallgow-Döberitz|Berlin-Staaken|Berlin-Spandau|Berlin Jungfernheide"/>
+	</s>
+	<s id="-2249914227862616637-2506271835-8">
+		<tl f="F" t="p" o="80" c="IC" n="2073"/>
+		<ar pt="2506272104" pp="" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Büchen|Ludwigslust|Wittenberge|Berlin-Spandau"/>
+	</s>
+	<s id="1945124315890020696-2506272051-2">
+		<tl t="p" o="800165" c="FEX" n="19873"/>
+		<ar pt="2506272056" pp="8" ppth="Berlin Hbf"/>
+		<dp pt="2506272100" pp="8" ppth="Berlin Ostkreuz|Flughafen BER"/>
+	</s>
+	<s id="7427395286423496674-2506271515-7">
+		<tl t="p" o="FLX30" c="FLX" n="1239"/>
+		<ar pt="2506272134" pp="7" l="30" ppth="Köln Hbf|Düsseldorf Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hannover Hbf"/>
+		<dp pt="2506272138" pp="7" l="30" ppth="Dresden-Neustadt|Dresden Hbf"/>
+	</s>
+	<s id="4801753795296543201-2506271733-12">
+		<tl t="p" o="RSMD" c="SMD" n="80439"/>
+		<ar pt="2506272103" pp="8" l="HBX" ppth="Quedlinburg|Ditfurt|Wegeleben|Halberstadt Hbf|Nienhagen(Halberst)|Oschersleben(Bode)|Osterweddingen|Magdeburg-Buckau|Magdeburg Hbf|Potsdam Hbf|Berlin-Wannsee"/>
+		<dp pt="2506272104" pp="8" l="HBX" ppth="Berlin-Lichtenberg"/>
+	</s>
+	<s id="8751178902682291354-2506272107-1">
+		<tl f="F" t="p" o="743051" c="D" n="10300"/>
+		<dp pt="2506272107" pp="" ppth="Hamburg Hbf|Oerestad st|Malmö Central|Lund Central|Eslöv station|Hässleholm Central|Alvesta station|Nässjö Central|Linköping Central|Norrköping Central|Södertälje Syd station|Stockholm Central"/>
+	</s>
+	<s id="5254069718021379768-2506271400-11">
+		<tl f="F" t="p" o="84" c="IC" n="149"/>
+		<ar pt="2506272100" pp="10" ppth="Amsterdam Centraal|Hilversum|Amersfoort Centraal|Apeldoorn|Deventer|Hengelo|Bad Bentheim|Rheine|Hannover Hbf|Berlin-Spandau"/>
+	</s>
+	<s id="-1415760473100959366-2506271705-16">
+		<tl t="p" o="RSMD" c="SMD" n="80429"/>
+		<ar pt="2506272103" pp="8" l="HBX" wings="4801753795296543201-2506271733" ppth="Goslar|Vienenburg|Stapelburg|Ilsenburg|Darlingerode|Wernigerode Elmowerk|Wernigerode Hbf|Halberstadt Hbf|Nienhagen(Halberst)|Oschersleben(Bode)|Osterweddingen|Magdeburg-Buckau|Magdeburg Hbf|Potsdam Hbf|Berlin-Wannsee"/>
+		<dp pt="2506272104" pp="8" l="HBX" wings="4801753795296543201-2506271733" ppth="Berlin-Lichtenberg"/>
+	</s>
+</timetable>
