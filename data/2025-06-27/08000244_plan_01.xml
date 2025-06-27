@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<timetable station="Mannheim Hbf">
+	<s id="-8433280284851180752-2506270027-15">
+		<tl f="S" t="p" o="801539" c="S" n="38200"/>
+		<ar pt="2506270114" pp="1" l="3" ppth="Bruchsal|Ubstadt-Weiher|Stettfeld-Weiher|Bad Schönborn Süd|Bad Schönborn-Kronau|Rot-Malsch|Wiesloch-Walldorf|St Ilgen-Sandhausen|Heidelberg-Kirchheim/Rohrbach|Heidelberg Hbf|Heidelberg-Pfaffengrund/Wieblingen|Mannheim-Friedrichsfeld Süd|Mannheim-Seckenheim|Mannheim ARENA/Maimarkt"/>
+		<dp pt="2506270118" pp="1" l="3" ppth="Ludwigshafen(Rhein) Mitte|Ludwigshafen(Rh)Hbf"/>
+	</s>
+	<s id="-3904909291646461972-2506270119-1">
+		<tl f="S" t="p" o="801518" c="S" n="38901"/>
+		<dp pt="2506270119" pp="8" l="9" ppth="Mannheim-Neckarau|Mannheim-Rheinau|Schwetzingen-Hirschacker|Schwetzingen Nordstadt|Schwetzingen|Oftersheim|Hockenheim|Neulußheim|Waghäusel|Wiesental|Graben-Neudorf|Friedrichstal(Baden)|Blankenloch|Karlsruhe-Hagsfeld|Karlsruhe Hbf"/>
+	</s>
+	<s id="-4852394723515491479-2506270025-16">
+		<tl f="S" t="p" o="801518" c="S" n="38900"/>
+		<ar pt="2506270118" pp="9" l="9" ppth="Karlsruhe Hbf|Karlsruhe-Hagsfeld|Blankenloch|Friedrichstal(Baden)|Graben-Neudorf|Wiesental|Waghäusel|Neulußheim|Hockenheim|Oftersheim|Schwetzingen|Schwetzingen Nordstadt|Schwetzingen-Hirschacker|Mannheim-Rheinau|Mannheim-Neckarau"/>
+	</s>
+	<s id="7479964783882811425-2506270111-3">
+		<tl f="S" t="p" o="801539" c="S" n="38385"/>
+		<ar pt="2506270116" pp="7" l="3" ppth="Ludwigshafen(Rh)Hbf|Ludwigshafen(Rhein) Mitte"/>
+		<dp pt="2506270121" pp="7" l="3" ppth="Mannheim ARENA/Maimarkt|Mannheim-Seckenheim|Mannheim-Friedrichsfeld Süd|Heidelberg-Pfaffengrund/Wieblingen|Heidelberg Hbf|Heidelberg-Kirchheim/Rohrbach|St Ilgen-Sandhausen|Wiesloch-Walldorf|Rot-Malsch|Bad Schönborn-Kronau|Bad Schönborn Süd|Stettfeld-Weiher|Ubstadt-Weiher|Bruchsal"/>
+	</s>
+	<s id="-9185827872855460139-2506270100-1">
+		<tl t="p" o="801518" c="Bus" n="8800"/>
+		<dp pt="2506270100" pp="" l="S9" ppth="Mannheim-Waldhof|Lampertheim|Bürstadt|Bobstadt|Biblis|Groß-Rohrheim"/>
+	</s>
+	<s id="7108274583246193747-2506262151-6">
+		<tl f="F" t="p" o="80" c="ICE" n="698"/>
+		<ar pt="2506270142" pp="5" ppth="München Hbf|Augsburg Hbf|Ulm Hbf|Stuttgart Hbf|Heidelberg Hbf"/>
+		<dp pt="2506270144" pp="5" ppth="Frankfurt(Main)Hbf|Eisenach Hbf|Gotha|Erfurt Hbf|Weimar|Naumburg(Saale)Hbf|Halle(Saale)Hbf|Bitterfeld|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="-5249905465755645742-2506261905-5">
+		<tl t="p" o="81" c="NJ" n="40424"/>
+		<ar pt="2506270134" pp="4" hi="1" ppth="Berlin Gesundbrunnen|Göttingen|Kassel-Wilhelmshöhe|Frankfurt(Main)Süd"/>
+		<dp pt="2506270317" pp="4" hi="1" ppth="Strasbourg|Paris Est"/>
+	</s>
+	<s id="-4116570827422665525-2506270058-6">
+		<tl f="N" t="p" o="800574" c="RE" n="4551"/>
+		<ar pt="2506270123" pp="10" l="70" ppth="Biblis|Bobstadt|Bürstadt|Lampertheim|Mannheim-Waldhof"/>
+	</s>
+	<s id="-3046609717104668087-2506261905-5">
+		<tl t="p" o="81" c="NJ" n="424"/>
+		<ar pt="2506270134" pp="4" hi="1" wings="-5249905465755645742-2506261905" ppth="Berlin Gesundbrunnen|Göttingen|Kassel-Wilhelmshöhe|Frankfurt(Main)Süd"/>
+	</s>
+</timetable>
