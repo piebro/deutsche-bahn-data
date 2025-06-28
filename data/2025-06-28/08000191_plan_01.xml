@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<timetable station="Karlsruhe Hbf">
+	<s id="-6773908398844685029-2506280130-1">
+		<tl f="N" t="p" o="800571" c="RB" n="15882"/>
+		<dp pt="2506280130" pp="6" l="44" ppth="Ettlingen West|Bruchhausen(b Ettlingen)|Malsch|Malsch Süd|Muggensturm Badesee|Muggensturm|Rastatt|Baden-Baden Haueneberstein|Baden-Baden|Sinzheim Nord|Sinzheim|Baden-Baden Rebland|Bühl(Baden)"/>
+	</s>
+	<s id="442689783247395044-2506280034-4">
+		<tl f="N" t="p" o="800632" c="RB" n="32582"/>
+		<ar pt="2506280100" pp="" l="74" ppth="Pforzheim Hbf|Wilferdingen-Singen|Karlsruhe-Durlach"/>
+	</s>
+	<s id="3846530474941700870-2506280006-16">
+		<tl f="S" t="p" o="801518" c="S" n="38997"/>
+		<ar pt="2506280102" pp="2" l="9" ppth="Mannheim Hbf|Mannheim-Neckarau|Mannheim-Rheinau|Schwetzingen-Hirschacker|Schwetzingen Nordstadt|Schwetzingen|Oftersheim|Hockenheim|Neulußheim|Waghäusel|Wiesental|Graben-Neudorf|Friedrichstal(Baden)|Blankenloch|Karlsruhe-Hagsfeld"/>
+	</s>
+	<s id="4753870957390372842-2506272134-7">
+		<tl f="F" t="p" o="NZ" c="IC" n="60402"/>
+		<ar pt="2506280118" pp="3" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden"/>
+		<dp pt="2506280120" pp="3" ppth="Frankfurt(Main)Hbf|Mainz Hbf|Koblenz Hbf|Bonn Hbf|Eindhoven Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="-8332221861054296360-2506280016-9">
+		<tl f="N" t="p" o="GARE" c="RE" n="19036"/>
+		<ar pt="2506280119" pp="14" l="1" ppth="Stuttgart Hbf|Ludwigsburg|Bietigheim-Bissingen|Vaihingen(Enz)|Mühlacker|Pforzheim Hbf|Wilferdingen-Singen|Karlsruhe-Durlach"/>
+	</s>
+	<s id="8868050453695511606-2506272134-7">
+		<tl t="p" o="85" c="NJ" n="402"/>
+		<ar pt="2506280118" pp="3" hi="1" wings="4753870957390372842-2506272134" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden"/>
+		<dp pt="2506280120" pp="3" hi="1" wings="4753870957390372842-2506272134" ppth="Frankfurt(Main)Hbf|Mainz Hbf|Koblenz Hbf|Bonn Hbf|Eindhoven Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+</timetable>
