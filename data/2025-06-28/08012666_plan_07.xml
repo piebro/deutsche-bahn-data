@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<timetable station="Potsdam Hbf">
+	<s id="-7479934948121846295-2506280610-13">
+		<tl f="N" t="p" o="OWRB" c="RB" n="62127"/>
+		<ar pt="2506280719" pp="2" l="33" ppth="Jüterbog|Altes Lager|Treuenbrietzen Süd|Treuenbrietzen|Buchholz(Zauche)|Elsholz|Beelitz Stadt|Ferch-Lienewitz|Caputh Schwielowsee|Caputh-Geltow|Potsdam Pirschheide|Potsdam Charlottenhof"/>
+	</s>
+	<s id="-1212260349764834885-2506280741-1">
+		<tl f="N" t="p" o="OWRB" c="RB" n="62126"/>
+		<dp pt="2506280741" pp="2" l="33" ppth="Potsdam Charlottenhof|Potsdam Pirschheide|Caputh-Geltow|Caputh Schwielowsee|Ferch-Lienewitz|Beelitz Stadt|Elsholz|Buchholz(Zauche)|Treuenbrietzen|Treuenbrietzen Süd|Altes Lager|Jüterbog"/>
+	</s>
+	<s id="2784353434351972369-2506280730-5">
+		<tl f="N" t="p" o="OWRE" c="RE" n="73760"/>
+		<ar pt="2506280748" pp="4" l="1" ppth="Groß Kreutz|Werder(Havel)|Potsdam Park Sanssouci|Potsdam Charlottenhof"/>
+		<dp pt="2506280750" pp="4" l="1" ppth="Berlin-Wannsee|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz|Erkner"/>
+	</s>
+	<s id="6436878501441754240-2506280610-9">
+		<tl f="N" t="p" o="OWRE" c="RE" n="73761"/>
+		<ar pt="2506280705" pp="3" l="1" ppth="Erkner|Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Wannsee"/>
+		<dp pt="2506280707" pp="3" l="1" ppth="Potsdam Charlottenhof|Potsdam Park Sanssouci|Werder(Havel)|Groß Kreutz"/>
+	</s>
+	<s id="-5836116478505395020-2506280713-3">
+		<tl f="N" t="p" o="OWRE" c="RE" n="73718"/>
+		<ar pt="2506280729" pp="4" l="1" ppth="Groß Kreutz|Werder(Havel)"/>
+		<dp pt="2506280731" pp="4" l="1" ppth="Berlin-Wannsee|Berlin-Charlottenburg|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz|Erkner"/>
+	</s>
+	<s id="-8389186699275330634-2506280629-10">
+		<tl f="N" t="p" o="OWRE" c="RE" n="73721"/>
+		<ar pt="2506280729" pp="3" l="1" ppth="Erkner|Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Charlottenburg|Berlin-Wannsee"/>
+		<dp pt="2506280731" pp="3" l="1" ppth="Werder(Havel)|Groß Kreutz"/>
+	</s>
+	<s id="-7418975919136076672-2506280602-8">
+		<tl f="F" t="p" o="80" c="IC" n="2432"/>
+		<ar pt="2506280759" pp="3" wings="-6476689219113566886-2506280602" ppth="Cottbus Hbf|Lübbenau(Spreewald)|Lübben(Spreewald)|Königs Wusterhausen|Berlin-Lichtenberg|Berlin Gesundbrunnen|Berlin-Wannsee"/>
+		<dp pt="2506280802" pp="3" ppth="Stendal Hbf|Braunschweig Hbf|Hannover Hbf|Nienburg(Weser)|Verden(Aller)|Bremen Hbf|Delmenhorst|Hude|Oldenburg(Oldb)Hbf|Bad Zwischenahn|Westerstede-Ocholt|Augustfehn|Leer(Ostfriesl)|Emden Hbf|Marienhafe|Norden|Norddeich|Norddeich Mole"/>
+	</s>
+	<s id="-6476689219113566886-2506280602-8">
+		<tl f="N" t="p" o="NZ" c="RE" n="62432"/>
+		<ar pt="2506280759" pp="3" l="56" ppth="Cottbus Hbf|Lübbenau(Spreewald)|Lübben(Spreewald)|Königs Wusterhausen|Berlin-Lichtenberg|Berlin Gesundbrunnen|Berlin-Wannsee"/>
+	</s>
+	<s id="-4735216753099942144-2506280656-4">
+		<tl t="p" o="RSMD" c="SMD" n="80426"/>
+		<ar pt="2506280751" pp="3" l="HBX" hi="1" wings="-5438291664424141788-2506280656" ppth="Berlin-Lichtenberg|Berlin Gesundbrunnen|Berlin-Wannsee"/>
+		<dp pt="2506280753" pp="3" l="HBX" wings="-5438291664424141788-2506280656" ppth="Brandenburg Hbf|Genthin|Burg(Magdeburg)|Magdeburg Hbf|Magdeburg-Buckau|Osterweddingen|Oschersleben(Bode)|Nienhagen(Halberst)|Halberstadt Hbf|Wegeleben|Ditfurt|Quedlinburg"/>
+	</s>
+	<s id="-5438291664424141788-2506280656-4">
+		<tl t="p" o="RSMD" c="SMD" n="80436"/>
+		<ar pt="2506280751" pp="3" l="HBX" hi="1" ppth="Berlin-Lichtenberg|Berlin Gesundbrunnen|Berlin-Wannsee"/>
+		<dp pt="2506280753" pp="3" l="HBX" ppth="Brandenburg Hbf|Genthin|Burg(Magdeburg)|Magdeburg Hbf|Magdeburg-Buckau|Osterweddingen|Oschersleben(Bode)|Nienhagen(Halberst)|Halberstadt Hbf|Wernigerode Hbf|Wernigerode Elmowerk|Darlingerode|Ilsenburg|Stapelburg|Vienenburg|Goslar"/>
+	</s>
+</timetable>
