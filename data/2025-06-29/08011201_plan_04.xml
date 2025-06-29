@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="-3663725125142417725-2506290409-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18651"/>
+		<dp pt="2506290409" pp="4" l="32" tra="-6637975838343598332-2506290330-3" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+	<s id="-5281121213545344483-2506290417-1">
+		<tl f="N" t="p" o="800165" c="RE" n="18752"/>
+		<dp pt="2506290417" pp="3" l="2" ppth="Königs Wusterhausen|Lübben(Spreewald)|Lübbenau(Spreewald)|Raddusch|Vetschau|Kunersdorf|Kolkwitz|Cottbus Hbf"/>
+	</s>
+	<s id="4063429164769473916-2506290351-4">
+		<tl t="p" o="800165" c="FEX" n="19805"/>
+		<ar pt="2506290430" pp="4" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="-1052154697880603635-2506290301-9">
+		<tl f="N" t="p" o="800165" c="RE" n="18751"/>
+		<ar pt="2506290408" pp="3" l="2" ppth="Cottbus Hbf|Vetschau|Lübbenau(Spreewald)|Lübben(Spreewald)|Groß Köris|Bestensee|Zeesen|Königs Wusterhausen"/>
+	</s>
+	<s id="2138088866152133492-2506290439-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18650"/>
+		<ar pt="2506290455" pp="1" l="32" tra="1587664332490671964-2506290458-1" ppth="Ludwigsfelde|Birkengrund"/>
+	</s>
+	<s id="-2823169835526955329-2506290425-1">
+		<tl t="p" o="800165" c="FEX" n="19800"/>
+		<dp pt="2506290425" pp="1" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="1587664332490671964-2506290458-1">
+		<tl t="p" o="800165" c="FEX" n="19802"/>
+		<dp pt="2506290458" pp="1" tra="2138088866152133492-2506290439-3" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+</timetable>

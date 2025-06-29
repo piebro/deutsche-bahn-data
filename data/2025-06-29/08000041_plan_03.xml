@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<timetable station="Bochum Hbf">
+	<s id="8503777394879306018-2506282325-14">
+		<tl f="F" t="p" o="80" c="ICE" n="920"/>
+		<ar pt="2506290314" pp="5" ppth="Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Regionalbf|Mainz Hbf|Bingen(Rhein) Hbf|Koblenz Hbf|Andernach|Remagen|Bonn Hbf|Köln Süd|Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf"/>
+		<dp pt="2506290316" pp="5" ppth="Dortmund Hbf|Hamm(Westf)Hbf|Münster(Westf)Hbf|Osnabrück Hbf|Diepholz|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-4318408441510468471-2506290253-9">
+		<tl f="S" t="p" o="800337" c="S" n="30104"/>
+		<ar pt="2506290316" pp="7" l="1" ppth="Dortmund Hbf|Dortmund-Dorstfeld|Dortmund-Dorstfeld Süd|Dortmund Universität|Dortmund-Oespel|Dortmund-Kley|Bochum-Langendreer|Bochum-Langendreer West"/>
+		<dp pt="2506290317" pp="7" l="1" ppth="Bochum-Ehrenfeld|Wattenscheid-Höntrop|Essen-Eiberg"/>
+	</s>
+	<s id="8355119716046594857-2506290254-2">
+		<tl t="p" o="NX" c="Bus" n="6848"/>
+		<ar pt="2506290324" pp="" l="RE1" ppth="Dortmund Hbf"/>
+		<dp pt="2506290324" pp="" l="RE1" ppth="Wattenscheid|Essen Hbf Kruppstraße/Am Thyssenhaus|Mülheim(Ruhr)Hbf|Duisburg Hbf|Düsseldorf Flughafen|Düsseldorf Hbf"/>
+	</s>
+	<s id="5678231876531988481-2506290326-2">
+		<tl f="S" t="p" o="800337" c="S" n="30105"/>
+		<ar pt="2506290343" pp="8" l="1" ppth="Essen Hbf"/>
+		<dp pt="2506290344" pp="8" l="1" ppth="Dortmund Hbf"/>
+	</s>
+	<s id="8866438240121712514-2506290149-11">
+		<tl f="N" t="p" o="NXRE" c="RE" n="26845"/>
+		<ar pt="2506290302" pp="5" l="1" ppth="Köln Hbf|Köln Messe/Deutz|Leverkusen Mitte|Düsseldorf-Benrath|Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Mülheim(Ruhr)Hbf|Essen Hbf|Wattenscheid"/>
+		<dp pt="2506290303" pp="5" l="1" ppth="Dortmund Hbf|Dortmund-Scharnhorst|Dortmund-Kurl|Kamen-Methler|Kamen|Bönen-Nordbögge|Hamm(Westf)Hbf"/>
+	</s>
+</timetable>
