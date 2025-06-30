@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="-6254759535432145701-2506301928-1">
+		<tl t="p" o="800165" c="FEX" n="19860"/>
+		<dp pt="2506301928" pp="1" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="-2363049063357693909-2506301939-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18680"/>
+		<ar pt="2506301955" pp="1" l="32" tra="-579218195497792108-2506301958-1" ppth="Ludwigsfelde|Birkengrund"/>
+	</s>
+	<s id="8161770265224201488-2506301909-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18681"/>
+		<dp pt="2506301909" pp="4" l="32" tra="-2628504781120600806-2506301821-4" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+	<s id="-2628504781120600806-2506301821-4">
+		<tl t="p" o="800165" c="FEX" n="19863"/>
+		<ar pt="2506301904" pp="4" tra="8161770265224201488-2506301909-1" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="-579218195497792108-2506301958-1">
+		<tl t="p" o="800165" c="FEX" n="19862"/>
+		<dp pt="2506301958" pp="1" tra="-2363049063357693909-2506301939-3" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="8468312416030545329-2506301851-4">
+		<tl t="p" o="800165" c="FEX" n="19865"/>
+		<ar pt="2506301930" pp="4" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+</timetable>
