@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="Frankfurt(Main)Süd">
+	<s id="3392261486784412000-2506300148-15">
+		<tl f="S" t="p" o="800528" c="S" n="22391"/>
+		<ar pt="2506300241" pp="8" l="8" ppth="Wiesbaden Hbf|Wiesbaden Ost|Mainz Nord|Mainz Hbf|Mainz Römisches Theater|Mainz-Gustavsburg|Mainz-Bischofsheim|Rüsselsheim Opelwerk|Rüsselsheim|Raunheim|Kelsterbach|Frankfurt(M) Flughafen Regionalbf|Frankfurt(Main)-Gateway Gardens|Frankfurt am Main - Stadion"/>
+		<dp pt="2506300245" pp="8" l="8" ppth="Offenbach(Main)Hbf|Offenbach(Main)Ost|Mühlheim(Main)|Mühlheim(Main)-Dietesheim|Steinheim(Main)|Hanau Hbf"/>
+	</s>
+	<s id="-5591597380485360579-2506291934-9">
+		<tl f="F" t="p" o="NZ" c="IC" n="60470"/>
+		<ar pt="2506300209" pp="8" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Darmstadt Hbf"/>
+		<dp pt="2506300213" pp="8" ppth="Hanau Hbf|Göttingen|Hannover Hbf|Nienburg(Weser)|Verden(Aller)|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="1003446772902483359-2506291934-9">
+		<tl t="p" o="85" c="NJ" n="470"/>
+		<ar pt="2506300209" pp="8" hi="1" wings="-5591597380485360579-2506291934" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Darmstadt Hbf"/>
+		<dp pt="2506300213" pp="8" hi="1" wings="-5591597380485360579-2506291934" ppth="Hanau Hbf|Göttingen|Hannover Hbf|Nienburg(Weser)|Verden(Aller)|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="4481799414823635857-2506300146-7">
+		<tl f="S" t="p" o="800528" c="S" n="22390"/>
+		<ar pt="2506300210" pp="7" l="8" ppth="Hanau Hbf|Steinheim(Main)|Mühlheim(Main)-Dietesheim|Mühlheim(Main)|Offenbach(Main)Ost|Offenbach(Main)Hbf"/>
+		<dp pt="2506300217" pp="7" l="8" ppth="Frankfurt am Main - Stadion|Frankfurt(Main)-Gateway Gardens|Frankfurt(M) Flughafen Regionalbf|Kelsterbach|Raunheim|Rüsselsheim|Rüsselsheim Opelwerk|Mainz-Bischofsheim|Mainz-Gustavsburg|Mainz Römisches Theater|Mainz Hbf|Mainz Nord|Wiesbaden Ost|Wiesbaden Hbf"/>
+	</s>
+</timetable>

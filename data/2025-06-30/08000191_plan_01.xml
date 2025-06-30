@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<timetable station="Karlsruhe Hbf">
+	<s id="-8332221861054296360-2506300024-8">
+		<tl f="N" t="p" o="GARE" c="RE" n="19036"/>
+		<ar pt="2506300127" pp="14" l="1" ppth="Stuttgart Hbf|Ludwigsburg|Bietigheim-Bissingen|Vaihingen(Enz)|Mühlacker|Pforzheim Hbf|Karlsruhe-Durlach"/>
+	</s>
+	<s id="4753870957390372842-2506291936-12">
+		<tl f="F" t="p" o="NZ" c="IC" n="60402"/>
+		<ar pt="2506292336" pp="3" ppth="Zürich HB|Baden(CH)|Brugg AG|Frick|Stein-Säckingen|Rheinfelden(CH)|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden"/>
+		<dp pt="2506300120" pp="3" ppth="Mannheim Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf|Bonn-Beuel|Köln Hbf|Eindhoven Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="442689783247395044-2506300034-4">
+		<tl f="N" t="p" o="800632" c="RB" n="32582"/>
+		<ar pt="2506300100" pp="" l="74" ppth="Pforzheim Hbf|Wilferdingen-Singen|Karlsruhe-Durlach"/>
+	</s>
+	<s id="6898910725346069817-2506292034-12">
+		<tl f="F" t="p" o="80" c="ICE" n="1279"/>
+		<ar pt="2506300153" pp="2" ppth="Berlin Hbf|Berlin-Spandau|Wolfsburg Hbf|Braunschweig Hbf|Hildesheim Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Hanau Hbf|Frankfurt(Main)Hbf|Mannheim Hbf"/>
+	</s>
+	<s id="3846530474941700870-2506300006-16">
+		<tl f="S" t="p" o="801518" c="S" n="38997"/>
+		<ar pt="2506300102" pp="2" l="9" ppth="Mannheim Hbf|Mannheim-Neckarau|Mannheim-Rheinau|Schwetzingen-Hirschacker|Schwetzingen Nordstadt|Schwetzingen|Oftersheim|Hockenheim|Neulußheim|Waghäusel|Wiesental|Graben-Neudorf|Friedrichstal(Baden)|Blankenloch|Karlsruhe-Hagsfeld"/>
+	</s>
+	<s id="8868050453695511606-2506291936-12">
+		<tl t="p" o="85" c="NJ" n="402"/>
+		<ar pt="2506292336" pp="3" hi="1" wings="4753870957390372842-2506291936" ppth="Zürich HB|Baden(CH)|Brugg AG|Frick|Stein-Säckingen|Rheinfelden(CH)|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden"/>
+		<dp pt="2506300120" pp="3" hi="1" wings="4753870957390372842-2506291936" ppth="Mannheim Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf|Bonn-Beuel|Köln Hbf|Eindhoven Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+</timetable>
