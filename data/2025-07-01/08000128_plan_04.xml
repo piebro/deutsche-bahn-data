@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<timetable station="Göttingen">
+	<s id="1003446772902483359-2506302059-11">
+		<tl t="p" o="85" c="NJ" n="470"/>
+		<ar pt="2507010431" pp="4" wings="-5591597380485360579-2506302059" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Darmstadt Hbf|Frankfurt(Main)Süd|Hanau Hbf"/>
+		<dp pt="2507010433" pp="4" hi="1" wings="-5591597380485360579-2506302059" ppth="Hannover Hbf|Nienburg(Weser)|Verden(Aller)|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-2525280895165784453-2507010414-1">
+		<tl f="N" t="p" o="N4" c="RB" n="24001"/>
+		<dp pt="2507010414" pp="5" l="83" wings="1758844707650888835-2507010414" ppth="Friedland(Han)|Eichenberg|Witzenhausen Nord|Gertenbach|Hedemünden|Hann Münden|Speele|Fuldatal-Ihringshausen|Vellmar-Niedervellmar|Kassel Hbf"/>
+	</s>
+	<s id="8209469800275406026-2506302300-5">
+		<tl f="F" t="p" o="80" c="ICE" n="1080"/>
+		<ar pt="2507010403" pp="4" ppth="München Hbf|Ingolstadt Hbf|Nürnberg Hbf|Würzburg Hbf"/>
+		<dp pt="2507010405" pp="4" ppth="Hannover Hbf|Celle|Uelzen|Lüneburg|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="-5591597380485360579-2506302059-11">
+		<tl f="F" t="p" o="NZ" c="IC" n="60470"/>
+		<ar pt="2507010431" pp="4" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Darmstadt Hbf|Frankfurt(Main)Süd|Hanau Hbf"/>
+		<dp pt="2507010433" pp="4" ppth="Hannover Hbf|Nienburg(Weser)|Verden(Aller)|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="1758844707650888835-2507010414-1">
+		<tl f="N" t="p" o="N4" c="RB" n="24061"/>
+		<dp pt="2507010414" pp="5" l="87" pde="Bebra" ppth="Friedland(Han)|Eichenberg|Bad Sooden-Allendorf|Eschwege-Niederhone|Eschwege"/>
+	</s>
+	<s id="4865212130374262767-2507010408-1">
+		<tl f="D" t="p" o="R1" c="ME" n="82810"/>
+		<dp pt="2507010408" pp="6" l="RE2" ppth="Nörten-Hardenberg|Northeim(Han)|Einbeck-Salzderhelden|Kreiensen|Freden(Leine)|Alfeld(Leine)|Banteln|Elze(Han)|Nordstemmen|Sarstedt|Hannover Hbf"/>
+	</s>
+</timetable>
