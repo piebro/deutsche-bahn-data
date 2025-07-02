@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<timetable station="Regensburg Hbf">
+	<s id="-8245814592532172144-2507020822-5">
+		<tl f="F" t="p" o="80" c="ICE" n="23"/>
+		<ar pt="2507021123" pp="9" ppth="Frankfurt(Main)Hbf|Hanau Hbf|Würzburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2507021125" pp="9" ppth="Plattling|Passau Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="-5517545804205059282-2507021055-2">
+		<tl t="p" o="A8N" c="Bus" n="60360"/>
+		<ar pt="2507021140" pp="" l="RE25" ppth="Schwandorf"/>
+	</s>
+	<s id="-5305609974311927143-2507021100-1">
+		<tl t="p" o="A8N" c="Bus" n="99703"/>
+		<dp pt="2507021100" pp="" l="RE25" ppth="Kötztingerstraße, Furth im Wald"/>
+	</s>
+	<s id="-256481159816255673-2507021045-4">
+		<tl t="p" o="O9" c="Bus" n="63719"/>
+		<ar pt="2507021155" pp="" l="RB23" ppth="Schwandorf|Maxhütte-Haidhof|Regenstauf"/>
+	</s>
+	<s id="491280278074109929-2507021016-11">
+		<tl f="N" t="p" o="800767" c="RE" n="57916"/>
+		<ar pt="2507021141" pp="8 A-C" l="22" ppth="München Flughafen Terminal|Freising|Moosburg|Landshut(Bay)Hbf|Ergoldsbach|Neufahrn(Niederbay)|Eggmühl|Hagelstadt|Köfering|Obertraubling"/>
+	</s>
+	<s id="5881532822760528611-2507021011-5">
+		<tl f="N" t="p" o="800767" c="RE" n="59491"/>
+		<ar pt="2507021113" pp="8" l="22" tra="8212674342033925659-2507021119-1" ppth="Nürnberg Hbf|Neumarkt(Oberpf)|Parsberg|Beratzhausen"/>
+	</s>
+	<s id="4536189782829268674-2507021145-1">
+		<tl f="D" t="p" o="A9" c="ag" n="84328"/>
+		<dp pt="2507021145" pp="8 D-F" l="RB17" ppth="Regensburg-Prüfening|Sinzing|Gundelshausen|Bad Abbach|Saal(Donau)|Abensberg|Neustadt(Donau)|Münchsmünster|Vohburg-Rockolding|Ernsgaden|Ingolstadt Hbf|Ingolstadt Nord"/>
+	</s>
+	<s id="4140230899699157732-2507020944-8">
+		<tl f="D" t="p" o="A8N" c="ALX" n="52976"/>
+		<ar pt="2507021112" pp="4" l="RE25" ppth="München Hbf|Freising|Moosburg|Landshut(Bay)Hbf|Ergoldsbach|Neufahrn(Niederbay)|Eggmühl"/>
+	</s>
+	<s id="3441348417347933389-2507021151-1">
+		<tl f="D" t="p" o="A8N" c="ALX" n="52979"/>
+		<dp pt="2507021151" pp="4" l="RE25" ppth="Neufahrn(Niederbay)|Landshut(Bay)Hbf|Freising|München Hbf"/>
+	</s>
+	<s id="-6249967532729488413-2507021150-1">
+		<tl t="p" o="A8N" c="Bus" n="60357"/>
+		<dp pt="2507021150" pp="" l="RE25" ppth="Schwandorf"/>
+	</s>
+	<s id="1169581783912894322-2507021100-1">
+		<tl t="p" o="O9" c="Bus" n="63724"/>
+		<dp pt="2507021100" pp="" l="RB23" ppth="Regenstauf|Maxhütte-Haidhof|Schwandorf"/>
+	</s>
+	<s id="8212674342033925659-2507021119-1">
+		<tl f="N" t="p" o="800767" c="RE" n="57917"/>
+		<dp pt="2507021119" pp="8" l="22" tra="5881532822760528611-2507021011-5" ppth="Obertraubling|Köfering|Hagelstadt|Eggmühl|Neufahrn(Niederbay)|Ergoldsbach|Landshut(Bay)Hbf|Moosburg|Freising|München Flughafen Terminal"/>
+	</s>
+	<s id="-8296288150202802653-2507020959-13">
+		<tl f="D" t="p" o="A9" c="ag" n="84323"/>
+		<ar pt="2507021108" pp="9" l="RB17" ppth="Ingolstadt Nord|Ingolstadt Hbf|Ernsgaden|Vohburg-Rockolding|Münchsmünster|Neustadt(Donau)|Abensberg|Saal(Donau)|Bad Abbach|Poikam|Sinzing|Regensburg-Prüfening"/>
+		<dp pt="2507021110" pp="9" l="RB17" ppth="Regensburg-Burgweinting|Obertraubling|Sünching|Radldorf(Niederbay)|Straubing|Straßkirchen|Plattling"/>
+	</s>
+	<s id="-1735815015936959565-2507021124-1">
+		<tl f="D" t="p" o="A9" c="ag" n="84190"/>
+		<dp pt="2507021124" pp="5" l="RB51" ppth="Regensburg-Prüfening|Etterzhausen|Undorf|Deuerling|Laaber|Beratzhausen|Mausheim|Parsberg|Seubersdorf|Batzhausen|Deining(Oberpf)|Neumarkt(Oberpf)"/>
+	</s>
+	<s id="6366444293984355810-2507021052-13">
+		<tl f="D" t="p" o="A9" c="ag" n="84191"/>
+		<ar pt="2507021144" pp="109" l="RB51" ppth="Neumarkt(Oberpf)|Deining(Oberpf)|Batzhausen|Seubersdorf|Parsberg|Mausheim|Beratzhausen|Laaber|Deuerling|Undorf|Etterzhausen|Regensburg-Prüfening"/>
+	</s>
+	<s id="5688507885979770326-2507021106-7">
+		<tl f="D" t="p" o="S9" c="ag" n="63062"/>
+		<ar pt="2507021146" pp="5" l="RE50" ppth="Plattling|Straßkirchen|Straubing|Sünching|Obertraubling|Regensburg-Burgweinting"/>
+		<dp pt="2507021148" pp="5" l="RE50" ppth="Parsberg|Neumarkt(Oberpf)|Nürnberg Hbf"/>
+	</s>
+</timetable>
