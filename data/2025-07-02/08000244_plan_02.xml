@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<timetable station="Mannheim Hbf">
+	<s id="3178546308999030105-2507011813-9">
+		<tl t="p" o="81" c="NJ" n="40468"/>
+		<ar pt="2507020213" pp="5" hi="1" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Salzburg Hbf|Freilassing|Rosenheim|München Ost"/>
+		<dp pt="2507020257" pp="5" hi="1" ppth="Mainz Hbf|Koblenz Hbf|Bonn-Beuel|Köln Hbf|Aachen Hbf"/>
+	</s>
+	<s id="6506105724695131324-2507020257-1">
+		<tl t="p" o="81" c="NJ" n="478"/>
+		<dp pt="2507020257" pp="5" hi="1" ppth="Mainz Hbf|Koblenz Hbf|Bonn-Beuel|Köln Hbf|Aachen Hbf"/>
+	</s>
+	<s id="8016523767626847908-2507011813-9">
+		<tl t="p" o="81" c="NJ" n="468"/>
+		<ar pt="2507020213" pp="5" hi="1" wings="3178546308999030105-2507011813" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Salzburg Hbf|Freilassing|Rosenheim|München Ost"/>
+		<dp pt="2507020317" pp="4" hi="1" wings="-5249905465755645742-2507011905" ppth="Strasbourg|Paris Est"/>
+	</s>
+	<s id="7474414276230536927-2507011838-16">
+		<tl f="F" t="p" o="80" c="ICE" n="619"/>
+		<ar pt="2507020202" pp="8" ppth="Kiel Hbf|Neumünster|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Osnabrück Hbf|Münster(Westf)Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Hbf|Siegburg/Bonn|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf"/>
+		<dp pt="2507020204" pp="8" ppth="Heidelberg Hbf|Stuttgart Hbf|Ulm Hbf|Günzburg|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+</timetable>
