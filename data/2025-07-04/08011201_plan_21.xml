@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="1945124315890020696-2507042051-4">
+		<tl t="p" o="800165" c="FEX" n="19873"/>
+		<ar pt="2507042130" pp="4" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="-7704358330040186143-2507042158-1">
+		<tl t="p" o="800165" c="FEX" n="19870"/>
+		<dp pt="2507042158" pp="1" tra="1139779810323429879-2507042139-3" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="-8757138963653040750-2507042008-10">
+		<tl f="N" t="p" o="800165" c="RB" n="18333"/>
+		<ar pt="2507042113" pp="" l="24" ppth="Eberswalde Hbf|Melchow|Biesenthal|Rüdnitz|Bernau(b Berlin)|Berlin-Hohenschönhausen|Berlin-Lichtenberg|Berlin Ostkreuz|Berlin-Schöneweide"/>
+	</s>
+	<s id="-6928953609611263381-2507042147-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18334"/>
+		<dp pt="2507042147" pp="" l="24" ppth="Berlin-Schöneweide|Berlin Ostkreuz|Berlin-Lichtenberg|Berlin-Hohenschönhausen|Bernau(b Berlin)|Rüdnitz|Biesenthal|Melchow|Eberswalde Hbf"/>
+	</s>
+	<s id="-1945655569292342665-2507042018-4">
+		<tl t="p" o="800165" c="FEX" n="19871"/>
+		<ar pt="2507042104" pp="4" tra="7535029924397126426-2507042109-1" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="5505348089403655832-2507042128-1">
+		<tl t="p" o="800165" c="FEX" n="19868"/>
+		<dp pt="2507042128" pp="1" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="1139779810323429879-2507042139-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18684"/>
+		<ar pt="2507042155" pp="1" l="32" tra="-7704358330040186143-2507042158-1" ppth="Ludwigsfelde|Birkengrund"/>
+	</s>
+	<s id="7535029924397126426-2507042109-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18685"/>
+		<dp pt="2507042109" pp="4" l="32" tra="-1945655569292342665-2507042018-4" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+	<s id="4887082356258955538-2507042114-4">
+		<tl f="N" t="p" o="800165" c="RB" n="18235"/>
+		<ar pt="2507042140" pp="" l="32" ppth="Berlin-Lichtenberg|Berlin Ostkreuz|Berlin-Schöneweide"/>
+	</s>
+	<s id="-7964702326646241285-2507042118-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18232"/>
+		<dp pt="2507042118" pp="" l="32" ppth="Berlin-Schöneweide|Berlin Ostkreuz|Berlin-Lichtenberg"/>
+	</s>
+</timetable>
