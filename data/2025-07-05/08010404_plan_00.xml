@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin-Spandau">
+	<s id="-5194156004862660093-2507042125-24">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62038"/>
+		<ar pt="2507050021" pp="5" l="8" ppth="Wismar|Dorf Mecklenburg|Bad Kleinen|Lübstorf|Schwerin Hbf|Schwerin Mitte|Schwerin Süd|Holthusen|Sülstorf|Rastow|Lüblow(Meckl)|Ludwigslust|Grabow(Meckl)|Karstädt|Wittenberge|Bad Wilsnack|Glöwen|Breddin|Neustadt(Dosse)|Friesack(Mark)|Paulinenaue|Nauen|Falkensee"/>
+	</s>
+	<s id="-7116538565226450178-2507050015-1">
+		<tl t="p" o="BB" c="Bus" n="83139"/>
+		<dp pt="2507050015" pp="" l="RE2" ppth="Albrechtshof|Seegefeld|Falkensee ZOB|Finkenkrug|Brieselang|Nauen"/>
+	</s>
+	<s id="8427883447394904093-2507042308-7">
+		<tl t="p" o="BB" c="Bus" n="83138"/>
+		<ar pt="2507050009" pp="" l="RE2" ppth="Nauen|Brieselang|Finkenkrug|Falkensee ZOB|Seegefeld|Albrechtshof"/>
+	</s>
+	<s id="4209598486652835463-2507050034-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62045"/>
+		<dp pt="2507050034" pp="3" l="8" ppth="Albrechtshof|Seegefeld|Falkensee|Finkenkrug|Brieselang|Nauen"/>
+	</s>
+	<s id="-7260953034263185039-2507042009-10">
+		<tl f="F" t="p" o="80" c="ICE" n="790"/>
+		<ar pt="2507050026" pp="6" ppth="Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Süd|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hildesheim Hbf|Braunschweig Hbf|Wolfsburg Hbf|Stendal Hbf"/>
+		<dp pt="2507050028" pp="6" ppth="Berlin Hbf"/>
+	</s>
+	<s id="4966825592039783790-2507042235-7">
+		<tl f="F" t="p" o="80" c="ICE" n="907"/>
+		<ar pt="2507050042" pp="5" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Büchen|Ludwigslust|Wittenberge"/>
+		<dp pt="2507050044" pp="5" hi="1" ppth="Berlin Hbf|Berlin Südkreuz"/>
+	</s>
+</timetable>
