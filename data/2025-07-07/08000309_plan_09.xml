@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<timetable station="Regensburg Hbf">
+	<s id="5052725572360323393-2507070855-2">
+		<tl t="p" o="A8N" c="Bus" n="60362"/>
+		<ar pt="2507070940" pp="" l="RE25" ppth="Schwandorf"/>
+	</s>
+	<s id="-6539604507256114562-2507070613-7">
+		<tl f="F" t="p" o="81" c="ICE" n="94"/>
+		<ar pt="2507070933" pp="5" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Passau Hbf"/>
+		<dp pt="2507070935" pp="5" ppth="Nürnberg Hbf"/>
+	</s>
+	<s id="6432759750050973504-2507070816-11">
+		<tl f="N" t="p" o="800767" c="RE" n="57912"/>
+		<ar pt="2507070941" pp="8 A-C" l="22" ppth="München Flughafen Terminal|Freising|Moosburg|Landshut(Bay)Hbf|Ergoldsbach|Neufahrn(Niederbay)|Eggmühl|Hagelstadt|Köfering|Obertraubling"/>
+	</s>
+	<s id="693677022309908007-2507070807-5">
+		<tl f="D" t="p" o="S9" c="ag" n="63057"/>
+		<ar pt="2507070913" pp="8" l="RE22" tra="2691666517386647164-2507070919-1" ppth="Nürnberg Hbf|Neumarkt(Oberpf)|Parsberg|Beratzhausen"/>
+	</s>
+	<s id="2691666517386647164-2507070919-1">
+		<tl f="D" t="p" o="S9" c="ag" n="84097"/>
+		<dp pt="2507070919" pp="8" l="RE22" tra="693677022309908007-2507070807-5" ppth="Obertraubling|Köfering|Hagelstadt|Eggmühl|Neufahrn(Niederbay)|Ergoldsbach|Landshut(Bay)Hbf|Moosburg|Freising|München Flughafen Terminal"/>
+	</s>
+	<s id="7384839685480376125-2507070845-4">
+		<tl t="p" o="O9" c="Bus" n="63715"/>
+		<ar pt="2507070955" pp="" l="RB23" ppth="Schwandorf|Maxhütte-Haidhof|Regenstauf"/>
+	</s>
+	<s id="-7305526602772446987-2507070852-13">
+		<tl f="D" t="p" o="A9" c="ag" n="84233"/>
+		<ar pt="2507070944" pp="109" l="RB51" ppth="Neumarkt(Oberpf)|Deining(Oberpf)|Batzhausen|Seubersdorf|Parsberg|Mausheim|Beratzhausen|Laaber|Deuerling|Undorf|Etterzhausen|Regensburg-Prüfening"/>
+	</s>
+	<s id="38456239974758178-2507070744-8">
+		<tl f="N" t="p" o="8007H3" c="RE" n="59682"/>
+		<ar pt="2507070912" pp="4" l="2" ppth="München Hbf|Freising|Moosburg|Landshut(Bay)Hbf|Ergoldsbach|Neufahrn(Niederbay)|Eggmühl"/>
+	</s>
+	<s id="-728421500660937180-2507070810-13">
+		<tl f="D" t="p" o="A9" c="ag" n="84187"/>
+		<ar pt="2507070903" pp="109" l="RB51" ppth="Neumarkt(Oberpf)|Deining(Oberpf)|Batzhausen|Seubersdorf|Parsberg|Mausheim|Beratzhausen|Laaber|Deuerling|Undorf|Etterzhausen|Regensburg-Prüfening"/>
+	</s>
+	<s id="5128278534469788758-2507070950-1">
+		<tl t="p" o="A8N" c="Bus" n="60355"/>
+		<dp pt="2507070950" pp="" l="RE25" ppth="Schwandorf"/>
+	</s>
+	<s id="817170855496791191-2507070853-6">
+		<tl f="D" t="p" o="A9" c="ag" n="84224"/>
+		<ar pt="2507070921" pp="5" l="RB51" ppth="Straubing|Radldorf(Niederbay)|Sünching|Obertraubling|Regensburg-Burgweinting"/>
+		<dp pt="2507070923" pp="5" l="RB51" ppth="Regensburg-Prüfening|Etterzhausen|Undorf|Deuerling|Laaber|Beratzhausen|Mausheim|Parsberg|Seubersdorf|Batzhausen|Deining(Oberpf)|Neumarkt(Oberpf)"/>
+	</s>
+	<s id="2316755167115150805-2507070951-1">
+		<tl f="N" t="p" o="8007H3" c="RE" n="59685"/>
+		<dp pt="2507070951" pp="4" l="2" ppth="Neufahrn(Niederbay)|Landshut(Bay)Hbf|Freising|München Hbf"/>
+	</s>
+	<s id="-5810233958110953825-2507070619-6">
+		<tl f="F" t="p" o="80" c="ICE" n="21"/>
+		<ar pt="2507070923" pp="9" ppth="Frankfurt(Main)Hbf|Hanau Hbf|Aschaffenburg Hbf|Würzburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2507070925" pp="9" ppth="Plattling|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="4208705460396562869-2507070908-7">
+		<tl f="D" t="p" o="S9" c="ag" n="63058"/>
+		<ar pt="2507070947" pp="5" l="RE50" ppth="Plattling|Straßkirchen|Straubing|Sünching|Obertraubling|Regensburg-Burgweinting"/>
+		<dp pt="2507070948" pp="5" l="RE50" ppth="Parsberg|Neumarkt(Oberpf)|Nürnberg Hbf"/>
+	</s>
+	<s id="-4132329246592459104-2507070910-1">
+		<tl f="D" t="p" o="A9" c="ag" n="84319"/>
+		<dp pt="2507070910" pp="9" l="RB17" ppth="Regensburg-Burgweinting|Obertraubling|Sünching|Radldorf(Niederbay)|Straubing|Straßkirchen|Plattling"/>
+	</s>
+	<s id="8974084283479180450-2507070900-1">
+		<tl t="p" o="O9" c="Bus" n="63720"/>
+		<dp pt="2507070900" pp="" l="RB23" ppth="Regenstauf|Maxhütte-Haidhof|Schwandorf"/>
+	</s>
+</timetable>
