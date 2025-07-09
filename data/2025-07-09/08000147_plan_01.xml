@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg-Harburg">
+	<s id="1732033698810502565-2507090021-5">
+		<tl t="p" o="R1" c="Bus" n="4242"/>
+		<ar pt="2507090116" pp="" l="EV" ppth="Sprötze|Buchholz(Nordheide)|Klecken|Hittfeld"/>
+		<dp pt="2507090117" pp="" l="EV" ppth="Hamburg Hbf"/>
+	</s>
+	<s id="436096027952993164-2507081659-17">
+		<tl f="F" t="p" o="85" c="ICE" n="272"/>
+		<ar pt="2507090122" pp="1" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Hanau Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen|Lüneburg"/>
+		<dp pt="2507090124" pp="1" hi="1" ppth="Hamburg Hbf"/>
+	</s>
+	<s id="5956747837325914049-2507090118-1">
+		<tl t="p" o="R1" c="Bus" n="4149"/>
+		<dp pt="2507090118" pp="" l="EV" ppth="Hittfeld|Klecken|Buchholz(Nordheide)"/>
+	</s>
+	<s id="-3970723350205974760-2507090057-2">
+		<tl f="D" t="p" o="R1" c="ME" n="81947"/>
+		<ar pt="2507090107" pp="3" l="RB41" ppth="Hamburg Hbf"/>
+		<dp pt="2507090108" pp="3" l="RB41" ppth="Sprötze|Tostedt|Lauenbrück|Scheeßel|Rotenburg(Wümme)"/>
+	</s>
+</timetable>

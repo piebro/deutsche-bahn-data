@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<timetable station="Oldenburg(Oldb)Hbf">
+	<s id="-3981055665609001332-2507090440-1">
+		<tl f="F" t="p" o="80" c="ICE" n="841"/>
+		<dp pt="2507090440" pp="3" ppth="Delmenhorst|Bremen Hbf|Verden(Aller)|Nienburg(Weser)|Hannover Hbf|Wolfsburg Hbf|Stendal Hbf|Berlin-Spandau|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="8435757106412787725-2507090430-1">
+		<tl t="p" o="NWBus" c="Bus" n="5352"/>
+		<dp pt="2507090430" pp="" l="EV" ppth="Sandkrug|Huntlosen|Großenkneten|Ahlhorn|Cloppenburg"/>
+	</s>
+	<s id="-8378877818194195573-2507090338-3">
+		<tl t="p" o="NWBus" c="Bus" n="53349"/>
+		<ar pt="2507090411" pp="" l="EV" ppth="Hude|Wüsting"/>
+	</s>
+	<s id="8721914104745822200-2507090415-10">
+		<tl f="D" t="p" o="N1" c="NWB" n="83348"/>
+		<ar pt="2507090453" pp="6" l="RS3" ppth="Bremen Hbf|Bremen Neustadt|Heidkrug|Delmenhorst|Hoykenkamp|Schierbrok|Bookholzberg|Hude|Wüsting"/>
+		<dp pt="2507090458" pp="6" l="RS3" ppth="Oldenburg-Wechloy|Bad Zwischenahn"/>
+	</s>
+</timetable>
