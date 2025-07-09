@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Hamm(Westf)Hbf">
+	<s id="6568871694850903235-2507092215-13">
+		<tl f="N" t="p" o="R2RB" c="RB" n="90040"/>
+		<ar pt="2507092308" pp="2" l="89" ppth="Paderborn Hbf|Scharmede|Salzkotten|Geseke|Ehringhausen(Kr Lippstadt)|Dedinghausen|Lippstadt|Bad Sassendorf|Soest|Borgeln|Welver|Hamm-Westtünnen"/>
+		<dp pt="2507092320" pp="2" l="89" ppth="Hamm-Bockum-Hövel|Mersch(Westf)|Drensteinfurt|Rinkerode|Münster-Hiltrup|Münster(Westf)Hbf"/>
+	</s>
+	<s id="8698373637744861038-2507092320-1">
+		<tl f="N" t="p" o="NXRE" c="RE" n="24750"/>
+		<dp pt="2507092320" pp="6" l="1" ppth="Bönen-Nordbögge|Kamen|Kamen-Methler|Dortmund-Kurl|Dortmund-Scharnhorst|Dortmund Hbf"/>
+	</s>
+	<s id="-15943798713539522-2507092358-1">
+		<tl t="p" o="NX" c="Bus" n="136"/>
+		<dp pt="2507092358" pp="" l="RE7" ppth="Bönen|Unna|Holzwickede|Schwerte(Ruhr)|Hagen Hbf"/>
+	</s>
+	<s id="-3892461982379715063-2507092315-1">
+		<tl f="N" t="p" o="R2RB" c="RB" n="28548"/>
+		<dp pt="2507092315" pp="12" l="69" ppth="Hamm-Heessen|Ahlen(Westf)|Beckum-Neubeckum|Oelde|Rheda-Wiedenbrück|Gütersloh Hbf|Bielefeld-Brackwede|Bielefeld Hbf"/>
+	</s>
+	<s id="-2880874489806613248-2507092301-8">
+		<tl f="N" t="p" o="R2RB" c="RB" n="29063"/>
+		<ar pt="2507092341" pp="12" l="69" ppth="Bielefeld Hbf|Gütersloh Hbf|Rheda-Wiedenbrück|Oelde|Beckum-Neubeckum|Ahlen(Westf)|Hamm-Heessen"/>
+	</s>
+	<s id="-9088865381407852178-2507092310-7">
+		<tl f="N" t="p" o="R2RB" c="RB" n="90043"/>
+		<ar pt="2507092337" pp="4 A" l="89" ppth="Münster(Westf)Hbf|Münster-Hiltrup|Rinkerode|Drensteinfurt|Mersch(Westf)|Hamm-Bockum-Hövel"/>
+		<dp pt="2507100009" pp="4 A" l="89" ppth="Hamm-Westtünnen|Welver|Borgeln|Soest|Bad Sassendorf|Lippstadt|Dedinghausen|Ehringhausen(Kr Lippstadt)|Geseke|Salzkotten|Scharmede|Paderborn Hbf"/>
+	</s>
+	<s id="-306578327106758467-2507092203-6">
+		<tl t="p" o="NX" c="Bus" n="133"/>
+		<ar pt="2507092358" pp="" l="RE7" ppth="Hagen Hbf|Schwerte(Ruhr)|Holzwickede|Unna|Bönen"/>
+	</s>
+	<s id="-3917876085462662139-2507092315-7">
+		<tl f="N" t="p" o="NXRE" c="RE" n="24749"/>
+		<ar pt="2507092340" pp="8" l="1" ppth="Dortmund Hbf|Dortmund-Scharnhorst|Dortmund-Kurl|Kamen-Methler|Kamen|Bönen-Nordbögge"/>
+	</s>
+</timetable>
