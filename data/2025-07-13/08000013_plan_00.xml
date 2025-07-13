@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<timetable station="Augsburg Hbf">
+	<s id="-1621672876699348789-2507130005-11">
+		<tl f="N" t="p" o="GYRE" c="RE" n="57000"/>
+		<ar pt="2507130053" pp="5" l="9" wings="2227939957273981757-2507130005" ppth="München Hbf|München-Pasing|Mammendorf|Haspelmoor|Althegnenberg|Mering|Mering-St Afra|Kissing|Augsburg-Hochzoll|Augsburg Haunstetterstraße"/>
+		<dp pt="2507130054" pp="5" l="9" ppth="Augsburg-Oberhausen|Neusäß|Westheim(Schwab)|Diedorf(Schwab)|Gessertshausen"/>
+	</s>
+	<s id="2227939957273981757-2507130005-11">
+		<tl f="N" t="p" o="GYRB" c="RB" n="57100"/>
+		<ar pt="2507130053" pp="5" l="87" ppth="München Hbf|München-Pasing|Mammendorf|Haspelmoor|Althegnenberg|Mering|Mering-St Afra|Kissing|Augsburg-Hochzoll|Augsburg Haunstetterstraße"/>
+		<dp pt="2507130057" pp="5" l="87" ppth="Augsburg-Oberhausen|Gersthofen|Gablingen|Langweid(Lech)|Herbertshofen|Meitingen|Westendorf|Nordendorf|Mertingen Bahnhof|Bäumenheim|Donauwörth"/>
+	</s>
+	<s id="-1132115514607203488-2507122315-19">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86602"/>
+		<ar pt="2507130039" pp="5 C-E" l="RB67" ppth="Weilheim(Oberbay)|Raisting|Dießen|St Alban|Riederau|Utting|Schondorf(Bay)|St Ottilien|Geltendorf|Walleshausen|Egling|Schmiechen(Schwab)|Merching|Mering|Mering-St Afra|Kissing|Augsburg-Hochzoll|Augsburg Haunstetterstraße"/>
+		<dp pt="2507130041" pp="5 C-E" l="RB67" ppth="Augsburg-Oberhausen"/>
+	</s>
+	<s id="-8498467652613556647-2507122326-12">
+		<tl f="N" t="p" o="GYRB" c="RB" n="57193"/>
+		<ar pt="2507130006" pp="8 A-C" l="87" ppth="Donauwörth|Bäumenheim|Mertingen Bahnhof|Nordendorf|Westendorf|Meitingen|Herbertshofen|Langweid(Lech)|Gablingen|Gersthofen|Augsburg-Oberhausen"/>
+	</s>
+	<s id="1647016829303373226-2507122308-11">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86751"/>
+		<ar pt="2507130008" pp="2 A-B" l="RB13" ppth="Ingolstadt Hbf|Brunnen(Oberbay)|Schrobenhausen|Radersdorf|Aichach|Obergriesbach|Dasing|Friedberg(Augsburg)|Augsburg-Hochzoll|Augsburg Haunstetterstraße"/>
+	</s>
+	<s id="-2671736393871414032-2507130014-5">
+		<tl t="p" o="Y8" c="Bus" n="60300"/>
+		<ar pt="2507130048" pp="" l="EV" ppth="Bobingen|Inningen|Augsburg Messe|Augsburg Morellstr."/>
+		<dp pt="2507130048" pp="" l="EV" ppth="Augsburg-Oberhausen"/>
+	</s>
+	<s id="6526500943120584903-2507130000-1">
+		<tl f="N" t="p" o="GYRB" c="RB" n="57188"/>
+		<dp pt="2507130000" pp="8 C-E" l="87" ppth="Augsburg-Oberhausen|Gersthofen|Gablingen|Langweid(Lech)|Herbertshofen|Meitingen|Westendorf|Nordendorf|Mertingen Bahnhof|Bäumenheim|Donauwörth"/>
+	</s>
+</timetable>
