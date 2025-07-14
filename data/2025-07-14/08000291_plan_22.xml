@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<timetable station="Oldenburg(Oldb)Hbf">
+	<s id="8551164134503836777-2507142153-4">
+		<tl f="N" t="p" o="NZ" c="RE" n="52032"/>
+		<ar pt="2507142223" pp="6" l="56" ppth="Bremen Hbf|Delmenhorst|Hude"/>
+		<dp pt="2507142233" pp="6" l="56" ppth="Bad Zwischenahn|Westerstede-Ocholt|Augustfehn|Leer(Ostfriesl)|Emden Hbf"/>
+	</s>
+	<s id="3915801585133935916-2507142039-10">
+		<tl f="N" t="p" o="800295" c="RE" n="4439"/>
+		<ar pt="2507142223" pp="3" l="1" ppth="Norddeich Mole|Norddeich|Norden|Marienhafe|Emden Hbf|Leer(Ostfriesl)|Augustfehn|Westerstede-Ocholt|Bad Zwischenahn"/>
+		<dp pt="2507142235" pp="3" l="1" ppth="Hude|Delmenhorst|Bremen Hbf|Bremen-Sebaldsbrück|Bremen-Mahndorf|Achim|Baden(Verden)|Etelsen|Langwedel|Verden(Aller)|Dörverden|Eystrup|Nienburg(Weser)|Neustadt am Rübenberge|Wunstorf|Hannover Hbf"/>
+	</s>
+	<s id="2524483095926466995-2507142200-3">
+		<tl t="p" o="NWBus" c="Bus" n="53382"/>
+		<ar pt="2507142233" pp="" l="RS3" ppth="Hude|Wüsting"/>
+	</s>
+	<s id="8133677848871379809-2507142245-3">
+		<tl f="D" t="p" o="N1" c="NWB" n="83387"/>
+		<ar pt="2507142257" pp="3" l="RS3" ppth="Bad Zwischenahn|Oldenburg-Wechloy"/>
+	</s>
+	<s id="5954973063437725714-2507142236-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="75435"/>
+		<dp pt="2507142236" pp="5" l="RE18" ppth="Rastede|Jaderberg|Varel(Oldb)|Sande|Wilhelmshaven"/>
+	</s>
+	<s id="829275977668762710-2507142205-1">
+		<tl t="p" o="NWBus" c="Bus" n="53385"/>
+		<dp pt="2507142205" pp="" l="RS3" ppth="Wüsting|Hude"/>
+	</s>
+	<s id="-7795815747694469136-2507142230-1">
+		<tl t="p" o="NWBus" c="Bus" n="5388"/>
+		<dp pt="2507142230" pp="" l="EV" ppth="Sandkrug|Huntlosen|Großenkneten|Ahlhorn|Cloppenburg"/>
+	</s>
+	<s id="-7763686466636471476-2507141740-13">
+		<tl f="F" t="p" o="80" c="IC" n="2032"/>
+		<ar pt="2507142223" pp="6" wings="8551164134503836777-2507142153" ppth="Leipzig Hbf|Halle(Saale)Hbf|Köthen|Magdeburg Hbf|Helmstedt|Braunschweig Hbf|Hannover Hbf|Nienburg(Weser)|Verden(Aller)|Bremen Hbf|Delmenhorst|Hude"/>
+		<dp pt="2507142233" pp="6" wings="8551164134503836777-2507142153" ppth="Bad Zwischenahn|Westerstede-Ocholt|Augustfehn|Leer(Ostfriesl)|Emden Hbf"/>
+	</s>
+	<s id="5665235850410196796-2507142105-6">
+		<tl t="p" o="NWBus" c="Bus" n="5383"/>
+		<ar pt="2507142230" pp="" l="EV" ppth="Cloppenburg|Ahlhorn|Großenkneten|Huntlosen|Sandkrug"/>
+	</s>
+	<s id="-57934209106548609-2507142140-6">
+		<tl f="D" t="p" o="N1" c="NWB" n="75434"/>
+		<ar pt="2507142224" pp="4" l="RE18" ppth="Wilhelmshaven|Sande|Varel(Oldb)|Jaderberg|Rastede"/>
+	</s>
+</timetable>
