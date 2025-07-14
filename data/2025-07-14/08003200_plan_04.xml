@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<timetable station="Kassel-Wilhelmshöhe">
+	<s id="-6813803786124510421-2507132010-10">
+		<tl t="p" o="81" c="NJ" n="40490"/>
+		<ar pt="2507140440" pp="3" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Passau Hbf|Regensburg Hbf|Nürnberg Hbf|Würzburg Hbf"/>
+		<dp pt="2507140455" pp="3" ppth="Hamm(Westf)Hbf|Münster(Westf)Hbf|Deventer|Amersfoort Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="3272146161175325165-2507132046-9">
+		<tl t="p" o="81" c="NJ" n="420"/>
+		<ar pt="2507140440" pp="3" wings="-6813803786124510421-2507132010" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Hbf|Nürnberg Hbf|Würzburg Hbf"/>
+		<dp pt="2507140455" pp="3" wings="-6813803786124510421-2507132010" ppth="Hamm(Westf)Hbf|Münster(Westf)Hbf|Deventer|Amersfoort Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="-2351509495055347488-2507140453-1">
+		<tl f="D" t="p" o="H4" c="RT" n="20481"/>
+		<dp pt="2507140453" pp="10" l="5" ppth="Kassel-Oberzwehren|Baunatal-Rengershausen|Baunatal-Guntershausen|Guxhagen|Körle|Melsungen-Röhrenfurth|Melsungen-Schwarzenberg|Melsungen Bartenwetzerbrücke|Melsungen"/>
+	</s>
+	<s id="780688831601736844-2507140457-1">
+		<tl f="N" t="p" o="800523" c="RB" n="23051"/>
+		<dp pt="2507140457" pp="8" l="38" ppth="Baunatal-Guntershausen|Edermünde-Grifte|Felsberg-Wolfershausen|Felsberg-Altenbrunslar|Felsberg-Gensungen|Wabern(Bz Kassel)|Singlis|Borken(Hess)|Zimmersrode|Schlierbach(Schwalm-Eder-Kr.)|Treysa|Schwalmstadt-Wiera"/>
+	</s>
+</timetable>
