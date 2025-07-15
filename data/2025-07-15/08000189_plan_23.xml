@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<timetable station="Kaiserslautern Hbf">
+	<s id="8671028819924977303-2507152302-1">
+		<tl t="p" o="B5" c="Bus" n="154"/>
+		<dp pt="2507152302" pp="" l="S1" ppth="Kennelgarten|Vogelweh|Einsiedlerhof|Kindsbach|Landstuhl|Hauptstuhl|Bruchmühlbach-Miesau|Homburg(Saar)Hbf"/>
+	</s>
+	<s id="4011391143588531096-2507151438-15">
+		<tl f="F" t="p" o="80" c="ICE" n="935"/>
+		<ar pt="2507152300" pp="3" ppth="Hamburg-Altona|Hamburg Hbf|Büchen|Ludwigslust|Wittenberge|Berlin Hbf|Berlin Südkreuz|Halle(Saale)Hbf|Erfurt Hbf|Frankfurt(Main)Hbf|Darmstadt Hbf|Bensheim|Mannheim Hbf|Neustadt(Weinstr)Hbf"/>
+		<dp pt="2507152302" pp="3" ppth="Homburg(Saar)Hbf|Saarbrücken Hbf"/>
+	</s>
+	<s id="-8595860005808443663-2507152301-1">
+		<tl f="S" t="p" o="801539" c="S" n="38267"/>
+		<dp pt="2507152301" pp="5" l="3" pde="Karlsruhe Hbf" ppth="Hochspeyer|Frankenstein(Pfalz)|Weidenthal|Neidenfels|Lambrecht(Pfalz)|Neustadt(Weinstr)Hbf|Neustadt-Böbig|Haßloch(Pfalz)|Böhl-Iggelheim|Schifferstadt|Limburgerhof|Ludwigshafen-Rheingönheim|Ludwigshafen-Mundenheim|Ludwigshafen(Rh)Hbf|Ludwigshafen(Rhein) Mitte|Mannheim Hbf|Mannheim ARENA/Maimarkt|Mannheim-Seckenheim|Mannheim-Friedrichsfeld Süd|Heidelberg-Pfaffengrund/Wieblingen|Heidelberg Hbf"/>
+	</s>
+	<s id="8280296046192255306-2507152239-6">
+		<tl f="N" t="p" o="800640" c="RE" n="4149"/>
+		<ar pt="2507152327" pp="3" l="1" ppth="Mannheim Hbf|Ludwigshafen(Rhein) Mitte|Neustadt(Weinstr)Hbf|Lambrecht(Pfalz)|Hochspeyer"/>
+		<dp pt="2507152329" pp="3" l="1" ppth="Einsiedlerhof|Kindsbach|Landstuhl|Hauptstuhl|Bruchmühlbach-Miesau|Homburg(Saar)Hbf|St Ingbert|Saarbrücken Hbf"/>
+	</s>
+	<s id="7887917735695822981-2507152121-11">
+		<tl f="S" t="p" o="801539" c="S" n="38258"/>
+		<ar pt="2507152358" pp="2" l="2" pde="Karlsruhe Hbf" ppth="Schifferstadt|Böhl-Iggelheim|Haßloch(Pfalz)|Neustadt-Böbig|Neustadt(Weinstr)Hbf|Lambrecht(Pfalz)|Neidenfels|Weidenthal|Frankenstein(Pfalz)|Hochspeyer"/>
+	</s>
+	<s id="-3132662194425759387-2507152300-1">
+		<tl f="N" t="p" o="800520" c="RB" n="12835"/>
+		<dp pt="2507152300" pp="2" l="64" ppth="Kaiserslautern Galgenschanze|Kaiserslautern-Hohenecken|Schopp|Steinalben|Waldfischbach|Pirmasens Nord|Pirmasens Hbf"/>
+	</s>
+	<s id="-7260558497793817632-2507152219-3">
+		<tl t="p" o="B5" c="Bus" n="132"/>
+		<ar pt="2507152319" pp="" l="RE1" ppth="Homburg(Saar)Hbf|Landstuhl"/>
+		<dp pt="2507152319" pp="" l="RE1" ppth="Hochspeyer|Lambrecht(Pfalz)|Neustadt(Weinstr)Hbf|Ludwigshafen(Rh)Hbf|Mannheim Hbf"/>
+	</s>
+</timetable>

@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin-Spandau">
+	<s id="450159185692254127-2507152206-8">
+		<tl f="N" t="p" o="800158" c="RE" n="3162"/>
+		<ar pt="2507152250" pp="3" l="4" ppth="Rathenow|Nennhausen|Buschow|Wustermark|Elstal|Dallgow-Döberitz|Berlin-Staaken"/>
+	</s>
+	<s id="4063915847997288644-2507152101-10">
+		<tl f="N" t="p" o="800161" c="RE" n="3637"/>
+		<ar pt="2507152237" pp="6" l="6" ppth="Dossow(Prign)|Neuruppin West|Neuruppin Rheinsberger Tor|Wustrau-Radensleben|Beetz-Sommerfeld|Kremmen|Velten(Mark)|Hennigsdorf(b Berlin)|Falkensee"/>
+		<dp pt="2507152239" pp="6" l="6" ppth="Berlin-Charlottenburg"/>
+	</s>
+	<s id="-8275737537227179086-2507151750-11">
+		<tl f="F" t="p" o="80" c="ICE" n="945"/>
+		<ar pt="2507152207" pp="5" ppth="Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Hannover Hbf|Wolfsburg Hbf|Stendal Hbf"/>
+		<dp pt="2507152209" pp="5" hi="1" ppth="Berlin Zoologischer Garten|Berlin Ostbahnhof"/>
+	</s>
+	<s id="-5978303486513211708-2507151809-8">
+		<tl f="F" t="p" o="80" c="ICE" n="792"/>
+		<ar pt="2507152217" pp="6" ppth="Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Süd|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hildesheim Hbf|Braunschweig Hbf"/>
+		<dp pt="2507152219" pp="6" hi="1" ppth="Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="-4550645364654346112-2507151745-8">
+		<tl f="F" t="p" o="80" c="ICE" n="955"/>
+		<ar pt="2507152207" pp="5" wings="-8275737537227179086-2507151750" ppth="Köln Hbf|Wuppertal Hbf|Hagen Hbf|Hamm(Westf)Hbf|Hannover Hbf|Wolfsburg Hbf|Stendal Hbf"/>
+		<dp pt="2507152209" pp="5" hi="1" wings="-8275737537227179086-2507151750" ppth="Berlin Zoologischer Garten|Berlin Ostbahnhof"/>
+	</s>
+	<s id="4404174903049991760-2507152220-4">
+		<tl t="p" o="BB" c="Bus" n="68535"/>
+		<ar pt="2507152241" pp="" l="RB10" ppth="Falkensee ZOB|Seegefeld|Albrechtshof"/>
+	</s>
+	<s id="1913592429958747890-2507152209-1">
+		<tl f="N" t="p" o="800158" c="RE" n="3183"/>
+		<dp pt="2507152209" pp="3" l="4" ppth="Berlin-Staaken|Dallgow-Döberitz|Elstal|Wustermark|Buschow|Nennhausen|Rathenow"/>
+	</s>
+	<s id="-5700683944019507237-2507151924-24">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62034"/>
+		<ar pt="2507152221" pp="5" l="8" ppth="Wismar|Dorf Mecklenburg|Bad Kleinen|Lübstorf|Schwerin Hbf|Schwerin Mitte|Schwerin Süd|Holthusen|Sülstorf|Rastow|Lüblow(Meckl)|Ludwigslust|Grabow(Meckl)|Karstädt|Wittenberge|Bad Wilsnack|Glöwen|Breddin|Neustadt(Dosse)|Friesack(Mark)|Paulinenaue|Nauen|Falkensee"/>
+		<dp pt="2507152223" pp="5" l="8" ppth="Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof"/>
+	</s>
+	<s id="4447890004106418758-2507151851-11">
+		<tl f="F" t="p" o="80" c="ICE" n="645"/>
+		<ar pt="2507152258" pp="5" ppth="Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Bielefeld Hbf|Minden(Westf)|Hannover Hbf|Wolfsburg Hbf"/>
+		<dp pt="2507152300" pp="5" hi="1" ppth="Berlin Zoologischer Garten|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="8170523577771897610-2507152218-1">
+		<tl t="p" o="BB" c="Bus" n="68534"/>
+		<dp pt="2507152218" pp="" l="RB10" ppth="Albrechtshof|Seegefeld|Falkensee ZOB"/>
+	</s>
+	<s id="2271755327039391638-2507152144-8">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62037"/>
+		<ar pt="2507152236" pp="4" l="8" ppth="Flughafen BER|Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten"/>
+		<dp pt="2507152238" pp="4" l="8" ppth="Falkensee|Nauen|Paulinenaue|Friesack(Mark)|Neustadt(Dosse)|Breddin|Glöwen|Bad Wilsnack|Wittenberge"/>
+	</s>
+	<s id="1887333058179340920-2507152212-2">
+		<tl f="N" t="p" o="800161" c="RE" n="3638"/>
+		<ar pt="2507152219" pp="4" l="6" ppth="Berlin-Charlottenburg"/>
+		<dp pt="2507152221" pp="4" l="6" ppth="Falkensee|Hennigsdorf(b Berlin)|Velten(Mark)|Bärenklau|Vehlefanz|Schwante|Kremmen|Beetz-Sommerfeld|Wustrau-Radensleben|Neuruppin Rheinsberger Tor|Neuruppin West"/>
+	</s>
+</timetable>
