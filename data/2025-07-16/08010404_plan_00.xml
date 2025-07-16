@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin-Spandau">
+	<s id="-7116538565226450178-2507160015-1">
+		<tl t="p" o="BB" c="Bus" n="83139"/>
+		<dp pt="2507160015" pp="" l="RE2" ppth="Albrechtshof|Seegefeld|Falkensee ZOB|Finkenkrug|Brieselang|Nauen"/>
+	</s>
+	<s id="8427883447394904093-2507152308-7">
+		<tl t="p" o="BB" c="Bus" n="83138"/>
+		<ar pt="2507160009" pp="" l="RE2" ppth="Nauen|Brieselang|Finkenkrug|Falkensee ZOB|Seegefeld|Albrechtshof"/>
+	</s>
+	<s id="5597303123860052865-2507151926-11">
+		<tl f="F" t="p" o="80" c="ICE" n="947"/>
+		<ar pt="2507152359" pp="6" ppth="Köln Hbf|Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Hannover Hbf|Wolfsburg Hbf"/>
+		<dp pt="2507160001" pp="6" hi="1" ppth="Berlin Zoologischer Garten|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="-7260953034263185039-2507152009-9">
+		<tl f="F" t="p" o="80" c="ICE" n="790"/>
+		<ar pt="2507160026" pp="6" ppth="Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Süd|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hildesheim Hbf|Braunschweig Hbf|Stendal Hbf"/>
+		<dp pt="2507160028" pp="6" hi="1" ppth="Berlin Zoologischer Garten|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="-5194156004862660093-2507152125-24">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62038"/>
+		<ar pt="2507160021" pp="5" l="8" ppth="Wismar|Dorf Mecklenburg|Bad Kleinen|Lübstorf|Schwerin Hbf|Schwerin Mitte|Schwerin Süd|Holthusen|Sülstorf|Rastow|Lüblow(Meckl)|Ludwigslust|Grabow(Meckl)|Karstädt|Wittenberge|Bad Wilsnack|Glöwen|Breddin|Neustadt(Dosse)|Friesack(Mark)|Paulinenaue|Nauen|Falkensee"/>
+		<dp pt="2507160023" pp="5" l="8" ppth="Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof"/>
+	</s>
+</timetable>
