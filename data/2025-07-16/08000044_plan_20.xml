@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<timetable station="Bonn Hbf">
+	<s id="5398615917808572568-2507162043-4">
+		<tl f="N" t="p" o="NXRB" c="RB" n="17370"/>
+		<ar pt="2507162053" pp="1" l="48" ppth="Bonn-Mehlem|Bonn-Bad Godesberg|Bonn UN Campus"/>
+		<dp pt="2507162054" pp="1" l="48" ppth="Roisdorf|Sechtem|Brühl|Hürth-Kalscheuren|Köln Süd|Köln West|Köln Hbf|Köln Messe/Deutz"/>
+	</s>
+	<s id="4793536328853451716-2507162022-1">
+		<tl t="p" o="B2" c="Bus" n="3000"/>
+		<dp pt="2507162022" pp="" l="RB30" ppth="Bonn UN Campus|Bonn-Bad Godesberg|Bonn-Mehlem|Rolandseck|Oberwinter|Remagen"/>
+	</s>
+	<s id="1730982840477533043-2507162040-1">
+		<tl f="S" t="p" o="800352" c="S" n="32400"/>
+		<dp pt="2507162040" pp="5" l="23" ppth="Bonn-Endenich Nord|Bonn Helmholtzstraße|Bonn-Duisdorf|Alfter-Impekoven|Alfter-Witterschlick"/>
+	</s>
+	<s id="-3841483929950517426-2507162005-6">
+		<tl f="S" t="p" o="800352" c="S" n="32397"/>
+		<ar pt="2507162019" pp="5" l="23" ppth="Alfter-Witterschlick|Alfter-Impekoven|Bonn-Duisdorf|Bonn Helmholtzstraße|Bonn-Endenich Nord"/>
+	</s>
+	<s id="-6051617207235596781-2507162035-6">
+		<tl f="S" t="p" o="800352" c="S" n="32399"/>
+		<ar pt="2507162049" pp="5" l="23" ppth="Alfter-Witterschlick|Alfter-Impekoven|Bonn-Duisdorf|Bonn Helmholtzstraße|Bonn-Endenich Nord"/>
+	</s>
+	<s id="2842767374157481414-2507162010-1">
+		<tl f="S" t="p" o="800352" c="S" n="32398"/>
+		<dp pt="2507162010" pp="5" l="23" ppth="Bonn-Endenich Nord|Bonn Helmholtzstraße|Bonn-Duisdorf|Alfter-Impekoven|Alfter-Witterschlick"/>
+	</s>
+	<s id="-3175079351275758919-2507161934-12">
+		<tl f="N" t="p" o="NXRE" c="RE" n="28531"/>
+		<ar pt="2507162055" pp="3" l="5" ppth="Oberhausen Hbf|Duisburg Hbf|Düsseldorf Flughafen|Düsseldorf Hbf|Düsseldorf-Benrath|Leverkusen Mitte|Köln-Mülheim|Köln Messe/Deutz|Köln Hbf|Köln Süd|Brühl"/>
+		<dp pt="2507162057" pp="3" l="5" ppth="Bonn UN Campus|Bonn-Bad Godesberg|Oberwinter|Remagen|Sinzig(Rhein)|Bad Breisig|Andernach|Koblenz Stadtmitte|Koblenz Hbf"/>
+	</s>
+	<s id="8939332948445452867-2507161949-9">
+		<tl f="N" t="p" o="TR" c="RB" n="25439"/>
+		<ar pt="2507162025" pp="3" l="26" ppth="Köln Messe/Deutz|Köln Hbf|Köln West|Köln Süd|Hürth-Kalscheuren|Brühl|Sechtem|Roisdorf"/>
+		<dp pt="2507162027" pp="3" l="26" ppth="Bonn UN Campus|Bonn-Bad Godesberg|Bonn-Mehlem|Rolandseck|Oberwinter|Remagen|Sinzig(Rhein)|Bad Breisig|Brohl|Namedy|Andernach|Weißenthurm|Mülheim-Kärlich|Koblenz-Lützel|Koblenz Stadtmitte|Koblenz Hbf|Rhens|Spay|Boppard Hbf|Boppard-Bad Salzig|Boppard-Hirzenach|St Goar|Oberwesel|Bacharach|Niederheimbach|Trechtingshausen|Bingen(Rhein) Hbf|Bingen(Rhein) Stadt|Bingen-Gaulsheim|Gau Algesheim|Ingelheim|Heidesheim(Rheinhess)|Uhlerborn|Budenheim|Mainz-Mombach|Mainz Hbf"/>
+	</s>
+	<s id="-3977354940109461419-2507161947-7">
+		<tl t="p" o="B2" c="Bus" n="3001"/>
+		<ar pt="2507162037" pp="" l="RB30" ppth="Remagen|Oberwinter|Rolandseck|Bonn-Mehlem|Bonn-Bad Godesberg|Bonn UN Campus"/>
+	</s>
+	<s id="2312296716933966404-2507161555-9">
+		<tl f="F" t="p" o="80" c="ICE" n="1021"/>
+		<ar pt="2507162013" pp="3" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Recklinghausen Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Hbf"/>
+		<dp pt="2507162015" pp="3" ppth="Koblenz Hbf|Bingen(Rhein) Hbf|Mainz Hbf|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf|Hanau Hbf|Aschaffenburg Hbf|Würzburg Hbf|Nürnberg Hbf"/>
+	</s>
+	<s id="2000780667434420476-2507161843-20">
+		<tl f="N" t="p" o="NXRB" c="RB" n="17363"/>
+		<ar pt="2507162006" pp="3" l="48" ppth="Wuppertal-Oberbarmen|Wuppertal-Barmen|Wuppertal Hbf|Wuppertal-Vohwinkel|Haan-Gruiten|Haan|Solingen Hbf|Leichlingen|Opladen|Leverkusen-Manfort|Köln-Mülheim|Köln Messe/Deutz|Köln Hbf|Köln West|Köln Süd|Hürth-Kalscheuren|Brühl|Sechtem|Roisdorf"/>
+		<dp pt="2507162008" pp="3" l="48" ppth="Bonn UN Campus|Bonn-Bad Godesberg|Bonn-Mehlem"/>
+	</s>
+	<s id="-3731460463652106943-2507161916-10">
+		<tl f="N" t="p" o="NXRE" c="RE" n="28532"/>
+		<ar pt="2507162002" pp="1" l="5" ppth="Koblenz Hbf|Koblenz Stadtmitte|Andernach|Bad Breisig|Sinzig(Rhein)|Remagen|Oberwinter|Bonn-Bad Godesberg|Bonn UN Campus"/>
+		<dp pt="2507162004" pp="1" l="5" ppth="Brühl|Köln Süd|Köln Hbf|Köln Messe/Deutz|Köln-Mülheim|Leverkusen Mitte|Düsseldorf-Benrath|Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Oberhausen Hbf"/>
+	</s>
+</timetable>
