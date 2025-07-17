@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Oldenburg(Oldb)Hbf">
+	<s id="6722598552304423419-2507172205-6">
+		<tl t="p" o="NWBus" c="Bus" n="5385"/>
+		<ar pt="2507172330" pp="" l="EV" ppth="Cloppenburg|Ahlhorn|Großenkneten|Huntlosen|Sandkrug"/>
+	</s>
+	<s id="-8138362163861218620-2507171716-13">
+		<tl f="F" t="p" o="80" c="ICE" n="532"/>
+		<ar pt="2507172332" pp="4" ppth="München Hbf|Ingolstadt Hbf|Nürnberg Hbf|Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Nienburg(Weser)|Verden(Aller)|Bremen Hbf|Delmenhorst"/>
+	</s>
+	<s id="-7123580108217034731-2507172120-13">
+		<tl f="N" t="p" o="800295" c="RE" n="4434"/>
+		<ar pt="2507172323" pp="6" l="1" ppth="Hannover Hbf|Wunstorf|Neustadt am Rübenberge|Nienburg(Weser)|Eystrup|Dörverden|Verden(Aller)|Achim|Bremen-Mahndorf|Bremen Hbf|Delmenhorst|Hude"/>
+	</s>
+	<s id="-1491077561497992764-2507172345-3">
+		<tl f="D" t="p" o="N1" c="NWB" n="83389"/>
+		<ar pt="2507172357" pp="3" l="RS3" ppth="Bad Zwischenahn|Oldenburg-Wechloy"/>
+		<dp pt="2507180005" pp="3" l="RS3" ppth="Wüsting|Hude|Bookholzberg|Schierbrok|Hoykenkamp|Delmenhorst|Heidkrug|Bremen Neustadt|Bremen Hbf"/>
+	</s>
+	<s id="8133677848871379809-2507172245-3">
+		<tl f="D" t="p" o="N1" c="NWB" n="83387"/>
+		<ar pt="2507172257" pp="3" l="RS3" ppth="Bad Zwischenahn|Oldenburg-Wechloy"/>
+		<dp pt="2507172305" pp="3" l="RS3" ppth="Wüsting|Hude|Bookholzberg|Schierbrok|Hoykenkamp|Delmenhorst|Heidkrug|Bremen Neustadt|Bremen Hbf"/>
+	</s>
+	<s id="1282899926668995600-2507172315-10">
+		<tl f="D" t="p" o="N1" c="NWB" n="83386"/>
+		<ar pt="2507172353" pp="6" l="RS3" ppth="Bremen Hbf|Bremen Neustadt|Heidkrug|Delmenhorst|Hoykenkamp|Schierbrok|Bookholzberg|Hude|Wüsting"/>
+	</s>
+	<s id="-8460362650688300472-2507172336-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="75437"/>
+		<dp pt="2507172336" pp="5" l="RE18" ppth="Rastede|Jaderberg|Varel(Oldb)|Sande|Wilhelmshaven"/>
+	</s>
+	<s id="-5581957853624905709-2507172310-6">
+		<tl f="D" t="p" o="N1" c="NWB" n="75336"/>
+		<ar pt="2507172354" pp="5" l="RE18" ppth="Wilhelmshaven|Sande|Varel(Oldb)|Jaderberg|Rastede"/>
+	</s>
+</timetable>
