@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="4422815303177053715-2507181114-1">
+		<tl f="N" t="p" o="800165" c="RB" n="56930"/>
+		<dp pt="2507181114" pp="3" l="23" ppth="Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße"/>
+	</s>
+	<s id="-3789886827529615803-2507181109-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18665"/>
+		<dp pt="2507181109" pp="4" l="32" tra="8211005156495413590-2507181021-4" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+	<s id="-894094868531142260-2507181110-5">
+		<tl f="N" t="p" o="800165" c="RB" n="56929"/>
+		<ar pt="2507181146" pp="3" l="23" ppth="Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz"/>
+	</s>
+	<s id="-8233461540627145719-2507180733-31">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62010"/>
+		<ar pt="2507181115" pp="2" l="8" ppth="Wismar|Dorf Mecklenburg|Bad Kleinen|Lübstorf|Schwerin Hbf|Schwerin Mitte|Schwerin Süd|Holthusen|Sülstorf|Rastow|Lüblow(Meckl)|Ludwigslust|Grabow(Meckl)|Karstädt|Wittenberge|Bad Wilsnack|Glöwen|Breddin|Neustadt(Dosse)|Friesack(Mark)|Paulinenaue|Nauen|Falkensee|Berlin-Spandau|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz"/>
+	</s>
+	<s id="5834016043406903972-2507181051-4">
+		<tl t="p" o="800165" c="FEX" n="19833"/>
+		<ar pt="2507181130" pp="4" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="-7909132823050569300-2507181139-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18664"/>
+		<ar pt="2507181155" pp="1" l="32" tra="-6267694711720463803-2507181158-1" ppth="Ludwigsfelde|Birkengrund"/>
+	</s>
+	<s id="8211005156495413590-2507181021-4">
+		<tl t="p" o="800165" c="FEX" n="19831"/>
+		<ar pt="2507181104" pp="4" tra="-3789886827529615803-2507181109-1" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="-6267694711720463803-2507181158-1">
+		<tl t="p" o="800165" c="FEX" n="19830"/>
+		<dp pt="2507181158" pp="1" tra="-7909132823050569300-2507181139-3" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="6484739238016304640-2507181128-1">
+		<tl t="p" o="800165" c="FEX" n="19828"/>
+		<dp pt="2507181128" pp="1" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="-4129528892956638430-2507181144-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62017"/>
+		<dp pt="2507181144" pp="2" l="8" ppth="Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Spandau|Falkensee|Nauen|Paulinenaue|Friesack(Mark)|Neustadt(Dosse)|Breddin|Glöwen|Bad Wilsnack|Wittenberge"/>
+	</s>
+</timetable>
