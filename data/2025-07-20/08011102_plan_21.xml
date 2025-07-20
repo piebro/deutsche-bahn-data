@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Gesundbrunnen">
+	<s id="7229707962542663595-2507201702-6">
+		<tl f="F" t="p" o="80" c="ICE" n="834"/>
+		<ar pt="2507202107" pp="8" ppth="Frankfurt(Main)Hbf|Erfurt Hbf|Halle(Saale)Hbf|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="5505348089403655832-2507202128-3">
+		<tl t="p" o="800165" c="FEX" n="19868"/>
+		<ar pt="2507202156" pp="7" ppth="Flughafen BER|Berlin Ostkreuz"/>
+		<dp pt="2507202158" pp="7" ppth="Berlin Hbf"/>
+	</s>
+	<s id="6473414023374840114-2507201816-23">
+		<tl f="N" t="p" o="800158" c="RE" n="3317"/>
+		<ar pt="2507202121" pp="6" l="3" ppth="Stralsund Hbf|Miltzow|Greifswald|Greifswald Süd|Groß Kiesow|Züssow|Klein Bünzow|Anklam|Ducherow|Ferdinandshof|Jatznick|Pasewalk|Nechlin|Prenzlau|Seehausen(Uckermark)|Warnitz(Uckermark)|Wilmersdorf(Angerm)|Angermünde|Chorin|Britz|Eberswalde Hbf|Bernau(b Berlin)"/>
+		<dp pt="2507202123" pp="6" l="3" ppth="Berlin Hbf|Berlin Potsdamer Platz|Berlin Südkreuz|Berlin-Lichterfelde Ost|Teltow|Großbeeren|Birkengrund|Ludwigsfelde|Luckenwalde|Jüterbog"/>
+	</s>
+	<s id="6689266831362898360-2507202100-2">
+		<tl t="p" o="RSMD" c="SMD" n="80438"/>
+		<ar pt="2507202117" pp="5" l="HBX" ppth="Berlin-Lichtenberg"/>
+		<dp pt="2507202119" pp="5" l="HBX" ppth="Berlin-Wannsee|Potsdam Hbf|Brandenburg Hbf|Genthin|Burg(Magdeburg)|Magdeburg Hbf|Magdeburg-Buckau|Magdeburg SKET Industriepark|Beyendorf|Dodendorf|Osterweddingen|Langenweddingen|Hadmersleben|Oschersleben(Bode)|Nienhagen(Halberst)|Halberstadt Hbf|Wernigerode Hbf|Wernigerode Elmowerk|Darlingerode|Ilsenburg"/>
+	</s>
+	<s id="1945124315890020696-2507202051-2">
+		<tl t="p" o="800165" c="FEX" n="19873"/>
+		<ar pt="2507202056" pp="8" ppth="Berlin Hbf"/>
+		<dp pt="2507202100" pp="8" ppth="Berlin Ostkreuz|Flughafen BER"/>
+	</s>
+	<s id="-4591667838043678587-2507202056-9">
+		<tl f="N" t="p" o="800158" c="RE" n="3356"/>
+		<ar pt="2507202137" pp="9" l="3" ppth="Ludwigsfelde|Birkengrund|Großbeeren|Teltow|Berlin-Lichterfelde Ost|Berlin Südkreuz|Berlin Potsdamer Platz|Berlin Hbf"/>
+		<dp pt="2507202139" pp="9" l="3" ppth="Bernau(b Berlin)|Rüdnitz|Biesenthal|Melchow|Eberswalde Hbf|Britz|Chorin|Angermünde|Pinnow(Uckermark)|Schwedt(Oder)Mitte|Schwedt(Oder)"/>
+	</s>
+	<s id="-2941715700722148402-2507202100-2">
+		<tl t="p" o="RSMD" c="SMD" n="80428"/>
+		<ar pt="2507202117" pp="5" l="HBX" wings="6689266831362898360-2507202100" ppth="Berlin-Lichtenberg"/>
+		<dp pt="2507202119" pp="5" l="HBX" wings="6689266831362898360-2507202100" ppth="Berlin-Wannsee|Potsdam Hbf|Brandenburg Hbf|Genthin|Burg(Magdeburg)|Magdeburg Hbf|Magdeburg-Buckau|Magdeburg SKET Industriepark|Beyendorf|Dodendorf|Osterweddingen|Langenweddingen|Hadmersleben|Oschersleben(Bode)|Nienhagen(Halberst)|Halberstadt Hbf|Wegeleben|Quedlinburg"/>
+	</s>
+	<s id="6860290104622435511-2507202151-2">
+		<tl t="p" o="800165" c="FEX" n="19877"/>
+		<ar pt="2507202157" pp="10" ppth="Berlin Hbf"/>
+		<dp pt="2507202200" pp="10" ppth="Berlin Ostkreuz|Flughafen BER"/>
+	</s>
+	<s id="-5315333728424243977-2507202121-2">
+		<tl t="p" o="800165" c="FEX" n="19875"/>
+		<ar pt="2507202126" pp="10" ppth="Berlin Hbf"/>
+		<dp pt="2507202129" pp="10" pde="Ludwigsfelde" ppth="Berlin Ostkreuz|Flughafen BER"/>
+	</s>
+	<s id="-4981931327532836719-2507202058-3">
+		<tl t="p" o="800165" c="FEX" n="19866"/>
+		<ar pt="2507202127" pp="7" pde="Ludwigsfelde" ppth="Flughafen BER|Berlin Ostkreuz"/>
+		<dp pt="2507202129" pp="7" ppth="Berlin Hbf"/>
+	</s>
+</timetable>
