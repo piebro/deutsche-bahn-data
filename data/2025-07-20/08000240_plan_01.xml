@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<timetable station="Mainz Hbf">
+	<s id="6700239204384904052-2507200140-1">
+		<tl f="N" t="p" o="V6RB" c="RB" n="29280"/>
+		<dp pt="2507200140" pp="8" l="31" ppth="Mainz Waggonfabrik|Mainz-Gonsenheim|Mainz-Marienborn|Klein Winternheim-Ober Olm|Nieder Olm|Saulheim|Wörrstadt|Armsheim|Albig|Alzey"/>
+	</s>
+	<s id="-5851721557238592488-2507192000-6">
+		<tl t="p" o="84" c="NJ" n="403"/>
+		<ar pt="2507200140" pp="4a/b" hi="1" wings="7582314568044505717-2507192000" ppth="Amsterdam Centraal|Utrecht Centraal|Eindhoven Centraal|Bonn Hbf|Koblenz Hbf"/>
+		<dp pt="2507200142" pp="4a/b" hi="1" wings="7582314568044505717-2507192000" ppth="Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-5158306616828575240-2507200038-11">
+		<tl f="N" t="p" o="V6RB" c="RB" n="29299"/>
+		<ar pt="2507200123" pp="8" l="31" ppth="Alzey|Albig|Armsheim|Wörrstadt|Saulheim|Nieder Olm|Klein Winternheim-Ober Olm|Mainz-Marienborn|Mainz-Gonsenheim|Mainz Waggonfabrik"/>
+	</s>
+	<s id="6841538661331609688-2507200140-1">
+		<tl f="N" t="p" o="V6RB" c="RB" n="29302"/>
+		<dp pt="2507200140" pp="3a/b" l="33" ppth="Budenheim|Uhlerborn|Heidesheim(Rheinhess)|Ingelheim|Gau Algesheim|Bingen-Gaulsheim|Bingen(Rhein) Stadt|Bingen(Rhein) Hbf|Bad Kreuznach"/>
+	</s>
+	<s id="5250978691255573968-2507200025-18">
+		<tl f="S" t="p" o="800528" c="S" n="35884"/>
+		<ar pt="2507200125" pp="1a" l="8" ppth="Hanau Hbf|Steinheim(Main)|Mühlheim(Main)-Dietesheim|Mühlheim(Main)|Offenbach(Main)Ost|Offenbach(Main)Hbf|Frankfurt(Main)Süd|Frankfurt am Main - Stadion|Frankfurt(Main)-Gateway Gardens|Frankfurt(M) Flughafen Regionalbf|Kelsterbach|Raunheim|Rüsselsheim|Rüsselsheim Opelwerk|Mainz-Bischofsheim|Mainz-Gustavsburg|Mainz Römisches Theater"/>
+		<dp pt="2507200129" pp="1a" l="8" ppth="Mainz Nord|Wiesbaden Ost|Wiesbaden Hbf"/>
+	</s>
+	<s id="1425773803268788033-2507192331-31">
+		<tl f="S" t="p" o="801518" c="S" n="38602"/>
+		<ar pt="2507200122" pp="2a" l="6" ppth="Bensheim|Heppenheim(Bergstr)|Laudenbach(Bergstr)|Hemsbach|Weinheim-Sulzbach|Weinheim(Bergstr)Hbf|Heddesheim/Hirschberg|Ladenburg|Neu-Edingen/Friedrichsfeld|Mannheim-Seckenheim|Mannheim ARENA/Maimarkt|Mannheim Hbf|Ludwigshafen(Rhein) Mitte|Ludwigshafen(Rh)Hbf|Ludwigshafen-Oggersheim|Frankenthal Süd|Frankenthal Hbf|Bobenheim|Worms Hbf|Osthofen|Mettenheim|Alsheim|Guntersblum|Dienheim|Oppenheim|Nierstein|Nackenheim|Bodenheim|Mainz-Laubenheim|Mainz Römisches Theater"/>
+	</s>
+	<s id="7582314568044505717-2507192000-6">
+		<tl f="F" t="p" o="NZ" c="IC" n="60403"/>
+		<ar pt="2507200140" pp="4a/b" ppth="Amsterdam Centraal|Utrecht Centraal|Eindhoven Centraal|Bonn Hbf|Koblenz Hbf"/>
+		<dp pt="2507200142" pp="4a/b" ppth="Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-5377680979252956031-2507200118-4">
+		<tl f="S" t="p" o="800528" c="S" n="35897"/>
+		<ar pt="2507200130" pp="5a" l="8" ppth="Wiesbaden Hbf|Wiesbaden Ost|Mainz Nord"/>
+		<dp pt="2507200132" pp="5a" l="8" ppth="Mainz Römisches Theater|Mainz-Gustavsburg|Mainz-Bischofsheim|Rüsselsheim Opelwerk|Rüsselsheim|Raunheim|Kelsterbach|Frankfurt(M) Flughafen Regionalbf|Frankfurt(Main)-Gateway Gardens|Frankfurt am Main - Stadion|Frankfurt(Main)Süd|Offenbach(Main)Hbf"/>
+	</s>
+	<s id="-4381528377396936332-2507200039-7">
+		<tl f="N" t="p" o="V6RB" c="RB" n="29301"/>
+		<ar pt="2507200130" pp="3a/b" l="33" ppth="Bad Kreuznach|Bingen(Rhein) Hbf|Bingen(Rhein) Stadt|Gau Algesheim|Ingelheim|Heidesheim(Rheinhess)"/>
+	</s>
+	<s id="106343239611493723-2507200108-1">
+		<tl f="S" t="p" o="801518" c="S" n="38603"/>
+		<dp pt="2507200108" pp="6a" l="6" ppth="Mainz Römisches Theater|Mainz-Laubenheim|Bodenheim|Nackenheim|Nierstein|Oppenheim|Dienheim|Guntersblum|Alsheim|Mettenheim|Osthofen|Worms Hbf"/>
+	</s>
+	<s id="-6616670055871009196-2507200054-18">
+		<tl f="S" t="p" o="800528" c="S" n="35886"/>
+		<ar pt="2507200154" pp="1a" l="8" ppth="Hanau Hbf|Steinheim(Main)|Mühlheim(Main)-Dietesheim|Mühlheim(Main)|Offenbach(Main)Ost|Offenbach(Main)Hbf|Frankfurt(Main)Süd|Frankfurt am Main - Stadion|Frankfurt(Main)-Gateway Gardens|Frankfurt(M) Flughafen Regionalbf|Kelsterbach|Raunheim|Rüsselsheim|Rüsselsheim Opelwerk|Mainz-Bischofsheim|Mainz-Gustavsburg|Mainz Römisches Theater"/>
+		<dp pt="2507200158" pp="1a" l="8" ppth="Mainz Nord|Wiesbaden Ost|Wiesbaden Hbf"/>
+	</s>
+	<s id="2016656486718619580-2507200048-4">
+		<tl f="S" t="p" o="800528" c="S" n="35887"/>
+		<ar pt="2507200100" pp="5a" l="8" ppth="Wiesbaden Hbf|Wiesbaden Ost|Mainz Nord"/>
+		<dp pt="2507200102" pp="5a" l="8" ppth="Mainz Römisches Theater|Mainz-Gustavsburg|Mainz-Bischofsheim|Rüsselsheim Opelwerk|Rüsselsheim|Raunheim|Kelsterbach|Frankfurt(M) Flughafen Regionalbf|Frankfurt(Main)-Gateway Gardens|Frankfurt am Main - Stadion|Frankfurt(Main)Süd|Offenbach(Main)Hbf|Offenbach(Main)Ost|Mühlheim(Main)|Mühlheim(Main)-Dietesheim|Steinheim(Main)|Hanau Hbf"/>
+	</s>
+	<s id="7874858154314414937-2507191954-12">
+		<tl f="F" t="p" o="80" c="ICE" n="1087"/>
+		<ar pt="2507200104" pp="3a/b" ppth="Hamburg Dammtor|Hamburg Hbf|Lüneburg|Uelzen|Hannover Hbf|Göttingen|Bebra|Fulda|Hanau Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf"/>
+		<dp pt="2507200106" pp="3a/b" ppth="Wiesbaden Hbf"/>
+	</s>
+	<s id="858440105570821865-2507200138-1">
+		<tl f="S" t="p" o="801518" c="S" n="38605"/>
+		<dp pt="2507200138" pp="2a" l="6" ppth="Mainz Römisches Theater|Mainz-Laubenheim|Bodenheim|Nackenheim|Nierstein|Oppenheim|Dienheim|Guntersblum|Alsheim|Mettenheim|Osthofen|Worms Hbf"/>
+	</s>
+	<s id="-8162654965223241752-2507200038-9">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="28742"/>
+		<ar pt="2507200111" pp="2a" l="RB75" ppth="Darmstadt Hbf|Weiterstadt|Klein Gerau|Groß Gerau|Nauheim(b Gr.Gerau)|Mainz-Bischofsheim|Mainz-Gustavsburg|Mainz Römisches Theater"/>
+		<dp pt="2507200113" pp="2a" l="RB75" ppth="Wiesbaden Hbf"/>
+	</s>
+</timetable>
