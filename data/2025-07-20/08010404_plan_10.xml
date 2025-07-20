@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin-Spandau">
+	<s id="6938724940518946896-2507200924-9">
+		<tl f="N" t="p" o="800161" c="RE" n="3613"/>
+		<ar pt="2507201037" pp="5" l="6" ppth="Neuruppin West|Neuruppin Rheinsberger Tor|Wustrau-Radensleben|Beetz-Sommerfeld|Kremmen|Velten(Mark)|Hennigsdorf(b Berlin)|Falkensee"/>
+		<dp pt="2507201039" pp="5" l="6" ppth="Berlin-Charlottenburg"/>
+	</s>
+	<s id="1900510966112020966-2507200944-8">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62013"/>
+		<ar pt="2507201035" pp="3" l="8" ppth="Flughafen BER|Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten"/>
+		<dp pt="2507201038" pp="3" l="8" ppth="Falkensee|Nauen|Paulinenaue|Friesack(Mark)|Neustadt(Dosse)|Breddin|Glöwen|Bad Wilsnack|Wittenberge"/>
+	</s>
+	<s id="4481015520823907215-2507201002-8">
+		<tl f="N" t="p" o="800158" c="RE" n="3150"/>
+		<ar pt="2507201050" pp="3" l="4" ppth="Rathenow|Nennhausen|Buschow|Wustermark|Elstal|Dallgow-Döberitz|Berlin-Staaken"/>
+	</s>
+	<s id="-8233461540627145719-2507200733-24">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62010"/>
+		<ar pt="2507201021" pp="5" l="8" ppth="Wismar|Dorf Mecklenburg|Bad Kleinen|Lübstorf|Schwerin Hbf|Schwerin Mitte|Schwerin Süd|Holthusen|Sülstorf|Rastow|Lüblow(Meckl)|Ludwigslust|Grabow(Meckl)|Karstädt|Wittenberge|Bad Wilsnack|Glöwen|Breddin|Neustadt(Dosse)|Friesack(Mark)|Paulinenaue|Nauen|Falkensee"/>
+		<dp pt="2507201023" pp="5" l="8" ppth="Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz|Flughafen BER"/>
+	</s>
+	<s id="-5962154382149198734-2507200526-11">
+		<tl f="F" t="p" o="80" c="ICE" n="843"/>
+		<ar pt="2507200958" pp="6" ppth="Köln Hbf|Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Hannover Hbf|Wolfsburg Hbf"/>
+		<dp pt="2507201000" pp="6" hi="1" ppth="Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="-486178897212069438-2507200544-8">
+		<tl f="F" t="p" o="80" c="ICE" n="853"/>
+		<ar pt="2507200958" pp="6" wings="-5962154382149198734-2507200526" ppth="Köln Hbf|Solingen Hbf|Wuppertal Hbf|Hagen Hbf|Hamm(Westf)Hbf|Hannover Hbf|Wolfsburg Hbf"/>
+		<dp pt="2507201000" pp="6" hi="1" wings="-5962154382149198734-2507200526" ppth="Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="-4680444290698788424-2507200904-15">
+		<tl f="N" t="p" o="800165" c="RE" n="3113"/>
+		<ar pt="2507201054" pp="4" l="2" ppth="Cottbus Hbf|Kunersdorf|Vetschau|Raddusch|Lübbenau(Spreewald)|Lübben(Spreewald)|Brand Tropical Islands|Königs Wusterhausen|Berlin Ostkreuz|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Charlottenburg"/>
+		<dp pt="2507201056" pp="4" l="2" ppth="Albrechtshof|Seegefeld|Falkensee|Finkenkrug|Brieselang|Nauen"/>
+	</s>
+	<s id="-4310203737838801908-2507200626-12">
+		<tl f="F" t="p" o="80" c="ICE" n="543"/>
+		<ar pt="2507201058" pp="6" ppth="Köln Hbf|Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Bielefeld Hbf|Minden(Westf)|Hannover Hbf|Wolfsburg Hbf"/>
+		<dp pt="2507201100" pp="6" hi="1" ppth="Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="-5036600979734019557-2507201015-3">
+		<tl f="F" t="p" o="80" c="ICE" n="371"/>
+		<ar pt="2507201043" pp="4" hi="1" ppth="Berlin Ostbahnhof|Berlin Hbf"/>
+		<dp pt="2507201045" pp="4" ppth="Wolfsburg Hbf|Braunschweig Hbf|Hildesheim Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Hanau Hbf|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Liestal|Olten|Bern|Thun|Spiez|Interlaken West|Interlaken Ost"/>
+	</s>
+	<s id="-4905391991906734416-2507201012-2">
+		<tl f="N" t="p" o="800161" c="RE" n="3614"/>
+		<ar pt="2507201019" pp="4" l="6" ppth="Berlin-Charlottenburg"/>
+		<dp pt="2507201021" pp="4" l="6" ppth="Falkensee|Hennigsdorf(b Berlin)|Velten(Mark)|Kremmen|Beetz-Sommerfeld|Wustrau-Radensleben|Neuruppin Rheinsberger Tor|Neuruppin West|Wittstock(Dosse)|Liebenthal(Prignitz)|Heiligengrabe|Pritzwalk|Groß Pankow|Perleberg|Weisen|Wittenberge"/>
+	</s>
+	<s id="5253046523768031585-2507201009-1">
+		<tl f="N" t="p" o="800158" c="RE" n="3171"/>
+		<dp pt="2507201009" pp="3" l="4" ppth="Berlin-Staaken|Dallgow-Döberitz|Elstal|Wustermark|Nennhausen|Rathenow"/>
+	</s>
+	<s id="7731476269399949882-2507200937-7">
+		<tl f="N" t="p" o="800165" c="RE" n="3112"/>
+		<ar pt="2507201002" pp="5" l="2" ppth="Nauen|Brieselang|Finkenkrug|Falkensee|Seegefeld|Albrechtshof"/>
+		<dp pt="2507201004" pp="5" l="2" ppth="Berlin-Charlottenburg|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostkreuz|Königs Wusterhausen|Brand Tropical Islands|Lübben(Spreewald)|Lübbenau(Spreewald)|Raddusch|Vetschau|Kolkwitz|Cottbus Hbf"/>
+	</s>
+	<s id="1366963225165688109-2507201020-4">
+		<tl t="p" o="BB" c="Bus" n="68511"/>
+		<ar pt="2507201041" pp="" l="RB10" ppth="Falkensee ZOB|Seegefeld|Albrechtshof"/>
+	</s>
+	<s id="3370188702284948522-2507201018-1">
+		<tl t="p" o="BB" c="Bus" n="68510"/>
+		<dp pt="2507201018" pp="" l="RB10" ppth="Albrechtshof|Seegefeld|Falkensee ZOB"/>
+	</s>
+</timetable>

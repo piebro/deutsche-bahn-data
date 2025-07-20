@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<timetable station="Göttingen">
+	<s id="8388284206224174823-2507200648-1">
+		<tl f="N" t="p" o="8002A3" c="RB" n="14105"/>
+		<dp pt="2507200648" pp="4" l="82" ppth="Nörten-Hardenberg|Northeim(Han)|Einbeck-Salzderhelden|Kreiensen|Bad Gandersheim|Seesen|Langelsheim|Goslar|Oker|Bad Harzburg"/>
+	</s>
+	<s id="-8677182982400525824-2507192046-10">
+		<tl t="p" o="81" c="NJ" n="40420"/>
+		<ar pt="2507200605" pp="9" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Hbf|Nürnberg Hbf|Würzburg Hbf|Kassel-Wilhelmshöhe"/>
+		<dp pt="2507200609" pp="9" ppth="Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="947756859687964101-2507200604-1">
+		<tl f="N" t="p" o="8004NT" c="RE" n="3655"/>
+		<dp pt="2507200604" pp="8" l="1" ppth="Heilbad Heiligenstadt|Leinefelde|Silberhausen|Mühlhausen(Thür)|Bad Langensalza|Gotha|Neudietendorf|Erfurt Hbf|Weimar|Jena West|Jena-Göschwitz|Stadtroda|Hermsdorf-Klosterlausnitz|Gera Hbf|Gera Süd|Ronneburg(Thür)|Schmölln(Thür)|Gößnitz"/>
+	</s>
+	<s id="-834549881682505178-2507200604-1">
+		<tl f="D" t="p" o="R1" c="ME" n="82814"/>
+		<dp pt="2507200604" pp="6" l="RE2" ppth="Nörten-Hardenberg|Northeim(Han)|Einbeck-Salzderhelden|Kreiensen|Freden(Leine)|Alfeld(Leine)|Banteln|Elze(Han)|Nordstemmen|Sarstedt|Hannover Hbf"/>
+	</s>
+	<s id="-7547304040443208216-2507192010-11">
+		<tl t="p" o="81" c="NJ" n="490"/>
+		<ar pt="2507200605" pp="9" wings="-8677182982400525824-2507192046" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Passau Hbf|Regensburg Hbf|Nürnberg Hbf|Würzburg Hbf|Kassel-Wilhelmshöhe"/>
+		<dp pt="2507200609" pp="9" wings="-8677182982400525824-2507192046" ppth="Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-6500172670767447687-2507200423-14">
+		<tl f="N" t="p" o="8004NT" c="RE" n="3672"/>
+		<ar pt="2507200625" pp="4" l="1" ppth="Erfurt Hbf|Erfurt-Bischleben|Neudietendorf|Wandersleben|Seebergen|Gotha|Bad Langensalza|Mühlhausen(Thür)|Silberhausen|Leinefelde|Heilbad Heiligenstadt|Uder|Arenshausen"/>
+	</s>
+</timetable>
