@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="4063429164769473916-2507230351-4">
+		<tl t="p" o="800165" c="FEX" n="19805"/>
+		<ar pt="2507230446" pp="4" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="-199422321941227724-2507230320-8">
+		<tl t="p" o="800165" c="FEX" n="19803"/>
+		<ar pt="2507230400" pp="4" tra="-3663725125142417725-2507230409-1" ppth="Berlin-Charlottenburg|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz"/>
+	</s>
+	<s id="-3663725125142417725-2507230409-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18651"/>
+		<dp pt="2507230409" pp="4" l="32" tra="-199422321941227724-2507230320-8" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+</timetable>
