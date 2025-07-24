@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<timetable station="Landshut(Bay)Hbf">
+	<s id="4567391524482905459-2507242246-5">
+		<tl f="D" t="p" o="A8N" c="ALX" n="56795"/>
+		<ar pt="2507242329" pp="6" l="RE25" ppth="Regensburg Hbf|Eggmühl|Neufahrn(Niederbay)|Ergoldsbach"/>
+		<dp pt="2507242335" pp="6" l="RE25" ppth="Moosburg|Freising|München Hbf"/>
+	</s>
+	<s id="7811060681172387606-2507242320-1">
+		<tl t="p" o="B7" c="Bus" n="4090"/>
+		<dp pt="2507242320" pp="" l="EV" ppth="Wörth(Isar)|Dingolfing|Landau(Isar)|Wallersdorf|Plattling"/>
+	</s>
+	<s id="1347386001404058173-2507242203-6">
+		<tl t="p" o="B7" c="Bus" n="4089"/>
+		<ar pt="2507242335" pp="" l="EV" ppth="Plattling|Wallersdorf|Landau(Isar)|Dingolfing|Wörth(Isar)"/>
+	</s>
+	<s id="185568078432564234-2507242217-4">
+		<tl f="N" t="p" o="800767" c="RE" n="4090"/>
+		<ar pt="2507242305" pp="5" l="3" ppth="München Hbf|Freising|Moosburg"/>
+	</s>
+	<s id="-4164168701429723299-2507242349-1">
+		<tl f="N" t="p" o="800767" c="RE" n="4091"/>
+		<dp pt="2507242349" pp="6" l="3" ppth="Moosburg|Freising|München Hbf"/>
+	</s>
+	<s id="1444110233861316773-2507242244-4">
+		<tl f="N" t="p" o="8007H3" c="RE" n="59696"/>
+		<ar pt="2507242330" pp="5" l="2" ppth="München Hbf|Freising|Moosburg"/>
+		<dp pt="2507242334" pp="5" l="2" ppth="Ergoldsbach|Neufahrn(Niederbay)|Eggmühl|Obertraubling|Regensburg Hbf"/>
+	</s>
+	<s id="4348221724037410882-2507242340-1">
+		<tl f="N" t="p" o="8013D" c="RB" n="27141"/>
+		<dp pt="2507242340" pp="1" l="45" ppth="Landshut(Bay)Süd|Geisenhausen|Vilsbiburg|Aich(Niederbay)|Egglkofen|Neumarkt-St Veit|Mühldorf(Oberbay)"/>
+	</s>
+	<s id="-2543630036829878149-2507242240-8">
+		<tl f="N" t="p" o="8013D" c="RB" n="27142"/>
+		<ar pt="2507242328" pp="1" l="45" pde="Salzburg Hbf" ppth="Mühldorf(Oberbay)|Neumarkt-St Veit|Egglkofen|Aich(Niederbay)|Vilsbiburg|Geisenhausen|Landshut(Bay)Süd"/>
+	</s>
+	<s id="5608015258058408627-2507242307-9">
+		<tl f="D" t="p" o="S9" c="ag" n="84106"/>
+		<ar pt="2507242350" pp="5" l="RE22" ppth="München Flughafen Terminal|München Flughafen Besucherpark|Freising|Marzling|Langenbach(Oberbay)|Moosburg|Bruckberg|Gündlkofen"/>
+		<dp pt="2507242353" pp="5" l="RE22" ppth="Ergoldsbach|Neufahrn(Niederbay)|Eggmühl|Hagelstadt|Köfering|Obertraubling|Regensburg-Burgweinting|Regensburg Hbf"/>
+	</s>
+</timetable>
