@@ -1,0 +1,107 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg Dammtor">
+	<s id="4710972234539221468-2507252206-2">
+		<tl f="D" t="p" o="O0" c="NBE" n="75546"/>
+		<ar pt="2507252209" pp="3" hi="1" ppth="Hamburg Hbf"/>
+		<dp pt="2507252210" pp="3" ppth="Pinneberg|Prisdorf|Tornesch|Elmshorn|Herzhorn|Glückstadt|Krempe|Kremperheide|Itzehoe"/>
+	</s>
+	<s id="4429131433570418178-2507252222-2">
+		<tl f="N" t="p" o="800201" c="RE" n="11236"/>
+		<ar pt="2507252225" pp="3" l="70" hi="1" ppth="Hamburg Hbf"/>
+		<dp pt="2507252226" pp="3" l="70" ppth="Elmshorn|Wrist|Brokstedt|Neumünster|Bordesholm|Kiel Hbf"/>
+	</s>
+	<s id="2774174590951633862-2507252229-2">
+		<tl f="F" t="p" o="80" c="ICE" n="921"/>
+		<ar pt="2507252237" pp="4" hi="1" ppth="Hamburg-Altona"/>
+		<dp pt="2507252238" pp="4" ppth="Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Osnabrück Hbf|Münster(Westf)Hbf|Hamm(Westf)Hbf|Dortmund Hbf|Duisburg Hbf|Düsseldorf Flughafen|Düsseldorf Hbf|Köln Hbf|Bonn Hbf|Remagen|Andernach|Koblenz Hbf|Bingen(Rhein) Hbf|Mainz Hbf|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="5489382238418385337-2507252152-2">
+		<tl f="F" t="p" o="NZ" c="IC" n="60471"/>
+		<ar pt="2507252159" pp="4" hi="1" ppth="Hamburg-Altona"/>
+		<dp pt="2507252201" pp="4" ppth="Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Verden(Aller)|Nienburg(Weser)|Hannover Hbf|Göttingen|Mainz Hbf|Heidelberg Hbf|Karlsruhe Hbf|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-6875661648425174569-2507252223-2">
+		<tl t="p" o="0S" c="Bus" n="18"/>
+		<ar pt="2507252229" pp="" l="EV10A" ppth="Hamburg Hbf (Kirchenallee)"/>
+		<dp pt="2507252229" pp="" l="EV10A" ppth="Hamburg-Sternschanze|Max-Brauer-Allee (Mitte), Hamburg|Hamburg-Altona (Max-Brauer-Allee)"/>
+	</s>
+	<s id="7597089806492032299-2507252221-1">
+		<tl f="F" t="p" o="80" c="ICE" n="1081"/>
+		<dp pt="2507252221" pp="4" ppth="Hamburg Hbf|Hamburg-Harburg|Lüneburg|Uelzen|Celle|Hannover Hbf|Göttingen|Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf|München Hbf"/>
+	</s>
+	<s id="3589264180488277428-2507252143-4">
+		<tl t="p" o="0S" c="Bus" n="11"/>
+		<ar pt="2507252201" pp="" l="EV10A" ppth="Hamburg-Altona(S)|Max-Brauer-Allee (Mitte), Hamburg|Hamburg-Sternschanze"/>
+		<dp pt="2507252201" pp="" l="EV10A" ppth="Hamburg Hbf (Kirchenallee)"/>
+	</s>
+	<s id="-28578094047890195-2507252213-2">
+		<tl t="p" o="0S" c="Bus" n="16"/>
+		<ar pt="2507252219" pp="" l="EV10A" ppth="Hamburg Hbf (Kirchenallee)"/>
+		<dp pt="2507252219" pp="" l="EV10A" ppth="Hamburg-Sternschanze|Max-Brauer-Allee (Mitte), Hamburg|Hamburg-Altona (Max-Brauer-Allee)"/>
+	</s>
+	<s id="-521217330813819261-2507252152-2">
+		<tl t="p" o="81" c="NJ" n="471"/>
+		<ar pt="2507252159" pp="4" hi="1" wings="5489382238418385337-2507252152" ppth="Hamburg-Altona"/>
+		<dp pt="2507252201" pp="4" wings="5489382238418385337-2507252152" ppth="Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Verden(Aller)|Nienburg(Weser)|Hannover Hbf|Göttingen|Mainz Hbf|Heidelberg Hbf|Karlsruhe Hbf|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-7767981067062057351-2507252253-2">
+		<tl t="p" o="0S" c="Bus" n="24"/>
+		<ar pt="2507252259" pp="" l="EV10A" ppth="Hamburg Hbf (Kirchenallee)"/>
+		<dp pt="2507252259" pp="" l="EV10A" ppth="Hamburg-Sternschanze|Max-Brauer-Allee (Mitte), Hamburg|Hamburg-Altona (Max-Brauer-Allee)"/>
+	</s>
+	<s id="-721807130937592434-2507251313-16">
+		<tl f="F" t="p" o="81" c="ICE" n="90"/>
+		<ar pt="2507252201" pp="3" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Passau Hbf|Plattling|Regensburg Hbf|Nürnberg Hbf|Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf"/>
+		<dp pt="2507252203" pp="3" hi="1" ppth="Hamburg-Altona"/>
+	</s>
+	<s id="8757669838188423210-2507252213-4">
+		<tl t="p" o="0S" c="Bus" n="17"/>
+		<ar pt="2507252231" pp="" l="EV10A" ppth="Hamburg-Altona(S)|Max-Brauer-Allee (Mitte), Hamburg|Hamburg-Sternschanze"/>
+		<dp pt="2507252231" pp="" l="EV10A" ppth="Hamburg Hbf (Kirchenallee)"/>
+	</s>
+	<s id="-8605924779154097712-2507252223-4">
+		<tl t="p" o="0S" c="Bus" n="19"/>
+		<ar pt="2507252241" pp="" l="EV10A" ppth="Hamburg-Altona(S)|Max-Brauer-Allee (Mitte), Hamburg|Hamburg-Sternschanze"/>
+		<dp pt="2507252241" pp="" l="EV10A" ppth="Hamburg Hbf (Kirchenallee)"/>
+	</s>
+	<s id="5731678070377319209-2507252203-4">
+		<tl t="p" o="0S" c="Bus" n="15"/>
+		<ar pt="2507252221" pp="" l="EV10A" ppth="Hamburg-Altona(S)|Max-Brauer-Allee (Mitte), Hamburg|Hamburg-Sternschanze"/>
+		<dp pt="2507252221" pp="" l="EV10A" ppth="Hamburg Hbf (Kirchenallee)"/>
+	</s>
+	<s id="6954924236955692259-2507251327-17">
+		<tl f="F" t="p" o="80" c="ICE" n="516"/>
+		<ar pt="2507252220" pp="3" ppth="München Hbf|München-Pasing|Augsburg Hbf|Ulm Hbf|Stuttgart Hbf|Mannheim Hbf|Frankfurt(M) Flughafen Fernbf|Köln Hbf|Solingen Hbf|Wuppertal Hbf|Hagen Hbf|Münster(Westf)Hbf|Osnabrück Hbf|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf"/>
+		<dp pt="2507252221" pp="3" hi="1" ppth="Hamburg-Altona"/>
+	</s>
+	<s id="-6710979305471227975-2507252153-4">
+		<tl t="p" o="0S" c="Bus" n="13"/>
+		<ar pt="2507252211" pp="" l="EV10A" ppth="Hamburg-Altona(S)|Max-Brauer-Allee (Mitte), Hamburg|Hamburg-Sternschanze"/>
+		<dp pt="2507252211" pp="" l="EV10A" ppth="Hamburg Hbf (Kirchenallee)"/>
+	</s>
+	<s id="995565198364212788-2507252233-2">
+		<tl t="p" o="0S" c="Bus" n="20"/>
+		<ar pt="2507252239" pp="" l="EV10A" ppth="Hamburg Hbf (Kirchenallee)"/>
+		<dp pt="2507252239" pp="" l="EV10A" ppth="Hamburg-Sternschanze|Max-Brauer-Allee (Mitte), Hamburg|Hamburg-Altona (Max-Brauer-Allee)"/>
+	</s>
+	<s id="-5464250781421927867-2507252203-2">
+		<tl t="p" o="0S" c="Bus" n="14"/>
+		<ar pt="2507252209" pp="" l="EV10A" ppth="Hamburg Hbf (Kirchenallee)"/>
+		<dp pt="2507252209" pp="" l="EV10A" ppth="Hamburg-Sternschanze|Max-Brauer-Allee (Mitte), Hamburg|Hamburg-Altona (Max-Brauer-Allee)"/>
+	</s>
+	<s id="-1398948885955161543-2507252233-4">
+		<tl t="p" o="0S" c="Bus" n="21"/>
+		<ar pt="2507252251" pp="" l="EV10A" ppth="Hamburg-Altona(S)|Max-Brauer-Allee (Mitte), Hamburg|Hamburg-Sternschanze"/>
+		<dp pt="2507252251" pp="" l="EV10A" ppth="Hamburg Hbf (Kirchenallee)"/>
+	</s>
+	<s id="-9008574620251937789-2507252243-2">
+		<tl t="p" o="0S" c="Bus" n="22"/>
+		<ar pt="2507252249" pp="" l="EV10A" ppth="Hamburg Hbf (Kirchenallee)"/>
+		<dp pt="2507252249" pp="" l="EV10A" ppth="Hamburg-Sternschanze|Max-Brauer-Allee (Mitte), Hamburg|Hamburg-Altona (Max-Brauer-Allee)"/>
+	</s>
+	<s id="4966825592039783790-2507252235-2">
+		<tl f="F" t="p" o="80" c="ICE" n="907"/>
+		<ar pt="2507252243" pp="4" hi="1" ppth="Hamburg-Altona"/>
+		<dp pt="2507252244" pp="4" ppth="Hamburg Hbf|Büchen|Ludwigslust|Wittenberge|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz"/>
+	</s>
+</timetable>
