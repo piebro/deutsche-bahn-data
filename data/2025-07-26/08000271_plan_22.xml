@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Neumünster">
+	<s id="1006066592351903842-2507262235-1">
+		<tl f="D" t="p" o="O0" c="NBE" n="83788"/>
+		<dp pt="2507262235" pp="6" l="RB63" ppth="Neumünster Stadtwald|Wasbek|Aukrug|Hohenwestedt"/>
+	</s>
+	<s id="-4955345165909149391-2507262152-4">
+		<tl f="N" t="p" o="800201" c="RE" n="11184"/>
+		<ar pt="2507262235" pp="3" l="7" tra="7548859809289649772-2507262240-1" ppth="Hamburg-Altona|Pinneberg|Elmshorn"/>
+	</s>
+	<s id="573841601175746681-2507262205-5">
+		<tl f="N" t="p" o="800201" c="RE" n="11289"/>
+		<ar pt="2507262228" pp="5" l="7" ppth="Kiel Hbf|Flintbek|Bordesholm|Einfeld"/>
+		<dp pt="2507262233" pp="5" l="7" ppth="Brokstedt|Wrist|Elmshorn|Pinneberg|Hamburg-Altona"/>
+	</s>
+	<s id="7663774454961025192-2507262259-1">
+		<tl t="p" o="A0" c="Bus" n="5044"/>
+		<dp pt="2507262259" pp="" l="EV" ppth="Neumünster Süd AKN|Boostedt|Großenaspe|Wiemersdorf|Bad Bramstedt|Bad Bramstedt Kurhaus|Lentföhrden|Nützen|Dodenhof|Holstentherme|Kaltenkirchen(Holst)"/>
+	</s>
+	<s id="8560708629534520770-2507262032-19">
+		<tl f="D" t="p" o="O0" c="NBE" n="83817"/>
+		<ar pt="2507262225" pp="6" l="RB63" ppth="Büsum|Reinsbüttel|Süderdeich|Wesselburen|Jarrenwisch|Tiebensee|Heide(Holst)|Nordhastedt|Albersdorf|Beldorf|Hademarschen|Gokels|Beringstedt|Osterstedt|Hohenwestedt|Aukrug|Wasbek|Neumünster Stadtwald"/>
+	</s>
+	<s id="-3071477856916954513-2507262045-12">
+		<tl t="p" o="A0" c="Bus" n="5041"/>
+		<ar pt="2507262200" pp="" l="EV" ppth="Kaltenkirchen(Holst)|Holstentherme|Dodenhof|Nützen|Lentföhrden|Bad Bramstedt Kurhaus|Bad Bramstedt|Wiemersdorf|Großenaspe|Boostedt|Neumünster Süd AKN"/>
+	</s>
+	<s id="89420619231960111-2507262128-5">
+		<tl f="N" t="p" o="800201" c="RE" n="11234"/>
+		<ar pt="2507262212" pp="3" l="70" ppth="Hamburg-Altona|Elmshorn|Wrist|Brokstedt"/>
+		<dp pt="2507262213" pp="3" l="70" ppth="Bordesholm|Kiel Hbf"/>
+	</s>
+	<s id="7548859809289649772-2507262240-1">
+		<tl f="N" t="p" o="800201" c="RE" n="11284"/>
+		<dp pt="2507262240" pp="3" l="7" tra="-4955345165909149391-2507262152-4" ppth="Einfeld|Bordesholm|Flintbek|Kiel Hbf"/>
+	</s>
+</timetable>
