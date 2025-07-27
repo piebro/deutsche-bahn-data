@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<timetable station="Nürnberg Hbf">
+	<s id="3678449018525468205-2507270306-1">
+		<tl f="S" t="p" o="800721" c="S" n="39498"/>
+		<dp pt="2507270306" pp="22" l="4" ppth="Nürnberg-Schweinau|Nürnberg-Stein|Unterasbach|Oberasbach|Anwanden|Roßtal|Roßtal Wegbrücke|Raitersaich|Heilsbronn|Petersaurach Nord|Wicklesgreuth|Sachsen(b Ansbach)|Ansbach"/>
+	</s>
+	<s id="-2020154753537839362-2507270226-10">
+		<tl f="S" t="p" o="800721" c="S" n="57887"/>
+		<ar pt="2507270301" pp="15" l="6" ppth="Neustadt(Aisch)Bahnhof|Neustadt(Aisch)Mitte|Emskirchen|Hagenbüchach|Puschendorf|Siegelsdorf|Fürth-Burgfarrnbach|Fürth-Unterfürberg|Fürth(Bay)Hbf"/>
+	</s>
+	<s id="-18516183337252230-2507270340-1">
+		<tl f="S" t="p" o="800721" c="S" n="57888"/>
+		<dp pt="2507270340" pp="15" l="6" ppth="Fürth(Bay)Hbf|Fürth-Unterfürberg|Fürth-Burgfarrnbach|Siegelsdorf|Puschendorf|Hagenbüchach|Emskirchen|Neustadt(Aisch)Mitte|Neustadt(Aisch)Bahnhof"/>
+	</s>
+	<s id="-4272298498907669914-2507261900-6">
+		<tl t="p" o="81" c="NJ" n="40421"/>
+		<ar pt="2507270328" pp="8" ppth="Amsterdam Centraal|Amersfoort Centraal|Deventer|Kassel-Wilhelmshöhe|Würzburg Hbf"/>
+		<dp pt="2507270408" pp="8" ppth="Regensburg Hbf|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="7179290082595886525-2507270233-18">
+		<tl f="S" t="p" o="800721" c="S" n="39698"/>
+		<ar pt="2507270317" pp="1" l="2" ppth="Hartmannshof|Pommelsbrunn|Happurg|Hersbruck(l Pegnitz)|Henfenfeld|Ottensoos|Lauf(links Pegnitz)|Lauf West|Röthenbach-Seespitze|Röthenbach-Steinberg|Röthenbach(Pegnitz)|Schwaig|Nürnberg-Laufamholz|Nürnberg-Rehhof|Nürnberg-Mögeldorf|Nürnberg Ostring|Nürnberg-Dürrenhof"/>
+		<dp pt="2507270321" pp="1" l="2" ppth="Nürnberg-Steinbühl|Nürnberg-Sandreuth|Nürnberg-Eibach|Nürnberg-Reichelsdorf|Reichelsdorfer Keller|Katzwang|Schwabach-Limbach|Schwabach|Rednitzhembach|Büchenbach|Roth"/>
+	</s>
+	<s id="-3823254010841261196-2507261900-6">
+		<tl t="p" o="84" c="NJ" n="421"/>
+		<ar pt="2507270328" pp="8" wings="-4272298498907669914-2507261900" ppth="Amsterdam Centraal|Amersfoort Centraal|Deventer|Kassel-Wilhelmshöhe|Würzburg Hbf"/>
+		<dp pt="2507270436" pp="9" wings="-1830150766494017803-2507262023" ppth="Augsburg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="3284701066619383102-2507270310-12">
+		<tl f="S" t="p" o="800721" c="S" n="39699"/>
+		<ar pt="2507270338" pp="3" l="2" ppth="Roth|Büchenbach|Rednitzhembach|Schwabach|Schwabach-Limbach|Katzwang|Reichelsdorfer Keller|Nürnberg-Reichelsdorf|Nürnberg-Eibach|Nürnberg-Sandreuth|Nürnberg-Steinbühl"/>
+	</s>
+	<s id="-1830150766494017803-2507262023-6">
+		<tl t="p" o="81" c="NJ" n="40491"/>
+		<ar pt="2507270315" pp="9" ppth="Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Würzburg Hbf"/>
+		<dp pt="2507270436" pp="9" ppth="Augsburg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="2288601335607710715-2507262023-6">
+		<tl t="p" o="81" c="NJ" n="491"/>
+		<ar pt="2507270315" pp="9" wings="-1830150766494017803-2507262023" ppth="Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Würzburg Hbf"/>
+		<dp pt="2507270408" pp="8" wings="-4272298498907669914-2507261900" ppth="Regensburg Hbf|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="3827638676587159776-2507270349-1">
+		<tl f="S" t="p" o="800721" c="S" n="39228"/>
+		<dp pt="2507270349" pp="1" l="1" ppth="Nürnberg-Steinbühl|Nürnberg Rothenburger Str.|Fürth(Bay)Hbf|Fürth-Klinikum|Vach|Eltersdorf|Erlangen-Bruck|Erlangen Paul-Gossen-Straße|Erlangen"/>
+	</s>
+	<s id="2985598452215106861-2507270207-19">
+		<tl f="S" t="p" o="800721" c="S" n="39227"/>
+		<ar pt="2507270308" pp="3" l="1" ppth="Bamberg|Strullendorf|Buttenheim|Eggolsheim|Forchheim Nord|Forchheim(Oberfr)|Kersbach|Baiersdorf|Bubenreuth|Erlangen|Erlangen Paul-Gossen-Straße|Erlangen-Bruck|Eltersdorf|Vach|Fürth-Klinikum|Fürth(Bay)Hbf|Nürnberg Rothenburger Str.|Nürnberg-Steinbühl"/>
+		<dp pt="2507270310" pp="3" l="1" ppth="Nürnberg-Dürrenhof|Nürnberg-Gleißhammer|Nürnberg-Dutzendteich|Nürnberg Frankenstadion|Fischbach(Nürnberg)|Feucht|Feucht Ost|Ochenbruck|Mimberg|Burgthann|Oberferrieden|Postbauer-Heng|Pölling|Neumarkt(Oberpf)"/>
+	</s>
+</timetable>

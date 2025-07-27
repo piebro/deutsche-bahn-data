@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<timetable station="Neuss Hbf">
+	<s id="5528272555032813873-2507270154-3">
+		<tl f="D" t="p" o="R4WEST" c="VIA" n="56643"/>
+		<ar pt="2507270205" pp="3" l="RB39" ppth="Düsseldorf Hbf|Düsseldorf-Bilk"/>
+		<dp pt="2507270206" pp="3" l="RB39" ppth="Holzheim(b Neuss)|Kapellen-Wevelinghoven|Grevenbroich"/>
+	</s>
+	<s id="-6366898458119155738-2507270242-1">
+		<tl t="p" o="B2" c="Bus" n="1125"/>
+		<dp pt="2507270242" pp="" l="S11" ppth="Neuss Am Kaiser|Neuss Rheinparkcenter|Düsseldorf-Hamm|Düsseldorf Völklinger Str.|Düsseldorf-Bilk|Düsseldorf Friedrichstadt|Düsseldorf Hbf"/>
+	</s>
+	<s id="9058475373792035283-2507270204-6">
+		<tl t="p" o="B2" c="Bus" n="8025"/>
+		<ar pt="2507270250" pp="" l="S8" ppth="Mönchengladbach Hbf|Mönchengladbach-Lürrip|Korschenbroich|Kleinenbroich|Büttgen"/>
+		<dp pt="2507270250" pp="" l="S8" ppth="Neuss Am Kaiser|Neuss Rheinparkcenter|Düsseldorf-Hamm|Düsseldorf Völklinger Str.|Düsseldorf-Bilk|Düsseldorf Friedrichstadt|Düsseldorf Hbf"/>
+	</s>
+	<s id="7361030457339348651-2507270210-8">
+		<tl t="p" o="B2" c="Bus" n="80040"/>
+		<ar pt="2507270255" pp="" l="S8" ppth="Düsseldorf Hbf|Düsseldorf Friedrichstadt|Düsseldorf-Bilk|Düsseldorf Völklinger Str.|Düsseldorf-Hamm|Neuss Rheinparkcenter|Neuss Am Kaiser"/>
+		<dp pt="2507270255" pp="" l="S8" ppth="Büttgen|Kleinenbroich|Korschenbroich|Mönchengladbach-Lürrip|Mönchengladbach Hbf"/>
+	</s>
+	<s id="-4166497960262799844-2507270234-4">
+		<tl f="D" t="p" o="R4WEST" c="VIA" n="56642"/>
+		<ar pt="2507270251" pp="2" l="RB39" ppth="Grevenbroich|Kapellen-Wevelinghoven|Holzheim(b Neuss)"/>
+		<dp pt="2507270252" pp="2" l="RB39" ppth="Düsseldorf-Bilk|Düsseldorf Hbf"/>
+	</s>
+	<s id="-3726283664396896333-2507270238-8">
+		<tl f="S" t="p" o="8003S" c="S" n="26658"/>
+		<ar pt="2507270254" pp="7" l="11" ppth="Düsseldorf Hbf|Düsseldorf Friedrichstadt|Düsseldorf-Bilk|Düsseldorf Völklinger Str.|Düsseldorf-Hamm|Neuss Rheinparkcenter|Neuss Am Kaiser"/>
+		<dp pt="2507270256" pp="7" l="11" ppth="Neuss Süd|Norf"/>
+	</s>
+	<s id="2056400369948619431-2507270215-5">
+		<tl t="p" o="M2" c="Bus" n="4223"/>
+		<ar pt="2507270237" pp="" l="S28" ppth="Kaarster See|Kaarster Bahnhof|Kaarst Mitte/Holzbüttgen|Kaarst IKEA"/>
+	</s>
+	<s id="-8996563709027987435-2507270224-3">
+		<tl f="S" t="p" o="8003S" c="S" n="26655"/>
+		<ar pt="2507270232" pp="6" l="11" ppth="Norf|Neuss Süd"/>
+		<dp pt="2507270235" pp="6" l="11" ppth="Düsseldorf-Bilk|Düsseldorf Hbf"/>
+	</s>
+	<s id="8496392348211596601-2507270251-1">
+		<tl t="p" o="M2" c="Bus" n="4222"/>
+		<dp pt="2507270251" pp="" l="S28" ppth="Kaarst IKEA|Kaarst Mitte/Holzbüttgen|Kaarster Bahnhof|Kaarster See"/>
+	</s>
+	<s id="-2045970786625580397-2507270145-5">
+		<tl t="p" o="M2" c="Bus" n="4213"/>
+		<ar pt="2507270207" pp="" l="S28" ppth="Kaarster See|Kaarster Bahnhof|Kaarst Mitte/Holzbüttgen|Kaarst IKEA"/>
+	</s>
+</timetable>
