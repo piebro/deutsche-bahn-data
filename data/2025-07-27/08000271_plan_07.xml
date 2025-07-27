@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<timetable station="Neumünster">
+	<s id="-4551411249960278432-2507270642-6">
+		<tl f="N" t="p" o="800201" c="RE" n="11244"/>
+		<ar pt="2507270730" pp="3" l="7" ppth="Hamburg-Altona|Pinneberg|Elmshorn|Wrist|Brokstedt"/>
+		<dp pt="2507270734" pp="3" l="7" ppth="Einfeld|Bordesholm|Flintbek|Kiel Hbf"/>
+	</s>
+	<s id="6220447137645637542-2507270723-3">
+		<tl f="N" t="p" o="800201" c="RE" n="11209"/>
+		<ar pt="2507270741" pp="5" l="70" ppth="Kiel Hbf|Bordesholm"/>
+		<dp pt="2507270742" pp="5" l="70" ppth="Brokstedt|Wrist|Elmshorn|Hamburg-Altona"/>
+	</s>
+	<s id="-6335626679459430744-2507270734-1">
+		<tl f="N" t="p" o="800201" c="RE" n="11144"/>
+		<dp pt="2507270734" pp="3" l="7" ppth="Nortorf|Rendsburg|Owschlag|Schleswig|Jübek|Tarp|Flensburg"/>
+	</s>
+	<s id="8538862398725350537-2507270759-1">
+		<tl t="p" o="A0" c="Bus" n="5014"/>
+		<dp pt="2507270759" pp="" l="EV" ppth="Neumünster Süd AKN|Boostedt|Großenaspe|Wiemersdorf|Bad Bramstedt|Bad Bramstedt Kurhaus|Lentföhrden|Nützen|Dodenhof|Holstentherme|Kaltenkirchen(Holst)"/>
+	</s>
+	<s id="5267858360378119416-2507270735-1">
+		<tl f="D" t="p" o="O0" c="NBE" n="83804"/>
+		<dp pt="2507270735" pp="6" l="RB63" ppth="Neumünster Stadtwald|Wasbek|Aukrug|Hohenwestedt|Osterstedt|Beringstedt|Gokels|Hademarschen|Beldorf|Albersdorf|Nordhastedt|Heide(Holst)|Tiebensee|Jarrenwisch|Wesselburen|Süderdeich|Reinsbüttel|Büsum"/>
+	</s>
+	<s id="5468629003521364327-2507270702-5">
+		<tl f="N" t="p" o="800201" c="RE" n="11249"/>
+		<ar pt="2507270726" pp="5" l="7" ppth="Kiel Hbf|Flintbek|Bordesholm|Einfeld"/>
+		<dp pt="2507270735" pp="5" l="7" wings="6190818373198489735-2507270623" ppth="Elmshorn|Hamburg-Altona"/>
+	</s>
+	<s id="6190818373198489735-2507270623-8">
+		<tl f="N" t="p" o="800201" c="RE" n="11149"/>
+		<ar pt="2507270730" pp="5" l="7" ppth="Flensburg|Tarp|Jübek|Schleswig|Owschlag|Rendsburg|Nortorf"/>
+		<dp pt="2507270735" pp="5" l="7" ppth="Elmshorn|Hamburg-Altona"/>
+	</s>
+	<s id="8415320858627063016-2507270702-5">
+		<tl f="D" t="p" o="O0" c="NBE" n="83773"/>
+		<ar pt="2507270725" pp="6" l="RB63" ppth="Hohenwestedt|Aukrug|Wasbek|Neumünster Stadtwald"/>
+	</s>
+</timetable>

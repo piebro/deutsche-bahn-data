@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<timetable station="Karlsruhe Hbf">
+	<s id="-7072651002479617365-2507270603-1">
+		<tl f="N" t="p" o="800571" c="RE" n="15831"/>
+		<dp pt="2507270603" pp="10" l="45" ppth="Karlsruhe-Durlach|Jöhlingen|Wössingen Ost|Bretten|Bretten Stadtmitte|Gölshausen|Oberderdingen-Flehingen|Zaisenhausen|Sulzfeld(Baden)|Eppingen|Gemmingen|Stetten am Heuchelberg|Schwaigern(Württ)|Leingarten|Heilbronn Hbf"/>
+	</s>
+	<s id="-3238246615504329950-2507262221-11">
+		<tl t="p" o="81" c="NJ" n="471"/>
+		<ar pt="2507270603" pp="7" wings="-3600137003086714631-2507262221" ppth="Hamburg-Harburg|Bremen Hbf|Verden(Aller)|Nienburg(Weser)|Hannover Hbf|Göttingen|Hanau Hbf|Frankfurt(Main)Süd|Darmstadt Hbf|Heidelberg Hbf"/>
+		<dp pt="2507270605" pp="7" hi="1" wings="-3600137003086714631-2507262221" ppth="Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-3600137003086714631-2507262221-11">
+		<tl f="F" t="p" o="NZ" c="IC" n="60471"/>
+		<ar pt="2507270603" pp="7" ppth="Hamburg-Harburg|Bremen Hbf|Verden(Aller)|Nienburg(Weser)|Hannover Hbf|Göttingen|Hanau Hbf|Frankfurt(Main)Süd|Darmstadt Hbf|Heidelberg Hbf"/>
+		<dp pt="2507270605" pp="7" ppth="Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-2870692771841891155-2507270559-7">
+		<tl f="N" t="p" o="GARE" c="RE" n="19038"/>
+		<ar pt="2507270653" pp="12" l="1" ppth="Stuttgart Hbf|Vaihingen(Enz)|Mühlacker|Pforzheim Hbf|Wilferdingen-Singen|Karlsruhe-Durlach"/>
+	</s>
+	<s id="6288948958514925164-2507270600-1">
+		<tl f="N" t="p" o="GARE" c="RE" n="19689"/>
+		<dp pt="2507270600" pp="11" l="1" ppth="Karlsruhe-Durlach|Pforzheim Hbf|Mühlacker|Vaihingen(Enz)|Stuttgart Hbf"/>
+	</s>
+	<s id="-1157351725652399819-2507270521-5">
+		<tl f="F" t="p" o="80" c="ICE" n="206"/>
+		<ar pt="2507270658" pp="3" ppth="Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden"/>
+		<dp pt="2507270701" pp="3" ppth="Mannheim Hbf|Frankfurt(M) Flughafen Fernbf|Köln Hbf|Solingen Hbf|Wuppertal Hbf|Hagen Hbf|Dortmund Hbf|Münster(Westf)Hbf|Osnabrück Hbf|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="3937759105609705453-2507270542-16">
+		<tl f="S" t="p" o="801518" c="S" n="38909"/>
+		<ar pt="2507270636" pp="2" l="9" ppth="Mannheim Hbf|Mannheim-Neckarau|Mannheim-Rheinau|Schwetzingen-Hirschacker|Schwetzingen Nordstadt|Schwetzingen|Oftersheim|Hockenheim|Neulußheim|Waghäusel|Wiesental|Graben-Neudorf|Friedrichstal(Baden)|Blankenloch|Karlsruhe-Hagsfeld"/>
+	</s>
+	<s id="-5676428147416065355-2507270548-12">
+		<tl f="N" t="p" o="800647" c="RE" n="4702"/>
+		<ar pt="2507270641" pp="6" l="2" ppth="Offenburg|Appenweier|Renchen|Achern|Bühl(Baden)|Baden-Baden|Rastatt|Muggensturm|Malsch|Bruchhausen(b Ettlingen)|Ettlingen West"/>
+	</s>
+	<s id="8933445813407839214-2507270541-3">
+		<tl f="F" t="p" o="80" c="ICE" n="474"/>
+		<ar pt="2507270649" pp="5" ppth="Freiburg(Breisgau) Hbf|Baden-Baden"/>
+		<dp pt="2507270651" pp="5" ppth="Mannheim Hbf|Frankfurt(Main)Hbf|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg Hbf"/>
+	</s>
+	<s id="-5914763045034697227-2507270534-16">
+		<tl f="N" t="p" o="800571" c="RE" n="15828"/>
+		<ar pt="2507270647" pp="13" l="45" ppth="Heilbronn Hbf|Leingarten|Schwaigern(Württ)|Stetten am Heuchelberg|Gemmingen|Eppingen|Sulzfeld(Baden)|Zaisenhausen|Oberderdingen-Flehingen|Gölshausen|Bretten Stadtmitte|Bretten|Wössingen Ost|Jöhlingen|Karlsruhe-Durlach"/>
+	</s>
+	<s id="4121683295209577191-2507262315-12">
+		<tl f="F" t="p" o="80" c="ICE" n="271"/>
+		<ar pt="2507270656" pp="2" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Spandau|Wolfsburg Hbf|Hannover Hbf|Göttingen|Fulda|Hanau Hbf|Frankfurt(Main)Hbf|Mannheim Hbf"/>
+		<dp pt="2507270658" pp="2" ppth="Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB|Sargans|Landquart|Chur"/>
+	</s>
+	<s id="3344888193211045561-2507270606-1">
+		<tl f="N" t="p" o="800647" c="RE" n="4709"/>
+		<dp pt="2507270606" pp="12" l="2" ppth="Rastatt|Baden-Baden|Bühl(Baden)|Achern|Renchen|Appenweier|Offenburg|Biberach(Baden)|Haslach|Hausach|Hornberg(Schwarzw)|Triberg|St Georgen(Schwarzw)|Villingen(Schwarzw)|Donaueschingen|Immendingen|Engen|Singen(Hohentwiel)|Radolfzell|Allensbach|Konstanz-Petershausen|Konstanz"/>
+	</s>
+	<s id="-4623133649844964594-2507270628-1">
+		<tl f="S" t="p" o="801518" c="S" n="38918"/>
+		<dp pt="2507270628" pp="3" l="9" ppth="Karlsruhe-Hagsfeld|Blankenloch|Friedrichstal(Baden)|Graben-Neudorf|Wiesental|Waghäusel|Neulußheim|Hockenheim|Oftersheim|Schwetzingen|Schwetzingen Nordstadt|Schwetzingen-Hirschacker|Mannheim-Rheinau|Mannheim-Neckarau|Mannheim Hbf"/>
+	</s>
+</timetable>
