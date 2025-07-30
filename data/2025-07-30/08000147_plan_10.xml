@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg-Harburg">
+	<s id="7304792284721401629-2507300932-9">
+		<tl f="D" t="p" o="R1" c="ME" n="81614"/>
+		<ar pt="2507301008" pp="1" l="RB31" ppth="Lüneburg|Bardowick|Radbruch|Winsen(Luhe)|Ashausen|Stelle|Maschen|Meckelfeld"/>
+	</s>
+	<s id="-5897633443992855156-2507301015-2">
+		<tl f="D" t="p" o="R1" c="ME" n="82017"/>
+		<ar pt="2507301025" pp="3" l="RE4" ppth="Hamburg Hbf"/>
+		<dp pt="2507301026" pp="3" l="RE4" ppth="Buchholz(Nordheide)|Tostedt|Rotenburg(Wümme)|Bremen Hbf"/>
+	</s>
+	<s id="5251245117498160871-2507300659-9">
+		<tl t="p" o="FLX20" c="FLX" n="1340"/>
+		<ar pt="2507301055" pp="3" l="20" ppth="Köln Hbf|Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Gelsenkirchen Hbf|Münster(Westf)Hbf|Osnabrück Hbf|Bremen Hbf"/>
+	</s>
+	<s id="-3189818162776835673-2507301013-1">
+		<tl f="F" t="p" o="80" c="ICE" n="787"/>
+		<dp pt="2507301013" pp="4" ppth="Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf|München Hbf"/>
+	</s>
+	<s id="2686007473625185344-2507292328-21">
+		<tl f="F" t="p" o="80" c="ICE" n="618"/>
+		<ar pt="2507301001" pp="2" ppth="München Hbf|München-Pasing|Augsburg Hbf|Günzburg|Ulm Hbf|Stuttgart Hbf|Heidelberg Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Siegburg/Bonn|Köln Hbf|Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Münster(Westf)Hbf|Osnabrück Hbf|Bremen Hbf"/>
+		<dp pt="2507301003" pp="2" ppth="Hamburg Hbf"/>
+	</s>
+	<s id="1946038094103519684-2507301023-1">
+		<tl f="N" t="p" o="RSUE" c="RE" n="14513"/>
+		<dp pt="2507301023" pp="6" l="5" ppth="Buxtehude|Horneburg|Stade|Hammah|Himmelpforten|Hechthausen|Hemmoor|Wingst|Cadenberge|Otterndorf|Cuxhaven"/>
+	</s>
+	<s id="8650302694209898727-2507300909-12">
+		<tl f="N" t="p" o="RSUE" c="RE" n="14508"/>
+		<ar pt="2507301038" pp="6" l="5" ppth="Cuxhaven|Otterndorf|Cadenberge|Wingst|Hemmoor|Hechthausen|Himmelpforten|Hammah|Stade|Horneburg|Buxtehude"/>
+	</s>
+	<s id="-5959358126767996816-2507301001-6">
+		<tl f="D" t="p" o="R1" c="ME" n="82116"/>
+		<ar pt="2507301049" pp="1" l="RE3" ppth="Uelzen|Bad Bevensen|Bienenbüttel|Lüneburg|Winsen(Luhe)"/>
+		<dp pt="2507301051" pp="1" l="RE3" ppth="Hamburg Hbf"/>
+	</s>
+	<s id="8933240648819221096-2507301037-2">
+		<tl f="D" t="p" o="R1" c="ME" n="81919"/>
+		<ar pt="2507301048" pp="3" l="RB41" ppth="Hamburg Hbf"/>
+		<dp pt="2507301049" pp="3" l="RB41" ppth="Hittfeld|Klecken|Buchholz(Nordheide)|Sprötze|Tostedt|Lauenbrück|Scheeßel|Rotenburg(Wümme)|Sottrum|Ottersberg(Han)|Sagehorn|Bremen-Oberneuland|Bremen Hbf"/>
+	</s>
+	<s id="6843012683697495855-2507301046-2">
+		<tl f="F" t="p" o="80" c="ICE" n="109"/>
+		<ar pt="2507301055" pp="5" hi="1" ppth="Hamburg Hbf"/>
+		<dp pt="2507301056" pp="5" ppth="Bremen Hbf|Osnabrück Hbf|Münster(Westf)Hbf|Dortmund Hbf|Bochum Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Hbf|Frankfurt(M) Flughafen Fernbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB"/>
+	</s>
+	<s id="3052352470445208682-2507300957-2">
+		<tl f="D" t="p" o="R1" c="ME" n="82117"/>
+		<ar pt="2507301007" pp="3" l="RE3" ppth="Hamburg Hbf"/>
+		<dp pt="2507301008" pp="3" l="RE3" ppth="Winsen(Luhe)|Lüneburg|Bienenbüttel|Bad Bevensen|Uelzen"/>
+	</s>
+	<s id="1281388068759757233-2507300859-14">
+		<tl f="D" t="p" o="R1" c="ME" n="81914"/>
+		<ar pt="2507301013" pp="2" l="RB41" ppth="Bremen Hbf|Bremen-Oberneuland|Sagehorn|Ottersberg(Han)|Sottrum|Rotenburg(Wümme)|Scheeßel|Lauenbrück|Tostedt|Sprötze|Buchholz(Nordheide)|Klecken|Hittfeld"/>
+		<dp pt="2507301014" pp="2" l="RB41" ppth="Hamburg Hbf"/>
+	</s>
+	<s id="-8882657082382035783-2507300933-5">
+		<tl f="D" t="p" o="R1" c="ME" n="82016"/>
+		<ar pt="2507301030" pp="2" l="RE4" ppth="Bremen Hbf|Rotenburg(Wümme)|Tostedt|Buchholz(Nordheide)"/>
+		<dp pt="2507301031" pp="2" l="RE4" ppth="Hamburg Hbf"/>
+	</s>
+	<s id="690636475631235659-2507301045-1">
+		<tl f="D" t="p" o="R1" c="ME" n="81619"/>
+		<dp pt="2507301045" pp="4" l="RB31" ppth="Meckelfeld|Maschen|Stelle|Ashausen|Winsen(Luhe)|Radbruch|Bardowick|Lüneburg"/>
+	</s>
+</timetable>
