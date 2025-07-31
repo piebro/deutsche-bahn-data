@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="-5281121213545344483-2507310417-1">
+		<tl f="N" t="p" o="800165" c="RE" n="18752"/>
+		<dp pt="2507310417" pp="3" l="2" ppth="Königs Wusterhausen|Lübben(Spreewald)|Lübbenau(Spreewald)|Raddusch|Vetschau|Kunersdorf|Kolkwitz|Cottbus Hbf"/>
+	</s>
+	<s id="-3663725125142417725-2507310409-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18651"/>
+		<dp pt="2507310409" pp="4" l="32" tra="-6637975838343598332-2507310333-3" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+	<s id="-6637975838343598332-2507310333-3">
+		<tl t="p" o="800165" c="FEX" n="19803"/>
+		<ar pt="2507310401" pp="4" tra="-3663725125142417725-2507310409-1" ppth="Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="976888597252262936-2507310444-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62003"/>
+		<dp pt="2507310444" pp="2" l="8" ppth="Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Spandau|Falkensee|Nauen|Paulinenaue|Friesack(Mark)|Neustadt(Dosse)|Breddin|Glöwen|Bad Wilsnack|Wittenberge|Karstädt|Grabow(Meckl)|Ludwigslust|Lüblow(Meckl)|Rastow|Sülstorf|Holthusen|Schwerin Süd|Schwerin Mitte|Schwerin Hbf|Lübstorf|Bad Kleinen|Dorf Mecklenburg|Wismar"/>
+	</s>
+	<s id="-2823169835526955329-2507310425-1">
+		<tl t="p" o="800165" c="FEX" n="19800"/>
+		<dp pt="2507310425" pp="1" ppth="Berlin-Schöneweide|Berlin-Lichtenberg|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="-466922262291159064-2507310353-8">
+		<tl f="N" t="p" o="800165" c="RB" n="18100"/>
+		<ar pt="2507310436" pp="1" l="22" ppth="Potsdam Hbf|Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Potsdam Pirschheide|Saarmund|Ludwigsfelde-Struveshof"/>
+		<dp pt="2507310438" pp="1" l="22" ppth="Königs Wusterhausen"/>
+	</s>
+	<s id="1587664332490671964-2507310458-1">
+		<tl t="p" o="800165" c="FEX" n="19802"/>
+		<dp pt="2507310458" pp="1" tra="2138088866152133492-2507310439-3" ppth="Berlin-Schöneweide|Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="-1052154697880603635-2507310301-9">
+		<tl f="N" t="p" o="800165" c="RE" n="18751"/>
+		<ar pt="2507310408" pp="3" l="2" ppth="Cottbus Hbf|Vetschau|Lübbenau(Spreewald)|Lübben(Spreewald)|Groß Köris|Bestensee|Zeesen|Königs Wusterhausen"/>
+	</s>
+	<s id="2138088866152133492-2507310439-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18650"/>
+		<ar pt="2507310455" pp="1" l="32" tra="1587664332490671964-2507310458-1" ppth="Ludwigsfelde|Birkengrund"/>
+	</s>
+	<s id="4063429164769473916-2507310351-5">
+		<tl t="p" o="800165" c="FEX" n="19805"/>
+		<ar pt="2507310430" pp="4" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz|Berlin-Schöneweide"/>
+	</s>
+</timetable>
