@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf Gl.27-36">
+	<s id="-505416641963080531-2508020632-1">
+		<tl f="N" t="p" o="800790" c="RB" n="59445"/>
+		<dp pt="2508020632" pp="29" l="6" ppth="München-Pasing|Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen"/>
+	</s>
+	<s id="7741355995119517278-2508020532-6">
+		<tl f="N" t="p" o="8007H2" c="RB" n="58113"/>
+		<ar pt="2508020618" pp="30" l="74" ppth="Buchloe|Kaufering|Geltendorf|Fürstenfeldbruck|München-Pasing"/>
+	</s>
+	<s id="3314163216362236617-2508020658-1">
+		<tl f="N" t="p" o="800790" c="RB" n="59505"/>
+		<dp pt="2508020658" pp="28" l="65" ppth="München-Pasing|Starnberg|Tutzing|Weilheim(Oberbay)"/>
+	</s>
+	<s id="164221339830990567-2508020639-1">
+		<tl f="N" t="p" o="8007H2" c="RB" n="58112"/>
+		<dp pt="2508020639" pp="30" l="74" ppth="München-Pasing|Fürstenfeldbruck|Geltendorf|Kaufering|Buchloe"/>
+	</s>
+	<s id="2037975313025132766-2508020512-9">
+		<tl f="N" t="p" o="8007D5" c="RE" n="3873"/>
+		<ar pt="2508020641" pp="29" l="70" ppth="Kempten(Allgäu)Hbf|Günzach|Biessenhofen|Kaufbeuren|Buchloe|Kaufering|Geltendorf|München-Pasing"/>
+	</s>
+	<s id="5401846190666439142-2508020500-12">
+		<tl f="N" t="p" o="800790" c="RB" n="59442"/>
+		<ar pt="2508020621" pp="28" l="6" ppth="Garmisch-Partenkirchen|Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)|Tutzing|München-Pasing"/>
+	</s>
+	<s id="-4943421670880605422-2508020658-1">
+		<tl f="N" t="p" o="800790" c="RB" n="59615"/>
+		<dp pt="2508020658" pp="28" l="66" wings="3314163216362236617-2508020658" ppth="München-Pasing|Starnberg|Tutzing|Bernried|Seeshaupt|Iffeldorf|Penzberg|Bichl|Benediktbeuern|Kochel"/>
+	</s>
+	<s id="6088908245135049487-2508020654-1">
+		<tl t="p" o="80" c="ECE" n="198"/>
+		<dp pt="2508020654" pp="26" pde="Zürich HB" ppth="Buchloe|Memmingen|Lindau-Reutin"/>
+	</s>
+	<s id="9054643924436282665-2508020504-10">
+		<tl f="N" t="p" o="800790" c="RB" n="59602"/>
+		<ar pt="2508020621" pp="28" l="66" wings="5401846190666439142-2508020500" ppth="Kochel|Benediktbeuern|Bichl|Penzberg|Iffeldorf|Seeshaupt|Bernried|Tutzing|München-Pasing"/>
+	</s>
+</timetable>
