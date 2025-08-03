@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<timetable station="Regensburg Hbf">
+	<s id="2288601335607710715-2508022023-7">
+		<tl t="p" o="81" c="NJ" n="491"/>
+		<ar pt="2508030507" pp="9" wings="-4272298498907669914-2508021900" ppth="Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Würzburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2508030509" pp="9" wings="-4272298498907669914-2508021900" ppth="Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="4126852273276753941-2508030550-1">
+		<tl t="p" o="A8N" c="Bus" n="60365"/>
+		<dp pt="2508030550" pp="" l="RE25" ppth="Schwandorf"/>
+	</s>
+	<s id="8400507717241875564-2508030428-12">
+		<tl f="N" t="p" o="800767" c="RE" n="57900"/>
+		<ar pt="2508030554" pp="108" l="22" ppth="München Flughafen Terminal|Freising|Moosburg|Landshut(Bay)Hbf|Ergoldsbach|Neufahrn(Niederbay)|Eggmühl|Hagelstadt|Köfering|Obertraubling|Regensburg-Burgweinting"/>
+	</s>
+	<s id="-4272298498907669914-2508021900-9">
+		<tl t="p" o="81" c="NJ" n="40421"/>
+		<ar pt="2508030507" pp="9" ppth="Amsterdam Centraal|Amersfoort Centraal|Deventer|Münster(Westf)Hbf|Hamm(Westf)Hbf|Kassel-Wilhelmshöhe|Würzburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2508030509" pp="9" ppth="Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="531269361952407296-2508030450-8">
+		<tl f="D" t="p" o="S9" c="ag" n="84110"/>
+		<ar pt="2508030532" pp="5" l="RE50" ppth="Plattling|Straßkirchen|Straubing|Radldorf(Niederbay)|Sünching|Obertraubling|Regensburg-Burgweinting"/>
+		<dp pt="2508030533" pp="5" l="RE50" ppth="Regensburg-Prüfening|Etterzhausen|Undorf|Deuerling|Laaber|Beratzhausen|Mausheim|Parsberg|Seubersdorf|Batzhausen|Deining(Oberpf)|Neumarkt(Oberpf)|Nürnberg Hbf"/>
+	</s>
+	<s id="798840725885967286-2508030546-1">
+		<tl f="N" t="p" o="8007H3" c="RE" n="59681"/>
+		<dp pt="2508030546" pp="4 A-C" l="2" ppth="Neufahrn(Niederbay)|Ergoldsbach|Landshut(Bay)Hbf|Freising|München Hbf"/>
+	</s>
+	<s id="-2100766286820800776-2508030528-1">
+		<tl f="N" t="p" o="800767" c="RE" n="57905"/>
+		<dp pt="2508030528" pp="4 A-C" l="22" ppth="Obertraubling|Köfering|Hagelstadt|Eggmühl|Neufahrn(Niederbay)|Ergoldsbach|Landshut(Bay)Hbf|Moosburg|Freising|München Flughafen Besucherpark|München Flughafen Terminal"/>
+	</s>
+</timetable>

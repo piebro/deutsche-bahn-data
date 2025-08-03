@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<timetable station="Nürnberg Hbf">
+	<s id="-4272298498907669914-2508021900-8">
+		<tl t="p" o="81" c="NJ" n="40421"/>
+		<ar pt="2508030330" pp="8" ppth="Amsterdam Centraal|Amersfoort Centraal|Deventer|Münster(Westf)Hbf|Hamm(Westf)Hbf|Kassel-Wilhelmshöhe|Würzburg Hbf"/>
+		<dp pt="2508030408" pp="8" ppth="Regensburg Hbf|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="-3823254010841261196-2508021900-8">
+		<tl t="p" o="84" c="NJ" n="421"/>
+		<ar pt="2508030330" pp="8" wings="-4272298498907669914-2508021900" ppth="Amsterdam Centraal|Amersfoort Centraal|Deventer|Münster(Westf)Hbf|Hamm(Westf)Hbf|Kassel-Wilhelmshöhe|Würzburg Hbf"/>
+		<dp pt="2508030436" pp="9" wings="-1830150766494017803-2508022023" ppth="Augsburg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="4825127128022961026-2508030441-1">
+		<tl f="N" t="p" o="800765" c="RB" n="59143"/>
+		<dp pt="2508030441" pp="5 C-F" l="16" ppth="Schwabach|Roth|Unterheckenhofen|Georgensgmünd|Mühlstetten|Pleinfeld|Ellingen(Bay)|Weißenburg(Bay)|Treuchtlingen|Pappenheim|Solnhofen|Dollnstein|Eichstätt Bahnhof|Adelschlag|Eitensheim|Gaimersheim|Ingolstadt Audi|Ingolstadt Nord|Ingolstadt Hbf|Baar-Ebenhausen|Rohrbach(Ilm)|Pfaffenhofen(Ilm)|Reichertshausen(Ilm)|Paindorf|Petershausen(Obb)|Dachau Bahnhof|München Hbf"/>
+	</s>
+	<s id="-1830150766494017803-2508022023-6">
+		<tl t="p" o="81" c="NJ" n="40491"/>
+		<ar pt="2508030315" pp="9" ppth="Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Würzburg Hbf"/>
+		<dp pt="2508030436" pp="9" ppth="Augsburg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="2288601335607710715-2508022023-6">
+		<tl t="p" o="81" c="NJ" n="491"/>
+		<ar pt="2508030315" pp="9" wings="-1830150766494017803-2508022023" ppth="Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Würzburg Hbf"/>
+		<dp pt="2508030408" pp="8" wings="-4272298498907669914-2508021900" ppth="Regensburg Hbf|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+</timetable>
