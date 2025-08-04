@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<timetable station="Bonn Hbf">
+	<s id="-6831600949175138929-2508042102-37">
+		<tl f="N" t="p" o="TR" c="RB" n="25444"/>
+		<ar pt="2508042334" pp="1" l="26" ppth="Mainz Hbf|Mainz-Mombach|Budenheim|Uhlerborn|Heidesheim(Rheinhess)|Ingelheim|Gau Algesheim|Bingen-Gaulsheim|Bingen(Rhein) Stadt|Bingen(Rhein) Hbf|Trechtingshausen|Niederheimbach|Bacharach|Oberwesel|St Goar|Boppard-Hirzenach|Boppard-Bad Salzig|Boppard Hbf|Spay|Rhens|Koblenz Hbf|Koblenz Stadtmitte|Koblenz-Lützel|Mülheim-Kärlich|Weißenthurm|Andernach|Namedy|Brohl|Bad Breisig|Sinzig(Rhein)|Remagen|Oberwinter|Rolandseck|Bonn-Mehlem|Bonn-Bad Godesberg|Bonn UN Campus"/>
+		<dp pt="2508042336" pp="1" l="26" ppth="Roisdorf|Sechtem|Brühl|Hürth-Kalscheuren|Köln Süd|Köln West|Köln Hbf|Köln Messe/Deutz|Köln/Bonn Flughafen"/>
+	</s>
+	<s id="385378831927789101-2508042343-4">
+		<tl f="N" t="p" o="NXRB" c="RB" n="17382"/>
+		<ar pt="2508042353" pp="1" l="48" ppth="Bonn-Mehlem|Bonn-Bad Godesberg|Bonn UN Campus"/>
+		<dp pt="2508042354" pp="1" l="48" ppth="Roisdorf|Sechtem|Brühl|Hürth-Kalscheuren|Köln Süd|Köln West|Köln Hbf"/>
+	</s>
+	<s id="7582314568044505717-2508042015-4">
+		<tl f="F" t="p" o="NZ" c="IC" n="60403"/>
+		<ar pt="2508042359" pp="3" ppth="Amsterdam Centraal|Utrecht Centraal|Eindhoven Centraal"/>
+		<dp pt="2508050001" pp="3" ppth="Koblenz Hbf|Mainz Hbf|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-3259619502264666698-2508042216-10">
+		<tl f="N" t="p" o="NXRE" c="RE" n="28538"/>
+		<ar pt="2508042302" pp="1" l="5" ppth="Koblenz Hbf|Koblenz Stadtmitte|Andernach|Bad Breisig|Sinzig(Rhein)|Remagen|Oberwinter|Bonn-Bad Godesberg|Bonn UN Campus"/>
+		<dp pt="2508042304" pp="1" l="5" ppth="Brühl|Köln Süd|Köln Hbf|Köln Messe/Deutz"/>
+	</s>
+	<s id="5276431277133389826-2508042204-7">
+		<tl t="p" o="B2" c="Bus" n="2971"/>
+		<ar pt="2508042304" pp="" l="S23" ppth="Meckenheim(Bz Köln)|Meckenheim Industriepark|Alfter-Witterschlick|Alfter-Impekoven|Bonn-Duisdorf|Bonn Helmholtzstraße"/>
+	</s>
+	<s id="8469466300270557524-2508042040-8">
+		<tl f="F" t="p" o="80" c="IC" n="2444"/>
+		<ar pt="2508042312" pp="3" ppth="Bielefeld Hbf|Gütersloh Hbf|Hamm(Westf)Hbf|Hagen Hbf|Wuppertal Hbf|Solingen Hbf|Köln Hbf"/>
+		<dp pt="2508042314" pp="3" ppth="Remagen|Andernach|Koblenz Hbf"/>
+	</s>
+	<s id="-5851721557238592488-2508042015-4">
+		<tl t="p" o="84" c="NJ" n="403"/>
+		<ar pt="2508042359" pp="3" hi="1" wings="7582314568044505717-2508042015" ppth="Amsterdam Centraal|Utrecht Centraal|Eindhoven Centraal"/>
+		<dp pt="2508050001" pp="3" wings="7582314568044505717-2508042015" ppth="Koblenz Hbf|Mainz Hbf|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="416882499297797432-2508042205-14">
+		<tl f="N" t="p" o="NXRB" c="RB" n="17375"/>
+		<ar pt="2508042306" pp="3" l="48" ppth="Solingen Hbf|Leichlingen|Opladen|Leverkusen-Manfort|Köln-Mülheim|Köln Messe/Deutz|Köln Hbf|Köln West|Köln Süd|Hürth-Kalscheuren|Brühl|Sechtem|Roisdorf"/>
+		<dp pt="2508042308" pp="3" l="48" ppth="Bonn UN Campus|Bonn-Bad Godesberg|Bonn-Mehlem"/>
+	</s>
+	<s id="5340462050407519154-2508042234-7">
+		<tl t="p" o="B2" c="Bus" n="2973"/>
+		<ar pt="2508042334" pp="" l="S23" ppth="Meckenheim(Bz Köln)|Meckenheim Industriepark|Alfter-Witterschlick|Alfter-Impekoven|Bonn-Duisdorf|Bonn Helmholtzstraße"/>
+	</s>
+	<s id="7791566758703806508-2508042232-10">
+		<tl f="N" t="p" o="TR" c="RB" n="25445"/>
+		<ar pt="2508042325" pp="3" l="26" ppth="Köln/Bonn Flughafen|Köln Messe/Deutz|Köln Hbf|Köln West|Köln Süd|Hürth-Kalscheuren|Brühl|Sechtem|Roisdorf"/>
+		<dp pt="2508042327" pp="3" l="26" ppth="Bonn UN Campus|Bonn-Bad Godesberg|Bonn-Mehlem|Rolandseck|Oberwinter|Remagen|Sinzig(Rhein)|Bad Breisig|Brohl|Namedy|Andernach|Weißenthurm|Mülheim-Kärlich|Koblenz-Lützel|Koblenz Stadtmitte|Koblenz Hbf"/>
+	</s>
+	<s id="-6323305603598220105-2508042341-1">
+		<tl t="p" o="B2" c="Bus" n="2986"/>
+		<dp pt="2508042341" pp="" l="S23" ppth="Bonn Helmholtzstraße|Bonn-Duisdorf|Alfter-Impekoven|Alfter-Witterschlick|Meckenheim Industriepark|Meckenheim(Bz Köln)"/>
+	</s>
+	<s id="-64009374058735440-2508042327-1">
+		<tl t="p" o="B2" c="Bus" n="2984"/>
+		<dp pt="2508042327" pp="" l="S23" ppth="Bonn Helmholtzstraße|Bonn-Duisdorf|Alfter-Impekoven|Alfter-Witterschlick|Meckenheim Industriepark|Meckenheim(Bz Köln)"/>
+	</s>
+</timetable>
