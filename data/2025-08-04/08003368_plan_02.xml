@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<timetable station="Köln Messe/Deutz">
+	<s id="6846331640145137084-2508040203-13">
+		<tl f="S" t="p" o="8003S" c="S" n="28208"/>
+		<ar pt="2508040242" pp="9" l="19" ppth="Düren|Merzenich|Buir|Sindorf|Horrem|Frechen-Königsdorf|Köln-Weiden West|Lövenich|Köln-Müngersdorf Technologiepark|Köln-Ehrenfeld|Köln Hansaring|Köln Hbf"/>
+	</s>
+	<s id="-5096420910996245473-2508040256-1">
+		<tl t="p" o="B2" c="Bus" n="810"/>
+		<dp pt="2508040256" pp="" l="S19" ppth="Köln Frankfurter Straße"/>
+	</s>
+	<s id="-6847085341452332301-2508040128-5">
+		<tl t="p" o="B2" c="Bus" n="605"/>
+		<ar pt="2508040203" pp="" l="S12" ppth="Porz-Wahn|Porz(Rhein)|Köln Steinstraße|Köln Frankfurter Straße"/>
+	</s>
+	<s id="7443921760723646988-2508040237-1">
+		<tl f="S" t="p" o="8003S" c="S" n="28211"/>
+		<dp pt="2508040237" pp="" l="19" ppth="Köln Hbf|Köln Hansaring|Köln-Ehrenfeld|Köln-Müngersdorf Technologiepark|Lövenich|Köln-Weiden West|Frechen-Königsdorf|Horrem|Sindorf|Buir|Merzenich|Düren"/>
+	</s>
+	<s id="3508885739610415621-2508040240-2">
+		<tl t="p" o="B2" c="Bus" n="811"/>
+		<ar pt="2508040253" pp="" l="S19" ppth="Köln Frankfurter Straße"/>
+	</s>
+	<s id="6255054199330011089-2508040226-1">
+		<tl t="p" o="B2" c="Bus" n="808"/>
+		<dp pt="2508040226" pp="" l="S19" ppth="Köln Frankfurter Straße"/>
+	</s>
+	<s id="-5110718408760645118-2508040146-10">
+		<tl f="S" t="p" o="8003S" c="S" n="28206"/>
+		<ar pt="2508040212" pp="" l="19" ppth="Sindorf|Horrem|Frechen-Königsdorf|Köln-Weiden West|Lövenich|Köln-Müngersdorf Technologiepark|Köln-Ehrenfeld|Köln Hansaring|Köln Hbf"/>
+	</s>
+	<s id="3254664906605043498-2508040207-1">
+		<tl f="S" t="p" o="8003S" c="S" n="28209"/>
+		<dp pt="2508040207" pp="" l="19" ppth="Köln Hbf|Köln Hansaring|Köln-Ehrenfeld|Köln-Müngersdorf Technologiepark|Lövenich|Köln-Weiden West|Frechen-Königsdorf|Horrem|Sindorf"/>
+	</s>
+	<s id="-7356420156445510434-2508040238-2">
+		<tl f="N" t="p" o="TR" c="RB" n="25405"/>
+		<ar pt="2508040248" pp="5" l="26" ppth="Köln/Bonn Flughafen"/>
+		<dp pt="2508040249" pp="5" l="26" ppth="Köln Hbf|Köln West|Köln Süd|Hürth-Kalscheuren|Brühl|Sechtem|Roisdorf|Bonn Hbf"/>
+	</s>
+	<s id="-3407935276655121808-2508040111-15">
+		<tl f="N" t="p" o="TR" c="RB" n="25400"/>
+		<ar pt="2508040208" pp="5" l="26" ppth="Remagen|Oberwinter|Rolandseck|Bonn-Mehlem|Bonn-Bad Godesberg|Bonn UN Campus|Bonn Hbf|Roisdorf|Sechtem|Brühl|Hürth-Kalscheuren|Köln Süd|Köln West|Köln Hbf"/>
+		<dp pt="2508040210" pp="5" l="26" ppth="Köln/Bonn Flughafen"/>
+	</s>
+	<s id="4720559371039705295-2508040045-12">
+		<tl f="N" t="p" o="NXRE" c="RE" n="26844"/>
+		<ar pt="2508040207" pp="7" l="1" ppth="Dortmund Hbf|Bochum Hbf|Wattenscheid|Essen Hbf|Mülheim(Ruhr)Hbf|Duisburg Hbf|Düsseldorf Flughafen|Düsseldorf Hbf|Düsseldorf-Benrath|Leverkusen Mitte|Köln-Mülheim"/>
+		<dp pt="2508040208" pp="7" l="1" ppth="Köln Hbf|Köln Messe/Deutz|Köln/Bonn Flughafen"/>
+	</s>
+	<s id="4720559371039705295-2508040045-14">
+		<tl f="N" t="p" o="NXRE" c="RE" n="26844"/>
+		<ar pt="2508040224" pp="4" l="1" ppth="Dortmund Hbf|Bochum Hbf|Wattenscheid|Essen Hbf|Mülheim(Ruhr)Hbf|Duisburg Hbf|Düsseldorf Flughafen|Düsseldorf Hbf|Düsseldorf-Benrath|Leverkusen Mitte|Köln-Mülheim|Köln Messe/Deutz|Köln Hbf"/>
+		<dp pt="2508040225" pp="4" l="1" ppth="Köln/Bonn Flughafen"/>
+	</s>
+	<s id="6086433097284689991-2508040153-7">
+		<tl f="S" t="p" o="8003S" c="S" n="33167"/>
+		<ar pt="2508040210" pp="10" l="11" ppth="Bergisch Gladbach|Duckterath|Köln-Dellbrück|Köln-Holweide|Köln-Mülheim|Köln-Buchforst"/>
+		<dp pt="2508040211" pp="10" l="11" ppth="Köln Hbf"/>
+	</s>
+	<s id="-1617137490496242379-2508040210-2">
+		<tl t="p" o="B2" c="Bus" n="809"/>
+		<ar pt="2508040223" pp="" l="S19" ppth="Köln Frankfurter Straße"/>
+	</s>
+</timetable>

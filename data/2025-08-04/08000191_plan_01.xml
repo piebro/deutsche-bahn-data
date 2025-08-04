@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<timetable station="Karlsruhe Hbf">
+	<s id="4753870957390372842-2508031936-12">
+		<tl f="F" t="p" o="NZ" c="IC" n="60402"/>
+		<ar pt="2508032336" pp="3" ppth="Zürich HB|Baden(CH)|Brugg AG|Frick|Stein-Säckingen|Rheinfelden(CH)|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden"/>
+		<dp pt="2508040120" pp="3" ppth="Mannheim Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf|Bonn Hbf|Eindhoven Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="2274326711152863997-2508032300-15">
+		<tl f="S" t="p" o="801539" c="S" n="38383"/>
+		<ar pt="2508040131" pp="6" l="3" pde="Kaiserslautern Hbf" ppth="Heidelberg Hbf|Heidelberg-Kirchheim/Rohrbach|St Ilgen-Sandhausen|Wiesloch-Walldorf|Rot-Malsch|Bad Schönborn-Kronau|Bad Schönborn Süd|Stettfeld-Weiher|Ubstadt-Weiher|Bruchsal|Bruchsal Bildungszentrum|Untergrombach|Weingarten(Baden)|Karlsruhe-Durlach"/>
+	</s>
+	<s id="-9212131734766351227-2508040132-1">
+		<tl f="S" t="p" o="A6S4" c="S" n="85541"/>
+		<dp pt="2508040132" pp="4" l="4" ppth="Karlsruhe-Durlach|Grötzingen|Grötzingen Oberausstraße|Berghausen Hummelberg|Jöhlingen West|Jöhlingen|Wössingen|Wössingen Ost|Dürrenbüchig|Rinklingen|Bretten|Bretten Stadtmitte|Bretten Wannenweg|Bretten Schulzentrum|Bretten Kupferhälde|Gölshausen"/>
+	</s>
+	<s id="-4971235292765306439-2508032340-45">
+		<tl f="S" t="p" o="A6S4" c="S" n="85472"/>
+		<ar pt="2508040127" pp="5" l="4" ppth="Heilbronn Pfühlpark|Heilbronn Finanzamt|Heilbronn Friedensplatz|Heilbronn Harmonie|Heilbronn Rathaus|Heilbronn Neckar-Turm/K.-S.-Pl|Heilbronn Hauptbahnhof/Willy-Brandt-Pl.|Böckingen Sonnenbrunnen|Heilbr.-Böckingen Berufsschulzentrum|Böckingen West|Leingarten Ost|Leingarten|Leingarten Mitte|Leingarten West|Schwaigern Ost|Schwaigern(Württ)|Schwaigern(Württ) West|Stetten am Heuchelberg|Gemmingen|Gemmingen West|Eppingen|Eppingen West|Sulzfeld(Baden)|Zaisenhausen|Flehingen|Oberderdingen-Flehingen|Bauerbach|Gölshausen Industriegebiet|Gölshausen|Bretten Kupferhälde|Bretten Schulzentrum|Bretten Wannenweg|Bretten Stadtmitte|Bretten|Rinklingen|Dürrenbüchig|Wössingen Ost|Wössingen|Jöhlingen|Jöhlingen West|Berghausen Hummelberg|Grötzingen Oberausstraße|Grötzingen|Karlsruhe-Durlach"/>
+	</s>
+	<s id="7549242416341637866-2508040020-18">
+		<tl f="S" t="p" o="A6S32" c="S" n="85279"/>
+		<ar pt="2508040112" pp="12" l="32" ppth="Menzingen(Baden)|Bahnbrücken|Gochsheim(Baden)|Münzesheim Ost|Münzesheim|Oberöwisheim|Unteröwisheim Bf|Unteröwisheim M.-Luther-Str.|Ubstadt Salzbrunnenstr|Ubstadt Ort|Bruchsal Stegwiesen|Bruchsal Schloßgarten|Bruchsal|Bruchsal Bildungszentrum|Untergrombach|Weingarten(Baden)|Karlsruhe-Durlach"/>
+	</s>
+	<s id="3846530474941700870-2508040006-16">
+		<tl f="S" t="p" o="801518" c="S" n="38997"/>
+		<ar pt="2508040102" pp="2" l="9" ppth="Mannheim Hbf|Mannheim-Neckarau|Mannheim-Rheinau|Schwetzingen-Hirschacker|Schwetzingen Nordstadt|Schwetzingen|Oftersheim|Hockenheim|Neulußheim|Waghäusel|Wiesental|Graben-Neudorf|Friedrichstal(Baden)|Blankenloch|Karlsruhe-Hagsfeld"/>
+	</s>
+	<s id="-7547402411221575024-2508040023-16">
+		<tl f="S" t="p" o="A6S31" c="S" n="85179"/>
+		<ar pt="2508040112" pp="12" l="31" wings="7549242416341637866-2508040020" ppth="Odenheim Bf|Odenheim West|Zeutern Ost|Zeutern Bf|Zeutern Sportplatz|Stettfeld(Baden)|Ubstadt Uhlandstr.|Ubstadt Ort|Bruchsal Stegwiesen|Bruchsal Schloßgarten|Bruchsal|Bruchsal Bildungszentrum|Untergrombach|Weingarten(Baden)|Karlsruhe-Durlach"/>
+	</s>
+	<s id="8868050453695511606-2508031936-12">
+		<tl t="p" o="85" c="NJ" n="402"/>
+		<ar pt="2508032336" pp="3" hi="1" wings="4753870957390372842-2508031936" ppth="Zürich HB|Baden(CH)|Brugg AG|Frick|Stein-Säckingen|Rheinfelden(CH)|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden"/>
+		<dp pt="2508040120" pp="3" hi="1" wings="4753870957390372842-2508031936" ppth="Mannheim Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf|Bonn Hbf|Eindhoven Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="-815445082049532375-2508032015-14">
+		<tl f="F" t="p" o="80" c="ICE" n="1279"/>
+		<ar pt="2508040153" pp="2" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Spandau|Wolfsburg Hbf|Braunschweig Hbf|Hildesheim Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Hanau Hbf|Frankfurt(Main)Hbf|Mannheim Hbf"/>
+	</s>
+	<s id="-878349231635601457-2508040109-18">
+		<tl f="S" t="p" o="A6S5" c="S" n="85030"/>
+		<ar pt="2508040149" pp="14" l="5" ppth="Pforzheim Hbf|Ispringen|Ersingen|Ersingen West|Bilfingen|Königsbach(Baden)|Wilferdingen-Singen|Kleinsteinbach|Söllingen Kapellenstraße|Söllingen(b Karlsr)|Söllingen Reetzstr.|Berghausen Am Stadion|Berghausen(Baden)|Berghausen Pfinzbrücke|Grötzingen Krappmühlenweg|Grötzingen|Karlsruhe-Durlach"/>
+	</s>
+	<s id="-8332221861054296360-2508040016-9">
+		<tl f="N" t="p" o="GARE" c="RE" n="19036"/>
+		<ar pt="2508040119" pp="14" l="1" ppth="Stuttgart Hbf|Ludwigsburg|Bietigheim-Bissingen|Vaihingen(Enz)|Mühlacker|Pforzheim Hbf|Wilferdingen-Singen|Karlsruhe-Durlach"/>
+	</s>
+</timetable>
