@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<timetable station="Paderborn Hbf">
+	<s id="150105864800358945-2508090854-8">
+		<tl f="F" t="p" o="80" c="ICE" n="1223"/>
+		<ar pt="2508091045" pp="2" ppth="Oberhausen Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Soest|Lippstadt"/>
+		<dp pt="2508091047" pp="2" ppth="Altenbeken|Warburg(Westf)|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Nürnberg Hbf|München Hbf"/>
+	</s>
+	<s id="-159074732864180424-2508090801-15">
+		<tl f="D" t="p" o="N2" c="NWB" n="74904"/>
+		<ar pt="2508091005" pp="4" l="RB85" ppth="Göttingen|Lenglern|Lödingsen|Adelebsen|Offensen(Kr North)|Vernawahlshausen|Bodenfelde|Bad Karlshafen|Lauenförde-Beverungen|Beverungen-Wehrden|Höxter-Ottbergen|Brakel(Höxter)|Bad Driburg(Westf)|Altenbeken"/>
+	</s>
+	<s id="5777408301794224348-2508091053-1">
+		<tl f="D" t="p" o="N2" c="NWB" n="74913"/>
+		<dp pt="2508091053" pp="4" l="RB85" ppth="Altenbeken|Bad Driburg(Westf)|Brakel(Höxter)|Höxter-Ottbergen|Beverungen-Wehrden|Lauenförde-Beverungen|Bad Karlshafen|Bodenfelde|Vernawahlshausen|Offensen(Kr North)|Adelebsen|Lödingsen|Lenglern|Göttingen"/>
+	</s>
+	<s id="3763383694471182373-2508091002-6">
+		<tl f="N" t="p" o="R2RB" c="RB" n="90653"/>
+		<ar pt="2508091041" pp="4" l="72" ppth="Detmold|Horn-Bad Meinberg|Leopoldstal|Steinheim-Sandebeck|Altenbeken"/>
+	</s>
+	<s id="-4407882419602952743-2508090836-13">
+		<tl f="N" t="p" o="NXRE" c="RE" n="26711"/>
+		<ar pt="2508091056" pp="2" l="11" ppth="Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Mülheim(Ruhr)Hbf|Essen Hbf|Wattenscheid|Bochum Hbf|Dortmund Hbf|Kamen|Hamm(Westf)Hbf|Soest|Lippstadt"/>
+		<dp pt="2508091058" pp="2" l="11" ppth="Altenbeken|Willebadessen|Warburg(Westf)|Hofgeismar|Kassel-Wilhelmshöhe"/>
+	</s>
+	<s id="7821333771831073070-2508091021-1">
+		<tl f="N" t="p" o="R2RB" c="RB" n="90016"/>
+		<dp pt="2508091021" pp="3 West" l="89" ppth="Scharmede|Salzkotten|Geseke|Ehringhausen(Kr Lippstadt)|Dedinghausen|Lippstadt|Bad Sassendorf|Soest|Borgeln|Welver|Hamm-Westtünnen|Hamm(Westf)Hbf|Hamm-Bockum-Hövel|Mersch(Westf)|Drensteinfurt|Rinkerode|Münster-Hiltrup|Münster(Westf)Hbf"/>
+	</s>
+	<s id="7518854905747918824-2508091021-1">
+		<tl f="N" t="p" o="R2RB" c="RB" n="90660"/>
+		<dp pt="2508091021" pp="4" l="72" ppth="Altenbeken|Steinheim-Sandebeck|Leopoldstal|Horn-Bad Meinberg|Detmold"/>
+	</s>
+	<s id="-7815558899125857163-2508091015-1">
+		<tl f="S" t="p" o="TDHS" c="S" n="34548"/>
+		<dp pt="2508091015" pp="3" l="5" ppth="Altenbeken|Steinheim(Westf)|Schieder|Lügde|Bad Pyrmont|Emmerthal|Hameln"/>
+	</s>
+	<s id="3715918498279279626-2508090908-19">
+		<tl f="N" t="p" o="R2RB" c="RB" n="90015"/>
+		<ar pt="2508091040" pp="3 West" l="89" ppth="Münster(Westf)Hbf|Münster-Hiltrup|Rinkerode|Drensteinfurt|Mersch(Westf)|Hamm-Bockum-Hövel|Hamm(Westf)Hbf|Hamm-Westtünnen|Welver|Borgeln|Soest|Bad Sassendorf|Lippstadt|Dedinghausen|Ehringhausen(Kr Lippstadt)|Geseke|Salzkotten|Scharmede"/>
+	</s>
+	<s id="779243392085976955-2508090901-9">
+		<tl f="D" t="p" o="N2" c="NWB" n="74949"/>
+		<ar pt="2508091005" pp="4" l="RB84" wings="-159074732864180424-2508090801" ppth="Holzminden|Höxter-Lüchtringen|Höxter Rathaus|Höxter-Godelheim|Höxter-Ottbergen|Brakel(Höxter)|Bad Driburg(Westf)|Altenbeken"/>
+	</s>
+	<s id="-555882307352181648-2508091053-1">
+		<tl f="D" t="p" o="N2" c="NWB" n="74964"/>
+		<dp pt="2508091053" pp="4" l="RB84" wings="5777408301794224348-2508091053" ppth="Altenbeken|Bad Driburg(Westf)|Brakel(Höxter)|Höxter-Ottbergen|Höxter-Godelheim|Höxter Rathaus|Höxter-Lüchtringen|Holzminden|Stadtoldendorf|Kreiensen"/>
+	</s>
+	<s id="-4755303113776603121-2508090943-13">
+		<tl f="D" t="p" o="N2" c="NWB" n="75027"/>
+		<ar pt="2508091037" pp="5" l="RB74" ppth="Bielefeld Hbf|Bielefeld-Brackwede|Bielefeld-Senne|Bielefeld-Windelsbleiche|Bielefeld-Sennestadt|Schloß Holte|Hövelriege|Hövelhof|Paderborn-Sennelager|Paderborn-Schloss Neuhaus|Paderborn Nord|Paderborn Kasseler Tor"/>
+	</s>
+	<s id="-5801981885544098374-2508091023-1">
+		<tl f="D" t="p" o="N2" c="NWB" n="75030"/>
+		<dp pt="2508091023" pp="5" l="RB74" ppth="Paderborn Kasseler Tor|Paderborn Nord|Paderborn-Schloss Neuhaus|Paderborn-Sennelager|Hövelhof|Hövelriege|Schloß Holte|Bielefeld-Sennestadt|Bielefeld-Windelsbleiche|Bielefeld-Senne|Bielefeld-Brackwede|Bielefeld Hbf"/>
+	</s>
+	<s id="3190671232280353131-2508090944-8">
+		<tl f="S" t="p" o="TDHS" c="S" n="34535"/>
+		<ar pt="2508091046" pp="3" l="5" ppth="Hameln|Emmerthal|Bad Pyrmont|Lügde|Schieder|Steinheim(Westf)|Altenbeken"/>
+	</s>
+</timetable>
