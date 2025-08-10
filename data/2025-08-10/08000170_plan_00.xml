@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<timetable station="Ulm Hbf">
+	<s id="5795195168834493148-2508092242-22">
+		<tl t="p" o="GAMEX" c="MEX" n="19181"/>
+		<ar pt="2508100011" pp="4 Nord" l="16" ppth="Stuttgart Hbf|Stuttgart-Bad Cannstatt|Esslingen(Neckar)|Plochingen|Reichenbach(Fils)|Ebersbach(Fils)|Uhingen|Faurndau|Göppingen|Eislingen(Fils)|Salach|Süßen|Gingen(Fils)|Kuchen|Geislingen(Steige)West|Geislingen(Steige)|Amstetten(Württ)|Urspring|Lonsee|Westerstetten|Beimerstetten"/>
+	</s>
+	<s id="-5173040246056810435-2508092326-8">
+		<tl f="N" t="p" o="800693" c="RE" n="99139"/>
+		<ar pt="2508100009" pp="7 Nord" l="55" ppth="Munderkingen|Ehingen(Donau)|Allmendingen|Schelklingen|Blaubeuren|Herrlingen|Blaustein"/>
+	</s>
+	<s id="6202916625163174173-2508091726-11">
+		<tl f="F" t="p" o="80" c="ICE" n="695"/>
+		<ar pt="2508092358" pp="2" ppth="Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Leipzig Hbf|Erfurt Hbf|Eisenach Hbf|Fulda|Frankfurt(Main)Hbf|Mannheim Hbf|Stuttgart Hbf"/>
+		<dp pt="2508100001" pp="2" ppth="Günzburg|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-7020176645686529416-2508100001-13">
+		<tl f="D" t="p" o="A9" c="ag" n="84148"/>
+		<ar pt="2508100057" pp="27" l="RB15" ppth="Donauwörth|Tapfheim|Schwenningen(Bay)|Blindheim|Höchstädt(Donau)|Dillingen(Donau)|Lauingen|Gundelfingen(Bay)|Günzburg|Leipheim|Nersingen|Neu-Ulm"/>
+	</s>
+	<s id="1803488498206545828-2508092330-8">
+		<tl f="N" t="p" o="GYRE" c="RE" n="57086"/>
+		<ar pt="2508100011" pp="7" l="9" ppth="Burgau(Schwab)|Mindelaltheim|Offingen|Günzburg|Leipheim|Nersingen|Neu-Ulm"/>
+	</s>
+	<s id="-1088215098390052968-2508100029-1">
+		<tl f="N" t="p" o="800659" c="RE" n="16082"/>
+		<dp pt="2508100029" pp="3 Nord" l="200" ppth="Merklingen - Schwäbische Alb|Wendlingen(Neckar)"/>
+	</s>
+	<s id="-2162454727889831357-2508092302-13">
+		<tl f="D" t="p" o="A9" c="ag" n="56830"/>
+		<ar pt="2508100005" pp="28" l="RB15" ppth="Donauwörth|Tapfheim|Schwenningen(Bay)|Blindheim|Höchstädt(Donau)|Dillingen(Donau)|Lauingen|Gundelfingen(Bay)|Günzburg|Leipheim|Nersingen|Neu-Ulm"/>
+	</s>
+	<s id="-3568010245526377395-2508092339-6">
+		<tl f="N" t="p" o="800694" c="RE" n="4239"/>
+		<ar pt="2508100043" pp="6 Süd" l="5" ppth="Stuttgart Hbf|Esslingen(Neckar)|Plochingen|Göppingen|Geislingen(Steige)"/>
+	</s>
+	<s id="-514569955058895236-2508100024-3">
+		<tl f="N" t="p" o="800659" c="RE" n="16079"/>
+		<ar pt="2508100051" pp="8" l="200" ppth="Wendlingen(Neckar)|Merklingen - Schwäbische Alb"/>
+	</s>
+	<s id="5095377197133097487-2508092338-7">
+		<tl t="p" o="800622" c="N" n="32650"/>
+		<ar pt="2508100023" pp="6 Süd" l="RS21" ppth="Biberach(Riß)|Warthausen|Schemmerberg|Laupheim West|Erbach(Württ)|Ulm-Donautal"/>
+	</s>
+	<s id="-5689444357982856252-2508100036-1">
+		<tl t="p" o="GAMEX" c="MEX" n="19102"/>
+		<dp pt="2508100036" pp="4 Nord" l="16" ppth="Beimerstetten|Westerstetten|Lonsee|Urspring|Amstetten(Württ)|Geislingen(Steige)|Geislingen(Steige)West|Kuchen|Gingen(Fils)|Süßen|Salach|Eislingen(Fils)|Göppingen|Faurndau|Uhingen|Ebersbach(Fils)|Reichenbach(Fils)|Plochingen|Esslingen(Neckar)|Stuttgart-Bad Cannstatt|Stuttgart Hbf"/>
+	</s>
+	<s id="-6740571144150003473-2508100047-1">
+		<tl t="p" o="800622" c="N" n="32655"/>
+		<dp pt="2508100047" pp="8" l="RS21" ppth="Ulm-Donautal|Erbach(Württ)|Laupheim West|Schemmerberg|Warthausen|Biberach(Riß)|Biberach(Riß) Süd|Bad Schussenried|Aulendorf"/>
+	</s>
+	<s id="-211467950544450395-2508092335-8">
+		<tl t="p" o="B7" c="Bus" n="57798"/>
+		<ar pt="2508100041" pp="" l="EV" ppth="Illertissen|Bellenberg|Vöhringen|Senden|Gerlenhofen|Finningerstraße|Neu-Ulm"/>
+	</s>
+	<s id="-1991310264202128231-2508100020-1">
+		<tl t="p" o="B7" c="Bus" n="57495"/>
+		<dp pt="2508100020" pp="" l="EV" ppth="Neu-Ulm|Finningerstraße|Gerlenhofen|Senden|Wullenstetten|Witzighausen|Weißenhorn-Eschach|Weißenhorn"/>
+	</s>
+</timetable>
