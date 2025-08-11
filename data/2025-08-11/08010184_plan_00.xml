@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<timetable station="Chemnitz Hbf">
+	<s id="8443559162457041401-2508110011-6">
+		<tl f="D" t="p" o="CD" c="CB" n="80041"/>
+		<ar pt="2508110027" pp="3" l="C13" ppth="Burgstädt|Wittgensdorf ob Bf|Wittgensdorf Mitte|Chemnitz-Borna Hp|Chemnitz Küchwald"/>
+		<dp pt="2508110029" pp="3" l="C13" ppth="Chemnitz Hbf (Bahnhofstraße)|Chemnitz Theaterplatz|Chemnitz Roter Turm|Chemnitz Zentralhaltestelle"/>
+	</s>
+	<s id="-7318334440985476521-2508102343-15">
+		<tl f="N" t="p" o="CXRB" c="RB" n="74081"/>
+		<ar pt="2508110029" pp="13" l="30" tra="-127467097536813208-2508102343-1" ppth="Zwickau(Sachs)Hbf|Zwickau-Pölbitz|Oberrothenbach|Mosel|Glauchau-Schönbörnchen|Glauchau(Sachs)|St Egidien|Hohenstein-Ernstthal|Wüstenbrand|Grüna(Sachs)Hp|Chemnitz-Siegmar|Chemnitz-Schönau|Chemnitz Mitte|Chemnitz Süd"/>
+	</s>
+	<s id="8838541028055896887-2508102308-20">
+		<tl f="N" t="p" o="CXRB" c="RB" n="74080"/>
+		<ar pt="2508110025" pp="10" l="30" tra="-3190062688767465557-2508102308-1" ppth="Dresden Hbf|Dresden-Plauen|Freital-Potschappel|Freital-Deuben|Freital-Hainsberg|Freital-Hainsberg West|Tharandt|Edle Krone|Klingenberg-Colmnitz|Niederbobritzsch|Muldenhütten|Freiberg(Sachs)|Kleinschirma|Frankenstein(Sachs)|Oederan|Falkenau(Sachs)Süd|Flöha|Niederwiesa|Chemnitz-Hilbersdorf"/>
+	</s>
+	<s id="-5093398198460463372-2508102337-7">
+		<tl f="N" t="p" o="CXRE" c="RE" n="74196"/>
+		<ar pt="2508110039" pp="11" l="6" ppth="Leipzig Hbf|Leipzig-Liebertwolkwitz|Bad Lausick|Geithain|Narsdorf|Burgstädt"/>
+	</s>
+	<s id="-127467097536813208-2508102343-1">
+		<tl f="N" t="p" o="CXRB" c="RB" n="27795"/>
+		<dp pt="2508110034" pp="" l="30" tra="-7318334440985476521-2508102343-15" ppth="Chemnitz-Hilbersdorf|Niederwiesa|Flöha|Falkenau(Sachs)Süd|Oederan|Frankenstein(Sachs)|Kleinschirma|Freiberg(Sachs)|Muldenhütten|Niederbobritzsch|Klingenberg-Colmnitz|Edle Krone|Tharandt|Freital-Hainsberg West|Freital-Hainsberg|Freital-Deuben|Freital-Potschappel|Dresden-Plauen|Dresden Hbf"/>
+	</s>
+	<s id="-2572145624993784833-2508102334-27">
+		<tl f="D" t="p" o="CD" c="CB" n="56066"/>
+		<ar pt="2508110017" pp="2" l="C11" ppth="Stollberg(Sachs)|Stollberg Schlachthofstraße|Niederdorf(Erzgeb)|Pfaffenhain|Jahnsdorf(Erzgeb)|Adorf(Erzgeb)|Neukirchen-Klaffenbach|Klaffenbach Hp|Chemnitz Friedrichstraße|Chemnitz-Harthau|Chemnitz Riemenschneiderstraße|Chemnitz-Altchemnitz|Chemnitz Schneeberger Straße|Chemnitz Alt Chemnitz Center|Chemnitz Schule Altchemnitz|Chemnitz Scheffelstraße|Chemnitz Uhlestraße|Chemnitz Erdmannsdorfer Straße|Chemnitz Rösslerstraße|Chemnitz Treffurthstraße|Chemnitz Gustav-Freytag-Straße|Chemnitz Moritzhof|Chemnitz Zentralhaltestelle|Chemnitz Roter Turm|Chemnitz Theaterplatz|Chemnitz Hbf (Bahnhofstraße)"/>
+	</s>
+	<s id="-7250511042429937948-2508110013-6">
+		<tl f="D" t="p" o="CD" c="CB" n="80077"/>
+		<ar pt="2508110032" pp="3" l="C14" ppth="Mittweida|Altmittweida|Ottendorf(Mittweida)|Oberlichtenau|Chemnitz Kinderwaldstätte"/>
+		<dp pt="2508110034" pp="3" l="C14" ppth="Chemnitz Hbf (Bahnhofstraße)|Chemnitz Theaterplatz|Chemnitz Roter Turm|Chemnitz Zentralhaltestelle"/>
+	</s>
+	<s id="-3190062688767465557-2508102308-1">
+		<tl f="N" t="p" o="CXRB" c="RB" n="28966"/>
+		<dp pt="2508110030" pp="" l="30" tra="8838541028055896887-2508102308-20" ppth="Chemnitz Süd|Chemnitz Mitte|Chemnitz-Schönau|Chemnitz-Siegmar|Grüna(Sachs)Hp|Wüstenbrand|Hohenstein-Ernstthal|St Egidien|Glauchau(Sachs)|Glauchau-Schönbörnchen|Mosel|Oberrothenbach|Zwickau-Pölbitz|Zwickau(Sachs)Hbf"/>
+	</s>
+	<s id="9004263222887520170-2508110059-1">
+		<tl f="N" t="p" o="CXRE" c="RE" n="74037"/>
+		<dp pt="2508110059" pp="" l="6" ppth="Chemnitz Küchwald|Burgstädt|Narsdorf|Geithain|Bad Lausick|Belgershain|Leipzig-Liebertwolkwitz|Leipzig Hbf"/>
+	</s>
+</timetable>

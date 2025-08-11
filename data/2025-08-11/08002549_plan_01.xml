@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg Hbf">
+	<s id="-2931579395362521098-2508110106-1">
+		<tl f="N" t="p" o="800292" c="RE" n="11442"/>
+		<dp pt="2508110106" pp="7A-D" l="8" ppth="Bad Oldesloe|Reinfeld(Holst)|Lübeck-Moisling|Lübeck Hbf"/>
+	</s>
+	<s id="-2677087939388563746-2508110109-5">
+		<tl f="N" t="p" o="800292" c="RE" n="11449"/>
+		<ar pt="2508110159" pp="8" l="8" ppth="Lübeck Hbf|Lübeck-Moisling|Reinfeld(Holst)|Bad Oldesloe"/>
+	</s>
+	<s id="4760651137475633059-2508102359-11">
+		<tl f="D" t="p" o="R1" c="ME" n="81644"/>
+		<ar pt="2508110109" pp="11A-C" l="RB31" ppth="Uelzen|Bad Bevensen|Bienenbüttel|Lüneburg|Bardowick|Radbruch|Winsen(Luhe)|Ashausen|Stelle|Hamburg-Harburg"/>
+	</s>
+	<s id="5258166084474712160-2508110052-5">
+		<tl t="p" o="R1" c="Bus" n="3244"/>
+		<ar pt="2508110157" pp="" l="EV" ppth="Stelle|Maschen|Meckelfeld|Hamburg-Harburg"/>
+	</s>
+	<s id="5375326263046654482-2508101917-13">
+		<tl f="F" t="p" o="80" c="ICE" n="580"/>
+		<ar pt="2508110113" pp="13" ppth="München Hbf|Ingolstadt Hbf|Nürnberg Hbf|Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen|Lüneburg|Hamburg-Harburg"/>
+	</s>
+	<s id="-1263788600092754707-2508110022-4">
+		<tl t="p" o="R1" c="Bus" n="3444"/>
+		<ar pt="2508110105" pp="" l="EV" ppth="Maschen|Meckelfeld|Hamburg-Harburg"/>
+	</s>
+	<s id="4527502747804446727-2508102227-8">
+		<tl f="F" t="p" o="80" c="ICE" n="700"/>
+		<ar pt="2508110100" pp="13" ppth="Berlin Südkreuz|Berlin Hbf|Berlin-Spandau|Stendal Hbf|Salzwedel|Uelzen|Hamburg-Harburg"/>
+		<dp pt="2508110103" pp="13" hi="1" ppth="Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-6711307188089838742-2508110005-11">
+		<tl f="N" t="p" o="800201" c="RE" n="11293"/>
+		<ar pt="2508110136" pp="13" l="7" ppth="Kiel Hbf|Flintbek|Bordesholm|Einfeld|Neumünster|Brokstedt|Wrist|Elmshorn|Pinneberg|Hamburg Dammtor"/>
+	</s>
+	<s id="-7287868481942335495-2508110011-5">
+		<tl t="p" o="R1" c="Bus" n="3242"/>
+		<ar pt="2508110116" pp="" l="EV" ppth="Stelle|Maschen|Meckelfeld|Hamburg-Harburg"/>
+	</s>
+	<s id="-3927096025170759993-2508110143-1">
+		<tl f="N" t="p" o="800201" c="RE" n="11292"/>
+		<dp pt="2508110143" pp="13" l="7" ppth="Hamburg Dammtor|Pinneberg|Elmshorn|Wrist|Neumünster|Einfeld|Bordesholm|Flintbek|Kiel Hbf"/>
+	</s>
+	<s id="940834878221038302-2508110103-4">
+		<tl t="p" o="R1" c="Bus" n="3910"/>
+		<ar pt="2508110146" pp="" l="EV" ppth="Maschen|Meckelfeld|Hamburg-Harburg"/>
+	</s>
+</timetable>
