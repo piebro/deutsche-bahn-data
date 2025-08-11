@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<timetable station="Lüneburg">
+	<s id="5177481596805362451-2508110719-4">
+		<tl f="D" t="p" o="R1" c="ME" n="82144"/>
+		<ar pt="2508110743" pp="3" l="RE3" ppth="Uelzen|Bad Bevensen|Bienenbüttel"/>
+		<dp pt="2508110749" pp="3" l="RE3" ppth="Winsen(Luhe)|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="-4970238895119907177-2508110657-4">
+		<tl f="D" t="p" o="R1" c="ME" n="82111"/>
+		<ar pt="2508110732" pp="1" l="RE3" ppth="Hamburg Hbf|Hamburg-Harburg|Winsen(Luhe)"/>
+		<dp pt="2508110733" pp="1" l="RE3" ppth="Bienenbüttel|Bad Bevensen|Uelzen"/>
+	</s>
+	<s id="-7385034857744471466-2508110711-1">
+		<tl f="D" t="p" o="R1" c="ME" n="81662"/>
+		<dp pt="2508110711" pp="6" l="RB31" ppth="Bardowick|Radbruch|Winsen(Luhe)|Ashausen|Stelle|Maschen|Meckelfeld|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="3633423506968040756-2508110634-3">
+		<tl f="F" t="p" o="80" c="ICE" n="703"/>
+		<ar pt="2508110718" pp="1" ppth="Hamburg-Altona|Hamburg Hbf"/>
+		<dp pt="2508110720" pp="1" ppth="Uelzen|Salzwedel|Stendal Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz|Bitterfeld|Halle(Saale)Hbf|Erfurt Hbf|Bamberg|Nürnberg Hbf|Ingolstadt Hbf|München Hbf"/>
+	</s>
+	<s id="1189272144151876664-2508110701-3">
+		<tl f="D" t="p" o="X1" c="erx" n="83855"/>
+		<ar pt="2508110715" pp="5" l="RE83" ppth="Lauenburg(Elbe)|Echem"/>
+	</s>
+	<s id="810414966865937896-2508110712-5">
+		<tl f="F" t="p" o="80" c="IC" n="2085"/>
+		<ar pt="2508110759" pp="1" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg"/>
+		<dp pt="2508110801" pp="1" ppth="Uelzen|Celle|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Steinach(bei Rothenburg ob der Tauber)|Ansbach|Treuchtlingen|Donauwörth|Augsburg Hbf|Buchloe|Kaufbeuren|Kempten(Allgäu)Hbf|Immenstadt|Sonthofen|Fischen|Oberstdorf"/>
+	</s>
+	<s id="4733426678694405219-2508110704-4">
+		<tl f="D" t="p" o="R1" c="ME" n="82110"/>
+		<ar pt="2508110726" pp="2" l="RE3" ppth="Uelzen|Bad Bevensen|Bienenbüttel"/>
+		<dp pt="2508110727" pp="2" l="RE3" ppth="Winsen(Luhe)|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="-6238415479967927281-2508110647-4">
+		<tl f="D" t="p" o="R1" c="ME" n="82104"/>
+		<ar pt="2508110708" pp="2" l="RE3" ppth="Uelzen|Bad Bevensen|Bienenbüttel"/>
+		<dp pt="2508110709" pp="2" l="RE3" ppth="Winsen(Luhe)|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="-6358342590570712060-2508110712-5">
+		<tl f="F" t="p" o="80" c="IC" n="2083"/>
+		<ar pt="2508110759" pp="1" wings="810414966865937896-2508110712" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg"/>
+		<dp pt="2508110801" pp="1" wings="810414966865937896-2508110712" ppth="Uelzen|Celle|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Steinach(bei Rothenburg ob der Tauber)|Ansbach|Treuchtlingen|Donauwörth|Augsburg Hbf|München-Pasing|München Ost|Rosenheim|Bad Endorf|Prien am Chiemsee|Übersee|Traunstein|Freilassing|Bad Reichenhall|Bad Reichenhall-Kirchberg|Bayerisch Gmain|Bischofswiesen|Berchtesgaden Hbf"/>
+	</s>
+	<s id="-1656742390364091013-2508110732-1">
+		<tl f="D" t="p" o="R1" c="ME" n="81610"/>
+		<dp pt="2508110732" pp="6" l="RB31" ppth="Bardowick|Radbruch|Winsen(Luhe)|Ashausen|Stelle|Maschen|Meckelfeld|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="-7183800714811785842-2508110741-1">
+		<tl t="p" o="R1" c="Bus" n="541"/>
+		<dp pt="2508110741" pp="" l="EV" ppth="Wendisch Evern|Vastorf|Bavendorf|Dahlenburg|Neetzendorf|Göhrde|Leitstade|Hitzacker|Dannenberg Ost"/>
+	</s>
+	<s id="-7444097133713673039-2508110533-10">
+		<tl t="p" o="X2" c="Bus" n="540"/>
+		<ar pt="2508110718" pp="" l="RB32" ppth="Dannenberg Ost|Hitzacker|Leitstade|Göhrde|Neetzendorf|Dahlenburg|Bavendorf|Vastorf|Wendisch Evern"/>
+	</s>
+	<s id="8934620935373290314-2508110740-1">
+		<tl f="D" t="p" o="X1" c="erx" n="83858"/>
+		<dp pt="2508110740" pp="5" l="RE83" ppth="Echem|Lauenburg(Elbe)"/>
+	</s>
+	<s id="1273081990742197177-2508110633-10">
+		<tl f="D" t="p" o="R1" c="ME" n="81611"/>
+		<ar pt="2508110723" pp="6" l="RB31" ppth="Hamburg Hbf|Hamburg-Harburg|Meckelfeld|Maschen|Stelle|Ashausen|Winsen(Luhe)|Radbruch|Bardowick"/>
+	</s>
+</timetable>
