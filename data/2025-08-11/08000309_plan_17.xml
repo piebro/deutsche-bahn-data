@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<timetable station="Regensburg Hbf">
+	<s id="8590510318619074721-2508111616-12">
+		<tl f="N" t="p" o="800767" c="RE" n="57928"/>
+		<ar pt="2508111741" pp="8 A-C" l="22" ppth="München Flughafen Terminal|München Flughafen Besucherpark|Freising|Moosburg|Landshut(Bay)Hbf|Ergoldsbach|Neufahrn(Niederbay)|Eggmühl|Hagelstadt|Köfering|Obertraubling"/>
+	</s>
+	<s id="-326068973008419721-2508111645-4">
+		<tl t="p" o="O9" c="Bus" n="63733"/>
+		<ar pt="2508111755" pp="" l="RB23" ppth="Schwandorf|Maxhütte-Haidhof|Regenstauf"/>
+	</s>
+	<s id="-4112874979210326112-2508111710-9">
+		<tl f="D" t="p" o="A9" c="ag" n="84243"/>
+		<ar pt="2508111743" pp="1" l="RB51" ppth="Parsberg|Mausheim|Beratzhausen|Laaber|Deuerling|Undorf|Etterzhausen|Regensburg-Prüfening"/>
+	</s>
+	<s id="-5497960516406907477-2508111655-2">
+		<tl t="p" o="A8N" c="Bus" n="60354"/>
+		<ar pt="2508111740" pp="" l="RE25" ppth="Schwandorf"/>
+	</s>
+	<s id="-7437895594781876891-2508111743-1">
+		<tl f="D" t="p" o="A9" c="ag" n="84161"/>
+		<dp pt="2508111743" pp="9" l="RB17" ppth="Regensburg-Burgweinting|Obertraubling|Sünching|Radldorf(Niederbay)|Straubing"/>
+	</s>
+	<s id="6554076189616292719-2508111706-7">
+		<tl f="D" t="p" o="S9" c="ag" n="63072"/>
+		<ar pt="2508111746" pp="5" l="RE50" ppth="Plattling|Straßkirchen|Straubing|Sünching|Obertraubling|Regensburg-Burgweinting"/>
+		<dp pt="2508111748" pp="5" l="RE50" ppth="Parsberg|Neumarkt(Oberpf)|Nürnberg Hbf"/>
+	</s>
+	<s id="6527347449652332056-2508111610-13">
+		<tl f="D" t="p" o="A9" c="ag" n="84203"/>
+		<ar pt="2508111703" pp="9" l="RB51" ppth="Neumarkt(Oberpf)|Deining(Oberpf)|Batzhausen|Seubersdorf|Parsberg|Mausheim|Beratzhausen|Laaber|Deuerling|Undorf|Etterzhausen|Regensburg-Prüfening"/>
+		<dp pt="2508111710" pp="9" l="RB51" ppth="Regensburg-Burgweinting|Obertraubling|Sünching|Radldorf(Niederbay)|Straubing|Straßkirchen|Plattling"/>
+	</s>
+	<s id="-8804598698476511692-2508111542-9">
+		<tl f="N" t="p" o="8007H3" c="RE" n="59690"/>
+		<ar pt="2508111712" pp="4" l="2" ppth="München Hbf|München-Moosach|Freising|Moosburg|Landshut(Bay)Hbf|Ergoldsbach|Neufahrn(Niederbay)|Eggmühl"/>
+	</s>
+	<s id="5000982907801046045-2508111421-5">
+		<tl f="F" t="p" o="80" c="ICE" n="29"/>
+		<ar pt="2508111723" pp="9" ppth="Frankfurt(Main)Hbf|Hanau Hbf|Würzburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2508111725" pp="9" ppth="Plattling|Passau Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="-9108710778601470365-2508111751-1">
+		<tl f="N" t="p" o="8007H3" c="RE" n="59693"/>
+		<dp pt="2508111751" pp="4" l="2" ppth="Neufahrn(Niederbay)|Landshut(Bay)Hbf|Freising|München Hbf"/>
+	</s>
+	<s id="-2718904816773766179-2508111611-5">
+		<tl f="N" t="p" o="800767" c="RE" n="59493"/>
+		<ar pt="2508111713" pp="8" l="22" tra="-8836646520816278663-2508111719-1" ppth="Nürnberg Hbf|Neumarkt(Oberpf)|Parsberg|Beratzhausen"/>
+	</s>
+	<s id="-8836646520816278663-2508111719-1">
+		<tl f="N" t="p" o="800767" c="RE" n="57929"/>
+		<dp pt="2508111719" pp="8" l="22" tra="-2718904816773766179-2508111611-5" ppth="Obertraubling|Köfering|Hagelstadt|Eggmühl|Neufahrn(Niederbay)|Ergoldsbach|Landshut(Bay)Hbf|Moosburg|Freising|München Flughafen Terminal"/>
+	</s>
+	<s id="-3494132619582653145-2508111704-1">
+		<tl f="D" t="p" o="A9" c="ag" n="84202"/>
+		<dp pt="2508111704" pp="4" l="RB51" ppth="Regensburg-Prüfening|Etterzhausen|Undorf|Deuerling|Laaber|Beratzhausen|Mausheim|Parsberg|Seubersdorf|Batzhausen|Deining(Oberpf)|Neumarkt(Oberpf)"/>
+	</s>
+	<s id="-1937379608537372549-2508111700-1">
+		<tl t="p" o="O9" c="Bus" n="63740"/>
+		<dp pt="2508111700" pp="" l="RB23" ppth="Regenstauf|Maxhütte-Haidhof|Schwandorf"/>
+	</s>
+	<s id="-3956063486939636737-2508111750-1">
+		<tl t="p" o="A8N" c="Bus" n="60363"/>
+		<dp pt="2508111750" pp="" l="RE25" ppth="Schwandorf"/>
+	</s>
+	<s id="548905777986738672-2508111638-8">
+		<tl f="D" t="p" o="A9" c="ag" n="84232"/>
+		<ar pt="2508111720" pp="5" l="RB51" ppth="Plattling|Straßkirchen|Straubing|Radldorf(Niederbay)|Sünching|Obertraubling|Regensburg-Burgweinting"/>
+		<dp pt="2508111722" pp="5" l="RB51" ppth="Regensburg-Prüfening|Etterzhausen|Undorf|Deuerling|Laaber|Beratzhausen|Mausheim|Parsberg|Seubersdorf|Batzhausen|Deining(Oberpf)|Neumarkt(Oberpf)"/>
+	</s>
+</timetable>
