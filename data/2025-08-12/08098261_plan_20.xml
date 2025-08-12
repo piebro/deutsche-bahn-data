@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf Gl.27-36">
+	<s id="9121694688306185106-2508122055-1">
+		<tl t="p" o="80" c="ECE" n="296"/>
+		<dp pt="2508122055" pp="28" pde="Zürich HB" ppth="Buchloe|Memmingen|Lindau-Reutin"/>
+	</s>
+	<s id="-4036756759454412799-2508121847-11">
+		<tl f="N" t="p" o="800790" c="RB" n="59634"/>
+		<ar pt="2508122000" pp="27" l="66" ppth="Kochel|Benediktbeuern|Bichl|Penzberg|Iffeldorf|Seeshaupt|Bernried|Tutzing|Starnberg|München-Pasing"/>
+	</s>
+	<s id="-6638217267151571360-2508122032-1">
+		<tl f="N" t="p" o="800790" c="RB" n="59465"/>
+		<dp pt="2508122032" pp="27" l="6" ppth="München-Pasing|Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen|Klais|Mittenwald"/>
+	</s>
+	<s id="1044451543661955798-2508122059-1">
+		<tl f="N" t="p" o="800790" c="RB" n="59535"/>
+		<dp pt="2508122059" pp="29" l="65" ppth="München-Pasing|Starnberg|Tutzing|Weilheim(Oberbay)"/>
+	</s>
+	<s id="7283606230545512328-2508121912-5">
+		<tl f="N" t="p" o="800790" c="RB" n="59534"/>
+		<ar pt="2508122000" pp="27" l="65" wings="-4036756759454412799-2508121847" ppth="Weilheim(Oberbay)|Tutzing|Starnberg|München-Pasing"/>
+	</s>
+	<s id="3246171453048916842-2508121825-12">
+		<tl f="N" t="p" o="8007D5" c="RE" n="7893"/>
+		<ar pt="2508122035" pp="30" l="76" ppth="Oberstdorf|Fischen|Sonthofen|Blaichach(Allgäu)|Immenstadt|Kempten(Allgäu)Hbf|Kaufbeuren|Buchloe|Kaufering|Geltendorf|München-Pasing"/>
+	</s>
+	<s id="-8638927600658023801-2508121736-15">
+		<tl f="N" t="p" o="800790" c="RB" n="5529"/>
+		<ar pt="2508122026" pp="29" l="60" pde="Pfronten-Steinach" ppth="Ehrwald Zugspitzbahn|Untergrainau|Garmisch-Partenkirchen Hausberg|Garmisch-Partenkirchen|Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)|Tutzing|München-Pasing"/>
+	</s>
+	<s id="-8482174767614200744-2508121836-14">
+		<tl f="N" t="p" o="800790" c="RB" n="5428"/>
+		<ar pt="2508122026" pp="29" l="6" wings="-8638927600658023801-2508121736" ppth="Mittenwald|Klais|Garmisch-Partenkirchen|Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)|Tutzing|München-Pasing"/>
+	</s>
+	<s id="-240148379073992445-2508121808-13">
+		<tl f="N" t="p" o="8007D5" c="RE" n="3893"/>
+		<ar pt="2508122035" pp="30" l="70" wings="3246171453048916842-2508121825" ppth="Lindau-Reutin|Hergatz|Heimenkirch|Röthenbach(Allgäu)|Oberstaufen|Immenstadt|Kempten(Allgäu)Hbf|Kaufbeuren|Buchloe|Kaufering|Geltendorf|München-Pasing"/>
+	</s>
+</timetable>
