@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<timetable station="Leipzig Hbf">
+	<s id="3537179868806053584-2508130400-1">
+		<tl f="N" t="p" o="800456" c="RE" n="16501"/>
+		<dp pt="2508130400" pp="21" l="50" ppth="Leipzig-Engelsdorf|Borsdorf(Sachs)|Wurzen|Kühren|Dahlen(Sachs)|Oschatz|Riesa|Glaubitz(Riesa)|Nünchritz|Priestewitz|Niederau|Weinböhla Hp|Coswig(b Dresden)|Radebeul Ost|Dresden-Neustadt|Dresden Mitte|Dresden Hbf"/>
+	</s>
+	<s id="-2819238151300076653-2508130316-13">
+		<tl f="S" t="p" o="800486" c="S" n="37680"/>
+		<ar pt="2508130412" pp="18" l="6" ppth="Borna(Leipzig)|Lobstädt|Neukieritzsch|Böhlen Werke|Böhlen(Leipzig)|Großdeuben|Markkleeberg-Gaschwitz|Markkleeberg-Großstädteln|Markkleeberg|Markkleeberg Nord|Leipzig-Connewitz|Borsdorf(Sachs)"/>
+	</s>
+	<s id="-2734429026246492002-2508130409-15">
+		<tl f="N" t="p" o="800413" c="RB" n="16664"/>
+		<ar pt="2508130453" pp="21" l="113" ppth="Geithain|Tautenhain|Hopfgarten(Sachs)|Bad Lausick|Lauterbach-Steinbach|Otterwisch|Belgershain|Oberholz|Großpösna|Leipzig-Liebertwolkwitz|Leipzig-Holzhausen|Leipzig-Mölkau|Leipzig Werkstättenstraße|Leipzig-Paunsdorf"/>
+	</s>
+	<s id="-2494453527783146128-2508121959-11">
+		<tl f="F" t="p" o="NZ" c="IC" n="60409"/>
+		<ar pt="2508130448" pp="15" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Süd|Fulda|Erfurt Hbf"/>
+		<dp pt="2508130518" pp="15" ppth="Halle(Saale)Hbf|Bitterfeld|Lutherstadt Wittenberg Hbf|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="1961181705396261168-2508121959-11">
+		<tl f="F" t="p" o="81" c="EN" n="40459"/>
+		<ar pt="2508130448" pp="15" wings="-2494453527783146128-2508121959|5981134875112714787-2508121959|7016804452829305661-2508121959" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Süd|Fulda|Erfurt Hbf"/>
+		<dp pt="2508130545" pp="14" hi="1" ppth="Riesa|Dresden-Neustadt|Dresden Hbf|Bad Schandau|Decin hl.n.|Usti nad Labem hl.n.|Praha-Holesovice|Praha hl.n."/>
+	</s>
+	<s id="9064022158095665154-2508130347-12">
+		<tl f="N" t="p" o="EX" c="RE" n="80830"/>
+		<ar pt="2508130452" pp="8" l="12" ppth="Gera Hbf|Bad Köstritz|Crossen Ort|Wetterzeube|Zeitz|Profen|Pegau|Zwenkau-Großdalzig|Leipzig-Knauthain|Leipzig-Plagwitz|Leipzig-Möckern"/>
+	</s>
+	<s id="8907614545406065557-2508130418-1">
+		<tl f="S" t="p" o="800486" c="S" n="37502"/>
+		<dp pt="2508130418" pp="18" l="5X" ppth="Leipzig Messe|Leipzig/Halle Flughafen|Halle(Saale)Hbf"/>
+	</s>
+	<s id="-1396075823500522011-2508130346-13">
+		<tl f="N" t="p" o="AMRB" c="RB" n="74541"/>
+		<ar pt="2508130441" pp="7" l="20" ppth="Naumburg(Saale)Hbf|Leißling|Weißenfels|Großkorbetha|Bad Dürrenberg|Kötzschau|Großlehna|Markranstädt|Leipzig-Miltitz|Leipzig-Rückmarsdorf|Leipzig-Leutzsch|Leipzig-Möckern"/>
+	</s>
+	<s id="-9598718883825522-2508130412-6">
+		<tl f="S" t="p" o="8004A9" c="S" n="37205"/>
+		<ar pt="2508130440" pp="18" l="2" ppth="Bitterfeld|Petersroda|Delitzsch unt Bf|Zschortau|Rackwitz(Leipzig)"/>
+	</s>
+	<s id="5981134875112714787-2508121959-11">
+		<tl f="F" t="p" o="85" c="EC" n="459"/>
+		<ar pt="2508130448" pp="15" hi="1" wings="1961181705396261168-2508121959" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Süd|Fulda|Erfurt Hbf"/>
+		<dp pt="2508130545" pp="14" wings="1961181705396261168-2508121959" ppth="Riesa|Dresden-Neustadt|Dresden Hbf|Bad Schandau|Decin hl.n.|Usti nad Labem hl.n.|Praha-Holesovice|Praha hl.n."/>
+	</s>
+	<s id="7016804452829305661-2508121959-11">
+		<tl t="p" o="81" c="NJ" n="409"/>
+		<ar pt="2508130448" pp="15" wings="-2494453527783146128-2508121959" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Süd|Fulda|Erfurt Hbf"/>
+		<dp pt="2508130518" pp="15" hi="1" wings="-2494453527783146128-2508121959" ppth="Halle(Saale)Hbf|Bitterfeld|Lutherstadt Wittenberg Hbf|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="6603576928487697059-2508130448-1">
+		<tl f="S" t="p" o="8004A9" c="S" n="37208"/>
+		<dp pt="2508130448" pp="18" l="2" ppth="Rackwitz(Leipzig)|Zschortau|Delitzsch unt Bf|Petersroda|Bitterfeld|Muldenstein|Burgkemnitz|Gräfenhainichen|Radis|Bergwitz|Pratau|Lutherstadt Wittenberg Hbf|Zörnigall|Bülzig|Zahna|Blönsdorf|Niedergörsdorf|Jüterbog"/>
+	</s>
+	<s id="7986938836434190736-2508130410-4">
+		<tl f="S" t="p" o="800486" c="S" n="37501"/>
+		<ar pt="2508130443" pp="20" l="5X" ppth="Halle(Saale)Hbf|Leipzig/Halle Flughafen|Leipzig Messe"/>
+		<dp pt="2508130449" pp="20" l="5X" ppth="Borsdorf(Sachs)|Leipzig-Connewitz|Markkleeberg Nord|Markkleeberg|Markkleeberg-Großstädteln|Böhlen(Leipzig)|Neukieritzsch|Altenburg"/>
+	</s>
+</timetable>
