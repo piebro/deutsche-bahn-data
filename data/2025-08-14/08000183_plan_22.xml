@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<timetable station="Ingolstadt Hbf">
+	<s id="-6188999668867784847-2508142231-4">
+		<tl f="D" t="p" o="A9" c="ag" n="92529"/>
+		<ar pt="2508142251" pp="7" l="RB15" ppth="Neuburg(Donau)|Rohrenfeld|Weichering"/>
+	</s>
+	<s id="-223421926958290666-2508141634-12">
+		<tl f="F" t="p" o="80" c="ICE" n="885"/>
+		<ar pt="2508142258" pp="3" ppth="Kiel Hbf|Neumünster|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2508142301" pp="3" ppth="München Hbf"/>
+	</s>
+	<s id="-6940863621314051564-2508142208-1">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86749"/>
+		<dp pt="2508142208" pp="6" l="RB13" ppth="Brunnen(Oberbay)|Schrobenhausen|Radersdorf|Aichach|Obergriesbach|Dasing|Friedberg(Augsburg)|Augsburg-Hochzoll|Augsburg Haunstetterstraße|Augsburg Hbf"/>
+	</s>
+	<s id="-6188087749679563535-2508142211-1">
+		<tl f="D" t="p" o="A9" c="ag" n="84296"/>
+		<dp pt="2508142211" pp="1" l="RB15" ppth="Weichering|Rohrenfeld|Neuburg(Donau)"/>
+	</s>
+	<s id="5324821628306728469-2508141754-10">
+		<tl f="F" t="p" o="80" c="ICE" n="729"/>
+		<ar pt="2508142239" pp="3" ppth="Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Messe/Deutz Gl.11-12|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf|Aschaffenburg Hbf|Würzburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2508142240" pp="3" ppth="München Hbf"/>
+	</s>
+	<s id="-274110868177991243-2508142154-10">
+		<tl f="D" t="p" o="A9" c="ag" n="84348"/>
+		<ar pt="2508142254" pp="6" l="RB17" ppth="Sinzing|Gundelshausen|Bad Abbach|Saal(Donau)|Abensberg|Neustadt(Donau)|Münchsmünster|Vohburg-Rockolding|Ernsgaden"/>
+	</s>
+	<s id="434699660439512752-2508141715-8">
+		<tl f="F" t="p" o="80" c="ICE" n="633"/>
+		<ar pt="2508142159" pp="3" ppth="Bremen Hbf|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2508142201" pp="3" ppth="München Hbf"/>
+	</s>
+	<s id="4930918570354887901-2508142107-5">
+		<tl f="N" t="p" o="800765" c="RE" n="4041"/>
+		<ar pt="2508142154" pp="2" l="1" ppth="Nürnberg Hbf|Allersberg(Rothsee)|Kinding(Altmühltal)|Ingolstadt Nord"/>
+		<dp pt="2508142204" pp="2" l="1" ppth="Rohrbach(Ilm)|Pfaffenhofen(Ilm)|Petershausen(Obb)|München Hbf"/>
+	</s>
+	<s id="2786005973949447344-2508142159-2">
+		<tl f="D" t="p" o="A9" c="ag" n="56815"/>
+		<ar pt="2508142203" pp="5" l="RB17" ppth="Ingolstadt Nord"/>
+		<dp pt="2508142205" pp="5" l="RB17" ppth="Ernsgaden|Vohburg-Rockolding|Münchsmünster|Neustadt(Donau)|Abensberg|Saal(Donau)|Bad Abbach|Poikam|Sinzing"/>
+	</s>
+	<s id="-7179928820236290043-2508141636-11">
+		<tl f="F" t="p" o="80" c="ICE" n="683"/>
+		<ar pt="2508142159" pp="3" wings="434699660439512752-2508141715" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2508142201" pp="3" wings="434699660439512752-2508141715" ppth="München Hbf"/>
+	</s>
+	<s id="-2590970551728120725-2508142129-11">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86748"/>
+		<ar pt="2508142246" pp="1" l="RB13" ppth="Augsburg Hbf|Augsburg Haunstetterstraße|Augsburg-Hochzoll|Friedberg(Augsburg)|Dasing|Obergriesbach|Aichach|Radersdorf|Schrobenhausen|Brunnen(Oberbay)"/>
+	</s>
+	<s id="7771397587504426738-2508142135-11">
+		<tl f="N" t="p" o="800765" c="RB" n="59163"/>
+		<ar pt="2508142224" pp="2" l="16" ppth="Treuchtlingen|Pappenheim|Solnhofen|Dollnstein|Eichstätt Bahnhof|Adelschlag|Eitensheim|Gaimersheim|Ingolstadt Audi|Ingolstadt Nord"/>
+		<dp pt="2508142234" pp="2" l="16" ppth="Baar-Ebenhausen|Rohrbach(Ilm)|Pfaffenhofen(Ilm)|Reichertshausen(Ilm)|Paindorf|Petershausen(Obb)|Dachau Bahnhof|München Hbf"/>
+	</s>
+	<s id="4199646812407441115-2508142126-9">
+		<tl f="N" t="p" o="800765" c="RB" n="59108"/>
+		<ar pt="2508142223" pp="4" l="16" ppth="München Hbf|Dachau Bahnhof|Petershausen(Obb)|Paindorf|Reichertshausen(Ilm)|Pfaffenhofen(Ilm)|Rohrbach(Ilm)|Baar-Ebenhausen"/>
+		<dp pt="2508142225" pp="4" l="16" ppth="Ingolstadt Nord|Ingolstadt Audi|Gaimersheim|Eitensheim|Tauberfeld|Adelschlag|Eichstätt Bahnhof|Dollnstein|Solnhofen|Pappenheim|Treuchtlingen|Weißenburg(Bay)|Ellingen(Bay)|Pleinfeld|Mühlstetten|Georgensgmünd|Unterheckenhofen|Roth|Schwabach|Nürnberg Hbf"/>
+	</s>
+</timetable>
