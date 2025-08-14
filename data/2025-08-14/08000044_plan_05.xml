@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<timetable station="Bonn Hbf">
+	<s id="8970172874664882596-2508140408-12">
+		<tl t="p" o="B2" c="Bus" n="2623"/>
+		<ar pt="2508140553" pp="" l="S23" ppth="Euskirchen|Euskirchen-Kuchenheim|Swisttal-Odendorf|Rheinbach|Rheinbach Römerkanal|Meckenheim(Bz Köln)|Meckenheim Industriepark|Alfter-Witterschlick|Alfter-Impekoven|Bonn-Duisdorf|Bonn Helmholtzstraße"/>
+	</s>
+	<s id="-4784376862541113609-2508140507-4">
+		<tl f="F" t="p" o="80" c="ICE" n="553"/>
+		<ar pt="2508140547" pp="1" ppth="Koblenz Hbf|Andernach|Remagen"/>
+		<dp pt="2508140549" pp="1" ppth="Köln Hbf|Wuppertal Hbf|Hagen Hbf|Bielefeld Hbf|Hannover Hbf|Berlin-Spandau|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="1203270806604920705-2508140559-1">
+		<tl t="p" o="B2" c="Bus" n="2362"/>
+		<dp pt="2508140559" pp="" l="S23X" ppth="Meckenheim(Bz Köln)"/>
+	</s>
+	<s id="-6567166006652025260-2508140526-5">
+		<tl f="N" t="p" o="NXRE" c="RE" n="28501"/>
+		<ar pt="2508140555" pp="3" l="5" ppth="Köln Messe/Deutz|Köln Hbf|Köln Süd|Brühl"/>
+		<dp pt="2508140557" pp="3" l="5" ppth="Bonn UN Campus|Bonn-Bad Godesberg|Oberwinter|Remagen|Sinzig(Rhein)|Bad Breisig|Andernach|Koblenz Stadtmitte|Koblenz Hbf"/>
+	</s>
+	<s id="-2747861781616818164-2508140526-1">
+		<tl t="p" o="B2" c="Bus" n="2514"/>
+		<dp pt="2508140526" pp="" l="S23" ppth="Bonn Helmholtzstraße|Bonn-Duisdorf|Alfter-Impekoven|Alfter-Witterschlick|Meckenheim Industriepark|Meckenheim(Bz Köln)"/>
+	</s>
+	<s id="4753870957390372842-2508132134-13">
+		<tl f="F" t="p" o="NZ" c="IC" n="60402"/>
+		<ar pt="2508140535" pp="1" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf"/>
+		<dp pt="2508140537" pp="1" ppth="Eindhoven Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="-5551650572333323549-2508140556-1">
+		<tl t="p" o="B2" c="Bus" n="2516"/>
+		<dp pt="2508140556" pp="" l="S23" ppth="Bonn Helmholtzstraße|Bonn-Duisdorf|Alfter-Impekoven|Alfter-Witterschlick|Meckenheim Industriepark|Meckenheim(Bz Köln)"/>
+	</s>
+	<s id="5564186060372060012-2508140542-4">
+		<tl f="N" t="p" o="NXRB" c="RB" n="17310"/>
+		<ar pt="2508140553" pp="1" l="48" ppth="Bonn-Mehlem|Bonn-Bad Godesberg|Bonn UN Campus"/>
+		<dp pt="2508140554" pp="1" l="48" ppth="Roisdorf|Sechtem|Brühl|Hürth-Kalscheuren|Köln Süd|Köln West|Köln Hbf|Köln Messe/Deutz|Köln-Mülheim|Leverkusen-Manfort|Opladen|Leichlingen|Solingen Hbf|Haan|Haan-Gruiten|Wuppertal-Vohwinkel|Wuppertal Hbf|Wuppertal-Barmen|Wuppertal-Oberbarmen"/>
+	</s>
+	<s id="712763676223655180-2508140526-1">
+		<tl f="F" t="p" o="80" c="ICE" n="1155"/>
+		<dp pt="2508140526" pp="2" ppth="Köln Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz"/>
+	</s>
+	<s id="-443851016589686042-2508140510-1">
+		<tl t="p" o="B2" c="Bus" n="2628"/>
+		<dp pt="2508140510" pp="" l="S23" ppth="Bonn Helmholtzstraße|Bonn-Duisdorf|Alfter-Impekoven|Alfter-Witterschlick|Meckenheim Industriepark|Meckenheim(Bz Köln)|Rheinbach Römerkanal|Rheinbach|Swisttal-Odendorf|Euskirchen-Kuchenheim|Euskirchen"/>
+	</s>
+	<s id="3951742813224862862-2508140535-6">
+		<tl f="N" t="p" o="800352" c="RB" n="10851"/>
+		<ar pt="2508140557" pp="5" l="30" ppth="Remagen|Oberwinter|Bonn-Mehlem|Bonn-Bad Godesberg|Bonn UN Campus"/>
+	</s>
+	<s id="8868050453695511606-2508132134-13">
+		<tl t="p" o="85" c="NJ" n="402"/>
+		<ar pt="2508140535" pp="1" wings="4753870957390372842-2508132134" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf"/>
+		<dp pt="2508140537" pp="1" hi="1" wings="4753870957390372842-2508132134" ppth="Eindhoven Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="6175934605574930825-2508140429-17">
+		<tl f="N" t="p" o="TR" c="RB" n="25408"/>
+		<ar pt="2508140531" pp="1" l="26" ppth="Koblenz Hbf|Koblenz Stadtmitte|Koblenz-Lützel|Mülheim-Kärlich|Weißenthurm|Andernach|Namedy|Brohl|Bad Breisig|Sinzig(Rhein)|Remagen|Oberwinter|Rolandseck|Bonn-Mehlem|Bonn-Bad Godesberg|Bonn UN Campus"/>
+		<dp pt="2508140533" pp="1" l="26" ppth="Roisdorf|Sechtem|Brühl|Hürth-Kalscheuren|Köln Süd|Köln West|Köln Hbf|Köln Messe/Deutz"/>
+	</s>
+</timetable>

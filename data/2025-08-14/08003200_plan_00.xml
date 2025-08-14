@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<timetable station="Kassel-Wilhelmshöhe">
+	<s id="-8713877374029259818-2508132307-10">
+		<tl t="p" o="H4" c="Bus" n="95738"/>
+		<ar pt="2508140013" pp="B" l="EVRT5" ppth="Melsungen|Am Huberg, Melsungen|Schwarzenberg Mitte, Melsungen|Melsungen-Röhrenfurth Mitte|Körle Mülmischtal|Guxhagen|Guntershausen Bahnhof, Baunatal|Rengershausen Kirche, Baunatal|Kassel-Oberzwehren"/>
+		<dp pt="2508140013" pp="B" l="EVRT5" ppth="Kassel Hauptbahnhof Nord"/>
+	</s>
+	<s id="6205978925794838175-2508132325-4">
+		<tl t="p" o="N4" c="Bus" n="10246"/>
+		<ar pt="2508140023" pp="" l="EV" ppth="Malsfeld-Beiseförth|Malsfeld|Melsungen"/>
+		<dp pt="2508140023" pp="" l="EV" ppth="Kassel Hauptbahnhof Nord"/>
+	</s>
+	<s id="2065599546985349785-2508132331-7">
+		<tl f="D" t="p" o="H4" c="RT" n="26685"/>
+		<ar pt="2508132357" pp="10" l="4" ppth="Zierenberg|Fürstenwald|Ahnatal-Weimar|Ahnatal-Heckershausen|Ahnatal Casselbreite|Vellmar-Obervellmar"/>
+		<dp pt="2508140002" pp="10" l="4" ppth="Kassel Hbf (tief)"/>
+	</s>
+	<s id="-1318686703922953914-2508140019-2">
+		<tl f="D" t="p" o="H4" c="RT" n="28899"/>
+		<ar pt="2508140023" pp="8" l="1" ppth="Kassel Hbf (tief)"/>
+		<dp pt="2508140030" pp="8" l="1" ppth="Vellmar-Obervellmar|Espenau-Mönchehof|Immenhausen|Grebenstein|Hofgeismar|Hofgeismar-Hümme"/>
+	</s>
+	<s id="4603823553636784291-2508132359-3">
+		<tl t="p" o="H4" c="Bus" n="95737"/>
+		<ar pt="2508140011" pp="B" l="EVRT5" ppth="Kassel Hauptbahnhof Nord|Hauptbahnhof, Kassel"/>
+		<dp pt="2508140011" pp="B" l="EVRT5" ppth="Kassel-Oberzwehren|Rengershausen Kirche, Baunatal|Guntershausen Bahnhof, Baunatal|Guxhagen|Körle Mülmischtal|Melsungen-Röhrenfurth Mitte|Schwarzenberg Mitte, Melsungen|Am Huberg, Melsungen|Melsungen"/>
+	</s>
+	<s id="8542119838749842090-2508132220-25">
+		<tl f="D" t="p" o="K4RE" c="HLB" n="24422"/>
+		<ar pt="2508140048" pp="9" l="RE98" ppth="Frankfurt(Main)Hbf|Friedberg(Hess)|Gießen|Marburg(Lahn)|Cölbe|Bürgeln|Anzefahr|Kirchhain(Bz Kassel)|Stadtallendorf|Neustadt(Kr Marburg)|Schwalmstadt-Wiera|Treysa|Schlierbach(Schwalm-Eder-Kr.)|Zimmersrode|Borken(Hess)|Singlis|Wabern(Bz Kassel)|Felsberg-Gensungen|Felsberg-Altenbrunslar|Felsberg-Wolfershausen|Edermünde-Grifte|Baunatal-Guntershausen|Baunatal-Rengershausen|Kassel-Oberzwehren"/>
+		<dp pt="2508140049" pp="9" l="RE98" ppth="Kassel Hbf"/>
+	</s>
+	<s id="8606375031611599508-2508132356-7">
+		<tl f="D" t="p" o="H4" c="RT" n="21696"/>
+		<ar pt="2508140027" pp="7" l="1" ppth="Hofgeismar-Hümme|Hofgeismar|Grebenstein|Immenhausen|Espenau-Mönchehof|Vellmar-Obervellmar"/>
+		<dp pt="2508140035" pp="7" l="1" ppth="Kassel Hbf (tief)"/>
+	</s>
+	<s id="-3823254010841261196-2508131900-6">
+		<tl t="p" o="84" c="NJ" n="421"/>
+		<ar pt="2508140000" pp="2" wings="-4272298498907669914-2508131900" ppth="Amsterdam Centraal|Amersfoort Centraal|Deventer|Münster(Westf)Hbf|Hamm(Westf)Hbf"/>
+		<dp pt="2508140025" pp="2" wings="-4272298498907669914-2508131900" ppth="Würzburg Hbf|Nürnberg Hbf|Augsburg Hbf|München Hbf|Rosenheim|Salzburg Hbf|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="-4272298498907669914-2508131900-6">
+		<tl t="p" o="81" c="NJ" n="40421"/>
+		<ar pt="2508140000" pp="2" ppth="Amsterdam Centraal|Amersfoort Centraal|Deventer|Münster(Westf)Hbf|Hamm(Westf)Hbf"/>
+		<dp pt="2508140025" pp="2" ppth="Würzburg Hbf|Nürnberg Hbf|Regensburg Hbf|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="-3369141694762454670-2508140007-8">
+		<tl f="D" t="p" o="H4" c="RT" n="20559"/>
+		<ar pt="2508140022" pp="10" l="5" ppth="Auestadion, Kassel|Heinrich-Heine-Straße, Kassel|Am Weinberg, Kassel|Rathaus/Fünffensterstraße, Kassel|Wilhelmsstraße/Stadtmuseum, Kassel|Scheidemannplatz, Kassel|Kassel Hbf (tief)"/>
+	</s>
+	<s id="-317599063284119829-2508132355-2">
+		<tl f="D" t="p" o="H4" c="RT" n="28898"/>
+		<ar pt="2508132359" pp="7" l="4" ppth="Kassel Hbf (tief)"/>
+		<dp pt="2508140005" pp="7" l="4" ppth="Vellmar-Obervellmar|Ahnatal Casselbreite|Ahnatal-Heckershausen|Ahnatal-Weimar|Fürstenwald|Zierenberg"/>
+	</s>
+</timetable>

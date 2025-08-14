@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<timetable station="Hannover Hbf">
+	<s id="2735083336464781165-2508140133-1">
+		<tl f="S" t="p" o="TDHS" c="S" n="34506"/>
+		<dp pt="2508140133" pp="3" l="5" ppth="Hannover-Nordstadt|Hannover-Ledeburg|Hannover-Vinnhorst|Langenhagen Mitte|Langenhagen Pferdemarkt|Hannover Flughafen"/>
+	</s>
+	<s id="4121683295209577191-2508132315-7">
+		<tl f="F" t="p" o="80" c="ICE" n="271"/>
+		<ar pt="2508140137" pp="13" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Spandau|Stendal Hbf|Wolfsburg Hbf"/>
+		<dp pt="2508140210" pp="13" ppth="Göttingen|Fulda|Hanau Hbf|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB|Sargans|Landquart|Chur"/>
+	</s>
+	<s id="-2534056427099012540-2508140020-7">
+		<tl f="D" t="p" o="W3" c="WFB" n="95792"/>
+		<ar pt="2508140106" pp="12" l="RE70" ppth="Braunschweig Hbf|Vechelde|Peine|Vöhrum|Hämelerwald|Lehrte"/>
+	</s>
+	<s id="-1781439465744467581-2508140113-1">
+		<tl f="D" t="p" o="W3" c="WFB" n="95769"/>
+		<dp pt="2508140113" pp="12" l="RE70" ppth="Lehrte|Hämelerwald|Vöhrum|Peine|Vechelde|Braunschweig Hbf"/>
+	</s>
+	<s id="-8829923736739365948-2508132329-7">
+		<tl t="p" o="RS" c="Bus" n="84439"/>
+		<ar pt="2508140131" pp="" l="EV" ppth="Walsrode|Hodenhagen|Schwarmstedt|Lindwedel|Mellendorf|Langenhagen Mitte"/>
+	</s>
+	<s id="5845049446990543970-2508140014-11">
+		<tl t="p" o="R0" c="ENO" n="83538"/>
+		<ar pt="2508140111" pp="13" l="RE30" ppth="Wolfsburg Hbf|Fallersleben|Calberlah|Gifhorn|Leiferde(b Gifhorn)|Meinersen|Dedenhausen|Dollbergen|Immensen-Arpke|Lehrte"/>
+	</s>
+	<s id="-3498804700259438182-2508140105-2">
+		<tl t="p" o="TDHS" c="Bus" n="5504"/>
+		<ar pt="2508140119" pp="" l="S5" ppth="Hannover-Linden/Fischerhof"/>
+		<dp pt="2508140119" pp="" l="S5" ppth="Hannover Flughafen"/>
+	</s>
+	<s id="-6027587483204218492-2508140013-14">
+		<tl f="N" t="p" o="800295" c="RE" n="4445"/>
+		<ar pt="2508140140" pp="9" l="8" ppth="Bremen Hbf|Bremen-Sebaldsbrück|Bremen-Mahndorf|Achim|Baden(Verden)|Etelsen|Langwedel|Verden(Aller)|Dörverden|Eystrup|Nienburg(Weser)|Neustadt am Rübenberge|Wunstorf"/>
+	</s>
+	<s id="-647018726241571682-2508140046-5">
+		<tl t="p" o="TDHS" c="Bus" n="5505"/>
+		<ar pt="2508140129" pp="" l="S5" ppth="Hannover Flughafen|Langenhagen Mitte|Hannover-Vinnhorst|Hannover-Ledeburg"/>
+	</s>
+</timetable>
