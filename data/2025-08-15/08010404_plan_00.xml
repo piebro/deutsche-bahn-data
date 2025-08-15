@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin-Spandau">
+	<s id="4209598486652835463-2508150034-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62045"/>
+		<dp pt="2508150034" pp="3" l="8" ppth="Berlin-Staaken|Dallgow-Döberitz|Elstal|Wustermark"/>
+	</s>
+	<s id="-4499169996640701986-2508150002-5">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62038"/>
+		<ar pt="2508150019" pp="4" l="8" ppth="Wustermark|Elstal|Dallgow-Döberitz|Berlin-Staaken"/>
+	</s>
+	<s id="2053291994862255298-2508142339-5">
+		<tl f="N" t="p" o="800165" c="RB" n="18636"/>
+		<ar pt="2508150000" pp="3" l="14" ppth="Berlin Südkreuz|Berlin Potsdamer Platz|Berlin Hbf|Berlin Jungfernheide"/>
+		<dp pt="2508150002" pp="3" l="14" ppth="Berlin-Staaken|Dallgow-Döberitz|Elstal|Wustermark"/>
+	</s>
+	<s id="-7260953034263185039-2508142009-9">
+		<tl f="F" t="p" o="80" c="ICE" n="790"/>
+		<ar pt="2508150026" pp="6" ppth="Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Süd|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Messe/Laatzen|Wolfsburg Hbf|Stendal Hbf"/>
+		<dp pt="2508150028" pp="6" ppth="Berlin Hbf"/>
+	</s>
+	<s id="5597303123860052865-2508141926-11">
+		<tl f="F" t="p" o="80" c="ICE" n="947"/>
+		<ar pt="2508142359" pp="6" ppth="Köln Hbf|Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Hannover Hbf|Wolfsburg Hbf"/>
+		<dp pt="2508150020" pp="6" ppth="Berlin Gesundbrunnen"/>
+	</s>
+</timetable>
