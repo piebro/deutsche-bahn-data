@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<timetable station="Frankfurt(Main)Hbf">
+	<s id="-7787278288294079212-2508160215-1">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="28677"/>
+		<dp pt="2508160215" pp="5" l="RB58" ppth="Frankfurt(Main)Süd|Hanau Hbf"/>
+	</s>
+	<s id="7108274583246193747-2508152151-9">
+		<tl f="F" t="p" o="80" c="ICE" n="698"/>
+		<ar pt="2508160240" pp="8" ppth="München Hbf|Augsburg Hbf|Günzburg|Ulm Hbf|Stuttgart Hbf|Heidelberg Hbf|Mannheim Hbf|Frankfurt(M) Flughafen Fernbf"/>
+		<dp pt="2508160249" pp="8" ppth="Eisenach Hbf|Gotha|Erfurt Hbf|Weimar|Naumburg(Saale)Hbf|Halle(Saale)Hbf|Bitterfeld|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="636211320888314137-2508160250-1">
+		<tl f="S" t="p" o="800528" c="S" n="35795"/>
+		<dp pt="2508160250" pp="2" l="7" ppth="Frankfurt-Niederrad|Frankfurt am Main - Stadion|Zeppelinheim|Walldorf(Hess)|Mörfelden|Groß Gerau-Dornberg|Groß Gerau-Dornheim|Riedstadt-Wolfskehlen|Riedstadt-Goddelau"/>
+	</s>
+	<s id="4753870957390372842-2508152134-9">
+		<tl f="F" t="p" o="NZ" c="IC" n="60402"/>
+		<ar pt="2508160245" pp="18" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf"/>
+		<dp pt="2508160313" pp="18" ppth="Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf|Bonn Hbf|Eindhoven Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="-5078363726635283900-2508160255-1">
+		<tl f="S" t="p" o="800528" c="S" n="22291"/>
+		<dp pt="2508160255" pp="4" l="1" ppth="Frankfurt(Main)Süd|Offenbach(Main)Hbf|Offenbach(Main)Ost|Offenbach-Bieber|Offenbach-Waldhof|Obertshausen(Kr Of)|Rodgau-Weiskirchen|Rodgau-Hainhausen|Rodgau-Jügesheim|Rodgau-Dudenhofen|Rodgau-Nieder Roden|Rodgau-Rollwald|Rödermark-Ober Roden"/>
+	</s>
+	<s id="1376872280923244078-2508160129-3">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="28676"/>
+		<ar pt="2508160200" pp="5" l="RB58" ppth="Hanau Hbf|Frankfurt(Main)Süd"/>
+	</s>
+	<s id="7582314568044505717-2508152015-8">
+		<tl f="F" t="p" o="NZ" c="IC" n="60403"/>
+		<ar pt="2508160220" pp="19" ppth="Amsterdam Centraal|Utrecht Centraal|Eindhoven Centraal|Bonn Hbf|Koblenz Hbf|Mainz Hbf|Frankfurt(M) Flughafen Fernbf"/>
+		<dp pt="2508160245" pp="19" ppth="Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="4505001811599465360-2508160155-10">
+		<tl f="S" t="p" o="800528" c="S" n="35792"/>
+		<ar pt="2508160235" pp="2" l="7" ppth="Riedstadt-Goddelau|Riedstadt-Wolfskehlen|Groß Gerau-Dornheim|Groß Gerau-Dornberg|Mörfelden|Walldorf(Hess)|Zeppelinheim|Frankfurt am Main - Stadion|Frankfurt-Niederrad"/>
+	</s>
+	<s id="-5851721557238592488-2508152015-8">
+		<tl t="p" o="84" c="NJ" n="403"/>
+		<ar pt="2508160220" pp="19" hi="1" wings="7582314568044505717-2508152015" ppth="Amsterdam Centraal|Utrecht Centraal|Eindhoven Centraal|Bonn Hbf|Koblenz Hbf|Mainz Hbf|Frankfurt(M) Flughafen Fernbf"/>
+		<dp pt="2508160245" pp="19" hi="1" wings="7582314568044505717-2508152015" ppth="Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-7138074359361066746-2508151836-14">
+		<tl f="F" t="p" o="80" c="ICE" n="699"/>
+		<ar pt="2508160211" pp="8" ppth="Hamburg-Altona|Hamburg Hbf|Lüneburg|Salzwedel|Stendal Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Bitterfeld|Leipzig Hbf|Erfurt Hbf|Eisenach Hbf"/>
+		<dp pt="2508160225" pp="8" ppth="Frankfurt(M) Flughafen Fernbf|Mannheim Hbf|Heidelberg Hbf|Stuttgart Hbf|Ulm Hbf|Günzburg|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-259122123370410394-2508160203-14">
+		<tl f="S" t="p" o="800528" c="S" n="22288"/>
+		<ar pt="2508160240" pp="4" l="1" ppth="Rödermark-Ober Roden|Rodgau-Rollwald|Rodgau-Nieder Roden|Rodgau-Dudenhofen|Rodgau-Jügesheim|Rodgau-Hainhausen|Rodgau-Weiskirchen|Obertshausen(Kr Of)|Offenbach-Waldhof|Offenbach-Bieber|Offenbach(Main)Ost|Offenbach(Main)Hbf|Frankfurt(Main)Süd"/>
+	</s>
+	<s id="-8537198348826974559-2508160202-1">
+		<tl f="N" t="p" o="8005KG" c="RB" n="15560"/>
+		<dp pt="2508160202" pp="8" l="51" ppth="Frankfurt(Main)Süd|Offenbach(Main)Hbf|Hanau Hbf|Wolfgang(Kr Hanau)|Rodenbach(b Hanau)|Langenselbold|Niedermittlau|Hailer-Meerholz|Gelnhausen|Haitz-Höchst|Wirtheim|Wächtersbach"/>
+	</s>
+	<s id="8868050453695511606-2508152134-9">
+		<tl t="p" o="85" c="NJ" n="402"/>
+		<ar pt="2508160245" pp="18" hi="1" wings="4753870957390372842-2508152134" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf"/>
+		<dp pt="2508160313" pp="18" hi="1" wings="4753870957390372842-2508152134" ppth="Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf|Bonn Hbf|Eindhoven Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="-1500176329851797383-2508160229-1">
+		<tl f="N" t="p" o="800553" c="RB" n="15296"/>
+		<dp pt="2508160229" pp="21" l="22" ppth="Frankfurt-Höchst|Hofheim(Taunus)|Niedernhausen(Taunus)|Idstein(Taunus)|Wörsdorf|Bad Camberg|Niederselters|Oberbrechen|Niederbrechen|Lindenholzhausen|Eschhofen|Limburg(Lahn)"/>
+	</s>
+</timetable>
