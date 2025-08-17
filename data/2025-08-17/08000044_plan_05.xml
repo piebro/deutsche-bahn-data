@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="Bonn Hbf">
+	<s id="-4784376862541113609-2508170507-4">
+		<tl f="F" t="p" o="80" c="ICE" n="553"/>
+		<ar pt="2508170547" pp="1" ppth="Koblenz Hbf|Andernach|Remagen"/>
+		<dp pt="2508170549" pp="1" ppth="Köln Hbf|Wuppertal Hbf|Hagen Hbf|Bielefeld Hbf|Hannover Hbf|Berlin-Spandau|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="-3713086646209069552-2508170438-10">
+		<tl f="N" t="p" o="TR" c="RB" n="25409"/>
+		<ar pt="2508170525" pp="3" l="26" ppth="Köln/Bonn Flughafen|Köln Messe/Deutz|Köln Hbf|Köln West|Köln Süd|Hürth-Kalscheuren|Brühl|Sechtem|Roisdorf"/>
+		<dp pt="2508170527" pp="3" l="26" ppth="Bonn UN Campus|Bonn-Bad Godesberg|Bonn-Mehlem|Rolandseck|Oberwinter|Remagen"/>
+	</s>
+	<s id="-4544563682702624126-2508170533-1">
+		<tl f="N" t="p" o="TR" c="RB" n="25456"/>
+		<dp pt="2508170533" pp="2" l="26" ppth="Roisdorf|Sechtem|Brühl|Hürth-Kalscheuren|Köln Süd|Köln West|Köln Hbf|Köln Messe/Deutz|Köln/Bonn Flughafen"/>
+	</s>
+	<s id="8868050453695511606-2508162117-13">
+		<tl t="p" o="85" c="NJ" n="402"/>
+		<ar pt="2508170535" pp="1" wings="4753870957390372842-2508162117" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf"/>
+		<dp pt="2508170537" pp="1" hi="1" wings="4753870957390372842-2508162117" ppth="Eindhoven Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="8321763134242962259-2508170404-7">
+		<tl t="p" o="B2" c="Bus" n="2707"/>
+		<ar pt="2508170504" pp="" l="S23" ppth="Meckenheim(Bz Köln)|Meckenheim Industriepark|Alfter-Witterschlick|Alfter-Impekoven|Bonn-Duisdorf|Bonn Helmholtzstraße"/>
+	</s>
+	<s id="4753870957390372842-2508162117-13">
+		<tl f="F" t="p" o="NZ" c="IC" n="60402"/>
+		<ar pt="2508170535" pp="1" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf"/>
+		<dp pt="2508170537" pp="1" ppth="Eindhoven Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+</timetable>
