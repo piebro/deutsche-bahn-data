@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<timetable station="Bamberg">
+	<s id="-8494224272867700418-2508222205-1">
+		<tl t="p" o="B7" c="Bus" n="58272"/>
+		<dp pt="2508222205" pp="" l="EV" ppth="Oberhaid|Ebelsbach-Eltmann|Zeil|Haßfurt|Schonungen|Schweinfurt Stadt|Schweinfurt Mitte|Schweinfurt Hbf"/>
+	</s>
+	<s id="-3294738551582757249-2508222045-9">
+		<tl t="p" o="B7" c="Bus" n="58071"/>
+		<ar pt="2508222215" pp="" l="EV" ppth="Schweinfurt Hbf|Schweinfurt Mitte|Schweinfurt Stadt|Schonungen|Haßfurt|Zeil|Ebelsbach-Eltmann|Oberhaid"/>
+	</s>
+	<s id="-2043019668769204092-2508222200-7">
+		<tl f="D" t="p" o="A9" c="ag" n="84435"/>
+		<ar pt="2508222232" pp="2" l="RB26" ppth="Ebern|Rentweinsdorf|Manndorf|Reckendorf|Baunach|Breitengüßbach"/>
+	</s>
+	<s id="8290912034684684315-2508221616-16">
+		<tl f="F" t="p" o="80" c="ICE" n="803"/>
+		<ar pt="2508222228" pp="3" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Lüneburg|Uelzen|Salzwedel|Stendal Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz|Bitterfeld|Halle(Saale)Hbf|Erfurt Hbf|Coburg"/>
+		<dp pt="2508222230" pp="3" ppth="Erlangen|Nürnberg Hbf"/>
+	</s>
+	<s id="-1832573390095239955-2508222114-3">
+		<tl t="p" o="B7" c="Bus" n="4795"/>
+		<ar pt="2508222228" pp="" l="EV" ppth="Schweinfurt Hbf|Haßfurt"/>
+	</s>
+	<s id="-8807993380661457737-2508222225-1">
+		<tl f="D" t="p" o="A9" c="ag" n="84436"/>
+		<dp pt="2508222225" pp="5" l="RB26" ppth="Hallstadt(b Bamberg)|Breitengüßbach|Baunach|Reckendorf|Manndorf|Rentweinsdorf|Ebern"/>
+	</s>
+	<s id="5429242306657575719-2508222047-25">
+		<tl f="N" t="p" o="800755" c="RE" n="4935"/>
+		<ar pt="2508222237" pp="3" l="14" ppth="Saalfeld(Saale)|Breternitz|Kaulsdorf(Saale)|Unterloquitz|Probstzella|Ludwigsstadt|Steinbach am Wald|Förtschendorf|Pressig-Rothenkirchen|Stockheim(Oberfr)|Gundelsdorf|Kronach|Neuses(b Kronach)|Küps|Redwitz(Rodach)|Hochstadt-Marktzeuln|Michelau(Oberfr)|Lichtenfels|Bad Staffelstein|Ebensfeld|Zapfendorf|Ebing|Breitengüßbach|Hallstadt(b Bamberg)"/>
+		<dp pt="2508222239" pp="3" l="14" ppth="Strullendorf|Hirschaid|Buttenheim|Eggolsheim|Forchheim(Oberfr)|Erlangen|Fürth(Bay)Hbf|Nürnberg Hbf"/>
+	</s>
+	<s id="3810604004206703964-2508222138-6">
+		<tl f="N" t="p" o="800755" c="RE" n="4998"/>
+		<ar pt="2508222220" pp="8" l="14" ppth="Nürnberg Hbf|Fürth(Bay)Hbf|Erlangen|Forchheim(Oberfr)|Hirschaid"/>
+		<dp pt="2508222238" pp="8" l="14" ppth="Hallstadt(b Bamberg)|Breitengüßbach|Ebing|Zapfendorf|Ebensfeld|Bad Staffelstein|Lichtenfels|Michelau(Oberfr)|Hochstadt-Marktzeuln|Redwitz(Rodach)|Küps|Neuses(b Kronach)|Kronach|Gundelsdorf|Stockheim(Oberfr)|Pressig-Rothenkirchen|Förtschendorf|Steinbach am Wald|Ludwigsstadt"/>
+	</s>
+</timetable>
