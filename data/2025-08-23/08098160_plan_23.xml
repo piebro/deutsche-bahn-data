@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Hbf">
+	<s id="5345924912571245273-2508232035-7">
+		<tl f="F" t="p" o="80" c="ICE" n="1507"/>
+		<ar pt="2508232316" pp="1" ppth="Hamburg-Altona|Hamburg Hbf|Lüneburg|Salzwedel|Stendal Hbf|Berlin-Spandau"/>
+		<dp pt="2508232320" pp="1" hi="1" ppth="Berlin Südkreuz"/>
+	</s>
+	<s id="450159185692254127-2508232206-10">
+		<tl f="N" t="p" o="800158" c="RE" n="3162"/>
+		<ar pt="2508232302" pp="2" l="4" ppth="Rathenow|Nennhausen|Buschow|Wustermark|Elstal|Dallgow-Döberitz|Berlin-Staaken|Berlin-Spandau|Berlin Jungfernheide"/>
+	</s>
+	<s id="-7183517807738821754-2508232211-11">
+		<tl f="N" t="p" o="800158" c="RE" n="3185"/>
+		<ar pt="2508232305" pp="7" l="4" ppth="Luckenwalde|Trebbin|Thyrow|Ludwigsfelde|Birkengrund|Großbeeren|Teltow|Berlin-Lichterfelde Ost|Berlin Südkreuz|Berlin Potsdamer Platz"/>
+		<dp pt="2508232307" pp="7" l="4" ppth="Berlin Jungfernheide|Berlin-Spandau|Berlin-Staaken|Dallgow-Döberitz|Elstal|Wustermark|Buschow|Nennhausen|Rathenow|Stendal Hbf"/>
+	</s>
+	<s id="3392242502579530062-2508232016-27">
+		<tl f="N" t="p" o="800158" c="RE" n="3319"/>
+		<ar pt="2508232332" pp="2" l="3" ppth="Stralsund Hbf|Miltzow|Greifswald|Greifswald Süd|Groß Kiesow|Züssow|Klein Bünzow|Anklam|Ducherow|Ferdinandshof|Jatznick|Pasewalk|Nechlin|Prenzlau|Seehausen(Uckermark)|Warnitz(Uckermark)|Wilmersdorf(Angerm)|Angermünde|Chorin|Britz|Eberswalde Hbf|Melchow|Biesenthal|Rüdnitz|Bernau(b Berlin)|Berlin Gesundbrunnen"/>
+		<dp pt="2508232333" pp="2" l="3" pde="Lutherstadt Wittenberg Hbf" ppth="Berlin Potsdamer Platz|Berlin Südkreuz|Berlin-Lichterfelde Ost|Teltow|Großbeeren|Birkengrund|Ludwigsfelde|Thyrow|Trebbin|Woltersdorf/Nuthe-Urstromtal|Luckenwalde|Jüterbog"/>
+	</s>
+	<s id="1026453642466058867-2508231902-5">
+		<tl f="F" t="p" o="80" c="ICE" n="832"/>
+		<ar pt="2508232258" pp="7" ppth="Frankfurt(Main)Hbf|Erfurt Hbf|Halle(Saale)Hbf|Berlin Südkreuz"/>
+		<dp pt="2508232301" pp="7" hi="1" ppth="Berlin Gesundbrunnen"/>
+	</s>
+	<s id="-5498545633508872468-2508232333-1">
+		<tl f="N" t="p" o="800158" c="RE" n="3358"/>
+		<dp pt="2508232333" pp="5" l="3" ppth="Berlin Gesundbrunnen|Bernau(b Berlin)|Rüdnitz|Biesenthal|Melchow|Eberswalde Hbf"/>
+	</s>
+	<s id="1037108886086847422-2508232207-12">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62087"/>
+		<ar pt="2508232312" pp="7" l="8" ppth="Baruth(Mark)|Neuhof(b Zossen)|Wünsdorf-Waldstadt|Zossen|Dabendorf|Rangsdorf|Dahlewitz|Blankenfelde(Teltow-Fläming)|Berlin-Lichterfelde Ost|Berlin Südkreuz|Berlin Potsdamer Platz"/>
+	</s>
+</timetable>
