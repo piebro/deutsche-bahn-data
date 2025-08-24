@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="Lüneburg">
+	<s id="1456223952860099681-2508242301-3">
+		<tl f="D" t="p" o="X1" c="erx" n="83887"/>
+		<ar pt="2508242315" pp="5" l="RE83" ppth="Lauenburg(Elbe)|Echem"/>
+	</s>
+	<s id="1645690183033695457-2508242234-10">
+		<tl f="D" t="p" o="R1" c="ME" n="81643"/>
+		<ar pt="2508242323" pp="1" l="RB31" ppth="Hamburg Hbf|Hamburg-Harburg|Meckelfeld|Maschen|Stelle|Ashausen|Winsen(Luhe)|Radbruch|Bardowick"/>
+		<dp pt="2508242324" pp="1" l="RB31" ppth="Bienenbüttel|Bad Bevensen|Uelzen"/>
+	</s>
+	<s id="7597089806492032299-2508242221-4">
+		<tl f="F" t="p" o="80" c="ICE" n="1081"/>
+		<ar pt="2508242301" pp="1" ppth="Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg"/>
+		<dp pt="2508242305" pp="1" ppth="Uelzen|Celle|Hannover Hbf|Göttingen|Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf|München Hbf"/>
+	</s>
+	<s id="2204831232318220368-2508242340-1">
+		<tl f="D" t="p" o="X1" c="erx" n="83890"/>
+		<dp pt="2508242340" pp="5" l="RE83" ppth="Echem|Lauenburg(Elbe)"/>
+	</s>
+	<s id="-2167438544370822717-2508242236-3">
+		<tl f="F" t="p" o="80" c="ICE" n="809"/>
+		<ar pt="2508242314" pp="1" ppth="Hamburg-Altona|Hamburg Hbf"/>
+		<dp pt="2508242316" pp="1" ppth="Uelzen|Salzwedel|Stendal Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz"/>
+	</s>
+	<s id="-4550435493069381661-2508242306-4">
+		<tl f="D" t="p" o="R1" c="ME" n="81642"/>
+		<ar pt="2508242327" pp="3" l="RB31" ppth="Uelzen|Bad Bevensen|Bienenbüttel"/>
+		<dp pt="2508242338" pp="3" l="RB31" ppth="Bardowick|Radbruch|Winsen(Luhe)|Ashausen|Stelle|Maschen|Meckelfeld|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+</timetable>
