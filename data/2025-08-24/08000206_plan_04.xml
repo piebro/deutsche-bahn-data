@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<timetable station="Koblenz Hbf">
+	<s id="4753870957390372842-2508232159-6">
+		<tl f="F" t="p" o="NZ" c="IC" n="60402"/>
+		<ar pt="2508240459" pp="3" ppth="Zürich HB|Singen(Hohentwiel)|Mannheim Hbf|Frankfurt(Main)Hbf|Mainz Hbf"/>
+		<dp pt="2508240501" pp="3" ppth="Bonn-Beuel|Köln Hbf|Eindhoven Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="2774174590951633862-2508232229-17">
+		<tl f="F" t="p" o="80" c="ICE" n="921"/>
+		<ar pt="2508240457" pp="5" wings="-211783130889760605-2508232229" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Osnabrück Hbf|Münster(Westf)Hbf|Hamm(Westf)Hbf|Dortmund Hbf|Duisburg Hbf|Düsseldorf Flughafen|Düsseldorf Hbf|Köln Hbf|Bonn Hbf|Remagen|Andernach"/>
+		<dp pt="2508240531" pp="5" wings="-211783130889760605-2508232229" ppth="Bingen(Rhein) Hbf|Mainz Hbf|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="8868050453695511606-2508232159-6">
+		<tl t="p" o="85" c="NJ" n="402"/>
+		<ar pt="2508240459" pp="3" hi="1" wings="4753870957390372842-2508232159" ppth="Zürich HB|Singen(Hohentwiel)|Mannheim Hbf|Frankfurt(Main)Hbf|Mainz Hbf"/>
+		<dp pt="2508240501" pp="3" hi="1" wings="4753870957390372842-2508232159" ppth="Bonn-Beuel|Köln Hbf|Eindhoven Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+</timetable>
