@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="-8745930355234119378-2508250007-3">
+		<tl f="F" t="p" o="80" c="EC" n="259"/>
+		<ar pt="2508250041" pp="4" hi="1" ppth="Berlin Hbf|Berlin Ostbahnhof"/>
+		<dp pt="2508250043" pp="4" ppth="Dresden-Neustadt|Dresden Hbf|Bad Schandau|Decin hl.n.|Usti nad Labem hl.n.|Praha-Holesovice|Praha hl.n."/>
+	</s>
+	<s id="1608799031198059101-2508250040-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62041"/>
+		<dp pt="2508250040" pp="2" l="8" ppth="Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Charlottenburg"/>
+	</s>
+	<s id="649878001262503139-2508250018-2">
+		<tl f="N" t="p" o="800165" c="RB" n="18101"/>
+		<ar pt="2508250029" pp="4" l="22" ppth="Königs Wusterhausen"/>
+		<dp pt="2508250031" pp="4" l="22" ppth="Ludwigsfelde-Struveshof|Saarmund|Potsdam Pirschheide|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof|Potsdam Hbf"/>
+	</s>
+	<s id="-7460128831778763104-2508250002-1">
+		<tl t="p" o="800165" c="FEX" n="19878"/>
+		<dp pt="2508250002" pp="1" ppth="Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Charlottenburg"/>
+	</s>
+	<s id="-1167583405781437696-2508242336-2">
+		<tl t="p" o="800165" c="FEX" n="19881"/>
+		<ar pt="2508250000" pp="4" pde="Berlin-Lichtenberg" ppth="Berlin Ostkreuz"/>
+	</s>
+	<s id="2550964200555955868-2508250014-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18337"/>
+		<dp pt="2508250014" pp="4" l="24" tra="-1167583405781437696-2508242336-2" ppth="Blankenfelde(Teltow-Fläming)|Dahlewitz|Rangsdorf|Dabendorf|Zossen|Wünsdorf-Waldstadt"/>
+	</s>
+	<s id="519132225267584083-2508242304-12">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62036"/>
+		<ar pt="2508250015" pp="1" l="8" ppth="Wustermark|Elstal|Dallgow-Döberitz|Berlin-Staaken|Berlin-Spandau|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz"/>
+	</s>
+</timetable>
