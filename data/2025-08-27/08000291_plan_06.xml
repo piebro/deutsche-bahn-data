@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<timetable station="Oldenburg(Oldb)Hbf">
+	<s id="4676214768037136124-2508270600-1">
+		<tl t="p" o="NWBus" c="Bus" n="53350"/>
+		<dp pt="2508270600" pp="" l="EV" ppth="Oldenburg-Wechloy|Bad Zwischenahn"/>
+	</s>
+	<s id="9022204647261448359-2508270640-1">
+		<tl f="F" t="p" o="80" c="ICE" n="533"/>
+		<dp pt="2508270640" pp="7" ppth="Delmenhorst|Bremen Hbf|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Nürnberg Hbf"/>
+	</s>
+	<s id="1246687697450246087-2508270626-6">
+		<tl f="D" t="p" o="N1" c="NWB" n="75353"/>
+		<ar pt="2508270659" pp="8" l="RE18" ppth="Cloppenburg|Ahlhorn|Großenkneten|Huntlosen|Sandkrug"/>
+	</s>
+	<s id="5769559680701882536-2508270553-4">
+		<tl f="N" t="p" o="NZ" c="RE" n="52438"/>
+		<ar pt="2508270623" pp="6" l="56" ppth="Bremen Hbf|Delmenhorst|Hude"/>
+		<dp pt="2508270633" pp="6" l="56" ppth="Bad Zwischenahn|Westerstede-Ocholt|Augustfehn|Leer(Ostfriesl)|Emden Hbf|Marienhafe|Norden|Norddeich|Norddeich Mole"/>
+	</s>
+	<s id="-9044678865613819721-2508270459-15">
+		<tl f="D" t="p" o="N1" c="NWB" n="75303"/>
+		<ar pt="2508270629" pp="8" l="RE18" ppth="Osnabrück Hbf|Osnabrück Altstadt|Halen|Achmer|Bramsche|Hesepe|Bersenbrück|Quakenbrück|Essen(Oldb)|Cloppenburg|Ahlhorn|Großenkneten|Huntlosen|Sandkrug"/>
+		<dp pt="2508270636" pp="8" l="RE18" ppth="Rastede|Jaderberg|Varel(Oldb)|Sande|Wilhelmshaven"/>
+	</s>
+	<s id="-3011290278229936684-2508270553-4">
+		<tl f="F" t="p" o="80" c="IC" n="2438"/>
+		<ar pt="2508270623" pp="6" wings="5769559680701882536-2508270553" ppth="Bremen Hbf|Delmenhorst|Hude"/>
+		<dp pt="2508270633" pp="6" wings="5769559680701882536-2508270553" ppth="Bad Zwischenahn|Westerstede-Ocholt|Augustfehn|Leer(Ostfriesl)|Emden Hbf|Marienhafe|Norden|Norddeich|Norddeich Mole"/>
+	</s>
+	<s id="4602598478958179296-2508270623-3">
+		<tl t="p" o="NWBus" c="Bus" n="53319"/>
+		<ar pt="2508270658" pp="" l="EV" ppth="Bad Zwischenahn|Oldenburg-Wechloy"/>
+	</s>
+	<s id="-3100544488807388044-2508270626-4">
+		<tl f="D" t="p" o="N1" c="NWB" n="83316"/>
+		<ar pt="2508270653" pp="6" l="RS30" ppth="Bremen Hbf|Delmenhorst|Hude"/>
+		<dp pt="2508270658" pp="6" l="RS30" ppth="Oldenburg-Wechloy|Bad Zwischenahn"/>
+	</s>
+	<s id="5398041463309845044-2508270545-3">
+		<tl f="D" t="p" o="N1" c="NWB" n="83317"/>
+		<ar pt="2508270557" pp="1" l="RS30" ppth="Bad Zwischenahn|Oldenburg-Wechloy"/>
+		<dp pt="2508270605" pp="1" l="RS30" ppth="Hude|Delmenhorst|Bremen Hbf"/>
+	</s>
+	<s id="4113639045005793925-2508270608-6">
+		<tl f="D" t="p" o="N1" c="NWB" n="83355"/>
+		<ar pt="2508270647" pp="5" l="RS3" ppth="Wilhelmshaven|Sande|Varel(Oldb)|Jaderberg|Rastede"/>
+		<dp pt="2508270649" pp="5" l="RS3" ppth="Wüsting|Hude|Bookholzberg|Schierbrok|Hoykenkamp|Delmenhorst|Heidkrug|Bremen Neustadt|Bremen Hbf"/>
+	</s>
+	<s id="-759743867763466059-2508270540-6">
+		<tl f="D" t="p" o="N1" c="NWB" n="75302"/>
+		<ar pt="2508270624" pp="5" l="RE18" ppth="Wilhelmshaven|Sande|Varel(Oldb)|Jaderberg|Rastede"/>
+		<dp pt="2508270629" pp="5" l="RE18" ppth="Sandkrug|Huntlosen|Großenkneten|Ahlhorn|Cloppenburg|Essen(Oldb)|Quakenbrück|Bersenbrück|Bramsche|Osnabrück Altstadt|Osnabrück Hbf"/>
+	</s>
+	<s id="4264459274778720866-2508270611-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="82596"/>
+		<dp pt="2508270611" pp="6" l="RS3" ppth="Rastede|Jaderberg|Varel(Oldb)|Sande|Wilhelmshaven"/>
+	</s>
+	<s id="-365360981180521977-2508270445-9">
+		<tl f="N" t="p" o="800295" c="RE" n="4407"/>
+		<ar pt="2508270623" pp="1" l="1" ppth="Norddeich|Norden|Marienhafe|Emden Hbf|Leer(Ostfriesl)|Augustfehn|Westerstede-Ocholt|Bad Zwischenahn"/>
+		<dp pt="2508270635" pp="1" l="1" ppth="Hude|Delmenhorst|Bremen Hbf|Bremen-Mahndorf|Achim|Verden(Aller)|Dörverden|Eystrup|Nienburg(Weser)|Neustadt am Rübenberge|Wunstorf|Hannover Hbf"/>
+	</s>
+	<s id="3868751082245177422-2508270659-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="75352"/>
+		<dp pt="2508270659" pp="5" l="RE18" ppth="Sandkrug|Huntlosen|Großenkneten|Ahlhorn|Cloppenburg|Essen(Oldb)|Quakenbrück|Bersenbrück|Bramsche|Osnabrück Altstadt|Osnabrück Hbf"/>
+	</s>
+</timetable>
