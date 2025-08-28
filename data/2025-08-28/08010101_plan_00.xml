@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<timetable station="Erfurt Hbf">
+	<s id="-816610209260891280-2508280037-1">
+		<tl f="N" t="p" o="EB" c="RB" n="80915"/>
+		<dp pt="2508280037" pp="5" l="21" ppth="Vieselbach|Hopfgarten(Weimar)|Weimar|Oberweimar|Mellingen(Thür)|Großschwabhausen|Jena West|Jena-Göschwitz"/>
+	</s>
+	<s id="-5083558051405008269-2508271909-7">
+		<tl f="F" t="p" o="80" c="ICE" n="1500"/>
+		<ar pt="2508280012" pp="9" ppth="München Hbf|München-Pasing|Augsburg Hbf|Donauwörth|Treuchtlingen|Würzburg Hbf"/>
+		<dp pt="2508280014" pp="9" ppth="Leipzig Hbf"/>
+	</s>
+	<s id="-354358819527274421-2508280009-1">
+		<tl f="N" t="p" o="SB" c="RB" n="81289"/>
+		<dp pt="2508280009" pp="7" l="44" ppth="Erfurt-Bischleben|Neudietendorf|Sülzenbrücken|Haarhausen|Arnstadt Hbf|Arnstadt Süd|Plaue(Thür)|Gräfenroda|Dörrberg|Gehlberg|Zella-Mehlis|Suhl|Suhl-Heinrichs|Dietzhausen|Rohr(Thür)|Grimmenthal"/>
+	</s>
+	<s id="6411876671020775734-2508280009-1">
+		<tl f="N" t="p" o="SB" c="RB" n="81225"/>
+		<dp pt="2508280009" pp="7" l="46" wings="-354358819527274421-2508280009" ppth="Erfurt-Bischleben|Neudietendorf|Sülzenbrücken|Haarhausen|Arnstadt Hbf|Arnstadt Süd|Plaue(Thür)|Martinroda|Geraberg|Elgersburg|Ilmenau-Roda|Ilmenau Pörlitzer Höhe|Ilmenau"/>
+	</s>
+</timetable>
