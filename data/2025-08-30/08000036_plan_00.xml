@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<timetable station="Bielefeld Hbf">
+	<s id="6656233419488757116-2508300012-1">
+		<tl f="N" t="p" o="R2RB" c="RB" n="20392"/>
+		<dp pt="2508300012" pp="3 A-C" l="61" ppth="Brake(b Bielefeld)|Herford|Hiddenhausen-Schweicheln|Kirchlengern|Bünde(Westf)|Bruchmühlen|Melle|Westerhausen|Wissingen|Osnabrück Hbf"/>
+	</s>
+	<s id="8777802995474203009-2508300015-1">
+		<tl f="N" t="p" o="R2RB" c="RB" n="90261"/>
+		<dp pt="2508300015" pp="1" l="73" ppth="Bielefeld Ost|Oldentrup|Ubbedissen|Oerlinghausen|Helpup|Ehlenbruch|Lage(Lippe)|Hörstmar(Lippe)|Lemgo|Lemgo-Lüttfeld"/>
+	</s>
+	<s id="-7723223610149163054-2508292310-16">
+		<tl f="N" t="p" o="R2RB" c="RB" n="90087"/>
+		<ar pt="2508300051" pp="3 C-E" l="69" ppth="Münster(Westf)Hbf|Münster-Hiltrup|Rinkerode|Drensteinfurt|Mersch(Westf)|Hamm-Bockum-Hövel|Hamm(Westf)Hbf|Hamm-Heessen|Ahlen(Westf)|Beckum-Neubeckum|Oelde|Rheda-Wiedenbrück|Gütersloh Hbf|Isselhorst-Avenwedde|Bielefeld-Brackwede"/>
+	</s>
+	<s id="67273429190528841-2508291909-14">
+		<tl f="F" t="p" o="80" c="IC" n="2448"/>
+		<ar pt="2508300034" pp="4" ppth="Dresden Hbf|Dresden-Neustadt|Riesa|Leipzig Hbf|Leipzig/Halle Flughafen|Halle(Saale)Hbf|Köthen|Magdeburg Hbf|Braunschweig Hbf|Hannover Hbf|Minden(Westf)|Bad Oeynhausen|Herford"/>
+		<dp pt="2508300035" pp="4" ppth="Gütersloh Hbf|Hamm(Westf)Hbf|Dortmund Hbf"/>
+	</s>
+	<s id="-6180065764643420686-2508292149-10">
+		<tl t="p" o="R2" c="Bus" n="6901"/>
+		<ar pt="2508300023" pp="" l="RB69" ppth="Hamm(Westf)Hbf|Hamm-Heessen|Ahlen(Westf)|Beckum-Neubeckum|Oelde|Rheda-Wiedenbrück|Gütersloh Hbf|Isselhorst-Avenwedde|Bielefeld-Brackwede"/>
+	</s>
+	<s id="5458276174433768787-2508292315-3">
+		<tl t="p" o="W3" c="Bus" n="71838"/>
+		<ar pt="2508300007" pp="" l="EV" ppth="Löhne(Westf)|Herford"/>
+	</s>
+	<s id="5729393359484274537-2508300007-1">
+		<tl f="N" t="p" o="R2RB" c="RB" n="89996"/>
+		<dp pt="2508300007" pp="4" l="69" ppth="Bielefeld-Brackwede|Isselhorst-Avenwedde|Gütersloh Hbf|Rheda-Wiedenbrück|Oelde|Beckum-Neubeckum|Ahlen(Westf)|Hamm-Heessen|Hamm(Westf)Hbf"/>
+	</s>
+	<s id="9100341696430146403-2508300004-11">
+		<tl f="N" t="p" o="R2RB" c="RB" n="90262"/>
+		<ar pt="2508300045" pp="1" l="73" ppth="Lemgo-Lüttfeld|Lemgo|Hörstmar(Lippe)|Lage(Lippe)|Ehlenbruch|Helpup|Oerlinghausen|Ubbedissen|Oldentrup|Bielefeld Ost"/>
+	</s>
+	<s id="1960568980423044256-2508300004-1">
+		<tl t="p" o="NWBus" c="Bus" n="15189"/>
+		<dp pt="2508300004" pp="" l="EV" ppth="Bielefeld-Brackwede|Quelle-Kupferheide|Quelle|Steinhagen(Westf) Bielef. Str.|Steinhagen(Westf)|Künsebeck|Halle(Westf)|Halle(Westf) OWL-Arena|Hesseln|Borgholzhausen|Westbarthausen|Dissen-Bad Rothenfelde|Hilter|Wellendorf|Kloster Oesede|Oesede|Osnabrück-Sutthausen|Osnabrück Hbf"/>
+	</s>
+	<s id="-8304744246774224499-2508292234-22">
+		<tl f="N" t="p" o="R2RB" c="RB" n="20389"/>
+		<ar pt="2508300047" pp="4" l="61" ppth="Hengelo|Oldenzaal|Bad Bentheim|Schüttorf|Salzbergen|Rheine|Hörstel|Ibbenbüren-Esch|Ibbenbüren|Ibbenbüren-Laggenbeck|Osnabrück Altstadt|Osnabrück Hbf|Wissingen|Westerhausen|Melle|Bruchmühlen|Bünde(Westf)|Kirchlengern|Hiddenhausen-Schweicheln|Herford|Brake(b Bielefeld)"/>
+	</s>
+	<s id="-1925068453691323391-2508292323-13">
+		<tl f="D" t="p" o="N2" c="NWB" n="75086"/>
+		<ar pt="2508300017" pp="3 C-E" l="RB74" ppth="Paderborn Hbf|Paderborn Kasseler Tor|Paderborn Nord|Paderborn-Schloss Neuhaus|Paderborn-Sennelager|Hövelhof|Hövelriege|Schloß Holte|Bielefeld-Sennestadt|Bielefeld-Windelsbleiche|Bielefeld-Senne|Bielefeld-Brackwede"/>
+	</s>
+	<s id="-5077492546861732064-2508292237-19">
+		<tl t="p" o="NWBus" c="Bus" n="15188"/>
+		<ar pt="2508300056" pp="" l="RB75" ppth="Osnabrück Hbf|Osnabrück-Sutthausen|Oesede|Kloster Oesede|Wellendorf|Hilter|Dissen-Bad Rothenfelde|Westbarthausen|Borgholzhausen|Hesseln|Halle(Westf) OWL-Arena|Halle(Westf)|Künsebeck|Steinhagen(Westf)|Steinhagen(Westf) Bielef. Str.|Quelle|Quelle-Kupferheide|Bielefeld-Brackwede"/>
+	</s>
+	<s id="-7539622605670057511-2508300043-1">
+		<tl f="D" t="p" o="N2" c="NWB" n="75089"/>
+		<dp pt="2508300043" pp="3 C-E" l="RB74" ppth="Bielefeld-Brackwede|Bielefeld-Senne|Bielefeld-Windelsbleiche|Bielefeld-Sennestadt|Schloß Holte|Hövelriege|Hövelhof|Paderborn-Sennelager|Paderborn-Schloss Neuhaus|Paderborn Nord|Paderborn Kasseler Tor|Paderborn Hbf"/>
+	</s>
+</timetable>
