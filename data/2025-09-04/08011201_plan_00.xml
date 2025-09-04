@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="2550964200555955868-2509040014-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18337"/>
+		<dp pt="2509040014" pp="4" l="24" tra="8357393075483600022-2509032321-4" ppth="Blankenfelde(Teltow-Fläming)|Dahlewitz|Rangsdorf|Dabendorf|Zossen|Wünsdorf-Waldstadt"/>
+	</s>
+	<s id="519132225267584083-2509032304-12">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62036"/>
+		<ar pt="2509040015" pp="1" l="8" ppth="Wustermark|Elstal|Dallgow-Döberitz|Berlin-Staaken|Berlin-Spandau|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz"/>
+	</s>
+	<s id="-7460128831778763104-2509040002-1">
+		<tl t="p" o="800165" c="FEX" n="19878"/>
+		<dp pt="2509040002" pp="1" ppth="Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Charlottenburg"/>
+	</s>
+	<s id="1608799031198059101-2509040040-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62041"/>
+		<dp pt="2509040040" pp="2" l="8" ppth="Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Charlottenburg"/>
+	</s>
+	<s id="8357393075483600022-2509032321-4">
+		<tl t="p" o="800165" c="FEX" n="19881"/>
+		<ar pt="2509040000" pp="4" tra="2550964200555955868-2509040014-1" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="-8745930355234119378-2509040007-3">
+		<tl f="F" t="p" o="80" c="EC" n="259"/>
+		<ar pt="2509040041" pp="4" hi="1" ppth="Berlin Hbf|Berlin Ostbahnhof"/>
+		<dp pt="2509040043" pp="4" ppth="Dresden Hbf|Bad Schandau|Decin hl.n.|Usti nad Labem hl.n.|Praha-Holesovice|Praha hl.n."/>
+	</s>
+	<s id="649878001262503139-2509040018-2">
+		<tl f="N" t="p" o="800165" c="RB" n="18101"/>
+		<ar pt="2509040029" pp="4" l="22" ppth="Königs Wusterhausen"/>
+		<dp pt="2509040031" pp="4" l="22" ppth="Ludwigsfelde-Struveshof|Saarmund|Potsdam Pirschheide|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof|Potsdam Hbf"/>
+	</s>
+</timetable>
