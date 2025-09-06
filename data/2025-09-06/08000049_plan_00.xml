@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<timetable station="Braunschweig Hbf">
+	<s id="1758037357759801988-2509060005-1">
+		<tl f="N" t="p" o="8002A3" c="RB" n="14339"/>
+		<dp pt="2509060005" pp="4a" l="46" ppth="Salzgitter-Bad"/>
+	</s>
+	<s id="3571403038983208216-2509060003-1">
+		<tl f="D" t="p" o="X2" c="erx" n="83638"/>
+		<dp pt="2509060003" pp="2b" l="RB47" ppth="Braunschweig-Gliesmarode|Meine|Rötgesbüttel|Gifhorn|Gifhorn Stadt|Triangel|Wahrenholz|Schönewörde|Vorhop|Knesebeck|Wittingen"/>
+	</s>
+	<s id="1403690351379173727-2509052108-16">
+		<tl t="p" o="X2" c="Bus" n="635"/>
+		<ar pt="2509060011" pp="" l="RB47" ppth="Uelzen|Stederdorf(Kr Uelzen)|Wieren|Bad Bodenteich|Wittingen|Knesebeck|Vorhop|Schönewörde|Wahrenholz|Triangel|Gifhorn Stadt|Gifhorn|Rötgesbüttel|Meine|Braunschweig-Gliesmarode"/>
+	</s>
+	<s id="-2534056427099012540-2509060020-1">
+		<tl f="D" t="p" o="W3" c="WFB" n="95792"/>
+		<dp pt="2509060020" pp="5" l="RE70" ppth="Vechelde|Peine|Vöhrum|Hämelerwald|Lehrte|Hannover Hbf"/>
+	</s>
+	<s id="1039023024418795167-2509060032-2">
+		<tl f="N" t="p" o="8002A3" c="RB" n="14340"/>
+		<ar pt="2509060050" pp="4a" l="46" ppth="Salzgitter-Bad"/>
+	</s>
+	<s id="-3662316332690298531-2509060015-5">
+		<tl f="N" t="p" o="8002A3" c="RB" n="14399"/>
+		<ar pt="2509060040" pp="3a" l="44" ppth="Salzgitter-Lebenstedt|Salzgitter-Watenstedt|Salzgitter-Immendorf|Salzgitter-Thiede"/>
+	</s>
+	<s id="3551997337520448960-2509060019-1">
+		<tl f="N" t="p" o="8002A3" c="RB" n="14398"/>
+		<dp pt="2509060019" pp="3a" l="44" ppth="Salzgitter-Thiede|Salzgitter-Immendorf|Salzgitter-Watenstedt|Salzgitter-Lebenstedt"/>
+	</s>
+	<s id="-430306391697164748-2509060014-7">
+		<tl f="D" t="p" o="W3" c="WFB" n="95793"/>
+		<ar pt="2509060059" pp="5" l="RE70" pde="Bielefeld Hbf" ppth="Hannover Hbf|Lehrte|Hämelerwald|Vöhrum|Peine|Vechelde"/>
+	</s>
+</timetable>

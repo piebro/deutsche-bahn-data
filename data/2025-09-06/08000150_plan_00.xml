@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<timetable station="Hanau Hbf">
+	<s id="3724054958000449358-2509052342-4">
+		<tl f="N" t="p" o="8005KG" c="RB" n="15538"/>
+		<ar pt="2509060002" pp="7" l="51" ppth="Frankfurt(Main)Hbf|Frankfurt(Main)Süd|Offenbach(Main)Hbf"/>
+		<dp pt="2509060003" pp="7" l="51" ppth="Wolfgang(Kr Hanau)|Rodenbach(b Hanau)|Langenselbold|Niedermittlau|Hailer-Meerholz|Gelnhausen|Haitz-Höchst|Wirtheim|Wächtersbach|Bad Soden-Salmünster"/>
+	</s>
+	<s id="4171547371952446552-2509052352-9">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="28679"/>
+		<ar pt="2509060023" pp="104" l="RB58" ppth="Frankfurt am Main - Stadion|Frankfurt(Main)Süd|Frankfurt(Main)Ost|Frankfurt-Mainkur|Maintal West|Maintal Ost|Hanau-Wilhelmsbad|Hanau West"/>
+	</s>
+	<s id="9117006994590991223-2509052236-23">
+		<tl f="N" t="p" o="800772" c="RE" n="4636"/>
+		<ar pt="2509060014" pp="102" l="54" ppth="Würzburg Hbf|Würzburg-Zell|Veitshöchheim|Thüngersheim|Retzbach-Zellingen|Himmelstadt|Karlstadt(Main)|Wernfeld|Gemünden(Main)|Langenprozelten|Lohr Bahnhof|Partenstein|Wiesthal|Heigenbrücken|Laufach|Hösbach|Aschaffenburg Hbf|Kleinostheim|Rückersbacher Schlucht|Dettingen(Main)|Kahl(Main)|Großauheim(Kr Hanau)"/>
+		<dp pt="2509060015" pp="102" l="54" ppth="Hanau West|Hanau-Wilhelmsbad|Maintal Ost|Maintal West|Frankfurt-Mainkur|Frankfurt(Main)Ost|Frankfurt(Main)Süd|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-2061827729431017903-2509060030-9">
+		<tl f="N" t="p" o="800772" c="RE" n="4639"/>
+		<ar pt="2509060057" pp="103" l="54" ppth="Frankfurt(Main)Hbf|Frankfurt(Main)Süd|Frankfurt(Main)Ost|Frankfurt-Mainkur|Maintal West|Maintal Ost|Hanau-Wilhelmsbad|Hanau West"/>
+		<dp pt="2509060058" pp="103" l="54" ppth="Großauheim(Kr Hanau)|Großkrotzenburg|Kahl(Main)|Dettingen(Main)|Rückersbacher Schlucht|Kleinostheim|Aschaffenburg Hbf"/>
+	</s>
+	<s id="-8538076617500236537-2509052325-7">
+		<tl t="p" o="K4" c="Bus" n="49920"/>
+		<ar pt="2509060024" pp="" l="EV" ppth="Friedberg(Hess)|Assenheim Bruchenbrücker Straße, Niddatal|Nidderau|Ostheim Hanauer Straße, Nidderau|Bruchköbel|Hanau Nord"/>
+	</s>
+	<s id="-4470902131808589024-2509052339-11">
+		<tl f="S" t="p" o="800528" c="S" n="35981"/>
+		<ar pt="2509060032" pp="1" l="9" ppth="Kelsterbach|Frankfurt(M) Flughafen Regionalbf|Frankfurt(Main)-Gateway Gardens|Frankfurt am Main - Stadion|Frankfurt(Main)Süd|Offenbach(Main)Hbf|Offenbach(Main)Ost|Mühlheim(Main)|Mühlheim(Main)-Dietesheim|Steinheim(Main)"/>
+	</s>
+	<s id="-8941563252739308527-2509060031-1">
+		<tl f="S" t="p" o="800528" c="S" n="35986"/>
+		<dp pt="2509060031" pp="2" l="9" ppth="Steinheim(Main)|Mühlheim(Main)-Dietesheim|Mühlheim(Main)|Offenbach(Main)Ost|Offenbach(Main)Hbf|Frankfurt(Main)Süd|Frankfurt am Main - Stadion|Frankfurt(Main)-Gateway Gardens|Frankfurt(M) Flughafen Regionalbf|Kelsterbach"/>
+	</s>
+	<s id="-5980359380828353169-2509052340-10">
+		<tl f="D" t="p" o="R4" c="VIA" n="25298"/>
+		<ar pt="2509060022" pp="106" l="RB86" ppth="Groß-Umstadt Wiebelsbach|Groß-Umstadt Mitte|Groß-Umstadt Klein-Umstadt|Babenhausen Langstadt|Babenhausen(Hess)|Mainhausen Zellhausen|Seligenstadt(Hess)|Hainburg Hainstadt|Hanau Klein-Auheim"/>
+	</s>
+	<s id="5726617865424892740-2509052310-10">
+		<tl f="N" t="p" o="8005KG" c="RE" n="4539"/>
+		<ar pt="2509060012" pp="6" l="50" ppth="Fulda|Neuhof(Kr Fulda)|Flieden|Schlüchtern|Steinau(Straße)|Bad Soden-Salmünster|Wächtersbach|Gelnhausen|Langenselbold"/>
+		<dp pt="2509060013" pp="6" l="50" ppth="Offenbach(Main)Hbf|Frankfurt(Main)Süd|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-2648317523660903287-2509060025-1">
+		<tl t="p" o="K4" c="Bus" n="49921"/>
+		<dp pt="2509060025" pp="" l="EV" ppth="Hanau Nord|Bruchköbel|Ostheim Hanauer Straße, Nidderau|Nidderau|Assenheim Bruchenbrücker Straße, Niddatal|Friedberg(Hess)"/>
+	</s>
+	<s id="-8071444848207572218-2509052358-3">
+		<tl f="F" t="p" o="80" c="ICE" n="674"/>
+		<ar pt="2509060028" pp="7" ppth="Frankfurt(Main)Hbf|Frankfurt(Main)Süd"/>
+		<dp pt="2509060030" pp="7" ppth="Fulda|Göttingen|Hannover Hbf|Wolfsburg Hbf|Stendal Hbf|Berlin-Spandau|Berlin Zoologischer Garten|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="-1317050770330864957-2509060001-1">
+		<tl f="S" t="p" o="800528" c="S" n="35984"/>
+		<dp pt="2509060001" pp="1" l="9" ppth="Steinheim(Main)|Mühlheim(Main)-Dietesheim|Mühlheim(Main)|Offenbach(Main)Ost|Offenbach(Main)Hbf|Frankfurt(Main)Süd|Frankfurt am Main - Stadion|Frankfurt(Main)-Gateway Gardens|Frankfurt(M) Flughafen Regionalbf|Kelsterbach"/>
+	</s>
+</timetable>
