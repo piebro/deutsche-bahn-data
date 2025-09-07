@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<timetable station="Bonn Hbf">
+	<s id="2774174590951633862-2509062229-14">
+		<tl f="F" t="p" o="80" c="ICE" n="921"/>
+		<ar pt="2509070412" pp="3" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Osnabrück Hbf|Hamm(Westf)Hbf|Dortmund Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Flughafen|Düsseldorf Hbf|Köln Süd"/>
+		<dp pt="2509070414" pp="3" ppth="Remagen|Andernach|Koblenz Hbf|Bingen(Rhein) Hbf|Mainz Hbf|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-7718394357062093360-2509070439-1">
+		<tl t="p" o="B2" c="Bus" n="2372"/>
+		<dp pt="2509070439" pp="" l="S23" ppth="Bonn Helmholtzstraße|Bonn-Duisdorf|Alfter-Impekoven|Alfter-Witterschlick|Meckenheim Industriepark|Meckenheim(Bz Köln)|Rheinbach Römerkanal|Rheinbach|Swisttal-Odendorf|Euskirchen-Kuchenheim|Euskirchen"/>
+	</s>
+	<s id="-4948452512921122860-2509070404-6">
+		<tl f="N" t="p" o="TR" c="RB" n="25407"/>
+		<ar pt="2509070425" pp="2" l="26" ppth="Köln Süd|Hürth-Kalscheuren|Brühl|Sechtem|Roisdorf"/>
+	</s>
+	<s id="2565808584938548296-2509070236-12">
+		<tl t="p" o="B2" c="Bus" n="2447"/>
+		<ar pt="2509070411" pp="" l="S23" ppth="Euskirchen|Euskirchen-Kuchenheim|Swisttal-Odendorf|Rheinbach|Rheinbach Römerkanal|Meckenheim(Bz Köln)|Meckenheim Industriepark|Alfter-Witterschlick|Alfter-Impekoven|Bonn-Duisdorf|Bonn Helmholtzstraße"/>
+	</s>
+	<s id="-6763314810513143151-2509070433-1">
+		<tl f="N" t="p" o="TR" c="RB" n="25406"/>
+		<dp pt="2509070433" pp="2" l="26" ppth="Roisdorf|Sechtem|Brühl|Hürth-Kalscheuren|Köln Süd|Köln West|Köln Hbf|Köln Messe/Deutz|Köln/Bonn Flughafen"/>
+	</s>
+</timetable>
