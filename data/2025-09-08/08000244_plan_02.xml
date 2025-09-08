@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<timetable station="Mannheim Hbf">
+	<s id="8016523767626847908-2509071813-9">
+		<tl t="p" o="81" c="NJ" n="468"/>
+		<ar pt="2509080219" pp="5" hi="1" wings="3178546308999030105-2509071813" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Salzburg Hbf|Freilassing|Rosenheim|München Ost"/>
+		<dp pt="2509080340" pp="4" hi="1" wings="-344271757147009936-2509071855" ppth="Paris Est"/>
+	</s>
+	<s id="3178546308999030105-2509071813-9">
+		<tl t="p" o="81" c="NJ" n="40468"/>
+		<ar pt="2509080219" pp="5" hi="1" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Salzburg Hbf|Freilassing|Rosenheim|München Ost"/>
+		<dp pt="2509080257" pp="5" hi="1" ppth="Mainz Hbf|Koblenz Hbf|Bonn-Beuel|Köln Hbf|Aachen Hbf|Liège-Guillemins|Bruxelles-Nord|Bruxelles Midi"/>
+	</s>
+	<s id="6506105724695131324-2509080257-1">
+		<tl t="p" o="81" c="NJ" n="478"/>
+		<dp pt="2509080257" pp="5" hi="1" wings="3178546308999030105-2509071813" ppth="Mainz Hbf|Koblenz Hbf|Bonn-Beuel|Köln Hbf|Aachen Hbf|Liège-Guillemins|Bruxelles-Nord|Bruxelles Midi"/>
+	</s>
+	<s id="4753870957390372842-2509072154-2">
+		<tl f="F" t="p" o="NZ" c="IC" n="60402"/>
+		<ar pt="2509080222" pp="7" ppth="Zürich HB"/>
+		<dp pt="2509080225" pp="7" ppth="Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Regionalbf|Mainz Hbf|Koblenz Hbf|Bonn Hbf|Köln Hbf|Eindhoven Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="8868050453695511606-2509072154-2">
+		<tl t="p" o="85" c="NJ" n="402"/>
+		<ar pt="2509080222" pp="7" hi="1" wings="4753870957390372842-2509072154" ppth="Zürich HB"/>
+		<dp pt="2509080225" pp="7" hi="1" wings="4753870957390372842-2509072154" ppth="Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Regionalbf|Mainz Hbf|Koblenz Hbf|Bonn Hbf|Köln Hbf|Eindhoven Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="7474414276230536927-2509071838-17">
+		<tl f="F" t="p" o="80" c="ICE" n="619"/>
+		<ar pt="2509080202" pp="8" ppth="Kiel Hbf|Neumünster|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Osnabrück Hbf|Münster(Westf)Hbf|Recklinghausen Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Hbf|Siegburg/Bonn|Frankfurt(M) Flughafen Regionalbf|Frankfurt(Main)Hbf"/>
+		<dp pt="2509080204" pp="8" ppth="Heidelberg Hbf|Stuttgart Hbf|Ulm Hbf|Günzburg|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+</timetable>
