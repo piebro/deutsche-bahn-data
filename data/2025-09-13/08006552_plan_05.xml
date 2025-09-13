@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<timetable station="Wolfsburg Hbf">
+	<s id="-7624771326223630318-2509130521-4">
+		<tl t="p" o="R0" c="ENO" n="83551"/>
+		<ar pt="2509130541" pp="8" l="RE50" ppth="Braunschweig Hbf|Weddel(Braunschw)|Fallersleben"/>
+	</s>
+	<s id="5420612460041529580-2509130431-4">
+		<tl f="F" t="p" o="80" c="ICE" n="646"/>
+		<ar pt="2509130546" pp="1" ppth="Berlin Hbf|Berlin-Spandau|Stendal Hbf"/>
+		<dp pt="2509130547" pp="1" ppth="Hannover Hbf|Minden(Westf)|Herford|Bielefeld Hbf|Hamm(Westf)Hbf|Dortmund Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf"/>
+	</s>
+	<s id="-5348734664766738509-2509130417-14">
+		<tl t="p" o="RSMD" c="SMD" n="80340"/>
+		<ar pt="2509130533" pp="9" l="RB36" ppth="Magdeburg Hbf|Magdeburg-Neustadt|Magdeburg-Eichenweiler|Barleben|Meitzendorf|Groß Ammensleben|Vahldorf|Haldensleben|Flechtingen|Wegenstedt|Rätzlingen|Bösdorf(Sachs-Anh)|Oebisfelde"/>
+	</s>
+	<s id="1515027734945345455-2509130500-1">
+		<tl t="p" o="R0" c="Bus" n="5100"/>
+		<dp pt="2509130500" pp="" l="EV" ppth="Fallersleben"/>
+	</s>
+	<s id="662130776029058148-2509130541-1">
+		<tl t="p" o="RSMD" c="SMD" n="80343"/>
+		<dp pt="2509130541" pp="9" l="RB36" ppth="Oebisfelde|Bösdorf(Sachs-Anh)|Rätzlingen|Wegenstedt|Flechtingen|Haldensleben|Vahldorf|Groß Ammensleben|Meitzendorf|Barleben|Magdeburg-Eichenweiler|Magdeburg-Neustadt|Magdeburg Hbf"/>
+	</s>
+</timetable>
