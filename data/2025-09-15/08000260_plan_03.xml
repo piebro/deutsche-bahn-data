@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<timetable station="Würzburg Hbf">
+	<s id="-6813803786124510421-2509142010-8">
+		<tl t="p" o="81" c="NJ" n="40490"/>
+		<ar pt="2509150355" pp="7" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Passau Hbf|Nürnberg Hbf"/>
+		<dp pt="2509150357" pp="7" ppth="Kassel-Wilhelmshöhe|Hamm(Westf)Hbf|Münster(Westf)Hbf|Deventer|Amersfoort Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="7597089806492032299-2509142221-9">
+		<tl f="F" t="p" o="80" c="ICE" n="1081"/>
+		<ar pt="2509150352" pp="5" ppth="Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Lüneburg|Uelzen|Celle|Hannover Hbf|Göttingen"/>
+		<dp pt="2509150354" pp="5" ppth="Nürnberg Hbf|Ingolstadt Hbf|München Hbf"/>
+	</s>
+	<s id="3272146161175325165-2509142046-8">
+		<tl t="p" o="81" c="NJ" n="420"/>
+		<ar pt="2509150355" pp="7" wings="-6813803786124510421-2509142010" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|Augsburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2509150357" pp="7" wings="-6813803786124510421-2509142010" ppth="Kassel-Wilhelmshöhe|Hamm(Westf)Hbf|Münster(Westf)Hbf|Deventer|Amersfoort Centraal|Amsterdam Centraal"/>
+	</s>
+</timetable>

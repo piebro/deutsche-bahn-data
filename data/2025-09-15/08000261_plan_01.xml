@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf">
+	<s id="3992695723417212904-2509150035-3">
+		<tl f="D" t="p" o="A8N" c="ALX" n="90096"/>
+		<ar pt="2509150119" pp="" l="RE25" ppth="Landshut(Bay)Hbf|Freising"/>
+	</s>
+	<s id="-7337701214618515331-2509150015-4">
+		<tl f="N" t="p" o="8007H3" c="RE" n="4871"/>
+		<ar pt="2509150101" pp="24" l="2" ppth="Landshut(Bay)Hbf|Moosburg|Freising"/>
+	</s>
+	<s id="872384141363234393-2509150018-3">
+		<tl t="p" o="B7" c="Bus" n="59464"/>
+		<ar pt="2509150118" pp="" l="EV" ppth="Starnberg|München Donnersbergerbrücke"/>
+	</s>
+	<s id="-524151628723159576-2509141854-11">
+		<tl f="F" t="p" o="80" c="ICE" n="685"/>
+		<ar pt="2509150122" pp="19" wings="3365409376481099659-2509141915" ppth="Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf"/>
+	</s>
+	<s id="3365409376481099659-2509141915-9">
+		<tl f="F" t="p" o="80" c="ICE" n="635"/>
+		<ar pt="2509150122" pp="19" ppth="Bremen Hbf|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf"/>
+	</s>
+</timetable>

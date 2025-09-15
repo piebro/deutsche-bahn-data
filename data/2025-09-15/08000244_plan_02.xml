@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<timetable station="Mannheim Hbf">
+	<s id="8016523767626847908-2509141707-7">
+		<tl t="p" o="81" c="NJ" n="468"/>
+		<ar pt="2509150213" pp="5" hi="1" wings="3178546308999030105-2509141707" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Salzburg Hbf|Freilassing"/>
+		<dp pt="2509150317" pp="4" hi="1" wings="-344271757147009936-2509141855" ppth="Strasbourg|Paris Est"/>
+	</s>
+	<s id="3178546308999030105-2509141707-7">
+		<tl t="p" o="81" c="NJ" n="40468"/>
+		<ar pt="2509150213" pp="5" hi="1" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Salzburg Hbf|Freilassing"/>
+		<dp pt="2509150257" pp="5" hi="1" ppth="Mainz Hbf|Koblenz Hbf|Bonn-Beuel|Köln Hbf|Aachen Hbf|Liège-Guillemins|Bruxelles-Nord|Bruxelles Midi"/>
+	</s>
+	<s id="6506105724695131324-2509150257-1">
+		<tl t="p" o="81" c="NJ" n="478"/>
+		<dp pt="2509150257" pp="5" hi="1" wings="3178546308999030105-2509141707" ppth="Mainz Hbf|Koblenz Hbf|Bonn-Beuel|Köln Hbf|Aachen Hbf|Liège-Guillemins|Bruxelles-Nord|Bruxelles Midi"/>
+	</s>
+	<s id="7474414276230536927-2509141838-16">
+		<tl f="F" t="p" o="80" c="ICE" n="619"/>
+		<ar pt="2509150240" pp="8" ppth="Kiel Hbf|Neumünster|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Osnabrück Hbf|Münster(Westf)Hbf|Recklinghausen Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Hbf|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf"/>
+		<dp pt="2509150242" pp="8" ppth="Heidelberg Hbf|Stuttgart Hbf|Ulm Hbf|Günzburg|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-815445082049532375-2509142016-13">
+		<tl f="F" t="p" o="80" c="ICE" n="1279"/>
+		<ar pt="2509150208" pp="5" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Spandau|Wolfsburg Hbf|Braunschweig Hbf|Hildesheim Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Hanau Hbf|Frankfurt(Main)Hbf"/>
+		<dp pt="2509150211" pp="5" ppth="Karlsruhe Hbf"/>
+	</s>
+</timetable>
