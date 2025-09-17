@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<timetable station="Mainz Hbf">
+	<s id="2016656486718619580-2509170048-4">
+		<tl f="S" t="p" o="800528" c="S" n="35887"/>
+		<ar pt="2509170100" pp="3a/b" l="8" ppth="Wiesbaden Hbf|Wiesbaden Ost|Mainz Nord"/>
+		<dp pt="2509170102" pp="3a/b" l="8" ppth="Mainz Römisches Theater|Mainz-Gustavsburg|Mainz-Bischofsheim|Rüsselsheim Opelwerk|Rüsselsheim|Raunheim|Kelsterbach|Frankfurt(M) Flughafen Regionalbf|Frankfurt(Main)-Gateway Gardens|Frankfurt am Main - Stadion|Frankfurt(Main)Süd|Offenbach(Main)Hbf|Offenbach(Main)Ost|Mühlheim(Main)|Mühlheim(Main)-Dietesheim|Steinheim(Main)|Hanau Hbf"/>
+	</s>
+	<s id="7582314568044505717-2509161808-8">
+		<tl f="F" t="p" o="NZ" c="IC" n="60403"/>
+		<ar pt="2509170140" pp="4a/b" ppth="Amsterdam Centraal|Utrecht Centraal|Eindhoven Centraal|Venlo|Köln Hbf|Bonn-Beuel|Koblenz Hbf"/>
+		<dp pt="2509170142" pp="4a/b" ppth="Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="6909547837873943468-2509170051-13">
+		<tl f="S" t="p" o="800528" c="S" n="28224"/>
+		<ar pt="2509170131" pp="1a" l="8" ppth="Frankfurt(Main)Hbf|Frankfurt-Niederrad|Frankfurt am Main - Stadion|Frankfurt(Main)-Gateway Gardens|Frankfurt(M) Flughafen Regionalbf|Kelsterbach|Raunheim|Rüsselsheim|Rüsselsheim Opelwerk|Mainz-Bischofsheim|Mainz-Gustavsburg|Mainz Römisches Theater"/>
+		<dp pt="2509170132" pp="1a" l="8" ppth="Mainz Nord|Wiesbaden Ost|Wiesbaden Hbf"/>
+	</s>
+	<s id="-3871438253801446208-2509170021-13">
+		<tl f="S" t="p" o="800528" c="S" n="28222"/>
+		<ar pt="2509170101" pp="1a" l="8" ppth="Frankfurt(Main)Hbf|Frankfurt-Niederrad|Frankfurt am Main - Stadion|Frankfurt(Main)-Gateway Gardens|Frankfurt(M) Flughafen Regionalbf|Kelsterbach|Raunheim|Rüsselsheim|Rüsselsheim Opelwerk|Mainz-Bischofsheim|Mainz-Gustavsburg|Mainz Römisches Theater"/>
+		<dp pt="2509170102" pp="1a" l="8" ppth="Mainz Nord|Wiesbaden Ost|Wiesbaden Hbf"/>
+	</s>
+	<s id="-4915262827455374610-2509161808-8">
+		<tl t="p" o="81" c="NJ" n="403"/>
+		<ar pt="2509170140" pp="4a/b" hi="1" wings="7582314568044505717-2509161808" ppth="Amsterdam Centraal|Utrecht Centraal|Eindhoven Centraal|Venlo|Köln Hbf|Bonn-Beuel|Koblenz Hbf"/>
+		<dp pt="2509170142" pp="4a/b" hi="1" wings="7582314568044505717-2509161808" ppth="Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+</timetable>

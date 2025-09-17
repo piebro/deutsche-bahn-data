@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="3105587517085278592-2509170528-1">
+		<tl t="p" o="800165" c="FEX" n="19804"/>
+		<dp pt="2509170528" pp="2" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="-3289399367241805700-2509170558-1">
+		<tl t="p" o="800165" c="FEX" n="19806"/>
+		<dp pt="2509170558" pp="1" tra="1672294977889446701-2509170539-3" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="6587236525069306157-2509170509-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18653"/>
+		<dp pt="2509170509" pp="4" l="32" tra="-717944806167106896-2509170415-4" ppth="Birkengrund|Ludwigsfelde"/>
+	</s>
+	<s id="-959550895535921869-2509170509-5">
+		<tl f="N" t="p" o="800165" c="RB" n="18102"/>
+		<ar pt="2509170536" pp="2" l="22" pde="Potsdam Hbf" ppth="Golm|Potsdam Pirschheide|Saarmund|Ludwigsfelde-Struveshof"/>
+	</s>
+	<s id="7466508975589297015-2509170407-13">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62048"/>
+		<ar pt="2509170513" pp="1" l="8" ppth="Wustermark|Elstal|Dallgow-Döberitz|Berlin-Staaken|Berlin-Spandau|Berlin-Charlottenburg|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz"/>
+	</s>
+	<s id="1672294977889446701-2509170539-3">
+		<tl f="N" t="p" o="800165" c="RB" n="18652"/>
+		<ar pt="2509170555" pp="1" l="32" tra="-3289399367241805700-2509170558-1" ppth="Ludwigsfelde|Birkengrund"/>
+	</s>
+	<s id="5547616819435409899-2509170451-4">
+		<tl t="p" o="800165" c="FEX" n="19809"/>
+		<ar pt="2509170530" pp="4" tra="7284386546422932563-2509170535-1" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="7284386546422932563-2509170535-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18345"/>
+		<dp pt="2509170535" pp="4" l="24" tra="5547616819435409899-2509170451-4" ppth="Blankenfelde(Teltow-Fläming)|Dahlewitz|Rangsdorf|Dabendorf|Zossen|Wünsdorf-Waldstadt"/>
+	</s>
+	<s id="-5981338179990436171-2509170544-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62005"/>
+		<dp pt="2509170544" pp="1" l="8" ppth="Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Spandau|Berlin-Staaken|Dallgow-Döberitz|Elstal"/>
+	</s>
+	<s id="-717944806167106896-2509170415-4">
+		<tl t="p" o="800165" c="FEX" n="19807"/>
+		<ar pt="2509170501" pp="4" tra="6587236525069306157-2509170509-1" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+</timetable>
