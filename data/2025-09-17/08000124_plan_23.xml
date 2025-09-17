@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<timetable station="Gießen">
+	<s id="4859838064289793604-2509172335-1">
+		<tl t="p" o="K4" c="Bus" n="40134"/>
+		<dp pt="2509172335" pp="" l="EV" ppth="Dutenhofen(Wetzlar)|Wetzlar"/>
+	</s>
+	<s id="-3504959356851796094-2509172245-2">
+		<tl f="D" t="p" o="K4RE" c="HLB" n="24422"/>
+		<ar pt="2509172302" pp="3" l="RE98" ppth="Friedberg(Hess)"/>
+		<dp pt="2509172305" pp="3" l="RE98" ppth="Marburg(Lahn)|Cölbe|Bürgeln|Anzefahr|Kirchhain(Bz Kassel)|Stadtallendorf|Neustadt(Kr Marburg)|Schwalmstadt-Wiera|Treysa|Schlierbach(Schwalm-Eder-Kr.)|Zimmersrode|Borken(Hess)|Singlis|Wabern(Bz Kassel)|Felsberg-Gensungen|Felsberg-Altenbrunslar|Felsberg-Wolfershausen|Edermünde-Grifte|Baunatal-Guntershausen|Baunatal-Rengershausen|Kassel-Oberzwehren|Kassel-Wilhelmshöhe|Kassel Hbf"/>
+	</s>
+	<s id="1011151971048373576-2509172238-3">
+		<tl t="p" o="K4" c="Bus" n="44838"/>
+		<ar pt="2509172301" pp="" l="EV" ppth="Großen Buseck|Gießen Licher Str"/>
+	</s>
+	<s id="4785702323186485072-2509172309-3">
+		<tl t="p" o="K4" c="Bus" n="40135"/>
+		<ar pt="2509172337" pp="" l="EV" ppth="Wetzlar|Dutenhofen(Wetzlar)"/>
+	</s>
+	<s id="1973159709549737669-2509172249-9">
+		<tl t="p" o="K4" c="Bus" n="41035"/>
+		<ar pt="2509172357" pp="" l="EV" ppth="Marburg(Lahn)|Marburg Süd|Niederweimar Bürgerhaus, Weimar (Lahn)|Niederwalgern|Fronhausen(Lahn)|Odenhausen Ruttershäuser Straße, Lollar|Ortsmitte, Lollar|Mühlstraße, Gießen"/>
+	</s>
+	<s id="-4811895261555098556-2509172309-1">
+		<tl t="p" o="K4" c="Bus" n="99522"/>
+		<dp pt="2509172309" pp="" l="EV" ppth="Wetzlar"/>
+	</s>
+	<s id="-6277183781301181214-2509172246-9">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="15034"/>
+		<ar pt="2509172326" pp="3" l="RB40" ppth="Bad Vilbel|Friedberg(Hess)|Bad Nauheim|Ostheim(b Butzbach)|Butzbach|Kirch Göns|Lang Göns|Großen Linden"/>
+		<dp pt="2509172339" pp="3" l="RB41" ppth="Gießen Oswaldsgarten|Lollar|Friedelhausen|Fronhausen(Lahn)|Niederwalgern|Niederweimar|Marburg Süd|Marburg(Lahn)"/>
+	</s>
+	<s id="-7502982557667026452-2509172129-12">
+		<tl t="p" o="K4" c="Bus" n="45773"/>
+		<ar pt="2509172301" pp="" l="EV" ppth="Aumenau|Fürfurt|Gräveneck|Weilburg|Löhnberg|Stockhausen(Lahn)|Leun/Braunfels|Solms|Albshausen|Wetzlar|Dutenhofen(Wetzlar)"/>
+	</s>
+	<s id="8166314536083707143-2509172332-1">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="24500"/>
+		<dp pt="2509172332" pp="4" l="RB40" ppth="Großen Linden|Lang Göns|Kirch Göns|Butzbach|Ostheim(b Butzbach)|Bad Nauheim|Friedberg(Hess)|Bad Vilbel|Frankfurt(Main)West|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-2643251089621809642-2509172332-1">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="15035"/>
+		<dp pt="2509172332" pp="4" l="RB41" wings="8166314536083707143-2509172332" ppth="Großen Linden|Lang Göns|Kirch Göns|Butzbach|Ostheim(b Butzbach)|Bad Nauheim|Friedberg(Hess)|Bad Vilbel|Frankfurt(Main)West|Frankfurt(Main)Hbf"/>
+	</s>
+</timetable>
