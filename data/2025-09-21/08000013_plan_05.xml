@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Augsburg Hbf">
+	<s id="1457590307073565576-2509210517-1">
+		<tl t="p" o="Y8" c="Bus" n="60700"/>
+		<dp pt="2509210517" pp="" l="EV" ppth="Augsburg Haunstetterstraße|Augsburg-Hochzoll|Friedberg(Augsburg)|Dasing"/>
+	</s>
+	<s id="-3872908762865157331-2509210520-1">
+		<tl f="N" t="p" o="GYRE" c="RE" n="22030"/>
+		<dp pt="2509210520" pp="3" l="9" ppth="Augsburg-Oberhausen|Neusäß|Westheim(Schwab)"/>
+	</s>
+	<s id="4502460219019148221-2509210531-1">
+		<tl f="N" t="p" o="GYRB" c="RB" n="57107"/>
+		<dp pt="2509210531" pp="9" l="86" ppth="Augsburg Haunstetterstraße|Augsburg-Hochzoll|Kissing|Mering-St Afra|Mering|Althegnenberg|Haspelmoor|Mammendorf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="67517114520381301-2509210507-3">
+		<tl f="F" t="p" o="80" c="ICE" n="614"/>
+		<ar pt="2509210536" pp="1" ppth="München Hbf|München-Pasing"/>
+		<dp pt="2509210538" pp="1" ppth="Stuttgart Hbf|Mannheim Hbf|Frankfurt(M) Flughafen Fernbf|Köln Hbf|Solingen Hbf|Wuppertal Hbf|Hagen Hbf|Dortmund Hbf|Münster(Westf)Hbf|Osnabrück Hbf|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="7448853088715936745-2509210532-1">
+		<tl f="N" t="p" o="8007D5" c="RE" n="57502"/>
+		<dp pt="2509210532" pp="10 C-E" l="71" ppth="Augsburg Morellstr.|Augsburg Messe|Inningen|Bobingen|Schwabmünchen|Buchloe|Türkheim(Bay)Bf|Rammingen(Bay)|Mindelheim|Stetten(Schwab)|Sontheim(Schwab)|Memmingen"/>
+	</s>
+	<s id="6736142264967356990-2509210544-1">
+		<tl f="N" t="p" o="GYRB" c="RB" n="57242"/>
+		<dp pt="2509210544" pp="8 C-E" l="87" ppth="Augsburg-Oberhausen|Gersthofen|Gablingen|Langweid(Lech)|Herbertshofen|Meitingen|Westendorf|Nordendorf|Mertingen Bahnhof|Bäumenheim|Donauwörth"/>
+	</s>
+	<s id="195289109323631997-2509210510-2">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86505"/>
+		<ar pt="2509210513" pp="7 A-C" l="RB67" ppth="Augsburg-Oberhausen"/>
+		<dp pt="2509210514" pp="7 A-C" l="RB67" ppth="Augsburg Haunstetterstraße|Augsburg-Hochzoll|Kissing|Mering-St Afra|Mering|Merching|Schmiechen(Schwab)|Egling|Walleshausen|Geltendorf"/>
+	</s>
+</timetable>

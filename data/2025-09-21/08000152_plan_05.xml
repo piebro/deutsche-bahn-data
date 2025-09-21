@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Hannover Hbf">
+	<s id="3152566412134464633-2509210431-5">
+		<tl t="p" o="R1" c="Bus" n="2103"/>
+		<ar pt="2509210549" pp="" l="EV" ppth="Celle|Großburgwedel|Isernhagen|Langenhagen Mitte"/>
+	</s>
+	<s id="110534483082877425-2509210505-1">
+		<tl f="S" t="p" o="TDHS" c="S" n="34520"/>
+		<dp pt="2509210505" pp="2" l="5" ppth="Hannover-Nordstadt|Hannover-Ledeburg|Hannover-Vinnhorst|Langenhagen Mitte|Langenhagen Pferdemarkt|Hannover Flughafen"/>
+	</s>
+	<s id="-6683903493239058480-2509210536-7">
+		<tl f="S" t="p" o="TDHS" c="S" n="34523"/>
+		<ar pt="2509210553" pp="1" l="5" ppth="Hannover Flughafen|Langenhagen Pferdemarkt|Langenhagen Mitte|Hannover-Vinnhorst|Hannover-Ledeburg|Hannover-Nordstadt"/>
+		<dp pt="2509210555" pp="1" l="5" ppth="Hannover Bismarckstr.|Hannover-Linden/Fischerhof|Weetzen|Holtensen/Linderte|Bennigsen|Völksen/Eldagsen|Springe|Bad Münder(Deister)|Hameln|Emmerthal|Bad Pyrmont"/>
+	</s>
+	<s id="-7898815456046716577-2509210508-11">
+		<tl f="S" t="p" o="TDHS" c="S" n="34711"/>
+		<ar pt="2509210555" pp="14" l="7" ppth="Celle|Ehlershausen|Otze|Burgdorf|Aligse|Lehrte|Ahlten|Hannover Anderten-Misburg|Hannover Karl-Wiechert-Allee|Hannover-Kleefeld"/>
+	</s>
+	<s id="2685470796884837119-2509210506-7">
+		<tl f="S" t="p" o="TDHS" c="S" n="34521"/>
+		<ar pt="2509210523" pp="2" l="5" ppth="Hannover Flughafen|Langenhagen Pferdemarkt|Langenhagen Mitte|Hannover-Vinnhorst|Hannover-Ledeburg|Hannover-Nordstadt"/>
+	</s>
+	<s id="2767920327086101648-2509210535-1">
+		<tl f="S" t="p" o="TDHS" c="S" n="34522"/>
+		<dp pt="2509210535" pp="2" l="5" ppth="Hannover-Nordstadt|Hannover-Ledeburg|Hannover-Vinnhorst|Langenhagen Mitte|Langenhagen Pferdemarkt|Hannover Flughafen"/>
+	</s>
+	<s id="8774886456337289509-2509202100-6">
+		<tl t="p" o="NYUEX" c="UEX" n="1396"/>
+		<ar pt="2509210555" pp="10" ppth="Innsbruck Hbf|Wörgl Hbf|Kufstein|München Ost|Fulda"/>
+		<dp pt="2509210555" pp="10" hi="1" ppth="Lüneburg|Hamburg Hbf|Hamburg-Altona"/>
+	</s>
+	<s id="-989376966014393929-2509210533-1">
+		<tl f="S" t="p" o="TDHS" c="S" n="34159"/>
+		<dp pt="2509210533" pp="1" l="1" ppth="Hannover Bismarckstr.|Hannover-Linden/Fischerhof|Hannover-Bornum|Empelde|Ronnenberg|Weetzen|Lemmie|Wennigsen(Deister)|Egestorf(Deister)|Kirchdorf(Deister)|Barsinghausen|Winninghausen|Bantorf|Bad Nenndorf|Haste"/>
+	</s>
+</timetable>
