@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<timetable station="Wolfsburg Hbf">
+	<s id="-6365543450329300214-2509232114-1">
+		<tl t="p" o="R0" c="ENO" n="83532"/>
+		<dp pt="2509232114" pp="3" l="RE30" ppth="Fallersleben|Calberlah|Gifhorn|Leiferde(b Gifhorn)|Meinersen|Dedenhausen|Dollbergen|Immensen-Arpke|Lehrte|Hannover Hbf"/>
+	</s>
+	<s id="8849850357444188253-2509232016-5">
+		<tl f="F" t="p" o="80" c="ICE" n="879"/>
+		<ar pt="2509232137" pp="1" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Spandau"/>
+		<dp pt="2509232139" pp="1" ppth="Braunschweig Hbf|Hildesheim Hbf|Göttingen|Kassel-Wilhelmshöhe"/>
+	</s>
+	<s id="-8275737537227179086-2509231750-7">
+		<tl f="F" t="p" o="80" c="ICE" n="945"/>
+		<ar pt="2509232103" pp="5" ppth="Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Hannover Hbf"/>
+		<dp pt="2509232104" pp="5" ppth="Stendal Hbf|Berlin-Spandau|Berlin Hbf"/>
+	</s>
+	<s id="-8582937126189412550-2509232118-1">
+		<tl t="p" o="R0" c="ENO" n="83582"/>
+		<dp pt="2509232118" pp="8" l="RE50" ppth="Fallersleben|Weddel(Braunschw)|Braunschweig Hbf|Lengede-Broistedt|Woltwiesche|Hoheneggelsen|Hildesheim Hbf"/>
+	</s>
+	<s id="-568038361379950450-2509232048-11">
+		<tl t="p" o="R0" c="ENO" n="83533"/>
+		<ar pt="2509232143" pp="3" l="RE30" ppth="Hannover Hbf|Lehrte|Immensen-Arpke|Dollbergen|Dedenhausen|Meinersen|Leiferde(b Gifhorn)|Gifhorn|Calberlah|Fallersleben"/>
+	</s>
+	<s id="-4550645364654346112-2509231745-6">
+		<tl f="F" t="p" o="80" c="ICE" n="955"/>
+		<ar pt="2509232103" pp="5" wings="-8275737537227179086-2509231750" ppth="Köln Hbf|Wuppertal Hbf|Hagen Hbf|Hamm(Westf)Hbf|Hannover Hbf"/>
+		<dp pt="2509232104" pp="5" wings="-8275737537227179086-2509231750" ppth="Stendal Hbf|Berlin-Spandau|Berlin Hbf"/>
+	</s>
+	<s id="5534381725604797880-2509232050-8">
+		<tl t="p" o="R0" c="ENO" n="83583"/>
+		<ar pt="2509232141" pp="8" l="RE50" ppth="Hildesheim Hbf|Hoheneggelsen|Woltwiesche|Lengede-Broistedt|Braunschweig Hbf|Weddel(Braunschw)|Fallersleben"/>
+	</s>
+	<s id="1140779865956290650-2509231359-12">
+		<tl f="F" t="p" o="80" c="ICE" n="594"/>
+		<ar pt="2509232119" pp="5" ppth="München Hbf|München-Pasing|Augsburg Hbf|Stuttgart Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hildesheim Hbf|Braunschweig Hbf"/>
+		<dp pt="2509232120" pp="5" ppth="Berlin-Spandau|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="6784262195703368400-2509232130-1">
+		<tl t="p" o="R0" c="Bus" n="5284"/>
+		<dp pt="2509232130" pp="" l="EV" ppth="Fallersleben|Weddel(Braunschw)|Braunschweig Hbf"/>
+	</s>
+	<s id="1718614028667096645-2509232028-14">
+		<tl t="p" o="RSMD" c="SMD" n="80380"/>
+		<ar pt="2509232144" pp="9" l="RB36" ppth="Magdeburg Hbf|Magdeburg-Neustadt|Magdeburg-Eichenweiler|Barleben|Meitzendorf|Groß Ammensleben|Vahldorf|Haldensleben|Flechtingen|Wegenstedt|Rätzlingen|Bösdorf(Sachs-Anh)|Oebisfelde"/>
+	</s>
+	<s id="-3777095370375129333-2509232006-11">
+		<tl t="p" o="RSMD" c="SMD" n="80334"/>
+		<ar pt="2509232108" pp="9" l="RB35" ppth="Stendal Hbf|Möringen(Altm)|Vinzelberg|Uchtspringe|Jävenitz|Gardelegen|Solpke|Mieste|Miesterhorst|Oebisfelde"/>
+	</s>
+</timetable>
