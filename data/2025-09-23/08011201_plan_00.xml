@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="3804565893423685625-2509230031-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18101"/>
+		<dp pt="2509230031" pp="3" l="22" ppth="Ludwigsfelde-Struveshof|Saarmund|Potsdam Pirschheide|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof|Potsdam Hbf"/>
+	</s>
+	<s id="2550964200555955868-2509230014-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18337"/>
+		<dp pt="2509230014" pp="4" l="24" tra="8357393075483600022-2509222321-4" ppth="Blankenfelde(Teltow-Fläming)|Dahlewitz|Rangsdorf|Dabendorf|Zossen|Wünsdorf-Waldstadt"/>
+	</s>
+	<s id="8357393075483600022-2509222321-4">
+		<tl t="p" o="800165" c="FEX" n="19881"/>
+		<ar pt="2509230000" pp="4" tra="2550964200555955868-2509230014-1" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="-7460128831778763104-2509230002-1">
+		<tl t="p" o="800165" c="FEX" n="19878"/>
+		<dp pt="2509230002" pp="1" tra="-3959904241585160910-2509222339-3" ppth="Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Charlottenburg"/>
+	</s>
+</timetable>
