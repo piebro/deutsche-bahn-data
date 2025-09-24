@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<timetable station="Mannheim Hbf">
+	<s id="6506105724695131324-2509240257-1">
+		<tl t="p" o="81" c="NJ" n="478"/>
+		<dp pt="2509240257" pp="5" hi="1" wings="3178546308999030105-2509231813" ppth="Mainz Hbf|Koblenz Hbf|Bonn-Beuel|Köln Hbf|Aachen Hbf|Liège-Guillemins|Bruxelles-Nord|Bruxelles Midi"/>
+	</s>
+	<s id="3178546308999030105-2509231813-6">
+		<tl t="p" o="81" c="NJ" n="40468"/>
+		<ar pt="2509240219" pp="5" hi="1" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Passau Hbf"/>
+		<dp pt="2509240257" pp="5" hi="1" ppth="Mainz Hbf|Koblenz Hbf|Bonn-Beuel|Köln Hbf|Aachen Hbf|Liège-Guillemins|Bruxelles-Nord|Bruxelles Midi"/>
+	</s>
+	<s id="8016523767626847908-2509231813-6">
+		<tl t="p" o="81" c="NJ" n="468"/>
+		<ar pt="2509240219" pp="5" hi="1" wings="3178546308999030105-2509231813" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Passau Hbf"/>
+		<dp pt="2509240340" pp="4" hi="1" wings="-344271757147009936-2509231855" ppth="Paris Est"/>
+	</s>
+</timetable>

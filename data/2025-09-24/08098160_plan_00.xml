@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Hbf">
+	<s id="8055140796578231506-2509232306-10">
+		<tl f="N" t="p" o="800158" c="RE" n="3361"/>
+		<ar pt="2509240028" pp="4" l="3" ppth="Schwedt(Oder)|Schwedt(Oder)Mitte|Pinnow(Uckermark)|Angermünde|Chorin|Britz|Eberswalde Hbf|Bernau(b Berlin)|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="-4713259397532046404-2509232328-4">
+		<tl t="p" o="800165" c="FEX" n="19876"/>
+		<ar pt="2509240003" pp="6" pde="Wünsdorf-Waldstadt" ppth="Flughafen BER|Berlin Ostkreuz|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="7022789033164733279-2509232148-19">
+		<tl f="N" t="p" o="800158" c="RE" n="3366"/>
+		<ar pt="2509232341" pp="6" l="3" ppth="Lutherstadt Wittenberg Hbf|Zörnigall|Bülzig|Zahna|Blönsdorf|Niedergörsdorf|Jüterbog|Luckenwalde|Woltersdorf/Nuthe-Urstromtal|Trebbin|Thyrow|Ludwigsfelde|Birkengrund|Großbeeren|Teltow|Berlin-Lichterfelde Ost|Berlin Südkreuz|Berlin Potsdamer Platz"/>
+		<dp pt="2509240036" pp="6" l="3" ppth="Berlin Gesundbrunnen|Bernau(b Berlin)|Rüdnitz|Biesenthal|Melchow|Eberswalde Hbf"/>
+	</s>
+	<s id="5597303123860052865-2509231926-10">
+		<tl f="F" t="p" o="80" c="ICE" n="947"/>
+		<ar pt="2509240014" pp="" ppth="Köln Hbf|Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Hannover Hbf|Wolfsburg Hbf|Berlin-Spandau"/>
+	</s>
+	<s id="4966825592039783790-2509232121-8">
+		<tl f="F" t="p" o="80" c="ICE" n="907"/>
+		<ar pt="2509240059" pp="1" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Stendal Hbf|Berlin-Spandau"/>
+		<dp pt="2509240103" pp="1" hi="1" ppth="Berlin Südkreuz"/>
+	</s>
+	<s id="2192436520712598630-2509240054-1">
+		<tl f="N" t="p" o="800158" c="RE" n="3165"/>
+		<dp pt="2509240054" pp="2" l="4" ppth="Berlin Jungfernheide|Berlin-Spandau|Berlin-Staaken|Dallgow-Döberitz|Elstal|Wustermark|Buschow|Nennhausen|Rathenow"/>
+	</s>
+	<s id="6716572724661645432-2509232245-11">
+		<tl f="N" t="p" o="800158" c="RE" n="3182"/>
+		<ar pt="2509240003" pp="2" l="4" ppth="Stendal Hbf|Rathenow|Nennhausen|Buschow|Wustermark|Elstal|Dallgow-Döberitz|Berlin-Staaken|Berlin-Spandau|Berlin Jungfernheide"/>
+	</s>
+</timetable>
