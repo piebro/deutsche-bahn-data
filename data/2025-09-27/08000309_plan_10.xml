@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<timetable station="Regensburg Hbf">
+	<s id="3909867564883802560-2509270938-13">
+		<tl f="D" t="p" o="A9" c="ag" n="84179"/>
+		<ar pt="2509271031" pp="8" l="RB51" ppth="Neumarkt(Oberpf)|Deining(Oberpf)|Batzhausen|Seubersdorf|Parsberg|Mausheim|Beratzhausen|Laaber|Deuerling|Undorf|Etterzhausen|Regensburg-Prüfening"/>
+	</s>
+	<s id="-7151019064301798192-2509270939-4">
+		<tl t="p" o="O9" c="OPB" n="79717"/>
+		<ar pt="2509271011" pp="101" l="RB23" ppth="Schwandorf|Maxhütte-Haidhof|Regenstauf"/>
+	</s>
+	<s id="-3079288497850409026-2509270844-5">
+		<tl f="D" t="p" o="A8N" c="ALX" n="355"/>
+		<ar pt="2509271007" pp="4" l="RE25" ppth="München Hbf|Freising|Landshut(Bay)Hbf|Neufahrn(Niederbay)"/>
+		<dp pt="2509271017" pp="4" l="RE25" pde="Praha hl.n." ppth="Schwandorf|Cham(Oberpf)|Furth im Wald"/>
+	</s>
+	<s id="-3893113454994955051-2509270713-7">
+		<tl f="F" t="p" o="81" c="ICE" n="228"/>
+		<ar pt="2509271033" pp="5" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Passau Hbf|Plattling"/>
+		<dp pt="2509271035" pp="5" ppth="Nürnberg Hbf|Würzburg Hbf|Aschaffenburg Hbf|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-246988675826932467-2509271050-1">
+		<tl t="p" o="O9" c="OPB" n="79722"/>
+		<dp pt="2509271050" pp="101" l="RB23" ppth="Regenstauf|Maxhütte-Haidhof|Schwandorf"/>
+	</s>
+	<s id="-4498654113366939076-2509271019-1">
+		<tl f="N" t="p" o="800767" c="RE" n="57915"/>
+		<dp pt="2509271019" pp="8 A-C" l="22" ppth="Obertraubling|Köfering|Hagelstadt|Eggmühl|Neufahrn(Niederbay)|Ergoldsbach|Landshut(Bay)Hbf|Moosburg|Freising|München Flughafen Terminal"/>
+	</s>
+	<s id="97054848735812097-2509271035-1">
+		<tl f="N" t="p" o="800759" c="RE" n="56894"/>
+		<dp pt="2509271035" pp="4" l="40" ppth="Regenstauf|Maxhütte-Haidhof|Schwandorf"/>
+	</s>
+	<s id="2458761270440164129-2509271010-2">
+		<tl f="N" t="p" o="8007H3" c="RE" n="4859"/>
+		<ar pt="2509271038" pp="1" l="2" ppth="Schwandorf"/>
+		<dp pt="2509271046" pp="1" l="2" ppth="Eggmühl|Neufahrn(Niederbay)|Ergoldsbach|Landshut(Bay)Hbf|Moosburg|Freising|München Hbf"/>
+	</s>
+	<s id="-4494545365876221219-2509270955-4">
+		<tl f="N" t="p" o="800759" c="RE" n="56889"/>
+		<ar pt="2509271026" pp="1" l="40" ppth="Schwandorf|Maxhütte-Haidhof|Regenstauf"/>
+	</s>
+	<s id="4571530029046000207-2509270917-10">
+		<tl f="D" t="p" o="A9" c="ag" n="32881"/>
+		<ar pt="2509271013" pp="5" l="RE18" ppth="Vohburg-Rockolding|Münchsmünster|Neustadt(Donau)|Abensberg|Saal(Donau)|Bad Abbach|Gundelshausen|Sinzing|Regensburg-Prüfening"/>
+	</s>
+	<s id="-8454181622112987524-2509270916-11">
+		<tl f="D" t="p" o="S9" c="ag" n="84096"/>
+		<ar pt="2509271041" pp="5" l="RE22" tra="4668694620379311888-2509271045-1" ppth="München Flughafen Terminal|Freising|Moosburg|Landshut(Bay)Hbf|Ergoldsbach|Neufahrn(Niederbay)|Eggmühl|Hagelstadt|Köfering|Obertraubling"/>
+	</s>
+	<s id="-7155088928620805880-2509270911-4">
+		<tl f="D" t="p" o="S9" c="ag" n="63059"/>
+		<ar pt="2509271010" pp="9" l="RE50" ppth="Nürnberg Hbf|Neumarkt(Oberpf)|Parsberg"/>
+		<dp pt="2509271012" pp="9" l="RE50" ppth="Regensburg-Burgweinting|Obertraubling|Sünching|Straubing|Straßkirchen|Plattling|Osterhofen(Nby)|Vilshofen(Niederbay)|Passau Hbf"/>
+	</s>
+	<s id="2773609832464104511-2509271022-1">
+		<tl f="D" t="p" o="A9" c="ag" n="84174"/>
+		<dp pt="2509271022" pp="109" l="RB51" ppth="Regensburg-Prüfening|Etterzhausen|Undorf|Deuerling|Laaber|Beratzhausen|Mausheim|Parsberg|Seubersdorf|Batzhausen|Deining(Oberpf)|Neumarkt(Oberpf)"/>
+	</s>
+	<s id="4668694620379311888-2509271045-1">
+		<tl f="D" t="p" o="S9" c="ag" n="63060"/>
+		<dp pt="2509271045" pp="5" l="RE22" tra="-8454181622112987524-2509270916-11" ppth="Beratzhausen|Parsberg|Neumarkt(Oberpf)|Nürnberg Hbf"/>
+	</s>
+	<s id="-5924249444107916415-2509271008-8">
+		<tl f="D" t="p" o="A9" c="ag" n="32886"/>
+		<ar pt="2509271050" pp="5" l="RB17" ppth="Plattling|Straßkirchen|Straubing|Radldorf(Niederbay)|Sünching|Obertraubling|Regensburg-Burgweinting"/>
+		<dp pt="2509271053" pp="5" l="RB17" ppth="Regensburg-Prüfening|Sinzing|Poikam|Bad Abbach|Saal(Donau)|Abensberg|Neustadt(Donau)|Münchsmünster|Vohburg-Rockolding"/>
+	</s>
+</timetable>
