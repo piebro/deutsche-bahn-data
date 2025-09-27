@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Hbf">
+	<s id="2192436520712598630-2509270054-1">
+		<tl f="N" t="p" o="800158" c="RE" n="3165"/>
+		<dp pt="2509270054" pp="2" l="4" ppth="Berlin Jungfernheide|Berlin-Spandau|Berlin-Staaken|Dallgow-Döberitz|Elstal|Wustermark|Buschow|Nennhausen|Rathenow"/>
+	</s>
+	<s id="5670949644496295788-2509262103-22">
+		<tl f="N" t="p" o="800158" c="RE" n="3521"/>
+		<ar pt="2509270009" pp="7" l="5" ppth="Stralsund Hbf|Zarrendorf|Elmenhorst|Wittenhagen|Grimmen|Rakow|Demmin|Utzedel|Sternfeld|Gnevkow|Altentreptow|Neubrandenburg|Burg Stargard(Meckl)|Cammin(Meckl)|Blankensee(Meckl)|Neustrelitz Hbf|Fürstenberg(Havel)|Gransee|Löwenberg(Mark)|Oranienburg|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="-4713259397532046404-2509262328-4">
+		<tl t="p" o="800165" c="FEX" n="19876"/>
+		<ar pt="2509270003" pp="6" ppth="Flughafen BER|Berlin Ostkreuz|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="4966825592039783790-2509262121-9">
+		<tl f="F" t="p" o="80" c="ICE" n="907"/>
+		<ar pt="2509270012" pp="3" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Uelzen|Salzwedel|Stendal Hbf|Berlin-Spandau"/>
+	</s>
+	<s id="8055140796578231506-2509262306-10">
+		<tl f="N" t="p" o="800158" c="RE" n="3361"/>
+		<ar pt="2509270028" pp="4" l="3" ppth="Schwedt(Oder)|Schwedt(Oder)Mitte|Pinnow(Uckermark)|Angermünde|Chorin|Britz|Eberswalde Hbf|Bernau(b Berlin)|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="-2486468534543502840-2509262213-7">
+		<tl f="N" t="p" o="OWRE" c="RE" n="52836"/>
+		<ar pt="2509270047" pp="5" l="85" ppth="Schwerin Hbf|Bad Kleinen|Güstrow|Waren(Müritz)|Oranienburg|Berlin Gesundbrunnen"/>
+		<dp pt="2509270049" pp="5" l="85" ppth="Berlin Potsdamer Platz|Berlin Südkreuz"/>
+	</s>
+	<s id="-1764926103966463072-2509270028-3">
+		<tl f="N" t="p" o="800158" c="RE" n="3366"/>
+		<ar pt="2509270034" pp="5" l="3" ppth="Berlin Südkreuz|Berlin Potsdamer Platz"/>
+		<dp pt="2509270036" pp="5" l="3" pde="Schwedt(Oder)" ppth="Berlin Gesundbrunnen|Bernau(b Berlin)|Rüdnitz|Biesenthal|Melchow|Eberswalde Hbf"/>
+	</s>
+</timetable>

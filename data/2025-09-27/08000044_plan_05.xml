@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<timetable station="Bonn Hbf">
+	<s id="-8793861645106497554-2509270526-8">
+		<tl f="S" t="p" o="800352" c="S" n="31901"/>
+		<ar pt="2509270550" pp="5" l="23" ppth="Meckenheim(Bz Köln)|Meckenheim Industriepark|Alfter-Witterschlick|Alfter-Impekoven|Bonn-Duisdorf|Bonn Helmholtzstraße|Bonn-Endenich Nord"/>
+	</s>
+	<s id="712763676223655180-2509270549-1">
+		<tl f="F" t="p" o="80" c="ICE" n="1155"/>
+		<dp pt="2509270549" pp="2" ppth="Köln Hbf|Berlin-Spandau|Berlin Hbf"/>
+	</s>
+	<s id="4753870957390372842-2509262134-13">
+		<tl f="F" t="p" o="NZ" c="IC" n="60402"/>
+		<ar pt="2509270525" pp="1" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf"/>
+		<dp pt="2509270536" pp="1" ppth="Eindhoven Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="6175934605574930825-2509270429-17">
+		<tl f="N" t="p" o="TR" c="RB" n="25408"/>
+		<ar pt="2509270531" pp="1" l="26" ppth="Koblenz Hbf|Koblenz Stadtmitte|Koblenz-Lützel|Mülheim-Kärlich|Weißenthurm|Andernach|Namedy|Brohl|Bad Breisig|Sinzig(Rhein)|Remagen|Oberwinter|Rolandseck|Bonn-Mehlem|Bonn-Bad Godesberg|Bonn UN Campus"/>
+		<dp pt="2509270533" pp="1" l="26" ppth="Roisdorf|Sechtem|Brühl|Hürth-Kalscheuren|Köln Süd|Köln West|Köln Hbf|Köln Messe/Deutz"/>
+	</s>
+	<s id="8868050453695511606-2509262134-13">
+		<tl t="p" o="85" c="NJ" n="402"/>
+		<ar pt="2509270525" pp="1" wings="4753870957390372842-2509262134" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf"/>
+		<dp pt="2509270536" pp="1" hi="1" wings="4753870957390372842-2509262134" ppth="Eindhoven Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+</timetable>
