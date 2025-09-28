@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<timetable station="Oberhausen Hbf">
+	<s id="6295926956655463216-2509280441-1">
+		<tl f="N" t="p" o="8003L1" c="RB" n="31242"/>
+		<dp pt="2509280441" pp="6" l="32" pde="Dortmund Hbf" ppth="Essen-Dellwig|Essen-Bergeborbeck|Essen-Altenessen|Essen-Zollverein Nord|Gelsenkirchen Hbf"/>
+	</s>
+	<s id="-5341290488582403088-2509280404-6">
+		<tl f="N" t="p" o="8003L1" c="RB" n="31287"/>
+		<ar pt="2509280421" pp="7" l="32" pde="Dortmund Hbf" ppth="Gelsenkirchen Hbf|Essen-Zollverein Nord|Essen-Altenessen|Essen-Bergeborbeck|Essen-Dellwig"/>
+	</s>
+	<s id="-389765114355125159-2509280343-6">
+		<tl f="D" t="p" o="R4NRN" c="VIA" n="20003"/>
+		<ar pt="2509280407" pp="12" l="RE19" ppth="Wesel|Voerde(Niederrhein)|Dinslaken|Oberhausen-Holten|Oberhausen-Sterkrade"/>
+		<dp pt="2509280408" pp="12" l="RE19" ppth="Duisburg Hbf"/>
+	</s>
+	<s id="3592392416979311624-2509280250-4">
+		<tl t="p" o="R2" c="Bus" n="3047"/>
+		<ar pt="2509280400" pp="" l="RE3" ppth="Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf"/>
+		<dp pt="2509280400" pp="" l="RE3" ppth="Essen-Altenessen|Gelsenkirchen Hbf|Wanne-Eickel Hbf|Herne|Castrop-Rauxel Hbf|Dortmund-Mengede|Dortmund Hbf"/>
+	</s>
+	<s id="1107364166963213281-2509280431-1">
+		<tl t="p" o="B2" c="Bus" n="3263"/>
+		<dp pt="2509280431" pp="" l="RB32" ppth="Duisburg Hbf"/>
+	</s>
+	<s id="525026159282690081-2509280210-8">
+		<tl t="p" o="R2" c="Bus" n="3046"/>
+		<ar pt="2509280407" pp="" l="RE3" ppth="Dortmund Hbf|Dortmund-Mengede|Castrop-Rauxel Hbf|Herne|Wanne-Eickel Hbf|Gelsenkirchen Hbf|Essen-Altenessen"/>
+		<dp pt="2509280407" pp="" l="RE3" ppth="Duisburg Hbf|Düsseldorf Flughafen|Düsseldorf Hbf"/>
+	</s>
+	<s id="7527461336478289173-2509280411-2">
+		<tl t="p" o="B2" c="Bus" n="3262"/>
+		<ar pt="2509280431" pp="" l="RB32" ppth="Duisburg Hbf"/>
+	</s>
+</timetable>
