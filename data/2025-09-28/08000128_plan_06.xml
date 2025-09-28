@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<timetable station="Göttingen">
+	<s id="-8677182982400525824-2509272046-11">
+		<tl t="p" o="81" c="NJ" n="40420"/>
+		<ar pt="2509280605" pp="9" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Hbf|Augsburg Hbf|Nürnberg Hbf|Würzburg Hbf|Kassel-Wilhelmshöhe"/>
+		<dp pt="2509280609" pp="9" ppth="Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="8388284206224174823-2509280648-1">
+		<tl f="N" t="p" o="8002A3" c="RB" n="14105"/>
+		<dp pt="2509280648" pp="4" l="82" ppth="Nörten-Hardenberg|Northeim(Han)|Einbeck-Salzderhelden|Kreiensen|Bad Gandersheim|Seesen|Langelsheim|Goslar|Oker|Bad Harzburg"/>
+	</s>
+	<s id="-7547304040443208216-2509272010-11">
+		<tl t="p" o="81" c="NJ" n="490"/>
+		<ar pt="2509280605" pp="9" wings="-8677182982400525824-2509272046" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Passau Hbf|Regensburg Hbf|Nürnberg Hbf|Würzburg Hbf|Kassel-Wilhelmshöhe"/>
+		<dp pt="2509280609" pp="9" wings="-8677182982400525824-2509272046" ppth="Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-834549881682505178-2509280604-1">
+		<tl f="D" t="p" o="R1" c="ME" n="82814"/>
+		<dp pt="2509280604" pp="6" l="RE2" ppth="Nörten-Hardenberg|Northeim(Han)|Einbeck-Salzderhelden|Kreiensen|Freden(Leine)|Alfeld(Leine)|Banteln|Elze(Han)|Nordstemmen|Sarstedt|Hannover Hbf"/>
+	</s>
+</timetable>
