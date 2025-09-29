@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<timetable station="Lüneburg">
+	<s id="4959401606751256562-2509291618-11">
+		<tl f="F" t="p" o="80" c="ICE" n="1204"/>
+		<ar pt="2509292158" pp="6" ppth="München Hbf|Ingolstadt Hbf|Nürnberg Hbf|Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen"/>
+		<dp pt="2509292200" pp="6" ppth="Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-8468420873097902256-2509292215-4">
+		<tl t="p" o="R1" c="Bus" n="2141"/>
+		<ar pt="2509292257" pp="" l="EV" ppth="Winsen(Luhe)|Radbruch|Bardowick"/>
+	</s>
+	<s id="-7193636000516531658-2509292201-4">
+		<tl f="D" t="p" o="R1" c="ME" n="82140"/>
+		<ar pt="2509292224" pp="7" l="RE3" ppth="Uelzen|Bad Bevensen|Bienenbüttel"/>
+		<dp pt="2509292228" pp="7" l="RE3" ppth="Winsen(Luhe)|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="-5776617363706178690-2509292157-4">
+		<tl f="D" t="p" o="R1" c="ME" n="82141"/>
+		<ar pt="2509292233" pp="1" l="RE3" ppth="Hamburg Hbf|Hamburg-Harburg|Winsen(Luhe)"/>
+		<dp pt="2509292234" pp="1" l="RE3" ppth="Bienenbüttel|Bad Bevensen|Uelzen"/>
+	</s>
+	<s id="7597089806492032299-2509292221-4">
+		<tl f="F" t="p" o="80" c="ICE" n="1081"/>
+		<ar pt="2509292257" pp="1" ppth="Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg"/>
+		<dp pt="2509292259" pp="1" ppth="Uelzen|Celle|Hannover Hbf|Göttingen|Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf|München Hbf"/>
+	</s>
+</timetable>
