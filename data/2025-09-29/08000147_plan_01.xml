@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg-Harburg">
+	<s id="5375326263046654482-2509281917-12">
+		<tl f="F" t="p" o="80" c="ICE" n="580"/>
+		<ar pt="2509290100" pp="1" ppth="München Hbf|Ingolstadt Hbf|Nürnberg Hbf|Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen|Lüneburg"/>
+		<dp pt="2509290102" pp="1" hi="1" ppth="Hamburg Hbf"/>
+	</s>
+	<s id="2149328681970635984-2509290120-1">
+		<tl t="p" o="R1" c="Bus" n="1954"/>
+		<dp pt="2509290120" pp="" l="EV" ppth="Hittfeld|Klecken|Buchholz(Nordheide)"/>
+	</s>
+	<s id="-3970723350205974760-2509290057-2">
+		<tl f="D" t="p" o="R1" c="ME" n="81947"/>
+		<ar pt="2509290107" pp="3" l="RB41" ppth="Hamburg Hbf"/>
+		<dp pt="2509290108" pp="3" l="RB41" ppth="Sprötze|Tostedt|Lauenbrück|Scheeßel|Rotenburg(Wümme)"/>
+	</s>
+	<s id="7568067173942024928-2509290024-5">
+		<tl t="p" o="R1" c="Bus" n="4342"/>
+		<ar pt="2509290119" pp="" l="EV" ppth="Sprötze|Buchholz(Nordheide)|Klecken|Hittfeld"/>
+	</s>
+</timetable>
