@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="Frankfurt(Main)Hbf">
+	<s id="670153310036306877-2510010221-1">
+		<tl f="S" t="p" o="800528" c="S" n="28230"/>
+		<dp pt="2510010221" pp="" l="8" ppth="Frankfurt-Niederrad|Frankfurt am Main - Stadion|Frankfurt(Main)-Gateway Gardens|Frankfurt(M) Flughafen Regionalbf|Kelsterbach|Raunheim|Rüsselsheim|Rüsselsheim Opelwerk|Mainz-Bischofsheim|Mainz-Gustavsburg|Mainz Römisches Theater|Mainz Hbf|Mainz Nord|Wiesbaden Ost|Wiesbaden Hbf"/>
+	</s>
+	<s id="-7025299073100929354-2510010148-16">
+		<tl f="S" t="p" o="800528" c="S" n="28231"/>
+		<ar pt="2510010243" pp="" l="8" ppth="Wiesbaden Hbf|Wiesbaden Ost|Mainz Nord|Mainz Hbf|Mainz Römisches Theater|Mainz-Gustavsburg|Mainz-Bischofsheim|Rüsselsheim Opelwerk|Rüsselsheim|Raunheim|Kelsterbach|Frankfurt(M) Flughafen Regionalbf|Frankfurt(Main)-Gateway Gardens|Frankfurt am Main - Stadion|Frankfurt-Niederrad"/>
+	</s>
+	<s id="-5851721557238592488-2509302015-8">
+		<tl t="p" o="84" c="NJ" n="403"/>
+		<ar pt="2510010220" pp="19" hi="1" wings="7582314568044505717-2509302015" ppth="Amsterdam Centraal|Utrecht Centraal|Eindhoven Centraal|Köln Hbf|Bonn-Beuel|Koblenz Hbf|Mainz Hbf"/>
+		<dp pt="2510010243" pp="19" hi="1" wings="7582314568044505717-2509302015" ppth="Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-59093815330381166-2509302054-6">
+		<tl f="F" t="p" o="80" c="ICE" n="699"/>
+		<ar pt="2510010212" pp="8" ppth="Berlin Hbf|Bitterfeld|Leipzig Hbf|Erfurt Hbf|Eisenach Hbf"/>
+		<dp pt="2510010225" pp="8" ppth="Mannheim Hbf|Heidelberg Hbf|Stuttgart Hbf|Ulm Hbf|Günzburg|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="7108274583246193747-2509302019-6">
+		<tl f="F" t="p" o="80" c="ICE" n="698"/>
+		<ar pt="2510010240" pp="8" ppth="München Hbf|Augsburg Hbf|Stuttgart Hbf|Heidelberg Hbf|Mannheim Hbf"/>
+		<dp pt="2510010249" pp="8" ppth="Eisenach Hbf|Gotha|Erfurt Hbf|Weimar|Naumburg(Saale)Hbf|Halle(Saale)Hbf|Bitterfeld|Berlin Hbf"/>
+	</s>
+	<s id="7582314568044505717-2509302015-8">
+		<tl f="F" t="p" o="NZ" c="IC" n="60403"/>
+		<ar pt="2510010220" pp="19" ppth="Amsterdam Centraal|Utrecht Centraal|Eindhoven Centraal|Köln Hbf|Bonn-Beuel|Koblenz Hbf|Mainz Hbf"/>
+		<dp pt="2510010243" pp="19" ppth="Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+</timetable>
