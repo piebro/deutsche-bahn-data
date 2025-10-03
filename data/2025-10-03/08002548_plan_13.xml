@@ -1,0 +1,131 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg Dammtor">
+	<s id="496656278151264987-2510031223-7">
+		<tl f="N" t="p" o="800201" c="RE" n="11219"/>
+		<ar pt="2510031333" pp="4" l="70" ppth="Kiel Hbf|Bordesholm|Neumünster|Brokstedt|Wrist|Elmshorn"/>
+		<dp pt="2510031334" pp="4" l="70" hi="1" ppth="Hamburg Hbf"/>
+	</s>
+	<s id="3468951915484586958-2510031254-10">
+		<tl f="D" t="p" o="O0" c="NBE" n="75529"/>
+		<ar pt="2510031349" pp="4" l="RB61" ppth="Itzehoe|Kremperheide|Krempe|Glückstadt|Herzhorn|Elmshorn|Tornesch|Prisdorf|Pinneberg"/>
+		<dp pt="2510031350" pp="4" l="RB61" hi="1" ppth="Hamburg Hbf"/>
+	</s>
+	<s id="530184501955095268-2510031333-2">
+		<tl t="p" o="0S" c="Bus" n="128"/>
+		<ar pt="2510031339" pp="" l="EV10A" ppth="Hamburg Hbf (Kirchenallee)"/>
+		<dp pt="2510031339" pp="" l="EV10A" ppth="Hamburg-Sternschanze"/>
+	</s>
+	<s id="5295243416856313869-2510031237-3">
+		<tl f="F" t="p" o="80" c="ICE" n="613"/>
+		<ar pt="2510031337" pp="4" ppth="Kiel Hbf|Neumünster"/>
+		<dp pt="2510031338" pp="4" ppth="Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Osnabrück Hbf|Münster(Westf)Hbf|Dortmund Hbf|Hagen Hbf|Wuppertal Hbf|Solingen Hbf|Köln Hbf|Frankfurt(M) Flughafen Fernbf|Mannheim Hbf|Stuttgart Hbf|Ulm Hbf|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-2125895193974483860-2510031202-7">
+		<tl f="N" t="p" o="800201" c="RE" n="11269"/>
+		<ar pt="2510031309" pp="4" l="7" ppth="Kiel Hbf|Flintbek|Bordesholm|Einfeld|Neumünster|Elmshorn"/>
+		<dp pt="2510031310" pp="4" l="7" hi="1" ppth="Hamburg Hbf"/>
+	</s>
+	<s id="-2053455840597925551-2510031115-10">
+		<tl f="N" t="p" o="800201" c="RE" n="11169"/>
+		<ar pt="2510031309" pp="4" l="7" wings="-2125895193974483860-2510031202" ppth="Flensburg|Tarp|Jübek|Schleswig|Owschlag|Rendsburg|Nortorf|Neumünster|Elmshorn"/>
+		<dp pt="2510031310" pp="4" l="7" hi="1" wings="-2125895193974483860-2510031202" ppth="Hamburg Hbf"/>
+	</s>
+	<s id="-1216783147767082510-2510031343-2">
+		<tl f="N" t="p" o="800201" c="RE" n="11168"/>
+		<ar pt="2510031347" pp="3" l="7" hi="1" wings="4317762923315945059-2510031343" ppth="Hamburg Hbf"/>
+		<dp pt="2510031348" pp="3" l="7" wings="4317762923315945059-2510031343" ppth="Elmshorn|Neumünster|Nortorf|Rendsburg|Owschlag|Schleswig|Jübek|Tarp|Flensburg"/>
+	</s>
+	<s id="-266204046597736577-2510031354-1">
+		<tl f="F" t="p" o="80" c="ICE" n="881"/>
+		<dp pt="2510031354" pp="4" ppth="Hamburg Hbf|Hamburg-Harburg|Lüneburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf|München Hbf"/>
+	</s>
+	<s id="-506241066509705340-2510031307-2">
+		<tl f="D" t="p" o="O0" c="NBE" n="75524"/>
+		<ar pt="2510031310" pp="3" l="RB61" hi="1" ppth="Hamburg Hbf"/>
+		<dp pt="2510031311" pp="3" l="RB61" ppth="Pinneberg|Prisdorf|Tornesch|Elmshorn|Herzhorn|Glückstadt|Krempe|Kremperheide|Itzehoe"/>
+	</s>
+	<s id="6613603652967650370-2510031323-2">
+		<tl t="p" o="0S" c="Bus" n="125"/>
+		<ar pt="2510031331" pp="" l="EV10A" ppth="Hamburg-Sternschanze"/>
+		<dp pt="2510031331" pp="" l="EV10A" ppth="Hamburg Hbf (Kirchenallee)"/>
+	</s>
+	<s id="6365289854589139755-2510030905-8">
+		<tl f="F" t="p" o="80" c="IC" n="2310"/>
+		<ar pt="2510031305" pp="3" wings="-7995997926778335401-2510030905" ppth="Köln Hbf|Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Münster(Westf)Hbf|Hamburg-Harburg|Hamburg Hbf"/>
+		<dp pt="2510031306" pp="3" wings="-7995997926778335401-2510030905" ppth="Itzehoe|Heide(Holst)|Husum|Niebüll|Westerland(Sylt)"/>
+	</s>
+	<s id="-4791827814843560196-2510031303-2">
+		<tl t="p" o="0S" c="Bus" n="121"/>
+		<ar pt="2510031311" pp="" l="EV10A" ppth="Hamburg-Sternschanze"/>
+		<dp pt="2510031311" pp="" l="EV10A" ppth="Hamburg Hbf (Kirchenallee)"/>
+	</s>
+	<s id="-5406281166943273286-2510031253-2">
+		<tl t="p" o="0S" c="Bus" n="119"/>
+		<ar pt="2510031301" pp="" l="EV10A" ppth="Hamburg-Sternschanze"/>
+		<dp pt="2510031301" pp="" l="EV10A" ppth="Hamburg Hbf (Kirchenallee)"/>
+	</s>
+	<s id="6441935987950471667-2510031353-2">
+		<tl t="p" o="0S" c="Bus" n="132"/>
+		<ar pt="2510031359" pp="" l="EV10A" ppth="Hamburg Hbf (Kirchenallee)"/>
+		<dp pt="2510031359" pp="" l="EV10A" ppth="Hamburg-Sternschanze"/>
+	</s>
+	<s id="8940386673819459986-2510031322-2">
+		<tl f="N" t="p" o="800201" c="RE" n="11218"/>
+		<ar pt="2510031325" pp="3" l="70" hi="1" ppth="Hamburg Hbf"/>
+		<dp pt="2510031326" pp="3" l="70" ppth="Elmshorn|Wrist|Brokstedt|Neumünster|Bordesholm|Kiel Hbf"/>
+	</s>
+	<s id="-2289591885774835907-2510030513-19">
+		<tl f="F" t="p" o="80" c="ICE" n="206"/>
+		<ar pt="2510031320" pp="3" ppth="Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(M) Flughafen Fernbf|Köln Hbf|Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Recklinghausen Hbf|Münster(Westf)Hbf|Osnabrück Hbf|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf"/>
+		<dp pt="2510031321" pp="3" hi="1" ppth="Hamburg-Altona"/>
+	</s>
+	<s id="-7995997926778335401-2510030905-8">
+		<tl f="F" t="p" o="80" c="IC" n="2312"/>
+		<ar pt="2510031305" pp="3" ppth="Köln Hbf|Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Münster(Westf)Hbf|Hamburg-Harburg|Hamburg Hbf"/>
+		<dp pt="2510031306" pp="3" ppth="Itzehoe|Heide(Holst)|Husum|Niebüll|Niebüll neg|Deezbüll|Maasbüll(b Niebüll)|Dagebüll Kirche|Dagebüll Mole"/>
+	</s>
+	<s id="153764563561703871-2510031323-2">
+		<tl t="p" o="0S" c="Bus" n="126"/>
+		<ar pt="2510031329" pp="" l="EV10A" ppth="Hamburg Hbf (Kirchenallee)"/>
+		<dp pt="2510031329" pp="" l="EV10A" ppth="Hamburg-Sternschanze"/>
+	</s>
+	<s id="-6114668198591582882-2510031313-2">
+		<tl t="p" o="0S" c="Bus" n="124"/>
+		<ar pt="2510031319" pp="" l="EV10A" ppth="Hamburg Hbf (Kirchenallee)"/>
+		<dp pt="2510031319" pp="" l="EV10A" ppth="Hamburg-Sternschanze"/>
+	</s>
+	<s id="4317762923315945059-2510031343-2">
+		<tl f="N" t="p" o="800201" c="RE" n="11268"/>
+		<ar pt="2510031347" pp="3" l="7" hi="1" ppth="Hamburg Hbf"/>
+		<dp pt="2510031348" pp="3" l="7" ppth="Elmshorn|Neumünster|Einfeld|Bordesholm|Flintbek|Kiel Hbf"/>
+	</s>
+	<s id="9204322010804875327-2510031303-2">
+		<tl t="p" o="0S" c="Bus" n="122"/>
+		<ar pt="2510031309" pp="" l="EV10A" ppth="Hamburg Hbf (Kirchenallee)"/>
+		<dp pt="2510031309" pp="" l="EV10A" ppth="Hamburg-Sternschanze"/>
+	</s>
+	<s id="-7913448829220226027-2510031343-2">
+		<tl t="p" o="0S" c="Bus" n="129"/>
+		<ar pt="2510031351" pp="" l="EV10A" ppth="Hamburg-Sternschanze"/>
+		<dp pt="2510031351" pp="" l="EV10A" ppth="Hamburg Hbf (Kirchenallee)"/>
+	</s>
+	<s id="-4293652231841836199-2510031313-2">
+		<tl t="p" o="0S" c="Bus" n="123"/>
+		<ar pt="2510031321" pp="" l="EV10A" ppth="Hamburg-Sternschanze"/>
+		<dp pt="2510031321" pp="" l="EV10A" ppth="Hamburg Hbf (Kirchenallee)"/>
+	</s>
+	<s id="6932927487627030682-2510031333-2">
+		<tl t="p" o="0S" c="Bus" n="127"/>
+		<ar pt="2510031341" pp="" l="EV10A" ppth="Hamburg-Sternschanze"/>
+		<dp pt="2510031341" pp="" l="EV10A" ppth="Hamburg Hbf (Kirchenallee)"/>
+	</s>
+	<s id="4946910952803868546-2510031343-2">
+		<tl t="p" o="0S" c="Bus" n="130"/>
+		<ar pt="2510031349" pp="" l="EV10A" ppth="Hamburg Hbf (Kirchenallee)"/>
+		<dp pt="2510031349" pp="" l="EV10A" ppth="Hamburg-Sternschanze"/>
+	</s>
+	<s id="-8701805413806314010-2510031315-1">
+		<tl f="F" t="p" o="80" c="ICE" n="579"/>
+		<dp pt="2510031315" pp="4" ppth="Hamburg Hbf|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mannheim Hbf|Stuttgart Hbf"/>
+	</s>
+</timetable>
