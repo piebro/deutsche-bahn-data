@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg Dammtor">
+	<s id="3114848154518080426-2510030123-2">
+		<tl t="p" o="0S" c="Bus" n="269"/>
+		<ar pt="2510030131" pp="" l="EV10A" ppth="Hamburg-Sternschanze"/>
+		<dp pt="2510030131" pp="" l="EV10A" ppth="Hamburg Hbf (Kirchenallee)"/>
+	</s>
+	<s id="6478890965231777729-2510030103-2">
+		<tl t="p" o="0S" c="Bus" n="266"/>
+		<ar pt="2510030109" pp="" l="EV10A" ppth="Hamburg Hbf (Kirchenallee)"/>
+		<dp pt="2510030109" pp="" l="EV10A" ppth="Hamburg-Sternschanze"/>
+	</s>
+	<s id="-2226467865786714148-2510022238-8">
+		<tl f="F" t="p" o="80" c="ICE" n="700"/>
+		<ar pt="2510030106" pp="3" ppth="Berlin Hbf|Berlin-Spandau|Stendal Hbf|Salzwedel|Uelzen|Hamburg-Harburg|Hamburg Hbf"/>
+		<dp pt="2510030107" pp="3" hi="1" ppth="Hamburg-Altona"/>
+	</s>
+	<s id="7720523501201759904-2510030103-2">
+		<tl t="p" o="0S" c="Bus" n="265"/>
+		<ar pt="2510030111" pp="" l="EV10A" ppth="Hamburg-Sternschanze"/>
+		<dp pt="2510030111" pp="" l="EV10A" ppth="Hamburg Hbf (Kirchenallee)"/>
+	</s>
+	<s id="1550253682011400106-2510030143-2">
+		<tl t="p" o="0S" c="Bus" n="273"/>
+		<ar pt="2510030151" pp="" l="EV10A" ppth="Hamburg-Sternschanze"/>
+		<dp pt="2510030151" pp="" l="EV10A" ppth="Hamburg Hbf (Kirchenallee)"/>
+	</s>
+	<s id="-3927096025170759993-2510030143-2">
+		<tl f="N" t="p" o="800201" c="RE" n="11292"/>
+		<ar pt="2510030147" pp="3" l="7" hi="1" ppth="Hamburg Hbf"/>
+		<dp pt="2510030148" pp="3" l="7" ppth="Pinneberg|Elmshorn|Wrist|Neumünster|Einfeld|Bordesholm|Flintbek|Kiel Hbf"/>
+	</s>
+	<s id="-3667093336030085760-2510030143-2">
+		<tl t="p" o="0S" c="Bus" n="274"/>
+		<ar pt="2510030149" pp="" l="EV10A" ppth="Hamburg Hbf (Kirchenallee)"/>
+		<dp pt="2510030149" pp="" l="EV10A" ppth="Hamburg-Sternschanze"/>
+	</s>
+	<s id="6411360805452540988-2510030123-2">
+		<tl t="p" o="0S" c="Bus" n="270"/>
+		<ar pt="2510030129" pp="" l="EV10A" ppth="Hamburg Hbf (Kirchenallee)"/>
+		<dp pt="2510030129" pp="" l="EV10A" ppth="Hamburg-Sternschanze"/>
+	</s>
+	<s id="-6711307188089838742-2510030005-10">
+		<tl f="N" t="p" o="800201" c="RE" n="11293"/>
+		<ar pt="2510030120" pp="4" l="7" ppth="Kiel Hbf|Flintbek|Bordesholm|Einfeld|Neumünster|Brokstedt|Wrist|Elmshorn|Pinneberg"/>
+		<dp pt="2510030121" pp="4" l="7" hi="1" ppth="Hamburg Hbf"/>
+	</s>
+</timetable>

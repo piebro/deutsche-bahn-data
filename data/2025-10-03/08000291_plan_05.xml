@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<timetable station="Oldenburg(Oldb)Hbf">
+	<s id="7109186111814105543-2510030416-6">
+		<tl f="F" t="p" o="80" c="IC" n="2033"/>
+		<ar pt="2510030523" pp="1" wings="-8217607310505699301-2510030416" ppth="Emden Hbf|Leer(Ostfriesl)|Augustfehn|Westerstede-Ocholt|Bad Zwischenahn"/>
+		<dp pt="2510030535" pp="1" wings="-8217607310505699301-2510030416" ppth="Hude|Delmenhorst|Bremen Hbf|Verden(Aller)|Nienburg(Weser)|Hannover Hbf|Braunschweig Hbf|Helmstedt|Magdeburg Hbf|Köthen|Halle(Saale)Hbf|Leipzig Hbf"/>
+	</s>
+	<s id="-2248351131049730060-2510030549-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="83353"/>
+		<dp pt="2510030549" pp="5" l="RS3" ppth="Wüsting|Hude|Bookholzberg|Schierbrok|Hoykenkamp|Delmenhorst|Heidkrug|Bremen Neustadt|Bremen Hbf"/>
+	</s>
+	<s id="-8217607310505699301-2510030416-6">
+		<tl f="N" t="p" o="NZ" c="RE" n="52033"/>
+		<ar pt="2510030523" pp="1" l="56" ppth="Emden Hbf|Leer(Ostfriesl)|Augustfehn|Westerstede-Ocholt|Bad Zwischenahn"/>
+		<dp pt="2510030535" pp="1" l="56" ppth="Hude|Delmenhorst|Bremen Hbf"/>
+	</s>
+</timetable>
