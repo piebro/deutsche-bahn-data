@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Kassel-Wilhelmshöhe">
+	<s id="-5897506887340047333-2510040507-8">
+		<tl f="D" t="p" o="H4" c="RT" n="20483"/>
+		<ar pt="2510040522" pp="7" l="5" ppth="Auestadion, Kassel|Heinrich-Heine-Straße, Kassel|Am Weinberg, Kassel|Rathaus/Fünffensterstraße, Kassel|Wilhelmsstraße/Stadtmuseum, Kassel|Scheidemannplatz, Kassel|Kassel Hbf (tief)"/>
+		<dp pt="2510040523" pp="7" l="5" ppth="Kassel-Oberzwehren|Baunatal-Rengershausen|Baunatal-Guntershausen|Guxhagen|Körle|Melsungen-Röhrenfurth|Melsungen-Schwarzenberg|Melsungen Bartenwetzerbrücke|Melsungen"/>
+	</s>
+	<s id="-8899772281117317577-2510040525-1">
+		<tl t="p" o="AM" c="Bus" n="10705"/>
+		<dp pt="2510040525" pp="" l="RE9" ppth="Eichenberg"/>
+	</s>
+	<s id="3272146161175325165-2510032046-10">
+		<tl t="p" o="81" c="NJ" n="420"/>
+		<ar pt="2510040550" pp="3" wings="-6813803786124510421-2510032010" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Hbf|Augsburg Hbf|Nürnberg Hbf|Würzburg Hbf"/>
+		<dp pt="2510040552" pp="3" wings="-6813803786124510421-2510032010" ppth="Hamm(Westf)Hbf|Münster(Westf)Hbf|Deventer|Amersfoort Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="-6813803786124510421-2510032010-9">
+		<tl t="p" o="81" c="NJ" n="40490"/>
+		<ar pt="2510040550" pp="3" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Salzburg Hbf|Nürnberg Hbf|Würzburg Hbf"/>
+		<dp pt="2510040552" pp="3" ppth="Hamm(Westf)Hbf|Münster(Westf)Hbf|Deventer|Amersfoort Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="-3496950169208817148-2510040505-2">
+		<tl f="N" t="p" o="N4" c="RB" n="24207"/>
+		<ar pt="2510040509" pp="7" l="5" ppth="Kassel Hbf"/>
+		<dp pt="2510040510" pp="7" l="5" ppth="Guxhagen|Melsungen|Malsfeld|Malsfeld-Beiseförth|Altmorschen|Heinebach|Rotenburg a.d. Fulda|Lispenhausen|Bebra"/>
+	</s>
+	<s id="-2686204157834598685-2510040535-2">
+		<tl f="N" t="p" o="N4RE" c="RE" n="24261"/>
+		<ar pt="2510040540" pp="7" l="5" ppth="Kassel Hbf"/>
+		<dp pt="2510040540" pp="7" l="5" ppth="Melsungen|Rotenburg a.d. Fulda|Bebra"/>
+	</s>
+	<s id="984847181676214918-2510040409-22">
+		<tl f="N" t="p" o="8005MW" c="RE" n="15370"/>
+		<ar pt="2510040545" pp="9" l="30" ppth="Marburg(Lahn)|Cölbe|Bürgeln|Anzefahr|Kirchhain(Bz Kassel)|Stadtallendorf|Neustadt(Kr Marburg)|Schwalmstadt-Wiera|Treysa|Schlierbach(Schwalm-Eder-Kr.)|Zimmersrode|Borken(Hess)|Singlis|Wabern(Bz Kassel)|Felsberg-Gensungen|Felsberg-Altenbrunslar|Felsberg-Wolfershausen|Edermünde-Grifte|Baunatal-Guntershausen|Baunatal-Rengershausen|Kassel-Oberzwehren"/>
+		<dp pt="2510040547" pp="9" l="30" ppth="Kassel Hbf"/>
+	</s>
+</timetable>
