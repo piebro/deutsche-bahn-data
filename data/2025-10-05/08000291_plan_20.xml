@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<timetable station="Oldenburg(Oldb)Hbf">
+	<s id="8762091338256790667-2510052049-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="83383"/>
+		<dp pt="2510052049" pp="5" l="RS3" ppth="Wüsting|Hude|Bookholzberg|Schierbrok|Hoykenkamp|Delmenhorst"/>
+	</s>
+	<s id="4360157550180414380-2510051901-12">
+		<tl f="D" t="p" o="N1" c="NWB" n="75331"/>
+		<ar pt="2510052029" pp="5" l="RE18" ppth="Osnabrück Hbf|Osnabrück Altstadt|Bramsche|Bersenbrück|Quakenbrück|Essen(Oldb)|Cloppenburg|Ahlhorn|Großenkneten|Huntlosen|Sandkrug"/>
+		<dp pt="2510052036" pp="5" l="RE18" ppth="Rastede|Jaderberg|Varel(Oldb)|Sande|Wilhelmshaven"/>
+	</s>
+	<s id="-5505070607913713599-2510051940-6">
+		<tl f="D" t="p" o="N1" c="NWB" n="75330"/>
+		<ar pt="2510052024" pp="8" l="RE18" ppth="Wilhelmshaven|Sande|Varel(Oldb)|Jaderberg|Rastede"/>
+		<dp pt="2510052029" pp="8" l="RE18" ppth="Sandkrug|Huntlosen|Großenkneten|Ahlhorn|Cloppenburg|Essen(Oldb)|Quakenbrück|Bersenbrück|Bramsche|Osnabrück Altstadt|Osnabrück Hbf"/>
+	</s>
+	<s id="-4443169506245752420-2510051931-10">
+		<tl f="D" t="p" o="N1" c="NWB" n="83378"/>
+		<ar pt="2510052009" pp="5" l="RS3" ppth="Bremen Hbf|Bremen Neustadt|Heidkrug|Delmenhorst|Hoykenkamp|Schierbrok|Bookholzberg|Hude|Wüsting"/>
+	</s>
+	<s id="7881710388859147054-2510052012-2">
+		<tl f="N" t="p" o="800295" c="RE" n="4435"/>
+		<ar pt="2510052023" pp="1" l="1" ppth="Bad Zwischenahn"/>
+		<dp pt="2510052025" pp="1" l="1" ppth="Hude|Delmenhorst|Bremen Hbf|Bremen-Mahndorf|Achim|Verden(Aller)|Dörverden|Eystrup|Nienburg(Weser)|Neustadt am Rübenberge|Wunstorf|Hannover Hbf"/>
+	</s>
+	<s id="-778768729592294655-2510052025-4">
+		<tl f="D" t="p" o="N1" c="NWB" n="83394"/>
+		<ar pt="2510052053" pp="6" l="RS30" ppth="Bremen Hbf|Delmenhorst|Hude"/>
+		<dp pt="2510052058" pp="6" l="RS30" ppth="Oldenburg-Wechloy|Bad Zwischenahn"/>
+	</s>
+	<s id="8394482834435786201-2510052044-3">
+		<tl f="D" t="p" o="N1" c="NWB" n="83397"/>
+		<ar pt="2510052059" pp="1" l="RS30" ppth="Bad Zwischenahn|Oldenburg-Wechloy"/>
+		<dp pt="2510052105" pp="1" l="RS30" ppth="Hude|Delmenhorst"/>
+	</s>
+	<s id="-7020049434729501878-2510052005-1">
+		<tl t="p" o="NWBus" c="Bus" n="53345"/>
+		<dp pt="2510052005" pp="" l="EV" ppth="Hude|Delmenhorst|Hauptbahnhof/Hugo-Schauinsland-Platz, Bremen"/>
+	</s>
+</timetable>

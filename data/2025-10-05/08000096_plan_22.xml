@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<timetable station="Stuttgart Hbf">
+	<s id="7443475800314781722-2510052206-5">
+		<tl f="N" t="p" o="GARE" c="RE" n="19959"/>
+		<ar pt="2510052258" pp="" l="8" ppth="Neckarsulm|Heilbronn Hbf|Bietigheim-Bissingen|Ludwigsburg"/>
+	</s>
+	<s id="1167271579957131773-2510052206-5">
+		<tl f="N" t="p" o="GARE" c="RE" n="19033"/>
+		<ar pt="2510052252" pp="7" l="1" ppth="Karlsruhe Hbf|Karlsruhe-Durlach|Bruchsal|Vaihingen(Enz)"/>
+	</s>
+	<s id="-5430856641950800808-2510052247-1">
+		<tl t="p" o="SBSMEX" c="MEX" n="19582"/>
+		<dp pt="2510052247" pp="10" l="17a" ppth="Ludwigsburg|Bietigheim-Bissingen|Ellental|Sachsenheim|Sersheim|Vaihingen(Enz)|Illingen(Württ)|Mühlacker Rößlesweg|Mühlacker|Enzberg|Niefern|Eutingen(Baden)|Pforzheim Hbf"/>
+	</s>
+	<s id="-6102362791874632686-2510052105-5">
+		<tl f="F" t="p" o="80" c="IC" n="2169"/>
+		<ar pt="2510052202" pp="12" ppth="Karlsruhe Hbf|Pforzheim Hbf|Mühlacker|Vaihingen(Enz)"/>
+	</s>
+	<s id="-3070839725237251293-2510052148-16">
+		<tl t="p" o="GAMEX" c="MEX" n="19178"/>
+		<ar pt="2510052253" pp="14" l="16" ppth="Geislingen(Steige)|Geislingen(Steige)West|Kuchen|Gingen(Fils)|Süßen|Salach|Eislingen(Fils)|Göppingen|Faurndau|Uhingen|Ebersbach(Fils)|Reichenbach(Fils)|Plochingen|Esslingen(Neckar)|Stuttgart-Bad Cannstatt"/>
+	</s>
+	<s id="-7473076869282740427-2510052035-13">
+		<tl f="N" t="p" o="NZ" c="RE" n="50480"/>
+		<ar pt="2510052243" pp="5" l="87" ppth="Singen(Hohentwiel)|Engen|Tuttlingen|Spaichingen|Rottweil|Oberndorf(Neckar)|Sulz(Neckar)|Horb|Bondorf(b Herrenberg)|Gäufelden|Herrenberg|Böblingen"/>
+	</s>
+	<s id="-102199230428586090-2510052217-1">
+		<tl f="N" t="p" o="8006D6" c="RB" n="17677"/>
+		<dp pt="2510052217" pp="3" l="14a" tra="-3799404817941112216-2510052103-10" ppth="Böblingen|Herrenberg|Gäufelden|Bondorf(b Herrenberg)|Ergenzingen|Eutingen im Gäu|Horb|Sulz(Neckar)|Oberndorf(Neckar)|Rottweil"/>
+	</s>
+	<s id="4477282455079073780-2510052003-14">
+		<tl f="N" t="p" o="800694" c="RE" n="4232"/>
+		<ar pt="2510052224" pp="11" l="5" ppth="Friedrichshafen Stadt|Meckenbeuren|Ravensburg|Aulendorf|Bad Schussenried|Biberach(Riß)|Laupheim West|Ulm Hbf|Geislingen(Steige)|Göppingen|Plochingen|Esslingen(Neckar)|Stuttgart-Bad Cannstatt"/>
+	</s>
+	<s id="-4141083402291480830-2510052114-14">
+		<tl t="p" o="SBSMEX" c="MEX" n="19537"/>
+		<ar pt="2510052212" pp="10" l="17a" wings="-4791262767992582053-2510052035" ppth="Pforzheim Hbf|Eutingen(Baden)|Niefern|Enzberg|Mühlacker|Mühlacker Rößlesweg|Illingen(Württ)|Vaihingen(Enz)|Sersheim|Sachsenheim|Ellental|Bietigheim-Bissingen|Ludwigsburg"/>
+	</s>
+	<s id="7242506157860768520-2510051937-15">
+		<tl f="F" t="p" o="85" c="IC" n="480"/>
+		<ar pt="2510052243" pp="5" wings="-7473076869282740427-2510052035" ppth="Zürich HB|Schaffhausen|Singen(Hohentwiel)|Engen|Tuttlingen|Spaichingen|Rottweil|Oberndorf(Neckar)|Sulz(Neckar)|Horb|Bondorf(b Herrenberg)|Gäufelden|Herrenberg|Böblingen"/>
+	</s>
+	<s id="-3799404817941112216-2510052103-10">
+		<tl t="p" o="8006D6" c="MEX" n="17564"/>
+		<ar pt="2510052202" pp="3" l="90" tra="-102199230428586090-2510052217-1" ppth="Schwäbisch Hall-Hessental|Gaildorf West|Murrhardt|Sulzbach(Murr)|Oppenweiler(Württ)|Backnang|Winnenden|Waiblingen|Stuttgart-Bad Cannstatt"/>
+	</s>
+	<s id="2307194435912656168-2510052211-1">
+		<tl f="N" t="p" o="GARE" c="RE" n="19964"/>
+		<dp pt="2510052211" pp="" l="8" ppth="Ludwigsburg|Bietigheim-Bissingen|Besigheim|Walheim(Württ)|Kirchheim(Neckar)|Lauffen(Neckar)|Nordheim(Württ)|Heilbronn Hbf|Neckarsulm"/>
+	</s>
+	<s id="7370415767715540984-2510052239-1">
+		<tl f="N" t="p" o="800694" c="RE" n="4237"/>
+		<dp pt="2510052239" pp="15" l="5" ppth="Stuttgart-Bad Cannstatt|Esslingen(Neckar)|Plochingen|Göppingen|Geislingen(Steige)|Ulm Hbf"/>
+	</s>
+	<s id="-5425302918995479956-2510051529-15">
+		<tl f="F" t="p" o="80" c="ICE" n="615"/>
+		<ar pt="2510052208" pp="16" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Osnabrück Hbf|Münster(Westf)Hbf|Dortmund Hbf|Hagen Hbf|Wuppertal Hbf|Solingen Hbf|Köln Hbf|Frankfurt(M) Flughafen Fernbf|Mannheim Hbf"/>
+		<dp pt="2510052214" pp="16" ppth="Ulm Hbf|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="8863247823425832532-2510052051-18">
+		<tl t="p" o="SBSMEX" c="MEX" n="19337"/>
+		<ar pt="2510052215" pp="15" l="18" ppth="Möckmühl|Züttlingen|Siglingen|Neudenau|Herbolzheim(Jagst)|Untergriesheim|Bad Friedrichshall Hbf|Neckarsulm|Heilbronn Sülmertor|Heilbronn Hbf|Nordheim(Württ)|Lauffen(Neckar)|Kirchheim(Neckar)|Walheim(Württ)|Besigheim|Bietigheim-Bissingen|Ludwigsburg"/>
+		<dp pt="2510052223" pp="15" l="18" ppth="Stuttgart-Bad Cannstatt|Esslingen(Neckar)|Plochingen|Wendlingen(Neckar)|Nürtingen|Metzingen(Württ)|Reutlingen Hbf|Tübingen Hbf"/>
+	</s>
+	<s id="3487538040136817378-2510052232-1">
+		<tl f="N" t="p" o="GARE" c="RE" n="19034"/>
+		<dp pt="2510052232" pp="7" l="1" ppth="Vaihingen(Enz)|Bruchsal|Karlsruhe-Durlach|Karlsruhe Hbf"/>
+	</s>
+	<s id="7789459244805181826-2510052204-1">
+		<tl t="p" o="GAMEX" c="MEX" n="19179"/>
+		<dp pt="2510052204" pp="16" l="16" ppth="Stuttgart-Bad Cannstatt|Esslingen(Neckar)|Plochingen|Reichenbach(Fils)|Ebersbach(Fils)|Uhingen|Faurndau|Göppingen|Eislingen(Fils)|Salach|Süßen|Gingen(Fils)|Kuchen|Geislingen(Steige)West|Geislingen(Steige)"/>
+	</s>
+	<s id="-4954362812005509856-2510052255-1">
+		<tl t="p" o="8006D6" c="MEX" n="17561"/>
+		<dp pt="2510052255" pp="16" l="90" ppth="Stuttgart-Bad Cannstatt|Waiblingen|Winnenden|Backnang|Oppenweiler(Württ)|Sulzbach(Murr)|Murrhardt|Fornsbach|Fichtenberg|Gaildorf West|Schwäbisch Hall-Hessental|Eckartshausen-Ilshofen|Crailsheim"/>
+	</s>
+	<s id="-4140470391187734614-2510051109-27">
+		<tl f="F" t="p" o="80" c="IC" n="2440"/>
+		<ar pt="2510052223" pp="6" ppth="Dresden Hbf|Dresden-Neustadt|Riesa|Leipzig Hbf|Leipzig/Halle Flughafen|Halle(Saale)Hbf|Köthen|Magdeburg Hbf|Braunschweig Hbf|Hannover Hbf|Minden(Westf)|Bad Oeynhausen|Bielefeld Hbf|Gütersloh Hbf|Hamm(Westf)Hbf|Dortmund Hbf|Hagen Hbf|Wuppertal Hbf|Solingen Hbf|Köln Hbf|Bonn Hbf|Koblenz Hbf|Mainz Hbf|Mannheim Hbf|Heidelberg Hbf|Vaihingen(Enz)"/>
+	</s>
+	<s id="5228716114940072380-2510052137-12">
+		<tl t="p" o="GAMEX" c="MEX" n="19488"/>
+		<ar pt="2510052239" pp="12" l="13" ppth="Aalen Hbf|Mögglingen(Gmünd)|Böbingen(Rems)|Schwäbisch Gmünd|Lorch(Württ)|Waldhausen(b Schorndorf)|Plüderhausen|Urbach(b Schorndorf)|Schorndorf|Waiblingen|Stuttgart-Bad Cannstatt"/>
+	</s>
+	<s id="8803799214306376762-2510051608-16">
+		<tl f="D" t="p" o="3236" c="WB" n="966"/>
+		<ar pt="2510052239" pp="1" ppth="Wien Westbahnhof|Wien Hütteldorf|St.Pölten Hbf|Amstetten NÖ|Linz Hbf|Wels Hbf|Attnang-Puchheim|Vöcklabruck|Salzburg Hbf|Rosenheim|München Ost|München Hbf|Augsburg Hbf|Günzburg|Ulm Hbf"/>
+	</s>
+	<s id="4261752897263738554-2510052133-9">
+		<tl t="p" o="SBSMEX" c="MEX" n="19338"/>
+		<ar pt="2510052228" pp="8" l="18" ppth="Tübingen Hbf|Reutlingen Hbf|Metzingen(Württ)|Nürtingen|Wendlingen(Neckar)|Plochingen|Esslingen(Neckar)|Stuttgart-Bad Cannstatt"/>
+		<dp pt="2510052243" pp="8" l="18" ppth="Ludwigsburg|Bietigheim-Bissingen|Besigheim|Walheim(Württ)|Kirchheim(Neckar)|Lauffen(Neckar)|Nordheim(Württ)|Heilbronn Hbf|Heilbronn Sülmertor|Neckarsulm"/>
+	</s>
+	<s id="-5505963911550106192-2510052220-1">
+		<tl t="p" o="GAMEX" c="MEX" n="19487"/>
+		<dp pt="2510052220" pp="14" l="13" ppth="Stuttgart-Bad Cannstatt|Waiblingen|Schorndorf|Urbach(b Schorndorf)|Plüderhausen|Waldhausen(b Schorndorf)|Lorch(Württ)|Schwäbisch Gmünd|Böbingen(Rems)|Mögglingen(Gmünd)|Aalen Hbf"/>
+	</s>
+	<s id="-4791262767992582053-2510052035-26">
+		<tl t="p" o="SBSMEX" c="MEX" n="19637"/>
+		<ar pt="2510052212" pp="10" l="17c" ppth="Bruchsal|Bruchsal Tunnelstraße|Bruchsal Schlachthof|Heidelsheim Nord|Heidelsheim|Helmsheim|Gondelsheim Schlossstadion|Gondelsheim(Baden)|Diedelsheim|Bretten|Bretten Rechberg|Bretten-Ruit|Knittlingen-Kleinvillars|Ölbronn-Dürrn|Maulbronn West|Ötisheim|Mühlacker|Mühlacker Rößlesweg|Illingen(Württ)|Vaihingen(Enz)|Sersheim|Sachsenheim|Ellental|Bietigheim-Bissingen|Ludwigsburg"/>
+	</s>
+	<s id="-2320340282101811304-2510052043-6">
+		<tl f="F" t="p" o="80" c="ICE" n="990"/>
+		<ar pt="2510052243" pp="9" ppth="München Hbf|München-Pasing|Augsburg Hbf|Günzburg|Ulm Hbf"/>
+		<dp pt="2510052251" pp="9" ppth="Mannheim Hbf|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-5957666693722375587-2510051716-10">
+		<tl f="F" t="p" o="80" c="ICE" n="773"/>
+		<ar pt="2510052251" pp="6" ppth="Hamburg Dammtor|Hamburg Hbf|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mannheim Hbf|Heidelberg Hbf"/>
+	</s>
+	<s id="7314869315265201005-2510052132-5">
+		<tl f="N" t="p" o="GARE" c="RE" n="19687"/>
+		<ar pt="2510052218" pp="14" l="1" ppth="Karlsruhe Hbf|Karlsruhe-Durlach|Bruchsal|Vaihingen(Enz)"/>
+		<dp pt="2510052228" pp="14" l="1" ppth="Stuttgart-Bad Cannstatt|Schorndorf|Schwäbisch Gmünd|Aalen Hbf"/>
+	</s>
+	<s id="-7851013601441067832-2510052202-5">
+		<tl f="N" t="p" o="GARE" c="RE" n="19686"/>
+		<ar pt="2510052251" pp="11" l="1" ppth="Aalen Hbf|Schwäbisch Gmünd|Schorndorf|Stuttgart-Bad Cannstatt"/>
+		<dp pt="2510052314" pp="11" l="1" ppth="Vaihingen(Enz)|Bruchsal|Karlsruhe-Durlach|Karlsruhe Hbf"/>
+	</s>
+</timetable>
