@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<timetable station="Rosenheim">
+	<s id="-1671938106314627839-2510041952-2">
+		<tl f="F" t="p" o="78" c="EN" n="414"/>
+		<ar pt="2510050517" pp="2" ppth="Zapresic"/>
+		<dp pt="2510050519" pp="2" hi="1" ppth="München Ost|Stuttgart Hbf"/>
+	</s>
+	<s id="4919409081459587886-2510042040-12">
+		<tl f="F" t="p" o="55" c="EN" n="50462"/>
+		<ar pt="2510050517" pp="2" ppth="Budapest-Keleti|Budapest-Kelenföld|Tatabanya|Györ|Mosonmagyarovar|Hegyeshalom|Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Salzburg Hbf"/>
+		<dp pt="2510050519" pp="2" hi="1" ppth="München Ost|Stuttgart Hbf"/>
+	</s>
+	<s id="3168160730932802093-2510050526-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79054"/>
+		<dp pt="2510050526" pp="1" l="RB54" ppth="Großkarolinenfeld|Ostermünchen|Aßling(Oberbay)|Grafing Bahnhof|München Ost|München Hbf Gl.5-10"/>
+	</s>
+	<s id="8258495970941561047-2510042105-11">
+		<tl t="p" o="81" c="NJ" n="236"/>
+		<ar pt="2510050517" pp="2" wings="4919409081459587886-2510042040" ppth="Venezia Santa Lucia|Venezia Mestre|Treviso Centrale|Conegliano|Pordenone|Udine|Tarvisio Boscoverde|Villach Hbf|Bischofshofen|Salzburg Hbf"/>
+		<dp pt="2510050519" pp="2" hi="1" wings="4919409081459587886-2510042040" pde="Stuttgart Hbf" ppth="München Ost"/>
+	</s>
+</timetable>
