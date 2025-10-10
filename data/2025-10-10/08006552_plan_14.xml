@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<timetable station="Wolfsburg Hbf">
+	<s id="-4621484548772349636-2510101450-1">
+		<tl t="p" o="RSMD" c="SMD" n="80323"/>
+		<dp pt="2510101450" pp="9" l="RB35" ppth="Oebisfelde|Miesterhorst|Mieste|Solpke|Gardelegen|Jävenitz|Uchtspringe|Vinzelberg|Möringen(Altm)|Stendal Hbf"/>
+	</s>
+	<s id="8054547070521763430-2510100559-21">
+		<tl f="F" t="p" o="85" c="ICE" n="372"/>
+		<ar pt="2510101418" pp="5" ppth="Interlaken Ost|Interlaken West|Spiez|Thun|Bern|Olten|Liestal|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Hanau Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hildesheim Hbf|Braunschweig Hbf"/>
+		<dp pt="2510101419" pp="5" ppth="Berlin-Spandau|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="4471729078023853954-2510101328-3">
+		<tl f="F" t="p" o="80" c="ICE" n="691"/>
+		<ar pt="2510101438" pp="1" ppth="Berlin Hbf|Stendal Hbf"/>
+		<dp pt="2510101439" pp="1" ppth="Braunschweig Hbf|Hildesheim Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Frankfurt(Main)Hbf|Mannheim Hbf|Stuttgart Hbf|Ulm Hbf|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-5047123384798654324-2510101332-4">
+		<tl f="F" t="p" o="80" c="ICE" n="858"/>
+		<ar pt="2510101452" pp="1" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin-Spandau"/>
+		<dp pt="2510101453" pp="1" ppth="Hannover Hbf|Hamm(Westf)Hbf|Hagen Hbf|Wuppertal Hbf|Köln Hbf"/>
+	</s>
+	<s id="5868363889496507967-2510101332-4">
+		<tl f="F" t="p" o="80" c="ICE" n="848"/>
+		<ar pt="2510101452" pp="1" wings="-5047123384798654324-2510101332" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin-Spandau"/>
+		<dp pt="2510101453" pp="1" wings="-5047123384798654324-2510101332" ppth="Hannover Hbf|Hamm(Westf)Hbf|Dortmund Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Hbf"/>
+	</s>
+	<s id="6856026124471559920-2510101424-1">
+		<tl t="p" o="RSMD" c="SMD" n="80297"/>
+		<dp pt="2510101424" pp="9" l="RE6" ppth="Oebisfelde|Rätzlingen|Flechtingen"/>
+	</s>
+	<s id="-8925058069543186153-2510101308-11">
+		<tl t="p" o="R0" c="ENO" n="83595"/>
+		<ar pt="2510101411" pp="8" l="RE30" ppth="Hannover Hbf|Lehrte|Immensen-Arpke|Dollbergen|Dedenhausen|Meinersen|Leiferde(b Gifhorn)|Gifhorn|Calberlah|Fallersleben"/>
+	</s>
+	<s id="211585818996437737-2510101050-8">
+		<tl f="F" t="p" o="80" c="ICE" n="547"/>
+		<ar pt="2510101402" pp="5" ppth="Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Dortmund Hbf|Bielefeld Hbf|Minden(Westf)|Hannover Hbf"/>
+		<dp pt="2510101403" pp="5" ppth="Berlin-Spandau|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="-728658670126279120-2510101418-1">
+		<tl t="p" o="R0" c="ENO" n="83568"/>
+		<dp pt="2510101418" pp="8" l="RE50" ppth="Fallersleben|Weddel(Braunschw)|Braunschweig Hbf|Lengede-Broistedt|Woltwiesche|Hoheneggelsen|Hildesheim Hbf"/>
+	</s>
+	<s id="-4950120247832127018-2510101306-11">
+		<tl t="p" o="RSMD" c="SMD" n="80320"/>
+		<ar pt="2510101408" pp="9" l="RB35" ppth="Stendal Hbf|Möringen(Altm)|Vinzelberg|Uchtspringe|Jävenitz|Gardelegen|Solpke|Mieste|Miesterhorst|Oebisfelde"/>
+	</s>
+	<s id="75132414861520015-2510101350-8">
+		<tl t="p" o="R0" c="ENO" n="83569"/>
+		<ar pt="2510101441" pp="8" l="RE50" ppth="Hildesheim Hbf|Hoheneggelsen|Woltwiesche|Lengede-Broistedt|Braunschweig Hbf|Weddel(Braunschw)|Fallersleben"/>
+	</s>
+	<s id="6915721476805914873-2510101414-6">
+		<tl t="p" o="RSMD" c="SMD" n="80362"/>
+		<ar pt="2510101444" pp="9" l="RB36" ppth="Flechtingen|Wegenstedt|Rätzlingen|Bösdorf(Sachs-Anh)|Oebisfelde"/>
+	</s>
+	<s id="-3293102965109218731-2510101414-1">
+		<tl t="p" o="R0" c="ENO" n="83518"/>
+		<dp pt="2510101414" pp="3" l="RE30" ppth="Fallersleben|Calberlah|Gifhorn|Leiferde(b Gifhorn)|Meinersen|Dedenhausen|Dollbergen|Immensen-Arpke|Lehrte|Hannover Hbf"/>
+	</s>
+	<s id="-8454170383214874348-2510101408-11">
+		<tl t="p" o="R0" c="ENO" n="83597"/>
+		<ar pt="2510101459" pp="8" l="RE30" ppth="Hannover Hbf|Lehrte|Immensen-Arpke|Dollbergen|Dedenhausen|Meinersen|Leiferde(b Gifhorn)|Gifhorn|Calberlah|Fallersleben"/>
+	</s>
+	<s id="-1285817131277507418-2510101347-11">
+		<tl t="p" o="R0" c="ENO" n="83519"/>
+		<ar pt="2510101444" pp="3" l="RE30" ppth="Hannover Hbf|Lehrte|Immensen-Arpke|Dollbergen|Dedenhausen|Meinersen|Leiferde(b Gifhorn)|Gifhorn|Calberlah|Fallersleben"/>
+	</s>
+</timetable>
