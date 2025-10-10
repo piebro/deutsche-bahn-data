@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf">
+	<s id="4930918570354887901-2510102107-9">
+		<tl f="N" t="p" o="800765" c="RE" n="4041"/>
+		<ar pt="2510102254" pp="23" l="1" ppth="Nürnberg Hbf|Allersberg(Rothsee)|Kinding(Altmühltal)|Ingolstadt Nord|Ingolstadt Hbf|Rohrbach(Ilm)|Pfaffenhofen(Ilm)|Petershausen(Obb)"/>
+	</s>
+	<s id="-8358896547980546511-2510101937-29">
+		<tl f="N" t="p" o="800765" c="RB" n="59107"/>
+		<ar pt="2510102253" pp="21" l="16" ppth="Nürnberg Hbf|Schwabach|Roth|Unterheckenhofen|Georgensgmünd|Mühlstetten|Pleinfeld|Ellingen(Bay)|Weißenburg(Bay)|Treuchtlingen|Pappenheim|Solnhofen|Dollnstein|Eichstätt Bahnhof|Adelschlag|Tauberfeld|Eitensheim|Gaimersheim|Ingolstadt Audi|Ingolstadt Nord|Ingolstadt Hbf|Baar-Ebenhausen|Rohrbach(Ilm)|Pfaffenhofen(Ilm)|Reichertshausen(Ilm)|Paindorf|Petershausen(Obb)|Dachau Bahnhof"/>
+	</s>
+	<s id="-957203243833828837-2510101840-13">
+		<tl f="N" t="p" o="8007H3" c="RE" n="4869"/>
+		<ar pt="2510102216" pp="31" l="2" ppth="Hof Hbf|Marktredwitz|Wiesau(Oberpf)|Weiden(Oberpf)|Schwandorf|Regensburg Hbf|Eggmühl|Neufahrn(Niederbay)|Ergoldsbach|Landshut(Bay)Hbf|Moosburg|Freising"/>
+	</s>
+	<s id="-988583344704703688-2510101554-9">
+		<tl f="F" t="p" o="80" c="ICE" n="883"/>
+		<ar pt="2510102218" pp="22" ppth="Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf"/>
+	</s>
+	<s id="434699660439512752-2510101715-7">
+		<tl f="F" t="p" o="80" c="ICE" n="633"/>
+		<ar pt="2510102249" pp="19" ppth="Bremen Hbf|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf"/>
+	</s>
+	<s id="-8677182982400525824-2510102046-6">
+		<tl t="p" o="81" c="NJ" n="40420"/>
+		<ar pt="2510102236" pp="13" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim"/>
+		<dp pt="2510102252" pp="13" ppth="Augsburg Hbf|Nürnberg Hbf|Würzburg Hbf|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="3227447124417214495-2510101535-17">
+		<tl f="F" t="p" o="80" c="EC" n="80"/>
+		<ar pt="2510102228" pp="12" ppth="Venezia Santa Lucia|Venezia Mestre|Padova|Vicenza|Verona Porta Nuova|Rovereto|Trento|Bolzano/Bozen|Bressanone/Brixen|Brennero/Brenner|Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Ost"/>
+	</s>
+	<s id="-3946605418302902340-2510102026-12">
+		<tl f="N" t="p" o="800767" c="RE" n="4087"/>
+		<ar pt="2510102236" pp="24" l="3" ppth="Passau Hbf|Vilshofen(Niederbay)|Osterhofen(Nby)|Plattling|Wallersdorf|Landau(Isar)|Dingolfing|Wörth(Isar)|Landshut(Bay)Hbf|Moosburg|Freising"/>
+	</s>
+	<s id="185568078432564234-2510102224-1">
+		<tl f="N" t="p" o="800767" c="RE" n="4090"/>
+		<dp pt="2510102224" pp="24" l="3" ppth="Freising|Moosburg|Landshut(Bay)Hbf"/>
+	</s>
+	<s id="3272146161175325165-2510102046-6">
+		<tl t="p" o="81" c="NJ" n="420"/>
+		<ar pt="2510102236" pp="13" wings="-8677182982400525824-2510102046" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim"/>
+		<dp pt="2510102252" pp="13" wings="-8677182982400525824-2510102046" ppth="Augsburg Hbf|Nürnberg Hbf|Würzburg Hbf|Kassel-Wilhelmshöhe|Hamm(Westf)Hbf|Münster(Westf)Hbf|Deventer|Amersfoort Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="5502922200206548315-2510102244-1">
+		<tl f="D" t="p" o="A8N" c="ALX" n="79869"/>
+		<dp pt="2510102244" pp="25" l="RE25" ppth="Freising|Moosburg|Landshut(Bay)Hbf|Ergoldsbach|Neufahrn(Niederbay)|Eggmühl|Obertraubling|Regensburg Hbf"/>
+	</s>
+	<s id="6306918419691815906-2510102227-1">
+		<tl f="N" t="p" o="800765" c="RE" n="4046"/>
+		<dp pt="2510102227" pp="20" l="1" ppth="Dachau Bahnhof|Petershausen(Obb)|Paindorf|Reichertshausen(Ilm)|Pfaffenhofen(Ilm)|Rohrbach(Ilm)|Baar-Ebenhausen|Ingolstadt Hbf"/>
+	</s>
+	<s id="-2180147018861164931-2510101635-9">
+		<tl f="F" t="p" o="80" c="ICE" n="801"/>
+		<ar pt="2510102243" pp="15" ppth="Berlin Hbf|Bitterfeld|Leipzig Hbf|Erfurt Hbf|Bamberg|Nürnberg Hbf|Donauwörth|Augsburg Hbf"/>
+	</s>
+	<s id="7294674403484573950-2510101540-13">
+		<tl t="p" o="55" c="RJX" n="68"/>
+		<ar pt="2510102232" pp="9" ppth="Budapest-Keleti|Budapest-Kelenföld|Tatabanya|Györ|Mosonmagyarovar|Hegyeshalom|Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Salzburg Hbf|Rosenheim"/>
+	</s>
+	<s id="-6341401029022658133-2510101651-11">
+		<tl f="F" t="p" o="80" c="ICE" n="727"/>
+		<ar pt="2510102232" pp="19" ppth="Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Messe/Deutz Gl.11-12|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf|Aschaffenburg Hbf|Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf"/>
+	</s>
+	<s id="-7179928820236290043-2510101636-10">
+		<tl f="F" t="p" o="80" c="ICE" n="683"/>
+		<ar pt="2510102249" pp="19" wings="434699660439512752-2510101715" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf"/>
+	</s>
+	<s id="-1576329651472934659-2510102220-1">
+		<tl f="N" t="p" o="GYRE" c="RE" n="78971"/>
+		<dp pt="2510102220" pp="30" l="72" ppth="München-Pasing|Geltendorf|Kaufering|Buchloe|Türkheim(Bay)Bf|Rammingen(Bay)|Mindelheim|Stetten(Schwab)|Sontheim(Schwab)|Memmingen"/>
+	</s>
+</timetable>

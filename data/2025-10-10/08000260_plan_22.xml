@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<timetable station="Würzburg Hbf">
+	<s id="5903101010412136106-2510101713-10">
+		<tl f="F" t="p" o="81" c="ICE" n="20"/>
+		<ar pt="2510102240" pp="6" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Passau Hbf|Plattling|Regensburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2510102242" pp="6" ppth="Aschaffenburg Hbf|Hanau Hbf|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-7254438839048267156-2510102035-16">
+		<tl f="N" t="p" o="800714" c="RB" n="58077"/>
+		<ar pt="2510102200" pp="5A-D" l="53" ppth="Schlüchtern|Sterbfritz|Jossa|Obersinn|Mittelsinn|Burgsinn|Rieneck|Gemünden(Main)|Wernfeld|Karlstadt(Main)|Himmelstadt|Retzbach-Zellingen|Thüngersheim|Veitshöchheim|Würzburg-Zell"/>
+	</s>
+	<s id="2143499115056676952-2510101839-10">
+		<tl f="F" t="p" o="80" c="ICE" n="821"/>
+		<ar pt="2510102201" pp="4" ppth="Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Messe/Deutz Gl.11-12|Montabaur|Limburg Süd|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf|Aschaffenburg Hbf"/>
+		<dp pt="2510102204" pp="4" ppth="Nürnberg Hbf|München Hbf"/>
+	</s>
+	<s id="3365409376481099659-2510101915-6">
+		<tl f="F" t="p" o="80" c="ICE" n="635"/>
+		<ar pt="2510102228" pp="5" ppth="Bremen Hbf|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda"/>
+		<dp pt="2510102230" pp="5" ppth="Nürnberg Hbf|München Hbf"/>
+	</s>
+	<s id="-5516896756132872421-2510102141-15">
+		<tl f="N" t="p" o="800772" c="RE" n="58404"/>
+		<ar pt="2510102251" pp="10" l="55" ppth="Bamberg|Oberhaid|Ebelsbach-Eltmann|Zeil|Haßfurt|Schonungen|Schweinfurt Stadt|Schweinfurt Mitte|Schweinfurt Hbf|Waigolshausen|Eßleben|Bergtheim|Seligenstadt(b Würzburg)|Rottendorf"/>
+	</s>
+	<s id="7476624919571351936-2510102146-14">
+		<tl f="N" t="p" o="800714" c="RB" n="57986"/>
+		<ar pt="2510102256" pp="3" l="85" ppth="Eubigheim|Boxberg-Wölchingen|Königshofen(Baden)|Lauda|Gerlachsheim|Grünsfeld|Zimmern(Main-Tauber)|Wittighausen|Gaubüttelbrunn|Kirchheim(Unterfr)|Geroldshausen|Reichenberg(Unterfr)|Würzburg Süd"/>
+	</s>
+	<s id="-3352262123498948724-2510102150-2">
+		<tl f="N" t="p" o="GARE" c="RE" n="19084"/>
+		<ar pt="2510102221" pp="3" l="8" ppth="Lauda"/>
+	</s>
+	<s id="-8728315404525185962-2510102235-1">
+		<tl f="N" t="p" o="800755" c="RE" n="4797"/>
+		<dp pt="2510102235" pp="10 D-F" l="20" ppth="Schweinfurt Hbf|Haßfurt|Bamberg"/>
+	</s>
+	<s id="-8535181229836363177-2510102034-17">
+		<tl f="N" t="p" o="800772" c="RE" n="4631"/>
+		<ar pt="2510102221" pp="9" l="55" ppth="Frankfurt(Main)Hbf|Frankfurt(Main)Süd|Offenbach(Main)Hbf|Hanau Hbf|Kahl(Main)|Dettingen(Main)|Kleinostheim|Aschaffenburg Hbf|Heigenbrücken|Wiesthal|Partenstein|Lohr Bahnhof|Langenprozelten|Gemünden(Main)|Karlstadt(Main)|Retzbach-Zellingen"/>
+	</s>
+	<s id="9117006994590991223-2510102236-1">
+		<tl f="N" t="p" o="800772" c="RE" n="4636"/>
+		<dp pt="2510102236" pp="7" l="54" ppth="Würzburg-Zell|Veitshöchheim|Thüngersheim|Retzbach-Zellingen|Himmelstadt|Karlstadt(Main)|Wernfeld|Gemünden(Main)|Langenprozelten|Lohr Bahnhof|Partenstein|Wiesthal|Heigenbrücken|Laufach|Hösbach|Aschaffenburg Hbf|Kleinostheim|Rückersbacher Schlucht|Dettingen(Main)|Kahl(Main)|Großkrotzenburg|Großauheim(Kr Hanau)|Hanau Hbf|Offenbach(Main)Hbf|Frankfurt(Main)Süd|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-7466466031288210975-2510102237-1">
+		<tl f="N" t="p" o="GARB" c="RB" n="19089"/>
+		<dp pt="2510102237" pp="3" l="8" ppth="Würzburg Süd|Reichenberg(Unterfr)|Geroldshausen|Kirchheim(Unterfr)|Gaubüttelbrunn|Wittighausen|Zimmern(Main-Tauber)|Grünsfeld|Gerlachsheim|Lauda"/>
+	</s>
+	<s id="-524151628723159576-2510101854-8">
+		<tl f="F" t="p" o="80" c="ICE" n="685"/>
+		<ar pt="2510102228" pp="5" wings="3365409376481099659-2510101915" ppth="Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda"/>
+		<dp pt="2510102230" pp="5" wings="3365409376481099659-2510101915" ppth="Nürnberg Hbf|München Hbf"/>
+	</s>
+	<s id="8388537054998746810-2510102105-12">
+		<tl f="N" t="p" o="800714" c="RE" n="58234"/>
+		<ar pt="2510102219" pp="7" l="10" ppth="Nürnberg Hbf|Fürth(Bay)Hbf|Siegelsdorf|Emskirchen|Neustadt(Aisch)Bahnhof|Markt Bibart|Iphofen|Kitzingen|Buchbrunn-Mainstockheim|Dettelbach Bahnhof|Rottendorf"/>
+	</s>
+</timetable>
