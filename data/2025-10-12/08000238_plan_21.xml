@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<timetable station="Lüneburg">
+	<s id="-8573984535168492837-2510122132-1">
+		<tl f="D" t="p" o="R1" c="ME" n="81638"/>
+		<dp pt="2510122132" pp="6" l="RB31" ppth="Bardowick|Radbruch|Winsen(Luhe)|Ashausen|Stelle|Maschen|Meckelfeld|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="-4001714976117990774-2510122057-4">
+		<tl f="D" t="p" o="R1" c="ME" n="82139"/>
+		<ar pt="2510122129" pp="1" l="RE3" ppth="Hamburg Hbf|Hamburg-Harburg|Winsen(Luhe)"/>
+		<dp pt="2510122130" pp="1" l="RE3" pde="Hannover Hbf" ppth="Bienenbüttel|Bad Bevensen|Uelzen"/>
+	</s>
+	<s id="-9215185860134909394-2510121218-17">
+		<tl f="F" t="p" o="81" c="ICE" n="1204"/>
+		<ar pt="2510122158" pp="2" ppth="Innsbruck Hbf|Seefeld in Tirol|Mittenwald|Garmisch-Partenkirchen|Murnau|Weilheim(Oberbay)|Tutzing|München Hbf|Nürnberg Hbf|Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen"/>
+		<dp pt="2510122200" pp="2" ppth="Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-3223869655469598142-2510122101-3">
+		<tl f="D" t="p" o="X1" c="erx" n="83883"/>
+		<ar pt="2510122115" pp="5" l="RE83" ppth="Lauenburg(Elbe)|Echem"/>
+	</s>
+	<s id="2351802209419071159-2510122033-10">
+		<tl f="D" t="p" o="R1" c="ME" n="81639"/>
+		<ar pt="2510122123" pp="6" l="RB31" ppth="Hamburg Hbf|Hamburg-Harburg|Meckelfeld|Maschen|Stelle|Ashausen|Winsen(Luhe)|Radbruch|Bardowick"/>
+	</s>
+	<s id="5934575629537714195-2510122101-4">
+		<tl f="D" t="p" o="R1" c="ME" n="82138"/>
+		<ar pt="2510122124" pp="3" l="RE3" pde="Hannover Hbf" ppth="Uelzen|Bad Bevensen|Bienenbüttel"/>
+		<dp pt="2510122128" pp="3" l="RE3" ppth="Winsen(Luhe)|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="5359301677362028406-2510122140-1">
+		<tl f="D" t="p" o="X1" c="erx" n="83886"/>
+		<dp pt="2510122140" pp="5" l="RE83" ppth="Echem|Lauenburg(Elbe)"/>
+	</s>
+	<s id="-8196009632544207530-2510122035-3">
+		<tl f="F" t="p" o="80" c="ICE" n="807"/>
+		<ar pt="2510122114" pp="1" ppth="Hamburg-Altona|Hamburg Hbf"/>
+		<dp pt="2510122116" pp="1" ppth="Salzwedel|Stendal Hbf|Berlin-Spandau|Berlin Hbf"/>
+	</s>
+</timetable>
