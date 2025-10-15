@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<timetable station="Mannheim Hbf">
+	<s id="7474414276230536927-2510141838-16">
+		<tl f="F" t="p" o="80" c="ICE" n="619"/>
+		<ar pt="2510150202" pp="8" ppth="Kiel Hbf|Neumünster|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Osnabrück Hbf|Münster(Westf)Hbf|Recklinghausen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Hbf|Siegburg/Bonn|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf"/>
+		<dp pt="2510150204" pp="8" ppth="Heidelberg Hbf|Stuttgart Hbf|Ulm Hbf|Günzburg|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="3178546308999030105-2510141813-6">
+		<tl t="p" o="81" c="NJ" n="40468"/>
+		<ar pt="2510150219" pp="5" hi="1" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Passau Hbf"/>
+		<dp pt="2510150257" pp="5" hi="1" ppth="Mainz Hbf|Koblenz Hbf|Bonn-Beuel|Köln Hbf|Aachen Hbf|Liège-Guillemins|Bruxelles-Nord|Bruxelles Midi"/>
+	</s>
+	<s id="6506105724695131324-2510150257-1">
+		<tl t="p" o="81" c="NJ" n="478"/>
+		<dp pt="2510150257" pp="5" hi="1" wings="3178546308999030105-2510141813" ppth="Mainz Hbf|Koblenz Hbf|Bonn-Beuel|Köln Hbf|Aachen Hbf|Liège-Guillemins|Bruxelles-Nord|Bruxelles Midi"/>
+	</s>
+	<s id="8016523767626847908-2510141813-6">
+		<tl t="p" o="81" c="NJ" n="468"/>
+		<ar pt="2510150219" pp="5" hi="1" wings="3178546308999030105-2510141813" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Passau Hbf"/>
+		<dp pt="2510150340" pp="4" hi="1" wings="-344271757147009936-2510141855" ppth="Paris Est"/>
+	</s>
+</timetable>
