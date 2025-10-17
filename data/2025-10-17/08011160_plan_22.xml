@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Hbf">
+	<s id="-8275737537227179086-2510171750-11">
+		<tl f="F" t="p" o="80" c="ICE" n="945"/>
+		<ar pt="2510172226" pp="11" ppth="Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Hannover Hbf|Wolfsburg Hbf|Stendal Hbf|Berlin-Spandau|Berlin Zoologischer Garten"/>
+		<dp pt="2510172230" pp="11" hi="1" ppth="Berlin Ostbahnhof"/>
+	</s>
+	<s id="-3272021131219238243-2510171749-5">
+		<tl f="F" t="p" o="80" c="ICE" n="1159"/>
+		<ar pt="2510172221" pp="12" ppth="Bonn Hbf|Köln Hbf|Berlin-Spandau|Berlin Zoologischer Garten"/>
+		<dp pt="2510172224" pp="12" hi="1" ppth="Berlin Ostbahnhof|Berlin Ostkreuz"/>
+	</s>
+	<s id="1140779865956290650-2510171446-15">
+		<tl f="F" t="p" o="80" c="ICE" n="594"/>
+		<ar pt="2510172231" pp="12" ppth="München Hbf|München-Pasing|Augsburg Hbf|Ulm Hbf|Stuttgart Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hildesheim Hbf|Braunschweig Hbf|Wolfsburg Hbf|Berlin-Spandau"/>
+		<dp pt="2510172235" pp="12" hi="1" ppth="Berlin Ostbahnhof"/>
+	</s>
+	<s id="8156111849493311226-2510171802-3">
+		<tl f="F" t="p" o="80" c="ICE" n="1032"/>
+		<ar pt="2510172203" pp="12" ppth="Frankfurt(Main)Hbf|Berlin-Spandau"/>
+		<dp pt="2510172207" pp="12" hi="1" ppth="Berlin Ostbahnhof"/>
+	</s>
+	<s id="-4550645364654346112-2510171745-10">
+		<tl f="F" t="p" o="80" c="ICE" n="955"/>
+		<ar pt="2510172226" pp="11" wings="-8275737537227179086-2510171750" ppth="Köln Hbf|Wuppertal Hbf|Hagen Hbf|Hamm(Westf)Hbf|Hannover Hbf|Wolfsburg Hbf|Stendal Hbf|Berlin-Spandau|Berlin Zoologischer Garten"/>
+		<dp pt="2510172230" pp="11" hi="1" wings="-8275737537227179086-2510171750" ppth="Berlin Ostbahnhof"/>
+	</s>
+	<s id="8510220935223586141-2510172014-22">
+		<tl f="N" t="p" o="800165" c="RE" n="3741"/>
+		<ar pt="2510172214" pp="13" l="7" ppth="Senftenberg|Sedlitz Ost|Großräschen|Altdöbern|Luckaitztal|Calau(Nl)|Lübbenau(Spreewald)|Lübben(Spreewald)|Lubolz|Schönwalde(Spreewald)|Brand Tropical Islands|Oderin|Halbe|Groß Köris|Bestensee|Zeesen|Königs Wusterhausen|Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße"/>
+		<dp pt="2510172216" pp="13" l="7" ppth="Berlin Zoologischer Garten|Berlin-Charlottenburg|Berlin-Wannsee|Potsdam Medienstadt Babelsberg|Potsdam-Rehbrücke|Wilhelmshorst|Michendorf|Seddin|Beelitz-Heilstätten|Borkheide|Brück(Mark)|Baitz|Bad Belzig"/>
+	</s>
+	<s id="-4373064737456023198-2510172146-6">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62037"/>
+		<ar pt="2510172220" pp="14" l="8" ppth="Schönefeld(bei Berlin)|Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße"/>
+		<dp pt="2510172222" pp="14" l="8" ppth="Berlin Zoologischer Garten|Berlin-Spandau|Berlin-Staaken|Dallgow-Döberitz|Elstal|Wustermark"/>
+	</s>
+</timetable>
