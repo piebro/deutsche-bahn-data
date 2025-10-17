@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf">
+	<s id="-7723279539201432725-2510170444-1">
+		<tl f="D" t="p" o="A8N" c="ALX" n="22581"/>
+		<dp pt="2510170444" pp="32" l="RE25" ppth="Freising|Landshut(Bay)Hbf|Neufahrn(Niederbay)|Regensburg Hbf"/>
+	</s>
+	<s id="4653126596847301158-2510170448-1">
+		<tl f="F" t="p" o="80" c="ICE" n="634"/>
+		<dp pt="2510170448" pp="22" ppth="Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Bremen Hbf"/>
+	</s>
+	<s id="-8003392339101483857-2510170448-1">
+		<tl f="F" t="p" o="80" c="ICE" n="684"/>
+		<dp pt="2510170448" pp="22" wings="4653126596847301158-2510170448" ppth="Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-6223962037244896084-2510170450-1">
+		<tl f="F" t="p" o="80" c="ICE" n="822"/>
+		<dp pt="2510170450" pp="23" ppth="Nürnberg Hbf|Würzburg Hbf|Aschaffenburg Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Siegburg/Bonn|Köln Messe/Deutz Gl.11-12|Düsseldorf Hbf|Duisburg Hbf|Essen Hbf"/>
+	</s>
+</timetable>
