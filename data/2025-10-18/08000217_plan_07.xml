@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<timetable station="Landshut(Bay)Hbf">
+	<s id="8865959725469069595-2510180703-2">
+		<tl t="p" o="B7" c="Bus" n="64059"/>
+		<ar pt="2510180758" pp="" l="EV" ppth="Plattling"/>
+	</s>
+	<s id="7916124737457927316-2510180723-1">
+		<tl t="p" o="B7" c="Bus" n="4058"/>
+		<dp pt="2510180723" pp="" l="EV" ppth="Wörth(Isar)|Dingolfing|Landau(Isar)|Wallersdorf|Plattling"/>
+	</s>
+	<s id="-6014270988539682236-2510180644-3">
+		<tl f="N" t="p" o="8007H3" c="RE" n="59680"/>
+		<ar pt="2510180727" pp="" l="2" ppth="München Hbf|Freising"/>
+		<dp pt="2510180729" pp="" l="2" ppth="Neufahrn(Niederbay)|Regensburg Hbf"/>
+	</s>
+	<s id="-6078291397701711702-2510180707-8">
+		<tl f="N" t="p" o="800767" c="RE" n="57910"/>
+		<ar pt="2510180748" pp="5" l="22" ppth="München Flughafen Terminal|Freising|Marzling|Langenbach(Oberbay)|Moosburg|Bruckberg|Gündlkofen"/>
+		<dp pt="2510180753" pp="5" l="22" pde="Nürnberg Hbf" ppth="Ergoldsbach|Neufahrn(Niederbay)|Eggmühl|Hagelstadt|Köfering|Obertraubling|Regensburg Hbf"/>
+	</s>
+	<s id="-6597060729416739349-2510180710-1">
+		<tl f="N" t="p" o="8013D" c="RB" n="27053"/>
+		<dp pt="2510180710" pp="1" l="44" ppth="Landshut(Bay)Süd|Geisenhausen|Vilsbiburg|Neumarkt-St Veit"/>
+	</s>
+	<s id="-225884363659070005-2510180624-4">
+		<tl f="N" t="p" o="800767" c="RE" n="4058"/>
+		<ar pt="2510180712" pp="5" l="3" ppth="München Hbf|Freising|Moosburg"/>
+	</s>
+	<s id="-4622583416341854534-2510180646-5">
+		<tl f="D" t="p" o="A8N" c="ALX" n="22580"/>
+		<ar pt="2510180728" pp="6" l="RE25" ppth="Regensburg Hbf|Eggmühl|Neufahrn(Niederbay)|Ergoldsbach"/>
+	</s>
+	<s id="8080584927822846859-2510180749-1">
+		<tl f="N" t="p" o="800767" c="RE" n="4057"/>
+		<dp pt="2510180749" pp="6" l="3" ppth="Moosburg|Freising|München Hbf"/>
+	</s>
+	<s id="4175413542375953942-2510180700-7">
+		<tl f="N" t="p" o="8013D" c="RB" n="27110"/>
+		<ar pt="2510180737" pp="1" l="45" ppth="Neumarkt-St Veit|Egglkofen|Aich(Niederbay)|Vilsbiburg|Geisenhausen|Landshut(Bay)Süd"/>
+	</s>
+	<s id="5418578470382297395-2510180605-6">
+		<tl t="p" o="B7" c="Bus" n="4053"/>
+		<ar pt="2510180737" pp="" l="EV" ppth="Plattling|Wallersdorf|Landau(Isar)|Dingolfing|Wörth(Isar)"/>
+	</s>
+	<s id="-4054810541808184406-2510180614-7">
+		<tl f="N" t="p" o="800767" c="RE" n="57907"/>
+		<ar pt="2510180658" pp="6" l="22" ppth="Regensburg Hbf|Obertraubling|Köfering|Hagelstadt|Eggmühl|Ergoldsbach"/>
+		<dp pt="2510180703" pp="6" l="22" ppth="Gündlkofen|Bruckberg|Moosburg|Langenbach(Oberbay)|Marzling|Freising|München Flughafen Besucherpark|München Flughafen Terminal"/>
+	</s>
+</timetable>
