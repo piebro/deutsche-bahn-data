@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<timetable station="Bonn Hbf">
+	<s id="-5851721557238592488-2510171915-4">
+		<tl t="p" o="84" c="NJ" n="403"/>
+		<ar pt="2510172358" pp="3" hi="1" wings="7582314568044505717-2510171915" ppth="Amsterdam Centraal|Rotterdam Centraal|Eindhoven Centraal"/>
+		<dp pt="2510180000" pp="3" wings="7582314568044505717-2510171915" ppth="Koblenz Hbf|Mainz Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="7582314568044505717-2510171915-4">
+		<tl f="F" t="p" o="NZ" c="IC" n="60403"/>
+		<ar pt="2510172358" pp="3" ppth="Amsterdam Centraal|Rotterdam Centraal|Eindhoven Centraal"/>
+		<dp pt="2510180000" pp="3" ppth="Koblenz Hbf|Mainz Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="4597309300431300607-2510180005-6">
+		<tl f="S" t="p" o="800352" c="S" n="32413"/>
+		<ar pt="2510180019" pp="5" l="23" ppth="Alfter-Witterschlick|Alfter-Impekoven|Bonn-Duisdorf|Bonn Helmholtzstraße|Bonn-Endenich Nord"/>
+	</s>
+	<s id="8986245950517659203-2510180009-1">
+		<tl f="S" t="p" o="800352" c="S" n="31968"/>
+		<dp pt="2510180009" pp="5" l="23" ppth="Bonn-Endenich Nord|Bonn Helmholtzstraße|Bonn-Duisdorf|Alfter-Impekoven|Alfter-Witterschlick"/>
+	</s>
+	<s id="-4890700159633136576-2510172326-17">
+		<tl f="N" t="p" o="TR" c="RB" n="25448"/>
+		<ar pt="2510180031" pp="1" l="26" ppth="Koblenz Hbf|Koblenz Stadtmitte|Koblenz-Lützel|Mülheim-Kärlich|Weißenthurm|Andernach|Namedy|Brohl|Bad Breisig|Sinzig(Rhein)|Remagen|Oberwinter|Rolandseck|Bonn-Mehlem|Bonn-Bad Godesberg|Bonn UN Campus"/>
+		<dp pt="2510180033" pp="1" l="26" ppth="Roisdorf|Sechtem|Brühl|Hürth-Kalscheuren|Köln Süd|Köln West|Köln Hbf|Köln Messe/Deutz|Köln/Bonn Flughafen"/>
+	</s>
+	<s id="3751395534411811467-2510180039-1">
+		<tl f="S" t="p" o="800352" c="S" n="31970"/>
+		<dp pt="2510180039" pp="5" l="23" ppth="Bonn-Endenich Nord|Bonn Helmholtzstraße|Bonn-Duisdorf|Alfter-Impekoven|Alfter-Witterschlick"/>
+	</s>
+	<s id="-2491163276465116170-2510172338-10">
+		<tl f="N" t="p" o="TR" c="RB" n="25447"/>
+		<ar pt="2510180025" pp="3" l="26" ppth="Köln/Bonn Flughafen|Köln Messe/Deutz|Köln Hbf|Köln West|Köln Süd|Hürth-Kalscheuren|Brühl|Sechtem|Roisdorf"/>
+		<dp pt="2510180027" pp="3" l="26" ppth="Bonn UN Campus|Bonn-Bad Godesberg|Bonn-Mehlem|Rolandseck|Oberwinter|Remagen|Sinzig(Rhein)|Bad Breisig|Brohl|Namedy|Andernach|Weißenthurm|Mülheim-Kärlich|Koblenz-Lützel|Koblenz Stadtmitte|Koblenz Hbf"/>
+	</s>
+</timetable>
