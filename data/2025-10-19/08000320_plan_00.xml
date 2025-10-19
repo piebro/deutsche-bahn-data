@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<timetable station="Rosenheim">
+	<s id="4870413973009524025-2510190043-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79097"/>
+		<dp pt="2510190043" pp="5" l="RB54" ppth="Raubling|Brannenburg|Flintsbach|Oberaudorf|Kiefersfelden|Kufstein"/>
+	</s>
+	<s id="-7226604022876462423-2510182029-5">
+		<tl f="F" t="p" o="78" c="EN" n="40237"/>
+		<ar pt="2510190035" pp="4" ppth="Stuttgart Hbf|Göppingen|Ulm Hbf|Augsburg Hbf"/>
+		<dp pt="2510190037" pp="4" ppth="Salzburg Hbf|Schwarzach-St.Veit|Bad Hofgastein|Bad Gastein|Mallnitz-Obervellach|Spittal-Millstättersee|Villach Hbf|Jesenice(SL)|Lesce-Bled|Kranj|Ljubljana|Zidani Most|Sevnica|Krsko|Dobova|Zapresic|Zagreb Glavni kolodvor"/>
+	</s>
+	<s id="5949417852042325682-2510182029-5">
+		<tl t="p" o="81" c="NJ" n="237"/>
+		<ar pt="2510190035" pp="4" wings="-7226604022876462423-2510182029|6746955278691408993-2510182029" ppth="Stuttgart Hbf|Göppingen|Ulm Hbf|Augsburg Hbf"/>
+		<dp pt="2510190037" pp="4" wings="-7226604022876462423-2510182029|6746955278691408993-2510182029" ppth="Salzburg Hbf|Bischofshofen|Villach Hbf|Tarvisio Boscoverde|Udine|Pordenone|Conegliano|Treviso Centrale|Venezia Mestre|Venezia Santa Lucia"/>
+	</s>
+	<s id="7158599228577490512-2510182315-5">
+		<tl t="p" o="M8" c="Bus" n="60149"/>
+		<ar pt="2510190010" pp="" l="EV" ppth="Grafing Bahnhof|Aßling(Oberbay)|Ostermünchen|Großkarolinenfeld"/>
+	</s>
+	<s id="2931906224447066494-2510182252-11">
+		<tl f="D" t="p" o="M8" c="BRB" n="79048"/>
+		<ar pt="2510190009" pp="1" l="RE5" ppth="Salzburg Hbf|Salzburg Mülln-Altstadt|Freilassing|Teisendorf|Traunstein|Bergen(Oberbay)|Übersee|Bernau a Chiemsee|Prien am Chiemsee|Bad Endorf"/>
+		<dp pt="2510190012" pp="1" l="RE5" ppth="München Hbf Gl.5-10"/>
+	</s>
+	<s id="7950856030399106389-2510190001-7">
+		<tl f="D" t="p" o="M8" c="BRB" n="79050"/>
+		<ar pt="2510190028" pp="5" l="RB54" ppth="Kufstein|Kiefersfelden|Oberaudorf|Flintsbach|Brannenburg|Raubling"/>
+	</s>
+	<s id="-878237576420261111-2510190015-1">
+		<tl t="p" o="M8" c="Bus" n="60148"/>
+		<dp pt="2510190015" pp="" l="EV" ppth="Großkarolinenfeld|Ostermünchen|Aßling(Oberbay)|Grafing Bahnhof"/>
+	</s>
+	<s id="6746955278691408993-2510182029-5">
+		<tl f="F" t="p" o="55" c="EN" n="50237"/>
+		<ar pt="2510190035" pp="4" ppth="Stuttgart Hbf|Göppingen|Ulm Hbf|Augsburg Hbf"/>
+		<dp pt="2510190037" pp="4" ppth="Salzburg Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf|Hegyeshalom|Mosonmagyarovar|Györ|Tatabanya|Budapest-Kelenföld|Budapest-Keleti"/>
+	</s>
+	<s id="-276896031776243712-2510182351-2">
+		<tl f="D" t="p" o="M8" c="BRB" n="79049"/>
+		<ar pt="2510190049" pp="4" l="RE5" ppth="München Hbf Gl.5-10"/>
+		<dp pt="2510190050" pp="4" l="RE5" ppth="Bad Endorf|Prien am Chiemsee|Bernau a Chiemsee|Übersee|Bergen(Oberbay)|Traunstein|Teisendorf|Freilassing|Salzburg Hbf"/>
+	</s>
+</timetable>

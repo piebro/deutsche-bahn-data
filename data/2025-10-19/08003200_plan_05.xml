@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<timetable station="Kassel-Wilhelmshöhe">
+	<s id="-7764782776367465101-2510190505-1">
+		<tl t="p" o="AM" c="Bus" n="10703"/>
+		<dp pt="2510190505" pp="" l="RE9" ppth="Arenshausen|Uder|Heilbad Heiligenstadt|Leinefelde|Bleicherode Ost|Wolkramshausen|Nordhausen"/>
+	</s>
+	<s id="-8677182982400525824-2510182046-9">
+		<tl t="p" o="81" c="NJ" n="40420"/>
+		<ar pt="2510190542" pp="3" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Hbf|Nürnberg Hbf|Würzburg Hbf"/>
+		<dp pt="2510190544" pp="3" ppth="Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-7547304040443208216-2510182010-10">
+		<tl t="p" o="81" c="NJ" n="490"/>
+		<ar pt="2510190542" pp="3" wings="-8677182982400525824-2510182046" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Wels Hbf|Passau Hbf|Regensburg Hbf|Nürnberg Hbf|Würzburg Hbf"/>
+		<dp pt="2510190544" pp="3" wings="-8677182982400525824-2510182046" ppth="Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-2686204157834598685-2510190535-2">
+		<tl f="N" t="p" o="N4RE" c="RE" n="24261"/>
+		<ar pt="2510190540" pp="7" l="5" ppth="Kassel Hbf"/>
+		<dp pt="2510190540" pp="7" l="5" ppth="Melsungen|Rotenburg a.d. Fulda|Bebra|Bad Hersfeld"/>
+	</s>
+</timetable>
