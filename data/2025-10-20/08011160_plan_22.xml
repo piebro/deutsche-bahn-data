@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Hbf">
+	<s id="8156111849493311226-2510201802-3">
+		<tl f="F" t="p" o="80" c="ICE" n="1032"/>
+		<ar pt="2510202203" pp="12" ppth="Frankfurt(Main)Hbf|Berlin-Spandau"/>
+		<dp pt="2510202207" pp="12" hi="1" ppth="Berlin Ostbahnhof"/>
+	</s>
+	<s id="-8275737537227179086-2510201750-11">
+		<tl f="F" t="p" o="80" c="ICE" n="945"/>
+		<ar pt="2510202226" pp="11" ppth="Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Hannover Hbf|Wolfsburg Hbf|Stendal Hbf|Berlin-Spandau|Berlin Zoologischer Garten"/>
+		<dp pt="2510202230" pp="11" hi="1" ppth="Berlin Ostbahnhof"/>
+	</s>
+	<s id="-4550645364654346112-2510201745-10">
+		<tl f="F" t="p" o="80" c="ICE" n="955"/>
+		<ar pt="2510202226" pp="11" wings="-8275737537227179086-2510201750" ppth="Köln Hbf|Wuppertal Hbf|Hagen Hbf|Hamm(Westf)Hbf|Hannover Hbf|Wolfsburg Hbf|Stendal Hbf|Berlin-Spandau|Berlin Zoologischer Garten"/>
+		<dp pt="2510202230" pp="11" hi="1" wings="-8275737537227179086-2510201750" ppth="Berlin Ostbahnhof"/>
+	</s>
+	<s id="-1809598988568544851-2510202133-13">
+		<tl f="N" t="p" o="OWRE" c="RE" n="92793"/>
+		<ar pt="2510202239" pp="13" l="1" ppth="Pillgram|Jacobsdorf(Mark)|Briesen(Mark)|Berkenbrück|Fürstenwalde(Spree)|Hangelsberg|Fangschleuse|Erkner|Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße"/>
+		<dp pt="2510202241" pp="13" l="1" ppth="Berlin Zoologischer Garten"/>
+	</s>
+	<s id="5557142593100385004-2510202253-2">
+		<tl f="N" t="p" o="OWRE" c="RE" n="92748"/>
+		<ar pt="2510202257" pp="12" l="1" ppth="Berlin Zoologischer Garten"/>
+		<dp pt="2510202259" pp="12" l="1" ppth="Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz|Erkner|Fangschleuse|Hangelsberg|Fürstenwalde(Spree)|Berkenbrück|Briesen(Mark)|Jacobsdorf(Mark)|Pillgram"/>
+	</s>
+	<s id="-3272021131219238243-2510201749-5">
+		<tl f="F" t="p" o="80" c="ICE" n="1159"/>
+		<ar pt="2510202221" pp="12" ppth="Bonn Hbf|Köln Hbf|Berlin-Spandau|Berlin Zoologischer Garten"/>
+		<dp pt="2510202224" pp="12" hi="1" ppth="Berlin Ostbahnhof"/>
+	</s>
+	<s id="1140779865956290650-2510201446-15">
+		<tl f="F" t="p" o="80" c="ICE" n="594"/>
+		<ar pt="2510202231" pp="12" ppth="München Hbf|München-Pasing|Augsburg Hbf|Ulm Hbf|Stuttgart Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hildesheim Hbf|Braunschweig Hbf|Wolfsburg Hbf|Berlin-Spandau"/>
+		<dp pt="2510202235" pp="12" hi="1" ppth="Berlin Ostbahnhof"/>
+	</s>
+</timetable>

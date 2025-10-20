@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Ostbahnhof">
+	<s id="-1182049723102138344-2510202022-16">
+		<tl f="N" t="p" o="OWRE" c="RE" n="73746"/>
+		<ar pt="2510202209" pp="1" l="1" ppth="Möser|Burg(Magdeburg)|Güsen(b Genthin)|Genthin|Wusterwitz|Kirchmöser|Brandenburg Hbf|Werder(Havel)|Potsdam Hbf|Berlin-Wannsee|Berlin-Charlottenburg|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz"/>
+		<dp pt="2510202210" pp="1" l="1" ppth="Berlin Ostkreuz|Erkner|Fangschleuse|Hangelsberg|Fürstenwalde(Spree)|Berkenbrück|Briesen(Mark)|Jacobsdorf(Mark)|Pillgram"/>
+	</s>
+	<s id="8156111849493311226-2510201802-4">
+		<tl f="F" t="p" o="80" c="ICE" n="1032"/>
+		<ar pt="2510202215" pp="1" ppth="Frankfurt(Main)Hbf|Berlin-Spandau|Berlin Hbf"/>
+	</s>
+	<s id="-8275737537227179086-2510201750-12">
+		<tl f="F" t="p" o="80" c="ICE" n="945"/>
+		<ar pt="2510202236" pp="7" ppth="Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Hannover Hbf|Wolfsburg Hbf|Stendal Hbf|Berlin-Spandau|Berlin Zoologischer Garten|Berlin Hbf"/>
+	</s>
+	<s id="-4550645364654346112-2510201745-11">
+		<tl f="F" t="p" o="80" c="ICE" n="955"/>
+		<ar pt="2510202236" pp="7" wings="-8275737537227179086-2510201750" ppth="Köln Hbf|Wuppertal Hbf|Hagen Hbf|Hamm(Westf)Hbf|Hannover Hbf|Wolfsburg Hbf|Stendal Hbf|Berlin-Spandau|Berlin Zoologischer Garten|Berlin Hbf"/>
+	</s>
+	<s id="-1809598988568544851-2510202133-10">
+		<tl f="N" t="p" o="OWRE" c="RE" n="92793"/>
+		<ar pt="2510202229" pp="7" l="1" ppth="Pillgram|Jacobsdorf(Mark)|Briesen(Mark)|Berkenbrück|Fürstenwalde(Spree)|Hangelsberg|Fangschleuse|Erkner|Berlin Ostkreuz"/>
+		<dp pt="2510202230" pp="7" l="1" ppth="Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten"/>
+	</s>
+	<s id="-130190603183544299-2510201600-15">
+		<tl f="F" t="p" o="84" c="IC" n="241"/>
+		<ar pt="2510202202" pp="2" ppth="Amsterdam Centraal|Hilversum|Amersfoort Centraal|Apeldoorn|Deventer|Hengelo|Bad Bentheim|Rheine|Osnabrück Hbf|Bünde(Westf)|Hannover Hbf|Berlin-Spandau|Berlin Zoologischer Garten|Berlin Hbf"/>
+	</s>
+	<s id="-3272021131219238243-2510201749-6">
+		<tl f="F" t="p" o="80" c="ICE" n="1159"/>
+		<ar pt="2510202231" pp="1" ppth="Bonn Hbf|Köln Hbf|Berlin-Spandau|Berlin Zoologischer Garten|Berlin Hbf"/>
+	</s>
+	<s id="1140779865956290650-2510201446-16">
+		<tl f="F" t="p" o="80" c="ICE" n="594"/>
+		<ar pt="2510202242" pp="2" ppth="München Hbf|München-Pasing|Augsburg Hbf|Ulm Hbf|Stuttgart Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hildesheim Hbf|Braunschweig Hbf|Wolfsburg Hbf|Berlin-Spandau|Berlin Hbf"/>
+	</s>
+</timetable>
