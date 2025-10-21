@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<timetable station="Wolfsburg Hbf">
+	<s id="-4895514507913038239-2510212214-1">
+		<tl t="p" o="R0" c="ENO" n="83534"/>
+		<dp pt="2510212214" pp="3" l="RE30" ppth="Fallersleben|Calberlah|Gifhorn|Leiferde(b Gifhorn)|Meinersen|Dedenhausen|Dollbergen|Immensen-Arpke|Lehrte|Hannover Hbf"/>
+	</s>
+	<s id="7557927196995716311-2510212130-14">
+		<tl t="p" o="RSMD" c="SMD" n="80382"/>
+		<ar pt="2510212244" pp="9" l="RB36" ppth="Magdeburg Hbf|Magdeburg-Neustadt|Magdeburg-Eichenweiler|Barleben|Meitzendorf|Groß Ammensleben|Vahldorf|Haldensleben|Flechtingen|Wegenstedt|Rätzlingen|Bösdorf(Sachs-Anh)|Oebisfelde"/>
+	</s>
+	<s id="2869769973922245820-2510212032-5">
+		<tl f="F" t="p" o="80" c="ICE" n="540"/>
+		<ar pt="2510212207" pp="1" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin-Spandau|Stendal Hbf"/>
+		<dp pt="2510212208" pp="1" ppth="Hannover Hbf|Nienburg(Weser)|Verden(Aller)|Bremen Hbf|Delmenhorst|Oldenburg(Oldb)Hbf"/>
+	</s>
+	<s id="1284421182583611192-2510212147-11">
+		<tl t="p" o="R0" c="ENO" n="83535"/>
+		<ar pt="2510212243" pp="3" l="RE30" ppth="Hannover Hbf|Lehrte|Immensen-Arpke|Dollbergen|Dedenhausen|Meinersen|Leiferde(b Gifhorn)|Gifhorn|Calberlah|Fallersleben"/>
+	</s>
+	<s id="-4947827194116587130-2510212223-1">
+		<tl t="p" o="RSMD" c="SMD" n="80383"/>
+		<dp pt="2510212223" pp="9" l="RB36" ppth="Oebisfelde|Bösdorf(Sachs-Anh)|Rätzlingen|Wegenstedt|Flechtingen|Haldensleben|Vahldorf|Groß Ammensleben|Meitzendorf|Barleben|Magdeburg-Eichenweiler|Magdeburg-Neustadt|Magdeburg Hbf"/>
+	</s>
+	<s id="6784262195703368400-2510212230-1">
+		<tl t="p" o="R0" c="Bus" n="5284"/>
+		<dp pt="2510212230" pp="" l="EV" ppth="Fallersleben|Weddel(Braunschw)|Braunschweig Hbf"/>
+	</s>
+	<s id="1116577686148397167-2510211613-13">
+		<tl f="F" t="p" o="80" c="ICE" n="274"/>
+		<ar pt="2510212216" pp="5" ppth="Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Hanau Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Messe/Laatzen"/>
+		<dp pt="2510212219" pp="5" ppth="Berlin-Spandau|Berlin Hbf"/>
+	</s>
+	<s id="2121877044531283563-2510212113-6">
+		<tl f="F" t="p" o="80" c="ICE" n="840"/>
+		<ar pt="2510212247" pp="1" ppth="Berlin Ostbahnhof|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Spandau|Stendal Hbf"/>
+		<dp pt="2510212248" pp="1" ppth="Hannover Hbf"/>
+	</s>
+	<s id="4447890004106418758-2510211852-8">
+		<tl f="F" t="p" o="80" c="ICE" n="645"/>
+		<ar pt="2510212202" pp="5" ppth="Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Dortmund Hbf|Bielefeld Hbf|Minden(Westf)|Hannover Hbf"/>
+		<dp pt="2510212203" pp="5" ppth="Berlin-Spandau|Berlin Hbf"/>
+	</s>
+</timetable>
