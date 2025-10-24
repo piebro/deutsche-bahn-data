@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Flughafen BER">
+	<s id="1131574480602817578-2510241744-1">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62029"/>
+		<dp pt="2510241744" pp="2" l="8" ppth="Berlin Ostkreuz|Berlin Ostbahnhof|Berlin Alexanderplatz|Berlin Friedrichstraße|Berlin Hbf|Berlin Zoologischer Garten|Berlin-Spandau|Berlin-Staaken|Dallgow-Döberitz|Elstal"/>
+	</s>
+	<s id="5221109114302341638-2510241607-11">
+		<tl f="N" t="p" o="OWRE" c="RE" n="62022"/>
+		<ar pt="2510241715" pp="2" l="8" ppth="Elstal|Dallgow-Döberitz|Berlin-Staaken|Berlin-Spandau|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz"/>
+	</s>
+	<s id="5019218286873016082-2510241709-2">
+		<tl f="N" t="p" o="800165" c="RB" n="18127"/>
+		<ar pt="2510241721" pp="4" l="22" ppth="Königs Wusterhausen"/>
+		<dp pt="2510241723" pp="4" l="22" ppth="Ludwigsfelde-Struveshof|Saarmund|Potsdam Pirschheide|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof|Potsdam Hbf|Potsdam Griebnitzsee"/>
+	</s>
+	<s id="-7726530175308032541-2510241709-5">
+		<tl f="N" t="p" o="800165" c="RB" n="18126"/>
+		<ar pt="2510241736" pp="1" l="22" pde="Potsdam Griebnitzsee" ppth="Golm|Potsdam Pirschheide|Saarmund|Ludwigsfelde-Struveshof"/>
+		<dp pt="2510241738" pp="1" l="22" ppth="Königs Wusterhausen"/>
+	</s>
+	<s id="7392091474638905772-2510241723-1">
+		<tl t="p" o="800165" c="FEX" n="19852"/>
+		<dp pt="2510241723" pp="1" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+	<s id="4290595421142840906-2510241618-4">
+		<tl t="p" o="800165" c="FEX" n="19855"/>
+		<ar pt="2510241702" pp="4" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="2987531668946685543-2510241651-4">
+		<tl t="p" o="800165" c="FEX" n="19857"/>
+		<ar pt="2510241730" pp="4" ppth="Berlin Hbf|Berlin Gesundbrunnen|Berlin Ostkreuz"/>
+	</s>
+	<s id="2342564275113242155-2510241755-1">
+		<tl t="p" o="800165" c="FEX" n="19854"/>
+		<dp pt="2510241755" pp="1" ppth="Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Hbf"/>
+	</s>
+</timetable>
