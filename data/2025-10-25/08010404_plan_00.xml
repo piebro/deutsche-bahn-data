@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin-Spandau">
+	<s id="4757722904942764530-2510241957-10">
+		<tl f="F" t="p" o="80" c="ICE" n="657"/>
+		<ar pt="2510250058" pp="6" ppth="Aachen Hbf|Düren|Köln Hbf|Wuppertal Hbf|Hagen Hbf|Hamm(Westf)Hbf|Bielefeld Hbf|Hannover Hbf|Wolfsburg Hbf"/>
+		<dp pt="2510250100" pp="6" hi="1" ppth="Berlin Zoologischer Garten|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="-3612617313420229251-2510242345-5">
+		<tl t="p" o="BB" c="Bus" n="83182"/>
+		<ar pt="2510250029" pp="" l="RE4" ppth="Wustermark|Elstal|Dallgow-Döberitz|Berlin-Staaken"/>
+	</s>
+	<s id="3778695356863398992-2510241950-8">
+		<tl f="F" t="p" o="80" c="ICE" n="947"/>
+		<ar pt="2510242359" pp="6" ppth="Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Hannover Hbf|Wolfsburg Hbf"/>
+		<dp pt="2510250001" pp="6" hi="1" ppth="Berlin Zoologischer Garten|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="5089820149948252230-2510241646-15">
+		<tl f="F" t="p" o="80" c="ICE" n="592"/>
+		<ar pt="2510250026" pp="6" ppth="München Hbf|München-Pasing|Augsburg Hbf|Ulm Hbf|Stuttgart Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hildesheim Hbf|Braunschweig Hbf|Wolfsburg Hbf|Stendal Hbf"/>
+		<dp pt="2510250028" pp="6" hi="1" ppth="Berlin Zoologischer Garten|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="-2451771813568964797-2510241946-7">
+		<tl f="F" t="p" o="80" c="ICE" n="957"/>
+		<ar pt="2510242359" pp="6" wings="3778695356863398992-2510241950" ppth="Köln Hbf|Wuppertal Hbf|Hagen Hbf|Hamm(Westf)Hbf|Hannover Hbf|Wolfsburg Hbf"/>
+		<dp pt="2510250001" pp="6" hi="1" wings="3778695356863398992-2510241950" ppth="Berlin Zoologischer Garten|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="-6061851572265559082-2510250030-1">
+		<tl t="p" o="BB" c="Bus" n="88636"/>
+		<dp pt="2510250030" pp="" l="RE4" ppth="Berlin-Staaken|Dallgow-Döberitz|Elstal|Wustermark"/>
+	</s>
+	<s id="-536926150591031915-2510250004-4">
+		<tl f="N" t="p" o="800165" c="RE" n="3140"/>
+		<ar pt="2510250033" pp="5" l="2" ppth="Hennigsdorf(b Berlin)|Dallgow-Döberitz|Berlin-Staaken"/>
+		<dp pt="2510250035" pp="5" l="2" ppth="Berlin-Charlottenburg|Berlin Zoologischer Garten|Berlin Hbf|Berlin Friedrichstraße|Berlin Alexanderplatz|Berlin Ostbahnhof|Berlin Ostkreuz|Königs Wusterhausen|Zeesen|Bestensee|Groß Köris|Halbe|Oderin|Brand Tropical Islands|Schönwalde(Spreewald)|Lubolz|Lübben(Spreewald)|Lübbenau(Spreewald)|Raddusch|Vetschau|Kunersdorf|Kolkwitz|Cottbus Hbf"/>
+	</s>
+</timetable>
