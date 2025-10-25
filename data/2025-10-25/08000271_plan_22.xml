@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<timetable station="Neumünster">
+	<s id="573841601175746681-2510252205-5">
+		<tl f="N" t="p" o="800201" c="RE" n="11289"/>
+		<ar pt="2510252228" pp="5" l="7" ppth="Kiel Hbf|Flintbek|Bordesholm|Einfeld"/>
+		<dp pt="2510252233" pp="5" l="7" ppth="Brokstedt|Wrist|Elmshorn|Pinneberg|Hamburg Dammtor|Hamburg Hbf"/>
+	</s>
+	<s id="-6733957564447943887-2510252233-1">
+		<tl f="D" t="p" o="A0" c="AKN" n="82470"/>
+		<dp pt="2510252233" pp="1" l="A2" ppth="Neumünster Süd AKN|Boostedt|Großenaspe|Wiemersdorf|Bad Bramstedt|Bad Bramstedt Kurhaus|Lentföhrden|Nützen|Dodenhof|Holstentherme|Kaltenkirchen(Holst)"/>
+	</s>
+	<s id="-7660996614876419019-2510252146-5">
+		<tl f="N" t="p" o="800201" c="RE" n="11184"/>
+		<ar pt="2510252235" pp="3" l="7" tra="7548859809289649772-2510252240-1" ppth="Hamburg Hbf|Hamburg Dammtor|Pinneberg|Elmshorn"/>
+	</s>
+	<s id="-3039843496877115546-2510252142-12">
+		<tl f="D" t="p" o="A0" c="AKN" n="82467"/>
+		<ar pt="2510252223" pp="1" l="A2" ppth="Kaltenkirchen(Holst)|Holstentherme|Dodenhof|Nützen|Lentföhrden|Bad Bramstedt Kurhaus|Bad Bramstedt|Wiemersdorf|Großenaspe|Boostedt|Neumünster Süd AKN"/>
+	</s>
+	<s id="-7284620432797668730-2510252122-6">
+		<tl f="N" t="p" o="800201" c="RE" n="11234"/>
+		<ar pt="2510252212" pp="3" l="70" ppth="Hamburg Hbf|Hamburg Dammtor|Elmshorn|Wrist|Brokstedt"/>
+		<dp pt="2510252213" pp="3" l="70" ppth="Bordesholm|Kiel Hbf"/>
+	</s>
+	<s id="442161405481707538-2510252105-8">
+		<tl f="N" t="p" o="800201" c="RE" n="11189"/>
+		<ar pt="2510252212" pp="4" l="7" ppth="Flensburg|Tarp|Jübek|Schleswig|Owschlag|Rendsburg|Nortorf"/>
+	</s>
+	<s id="7548859809289649772-2510252240-1">
+		<tl f="N" t="p" o="800201" c="RE" n="11284"/>
+		<dp pt="2510252240" pp="3" l="7" tra="-7660996614876419019-2510252146-5" ppth="Einfeld|Bordesholm|Flintbek|Kiel Hbf"/>
+	</s>
+	<s id="-8598554169483864121-2510252137-10">
+		<tl f="D" t="p" o="O0" c="NBE" n="82194"/>
+		<ar pt="2510252226" pp="2" l="RB82" ppth="Bad Oldesloe|Fresenburg|Wakendorf|Altengörs|Bad Segeberg|Fahrenkrug|Wahlstedt|Rickling|Neumünster Süd AKN"/>
+	</s>
+	<s id="1315195790797506394-2510252237-1">
+		<tl f="D" t="p" o="O0" c="NBE" n="82199"/>
+		<dp pt="2510252237" pp="2" l="RB82" ppth="Neumünster Süd AKN|Rickling|Wahlstedt|Fahrenkrug|Bad Segeberg|Altengörs|Wakendorf|Fresenburg|Bad Oldesloe"/>
+	</s>
+	<s id="8560708629534520770-2510252032-19">
+		<tl f="D" t="p" o="O0" c="NBE" n="83817"/>
+		<ar pt="2510252225" pp="6" l="RB63" ppth="Büsum|Reinsbüttel|Süderdeich|Wesselburen|Jarrenwisch|Tiebensee|Heide(Holst)|Nordhastedt|Albersdorf|Beldorf|Hademarschen|Gokels|Beringstedt|Osterstedt|Hohenwestedt|Aukrug|Wasbek|Neumünster Stadtwald"/>
+	</s>
+</timetable>
