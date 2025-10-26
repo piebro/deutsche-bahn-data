@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<timetable station="Bonn Hbf">
+	<s id="-4544563682702624126-2510260533-1">
+		<tl f="N" t="p" o="TR" c="RB" n="25456"/>
+		<dp pt="2510260533" pp="2" l="26" ppth="Roisdorf|Sechtem|Brühl|Hürth-Kalscheuren|Köln Süd|Köln West|Köln Hbf|Köln Messe/Deutz|Köln/Bonn Flughafen"/>
+	</s>
+	<s id="4753870957390372842-2510252115-12">
+		<tl f="F" t="p" o="NZ" c="IC" n="60402"/>
+		<ar pt="2510260525" pp="1" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Mainz Hbf|Koblenz Hbf"/>
+		<dp pt="2510260536" pp="1" ppth="Eindhoven Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="8868050453695511606-2510252115-12">
+		<tl t="p" o="85" c="NJ" n="402"/>
+		<ar pt="2510260525" pp="1" wings="4753870957390372842-2510252115" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Mainz Hbf|Koblenz Hbf"/>
+		<dp pt="2510260536" pp="1" hi="1" wings="4753870957390372842-2510252115" ppth="Eindhoven Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+</timetable>
