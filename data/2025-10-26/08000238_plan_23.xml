@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Lüneburg">
+	<s id="6309405949221435487-2510262245-9">
+		<tl f="D" t="p" o="R1" c="ME" n="81643"/>
+		<ar pt="2510262323" pp="1" l="RB31" ppth="Hamburg-Harburg|Meckelfeld|Maschen|Stelle|Ashausen|Winsen(Luhe)|Radbruch|Bardowick"/>
+	</s>
+	<s id="4553503252614674055-2510262330-1">
+		<tl t="p" o="R1" c="Bus" n="3545"/>
+		<dp pt="2510262330" pp="" l="EV" ppth="Bienenbüttel|Bad Bevensen|Uelzen"/>
+	</s>
+	<s id="1456223952860099681-2510262301-3">
+		<tl f="D" t="p" o="X1" c="erx" n="83887"/>
+		<ar pt="2510262315" pp="5" l="RE83" ppth="Lauenburg(Elbe)|Echem"/>
+	</s>
+	<s id="-2614635043189967845-2510262338-1">
+		<tl f="D" t="p" o="R1" c="ME" n="81642"/>
+		<dp pt="2510262338" pp="3" l="RB31" ppth="Bardowick|Radbruch|Winsen(Luhe)|Ashausen|Stelle|Maschen|Meckelfeld|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="-1290839640796586839-2510261818-11">
+		<tl f="F" t="p" o="80" c="ICE" n="782"/>
+		<ar pt="2510262333" pp="2" ppth="München Hbf|Ingolstadt Hbf|Nürnberg Hbf|Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen"/>
+		<dp pt="2510262335" pp="2" ppth="Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="2204831232318220368-2510262340-1">
+		<tl f="D" t="p" o="X1" c="erx" n="83890"/>
+		<dp pt="2510262340" pp="5" l="RE83" ppth="Echem|Lauenburg(Elbe)"/>
+	</s>
+	<s id="-2167438544370822717-2510262236-3">
+		<tl f="F" t="p" o="80" c="ICE" n="809"/>
+		<ar pt="2510262314" pp="1" ppth="Hamburg-Altona|Hamburg Hbf"/>
+		<dp pt="2510262316" pp="1" ppth="Uelzen|Salzwedel|Stendal Hbf|Berlin-Spandau|Berlin Hbf"/>
+	</s>
+</timetable>
