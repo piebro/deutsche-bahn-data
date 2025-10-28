@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Hbf">
+	<s id="852036326275903126-2510281421-9">
+		<tl f="F" t="p" o="80" c="ICE" n="1631"/>
+		<ar pt="2510281722" pp="6" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Lüneburg|Uelzen|Salzwedel|Stendal Hbf|Berlin-Spandau"/>
+	</s>
+	<s id="4404896991221988923-2510281745-1">
+		<tl f="F" t="p" o="80" c="ICE" n="1705"/>
+		<dp pt="2510281745" pp="6" ppth="Bitterfeld|Leipzig Hbf|Weißenfels|Naumburg(Saale)Hbf|Jena Paradies|Jena-Göschwitz"/>
+	</s>
+	<s id="-3034206107369764844-2510281738-1">
+		<tl f="F" t="p" o="80" c="ICE" n="1716"/>
+		<dp pt="2510281738" pp="8" ppth="Berlin-Spandau|Stendal Hbf|Salzwedel|Uelzen|Hamburg Hbf|Hamburg-Altona"/>
+	</s>
+	<s id="-3416694834909887024-2510281745-1">
+		<tl f="F" t="p" o="80" c="ICE" n="1605"/>
+		<dp pt="2510281745" pp="6" wings="4404896991221988923-2510281745" ppth="Bitterfeld|Leipzig Hbf|Erfurt Hbf|Erlangen|Nürnberg Hbf|München Hbf"/>
+	</s>
+	<s id="1980910822671238492-2510281114-7">
+		<tl f="F" t="p" o="80" c="ICE" n="708"/>
+		<ar pt="2510281711" pp="7" ppth="München Hbf|Nürnberg Hbf|Bamberg|Erfurt Hbf|Leipzig Hbf|Bitterfeld"/>
+	</s>
+	<s id="4074917124933381702-2510281712-1">
+		<tl f="F" t="p" o="80" c="ICE" n="1009"/>
+		<dp pt="2510281712" pp="6" ppth="Halle(Saale)Hbf|Erfurt Hbf|Nürnberg Hbf|München Hbf"/>
+	</s>
+</timetable>
