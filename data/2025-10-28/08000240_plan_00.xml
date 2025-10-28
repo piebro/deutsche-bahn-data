@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<timetable station="Mainz Hbf">
+	<s id="477558261709148762-2510280010-1">
+		<tl f="N" t="p" o="V6RB" c="RB" n="29278"/>
+		<dp pt="2510280010" pp="8" l="31" ppth="Mainz Waggonfabrik|Mainz-Gonsenheim|Mainz-Marienborn|Klein Winternheim-Ober Olm|Nieder Olm|Saulheim|Wörrstadt|Armsheim|Albig|Alzey"/>
+	</s>
+	<s id="-4679947521529972973-2510280008-1">
+		<tl f="S" t="p" o="801518" c="S" n="38601"/>
+		<dp pt="2510280008" pp="2a" l="6" ppth="Mainz Römisches Theater|Mainz-Laubenheim|Bodenheim|Nackenheim|Nierstein|Oppenheim|Dienheim|Guntersblum|Alsheim|Mettenheim|Osthofen|Worms Hbf"/>
+	</s>
+	<s id="-4800519778142256146-2510280010-1">
+		<tl f="N" t="p" o="TR" c="RB" n="25350"/>
+		<dp pt="2510280010" pp="11" l="26" ppth="Mainz-Mombach|Budenheim|Uhlerborn|Heidesheim(Rheinhess)|Ingelheim|Gau Algesheim|Bingen-Gaulsheim|Bingen(Rhein) Stadt|Bingen(Rhein) Hbf"/>
+	</s>
+	<s id="-9089656500770019111-2510272313-7">
+		<tl t="p" o="B4" c="Bus" n="888"/>
+		<ar pt="2510280010" pp="" l="S8E" ppth="Kelsterbach|Bahnhof Nordseite, Raunheim|Rüsselsheim|Rüsselsheim Opelwerk|Mainz-Bischofsheim|Bahnhof Römisches Theater, Mainz"/>
+	</s>
+	<s id="-4775919377312079274-2510271906-8">
+		<tl t="p" o="81" c="NJ" n="40425"/>
+		<ar pt="2510280022" pp="4a/b" ppth="Bruxelles Midi|Bruxelles-Nord|Liège-Guillemins|Aachen Hbf|Köln Hbf|Bonn-Beuel|Koblenz Hbf"/>
+		<dp pt="2510280036" pp="4a/b" ppth="Mannheim Hbf|München Ost|Rosenheim|Freilassing|Salzburg Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="-7554250350411780836-2510272343-7">
+		<tl t="p" o="B4" c="Bus" n="892"/>
+		<ar pt="2510280040" pp="" l="S8E" ppth="Kelsterbach|Bahnhof Nordseite, Raunheim|Rüsselsheim|Rüsselsheim Opelwerk|Mainz-Bischofsheim|Bahnhof Römisches Theater, Mainz"/>
+	</s>
+	<s id="-4989882928702630258-2510271906-8">
+		<tl t="p" o="88" c="NJ" n="479"/>
+		<ar pt="2510280022" pp="4a/b" wings="-4775919377312079274-2510271906" ppth="Bruxelles Midi|Bruxelles-Nord|Liège-Guillemins|Aachen Hbf|Köln Hbf|Bonn-Beuel|Koblenz Hbf"/>
+		<dp pt="2510280036" pp="4a/b" wings="-4775919377312079274-2510271906" ppth="Mannheim Hbf"/>
+	</s>
+	<s id="2544377602079428643-2510272247-19">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="28738"/>
+		<ar pt="2510280012" pp="2a" l="RB75" ppth="Aschaffenburg Hbf|Mainaschaff|Stockstadt(Main)|Babenhausen(Hess)|Hergershausen|Altheim(Hess)|Dieburg|Messel|Darmstadt-Kranichstein|Darmstadt Nord|Darmstadt Hbf|Weiterstadt|Klein Gerau|Groß Gerau|Nauheim(b Gr.Gerau)|Mainz-Bischofsheim|Mainz-Gustavsburg|Mainz Römisches Theater"/>
+		<dp pt="2510280013" pp="2a" l="RB75" ppth="Wiesbaden Hbf"/>
+	</s>
+	<s id="-1127901020324870749-2510272328-7">
+		<tl t="p" o="B4" c="Bus" n="890"/>
+		<ar pt="2510280025" pp="" l="S8E" ppth="Kelsterbach|Bahnhof Nordseite, Raunheim|Rüsselsheim|Rüsselsheim Opelwerk|Mainz-Bischofsheim|Bahnhof Römisches Theater, Mainz"/>
+	</s>
+	<s id="-4809222427286728266-2510272341-9">
+		<tl f="N" t="p" o="V6RB" c="RB" n="29589"/>
+		<ar pt="2510280019" pp="8" l="33" pde="Saarbrücken Hbf" ppth="Bad Kreuznach|Gensingen-Horrweiler|Ockenheim|Gau Algesheim|Ingelheim|Heidesheim(Rheinhess)|Uhlerborn|Budenheim"/>
+	</s>
+	<s id="4430615471936248924-2510272356-3">
+		<tl t="p" o="B4" c="Bus" n="1885"/>
+		<ar pt="2510280019" pp="" l="S8E" ppth="Wiesbaden Hbf|Biebrich Bahnhof Wiesbaden Ost, Wiesbaden"/>
+		<dp pt="2510280019" pp="" l="S8E" ppth="Bahnhof Römisches Theater, Mainz|Mainz-Kastel|Gustavsburg Am Alten Fährhs., Ginsheim-Gustavsburg|Mainz-Bischofsheim|Rüsselsheim Opelwerk|Rüsselsheim|Raunheim|Kelsterbach"/>
+	</s>
+</timetable>

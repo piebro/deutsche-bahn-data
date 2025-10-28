@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<timetable station="Kassel-Wilhelmshöhe">
+	<s id="5557085164776573229-2510272309-22">
+		<tl f="N" t="p" o="N4" c="RB" n="24248"/>
+		<ar pt="2510280037" pp="9" l="5" ppth="Fulda|Hünfeld|Burghaun(Hünfeld)|Haunetal-Neukirchen|Bad Hersfeld|Ludwigsau-Friedlos|Bebra|Lispenhausen|Rotenburg a.d. Fulda|Heinebach|Altmorschen|Malsfeld-Beiseförth|Malsfeld|Melsungen|Melsungen Bartenwetzerbrücke|Melsungen-Röhrenfurth|Körle|Guxhagen|Baunatal-Guntershausen|Baunatal-Rengershausen|Kassel-Oberzwehren"/>
+		<dp pt="2510280038" pp="9" l="5" ppth="Kassel Hbf"/>
+	</s>
+	<s id="-4272298498907669914-2510271830-4">
+		<tl t="p" o="81" c="NJ" n="40421"/>
+		<ar pt="2510272335" pp="2" ppth="Amsterdam Centraal|Amersfoort Centraal|Deventer"/>
+		<dp pt="2510280002" pp="2" ppth="Würzburg Hbf|Nürnberg Hbf|Regensburg Hbf|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="-3823254010841261196-2510271830-4">
+		<tl t="p" o="84" c="NJ" n="421"/>
+		<ar pt="2510272335" pp="2" wings="-4272298498907669914-2510271830" ppth="Amsterdam Centraal|Amersfoort Centraal|Deventer"/>
+		<dp pt="2510280002" pp="2" wings="-4272298498907669914-2510271830" ppth="Würzburg Hbf|Nürnberg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="-4667042551101132333-2510280021-3">
+		<tl t="p" o="H4" c="Bus" n="6"/>
+		<ar pt="2510280033" pp="B" l="EVRT5" ppth="Kassel Hauptbahnhof Nord|Hauptbahnhof, Kassel"/>
+		<dp pt="2510280033" pp="B" l="EVRT5" ppth="Kassel-Oberzwehren|Rengershausen Kirche, Baunatal|Guntershausen Bahnhof, Baunatal|Guxhagen|Körle Mülmischtal|Melsungen-Röhrenfurth Mitte|Schwarzenberg Mitte, Melsungen|Am Huberg, Melsungen|Melsungen"/>
+	</s>
+	<s id="5588128401731872656-2510280011-2">
+		<tl f="N" t="p" o="N4" c="RB" n="24255"/>
+		<ar pt="2510280014" pp="7" l="5" ppth="Kassel Hbf"/>
+		<dp pt="2510280015" pp="7" l="5" ppth="Guxhagen|Melsungen|Malsfeld|Malsfeld-Beiseförth|Altmorschen|Heinebach|Rotenburg a.d. Fulda|Lispenhausen|Bebra|Ludwigsau-Friedlos|Bad Hersfeld"/>
+	</s>
+	<s id="8542119838749842090-2510272220-25">
+		<tl f="D" t="p" o="K4RE" c="HLB" n="24422"/>
+		<ar pt="2510280048" pp="9" l="RE98" ppth="Frankfurt(Main)Hbf|Friedberg(Hess)|Gießen|Marburg(Lahn)|Cölbe|Bürgeln|Anzefahr|Kirchhain(Bz Kassel)|Stadtallendorf|Neustadt(Kr Marburg)|Schwalmstadt-Wiera|Treysa|Schlierbach(Schwalm-Eder-Kr.)|Zimmersrode|Borken(Hess)|Singlis|Wabern(Bz Kassel)|Felsberg-Gensungen|Felsberg-Altenbrunslar|Felsberg-Wolfershausen|Edermünde-Grifte|Baunatal-Guntershausen|Baunatal-Rengershausen|Kassel-Oberzwehren"/>
+		<dp pt="2510280049" pp="9" l="RE98" ppth="Kassel Hbf"/>
+	</s>
+	<s id="-4776338397995285275-2510272301-10">
+		<tl t="p" o="H4" c="Bus" n="3"/>
+		<ar pt="2510280007" pp="B" l="EVRT5" ppth="Melsungen|Am Huberg, Melsungen|Schwarzenberg Mitte, Melsungen|Melsungen-Röhrenfurth Mitte|Körle Mülmischtal|Guxhagen|Guntershausen Bahnhof, Baunatal|Rengershausen Kirche, Baunatal|Kassel-Oberzwehren"/>
+		<dp pt="2510280007" pp="B" l="EVRT5" ppth="Kassel Hauptbahnhof Nord"/>
+	</s>
+</timetable>
