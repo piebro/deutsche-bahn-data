@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<timetable station="Mannheim Hbf">
+	<s id="-344271757147009936-2510281855-7">
+		<tl t="p" o="81" c="NJ" n="40424"/>
+		<ar pt="2510290103" pp="4" hi="1" ppth="Berlin Ostbahnhof|Berlin Hbf|Göttingen|Kassel-Wilhelmshöhe|Frankfurt(Main)West|Darmstadt Hbf"/>
+		<dp pt="2510290340" pp="4" hi="1" ppth="Paris Est"/>
+	</s>
+	<s id="8016523767626847908-2510281813-9">
+		<tl t="p" o="81" c="NJ" n="468"/>
+		<ar pt="2510290219" pp="5" hi="1" wings="3178546308999030105-2510281813" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Salzburg Hbf|Freilassing|Rosenheim|München Ost"/>
+		<dp pt="2510290340" pp="4" hi="1" wings="-344271757147009936-2510281855" ppth="Paris Est"/>
+	</s>
+	<s id="2686007473625185344-2510290000-8">
+		<tl f="F" t="p" o="80" c="ICE" n="618"/>
+		<ar pt="2510290355" pp="2" ppth="München Hbf|München-Pasing|Augsburg Hbf|Günzburg|Ulm Hbf|Stuttgart Hbf|Heidelberg Hbf"/>
+		<dp pt="2510290401" pp="2" ppth="Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Siegburg/Bonn|Köln Hbf|Düsseldorf Hbf|Duisburg Hbf|Essen Hbf|Münster(Westf)Hbf|Osnabrück Hbf|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Neumünster|Kiel Hbf"/>
+	</s>
+</timetable>
