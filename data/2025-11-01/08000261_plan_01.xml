@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf">
+	<s id="-8002425886330718448-2511010159-1">
+		<tl f="N" t="p" o="GYRB" c="RB" n="57002"/>
+		<dp pt="2511010159" pp="17" l="87" ppth="München-Pasing|Mammendorf|Haspelmoor|Althegnenberg|Mering|Mering-St Afra|Kissing|Augsburg-Hochzoll|Augsburg Haunstetterstraße|Augsburg Hbf"/>
+	</s>
+	<s id="6924447488352088653-2510312337-9">
+		<tl f="N" t="p" o="800765" c="RE" n="4047"/>
+		<ar pt="2511010110" pp="23" l="1" ppth="Nürnberg Hbf|Allersberg(Rothsee)|Kinding(Altmühltal)|Ingolstadt Nord|Ingolstadt Hbf|Rohrbach(Ilm)|Pfaffenhofen(Ilm)|Petershausen(Obb)"/>
+	</s>
+	<s id="-3854034860779162810-2511010101-11">
+		<tl f="N" t="p" o="GYRB" c="RB" n="57001"/>
+		<ar pt="2511010149" pp="17" l="87" ppth="Augsburg Hbf|Augsburg Haunstetterstraße|Augsburg-Hochzoll|Kissing|Mering-St Afra|Mering|Althegnenberg|Haspelmoor|Mammendorf|München-Pasing"/>
+	</s>
+	<s id="6202916625163174173-2510311724-17">
+		<tl f="F" t="p" o="80" c="ICE" n="695"/>
+		<ar pt="2511010118" pp="13" ppth="Berlin Hbf|Berlin-Spandau|Stendal Hbf|Wolfsburg Hbf|Braunschweig Hbf|Hildesheim Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Frankfurt(Main)Hbf|Mannheim Hbf|Stuttgart Hbf|Ulm Hbf|Günzburg|Augsburg Hbf|München-Pasing"/>
+	</s>
+	<s id="-3275141757942670776-2511010052-10">
+		<tl f="S" t="p" o="800725" c="S" n="8299"/>
+		<ar pt="2511010131" pp="31" l="2" ppth="Petershausen(Obb)|Vierkirchen-Esterhofen|Röhrmoos|Hebertshausen|Dachau Bahnhof|München-Karlsfeld|München-Allach|München-Untermenzing|München-Obermenzing"/>
+	</s>
+	<s id="5537080762589122899-2510311945-9">
+		<tl f="F" t="p" o="80" c="ICE" n="1607"/>
+		<ar pt="2511010114" pp="18" ppth="Berlin Hbf|Bitterfeld|Leipzig Hbf|Erfurt Hbf|Bamberg|Erlangen|Nürnberg Hbf|Ingolstadt Hbf"/>
+	</s>
+	<s id="3308552569338729371-2511010112-1">
+		<tl f="S" t="p" o="800725" c="S" n="8232"/>
+		<dp pt="2511010112" pp="31" l="2" ppth="München-Obermenzing|München-Untermenzing|München-Allach|München-Karlsfeld|Dachau Bahnhof|Hebertshausen|Röhrmoos|Vierkirchen-Esterhofen|Petershausen(Obb)"/>
+	</s>
+	<s id="-5065801516765768983-2510312301-11">
+		<tl f="D" t="p" o="A8N" c="ALX" n="79866"/>
+		<ar pt="2511010119" pp="24" l="RE25" ppth="Schwandorf|Maxhütte-Haidhof|Regenstauf|Regensburg Hbf|Obertraubling|Eggmühl|Neufahrn(Niederbay)|Ergoldsbach|Landshut(Bay)Hbf|Freising"/>
+	</s>
+	<s id="-3712317050286932589-2511010142-1">
+		<tl f="S" t="p" o="800725" c="S" n="8236"/>
+		<dp pt="2511010142" pp="31" l="2" wings="5632042021722988780-2511010142" ppth="München-Obermenzing|München-Untermenzing|München-Allach|München-Karlsfeld|Dachau Bahnhof|Hebertshausen|Röhrmoos|Vierkirchen-Esterhofen|Petershausen(Obb)"/>
+	</s>
+	<s id="5632042021722988780-2511010142-1">
+		<tl f="S" t="p" o="800725" c="S" n="8998"/>
+		<dp pt="2511010142" pp="31" l="2" ppth="München-Obermenzing|München-Untermenzing|München-Allach|München-Karlsfeld|Dachau Bahnhof|Dachau Stadt|Bachern|Schwabhausen(b Dachau)|Niederroth|Markt Indersdorf|Arnbach|Erdweg|Kleinberghofen|Altomünster"/>
+	</s>
+</timetable>
