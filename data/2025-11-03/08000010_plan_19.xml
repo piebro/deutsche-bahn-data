@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<timetable station="Aschaffenburg Hbf">
+	<s id="5391224150721336596-2511031740-13">
+		<tl t="p" o="800603" c="Bus" n="334"/>
+		<ar pt="2511031903" pp="" l="EV" ppth="Miltenberg|Kleinheubach|Laudenbach am Main|Wörth(Main)|Klingenberg(Main)|Erlenbach(Main)|Glanzstoffwerke|Obernburg-Elsenfeld|Kleinwallstadt|Sulzbach(Main)|Obernau|Aschaffenburg Süd"/>
+	</s>
+	<s id="4115968062005817614-2511031925-1">
+		<tl t="p" o="800603" c="Bus" n="331"/>
+		<dp pt="2511031925" pp="" l="EV" ppth="Aschaffenburg Süd|Obernau|Sulzbach(Main)|Kleinwallstadt|Obernburg-Elsenfeld|Glanzstoffwerke|Erlenbach(Main)|Klingenberg(Main)|Wörth(Main)|Laudenbach am Main|Kleinheubach|Miltenberg"/>
+	</s>
+	<s id="-1488572303901744501-2511031833-18">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="28657"/>
+		<ar pt="2511031946" pp="6" l="RB58" ppth="Rüsselsheim Opelwerk|Rüsselsheim|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Süd|Frankfurt(Main)Ost|Frankfurt-Mainkur|Maintal West|Maintal Ost|Hanau-Wilhelmsbad|Hanau West|Hanau Hbf|Großauheim(Kr Hanau)|Großkrotzenburg|Kahl(Main)|Dettingen(Main)|Rückersbacher Schlucht|Kleinostheim"/>
+		<dp pt="2511031953" pp="6" l="RB58" ppth="Hösbach|Laufach"/>
+	</s>
+	<s id="-4299390533875955991-2511031648-4">
+		<tl f="F" t="p" o="80" c="ICE" n="1128"/>
+		<ar pt="2511031932" pp="8" ppth="München Hbf|Nürnberg Hbf|Würzburg Hbf"/>
+		<dp pt="2511031933" pp="8" ppth="Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Wiesbaden Hbf"/>
+	</s>
+	<s id="-7074564706453150115-2511031947-1">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="28732"/>
+		<dp pt="2511031947" pp="5" l="RB75" ppth="Mainaschaff|Stockstadt(Main)|Babenhausen(Hess)|Hergershausen|Altheim(Hess)|Dieburg|Messel|Darmstadt-Kranichstein|Darmstadt Nord|Darmstadt Hbf|Weiterstadt|Klein Gerau|Groß Gerau|Nauheim(b Gr.Gerau)|Mainz-Bischofsheim|Mainz-Gustavsburg|Mainz Römisches Theater|Mainz Hbf|Wiesbaden Hbf"/>
+	</s>
+	<s id="50770787591072936-2511031648-4">
+		<tl f="F" t="p" o="80" c="ICE" n="528"/>
+		<ar pt="2511031932" pp="8" wings="-4299390533875955991-2511031648" ppth="München Hbf|Nürnberg Hbf|Würzburg Hbf"/>
+		<dp pt="2511031933" pp="8" wings="-4299390533875955991-2511031648" ppth="Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Köln Messe/Deutz Gl.11-12|Düsseldorf Hbf|Dortmund Hbf"/>
+	</s>
+	<s id="-6341401029022658133-2511031654-7">
+		<tl f="F" t="p" o="80" c="ICE" n="727"/>
+		<ar pt="2511031922" pp="6" ppth="Essen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Messe/Deutz Gl.11-12|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf"/>
+		<dp pt="2511031923" pp="6" ppth="Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf|München Hbf"/>
+	</s>
+	<s id="-4384291237910028934-2511031726-13">
+		<tl f="N" t="p" o="800772" c="RE" n="4628"/>
+		<ar pt="2511031941" pp="8" l="54" ppth="Bamberg|Haßfurt|Schweinfurt Hbf|Würzburg Hbf|Retzbach-Zellingen|Karlstadt(Main)|Gemünden(Main)|Langenprozelten|Lohr Bahnhof|Partenstein|Wiesthal|Heigenbrücken"/>
+		<dp pt="2511031943" pp="8" l="54" ppth="Kleinostheim|Dettingen(Main)|Kahl(Main)|Hanau Hbf|Hanau West|Hanau-Wilhelmsbad|Maintal Ost|Maintal West|Frankfurt-Mainkur|Frankfurt(Main)Ost|Frankfurt(Main)Süd|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="2065751660158932075-2511031802-19">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="28771"/>
+		<ar pt="2511031942" pp="2" l="RB75" ppth="Wiesbaden Hbf|Mainz Hbf|Mainz Römisches Theater|Mainz-Bischofsheim|Nauheim(b Gr.Gerau)|Groß Gerau|Klein Gerau|Weiterstadt|Darmstadt Hbf|Darmstadt Nord|Darmstadt-Kranichstein|Messel|Dieburg|Altheim(Hess)|Hergershausen|Babenhausen(Hess)|Stockstadt(Main)|Mainaschaff"/>
+	</s>
+	<s id="-3428575975621974124-2511031736-20">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="28727"/>
+		<ar pt="2511031912" pp="5" l="RB75" ppth="Wiesbaden Hbf|Mainz Hbf|Mainz Römisches Theater|Mainz-Gustavsburg|Mainz-Bischofsheim|Nauheim(b Gr.Gerau)|Groß Gerau|Klein Gerau|Weiterstadt|Darmstadt Hbf|Darmstadt Nord|Darmstadt-Kranichstein|Messel|Dieburg|Altheim(Hess)|Hergershausen|Babenhausen(Hess)|Stockstadt(Main)|Mainaschaff"/>
+	</s>
+	<s id="8510884589258428470-2511031910-1">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="28664"/>
+		<dp pt="2511031910" pp="7" l="RB58" ppth="Kleinostheim|Rückersbacher Schlucht|Dettingen(Main)|Kahl(Main)|Großkrotzenburg|Großauheim(Kr Hanau)|Hanau Hbf|Hanau West|Hanau-Wilhelmsbad|Maintal Ost|Maintal West|Frankfurt-Mainkur|Frankfurt(Main)Ost|Frankfurt(Main)Süd|Frankfurt(M) Flughafen Fernbf|Rüsselsheim|Rüsselsheim Opelwerk"/>
+	</s>
+	<s id="920557546607716566-2511031804-4">
+		<tl t="p" o="B6" c="Bus" n="422"/>
+		<ar pt="2511031903" pp="" l="RE87" ppth="Miltenberg|Klingenberg(Main)|Obernburg-Elsenfeld"/>
+	</s>
+	<s id="-7246037594139825471-2511031834-8">
+		<tl f="N" t="p" o="800772" c="RE" n="4627"/>
+		<ar pt="2511031915" pp="6" l="55" ppth="Frankfurt(Main)Hbf|Frankfurt(Main)Süd|Offenbach(Main)Hbf|Hanau Hbf|Kahl(Main)|Dettingen(Main)|Kleinostheim"/>
+		<dp pt="2511031916" pp="6" l="55" ppth="Heigenbrücken|Wiesthal|Partenstein|Lohr Bahnhof|Langenprozelten|Gemünden(Main)|Karlstadt(Main)|Retzbach-Zellingen|Würzburg Hbf"/>
+	</s>
+</timetable>
