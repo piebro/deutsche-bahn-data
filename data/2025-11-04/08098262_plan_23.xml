@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf Gl.5-10">
+	<s id="8789838779519040058-2511042303-15">
+		<tl f="S" t="p" o="800725" c="S" n="8725"/>
+		<ar pt="2511042345" pp="11" l="7" ppth="Wolfratshausen|Icking|Ebenhausen-Schäftlarn|Hohenschäftlarn|Baierbrunn|Buchenhain|Höllriegelskreuth|Pullach|Großhesselohe Isartalbf|München-Solln|München Siemenswerke|München-Mittersendling|München Harras|München Heimeranplatz"/>
+	</s>
+	<s id="-5585127461997508759-2511042354-1">
+		<tl f="S" t="p" o="800725" c="S" n="8724"/>
+		<dp pt="2511042354" pp="11" l="7" ppth="München Heimeranplatz|München Harras|München-Mittersendling|München Siemenswerke|München-Solln|Großhesselohe Isartalbf|Pullach|Höllriegelskreuth|Buchenhain|Baierbrunn|Hohenschäftlarn|Ebenhausen-Schäftlarn|Icking|Wolfratshausen"/>
+	</s>
+	<s id="3797614755450422074-2511042252-10">
+		<tl f="D" t="p" o="T8" c="BRB" n="87022"/>
+		<ar pt="2511042354" pp="33" l="RB57" ppth="Tegernsee|Gmund(Tegernsee)|Finsterwald|Moosrain|Schaftlach|Warngau|Holzkirchen|München Siemenswerke|München Harras"/>
+	</s>
+	<s id="-2232177955352499845-2511042247-11">
+		<tl f="D" t="p" o="T8" c="BRB" n="87002"/>
+		<ar pt="2511042354" pp="33" l="RB56" wings="3797614755450422074-2511042252" ppth="Lenggries|Obergries|Gaißach|Bad Tölz|Reichersbeuern|Schaftlach|Warngau|Holzkirchen|München Siemenswerke|München Harras"/>
+	</s>
+	<s id="-5652708052565312131-2511042108-16">
+		<tl f="D" t="p" o="M8" c="BRB" n="79046"/>
+		<ar pt="2511042317" pp="12" l="RE5" ppth="Salzburg Hbf|Freilassing|Teisendorf|Traunstein|Bergen(Oberbay)|Übersee|Bernau a Chiemsee|Prien am Chiemsee|Bad Endorf|Rosenheim|Großkarolinenfeld|Ostermünchen|Aßling(Oberbay)|Grafing Bahnhof|München Ost"/>
+	</s>
+	<s id="7197988531471629004-2511042259-9">
+		<tl f="D" t="p" o="T8" c="BRB" n="86782"/>
+		<ar pt="2511042354" pp="33" l="RB55" wings="-2232177955352499845-2511042247|3797614755450422074-2511042252" ppth="Schliersee|Hausham|Agatharied|Miesbach|Darching|Holzkirchen|München Siemenswerke|München Harras"/>
+	</s>
+	<s id="-276896031776243712-2511042351-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79049"/>
+		<dp pt="2511042351" pp="12" l="RE5" ppth="München Ost|Grafing Bahnhof|Aßling(Oberbay)|Ostermünchen|Großkarolinenfeld|Rosenheim|Bad Endorf|Prien am Chiemsee|Bernau a Chiemsee|Übersee|Bergen(Oberbay)|Traunstein|Teisendorf|Freilassing|Salzburg Hbf"/>
+	</s>
+</timetable>
