@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf">
+	<s id="3308552569338729371-2511050112-1">
+		<tl f="S" t="p" o="800725" c="S" n="8232"/>
+		<dp pt="2511050112" pp="31" l="2" ppth="München-Obermenzing|München-Untermenzing|München-Allach|München-Karlsfeld|Dachau Bahnhof|Hebertshausen|Röhrmoos|Vierkirchen-Esterhofen|Petershausen(Obb)"/>
+	</s>
+	<s id="-3275141757942670776-2511050052-10">
+		<tl f="S" t="p" o="800725" c="S" n="8299"/>
+		<ar pt="2511050131" pp="31" l="2" ppth="Petershausen(Obb)|Vierkirchen-Esterhofen|Röhrmoos|Hebertshausen|Dachau Bahnhof|München-Karlsfeld|München-Allach|München-Untermenzing|München-Obermenzing"/>
+	</s>
+	<s id="-5065801516765768983-2511042301-11">
+		<tl f="D" t="p" o="A8N" c="ALX" n="79866"/>
+		<ar pt="2511050119" pp="24" l="RE25" ppth="Schwandorf|Maxhütte-Haidhof|Regenstauf|Regensburg Hbf|Obertraubling|Eggmühl|Neufahrn(Niederbay)|Ergoldsbach|Landshut(Bay)Hbf|Freising"/>
+	</s>
+	<s id="5632042021722988780-2511050142-1">
+		<tl f="S" t="p" o="800725" c="S" n="8998"/>
+		<dp pt="2511050142" pp="31" l="2" ppth="München-Obermenzing|München-Untermenzing|München-Allach|München-Karlsfeld|Dachau Bahnhof|Dachau Stadt|Bachern|Schwabhausen(b Dachau)|Niederroth|Markt Indersdorf|Arnbach|Erdweg|Kleinberghofen|Altomünster"/>
+	</s>
+	<s id="-3712317050286932589-2511050142-1">
+		<tl f="S" t="p" o="800725" c="S" n="8236"/>
+		<dp pt="2511050142" pp="31" l="2" wings="5632042021722988780-2511050142" ppth="München-Obermenzing|München-Untermenzing|München-Allach|München-Karlsfeld|Dachau Bahnhof|Hebertshausen|Röhrmoos|Vierkirchen-Esterhofen|Petershausen(Obb)"/>
+	</s>
+</timetable>
