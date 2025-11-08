@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf Gl.27-36">
+	<s id="-6805560725186470854-2511080532-1">
+		<tl f="N" t="p" o="800790" c="RB" n="63583"/>
+		<dp pt="2511080532" pp="27" l="60" ppth="München-Pasing|Tutzing"/>
+	</s>
+	<s id="1930315919173925072-2511080447-12">
+		<tl f="D" t="p" o="T8" c="BRB" n="86850"/>
+		<ar pt="2511080557" pp="34" l="RB56" wings="3323160123210640118-2511080452" ppth="Lenggries|Obergries|Gaißach|Bad Tölz|Reichersbeuern|Schaftlach|Warngau|Holzkirchen|München-Solln|München Harras|München Donnersbergerbrücke"/>
+	</s>
+	<s id="-1157053264141380663-2511080438-4">
+		<tl f="N" t="p" o="800790" c="RB" n="59500"/>
+		<ar pt="2511080505" pp="28" l="65" ppth="Tutzing|Starnberg|München-Pasing"/>
+	</s>
+	<s id="1180726547218131245-2511080539-1">
+		<tl f="N" t="p" o="8007H2" c="RB" n="58110"/>
+		<dp pt="2511080539" pp="30" l="74" ppth="München-Pasing|Fürstenfeldbruck|Geltendorf|Kaufering|Buchloe"/>
+	</s>
+	<s id="3323160123210640118-2511080452-11">
+		<tl f="D" t="p" o="T8" c="BRB" n="86950"/>
+		<ar pt="2511080557" pp="34" l="RB57" ppth="Tegernsee|Gmund(Tegernsee)|Finsterwald|Moosrain|Schaftlach|Warngau|Holzkirchen|München-Solln|München Harras|München Donnersbergerbrücke"/>
+	</s>
+	<s id="-7446243431180547778-2511080520-1">
+		<tl f="N" t="p" o="8007D5" c="RE" n="7872"/>
+		<dp pt="2511080520" pp="29" l="76" ppth="München-Pasing|Geltendorf|Kaufering|Buchloe|Kaufbeuren|Günzach|Kempten(Allgäu)Hbf|Martinszell(Allgäu)|Immenstadt|Blaichach(Allgäu)|Sonthofen|Altstädten(Allgäu)|Fischen|Langenwang(Schwab)|Oberstdorf"/>
+	</s>
+	<s id="-6705228402969477321-2511080559-1">
+		<tl f="N" t="p" o="800790" c="RB" n="59603"/>
+		<dp pt="2511080559" pp="28" l="66" ppth="München-Pasing|Starnberg|Tutzing"/>
+	</s>
+	<s id="9180776394802567931-2511080501-10">
+		<tl f="D" t="p" o="T8" c="BRB" n="77350"/>
+		<ar pt="2511080557" pp="34" l="RB55" wings="1930315919173925072-2511080447|3323160123210640118-2511080452" ppth="Schliersee|Hausham|Agatharied|Miesbach|Darching|Holzkirchen|München-Solln|München Harras|München Donnersbergerbrücke"/>
+	</s>
+	<s id="8509561769942909732-2511080520-1">
+		<tl f="N" t="p" o="8007D5" c="RE" n="3872"/>
+		<dp pt="2511080520" pp="29" l="70" wings="-7446243431180547778-2511080520" ppth="München-Pasing|Geltendorf|Kaufering|Buchloe|Kaufbeuren|Günzach|Kempten(Allgäu)Hbf|Martinszell(Allgäu)|Immenstadt|Oberstaufen|Röthenbach(Allgäu)|Heimenkirch|Hergatz|Lindau-Reutin|Lindau-Insel"/>
+	</s>
+</timetable>
