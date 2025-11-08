@@ -2,6 +2,8 @@
 
 This is a repository with accumulated public data from "Deutsche Bahn", the biggest german train company. The data is fetched and saved from the public DB API 4 times a day using github actions. The data is used to create a [website](https://piebro.github.io/deutsche-bahn-statistics/questions) with statistics about train delays and canceled trains. Similar website with statisics can be found at [github.com/piebro/deutsche-bahn-statistics](https://github.com/piebro/deutsche-bahn-statistics?tab=readme-ov-file#related-deutsche-bahn-and-open-data-websites)
 
+The raw and the preprocessed data can be found here: https://huggingface.co/datasets/piebro/deutsche-bahn-data
+
 ## Data Collection
 
 The [timetables-api](https://developers.deutschebahn.com/db-api-marketplace/apis/product/timetables) is used to collect the raw data. It's free to query the api up to 60 times per seconde and the data is licensed as [(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
