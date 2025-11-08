@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf Gl.5-10">
+	<s id="725406893525714757-2511080940-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79063"/>
+		<dp pt="2511080940" pp="10" l="RB54" ppth="München Ost|Grafing Bahnhof|Rosenheim|Raubling|Brannenburg|Flintsbach|Oberaudorf|Kiefersfelden|Kufstein"/>
+	</s>
+	<s id="-4018860779221555459-2511080940-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="21435"/>
+		<dp pt="2511080940" pp="9" l="RE5" wings="725406893525714757-2511080940" ppth="München Ost|Grafing Bahnhof|Rosenheim|Bad Endorf|Prien am Chiemsee"/>
+	</s>
+	<s id="-7997496281742273411-2511080704-13">
+		<tl f="D" t="p" o="M8" c="BRB" n="79014"/>
+		<ar pt="2511080919" pp="9" l="RE5" wings="7908960142862658587-2511080802" ppth="Salzburg Hbf|Freilassing|Teisendorf|Traunstein|Bergen(Oberbay)|Übersee|Bernau a Chiemsee|Prien am Chiemsee|Bad Endorf|Rosenheim|Grafing Bahnhof|München Ost"/>
+	</s>
+	<s id="7908960142862658587-2511080802-10">
+		<tl f="D" t="p" o="M8" c="BRB" n="79066"/>
+		<ar pt="2511080919" pp="10" l="RB54" ppth="Kufstein|Kiefersfelden|Oberaudorf|Flintsbach|Brannenburg|Raubling|Rosenheim|Grafing Bahnhof|München Ost"/>
+	</s>
+</timetable>
