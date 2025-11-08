@@ -1,0 +1,39 @@
+name: update data
+on:
+  schedule:
+    # Should run at 0:00 and then every 6 hours every day in UTC time.
+    - cron: '0 0,6,12,18 * * *'
+  workflow_dispatch:
+jobs:
+  run-python:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            /*
+            !data
+            !monthly_data_releases
+            monthly_data_releases/current_eva_list.csv
+          sparse-checkout-cone-mode: false
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Dependencies
+        run: pip install -r requirements_fetch_data.txt
+      - name: Fetch Data
+        env:
+          API_KEY: ${{ secrets.API_KEY }}
+          CLIENT_ID: ${{ secrets.CLIENT_ID }}
+        run: |
+          python update_eva_list.py
+          python fetch_data.py
+      - name: Commit and Push
+        run: |
+          git config --local user.email "noreply@github.com"
+          git config --local user.name "GitHub Actions Bot"
+          git add --sparse *
+          git commit -m "data update"
+          git push
