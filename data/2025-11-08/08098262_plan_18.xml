@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf Gl.5-10">
+	<s id="-3994644478874179945-2511081840-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79087"/>
+		<dp pt="2511081840" pp="10" l="RB54" ppth="München Ost|Grafing Bahnhof|Rosenheim|Raubling|Brannenburg|Flintsbach|Oberaudorf|Kiefersfelden|Kufstein"/>
+	</s>
+	<s id="-6574981582705854968-2511081702-10">
+		<tl f="D" t="p" o="M8" c="BRB" n="79084"/>
+		<ar pt="2511081819" pp="10" l="RB54" ppth="Kufstein|Kiefersfelden|Oberaudorf|Flintsbach|Brannenburg|Raubling|Rosenheim|Grafing Bahnhof|München Ost"/>
+	</s>
+	<s id="6552523782024950481-2511081706-6">
+		<tl f="D" t="p" o="M8" c="BRB" n="21440"/>
+		<ar pt="2511081819" pp="9" l="RE5" wings="-6574981582705854968-2511081702" ppth="Prien am Chiemsee|Bad Endorf|Rosenheim|Grafing Bahnhof|München Ost"/>
+	</s>
+	<s id="-7759827436146803415-2511081605-7">
+		<tl f="F" t="p" o="80" c="ICE" n="569"/>
+		<ar pt="2511081849" pp="8" ppth="Karlsruhe Hbf|Bruchsal|Stuttgart Hbf|Ulm Hbf|Augsburg Hbf|München-Pasing"/>
+	</s>
+	<s id="2832026240203944514-2511081840-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79039"/>
+		<dp pt="2511081840" pp="9" l="RE5" wings="-3994644478874179945-2511081840" ppth="München Ost|Grafing Bahnhof|Rosenheim|Bad Endorf|Prien am Chiemsee|Bernau a Chiemsee|Übersee|Bergen(Oberbay)|Traunstein|Teisendorf|Freilassing|Salzburg Hbf"/>
+	</s>
+</timetable>

@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf Gl.5-10">
+	<s id="-5799573306990257518-2511081505-13">
+		<tl f="D" t="p" o="M8" c="BRB" n="79034"/>
+		<ar pt="2511081720" pp="9" l="RE5" wings="7445800921064315868-2511081603" ppth="Salzburg Hbf|Freilassing|Teisendorf|Traunstein|Bergen(Oberbay)|Übersee|Bernau a Chiemsee|Prien am Chiemsee|Bad Endorf|Rosenheim|Grafing Bahnhof|München Ost"/>
+	</s>
+	<s id="-2454005409693185213-2511081741-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79083"/>
+		<dp pt="2511081741" pp="10" l="RB54" ppth="München Ost|Grafing Bahnhof|Rosenheim|Raubling|Brannenburg|Flintsbach|Oberaudorf|Kiefersfelden|Kufstein"/>
+	</s>
+	<s id="-1042228218627160440-2511081741-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="21443"/>
+		<dp pt="2511081741" pp="9" l="RE5" wings="-2454005409693185213-2511081741" ppth="München Ost|Grafing Bahnhof|Rosenheim|Bad Endorf|Prien am Chiemsee"/>
+	</s>
+	<s id="8796402166199155573-2511081723-1">
+		<tl t="p" o="80" c="RJX" n="261"/>
+		<dp pt="2511081723" pp="8" ppth="Salzburg Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf|Mosonmagyarovar|Györ|Tatabanya|Budapest-Kelenföld|Budapest-Keleti"/>
+	</s>
+	<s id="7445800921064315868-2511081603-10">
+		<tl f="D" t="p" o="M8" c="BRB" n="79082"/>
+		<ar pt="2511081720" pp="10" l="RB54" ppth="Kufstein|Kiefersfelden|Oberaudorf|Flintsbach|Brannenburg|Raubling|Rosenheim|Grafing Bahnhof|München Ost"/>
+	</s>
+</timetable>
