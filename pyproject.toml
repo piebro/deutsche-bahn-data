@@ -1,11 +1,37 @@
 [project]
 name = "deutsche-bahn-data"
-description = "Data about the german train company Deutsche Bahn"
+version = "0.1.0"
+description = "A collection of Python scripts to query and analyze Deutsche Bahn data."
 readme = "README.md"
-requires-python = ">=3.10"
+license = "MIT"
+authors = [
+    {name = "Piet Brömmel", email = "piet.broemmel@gmail.com"}
+]
+keywords = ["deutsche-bahn", "railway", "transportation", "data"]
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=2.3.2",
+    "python-dotenv>=1.0.0",
+    "aiohttp>=3.9.0",
+    "aiolimiter>=1.1.0",
+    "tenacity>=8.2.0",
+    "pyarrow>=22.0.0",
+    "lxml>=6.0.0",
+    "duckdb>=1.4.0",
+    "pre-commit>=4.3.0",
+    "ruff>=0.12.10",
+    "jupyterlab>=3.6.8",
+    "pytest>=9.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/piebro/deutsche-bahn-data-2/"
+Repository = "https://github.com/piebro/deutsche-bahn-data-2/"
+Issues = "https://github.com/piebro/deutsche-bahn-data-2/issues"
 
 [tool.ruff]
-line-length = 110
+line-length = 120
+target-version = "py312"
 
 [tool.ruff.lint]
 select = [
@@ -15,10 +41,11 @@ select = [
     "I",        # isort
     "RUF",      # ruff
 ]
-ignore = [
-  "E501", # line too long - will be fixed in format
-]
 
 [tool.ruff.format]
 quote-style = "double"
 indent-style = "space"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
