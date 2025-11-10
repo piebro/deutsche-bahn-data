@@ -1,74 +1,88 @@
 # Deutsche Bahn Data
 
-This is a repository with accumulated public data from "Deutsche Bahn", the biggest german train company. The data is fetched and saved from the public DB API 4 times a day using github actions. The data is used to create a [website](https://piebro.github.io/deutsche-bahn-statistics/questions) with statistics about train delays and canceled trains. Similar website with statisics can be found at [github.com/piebro/deutsche-bahn-statistics](https://github.com/piebro/deutsche-bahn-statistics?tab=readme-ov-file#related-deutsche-bahn-and-open-data-websites)
+This project saves public historical data from "Deutsche Bahn", the biggest german train company and makes it accessible for everyone to use.
+It includes train schedules, delays, and cancellations from stations across Germany. 
 
-The raw and the preprocessed data can be found here: https://huggingface.co/datasets/piebro/deutsche-bahn-data
+The data can be used to validate the [official statistics](https://www.deutschebahn.com/de/konzern/konzernprofil/zahlen_fakten/puenktlichkeitswerte-6878476) and to create many other statistics.
 
-## Data Collection
+![Average Delays](average_delays.png)
 
-The [timetables-api](https://developers.deutschebahn.com/db-api-marketplace/apis/product/timetables) is used to collect the raw data. It's free to query the api up to 60 times per seconde and the data is licensed as [(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+## About the data
 
-The [timetable-plan-api](https://developers.deutschebahn.com/db-api-marketplace/apis/product/timetables/api/26494#/Timetables_10213/operation/%2Fplan%2F{evaNo}%2F{date}%2F{hour}/get) is used to get the planned timetable for a station at a specific hour and day. The [timetable-changes-api](https://developers.deutschebahn.com/db-api-marketplace/apis/product/timetables/api/26494#/Timetables_10213/operation/%2Ffchg%2F{evaNo}/get) is used to get all change. This API is queried every 6 hours to not miss any changes.
+Four times a day an automatic job is started that calls the [Station Data API](https://developers.deutschebahn.com/db-api-marketplace/apis/product/stada) to get all stations. Then the [Timetables API](https://developers.deutschebahn.com/db-api-marketplace/apis/product/timetables) is called to get the planned train stops for each station for each hour and the current delays for each station, reaching back longer than 6 hours.
 
-The API is queried using the evas from the biggest train stations To get the evas, the [Station Data API](https://developers.deutschebahn.com/db-api-marketplace/apis/product/stada) is used to get all station with [category](https://en.wikipedia.org/wiki/German_railway_station_categories) 1 or 2. The responses are saved in the `data` folder. Each day is a new subfolder and the suffix of each file hour in UTS time when the change request was made or the time of the planned train schedule.
+The data is licensed as [(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) by Deutsche Bahn.
 
-You can look at the api using the website https://editor.swagger.io/ together with OpenAPI Documentation you can download from [here](https://developers.deutschebahn.com/db-api-marketplace/apis/product/timetables/api/26494#/Timetables_10213/overview).
+The data is available as raw_data (basically the raw return of all the queries) and the monthly process data, which get automatically published each month and makes the raw data more usable. The data can be downloaded from huggingface here: https://huggingface.co/datasets/piebro/deutsche-bahn-data
 
-An example curl command to query the plan api:
+Data of the biggest ~100 stations is available from 2024-07 to 2025-11-02 and since then until now for all stations.
+
+## Using the data
+
+You can download the data from huggingface manually or use the following cmds to download it (these are only tested on Linux, but should also work on mac and windows):
+
 ```bash
-curl -s -H "DB-Api-Key: $API_KEY" -H "DB-Client-Id: $CLIENT_ID" -H "accept: application/xml" "https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/08000260/$(date +"%y%m%d")/$(date +"%H")"
+# Install uv, e.g. for Linux:
+curl -LsSf https://astral.sh/uv/install.sh | sh
+# Download the monthly releases:
+uv run --with "huggingface-hub" hf download piebro/deutsche-bahn-data --repo-type=dataset --local-dir=. --include "monthly_processed_data/*"
+# Download all data:
+uv run --with "huggingface-hub" hf download piebro/deutsche-bahn-data --repo-type=dataset --local-dir=.
 ```
 
-## Database Column Descriptions
+Once the parquet files are downloaded you can use your favorite language and framework to work with the data.
 
-The database contains the following columns that track train schedules, delays, and changes:
+### Monthly Release Data Schema
 
-### Core Information
-- `station`: String - The name of the station where the train stop occurs
-- `train_name`: String - The identifier of the train, combining train type and number (e.g., "IC 123" or "RE 10")
-- `train_type`: String - The type of train service (e.g., "IC", "ICE", "EC", "RE")
-- `final_destination_station`: String - The final destination station of the train's journey
+The monthly processed data contains the following columns:
 
-### Timing Information
-- `delay_in_min`: Integer - The delay in minutes (calculated from departure delay if available, otherwise arrival delay)
-- `time`: Timestamp - The effective time of the train stop (uses departure time if available, otherwise arrival time)
-- `arrival_planned_time`: Timestamp - The scheduled arrival time at the station
-- `arrival_change_time`: Timestamp - The actual/modified arrival time. If no changes occurred, equals the planned time
-- `departure_planned_time`: Timestamp - The scheduled departure time from the station
-- `departure_change_time`: Timestamp - The actual/modified departure time. If no changes occurred, equals the planned time
+| Column | Type | Description |
+|--------|------|-------------|
+| `station_name` | string | Name of the station |
+| `xml_station_name` | string | Station name from the XML response |
+| `eva` | string | EVA station number (unique identifier) |
+| `train_name` | string | Name of the train (e.g., "ICE 123", "RE 5") |
+| `final_destination_station` | string | Final destination of the train |
+| `delay_in_min` | integer | Delay in minutes |
+| `time` | timestamp | Actual arrival or departure time |
+| `is_canceled` | boolean | Whether the train stop was canceled |
+| `train_type` | string | Type of train (e.g., "ICE", "IC", "RE") |
+| `train_line_ride_id` | string | Unique identifier for the train ride |
+| `train_line_station_num` | integer | Station number in the train's route |
+| `arrival_planned_time` | timestamp | Planned arrival time |
+| `arrival_change_time` | timestamp | Actual/changed arrival time |
+| `departure_planned_time` | timestamp | Planned departure time |
+| `departure_change_time` | timestamp | Actual/changed departure time |
+| `id` | string | Unique identifier for the train stop |
 
-### Status Information
-- `is_canceled`: Boolean - Indicates whether the train stop was canceled (true) or not (false)
+### Raw Data Schema
 
-### Train Line Information
-- `train_line_ride_id`: String - Unique identifier for a specific train journey
-- `train_line_station_num`: Integer - The sequential number of this station stop within the train's journey
+The raw data contains the API responses in the following structure:
 
+| Column | Type | Description |
+|--------|------|-------------|
+| `timestamp` | timestamp | When the API request was made |
+| `url` | string | The API endpoint URL that was queried |
+| `api_name` | string | Name of the API (e.g., "timetables/v1/plan", "timetables/v1/fchg") |
+| `query_params` | string | JSON string of query parameters used |
+| `response_data` | string | Raw XML or JSON response from the API |
+| `status_code` | string | HTTP status code of the response |
+| `error` | string | Error message if the request failed |
+| `duration_ms` | float | Request duration in milliseconds |
+| `year` | integer | Year of the request (partition key) |
+| `month` | integer | Month of the request (partition key) |
+| `day` | integer | Day of the request (partition key) |
 
-## Setup
+## Developing Setup
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/piebro/deutsche-bahn-data.git
-   cd deutsche-bahn-data
-   ```
+Install uv and git and run the following commands to download the code and setup everything.
 
-2. Create and activate a virtual environment:
-   ```bash
-   python3 -m venv .venv
-   source .venv/bin/activate
-   ```
-
-3. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Create a monthly data release:
-   ```bash
-   python create_monthly_data_release.py "YYYY-MM"
-   ```
-   Replace `YYYY-MM` with the desired year and month.
+```bash
+git clone https://github.com/piebro/deutsche-bahn-data.git
+cd deutsche-bahn-data
+uv sync --python 3.13
+uv run pre-commit install
+```
 
 ## Contributing
 
@@ -76,4 +90,8 @@ Contributions are welcome. Open an Issue if you want to report a bug, have an id
 
 ## License
 
-All code in this project is licensed under the MIT License. The [data](https://developers.deutschebahn.com/db-api-marketplace/apis/product/timetables) is licensed under [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) by Deutsche Bahn.
+All code in this project is licensed under the MIT License. The [data](https://huggingface.co/datasets/piebro/deutsche-bahn-data) is licensed under [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) by Deutsche Bahn.
+
+## Acknowledgments
+
+Data sourced from Deutsche Bahn's public APIs. Special thanks to Deutsche Bahn for providing open access to this data.
