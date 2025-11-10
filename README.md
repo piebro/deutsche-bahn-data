@@ -1,6 +1,6 @@
 # Deutsche Bahn Data
 
-This project saves public historical data from "Deutsche Bahn", the biggest german train company and makes it accessible for everyone to use.
+This project saves public historical data from "Deutsche Bahn", the biggest german train company and makes it [accessible](https://huggingface.co/datasets/piebro/deutsche-bahn-data) for everyone to use.
 It includes train schedules, delays, and cancellations from stations across Germany. 
 
 The data can be used to validate the [official statistics](https://www.deutschebahn.com/de/konzern/konzernprofil/zahlen_fakten/puenktlichkeitswerte-6878476) and to create many other statistics.
