@@ -74,7 +74,7 @@ async def main(categories: list[int], date_str: str, hours: list[int], parquet_f
     eva_numbers = []
     for category in categories:
         eva_numbers_for_category = await fetch_eva_numbers(category=category, parquet_filename=parquet_filename)
-        print(f"Fetched {len(eva_numbers_for_category)} EVA numbers for category {category}")
+        logger.info(f"Fetched {len(eva_numbers_for_category)} EVA numbers for category {category}")
         eva_numbers.extend(eva_numbers_for_category)
 
     eva_numbers_to_exclude = [
