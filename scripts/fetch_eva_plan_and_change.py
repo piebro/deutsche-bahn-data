@@ -10,14 +10,14 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
-async def fetch_eva_numbers(category: int) -> list[str]:
+async def fetch_eva_numbers(category: int, parquet_filename: str) -> list[str]:
     queries = [
         {
             "url": "https://apis.deutschebahn.com/db-api-marketplace/apis/station-data/v2/stations",
             "params": {"category": str(category)},
         },
     ]
-    df = await fetch_and_save(queries=queries, output_path="raw_data")
+    df = await fetch_and_save(queries=queries, output_path="raw_data", parquet_filename=parquet_filename)
 
     eva_numbers = []
     for station in json.loads(df["response_data"].iloc[0])["result"]:
@@ -67,12 +67,13 @@ async def main(categories: list[int], date_str: str, hours: list[int], parquet_f
     # save facility data
     await fetch_and_save(
         queries=[{"url": "https://apis.deutschebahn.com/db-api-marketplace/apis/fasta/v2/facilities"}],
-        output_path="data",
+        output_path="raw_data",
+        parquet_filename=parquet_filename,
     )
 
     eva_numbers = []
     for category in categories:
-        eva_numbers_for_category = await fetch_eva_numbers(category=category)
+        eva_numbers_for_category = await fetch_eva_numbers(category=category, parquet_filename=parquet_filename)
         print(f"Fetched {len(eva_numbers_for_category)} EVA numbers for category {category}")
         eva_numbers.extend(eva_numbers_for_category)
 
