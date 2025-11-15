@@ -25,7 +25,9 @@ def build_pages_list(all_notebooks):
         pages.append({"name": nb_name, "filename": nb_name, "display_name": display_name})
 
     # Add interactive page as the last page
-    pages.append({"name": "interactive", "filename": "interactive", "display_name": "Interactive Query"})
+    pages.append(
+        {"name": "interaktive_abfragen", "filename": "interaktive_abfragen", "display_name": "Interaktive Abfragen"}
+    )
 
     return pages
 
@@ -364,7 +366,7 @@ def generate_interactive_html(all_notebooks):
     )
 
     # Write the output file
-    output_path = os.path.join("stats", "interactive.html")
+    output_path = os.path.join("stats", "interaktive_abfragen.html")
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(html_content)
 
