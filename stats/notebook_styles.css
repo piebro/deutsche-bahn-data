@@ -1,0 +1,263 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.cell {
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
+.code {
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.code pre {
+    margin: 0;
+    border-radius: 4px;
+}
+
+.output {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+@media (width <= 800px) {
+    .plotly-output {
+        width: 800px;
+    }
+}
+
+.table-output {
+    margin-top: 10px;
+    overflow: scroll;
+    max-height: 70vh;
+    position: relative;
+}
+
+.table-output table {
+    border-collapse: collapse;
+    font-size: 1rem;
+    font-family: monospace;
+    position: relative;
+    border: none;
+}
+
+.table-output th, .table-output td {
+    padding: 0.2em 0.8em;
+    text-align: left;
+    min-width: 5em;
+    border: none;
+}
+
+.table-output td:not(:first-child) {
+    text-align: right;
+    font-family: monospace;
+}
+
+.table-output thead th {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+
+.table-output tbody th {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    background-color: #fff;
+}
+
+.table-output thead th:first-child {
+    background-color: #fff;
+    left: 0;
+    z-index: 4;
+}
+
+.table-output tbody th:first-child {
+    background-color: #fff;
+    left: 0;
+    z-index: 2;
+}
+
+.table-output thead th:nth-child(2) {
+    background-color: #fff;
+    z-index: 3;
+}
+
+.table-output tbody th:nth-child(2) {
+    background-color: #fff;
+    z-index: 1;
+}
+
+.table-output tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+.table-output tr:nth-child(even) {
+    background-color: #fff;
+}
+
+.table-output tbody tr:nth-child(odd) th:first-child,
+.table-output tbody tr:nth-child(odd) th:nth-child(2) {
+    background-color: #eee;
+}
+
+.code-toggle {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px 4px 0 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    user-select: none;
+}
+
+.code-toggle:hover {
+    background-color: #e8e8e8;
+}
+
+.code-toggle::before {
+    content: "▶ ";
+    transition: transform 0.2s;
+}
+
+.code-toggle.expanded::before {
+    content: "▼ ";
+}
+
+.code-content {
+    display: none;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+}
+
+.code-content.expanded {
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+h1 {
+    font-size: 2.2em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.header nav {
+    display: flex;
+    gap: 0.2rem;
+    position: relative;
+    z-index: 10;
+}
+
+.header nav a,
+.header > a {
+    text-decoration: none;
+    color: #666;
+    padding: 0.5rem 0.2rem;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.header nav a:hover,
+.header > a:hover {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.footer {
+    margin-top: 3rem;
+    padding: 2rem 0 1rem;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+
+.page-navigation {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+}
+
+.nav-label {
+    color: #666;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.nav-links-container {
+    display: flex;
+    gap: 0.5rem;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #ccc transparent;
+    flex: 1;
+    min-width: 0;
+    padding-right: 1rem;
+    margin-right: -1rem;
+}
+
+.nav-links-container::-webkit-scrollbar {
+    height: 6px;
+}
+
+.nav-links-container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.nav-links-container::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 3px;
+}
+
+.nav-links-container::-webkit-scrollbar-thumb:hover {
+    background: #999;
+}
+
+.nav-link {
+    text-decoration: underline;
+    /*color: #007acc;*/
+    padding: 0.2rem 0.5rem;
+    font-size: 14px;
+    white-space: nowrap;
+    transition: color 0.2s;
+}
+
+.footer-navigation {
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 1.8;
+}

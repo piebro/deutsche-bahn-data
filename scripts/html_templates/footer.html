@@ -1,0 +1,7 @@
+<footer class='footer'>
+    <p class="footer-navigation">
+        {% for page in pages %}
+        <a href="{{ page.filename }}.html" class="nav-link{% if page.name == current_page %} active{% endif %}">{{ page.display_name }}</a>{% if not loop.last %} | {% endif %}
+        {% endfor %}
+    </p>
+</footer>

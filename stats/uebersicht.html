@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Converted Notebook</title>
+    <link rel="stylesheet" type="text/css" href="../notebooks/notebook.css">
+    <script src="../notebooks/notebook.js"></script>
+    <script src="https://cdn.plot.ly/plotly-3.0.1.min.js" charset="utf-8"></script>
+
+    <link rel="stylesheet" href="notebook_styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <!-- Privacy-friendly analytics by Plausible -->
+    <script async src="https://plausible.io/js/pa-tOOxckPVCDOQVkUmqze2g.js"></script>
+    <script>
+    window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+    plausible.init()
+    </script>
+    
+</head>
+<body>
+    <header class='header'>
+    <div class="page-navigation">
+        <div class="nav-links-container">
+            
+            <a href="uebersicht.html" class="nav-link active">Uebersicht</a>
+            
+            <a href="interactive.html" class="nav-link">Interactive Query</a>
+            
+        </div>
+    </div>
+    <nav>
+        <a href="https://github.com/piebro/deutsche-bahn-data">Code und Daten</a>
+        <a href="https://piebro.github.io?ref=piebro.github.io/deutsche-bahn-data/">Mehr über mich</a>
+    </nav>
+</header>
+    <div class="cell code-cell"><div class="code">
+                <div class="code-toggle" onclick="toggleCode(this)">code</div>
+                <div class="code-content" id="code-0">
+                    <pre><code class="language-python">df = duckdb.sql(&quot;&quot;&quot;
+SELECT
+    strftime(time, &#x27;%Y-%m&#x27;) as months,
+    AVG(delay_in_min) as &quot;Durchschnittliche Verspätung (min)&quot;,
+    COUNT(*) as &quot;Anzahl Stopps&quot;,
+    SUM(CASE WHEN is_canceled THEN 1 ELSE 0 END) as &quot;Ausgefallene Stopps&quot;
+FROM &#x27;../monthly_processed_data/*.parquet&#x27;
+GROUP BY months
+ORDER BY months
+&quot;&quot;&quot;).df()
+
+util.show_figure(
+    [
+        util.FigureConfig(
+            title=&quot;Monatliche Durchschnittsverspätung&quot;,
+            label=&quot;Durchschnittsverspätung&quot;,
+            x_col=&quot;months&quot;,
+            y_col=&quot;Durchschnittliche Verspätung (min)&quot;,
+            query_or_df=df,
+        )
+    ]
+)</code></pre>
+                </div>
+            </div>
+<div id="plotly-div-0-0" class="plotly-output"></div>
+<script>
+    Plotly.newPlot('plotly-div-0-0', [{"hovertemplate": "Durchschnittliche Versp\u00e4tung (min)<br>%{x}<br>%{y:,} Durchschnittliche Versp\u00e4tung (min)<extra></extra>", "name": "Durchschnittliche Versp\u00e4tung (min)", "type": "scatter", "visible": true, "x": ["2024-07", "2024-08", "2024-09", "2024-10", "2024-11", "2024-12", "2025-01", "2025-02", "2025-03", "2025-04", "2025-05", "2025-06", "2025-07", "2025-08", "2025-09", "2025-10"], "y": {"bdata": "UunZUem3DUDvf7kOxMsNQDCBMkXpnw5AOIS0FNINDkBpZUKM9LkQQOgu7idJTQtAgJAZDDY9C0CQeIdNPRMLQMoZjAwGYgtAbGNROxvFDUAN58CdnGYOQCkSpG4HtRBAjlj21DyYEUDPc4FzfZIPQG1Fqkd0pxFABaXBxjCPE0A=", "dtype": "f8"}}], {"barmode": "stack", "font": {"family": "Times", "size": 15}, "margin": {"b": 55, "l": 55, "r": 55, "t": 55}, "paper_bgcolor": "#f5f2f0", "plot_bgcolor": "#f5f2f0", "template": {"data": {"bar": [{"error_x": {"color": "#2a3f5f"}, "error_y": {"color": "#2a3f5f"}, "marker": {"line": {"color": "#E5ECF6", "width": 0.5}, "pattern": {"fillmode": "overlay", "size": 10, "solidity": 0.2}}, "type": "bar"}], "barpolar": [{"marker": {"line": {"color": "#E5ECF6", "width": 0.5}, "pattern": {"fillmode": "overlay", "size": 10, "solidity": 0.2}}, "type": "barpolar"}], "carpet": [{"aaxis": {"endlinecolor": "#2a3f5f", "gridcolor": "white", "linecolor": "white", "minorgridcolor": "white", "startlinecolor": "#2a3f5f"}, "baxis": {"endlinecolor": "#2a3f5f", "gridcolor": "white", "linecolor": "white", "minorgridcolor": "white", "startlinecolor": "#2a3f5f"}, "type": "carpet"}], "choropleth": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "type": "choropleth"}], "contour": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1, "#f0f921"]], "type": "contour"}], "contourcarpet": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "type": "contourcarpet"}], "heatmap": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1, "#f0f921"]], "type": "heatmap"}], "histogram": [{"marker": {"pattern": {"fillmode": "overlay", "size": 10, "solidity": 0.2}}, "type": "histogram"}], "histogram2d": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1, "#f0f921"]], "type": "histogram2d"}], "histogram2dcontour": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1, "#f0f921"]], "type": "histogram2dcontour"}], "mesh3d": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "type": "mesh3d"}], "parcoords": [{"line": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "parcoords"}], "pie": [{"automargin": true, "type": "pie"}], "scatter": [{"fillpattern": {"fillmode": "overlay", "size": 10, "solidity": 0.2}, "type": "scatter"}], "scatter3d": [{"line": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatter3d"}], "scattercarpet": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattercarpet"}], "scattergeo": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattergeo"}], "scattergl": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattergl"}], "scattermap": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattermap"}], "scattermapbox": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scattermapbox"}], "scatterpolar": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatterpolar"}], "scatterpolargl": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatterpolargl"}], "scatterternary": [{"marker": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "type": "scatterternary"}], "surface": [{"colorbar": {"outlinewidth": 0, "ticks": ""}, "colorscale": [[0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1, "#f0f921"]], "type": "surface"}], "table": [{"cells": {"fill": {"color": "#EBF0F8"}, "line": {"color": "white"}}, "header": {"fill": {"color": "#C8D4E3"}, "line": {"color": "white"}}, "type": "table"}]}, "layout": {"annotationdefaults": {"arrowcolor": "#2a3f5f", "arrowhead": 0, "arrowwidth": 1}, "autotypenumbers": "strict", "coloraxis": {"colorbar": {"outlinewidth": 0, "ticks": ""}}, "colorscale": {"diverging": [[0, "#8e0152"], [0.1, "#c51b7d"], [0.2, "#de77ae"], [0.3, "#f1b6da"], [0.4, "#fde0ef"], [0.5, "#f7f7f7"], [0.6, "#e6f5d0"], [0.7, "#b8e186"], [0.8, "#7fbc41"], [0.9, "#4d9221"], [1, "#276419"]], "sequential": [[0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1, "#f0f921"]], "sequentialminus": [[0, "#0d0887"], [0.1111111111111111, "#46039f"], [0.2222222222222222, "#7201a8"], [0.3333333333333333, "#9c179e"], [0.4444444444444444, "#bd3786"], [0.5555555555555556, "#d8576b"], [0.6666666666666666, "#ed7953"], [0.7777777777777778, "#fb9f3a"], [0.8888888888888888, "#fdca26"], [1, "#f0f921"]]}, "colorway": ["#636efa", "#EF553B", "#00cc96", "#ab63fa", "#FFA15A", "#19d3f3", "#FF6692", "#B6E880", "#FF97FF", "#FECB52"], "font": {"color": "#2a3f5f"}, "geo": {"bgcolor": "white", "lakecolor": "white", "landcolor": "#E5ECF6", "showlakes": true, "showland": true, "subunitcolor": "white"}, "hoverlabel": {"align": "left"}, "hovermode": "closest", "mapbox": {"style": "light"}, "paper_bgcolor": "white", "plot_bgcolor": "#E5ECF6", "polar": {"angularaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "bgcolor": "#E5ECF6", "radialaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}}, "scene": {"xaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "gridwidth": 2, "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white"}, "yaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "gridwidth": 2, "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white"}, "zaxis": {"backgroundcolor": "#E5ECF6", "gridcolor": "white", "gridwidth": 2, "linecolor": "white", "showbackground": true, "ticks": "", "zerolinecolor": "white"}}, "shapedefaults": {"line": {"color": "#2a3f5f"}}, "ternary": {"aaxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "baxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}, "bgcolor": "#E5ECF6", "caxis": {"gridcolor": "white", "linecolor": "white", "ticks": ""}}, "title": {"x": 0.05}, "xaxis": {"automargin": true, "gridcolor": "white", "linecolor": "white", "ticks": "", "title": {"standoff": 15}, "zerolinecolor": "white", "zerolinewidth": 2}, "yaxis": {"automargin": true, "gridcolor": "white", "linecolor": "white", "ticks": "", "title": {"standoff": 15}, "zerolinecolor": "white", "zerolinewidth": 2}}}, "title": {"text": "Monatliche Durchschnittsversp\u00e4tung", "x": 0.5}, "xaxis": {"gridcolor": "darkgray", "linecolor": "black", "showgrid": true, "tickcolor": "black", "title": {"text": "months"}, "zerolinecolor": "darkgray"}, "yaxis": {"gridcolor": "darkgray", "linecolor": "black", "rangemode": "tozero", "showgrid": true, "tickcolor": "black", "title": {"text": "Durchschnittliche Versp\u00e4tung (min)"}, "zerolinecolor": "darkgray"}}, {"plotlyServerURL": "https://plot.ly", "responsive": true, "displayModeBar": true, "displaylogo": false});
+</script>
+</div>
+    <footer class='footer'>
+    <p class="footer-navigation">
+        
+        <a href="uebersicht.html" class="nav-link active">Uebersicht</a> | 
+        
+        <a href="interactive.html" class="nav-link">Interactive Query</a>
+        
+    </p>
+</footer>
+    <script>
+        function toggleCode(button) {
+            const content = button.nextElementSibling;
+            const isExpanded = content.classList.contains('expanded');
+
+            if (isExpanded) {
+                content.classList.remove('expanded');
+                button.classList.remove('expanded');
+            } else {
+                content.classList.add('expanded');
+                button.classList.add('expanded');
+            }
+        }
+    </script>
+    
+</body>
+</html>
