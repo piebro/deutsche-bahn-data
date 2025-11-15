@@ -1,0 +1,389 @@
+/* Tabbed Tables CSS Styles */
+
+/* Container styles */
+.tabs-container {
+    margin: 20px 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+}
+
+/* Tab button styles */
+.tab-buttons {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.tab-btn {
+    padding: 10px 20px;
+    background: #ddd;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    transition: all 0.2s ease;
+}
+
+.tab-btn:hover {
+    background: #ccc;
+}
+
+.tab-btn.active {
+    background: #4CAF50;
+    color: white;
+}
+
+/* Content area styles */
+.tab-content {
+    background: #fafafa;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.tab-pane {
+    width: 100%;
+}
+
+/* Controls container */
+.controls-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Search box styles */
+.search-box {
+    padding: 10px 15px;
+    width: 300px;
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border-color 0.2s ease;
+}
+
+.search-box:focus {
+    outline: none;
+    border-color: #2196F3;
+    box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.1);
+}
+
+.search-box::placeholder {
+    color: #999;
+}
+
+/* Pagination controls */
+.pagination-controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.page-size-select {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: border-color 0.2s ease;
+}
+
+.page-size-select:focus {
+    outline: none;
+    border-color: #2196F3;
+}
+
+.pagination-nav {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.page-btn {
+    padding: 6px 12px;
+    border: 1px solid #ddd;
+    background: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    min-width: 35px;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+.page-btn:hover:not(:disabled) {
+    background: #f0f0f0;
+    border-color: #2196F3;
+}
+
+.page-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    background: #f8f8f8;
+}
+
+.page-btn.active {
+    background: #2196F3;
+    color: white;
+    border-color: #2196F3;
+}
+
+.page-info {
+    color: #666;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+/* Table wrapper for horizontal scroll */
+.table-wrapper {
+    overflow: auto;
+    max-height: 55vh;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    background: white;
+}
+
+/* Force webkit scrollbar styling with higher specificity */
+.table-wrapper::-webkit-scrollbar {
+    width: 8px !important;
+    height: 8px !important;
+    background: #f1f1f1 !important;
+}
+
+.table-wrapper::-webkit-scrollbar-track {
+    background: #f1f1f1 !important;
+    border-radius: 4px !important;
+}
+
+.table-wrapper::-webkit-scrollbar-thumb {
+    background: #c1c1c1 !important;
+    border-radius: 4px !important;
+    border: none !important;
+}
+
+.table-wrapper::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8 !important;
+}
+
+.table-wrapper::-webkit-scrollbar-corner {
+    background: #f1f1f1 !important;
+}
+
+/* Alternative: Hide scrollbars completely if styling doesn't work */
+.table-wrapper.hide-scrollbars {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+.table-wrapper.hide-scrollbars::-webkit-scrollbar {
+    display: none !important; /* Chrome, Safari, Opera */
+}
+/* Data table styles */
+.data-table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.85rem;
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+    position: relative;
+    background: white !important;
+    min-width: 600px;
+    color: #333 !important;
+}
+
+.data-table th, 
+.data-table td {
+    padding: 0.4em;
+    text-align: left;
+    color: #333 !important;
+    background-color: inherit;
+}
+
+/* Right-align all table cells */
+.data-table td {
+    text-align: right;
+}
+
+/* Apply tabular numbers for consistent spacing */
+.data-table td {
+    font-variant-numeric: tabular-nums;
+}
+
+.data-table thead th {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #fff !important;
+    font-weight: 600;
+    border-bottom: 2px solid #e0e0e0;
+    z-index: 10;
+    user-select: none;
+    color: #333 !important;
+    text-align: center;
+}
+
+.data-table tbody th {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    background-color: #fff !important;
+    font-weight: 600;
+    color: #333 !important;
+}
+
+.data-table thead th:first-child {
+    background-color: #fff !important;
+    left: 0;
+    z-index: 4;
+}
+
+.data-table tbody th:first-child {
+    background-color: #fff !important;
+    left: 0;
+    z-index: 2;
+}
+
+.data-table thead th:nth-child(2) {
+    background-color: #fff !important;
+    z-index: 3;
+}
+
+.data-table tbody th:nth-child(2) {
+    background-color: #fff !important;
+    z-index: 1;
+}
+
+.data-table tr:nth-child(odd) {
+    background-color: #eee !important;
+}
+
+.data-table tr:nth-child(even) {
+    background-color: #fff !important;
+}
+
+.data-table tbody tr:nth-child(odd) th:first-child,
+.data-table tbody tr:nth-child(odd) th:nth-child(2) {
+    background-color: #eee !important;
+}
+
+.data-table tbody tr:nth-child(odd) td {
+    background-color: #eee !important;
+    color: #333 !important;
+}
+
+.data-table tbody tr:nth-child(even) td {
+    background-color: #fff !important;
+    color: #333 !important;
+}
+
+.data-table th.sortable {
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.2s ease;
+}
+
+.data-table th.sortable:hover {
+    background-color: #e9ecef !important;
+    color: #333 !important;
+}
+
+/* Sorting indicators */
+.data-table th.sorting::after {
+    content: "↕";
+    opacity: 0.3;
+    margin-left: 8px;
+    font-size: 12px;
+    color: #666;
+}
+
+.data-table th.sorting_asc::after {
+    content: "↑";
+    color: #4CAF50 !important;
+    opacity: 1;
+    margin-left: 8px;
+    font-size: 12px;
+}
+
+.data-table th.sorting_desc::after {
+    content: "↓";
+    color: #4CAF50 !important;
+    opacity: 1;
+    margin-left: 8px;
+    font-size: 12px;
+}
+
+/* Row visibility control */
+.data-table tbody tr {
+    display: none;
+}
+
+.data-table tbody tr.visible {
+    display: table-row;
+}
+
+.figure-selector {
+    margin-bottom: 10px;
+}
+
+.figure-selector select {
+    padding: 8px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: border-color 0.2s ease;
+    min-width: 200px;
+}
+
+.figure-selector select:focus {
+    outline: none;
+    border-color: #2196F3;
+    box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.1);
+}
+
+
+.figure-display .loading-message,
+.figure-display .empty-message,
+.figure-display .error-message {
+    text-align: center;
+    padding: 50px 20px;
+    font-size: 16px;
+}
+
+.figure-display {
+    min-height: 600px;
+    transition: height 0.3s ease;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .controls-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .search-box {
+        width: 100%;
+        max-width: none;
+    }
+    
+    .pagination-controls {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .tab-buttons {
+        flex-wrap: wrap;
+    }
+    
+    .tab-btn {
+        flex: 1;
+        min-width: 100px;
+    }
+}

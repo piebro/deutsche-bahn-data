@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Data Query Explorer</title>
+    <link rel="stylesheet" type="text/css" href="../notebooks/notebook.css">
+    <script src="../notebooks/notebook.js"></script>
+    <script src="https://cdn.plot.ly/plotly-3.0.1.min.js" charset="utf-8"></script>
+
+    <link rel="stylesheet" href="notebook_styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script defer data-domain="piebro.github.io/openstreetmap-statistics" src="https://plausible.io/js/script.js"></script>
+    
+<style>
+    /* Form input styling */
+    select, textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    select {
+        cursor: pointer;
+    }
+
+    textarea {
+        font-family: 'Consolas', 'Monaco', monospace;
+        min-height: 300px;
+        resize: vertical;
+    }
+
+    button {
+        background-color: #4a90e2;
+        color: white;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 500;
+        transition: background-color 0.2s;
+    }
+
+    button:hover:not(:disabled) {
+        background-color: #357abd;
+    }
+
+    button:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: 500;
+        color: #555;
+    }
+
+    #llmHelperText {
+        position: absolute;
+        left: -9999px;
+        opacity: 0;
+    }
+
+    #copyLlmButton {
+        background-color: #6c757d;
+        margin-left: 10px;
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    #copyLlmButton:hover:not(:disabled) {
+        background-color: #5a6268;
+    }
+
+    .copy-section {
+        margin-top: 20px;
+    }
+</style>
+
+</head>
+<body>
+    <header class='header'>
+    <div class="page-navigation">
+        <div class="nav-links-container">
+            
+            <a href="uebersicht.html" class="nav-link">Uebersicht</a>
+            
+            <a href="interactive.html" class="nav-link active">Interactive Query</a>
+            
+        </div>
+    </div>
+    <nav>
+        <a href="https://github.com/piebro/deutsche-bahn-data">Code und Daten</a>
+        <a href="https://piebro.github.io?ref=piebro.github.io/deutsche-bahn-data/">Mehr über mich</a>
+    </nav>
+</header>
+    
+<div class="cell markdown-cell">
+    <h2>Abfrage der Deutsche Bahn Daten im Browser</h2>
+    <p>
+        Verwende die Beispielabfrage, um zu beginnen, oder geben Sie Ihre eigene SQL Abfrage ein.
+    </p>
+    <div class="copy-section">
+        <p>
+            Verwende ein LLM (wie ChatGPT, Mistral usw.), um benutzerdefinierte SQL-Abfragen für diese Daten zu generieren.
+            Fügen die Dataset-Informationen in den Chat ein, damit das LLM weiß wie die Abfragen aussehen müssen.<button id="copyLlmButton">Dataset-Info für LLM kopieren</button>
+        </p>
+        <textarea id="llmHelperText" readonly>Deutsche Bahn Dataset-Informationen für benutzerdefinierte Abfragenerstellung
+
+Diese Daten sind für Abfragen mit DuckDB WASM im Browser verfügbar. Alle Daten werden als Parquet-Dateien auf Hugging Face gespeichert unter: https://huggingface.co/datasets/piebro/deutsche-bahn-data
+
+WICHTIGE HINWEISE ZUR DATEIGRÖSSE:
+- monthly_processed_data: Jede monatliche Parquet-Datei ist ca. 70-200 MB groß
+- Beachten Sie diese Dateigrößen beim Schreiben von Abfragen - das Herunterladen großer Dateien kann im Browser Zeit in Anspruch nehmen
+
+VERFÜGBARES DATASET:
+
+MONTHLY PROCESSED DATA (Monatlich verarbeitete Daten)
+Speicherort: https://huggingface.co/datasets/piebro/deutsche-bahn-data/resolve/main/monthly_processed_data/data-YYYY-MM.parquet
+Dateiformat: data-YYYY-MM.parquet (z.B. data-2024-07.parquet für Juli 2024)
+Verfügbare Daten: Von 2024-07 bis heute
+
+Wichtige Spalten:
+
+Identifikation:
+- station_name: Name der Station
+- eva: EVA-Stationsnummer (eindeutiger Bezeichner)
+- train_name: Name des Zuges (z.B. "ICE 123", "RE 5")
+- train_type: Zugtyp (z.B. "ICE", "IC", "RE", "RB", "S", "Bus")
+  - S: S-Bahn (Nahverkehrszüge)
+  - RE: Regional-Express
+  - RB: Regionalbahn
+  - ICE: InterCity Express (Hochgeschwindigkeitszüge)
+  - IC: InterCity
+  - Bus: Schienenersatzverkehr
+- final_destination_station: Endziel des Zuges
+- id: Eindeutiger Bezeichner für den Zugstopp
+
+Zeitangaben:
+- arrival_planned_time: Geplante Ankunftszeit
+- arrival_change_time: Tatsächliche/geänderte Ankunftszeit
+- departure_planned_time: Geplante Abfahrtszeit
+- departure_change_time: Tatsächliche/geänderte Abfahrtszeit
+- time: Tatsächliche Ankunfts- oder Abfahrtszeit
+
+Status:
+- delay_in_min: Verspätung in Minuten
+- is_canceled: Ob der Zugstopp ausgefallen ist (boolean)
+
+Zugfahrt:
+- train_line_ride_id: Eindeutiger Bezeichner für die Zugfahrt
+- train_line_station_num: Stationsnummer in der Route des Zuges
+
+DUCKDB-ABFRAGEMUSTER:
+
+Parquet-Dateien lesen:
+WICHTIG: Wildcards ("*") können NICHT in HTTPS-URLs verwendet werden. Sie müssen jeden Dateipfad explizit auflisten.
+
+```sql
+-- Einzelne Datei
+FROM read_parquet('https://huggingface.co/datasets/piebro/deutsche-bahn-data/resolve/main/monthly_processed_data/data-2024-07.parquet')
+
+-- Mehrere Dateien (Array) - jede Datei muss explizit aufgelistet werden
+FROM read_parquet([
+    'https://huggingface.co/datasets/piebro/deutsche-bahn-data/resolve/main/monthly_processed_data/data-2024-07.parquet',
+    'https://huggingface.co/datasets/piebro/deutsche-bahn-data/resolve/main/monthly_processed_data/data-2024-08.parquet'
+])
+
+-- UNGÜLTIG: Dies funktioniert NICHT mit HTTPS-URLs
+-- FROM read_parquet('https://huggingface.co/datasets/piebro/deutsche-bahn-data/resolve/main/monthly_processed_data/data-*.parquet')
+```
+
+Häufige Aggregationen:
+```sql
+-- Für sauberere Ausgabe zu geeigneten Typen konvertieren
+AVG(delay_in_min) as "Durchschnittliche Verspätung (min)"
+COUNT(*) as "Anzahl Stopps"
+SUM(CASE WHEN is_canceled THEN 1 ELSE 0 END) as "Ausgefallene Stopps"
+```
+
+Zeitgruppierung:
+```sql
+-- Jahr-Monat für Anzeige formatieren
+strftime(time, '%Y-%m') as "Monat"
+
+-- Nach Datum filtern
+WHERE time >= '2024-07-01' AND time < '2024-08-01'
+
+-- Nach Jahr und Monat filtern
+WHERE strftime(time, '%Y-%m') = '2024-07'
+```
+
+BEISPIELABFRAGEN:
+
+Monatliche Durchschnittsverspätungen und Ausfälle:
+```sql
+SELECT
+    strftime(time, '%Y-%m') as "Monat",
+    AVG(delay_in_min) as "Durchschnittliche Verspätung (min)",
+    COUNT(*) as "Anzahl Stopps",
+    SUM(CASE WHEN is_canceled THEN 1 ELSE 0 END) as "Ausgefallene Stopps"
+FROM read_parquet('https://huggingface.co/datasets/piebro/deutsche-bahn-data/resolve/main/monthly_processed_data/data-2024-07.parquet')
+GROUP BY "Monat"
+ORDER BY "Monat"
+```
+
+Top 10 Stationen nach Verspätungen:
+```sql
+SELECT
+    station_name as "Station",
+    AVG(delay_in_min) as "Durchschnittliche Verspätung (min)",
+    COUNT(*) as "Anzahl Stopps"
+FROM read_parquet('https://huggingface.co/datasets/piebro/deutsche-bahn-data/resolve/main/monthly_processed_data/data-2024-07.parquet')
+WHERE delay_in_min IS NOT NULL
+GROUP BY station_name
+ORDER BY "Durchschnittliche Verspätung (min)" DESC
+LIMIT 10
+```
+
+Verspätungen nach Zugtyp:
+```sql
+SELECT
+    train_type as "Zugtyp",
+    AVG(delay_in_min) as "Durchschnittliche Verspätung (min)",
+    COUNT(*) as "Anzahl Stopps",
+    ROUND(100.0 * SUM(CASE WHEN is_canceled THEN 1 ELSE 0 END) / COUNT(*), 2) as "Ausfallrate (%)"
+FROM read_parquet('https://huggingface.co/datasets/piebro/deutsche-bahn-data/resolve/main/monthly_processed_data/data-2024-07.parquet')
+WHERE train_type IS NOT NULL
+GROUP BY train_type
+ORDER BY "Anzahl Stopps" DESC
+LIMIT 10
+```
+
+Ausfälle pro Tag:
+```sql
+SELECT
+    strftime(DATE_TRUNC('day', time), '%Y-%m-%d') as "Datum",
+    SUM(CASE WHEN is_canceled THEN 1 ELSE 0 END) as "Ausgefallene Stopps",
+    COUNT(*) as "Gesamte Stopps",
+    ROUND(100.0 * SUM(CASE WHEN is_canceled THEN 1 ELSE 0 END) / COUNT(*), 2) as "Ausfallrate (%)"
+FROM read_parquet('https://huggingface.co/datasets/piebro/deutsche-bahn-data/resolve/main/monthly_processed_data/data-2024-07.parquet')
+GROUP BY "Datum"
+ORDER BY "Datum"
+```
+
+TIPPS FÜR DIE ABFRAGENERSTELLUNG:
+- Verwenden Sie immer HTTPS-URLs für Parquet-Dateien
+- KRITISCH: Wildcards ("*") funktionieren NICHT in HTTPS-URLs - listen Sie jeden Dateipfad explizit auf
+- Bedenken Sie, dass Abfragen Datendateien herunterladen - berücksichtigen Sie die Dateigrößen
+- Verwenden Sie die Array-Syntax [...] für mehrere Dateien
+- Verwenden Sie aussagekräftige Spalten-Aliase mit Anführungszeichen: "Anzahl Stopps"
+- Filtern Sie früh (WHERE-Klauseln), um die Verarbeitung zu reduzieren
+- Verwenden Sie IS NOT NULL beim Filtern von Spalten, die NULL-Werte enthalten können
+- Für aktuelle Daten konzentrieren Sie sich auf aktuelle Jahre/Monate, um die Download-Größe zu minimieren
+- Die Daten sind ab Juli 2024 (2024-07) verfügbar
+</textarea>
+    </div>
+    <p>
+        Die Daten sind in <a href="https://huggingface.co/datasets/piebro/deutsche-bahn-data" target="_blank">Dataset-Repository auf Hugging Face</a> gespeicht.
+        Bei jeder Abfrage wir "DuckDB WASM" benutzt um die Daten in den Browser direkt zu verarbeiten.
+        Das heißt es funktioniert alles Lokal, aber das heißt auch das bei jeder Abfrage 100MB oder mehr gedownloaded werden können.
+    </p>
+</div>
+
+<div class="cell">
+    <label for="exampleSelect">
+        Wählen Sie eine Abfrage aus:
+    </label>
+    <select id="exampleSelect">
+    </select>
+
+    <label for="queryInput">
+        SQL-Abfrage:
+    </label>
+    <textarea id="queryInput" placeholder="Geben Sie hier Ihre SQL-Abfrage ein..."></textarea>
+
+    <button id="runButton">Abfrage ausführen</button>
+</div>
+
+<div id="results" class="cell"></div>
+
+<textarea id="llmHelperText" readonly>Deutsche Bahn Dataset-Informationen für benutzerdefinierte Abfragenerstellung
+
+Diese Daten sind für Abfragen mit DuckDB WASM im Browser verfügbar. Alle Daten werden als Parquet-Dateien auf Hugging Face gespeichert unter: https://huggingface.co/datasets/piebro/deutsche-bahn-data
+
+WICHTIGE HINWEISE ZUR DATEIGRÖSSE:
+- monthly_processed_data: Jede monatliche Parquet-Datei ist ca. 70-200 MB groß
+- Beachten Sie diese Dateigrößen beim Schreiben von Abfragen - das Herunterladen großer Dateien kann im Browser Zeit in Anspruch nehmen
+
+VERFÜGBARES DATASET:
+
+MONTHLY PROCESSED DATA (Monatlich verarbeitete Daten)
+Speicherort: https://huggingface.co/datasets/piebro/deutsche-bahn-data/resolve/main/monthly_processed_data/data-YYYY-MM.parquet
+Dateiformat: data-YYYY-MM.parquet (z.B. data-2024-07.parquet für Juli 2024)
+Verfügbare Daten: Von 2024-07 bis heute
+
+Wichtige Spalten:
+
+Identifikation:
+- station_name: Name der Station
+- eva: EVA-Stationsnummer (eindeutiger Bezeichner)
+- train_name: Name des Zuges (z.B. "ICE 123", "RE 5")
+- train_type: Zugtyp (z.B. "ICE", "IC", "RE", "RB", "S", "Bus")
+  - S: S-Bahn (Nahverkehrszüge)
+  - RE: Regional-Express
+  - RB: Regionalbahn
+  - ICE: InterCity Express (Hochgeschwindigkeitszüge)
+  - IC: InterCity
+  - Bus: Schienenersatzverkehr
+- final_destination_station: Endziel des Zuges
+- id: Eindeutiger Bezeichner für den Zugstopp
+
+Zeitangaben:
+- arrival_planned_time: Geplante Ankunftszeit
+- arrival_change_time: Tatsächliche/geänderte Ankunftszeit
+- departure_planned_time: Geplante Abfahrtszeit
+- departure_change_time: Tatsächliche/geänderte Abfahrtszeit
+- time: Tatsächliche Ankunfts- oder Abfahrtszeit
+
+Status:
+- delay_in_min: Verspätung in Minuten
+- is_canceled: Ob der Zugstopp ausgefallen ist (boolean)
+
+Zugfahrt:
+- train_line_ride_id: Eindeutiger Bezeichner für die Zugfahrt
+- train_line_station_num: Stationsnummer in der Route des Zuges
+
+DUCKDB-ABFRAGEMUSTER:
+
+Parquet-Dateien lesen:
+WICHTIG: Wildcards ("*") können NICHT in HTTPS-URLs verwendet werden. Sie müssen jeden Dateipfad explizit auflisten.
+
+```sql
+-- Einzelne Datei
+FROM read_parquet('https://huggingface.co/datasets/piebro/deutsche-bahn-data/resolve/main/monthly_processed_data/data-2024-07.parquet')
+
+-- Mehrere Dateien (Array) - jede Datei muss explizit aufgelistet werden
+FROM read_parquet([
+    'https://huggingface.co/datasets/piebro/deutsche-bahn-data/resolve/main/monthly_processed_data/data-2024-07.parquet',
+    'https://huggingface.co/datasets/piebro/deutsche-bahn-data/resolve/main/monthly_processed_data/data-2024-08.parquet'
+])
+
+-- UNGÜLTIG: Dies funktioniert NICHT mit HTTPS-URLs
+-- FROM read_parquet('https://huggingface.co/datasets/piebro/deutsche-bahn-data/resolve/main/monthly_processed_data/data-*.parquet')
+```
+
+Häufige Aggregationen:
+```sql
+-- Für sauberere Ausgabe zu geeigneten Typen konvertieren
+AVG(delay_in_min) as "Durchschnittliche Verspätung (min)"
+COUNT(*) as "Anzahl Stopps"
+SUM(CASE WHEN is_canceled THEN 1 ELSE 0 END) as "Ausgefallene Stopps"
+```
+
+Zeitgruppierung:
+```sql
+-- Jahr-Monat für Anzeige formatieren
+strftime(time, '%Y-%m') as "Monat"
+
+-- Nach Datum filtern
+WHERE time >= '2024-07-01' AND time < '2024-08-01'
+
+-- Nach Jahr und Monat filtern
+WHERE strftime(time, '%Y-%m') = '2024-07'
+```
+
+BEISPIELABFRAGEN:
+
+Monatliche Durchschnittsverspätungen und Ausfälle:
+```sql
+SELECT
+    strftime(time, '%Y-%m') as "Monat",
+    AVG(delay_in_min) as "Durchschnittliche Verspätung (min)",
+    COUNT(*) as "Anzahl Stopps",
+    SUM(CASE WHEN is_canceled THEN 1 ELSE 0 END) as "Ausgefallene Stopps"
+FROM read_parquet('https://huggingface.co/datasets/piebro/deutsche-bahn-data/resolve/main/monthly_processed_data/data-2024-07.parquet')
+GROUP BY "Monat"
+ORDER BY "Monat"
+```
+
+Top 10 Stationen nach Verspätungen:
+```sql
+SELECT
+    station_name as "Station",
+    AVG(delay_in_min) as "Durchschnittliche Verspätung (min)",
+    COUNT(*) as "Anzahl Stopps"
+FROM read_parquet('https://huggingface.co/datasets/piebro/deutsche-bahn-data/resolve/main/monthly_processed_data/data-2024-07.parquet')
+WHERE delay_in_min IS NOT NULL
+GROUP BY station_name
+ORDER BY "Durchschnittliche Verspätung (min)" DESC
+LIMIT 10
+```
+
+Verspätungen nach Zugtyp:
+```sql
+SELECT
+    train_type as "Zugtyp",
+    AVG(delay_in_min) as "Durchschnittliche Verspätung (min)",
+    COUNT(*) as "Anzahl Stopps",
+    ROUND(100.0 * SUM(CASE WHEN is_canceled THEN 1 ELSE 0 END) / COUNT(*), 2) as "Ausfallrate (%)"
+FROM read_parquet('https://huggingface.co/datasets/piebro/deutsche-bahn-data/resolve/main/monthly_processed_data/data-2024-07.parquet')
+WHERE train_type IS NOT NULL
+GROUP BY train_type
+ORDER BY "Anzahl Stopps" DESC
+LIMIT 10
+```
+
+Ausfälle pro Tag:
+```sql
+SELECT
+    strftime(DATE_TRUNC('day', time), '%Y-%m-%d') as "Datum",
+    SUM(CASE WHEN is_canceled THEN 1 ELSE 0 END) as "Ausgefallene Stopps",
+    COUNT(*) as "Gesamte Stopps",
+    ROUND(100.0 * SUM(CASE WHEN is_canceled THEN 1 ELSE 0 END) / COUNT(*), 2) as "Ausfallrate (%)"
+FROM read_parquet('https://huggingface.co/datasets/piebro/deutsche-bahn-data/resolve/main/monthly_processed_data/data-2024-07.parquet')
+GROUP BY "Datum"
+ORDER BY "Datum"
+```
+
+TIPPS FÜR DIE ABFRAGENERSTELLUNG:
+- Verwenden Sie immer HTTPS-URLs für Parquet-Dateien
+- KRITISCH: Wildcards ("*") funktionieren NICHT in HTTPS-URLs - listen Sie jeden Dateipfad explizit auf
+- Bedenken Sie, dass Abfragen Datendateien herunterladen - berücksichtigen Sie die Dateigrößen
+- Verwenden Sie die Array-Syntax [...] für mehrere Dateien
+- Verwenden Sie aussagekräftige Spalten-Aliase mit Anführungszeichen: "Anzahl Stopps"
+- Filtern Sie früh (WHERE-Klauseln), um die Verarbeitung zu reduzieren
+- Verwenden Sie IS NOT NULL beim Filtern von Spalten, die NULL-Werte enthalten können
+- Für aktuelle Daten konzentrieren Sie sich auf aktuelle Jahre/Monate, um die Download-Größe zu minimieren
+- Die Daten sind ab Juli 2024 (2024-07) verfügbar
+</textarea>
+
+    <footer class='footer'>
+    <p class="footer-navigation">
+        
+        <a href="uebersicht.html" class="nav-link">Uebersicht</a> | 
+        
+        <a href="interactive.html" class="nav-link active">Interactive Query</a>
+        
+    </p>
+</footer>
+    <script>
+        function toggleCode(button) {
+            const content = button.nextElementSibling;
+            const isExpanded = content.classList.contains('expanded');
+
+            if (isExpanded) {
+                content.classList.remove('expanded');
+                button.classList.remove('expanded');
+            } else {
+                content.classList.add('expanded');
+                button.classList.add('expanded');
+            }
+        }
+    </script>
+    
+<script type="module">
+    import * as duckdb from 'https://cdn.jsdelivr.net/npm/@duckdb/duckdb-wasm@1.31.0/+esm';
+
+    // Example queries
+    const examples = [
+        {
+            name: "Monatliche Durchschnittsverspätungen und Ausfälle",
+            query: `SELECT
+    strftime(time, '%Y-%m') as "Monat",
+    AVG(delay_in_min) as "Durchschnittliche Verspätung (min)",
+    COUNT(*) as "Anzahl Stopps",
+    SUM(CASE WHEN is_canceled THEN 1 ELSE 0 END) as "Ausgefallene Stopps"
+FROM read_parquet('https://huggingface.co/datasets/piebro/deutsche-bahn-data/resolve/main/monthly_processed_data/data-2024-07.parquet')
+GROUP BY "Monat"
+ORDER BY "Monat";`
+        },
+        {
+            name: "Top 10 Stationen nach Verspätungen",
+            query: `SELECT
+    station_name as "Station",
+    AVG(delay_in_min) as "Durchschnittliche Verspätung (min)",
+    COUNT(*) as "Anzahl Stopps"
+FROM read_parquet('https://huggingface.co/datasets/piebro/deutsche-bahn-data/resolve/main/monthly_processed_data/data-2024-07.parquet')
+WHERE delay_in_min IS NOT NULL
+GROUP BY station_name
+ORDER BY "Durchschnittliche Verspätung (min)" DESC
+LIMIT 10;`
+        },
+        {
+            name: "Verspätungen nach Zugtyp",
+            query: `SELECT
+    train_type as "Zugtyp",
+    AVG(delay_in_min) as "Durchschnittliche Verspätung (min)",
+    COUNT(*) as "Anzahl Stopps",
+    ROUND(100.0 * SUM(CASE WHEN is_canceled THEN 1 ELSE 0 END) / COUNT(*), 2) as "Ausfallrate (%)"
+FROM read_parquet('https://huggingface.co/datasets/piebro/deutsche-bahn-data/resolve/main/monthly_processed_data/data-2024-07.parquet')
+WHERE train_type IS NOT NULL
+GROUP BY train_type
+ORDER BY "Anzahl Stopps" DESC
+LIMIT 10;`
+        },
+        {
+            name: "Ausfälle pro Tag",
+            query: `SELECT
+    strftime(DATE_TRUNC('day', time), '%Y-%m-%d') as "Datum",
+    SUM(CASE WHEN is_canceled THEN 1 ELSE 0 END) as "Ausgefallene Stopps",
+    COUNT(*) as "Gesamte Stopps",
+    ROUND(100.0 * SUM(CASE WHEN is_canceled THEN 1 ELSE 0 END) / COUNT(*), 2) as "Ausfallrate (%)"
+FROM read_parquet('https://huggingface.co/datasets/piebro/deutsche-bahn-data/resolve/main/monthly_processed_data/data-2024-07.parquet')
+GROUP BY "Datum"
+ORDER BY "Datum";`
+        }
+    ];
+
+    // DOM elements
+    const exampleSelect = document.getElementById('exampleSelect');
+    const queryInput = document.getElementById('queryInput');
+    const runButton = document.getElementById('runButton');
+    const resultsDiv = document.getElementById('results');
+    const copyLlmButton = document.getElementById('copyLlmButton');
+    const llmHelperText = document.getElementById('llmHelperText');
+
+    // Initialize
+    populateExamples();
+    loadDefaultQuery();
+
+    // Event listeners
+    exampleSelect.addEventListener('change', (e) => {
+        const selectedIndex = e.target.value;
+        if (selectedIndex !== '') {
+            queryInput.value = examples[selectedIndex].query;
+        }
+    });
+
+    runButton.addEventListener('click', runQuery);
+
+    copyLlmButton.addEventListener('click', async () => {
+        try {
+            await navigator.clipboard.writeText(llmHelperText.value);
+            const originalText = copyLlmButton.textContent;
+            copyLlmButton.textContent = 'Kopiert!';
+            setTimeout(() => {
+                copyLlmButton.textContent = originalText;
+            }, 2000);
+        } catch (err) {
+            console.error('Failed to copy text:', err);
+            alert('Kopieren in die Zwischenablage fehlgeschlagen. Bitte versuchen Sie es erneut.');
+        }
+    });
+
+    // Functions
+    function populateExamples() {
+        examples.forEach((example, index) => {
+            const option = document.createElement('option');
+            option.value = index;
+            option.textContent = example.name;
+            exampleSelect.appendChild(option);
+        });
+    }
+
+    function loadDefaultQuery() {
+        // Load the first example as default
+        queryInput.value = examples[0].query;
+        exampleSelect.value = '0';
+    }
+
+    async function runQuery() {
+        try {
+            resultsDiv.innerHTML = '<p>Datenbank wird initialisiert und Abfrage wird ausgeführt...</p>';
+            runButton.disabled = true;
+
+            const query = queryInput.value.trim();
+            if (!query) {
+                resultsDiv.innerHTML = '<p>Bitte geben Sie eine Abfrage ein.</p>';
+                return;
+            }
+
+            // Initialize DuckDB
+            const JSDELIVR_BUNDLES = duckdb.getJsDelivrBundles();
+            const bundle = await duckdb.selectBundle(JSDELIVR_BUNDLES);
+
+            // Fix for CORS issue: Create a Blob URL for the worker
+            const worker_url = URL.createObjectURL(
+                new Blob([`importScripts("${bundle.mainWorker}");`], {type: 'application/javascript'})
+            );
+
+            const worker = new Worker(worker_url);
+            const logger = new duckdb.ConsoleLogger();
+            const db = new duckdb.AsyncDuckDB(logger, worker);
+            await db.instantiate(bundle.mainModule, bundle.pthreadWorker);
+
+            URL.revokeObjectURL(worker_url);
+
+            const c = await db.connect();
+
+            // Execute the query
+            const result = await c.query(query);
+
+            // Convert result to array of objects
+            const rows = result.toArray().map(row => Object.fromEntries(row));
+
+            // Build HTML table using notebook styles
+            let tableHTML = '<div class="output table-output"><table>';
+
+            if (rows.length > 0) {
+                // Table header
+                tableHTML += '<thead><tr>';
+                const columns = Object.keys(rows[0]);
+                columns.forEach(col => {
+                    tableHTML += `<th>${col}</th>`;
+                });
+                tableHTML += '</tr></thead>';
+
+                // Table body
+                tableHTML += '<tbody>';
+                rows.forEach(row => {
+                    tableHTML += '<tr>';
+                    columns.forEach(col => {
+                        const value = row[col];
+                        // Format the value (handle null, numbers, etc.)
+                        const displayValue = value === null ? 'NULL' :
+                                            typeof value === 'number' ? value.toLocaleString() :
+                                            value;
+                        tableHTML += `<td>${displayValue}</td>`;
+                    });
+                    tableHTML += '</tr>';
+                });
+                tableHTML += '</tbody>';
+            } else {
+                tableHTML += '<tbody><tr><td>Keine Ergebnisse gefunden</td></tr></tbody>';
+            }
+
+            tableHTML += '</table></div>';
+
+            // Display results
+            resultsDiv.innerHTML = `
+                <h2>Abfrageergebnisse</h2>
+                ${tableHTML}
+            `;
+
+            // Clean up
+            await c.close();
+            await db.terminate();
+            worker.terminate();
+
+        } catch (error) {
+            console.error(error);
+            resultsDiv.innerHTML = `<p><strong>Fehler:</strong> ${error.message}</p>`;
+        } finally {
+            runButton.disabled = false;
+        }
+    }
+</script>
+
+</body>
+</html>

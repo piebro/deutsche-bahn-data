@@ -1,0 +1,13 @@
+<header class='header'>
+    <div class="page-navigation">
+        <div class="nav-links-container">
+            {% for page in pages %}
+            <a href="{{ page.filename }}.html" class="nav-link{% if page.name == current_page %} active{% endif %}">{{ page.display_name }}</a>
+            {% endfor %}
+        </div>
+    </div>
+    <nav>
+        <a href="https://github.com/piebro/deutsche-bahn-data">Code und Daten</a>
+        <a href="https://piebro.github.io?ref=piebro.github.io/deutsche-bahn-data/">Mehr über mich</a>
+    </nav>
+</header>
