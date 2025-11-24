@@ -4,6 +4,15 @@ on:
     # Run every 6 hours at 3am, 9am, 3pm, 9pm UTC
     - cron: '0 3,9,15,21 * * *'
   workflow_dispatch:
+    inputs:
+      date:
+        description: 'Date in YYYY-MM-DD format (leave empty for today)'
+        required: false
+        type: string
+      hours:
+        description: 'Comma-separated hours 0-23 (e.g., "3,9,15,21" or leave empty for auto-calculated 6-hour window)'
+        required: false
+        type: string
 
 jobs:
   fetch-and-upload:
@@ -25,22 +34,33 @@ jobs:
           # Create .env file with API key
           echo "DB_API_KEY=$DB_API_KEY" > .env
 
-          # Calculate hours: current hour -3 to +2 (6 hour window)
-          CURRENT_HOUR=$(date -u +"%H")
-          HOURS=""
-          for i in {-3..2}; do
-            HOUR=$(( (10#$CURRENT_HOUR + i + 24) % 24 ))
-            if [ -z "$HOURS" ]; then
-              HOURS="$HOUR"
-            else
-              HOURS="$HOURS,$HOUR"
-            fi
-          done
+          # Use manual input date if provided, otherwise use today
+          DATE="${{ inputs.date }}"
+          if [ -z "$DATE" ]; then
+            DATE=$(date -u +"%Y-%m-%d")
+          fi
 
+          # Use manual input hours if provided, otherwise calculate
+          HOURS="${{ inputs.hours }}"
+          if [ -z "$HOURS" ]; then
+            # Calculate hours: current hour -3 to +2 (6 hour window)
+            CURRENT_HOUR=$(date -u +"%H")
+            HOURS=""
+            for i in {-3..2}; do
+              HOUR=$(( (10#$CURRENT_HOUR + i + 24) % 24 ))
+              if [ -z "$HOURS" ]; then
+                HOURS="$HOUR"
+              else
+                HOURS="$HOURS,$HOUR"
+              fi
+            done
+          fi
+
+          echo "Using date: $DATE"
           echo "Fetching data for hours: $HOURS"
 
           # Fetch data for the 6-hour window
-          uv run python scripts/fetch_eva_plan_and_change.py --categories 1,2,3,4,5,6,7 --hours "$HOURS"
+          uv run python scripts/fetch_eva_plan_and_change.py --categories 1,2,3,4,5,6,7 --date "$DATE" --hours "$HOURS"
 
       - name: Upload data to Hugging Face
         env:
