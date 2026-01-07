@@ -13,10 +13,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Setup uv
-        run: |
-          curl -LsSf https://astral.sh/uv/install.sh | sh
-          uv sync --python 3.13
+      - name: Install uv
+        uses: astral-sh/setup-uv@v7
+
+      - name: Install the project
+        run: uv sync --python 3.13
 
       - name: Download raw data from Hugging Face
         env:

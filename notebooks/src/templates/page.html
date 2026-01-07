@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ title }}">
+    <meta name="theme-color" content="#ffffff">
+    <title>{{ title }}</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            overflow-y: scroll;
+            height: 100%;
+            font: 100%/1.5 sans-serif;
+            word-wrap: break-word;
+            margin: 0 auto;
+            padding: 1.5em;
+        }
+
+        @media (min-width: 768px) {
+            html {
+                font-size: 125%;
+                max-width: 55em;
+            }
+        }
+
+        h1, h2, h3, h4 {
+            margin: 2.5rem 0 1.5rem 0;
+            line-height: 1.25;
+            color: #333;
+        }
+
+        a {
+            color: #fa6432;
+            text-decoration: none;
+        }
+
+        a:hover, a:focus, a:active {
+            text-decoration: underline;
+        }
+
+        p {
+            margin: 1em 0;
+            line-height: 1.5;
+        }
+
+        .highlight {
+            background-color: rgba(250, 100, 50, 0.15);
+            color: #fa6432;
+            padding: 0.05em 0.2em;
+            border-radius: 2px;
+            font-weight: 500;
+        }
+
+        .table-container {
+            position: relative;
+            border: 1px solid #ddd;
+        }
+
+        table {
+            border-collapse: collapse;
+            font-size: 0.85rem;
+            font-family: monospace, monospace;
+            width: 100%;
+        }
+
+        table th, table td {
+            padding: 0.15em 0.65em;
+            text-align: left;
+            min-width: 5em;
+            border: 1px solid #ddd;
+        }
+
+        thead tr {
+            background-color: #fff;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #eee;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #fff;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 2rem;
+        }
+
+        .header-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .header-title:hover {
+            color: #fa6432;
+            text-decoration: none;
+        }
+
+        .hamburger-menu {
+            position: relative;
+        }
+
+        .hamburger-button {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 24px;
+            height: 18px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+        }
+
+        .hamburger-button span {
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: #333;
+            transition: transform 0.2s, opacity 0.2s;
+        }
+
+        .hamburger-button:hover span {
+            background-color: #fa6432;
+        }
+
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            right: 0;
+            margin-top: 0.5rem;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            min-width: 200px;
+            z-index: 100;
+        }
+
+        .dropdown-menu.open {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .dropdown-menu .nav-link {
+            display: block;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            color: #333;
+            font-size: 0.9rem;
+        }
+
+        .dropdown-menu .nav-link:hover {
+            background-color: #f5f5f5;
+            color: #fa6432;
+        }
+
+        .dropdown-menu .nav-link.active {
+            font-weight: bold;
+            color: #fa6432;
+        }
+
+        .menu-divider {
+            height: 1px;
+            background-color: #ddd;
+            margin: 0.5rem 0;
+        }
+
+        .footer {
+            margin-top: 3rem;
+            padding: 2rem 0 1rem;
+            border-top: 1px solid #ddd;
+            text-align: center;
+        }
+
+        .footer-navigation {
+            text-align: center;
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+    </style>
+{% if plotly_url %}    <link rel="preconnect" href="https://cdn.plot.ly">
+    <script src="{{ plotly_url }}"></script>
+{% endif %}    <!-- Privacy-friendly analytics by Plausible -->
+    <script async src="https://plausible.io/js/pa-8rGQy8jjaWqcoLlqMYIMD.js"></script>
+    <script>
+        window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+        plausible.init()
+    </script>
+</head>
+<body>
+{% include 'header.html' %}
+<main>
+{{ content | safe }}
+</main>
+{% include 'footer.html' %}
+</body>
+</html>

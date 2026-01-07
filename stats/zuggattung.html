@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Zuggattung">
+    <meta name="theme-color" content="#ffffff">
+    <title>Zuggattung</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            overflow-y: scroll;
+            height: 100%;
+            font: 100%/1.5 sans-serif;
+            word-wrap: break-word;
+            margin: 0 auto;
+            padding: 1.5em;
+        }
+
+        @media (min-width: 768px) {
+            html {
+                font-size: 125%;
+                max-width: 55em;
+            }
+        }
+
+        h1, h2, h3, h4 {
+            margin: 2.5rem 0 1.5rem 0;
+            line-height: 1.25;
+            color: #333;
+        }
+
+        a {
+            color: #fa6432;
+            text-decoration: none;
+        }
+
+        a:hover, a:focus, a:active {
+            text-decoration: underline;
+        }
+
+        p {
+            margin: 1em 0;
+            line-height: 1.5;
+        }
+
+        .highlight {
+            background-color: rgba(250, 100, 50, 0.15);
+            color: #fa6432;
+            padding: 0.05em 0.2em;
+            border-radius: 2px;
+            font-weight: 500;
+        }
+
+        .table-container {
+            position: relative;
+            border: 1px solid #ddd;
+        }
+
+        table {
+            border-collapse: collapse;
+            font-size: 0.85rem;
+            font-family: monospace, monospace;
+            width: 100%;
+        }
+
+        table th, table td {
+            padding: 0.15em 0.65em;
+            text-align: left;
+            min-width: 5em;
+            border: 1px solid #ddd;
+        }
+
+        thead tr {
+            background-color: #fff;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #eee;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #fff;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 2rem;
+        }
+
+        .header-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .header-title:hover {
+            color: #fa6432;
+            text-decoration: none;
+        }
+
+        .hamburger-menu {
+            position: relative;
+        }
+
+        .hamburger-button {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 24px;
+            height: 18px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+        }
+
+        .hamburger-button span {
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: #333;
+            transition: transform 0.2s, opacity 0.2s;
+        }
+
+        .hamburger-button:hover span {
+            background-color: #fa6432;
+        }
+
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            right: 0;
+            margin-top: 0.5rem;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            min-width: 200px;
+            z-index: 100;
+        }
+
+        .dropdown-menu.open {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .dropdown-menu .nav-link {
+            display: block;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            color: #333;
+            font-size: 0.9rem;
+        }
+
+        .dropdown-menu .nav-link:hover {
+            background-color: #f5f5f5;
+            color: #fa6432;
+        }
+
+        .dropdown-menu .nav-link.active {
+            font-weight: bold;
+            color: #fa6432;
+        }
+
+        .menu-divider {
+            height: 1px;
+            background-color: #ddd;
+            margin: 0.5rem 0;
+        }
+
+        .footer {
+            margin-top: 3rem;
+            padding: 2rem 0 1rem;
+            border-top: 1px solid #ddd;
+            text-align: center;
+        }
+
+        .footer-navigation {
+            text-align: center;
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+    </style>
+    <!-- Privacy-friendly analytics by Plausible -->
+    <script async src="https://plausible.io/js/pa-8rGQy8jjaWqcoLlqMYIMD.js"></script>
+    <script>
+        window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+        plausible.init()
+    </script>
+</head>
+<body>
+<header class="header">
+    <a href="allgemein.html" class="header-title">Deutsche Bahn Statistiken</a>
+    <div class="hamburger-menu">
+        <button class="hamburger-button" aria-label="Menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="dropdown-menu">
+            
+            <a href="allgemein.html" class="nav-link">Allgemein</a>
+            
+            <a href="zeitraum.html" class="nav-link">Zeitraum</a>
+            
+            <a href="zugverbindung.html" class="nav-link">Zugverbindung</a>
+            
+            <a href="verspaetungsverlauf.html" class="nav-link">Verspätungsverlauf</a>
+            
+            <a href="verspaetung_pro_bahnhof.html" class="nav-link">Verspätung pro Bahnhof</a>
+            
+            <a href="zuggattungen_pro_bahnhof.html" class="nav-link">Zuggattungen pro Bahnhof</a>
+            
+            <a href="zuggattung.html" class="nav-link active">Zuggattung</a>
+            
+            <a href="bahnhof.html" class="nav-link">Bahnhof</a>
+            
+            <div class="menu-divider"></div>
+            <a href="https://github.com/piebro/deutsche-bahn-data" class="nav-link">About this project</a>
+            <a href="https://piebro.github.io?ref=piebro.github.io/deutsche-bahn-data/" class="nav-link">About me</a>
+        </nav>
+    </div>
+</header>
+<script>
+    document.querySelector('.hamburger-button').addEventListener('click', function() {
+        const menu = document.querySelector('.dropdown-menu');
+        const isOpen = menu.classList.toggle('open');
+        this.setAttribute('aria-expanded', isOpen);
+    });
+    document.addEventListener('click', function(e) {
+        if (!e.target.closest('.hamburger-menu')) {
+            document.querySelector('.dropdown-menu').classList.remove('open');
+            document.querySelector('.hamburger-button').setAttribute('aria-expanded', 'false');
+        }
+    });
+</script>
+<main>
+<div class="cell" style="margin: 1em 0; background-color: white; color: black;">
+    <h1>Wie verteilen sich Verspätungen auf verschiedene Zuggattungen?</h1><p>Hier kann man die verschiedenen Zuggattungen über alle Bahnhöfe hinweg miteinander vergleichen.</p><p>In den Daten der Deutschen Bahn hat jeder Zughalt das Attribut "train_type", welches sich mit Zuggattung übersetzen lässt. Dies gibt an um welche Art von Zug es sich handelt (ICE, Re oder S-Bahn), aber sie beschreibt auch manchmal welches Bahnunternehmen den Zug betreibt (SWB, NWB usw.).</p><p>Soweit ich das verstehe, ist der Betreiber aber nicht immer in der Zuggattung, da z.B. der Betreiber "RRX" als Zuggattungen nie auftaucht. Wenn jemand weiß, was es mit "train_type" genau auf sich hat und wie man es gut interpretieren kann, könnt ihr mir gerne eine Email schreiben oder ein issue bei GitHub erstellen.</p>
+</div>
+<div class="cell" style="margin: 1em 0; background-color: white; color: black;">
+    <h2>Durchschnittliche Verspätung und Ausfallquote der 15 häufigsten Zuggattungen</h2><img src="data/top_15_verspaetung_und_ausfallquote.png" alt="Verspätung und Ausfallquote der 15 größten Zuggattungen" style="width: 100%; max-width: 100%;">
+</div>
+<div class="cell" style="margin: 1em 0; background-color: white; color: black;">
+    <h2>Alle Zuggattungen</h2><div>
+    <style>
+        table { border-collapse: collapse; }
+        th, td { border: 1px solid #ccc; padding: 6px 10px; }
+        th { cursor: pointer; }
+        .controls { margin-bottom: 10px; display: flex; gap: 10px; align-items: center; }
+        .controls button { font-size: 1rem; padding: 0 0.4rem; cursor: pointer; }
+        .visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
+    </style>
+
+    <div class="controls">
+        <input type="text" id="searchInput_0" placeholder="Search..." oninput="filterTable_0()">
+        <select id="pageSizeSelect_0" aria-label="Rows per page" onchange="changePageSize_0()">
+            <option value="25">25</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+        </select>
+        <button onclick="prevPage_0()">&lsaquo;</button>
+        <span id="pageInfo_0"></span>
+        <button onclick="nextPage_0()">&rsaquo;</button>
+    </div>
+
+    <table id="sortableTable_0"><thead><tr><th onclick="sortTable_0(0)">Zuggattung Name ⇕</th><th onclick="sortTable_0(1)">Durchschn. Verspätung [min] ⇕</th><th onclick="sortTable_0(2)">Zuggattung Abkürzung ⇕</th><th onclick="sortTable_0(3)">Ausfallquote ⇕</th><th onclick="sortTable_0(4)">Anzahl Zughalte ⇕</th></tr></thead><tbody><tr><td>S-Bahn</td><td>2.63</td><td>S</td><td>0.05</td><td>13472172</td></tr><tr><td>Regionalbahn</td><td>3.1</td><td>RB</td><td>0.03</td><td>5058872</td></tr><tr><td>Regional-Express</td><td>5.19</td><td>RE, REX</td><td>0.03</td><td>3321203</td></tr><tr><td>Bus</td><td>0.83</td><td>Bus</td><td>0.01</td><td>831833</td></tr><tr><td>Hessische Landesbahn</td><td>4.16</td><td>HLB</td><td>0.04</td><td>709761</td></tr><tr><td>Bayerische Regiobahn</td><td>2.75</td><td>BRB</td><td>0.02</td><td>437311</td></tr><tr><td>NordWestBahn</td><td>4.78</td><td>NWB</td><td>0.03</td><td>405849</td></tr><tr><td>VIA</td><td>5.06</td><td>VIA</td><td>0.04</td><td>381208</td></tr><tr><td>Intercity-Express</td><td>10.95</td><td>ICE</td><td>0.04</td><td>364200</td></tr><tr><td>ag</td><td>3.33</td><td>ag</td><td>0.02</td><td>361447</td></tr><tr><td>Südwestdeutsche Landesverkehrs-Gesellschaft</td><td>2.54</td><td>SWE</td><td>0.01</td><td>344073</td></tr><tr><td>Metropolexpress</td><td>4.14</td><td>MEX</td><td>0.02</td><td>256962</td></tr><tr><td>RRB</td><td>5.5</td><td>RRB</td><td>0.14</td><td>214732</td></tr><tr><td>Nordbahn Eisenbahngesellschaft</td><td>1.61</td><td>NBE</td><td>0.04</td><td>201845</td></tr><tr><td>Schweizerische Bundesbahnen</td><td>1.45</td><td>SBB</td><td>0.03</td><td>174018</td></tr><tr><td>erixX - Der Heidesprinter</td><td>2.4</td><td>erx</td><td>0.03</td><td>157004</td></tr><tr><td>Metronom</td><td>5.3</td><td>ME</td><td>0.05</td><td>151357</td></tr><tr><td>Ostdeutsche Eisenbahn</td><td>2.16</td><td>OE</td><td>0.03</td><td>131191</td></tr><tr><td>Eurobahn</td><td>4.18</td><td>ERB</td><td>0.11</td><td>130328</td></tr><tr><td>Intercity</td><td>9.96</td><td>IC</td><td>0.07</td><td>125704</td></tr><tr><td>Westfalenbahn</td><td>5.81</td><td>WFB</td><td>0.02</td><td>94462</td></tr><tr><td>STB</td><td>0.97</td><td>STB</td><td>0.0</td><td>93960</td></tr><tr><td>RegioTram</td><td>2.61</td><td>RT</td><td>0.03</td><td>91235</td></tr><tr><td>TL</td><td>2.45</td><td>TL</td><td>0.03</td><td>83615</td></tr><tr><td>OPB</td><td>3.08</td><td>OPB</td><td>0.01</td><td>75272</td></tr><tr><td>CB</td><td>0.65</td><td>CB</td><td>0.01</td><td>63944</td></tr><tr><td>Mitteldeutsche Regiobahn</td><td>1.2</td><td>MRB</td><td>0.01</td><td>59319</td></tr><tr><td>N</td><td>2.28</td><td>N</td><td>0.01</td><td>57392</td></tr><tr><td>ENNO</td><td>3.18</td><td>ENO</td><td>0.01</td><td>49621</td></tr><tr><td>TLX</td><td>2.8</td><td>TLX</td><td>0.02</td><td>31398</td></tr><tr><td>Regionalzug</td><td>1.9</td><td>R</td><td>0.03</td><td>24963</td></tr><tr><td>EVB</td><td>1.59</td><td>EVB</td><td>0.01</td><td>18796</td></tr><tr><td>Flughafen-Express</td><td>2.26</td><td>FEX</td><td>0.02</td><td>14748</td></tr><tr><td>AKN Eisenbahn</td><td>1.25</td><td>AKN</td><td>0.04</td><td>13624</td></tr><tr><td>EuroCity</td><td>14.07</td><td>EC</td><td>0.03</td><td>12938</td></tr><tr><td>Nightjet</td><td>20.88</td><td>NJ</td><td>0.02</td><td>11670</td></tr><tr><td>alex</td><td>10.85</td><td>ALX</td><td>0.01</td><td>10428</td></tr><tr><td>STN</td><td>1.55</td><td>STN</td><td>0.07</td><td>10334</td></tr><tr><td>Rurtalbahn GmbH</td><td>1.46</td><td>RTB</td><td>0.02</td><td>10136</td></tr><tr><td>Flixtrain</td><td>16.55</td><td>FLX</td><td>0.04</td><td>9391</td></tr><tr><td>Bodensee-Oberschwaben-Bahn</td><td>1.79</td><td>BOB</td><td>0.03</td><td>8478</td></tr><tr><td>TRI</td><td>8.99</td><td>TRI</td><td>0.07</td><td>7681</td></tr><tr><td>ECE</td><td>9.32</td><td>ECE</td><td>0.02</td><td>5019</td></tr><tr><td>Railjet</td><td>9.0</td><td>RJ</td><td>0.03</td><td>4590</td></tr><tr><td>EuroNight</td><td>14.89</td><td>EN</td><td>0.01</td><td>3437</td></tr><tr><td>TGV</td><td>12.9</td><td>TGV</td><td>0.01</td><td>2978</td></tr><tr><td>WESTbahn</td><td>6.11</td><td>WB</td><td>0.01</td><td>2789</td></tr><tr><td>Railjet xpress</td><td>9.53</td><td>RJX</td><td>0.0</td><td>2116</td></tr><tr><td>Eurostar</td><td>14.36</td><td>EST</td><td>0.1</td><td>1965</td></tr><tr><td>Bentheimer Eisenbahn</td><td>0.59</td><td>BE</td><td>0.02</td><td>1829</td></tr><tr><td>Schwäbische Alb-Bahn</td><td>1.76</td><td>SAB</td><td>0.01</td><td>1113</td></tr><tr><td>ES</td><td>12.02</td><td>ES</td><td>0.04</td><td>176</td></tr><tr><td>Interregio-Express</td><td>9.05</td><td>IRE</td><td>0.0</td><td>129</td></tr><tr><td>DBK</td><td>13.11</td><td>DBK</td><td>0.05</td><td>64</td></tr><tr><td>Schnellzug</td><td>19.71</td><td>D</td><td>0.04</td><td>57</td></tr><tr><td>SVG</td><td>-0.45</td><td>SVG</td><td>0.17</td><td>24</td></tr><tr><td>UEX</td><td>13.57</td><td>UEX</td><td>0.0</td><td>7</td></tr></tbody></table>
+
+    <script>
+        (function() {
+            const tableId = "0";
+            let sortDirections = [null, null, null, null, null];
+            const baseHeaders = ["Zuggattung Name", "Durchschn. Verspätung [min]", "Zuggattung Abkürzung", "Ausfallquote", "Anzahl Zughalte"];
+            const originalOrder = [];
+            let filteredRows = [];
+            let currentPage = 0;
+            let pageSize = 25;
+
+            const tableEl = document.getElementById("sortableTable_" + tableId);
+            const searchInput = document.getElementById("searchInput_" + tableId);
+            const pageSizeSelect = document.getElementById("pageSizeSelect_" + tableId);
+            const pageInfo = document.getElementById("pageInfo_" + tableId);
+
+            function saveOriginalOrder() {
+                const tbody = tableEl.querySelector("tbody");
+                Array.from(tbody.querySelectorAll("tr")).forEach(row => {
+                    originalOrder.push(row.cloneNode(true));
+                });
+                filteredRows = [...originalOrder];
+            }
+
+            function filterTable() {
+                const searchTerm = searchInput.value.toLowerCase();
+                filteredRows = originalOrder.filter(row => {
+                    return Array.from(row.cells).some(cell =>
+                        cell.textContent.toLowerCase().includes(searchTerm)
+                    );
+                });
+                currentPage = 0;
+                sortDirections.fill(null);
+                updateHeaders();
+                renderTable();
+            }
+
+            function updateHeaders() {
+                const headers = tableEl.querySelectorAll("th");
+                headers.forEach((th, i) => {
+                    const dir = sortDirections[i];
+                    if (dir === null) {
+                        th.textContent = baseHeaders[i] + " \u21D5";
+                    } else {
+                        th.textContent = baseHeaders[i] + (dir ? " \u25B2" : " \u25BC");
+                    }
+                });
+            }
+
+            function renderTable() {
+                const tbody = tableEl.querySelector("tbody");
+                tbody.innerHTML = "";
+
+                const start = currentPage * pageSize;
+                const end = Math.min(start + pageSize, filteredRows.length);
+
+                for (let i = start; i < end; i++) {
+                    tbody.appendChild(filteredRows[i].cloneNode(true));
+                }
+
+                const total = filteredRows.length;
+                const displayStart = total === 0 ? 0 : start + 1;
+                pageInfo.textContent = `${displayStart}-${end} of ${total}`;
+            }
+
+            function sortTable(columnIndex) {
+                const current = sortDirections[columnIndex];
+                let next;
+                if (current === null) next = true;
+                else if (current === true) next = false;
+                else next = null;
+
+                sortDirections.fill(null);
+                sortDirections[columnIndex] = next;
+
+                updateHeaders();
+
+                if (next === null) {
+                    const searchTerm = searchInput.value.toLowerCase();
+                    filteredRows = originalOrder.filter(row => {
+                        return Array.from(row.cells).some(cell =>
+                            cell.textContent.toLowerCase().includes(searchTerm)
+                        );
+                    });
+                } else {
+                    filteredRows.sort((a, b) => {
+                        const aValue = a.cells[columnIndex].textContent;
+                        const bValue = b.cells[columnIndex].textContent;
+
+                        const aNum = parseFloat(aValue);
+                        const bNum = parseFloat(bValue);
+
+                        if (!isNaN(aNum) && !isNaN(bNum)) {
+                            return next ? aNum - bNum : bNum - aNum;
+                        }
+
+                        return next
+                            ? aValue.localeCompare(bValue)
+                            : bValue.localeCompare(aValue);
+                    });
+                }
+
+                currentPage = 0;
+                renderTable();
+            }
+
+            function changePageSize() {
+                pageSize = parseInt(pageSizeSelect.value);
+                currentPage = 0;
+                renderTable();
+            }
+
+            function prevPage() {
+                if (currentPage > 0) {
+                    currentPage--;
+                    renderTable();
+                }
+            }
+
+            function nextPage() {
+                if ((currentPage + 1) * pageSize < filteredRows.length) {
+                    currentPage++;
+                    renderTable();
+                }
+            }
+
+            // Expose functions globally with unique names
+            window["filterTable_" + tableId] = filterTable;
+            window["changePageSize_" + tableId] = changePageSize;
+            window["prevPage_" + tableId] = prevPage;
+            window["nextPage_" + tableId] = nextPage;
+            window["sortTable_" + tableId] = sortTable;
+
+            saveOriginalOrder();
+            renderTable();
+        })();
+    </script>
+</div>
+</div>
+<div class="cell" style="margin: 1em 0; background-color: white; color: black;">
+    <p style="font-size: 0.8em; text-align: center;">Quelle: <a href="https://github.com/piebro/deutsche-bahn-data/blob/main/notebooks/zuggattung.ipynb">Berechnet</a> auf Basis von <a href="https://github.com/piebro/deutsche-bahn-data">gesammelten Daten</a> von der Deutschen Bahn vom 2025-11 bis 2025-12.</p>
+</div>
+</main>
+<footer class="footer">
+    <p class="footer-navigation">
+        
+        <a href="allgemein.html" class="nav-link">Allgemein</a> | 
+        
+        <a href="zeitraum.html" class="nav-link">Zeitraum</a> | 
+        
+        <a href="zugverbindung.html" class="nav-link">Zugverbindung</a> | 
+        
+        <a href="verspaetungsverlauf.html" class="nav-link">Verspätungsverlauf</a> | 
+        
+        <a href="verspaetung_pro_bahnhof.html" class="nav-link">Verspätung pro Bahnhof</a> | 
+        
+        <a href="zuggattungen_pro_bahnhof.html" class="nav-link">Zuggattungen pro Bahnhof</a> | 
+        
+        <a href="zuggattung.html" class="nav-link active">Zuggattung</a> | 
+        
+        <a href="bahnhof.html" class="nav-link">Bahnhof</a>
+        
+    </p>
+    <p class="footer-navigation">
+        <a href="https://github.com/piebro/deutsche-bahn-data">About this project</a> | <a href="https://piebro.github.io?ref=piebro.github.io/deutsche-bahn-data/">About me</a>
+    </p>
+</footer>
+</body>
+</html>
