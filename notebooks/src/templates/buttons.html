@@ -1,0 +1,57 @@
+<div id="buttons_{{ buttons_id }}">
+    <style>
+        #buttons_{{ buttons_id }} .tab-buttons {
+            display: flex;
+            margin-bottom: 10px;
+        }
+        #buttons_{{ buttons_id }} .tab-buttons button {
+            background-color: #f1f1f1;
+            border: none;
+            color: #333;
+            cursor: pointer;
+            padding: 10px 20px;
+            margin-right: 5px;
+            transition: background-color 0.3s;
+        }
+        #buttons_{{ buttons_id }} .tab-buttons button:hover {
+            background-color: #ddd;
+        }
+        #buttons_{{ buttons_id }} .tab-buttons button.active {
+            background-color: #fa6432;
+            color: white;
+        }
+        #buttons_{{ buttons_id }} .tab-content {
+            display: none;
+        }
+        #buttons_{{ buttons_id }} .tab-content.active {
+            display: block;
+        }
+    </style>
+
+    <div class="tab-buttons">
+        {% for label in labels %}
+        <button{% if loop.first %} class="active"{% endif %}>{{ label }}</button>
+        {% endfor %}
+    </div>
+
+    {% for content in contents %}
+    <div class="tab-content{% if loop.first %} active{% endif %}">
+        {{ content | safe }}
+    </div>
+    {% endfor %}
+
+    <script>
+        (function() {
+            const container = document.getElementById('buttons_{{ buttons_id }}');
+            const buttons = container.querySelectorAll('.tab-buttons button');
+            const contents = container.querySelectorAll(':scope > .tab-content');
+
+            buttons.forEach((btn, i) => {
+                btn.addEventListener('click', () => {
+                    buttons.forEach((b, j) => b.classList.toggle('active', i === j));
+                    contents.forEach((c, j) => c.classList.toggle('active', i === j));
+                });
+            });
+        })();
+    </script>
+</div>

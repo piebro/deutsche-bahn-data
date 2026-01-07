@@ -1,0 +1,31 @@
+<header class="header">
+    <a href="allgemein.html" class="header-title">Deutsche Bahn Statistiken</a>
+    <div class="hamburger-menu">
+        <button class="hamburger-button" aria-label="Menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="dropdown-menu">
+            {% for page in pages %}
+            <a href="{{ page.filename }}.html" class="nav-link{% if page.name == current_page %} active{% endif %}">{{ page.display_name }}</a>
+            {% endfor %}
+            <div class="menu-divider"></div>
+            <a href="https://github.com/piebro/deutsche-bahn-data" class="nav-link">About this project</a>
+            <a href="https://piebro.github.io?ref=piebro.github.io/deutsche-bahn-data/" class="nav-link">About me</a>
+        </nav>
+    </div>
+</header>
+<script>
+    document.querySelector('.hamburger-button').addEventListener('click', function() {
+        const menu = document.querySelector('.dropdown-menu');
+        const isOpen = menu.classList.toggle('open');
+        this.setAttribute('aria-expanded', isOpen);
+    });
+    document.addEventListener('click', function(e) {
+        if (!e.target.closest('.hamburger-menu')) {
+            document.querySelector('.dropdown-menu').classList.remove('open');
+            document.querySelector('.hamburger-button').setAttribute('aria-expanded', 'false');
+        }
+    });
+</script>

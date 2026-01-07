@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Verspätungsverlauf">
+    <meta name="theme-color" content="#ffffff">
+    <title>Verspätungsverlauf</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            overflow-y: scroll;
+            height: 100%;
+            font: 100%/1.5 sans-serif;
+            word-wrap: break-word;
+            margin: 0 auto;
+            padding: 1.5em;
+        }
+
+        @media (min-width: 768px) {
+            html {
+                font-size: 125%;
+                max-width: 55em;
+            }
+        }
+
+        h1, h2, h3, h4 {
+            margin: 2.5rem 0 1.5rem 0;
+            line-height: 1.25;
+            color: #333;
+        }
+
+        a {
+            color: #fa6432;
+            text-decoration: none;
+        }
+
+        a:hover, a:focus, a:active {
+            text-decoration: underline;
+        }
+
+        p {
+            margin: 1em 0;
+            line-height: 1.5;
+        }
+
+        .highlight {
+            background-color: rgba(250, 100, 50, 0.15);
+            color: #fa6432;
+            padding: 0.05em 0.2em;
+            border-radius: 2px;
+            font-weight: 500;
+        }
+
+        .table-container {
+            position: relative;
+            border: 1px solid #ddd;
+        }
+
+        table {
+            border-collapse: collapse;
+            font-size: 0.85rem;
+            font-family: monospace, monospace;
+            width: 100%;
+        }
+
+        table th, table td {
+            padding: 0.15em 0.65em;
+            text-align: left;
+            min-width: 5em;
+            border: 1px solid #ddd;
+        }
+
+        thead tr {
+            background-color: #fff;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #eee;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #fff;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 2rem;
+        }
+
+        .header-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .header-title:hover {
+            color: #fa6432;
+            text-decoration: none;
+        }
+
+        .hamburger-menu {
+            position: relative;
+        }
+
+        .hamburger-button {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 24px;
+            height: 18px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+        }
+
+        .hamburger-button span {
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: #333;
+            transition: transform 0.2s, opacity 0.2s;
+        }
+
+        .hamburger-button:hover span {
+            background-color: #fa6432;
+        }
+
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            right: 0;
+            margin-top: 0.5rem;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            min-width: 200px;
+            z-index: 100;
+        }
+
+        .dropdown-menu.open {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .dropdown-menu .nav-link {
+            display: block;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            color: #333;
+            font-size: 0.9rem;
+        }
+
+        .dropdown-menu .nav-link:hover {
+            background-color: #f5f5f5;
+            color: #fa6432;
+        }
+
+        .dropdown-menu .nav-link.active {
+            font-weight: bold;
+            color: #fa6432;
+        }
+
+        .menu-divider {
+            height: 1px;
+            background-color: #ddd;
+            margin: 0.5rem 0;
+        }
+
+        .footer {
+            margin-top: 3rem;
+            padding: 2rem 0 1rem;
+            border-top: 1px solid #ddd;
+            text-align: center;
+        }
+
+        .footer-navigation {
+            text-align: center;
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+    </style>
+    <!-- Privacy-friendly analytics by Plausible -->
+    <script async src="https://plausible.io/js/pa-8rGQy8jjaWqcoLlqMYIMD.js"></script>
+    <script>
+        window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+        plausible.init()
+    </script>
+</head>
+<body>
+<header class="header">
+    <a href="allgemein.html" class="header-title">Deutsche Bahn Statistiken</a>
+    <div class="hamburger-menu">
+        <button class="hamburger-button" aria-label="Menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="dropdown-menu">
+            
+            <a href="allgemein.html" class="nav-link">Allgemein</a>
+            
+            <a href="zeitraum.html" class="nav-link">Zeitraum</a>
+            
+            <a href="zugverbindung.html" class="nav-link">Zugverbindung</a>
+            
+            <a href="verspaetungsverlauf.html" class="nav-link active">Verspätungsverlauf</a>
+            
+            <a href="verspaetung_pro_bahnhof.html" class="nav-link">Verspätung pro Bahnhof</a>
+            
+            <a href="zuggattungen_pro_bahnhof.html" class="nav-link">Zuggattungen pro Bahnhof</a>
+            
+            <a href="zuggattung.html" class="nav-link">Zuggattung</a>
+            
+            <a href="bahnhof.html" class="nav-link">Bahnhof</a>
+            
+            <div class="menu-divider"></div>
+            <a href="https://github.com/piebro/deutsche-bahn-data" class="nav-link">About this project</a>
+            <a href="https://piebro.github.io?ref=piebro.github.io/deutsche-bahn-data/" class="nav-link">About me</a>
+        </nav>
+    </div>
+</header>
+<script>
+    document.querySelector('.hamburger-button').addEventListener('click', function() {
+        const menu = document.querySelector('.dropdown-menu');
+        const isOpen = menu.classList.toggle('open');
+        this.setAttribute('aria-expanded', isOpen);
+    });
+    document.addEventListener('click', function(e) {
+        if (!e.target.closest('.hamburger-menu')) {
+            document.querySelector('.dropdown-menu').classList.remove('open');
+            document.querySelector('.hamburger-button').setAttribute('aria-expanded', 'false');
+        }
+    });
+</script>
+<main>
+<div class="cell" style="margin: 1em 0; background-color: white; color: black;">
+    <h1>Wie verändert sich die durchschnittliche Verspätung im Verlauf einer Zugfahrt?</h1><p>Der Graph zeigt den durchschnittlichen Verspätungsverlauf der Züge über die Zeit. Die x-Achse stellt die Zeit seit Zugstart in Minuten dar, während die y-Achse die durchschnittliche Verspätung in Minuten anzeigt.</p><p>Jeder Punkt im Diagramm repräsentiert die durchschnittliche Verspätung zu einem bestimmten Zeitpunkt nach der geplanten Abfahrtszeit. Die Größe der Punkte ist proportional zur Anzahl der Datenpunkte, die in diesen Durchschnitt einfließen. Größere Punkte bedeuten also, dass mehr Daten für diesen Zeitpunkt verfügbar waren.</p><p>Die rote Linie zeigt den gewichteten Trend der Verspätungen. Die Steigung dieser Linie gibt an, wie sich die Verspätung im Durchschnitt pro Stunde entwickelt. Das heißt wenn ich später in einer Zugstrecke in einen Zug einsteige ist die Wahrscheinlichkeit höher, dass der Zug mehr Verspätung hat.</p><div id="buttons_0">
+    <style>
+        #buttons_0 .tab-buttons {
+            display: flex;
+            margin-bottom: 10px;
+        }
+        #buttons_0 .tab-buttons button {
+            background-color: #f1f1f1;
+            border: none;
+            color: #333;
+            cursor: pointer;
+            padding: 10px 20px;
+            margin-right: 5px;
+            transition: background-color 0.3s;
+        }
+        #buttons_0 .tab-buttons button:hover {
+            background-color: #ddd;
+        }
+        #buttons_0 .tab-buttons button.active {
+            background-color: #fa6432;
+            color: white;
+        }
+        #buttons_0 .tab-content {
+            display: none;
+        }
+        #buttons_0 .tab-content.active {
+            display: block;
+        }
+    </style>
+
+    <div class="tab-buttons">
+        
+        <button class="active">Alle Züge</button>
+        
+        <button>ICE</button>
+        
+        <button>IC</button>
+        
+        <button>RB</button>
+        
+        <button>RE</button>
+        
+        <button>S</button>
+        
+    </div>
+
+    
+    <div class="tab-content active">
+        <img src="../stats/data/verspaetungsverlauf_alle.png" alt="Verspätungsverlauf Alle Züge" style="width: 100%; max-width: 100%;">
+    </div>
+    
+    <div class="tab-content">
+        <img src="../stats/data/verspaetungsverlauf_ice.png" alt="Verspätungsverlauf ICE" style="width: 100%; max-width: 100%;">
+    </div>
+    
+    <div class="tab-content">
+        <img src="../stats/data/verspaetungsverlauf_ic.png" alt="Verspätungsverlauf IC" style="width: 100%; max-width: 100%;">
+    </div>
+    
+    <div class="tab-content">
+        <img src="../stats/data/verspaetungsverlauf_rb.png" alt="Verspätungsverlauf RB" style="width: 100%; max-width: 100%;">
+    </div>
+    
+    <div class="tab-content">
+        <img src="../stats/data/verspaetungsverlauf_re.png" alt="Verspätungsverlauf RE" style="width: 100%; max-width: 100%;">
+    </div>
+    
+    <div class="tab-content">
+        <img src="../stats/data/verspaetungsverlauf_s.png" alt="Verspätungsverlauf S" style="width: 100%; max-width: 100%;">
+    </div>
+    
+
+    <script>
+        (function() {
+            const container = document.getElementById('buttons_0');
+            const buttons = container.querySelectorAll('.tab-buttons button');
+            const contents = container.querySelectorAll(':scope > .tab-content');
+
+            buttons.forEach((btn, i) => {
+                btn.addEventListener('click', () => {
+                    buttons.forEach((b, j) => b.classList.toggle('active', i === j));
+                    contents.forEach((c, j) => c.classList.toggle('active', i === j));
+                });
+            });
+        })();
+    </script>
+</div>
+</div>
+<div class="cell" style="margin: 1em 0; background-color: white; color: black;">
+    <p style="font-size: 0.8em; text-align: center;">Quelle: <a href="https://github.com/piebro/deutsche-bahn-data/blob/main/notebooks/verspaetungsverlauf.ipynb">Berechnet</a> auf Basis von <a href="https://github.com/piebro/deutsche-bahn-data">gesammelten Daten</a> von der Deutschen Bahn vom 2025-11 bis 2025-12.</p>
+</div>
+</main>
+<footer class="footer">
+    <p class="footer-navigation">
+        
+        <a href="allgemein.html" class="nav-link">Allgemein</a> | 
+        
+        <a href="zeitraum.html" class="nav-link">Zeitraum</a> | 
+        
+        <a href="zugverbindung.html" class="nav-link">Zugverbindung</a> | 
+        
+        <a href="verspaetungsverlauf.html" class="nav-link active">Verspätungsverlauf</a> | 
+        
+        <a href="verspaetung_pro_bahnhof.html" class="nav-link">Verspätung pro Bahnhof</a> | 
+        
+        <a href="zuggattungen_pro_bahnhof.html" class="nav-link">Zuggattungen pro Bahnhof</a> | 
+        
+        <a href="zuggattung.html" class="nav-link">Zuggattung</a> | 
+        
+        <a href="bahnhof.html" class="nav-link">Bahnhof</a>
+        
+    </p>
+    <p class="footer-navigation">
+        <a href="https://github.com/piebro/deutsche-bahn-data">About this project</a> | <a href="https://piebro.github.io?ref=piebro.github.io/deutsche-bahn-data/">About me</a>
+    </p>
+</footer>
+</body>
+</html>

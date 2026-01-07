@@ -1,0 +1,37 @@
+<div id="dropdown_{{ dropdown_id }}">
+    <style>
+        #dropdown_{{ dropdown_id }} .dropdown-content {
+            display: none;
+        }
+        #dropdown_{{ dropdown_id }} .dropdown-content.active {
+            display: block;
+        }
+    </style>
+
+    <select id="dropdown_select_{{ dropdown_id }}">
+        {% for label in labels %}
+        <option value="{{ loop.index0 }}"{% if loop.index0 == default_index %} selected{% endif %}>{{ label }}</option>
+        {% endfor %}
+    </select>
+
+    {% for content in contents %}
+    <div class="dropdown-content{% if loop.index0 == default_index %} active{% endif %}" data-index="{{ loop.index0 }}">
+        {{ content | safe }}
+    </div>
+    {% endfor %}
+
+    <script>
+        (function() {
+            const container = document.getElementById('dropdown_{{ dropdown_id }}');
+            const select = container.querySelector('select');
+            const contents = container.querySelectorAll('.dropdown-content');
+
+            select.addEventListener('change', () => {
+                const selectedIndex = parseInt(select.value);
+                contents.forEach((c) => {
+                    c.classList.toggle('active', parseInt(c.dataset.index) === selectedIndex);
+                });
+            });
+        })();
+    </script>
+</div>

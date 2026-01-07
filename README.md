@@ -1,7 +1,9 @@
 # Deutsche Bahn Data
 
 This project saves public historical data from "Deutsche Bahn", the biggest german train company and makes it [accessible](https://huggingface.co/datasets/piebro/deutsche-bahn-data) for everyone to use.
-It includes train schedules, delays, and cancellations from stations across Germany. 
+It includes train schedules, delays, and cancellations from stations across Germany.
+
+There is also a small website to show same stat about the Deutsche Bahn: [piebro.github.io/deutsche-bahn-data](https://piebro.github.io/deutsche-bahn-data/stats/allgemein.html)
 
 The data can be used to validate the [official statistics](https://www.deutschebahn.com/de/konzern/konzernprofil/zahlen_fakten/puenktlichkeitswerte-6878476) and to create many other statistics.
 
@@ -84,13 +86,37 @@ uv sync --python 3.13
 uv run pre-commit install
 ```
 
+## Generating HTML from Notebooks
+
+```bash
+uv run python notebooks/src/nb_to_html.py                 # Convert all notebooks (no execution)
+uv run python notebooks/src/nb_to_html.py --run           # Run and convert all notebooks
+uv run python notebooks/src/nb_to_html.py --run allgemein # Run only allgemein, convert all
+```
+
 ## Contributing
 
 Contributions are welcome. Open an Issue if you want to report a bug, have an idea or want to propose a change.
 
+## Related Deutsche Bahn and Open Data Websites
+
+There are a few other projects that look at similar data.
+- [Video](https://www.youtube.com/watch?v=0rb9CfOvojk): BahnMining - Pünktlichkeit ist eine Zier (David Kriesel) [2019]
+- [www.deutschebahn.com](https://www.deutschebahn.com/de/konzern/konzernprofil/zahlen_fakten/puenktlichkeitswerte-6878476#): official statistics from Deutsche Bahn
+- [bahn.expert](https://bahn.expert): look at the departure monitor of train stations in real time
+- [next.bahnvorhersage.de](https://next.bahnvorhersage.de): a tool to calculate the probability that a train connection works using historical data
+- [www.zugfinder.net](https://www.zugfinder.net/de/start): multiple maps of current train positions and statistics for long-distance trains in Germany, Austria, BeNeLux, Denmark, Italy and Slovenia
+- [strecken-info.de](https://strecken-info.de/): a map of the German railroads with current construction sites and disruptions on the routes
+- [openrailwaymap.org](https://openrailwaymap.org/): a worldwide map with railway infrastructure using OpenStreetMap Data
+- [zugspaet.de](https://zugspaet.de): a website, where you can then enter your train and see how often it was late or on time in the past
+
 ## License
 
 All code in this project is licensed under the MIT License. The [data](https://huggingface.co/datasets/piebro/deutsche-bahn-data) is licensed under [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) by Deutsche Bahn.
+
+## Disclaimer
+
+This website is developed by Piet Brömmel. It has no affiliation with Deutsche Bahn or any other transportation company. This website is my personal project and everything stated here is provided without warranty, but is maintained by me to the best of my ability.
 
 ## Acknowledgments
 

@@ -1,0 +1,161 @@
+<div>
+    <style>
+        table { border-collapse: collapse; }
+        th, td { border: 1px solid #ccc; padding: 6px 10px; }
+        th { cursor: pointer; }
+        .controls { margin-bottom: 10px; display: flex; gap: 10px; align-items: center; }
+        .controls button { font-size: 1rem; padding: 0 0.4rem; cursor: pointer; }
+        .visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
+    </style>
+
+    <div class="controls">
+        <input type="text" id="searchInput_{{ table_id }}" placeholder="Search..." oninput="filterTable_{{ table_id }}()">
+        <select id="pageSizeSelect_{{ table_id }}" aria-label="Rows per page" onchange="changePageSize_{{ table_id }}()">
+            <option value="25">25</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+        </select>
+        <button onclick="prevPage_{{ table_id }}()">&lsaquo;</button>
+        <span id="pageInfo_{{ table_id }}"></span>
+        <button onclick="nextPage_{{ table_id }}()">&rsaquo;</button>
+    </div>
+
+    {{ table_html | safe }}
+
+    <script>
+        (function() {
+            const tableId = "{{ table_id }}";
+            let sortDirections = [{% for _ in headers %}null{% if not loop.last %}, {% endif %}{% endfor %}];
+            const baseHeaders = [{% for h in headers %}"{{ h }}"{% if not loop.last %}, {% endif %}{% endfor %}];
+            const originalOrder = [];
+            let filteredRows = [];
+            let currentPage = 0;
+            let pageSize = 25;
+
+            const tableEl = document.getElementById("sortableTable_" + tableId);
+            const searchInput = document.getElementById("searchInput_" + tableId);
+            const pageSizeSelect = document.getElementById("pageSizeSelect_" + tableId);
+            const pageInfo = document.getElementById("pageInfo_" + tableId);
+
+            function saveOriginalOrder() {
+                const tbody = tableEl.querySelector("tbody");
+                Array.from(tbody.querySelectorAll("tr")).forEach(row => {
+                    originalOrder.push(row.cloneNode(true));
+                });
+                filteredRows = [...originalOrder];
+            }
+
+            function filterTable() {
+                const searchTerm = searchInput.value.toLowerCase();
+                filteredRows = originalOrder.filter(row => {
+                    return Array.from(row.cells).some(cell =>
+                        cell.textContent.toLowerCase().includes(searchTerm)
+                    );
+                });
+                currentPage = 0;
+                sortDirections.fill(null);
+                updateHeaders();
+                renderTable();
+            }
+
+            function updateHeaders() {
+                const headers = tableEl.querySelectorAll("th");
+                headers.forEach((th, i) => {
+                    const dir = sortDirections[i];
+                    if (dir === null) {
+                        th.textContent = baseHeaders[i] + " \u21D5";
+                    } else {
+                        th.textContent = baseHeaders[i] + (dir ? " \u25B2" : " \u25BC");
+                    }
+                });
+            }
+
+            function renderTable() {
+                const tbody = tableEl.querySelector("tbody");
+                tbody.innerHTML = "";
+
+                const start = currentPage * pageSize;
+                const end = Math.min(start + pageSize, filteredRows.length);
+
+                for (let i = start; i < end; i++) {
+                    tbody.appendChild(filteredRows[i].cloneNode(true));
+                }
+
+                const total = filteredRows.length;
+                const displayStart = total === 0 ? 0 : start + 1;
+                pageInfo.textContent = `${displayStart}-${end} of ${total}`;
+            }
+
+            function sortTable(columnIndex) {
+                const current = sortDirections[columnIndex];
+                let next;
+                if (current === null) next = true;
+                else if (current === true) next = false;
+                else next = null;
+
+                sortDirections.fill(null);
+                sortDirections[columnIndex] = next;
+
+                updateHeaders();
+
+                if (next === null) {
+                    const searchTerm = searchInput.value.toLowerCase();
+                    filteredRows = originalOrder.filter(row => {
+                        return Array.from(row.cells).some(cell =>
+                            cell.textContent.toLowerCase().includes(searchTerm)
+                        );
+                    });
+                } else {
+                    filteredRows.sort((a, b) => {
+                        const aValue = a.cells[columnIndex].textContent;
+                        const bValue = b.cells[columnIndex].textContent;
+
+                        const aNum = parseFloat(aValue);
+                        const bNum = parseFloat(bValue);
+
+                        if (!isNaN(aNum) && !isNaN(bNum)) {
+                            return next ? aNum - bNum : bNum - aNum;
+                        }
+
+                        return next
+                            ? aValue.localeCompare(bValue)
+                            : bValue.localeCompare(aValue);
+                    });
+                }
+
+                currentPage = 0;
+                renderTable();
+            }
+
+            function changePageSize() {
+                pageSize = parseInt(pageSizeSelect.value);
+                currentPage = 0;
+                renderTable();
+            }
+
+            function prevPage() {
+                if (currentPage > 0) {
+                    currentPage--;
+                    renderTable();
+                }
+            }
+
+            function nextPage() {
+                if ((currentPage + 1) * pageSize < filteredRows.length) {
+                    currentPage++;
+                    renderTable();
+                }
+            }
+
+            // Expose functions globally with unique names
+            window["filterTable_" + tableId] = filterTable;
+            window["changePageSize_" + tableId] = changePageSize;
+            window["prevPage_" + tableId] = prevPage;
+            window["nextPage_" + tableId] = nextPage;
+            window["sortTable_" + tableId] = sortTable;
+
+            saveOriginalOrder();
+            renderTable();
+        })();
+    </script>
+</div>
