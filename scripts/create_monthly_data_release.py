@@ -274,7 +274,7 @@ def main(year: int, month: int, parquet_files, eva_to_station: dict, output_dir:
                     COALESCE(departure_change_time, arrival_change_time) AS time,
                     is_canceled,
                     train_type,
-                    split_part(id, '-', 1) AS train_line_ride_id,
+                    regexp_extract(id, '^(.*)-\\d{{10}}-\\d+$', 1) AS train_line_ride_id,
                     CAST(split_part(id, '-', -1) AS INTEGER) AS train_line_station_num,
                     arrival_planned_time,
                     arrival_change_time,
