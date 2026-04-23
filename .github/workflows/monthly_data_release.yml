@@ -5,9 +5,15 @@ on:
     # Run on the 2nd day of each month at 4am UTC
     - cron: '0 4 2 * *'
   workflow_dispatch:
+    inputs:
+      rebuild_all:
+        description: 'Rebuild and re-upload ALL months (instead of just last month)'
+        type: boolean
+        default: false
 
 jobs:
   monthly-release:
+    if: ${{ inputs.rebuild_all != true }}
     runs-on: ubuntu-latest
 
     steps:
@@ -19,66 +25,44 @@ jobs:
       - name: Install the project
         run: uv sync --python 3.13
 
-      - name: Download raw data from Hugging Face
+      - name: Process last month
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          REPO_ID="piebro/deutsche-bahn-data"
-          PREV_MONTH=$(date -d "last month" +"%m")
-          PREV_YEAR=$(date -d "last month" +"%Y")
+          PREV_YEAR=$(date -u -d "last month" +"%Y")
+          PREV_MONTH=$(date -u -d "last month" +"%m")
+          bash scripts/process_month.sh "$PREV_YEAR" "$PREV_MONTH"
 
-          # Calculate month before and month after to get adjacent days
-          MONTH_BEFORE=$(date -d "$PREV_YEAR-$PREV_MONTH-01 - 1 month" +"%m")
-          YEAR_BEFORE=$(date -d "$PREV_YEAR-$PREV_MONTH-01 - 1 month" +"%Y")
-          MONTH_AFTER=$(date -d "$PREV_YEAR-$PREV_MONTH-01 + 1 month" +"%m")
-          YEAR_AFTER=$(date -d "$PREV_YEAR-$PREV_MONTH-01 + 1 month" +"%Y")
+  rebuild-all:
+    if: ${{ inputs.rebuild_all == true }}
+    runs-on: ubuntu-latest
 
-          # Strip leading zeros for HuggingFace paths (month=9 not month=09)
-          PREV_MONTH_NO_ZERO=$((10#$PREV_MONTH))
-          MONTH_BEFORE_NO_ZERO=$((10#$MONTH_BEFORE))
-          MONTH_AFTER_NO_ZERO=$((10#$MONTH_AFTER))
+    steps:
+      - uses: actions/checkout@v3
 
-          echo "Downloading raw data for processing $PREV_YEAR-$PREV_MONTH"
-          echo "Will download: $YEAR_BEFORE-$MONTH_BEFORE_NO_ZERO, $PREV_YEAR-$PREV_MONTH_NO_ZERO, $YEAR_AFTER-$MONTH_AFTER_NO_ZERO"
-          echo "---"
+      - name: Install uv
+        uses: astral-sh/setup-uv@v7
 
-          # Download the target month and adjacent months to ensure we have all needed data
-          uv run --with huggingface_hub hf download "$REPO_ID" \
-            --repo-type=dataset \
-            --include "raw_data/year=$YEAR_BEFORE/month=$MONTH_BEFORE_NO_ZERO/*" \
-            --include "raw_data/year=$PREV_YEAR/month=$PREV_MONTH_NO_ZERO/*" \
-            --include "raw_data/year=$YEAR_AFTER/month=$MONTH_AFTER_NO_ZERO/*" \
-            --local-dir .
+      - name: Install the project
+        run: uv sync --python 3.13
 
-          echo "Download complete!"
-          echo "---"
-          
-
-      - name: Create monthly data release
-        run: |
-          # Calculate previous month and year
-          PREV_MONTH=$(date -d "last month" +"%m")
-          PREV_YEAR=$(date -d "last month" +"%Y")
-
-          echo "Creating monthly release for $PREV_YEAR-$PREV_MONTH"
-
-          # Run the monthly data release script
-          uv run python scripts/create_monthly_data_release.py $PREV_YEAR $PREV_MONTH
-
-      - name: Upload monthly data to Hugging Face
+      - name: Rebuild every released month
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          REPO_ID="piebro/deutsche-bahn-data"
-          PREV_MONTH=$(date -d "last month" +"%m")
-          PREV_YEAR=$(date -d "last month" +"%Y")
-          DATA_FILE="./monthly_processed_data/data-$PREV_YEAR-$PREV_MONTH.parquet"
+          # Loop from 2024-07 (earliest available data) up to last month.
+          Y=2024
+          M=7
+          END_YM=$(date -u -d "last month" +"%Y-%m")
+          while :; do
+              YM=$(printf "%d-%02d" "$Y" "$M")
+              [[ "$YM" > "$END_YM" ]] && break
 
-          echo "Uploading monthly processed data to Hugging Face..."
-          echo "Repository: $REPO_ID"
-          echo "File: $DATA_FILE"
-          echo "---"
+              bash scripts/process_month.sh "$Y" "$M"
+              echo "Cleaning up local files for $YM..."
+              rm -rf raw_data
+              rm -f "monthly_processed_data/data-$YM.parquet"
 
-          uv run --with huggingface_hub hf upload "$REPO_ID" "$DATA_FILE" "monthly_processed_data/data-$PREV_YEAR-$PREV_MONTH.parquet" \
-            --repo-type=dataset \
-            --commit-message="Monthly data release for $PREV_YEAR-$PREV_MONTH - $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
+              M=$((M + 1))
+              (( M > 12 )) && { M=1; Y=$((Y + 1)); }
+          done
