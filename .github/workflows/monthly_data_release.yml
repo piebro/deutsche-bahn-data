@@ -33,9 +33,42 @@ jobs:
           PREV_MONTH=$(date -u -d "last month" +"%m")
           bash scripts/process_month.sh "$PREV_YEAR" "$PREV_MONTH"
 
-  rebuild-all:
+  # Emits the list of months (2024-07 through last month) as a JSON array
+  # so rebuild-all below can fan out into one job per month.
+  list-months:
     if: ${{ inputs.rebuild_all == true }}
     runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.generate.outputs.matrix }}
+    steps:
+      - id: generate
+        run: |
+          Y=2024
+          M=7
+          END_YM=$(date -u -d "last month" +"%Y-%m")
+          months=""
+          while :; do
+              YM=$(printf "%d-%02d" "$Y" "$M")
+              [[ "$YM" > "$END_YM" ]] && break
+              months+="\"$YM\","
+              M=$((M + 1))
+              (( M > 12 )) && { M=1; Y=$((Y + 1)); }
+          done
+          matrix="[${months%,}]"
+          echo "Matrix: $matrix"
+          echo "matrix=$matrix" >> "$GITHUB_OUTPUT"
+
+  # One job per month, run sequentially so concurrent hf uploads don't race
+  # on the same dataset repo. Each job gets its own fresh 6h timer.
+  rebuild-all:
+    if: ${{ inputs.rebuild_all == true }}
+    needs: list-months
+    runs-on: ubuntu-latest
+    strategy:
+      max-parallel: 1
+      fail-fast: false
+      matrix:
+        ym: ${{ fromJson(needs.list-months.outputs.matrix) }}
 
     steps:
       - uses: actions/checkout@v3
@@ -46,23 +79,11 @@ jobs:
       - name: Install the project
         run: uv sync --python 3.13
 
-      - name: Rebuild every released month
+      - name: Process ${{ matrix.ym }}
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          YM: ${{ matrix.ym }}
         run: |
-          # Loop from 2024-07 (earliest available data) up to last month.
-          Y=2024
-          M=7
-          END_YM=$(date -u -d "last month" +"%Y-%m")
-          while :; do
-              YM=$(printf "%d-%02d" "$Y" "$M")
-              [[ "$YM" > "$END_YM" ]] && break
-
-              bash scripts/process_month.sh "$Y" "$M"
-              echo "Cleaning up local files for $YM..."
-              rm -rf raw_data
-              rm -f "monthly_processed_data/data-$YM.parquet"
-
-              M=$((M + 1))
-              (( M > 12 )) && { M=1; Y=$((Y + 1)); }
-          done
+          Y=${YM%-*}
+          M=${YM#*-}
+          bash scripts/process_month.sh "$Y" "$M"
