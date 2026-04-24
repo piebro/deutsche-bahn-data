@@ -110,6 +110,22 @@ There are a few other projects that look at similar data.
 - [openrailwaymap.org](https://openrailwaymap.org/): a worldwide map with railway infrastructure using OpenStreetMap Data
 - [zugspaet.de](https://zugspaet.de): a website, where you can then enter your train and see how often it was late or on time in the past
 
+## Citation
+
+If you use this project or the dataset in academic work, you can cite it as:
+
+```bibtex
+@misc{broemmel_deutsche_bahn_data,
+  author       = {Br{\"o}mmel, Piet},
+  title        = {Deutsche Bahn Data},
+  year         = {2026},
+  howpublished = {\url{https://github.com/piebro/deutsche-bahn-data}},
+  note         = {Dataset: \url{https://huggingface.co/datasets/piebro/deutsche-bahn-data}}
+}
+```
+
+The underlying data is provided by Deutsche Bahn under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) and should be attributed to them as the original source.
+
 ## License
 
 All code in this project is licensed under the MIT License. The [data](https://huggingface.co/datasets/piebro/deutsche-bahn-data) is licensed under [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) by Deutsche Bahn.
