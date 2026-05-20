@@ -19,6 +19,8 @@ The data is available as raw_data (basically the raw return of all the queries) 
 
 Data of the biggest ~100 stations is available from 2024-07 to 2025-11-02 and since then until now for all stations.
 
+All timestamps in the dataset (both raw and monthly processed) are in German local time (Europe/Berlin, i.e. CET/CEST) as returned by the Deutsche Bahn Timetables API. No timezone conversion is applied during processing.
+
 ## Using the data
 
 You can download the data from huggingface manually or use the following cmds to download it (these are only tested on Linux, but should also work on mac and windows):
