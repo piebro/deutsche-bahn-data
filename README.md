@@ -43,7 +43,8 @@ The monthly processed data contains the following columns:
 | `station_name` | string | Name of the station |
 | `xml_station_name` | string | Station name from the XML response |
 | `eva` | string | EVA station number (unique identifier) |
-| `train_name` | string | Name of the train (e.g., "ICE 123", "RE 5") |
+| `train_number` | string | Train number / Zugnummer (e.g., "ICE 123", "RB 12603") |
+| `line_number` | string | Line number / Liniennummer (e.g., "RB23"); null for long-distance trains (ICE/IC/EC) |
 | `final_destination_station` | string | Final destination of the train |
 | `delay_in_min` | integer | Delay in minutes |
 | `time` | timestamp | Actual arrival or departure time |
