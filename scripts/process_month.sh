@@ -31,7 +31,7 @@ MONTH_AFTER_NO_ZERO=$((10#$MONTH_AFTER))
 echo "=== Processing $YEAR-$MONTH_PADDED ==="
 echo "Downloading raw data: $YEAR_BEFORE-$MONTH_BEFORE_NO_ZERO, $YEAR-$MONTH_NO_ZERO, $YEAR_AFTER-$MONTH_AFTER_NO_ZERO"
 
-uv run --with huggingface_hub hf download "$REPO_ID" \
+uv run --with "huggingface_hub[cli]" hf download "$REPO_ID" \
     --repo-type=dataset \
     --include "raw_data/year=$YEAR_BEFORE/month=$MONTH_BEFORE_NO_ZERO/*" \
     --include "raw_data/year=$YEAR/month=$MONTH_NO_ZERO/*" \
@@ -44,7 +44,7 @@ uv run python scripts/create_monthly_data_release.py "$YEAR" "$MONTH_NO_ZERO"
 DATA_FILE="monthly_processed_data/data-$YEAR-$MONTH_PADDED.parquet"
 
 echo "Uploading $DATA_FILE..."
-uv run --with huggingface_hub hf upload "$REPO_ID" "$DATA_FILE" "$DATA_FILE" \
+uv run --with "huggingface_hub[cli]" hf upload "$REPO_ID" "$DATA_FILE" "$DATA_FILE" \
     --repo-type=dataset \
     --commit-message="Monthly data release for $YEAR-$MONTH_PADDED - $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
 
