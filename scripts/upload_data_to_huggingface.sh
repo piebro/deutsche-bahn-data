@@ -20,7 +20,7 @@ if [ -d "$DATA_DIR" ]; then
     for attempt in $(seq 1 $MAX_RETRIES); do
         echo "Upload attempt $attempt of $MAX_RETRIES..."
 
-        if uv run --with huggingface_hub hf upload "$REPO_ID" "$DATA_DIR" "raw_data" \
+        if uv run --with "huggingface_hub[cli]" hf upload "$REPO_ID" "$DATA_DIR" "raw_data" \
             --repo-type=dataset \
             --commit-message="Update Deutsche Bahn data - $(date -u +"%Y-%m-%d %H:%M:%S UTC")"; then
             echo "Finished uploading data"
