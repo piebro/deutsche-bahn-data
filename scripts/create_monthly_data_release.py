@@ -25,19 +25,13 @@ def get_plan_xml_rows(xml_string: str, eva: str, station_name: dict[str, str], x
     for s in root.findall("s"):
         s_id = s.get("id")
         train_type = s.find("tl").get("c") if s.find("tl") is not None else None
-        tl_number = s.find("tl").get("n") if s.find("tl") is not None else None
+        # train_number is the Zugnummer (tl.n), identifying a specific train run
+        train_number = s.find("tl").get("n") if s.find("tl") is not None else None
+        # line_number is the Liniennummer (ar.l / dp.l), identifying the route; it
+        # groups multiple runs and is absent for long-distance trains (ICE/IC/EC).
         ar_line = s.find("ar").get("l") if s.find("ar") is not None else None
         dp_line = s.find("dp").get("l") if s.find("dp") is not None else None
-
-        if tl_number is not None:
-            train_number = f"{train_type} {tl_number}"
-        else:
-            train_number = train_type
-
-        # line number: use ar.l or dp.l, but only when it contains letters (e.g. "RB23")
-        # for long-distance trains l is just an internal sequence like "1" — store null
-        raw_line = ar_line if ar_line is not None else dp_line
-        line_number = raw_line if (raw_line is not None and any(c.isalpha() for c in raw_line)) else None
+        line_number = ar_line if ar_line is not None else dp_line
 
         dp_ppth = s.find("dp").get("ppth") if s.find("dp") is not None else None  # departure planned path
         if dp_ppth is None:
