@@ -78,6 +78,10 @@ The raw data contains the API responses in the following structure:
 | `month` | integer | Month of the request (partition key) |
 | `day` | integer | Day of the request (partition key) |
 
+### Schema Changelog
+
+- **2026-05**: The `train_name` column was split into two raw columns: `train_number` (the Zugnummer / `tl.n`, identifying a specific train run) and `line_number` (the Liniennummer / `ar.l`/`dp.l`, identifying the route; null for long-distance trains). To get the old `train_name` label (e.g. `"ICE 123"`), combine `train_type` and `train_number`. All historical monthly files were reprocessed with the new schema.
+
 ## Developing Setup
 
 Install uv and git and run the following commands to download the code and setup everything.
