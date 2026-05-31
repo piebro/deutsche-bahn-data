@@ -25,19 +25,13 @@ def get_plan_xml_rows(xml_string: str, eva: str, station_name: dict[str, str], x
     for s in root.findall("s"):
         s_id = s.get("id")
         train_type = s.find("tl").get("c") if s.find("tl") is not None else None
+        # train_number is the Zugnummer (tl.n), identifying a specific train run
         train_number = s.find("tl").get("n") if s.find("tl") is not None else None
-        ar_train_line_number = s.find("ar").get("l") if s.find("ar") is not None else None
-        dp_train_line_number = s.find("dp").get("l") if s.find("dp") is not None else None
-
-        if train_type in ["IC", "ICE", "EC"]:
-            train_name = f"{train_type} {train_number}"
-        else:
-            if ar_train_line_number is not None:
-                train_name = f"{train_type} {ar_train_line_number}"
-            elif dp_train_line_number is not None:
-                train_name = f"{train_type} {dp_train_line_number}"
-            else:
-                train_name = train_type
+        # line_number is the Liniennummer (ar.l / dp.l), identifying the route; it
+        # groups multiple runs and is absent for long-distance trains (ICE/IC/EC).
+        ar_line = s.find("ar").get("l") if s.find("ar") is not None else None
+        dp_line = s.find("dp").get("l") if s.find("dp") is not None else None
+        line_number = ar_line if ar_line is not None else dp_line
 
         dp_ppth = s.find("dp").get("ppth") if s.find("dp") is not None else None  # departure planned path
         if dp_ppth is None:
@@ -54,7 +48,8 @@ def get_plan_xml_rows(xml_string: str, eva: str, station_name: dict[str, str], x
                 "station_name": station_name,
                 "xml_station_name": xml_station_name,
                 "eva": eva,
-                "train_name": train_name,
+                "train_number": train_number,
+                "line_number": line_number,
                 "final_destination_station": final_destination_station,
                 "train_type": train_type,
                 "arrival_planned_time": to_datetime(ar_pt),
@@ -226,7 +221,8 @@ def main(year: int, month: int, parquet_files, eva_to_station: dict, output_dir:
                     station_name,
                     xml_station_name,
                     eva,
-                    train_name,
+                    train_number,
+                    line_number,
                     final_destination_station,
                     train_type,
                     arrival_planned_time,
@@ -249,7 +245,8 @@ def main(year: int, month: int, parquet_files, eva_to_station: dict, output_dir:
                     p.station_name,
                     p.xml_station_name,
                     p.eva,
-                    p.train_name,
+                    p.train_number,
+                    p.line_number,
                     p.final_destination_station,
                     p.train_type,
                     p.arrival_planned_time,
@@ -265,7 +262,8 @@ def main(year: int, month: int, parquet_files, eva_to_station: dict, output_dir:
                     station_name,
                     xml_station_name,
                     eva,
-                    train_name,
+                    train_number,
+                    line_number,
                     final_destination_station,
                     CAST(COALESCE(
                         date_diff('minute', departure_planned_time, departure_change_time),
