@@ -18,7 +18,8 @@ Wichtige Spalten:
 Identifikation:
 - station_name: Name der Station
 - eva: EVA-Stationsnummer (eindeutiger Bezeichner)
-- train_name: Name des Zuges (z.B. "ICE 123", "RE 5")
+- train_number: Zugnummer (roher tl.n-Wert, identifiziert eine konkrete Zugfahrt, z.B. "123", "12603"); mit train_type kombinieren für eine Bezeichnung wie "ICE 123"
+- line_number: Liniennummer (roher ar.l/dp.l-Wert, identifiziert die Linie, nicht eindeutig, z.B. "RB23", "14"); null bei Fernverkehrszügen (ICE/IC/EC)
 - train_type: Zugtyp (z.B. "ICE", "IC", "RE", "RB", "S", "Bus")
   - S: S-Bahn (Nahverkehrszüge)
   - RE: Regional-Express

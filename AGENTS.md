@@ -18,7 +18,8 @@ The monthly processed dataset contains the following key columns:
 ### Identification
 - `station_name` - Name of the station
 - `eva` - EVA station number (unique identifier)
-- `train_name` - Name of the train (e.g., "ICE 123", "RE 5")
+- `train_number` - Train number / Zugnummer, the raw `tl.n` value identifying a specific train run (e.g., "123", "12603"). Combine with `train_type` for a label like "ICE 123"
+- `line_number` - Line number / Liniennummer, the raw `ar.l`/`dp.l` value identifying the route, non-unique (e.g., "RB23", "14"); null for long-distance trains (ICE/IC/EC)
 - `train_type` - Type of train. There are 65 unique train types in the dataset. Most common types include:
   - `S` - S-Bahn (urban trains)
   - `RE` - Regional Express
