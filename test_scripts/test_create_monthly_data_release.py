@@ -53,7 +53,8 @@ def test_main(tmp_path, input_csv_path, expected_csv_path, year, month):
             "station_name": str,
             "xml_station_name": str,
             "eva": str,
-            "train_name": str,
+            "train_number": str,
+            "line_number": str,
             "final_destination_station": str,
             "delay_in_min": "int32",
             "is_canceled": bool,
@@ -74,5 +75,9 @@ def test_main(tmp_path, input_csv_path, expected_csv_path, year, month):
     # Sort both dataframes by id to ensure consistent ordering
     output_df = output_df.sort_values("id").reset_index(drop=True)
     expected_df = expected_df.sort_values("id").reset_index(drop=True)
+
+    # Normalize None/NaN so nullable string columns compare consistently
+    output_df = output_df.where(output_df.notna(), other=None)
+    expected_df = expected_df.where(expected_df.notna(), other=None)
 
     pd.testing.assert_frame_equal(output_df, expected_df)
