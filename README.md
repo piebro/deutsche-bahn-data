@@ -105,6 +105,14 @@ uv run python notebooks/src/nb_to_html.py --run allgemein # Run only allgemein, 
 
 Contributions are welcome. Open an Issue if you want to report a bug, have an idea or want to propose a change.
 
+## Note on repository history (2026-05)
+
+On 2026-05-31 the git history was rewritten to remove large data files
+(`data/` and `monthly_data_releases/`) that had bloated the repository to
+~5.7 GB. These files were never needed in git — the data is published on
+[HuggingFace](https://huggingface.co/datasets/piebro/deutsche-bahn-data).
+The repository is now ~38 MB.
+
 ## Related Deutsche Bahn and Open Data Websites
 
 There are a few other projects that look at similar data.
