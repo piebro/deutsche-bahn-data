@@ -1,8 +1,10 @@
 name: Fetch and Upload Deutsche Bahn Data
 on:
   schedule:
-    # Run every 6 hours at 3am, 9am, 3pm, 9pm UTC
-    - cron: '0 3,9,15,21 * * *'
+    # Run every 6 hours at 3am, 9am, 3pm, 9pm UTC. The :17 minute offset
+    # avoids the heavily contended top-of-the-hour, reducing the chance the
+    # scheduled run is delayed or skipped by GitHub.
+    - cron: '17 3,9,15,21 * * *'
   workflow_dispatch:
     inputs:
       date:
@@ -43,11 +45,15 @@ jobs:
           # Use manual input hours if provided, otherwise calculate
           HOURS="${{ inputs.hours }}"
           if [ -z "$HOURS" ]; then
-            # Calculate hours: current hour -3 to +2 (6 hour window)
+            # Snap to the fixed 6-hour block the current hour falls into
+            # (0-5, 6-11, 12-17, 18-23). The scheduled crons (3, 9, 15, 21)
+            # sit in the middle of each block, so GitHub Actions queue drift
+            # of up to ~3 hours still yields the correct, non-overlapping window.
             CURRENT_HOUR=$(date -u +"%H")
+            BLOCK_START=$(( (10#$CURRENT_HOUR / 6) * 6 ))
             HOURS=""
-            for i in {-3..2}; do
-              HOUR=$(( (10#$CURRENT_HOUR + i + 24) % 24 ))
+            for i in 0 1 2 3 4 5; do
+              HOUR=$(( BLOCK_START + i ))
               if [ -z "$HOURS" ]; then
                 HOURS="$HOUR"
               else

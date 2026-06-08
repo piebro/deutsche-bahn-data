@@ -78,8 +78,9 @@ The raw data contains the API responses in the following structure:
 | `month` | integer | Month of the request (partition key) |
 | `day` | integer | Day of the request (partition key) |
 
-### Schema Changelog
+### Changelog
 
+- **2026-06**: Some hours of data might be missing. The fetch job runs as a scheduled GitHub Actions cron job, and these runs can be delayed (or occasionally skipped) by GitHub, which in some cases caused an hour to be skipped or fetched twice. The fetch logic was updated to snap each run to a fixed 6-hour block so it is robust against scheduling delays going forward.
 - **2026-05**: The `train_name` column was split into two raw columns: `train_number` (the Zugnummer / `tl.n`, identifying a specific train run) and `line_number` (the Liniennummer / `ar.l`/`dp.l`, identifying the route; null for long-distance trains). To get the old `train_name` label (e.g. `"ICE 123"`), combine `train_type` and `train_number`. All historical monthly files were reprocessed with the new schema.
 
 ## Developing Setup
