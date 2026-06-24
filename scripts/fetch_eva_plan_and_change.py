@@ -9,6 +9,9 @@ from db_data_fetcher import fetch_and_save
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+# Fallback station list used when the live station-data API call fails.
+EVA_FALLBACK_FILE = "config/eva_to_station_name.json"
+
 
 async def fetch_eva_numbers(category: int, parquet_filename: str) -> list[str]:
     queries = [
@@ -71,11 +74,18 @@ async def main(categories: list[int], date_str: str, hours: list[int], parquet_f
         parquet_filename=parquet_filename,
     )
 
-    eva_numbers = []
-    for category in categories:
-        eva_numbers_for_category = await fetch_eva_numbers(category=category, parquet_filename=parquet_filename)
-        logger.info(f"Fetched {len(eva_numbers_for_category)} EVA numbers for category {category}")
-        eva_numbers.extend(eva_numbers_for_category)
+    try:
+        eva_numbers = []
+        for category in categories:
+            eva_numbers_for_category = await fetch_eva_numbers(category=category, parquet_filename=parquet_filename)
+            logger.info(f"Fetched {len(eva_numbers_for_category)} EVA numbers for category {category}")
+            eva_numbers.extend(eva_numbers_for_category)
+    except Exception as e:
+        # The station-data API can fail; fall back to the last known station list so we still
+        # know which stations to fetch plan/change data for.
+        logger.warning(f"Live station-data fetch failed ({e}); falling back to {EVA_FALLBACK_FILE}")
+        with open(EVA_FALLBACK_FILE, encoding="utf-8") as f:
+            eva_numbers = list(json.load(f).keys())
 
     eva_numbers_to_exclude = [
         "08083368",  # ("Köln Messe/Deutz"), bad request error, probably deprecated
