@@ -2,7 +2,11 @@ from datetime import UTC, datetime
 
 import pytest
 
-from scripts.find_missing_raw_data_hours import covered_hours, missing_hour_groups
+from scripts.find_missing_raw_data_hours import (
+    BERLIN_TIMEZONE,
+    covered_hours,
+    missing_hour_groups,
+)
 
 
 def test_covered_hours_supports_dated_and_legacy_filenames():
@@ -13,10 +17,10 @@ def test_covered_hours_supports_dated_and_legacy_filenames():
     ]
 
     assert covered_hours(files) == {
-        datetime(2026, 7, 25, 22, tzinfo=UTC),
-        datetime(2026, 7, 25, 23, tzinfo=UTC),
-        datetime(2026, 7, 26, 0, tzinfo=UTC),
-        datetime(2026, 7, 26, 1, tzinfo=UTC),
+        datetime(2026, 7, 25, 22, tzinfo=BERLIN_TIMEZONE),
+        datetime(2026, 7, 25, 23, tzinfo=BERLIN_TIMEZONE),
+        datetime(2026, 7, 26, 0, tzinfo=BERLIN_TIMEZONE),
+        datetime(2026, 7, 26, 1, tzinfo=BERLIN_TIMEZONE),
     }
 
 
@@ -28,7 +32,7 @@ def test_missing_hours_are_grouped_across_midnight():
 
     assert missing_hour_groups(
         files,
-        now=datetime(2026, 7, 26, 1, 42, tzinfo=UTC),
+        now=datetime(2026, 7, 26, 1, 42, tzinfo=BERLIN_TIMEZONE),
         lookback_hours=4,
     ) == [{"date": "2026-07-26", "hours": [0]}]
 
@@ -41,7 +45,8 @@ def test_missing_hours_include_lookahead_across_midnight():
 
     assert missing_hour_groups(
         files,
-        now=datetime(2026, 7, 26, 23, 42, tzinfo=UTC),
+        # 21:42 UTC is 23:42 in Berlin, so the lookahead crosses midnight.
+        now=datetime(2026, 7, 26, 21, 42, tzinfo=UTC),
         lookback_hours=2,
         lookahead_hours=2,
     ) == [{"date": "2026-07-27", "hours": [0]}]
