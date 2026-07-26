@@ -21,6 +21,22 @@ Data of the biggest ~100 stations is available from 2024-07 to 2025-11-02 and si
 
 All timestamps in the dataset (both raw and monthly processed) are in German local time (Europe/Berlin, i.e. CET/CEST) as returned by the Deutsche Bahn Timetables API. No timezone conversion is applied during processing.
 
+## Missing data
+
+The dataset is not complete for every hour. API errors and delayed or skipped GitHub Actions runs caused some collection windows to be missed. Consequently, analyses should not assume that the absence of a train or station record means that no service existed at that time.
+
+An audit of the raw Parquet files on 2026-07-26 found 196 missing collection hours between 2024-07-01 and 2026-07-26, corresponding to approximately 98.92% file-level coverage. Known gaps occur in:
+
+- 2025-11: 6 hours
+- 2026-02: 7 hours
+- 2026-03: 10 hours
+- 2026-04: 34 hours
+- 2026-05: 31 hours
+- 2026-06: 6 hours
+- 2026-07 through 2026-07-26: 102 hours
+
+This issue should now be fixed, but the historic data is still missing.
+
 ## Using the data
 
 You can download the data from huggingface manually or use the following cmds to download it (these are only tested on Linux, but should also work on mac and windows):
