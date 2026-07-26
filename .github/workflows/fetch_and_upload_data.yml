@@ -12,7 +12,7 @@ on:
         required: false
         type: string
       hours:
-        description: 'Comma-separated hours 0-23 (requires date; leave both empty for automatic 20-hour gap repair)'
+        description: 'Comma-separated hours 0-23 (requires date; leave both empty for automatic 10-hour gap repair)'
         required: false
         type: string
 
@@ -32,15 +32,10 @@ jobs:
           curl -LsSf https://astral.sh/uv/install.sh | sh
           uv sync --python 3.13
 
-      - name: Find and fetch missing Deutsche Bahn data
+      - name: Determine hours to fetch
         env:
-          DB_API_KEY: ${{ secrets.DB_API_KEY }}
-          DB_CLIENT_ID: ${{ secrets.DB_CLIENT_ID }}
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          # Create .env file with API key
-          echo "DB_API_KEY=$DB_API_KEY" > .env
-
           DATE="${{ inputs.date }}"
           HOURS="${{ inputs.hours }}"
 
@@ -56,12 +51,24 @@ jobs:
               '[{date: $date, hours: ($hours | split(",") | map(tonumber))}]')
           else
             MISSING_GROUPS=$(uv run --with huggingface_hub \
-              python scripts/find_missing_raw_data_hours.py --lookback-hours 20)
+              python scripts/find_missing_raw_data_hours.py --lookback-hours 10)
           fi
 
           echo "Hours to fetch: $MISSING_GROUPS"
+          echo "missing_groups=$(echo "$MISSING_GROUPS" | jq -c .)" >> "$GITHUB_ENV"
+
+      - name: Fetch missing Deutsche Bahn data
+        if: env.missing_groups != '[]'
+        env:
+          DB_API_KEY: ${{ secrets.DB_API_KEY }}
+          DB_CLIENT_ID: ${{ secrets.DB_CLIENT_ID }}
+          MISSING_GROUPS: ${{ env.missing_groups }}
+        run: |
+          # Create .env file with API key
+          echo "DB_API_KEY=$DB_API_KEY" > .env
+
           if [ "$MISSING_GROUPS" = "[]" ]; then
-            echo "No data is missing in the last 20 hours."
+            echo "No data is missing in the last 10 hours."
             exit 0
           fi
 
