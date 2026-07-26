@@ -33,9 +33,31 @@ def test_missing_hours_are_grouped_across_midnight():
     ) == [{"date": "2026-07-26", "hours": [0]}]
 
 
+def test_missing_hours_include_lookahead_across_midnight():
+    files = [
+        "raw_data/year=2026/month=7/day=26/date_2026-07-26_hour_22_23.parquet",
+        "raw_data/year=2026/month=7/day=27/date_2026-07-27_hour_01.parquet",
+    ]
+
+    assert missing_hour_groups(
+        files,
+        now=datetime(2026, 7, 26, 23, 42, tzinfo=UTC),
+        lookback_hours=2,
+        lookahead_hours=2,
+    ) == [{"date": "2026-07-27", "hours": [0]}]
+
+
 def test_missing_hours_validates_arguments():
     with pytest.raises(ValueError, match="timezone-aware"):
         missing_hour_groups([], datetime(2026, 7, 26), 20)
 
     with pytest.raises(ValueError, match="at least 1"):
         missing_hour_groups([], datetime(2026, 7, 26, tzinfo=UTC), 0)
+
+    with pytest.raises(ValueError, match="at least 0"):
+        missing_hour_groups(
+            [],
+            datetime(2026, 7, 26, tzinfo=UTC),
+            20,
+            lookahead_hours=-1,
+        )

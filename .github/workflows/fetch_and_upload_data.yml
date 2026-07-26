@@ -12,7 +12,7 @@ on:
         required: false
         type: string
       hours:
-        description: 'Comma-separated hours 0-23 (requires date; leave both empty for automatic 10-hour gap repair)'
+        description: 'Comma-separated hours 0-23 (requires date; leave both empty for automatic repair: last 10h and next 2h)'
         required: false
         type: string
 
@@ -51,7 +51,9 @@ jobs:
               '[{date: $date, hours: ($hours | split(",") | map(tonumber))}]')
           else
             MISSING_GROUPS=$(uv run --with huggingface_hub \
-              python scripts/find_missing_raw_data_hours.py --lookback-hours 10)
+              python scripts/find_missing_raw_data_hours.py \
+                --lookback-hours 10 \
+                --lookahead-hours 2)
           fi
 
           echo "Hours to fetch: $MISSING_GROUPS"
@@ -68,7 +70,7 @@ jobs:
           echo "DB_API_KEY=$DB_API_KEY" > .env
 
           if [ "$MISSING_GROUPS" = "[]" ]; then
-            echo "No data is missing in the last 10 hours."
+            echo "No data is missing in the last 10 hours or next 2 hours."
             exit 0
           fi
 

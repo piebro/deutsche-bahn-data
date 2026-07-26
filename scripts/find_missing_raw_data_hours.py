@@ -44,17 +44,20 @@ def missing_hour_groups(
     repo_files: list[str],
     now: datetime,
     lookback_hours: int,
+    lookahead_hours: int = 0,
 ) -> list[dict[str, str | list[int]]]:
     """Group missing UTC hour buckets by date for efficient API fetching."""
     if now.tzinfo is None:
         raise ValueError("now must be timezone-aware")
     if lookback_hours < 1:
         raise ValueError("lookback_hours must be at least 1")
+    if lookahead_hours < 0:
+        raise ValueError("lookahead_hours must be at least 0")
 
     current_hour = now.astimezone(UTC).replace(minute=0, second=0, microsecond=0)
     expected = {
-        current_hour - timedelta(hours=offset)
-        for offset in range(lookback_hours)
+        current_hour + timedelta(hours=offset)
+        for offset in range(-(lookback_hours - 1), lookahead_hours + 1)
     }
     missing = sorted(expected - covered_hours(repo_files))
 
@@ -76,6 +79,7 @@ def main() -> None:
     )
     parser.add_argument("--repo-id", default=REPO_ID)
     parser.add_argument("--lookback-hours", type=int, default=20)
+    parser.add_argument("--lookahead-hours", type=int, default=0)
     args = parser.parse_args()
 
     repo_files = HfApi().list_repo_files(repo_id=args.repo_id, repo_type="dataset")
@@ -83,6 +87,7 @@ def main() -> None:
         repo_files=repo_files,
         now=datetime.now(UTC),
         lookback_hours=args.lookback_hours,
+        lookahead_hours=args.lookahead_hours,
     )
     print(json.dumps(groups))
 
