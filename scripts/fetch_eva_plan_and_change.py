@@ -126,7 +126,9 @@ if __name__ == "__main__":
 
     # Create filename with all hours included
     hours_str = "_".join([f"{h:02d}" for h in sorted(hours)])
-    parquet_filename = f"hour_{hours_str}.parquet"
+    # Include the requested plan date so a later repair run is still stored and
+    # detected as data for that date, even when it is fetched after midnight.
+    parquet_filename = f"date_{args.date}_hour_{hours_str}.parquet"
 
     # Convert date from YYYY-MM-DD to YYMMDD format for the API
     date_obj = datetime.strptime(args.date, "%Y-%m-%d")

@@ -8,13 +8,17 @@ on:
   workflow_dispatch:
     inputs:
       date:
-        description: 'Date in YYYY-MM-DD format (leave empty for today)'
+        description: 'Date in YYYY-MM-DD format (requires hours; leave both empty for automatic repair)'
         required: false
         type: string
       hours:
-        description: 'Comma-separated hours 0-23 (e.g., "3,9,15,21" or leave empty for auto-calculated 6-hour window)'
+        description: 'Comma-separated hours 0-23 (requires date; leave both empty for automatic 20-hour gap repair)'
         required: false
         type: string
+
+concurrency:
+  group: fetch-and-upload-deutsche-bahn-data
+  cancel-in-progress: false
 
 jobs:
   fetch-and-upload:
@@ -28,47 +32,52 @@ jobs:
           curl -LsSf https://astral.sh/uv/install.sh | sh
           uv sync --python 3.13
 
-      - name: Fetch Deutsche Bahn data
+      - name: Find and fetch missing Deutsche Bahn data
         env:
           DB_API_KEY: ${{ secrets.DB_API_KEY }}
           DB_CLIENT_ID: ${{ secrets.DB_CLIENT_ID }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
           # Create .env file with API key
           echo "DB_API_KEY=$DB_API_KEY" > .env
 
-          # Use manual input date if provided, otherwise use today
           DATE="${{ inputs.date }}"
-          if [ -z "$DATE" ]; then
-            DATE=$(date -u +"%Y-%m-%d")
-          fi
-
-          # Use manual input hours if provided, otherwise calculate
           HOURS="${{ inputs.hours }}"
-          if [ -z "$HOURS" ]; then
-            # Snap to the fixed 6-hour block the current hour falls into
-            # (0-5, 6-11, 12-17, 18-23). The scheduled crons (3, 9, 15, 21)
-            # sit in the middle of each block, so GitHub Actions queue drift
-            # of up to ~3 hours still yields the correct, non-overlapping window.
-            CURRENT_HOUR=$(date -u +"%H")
-            BLOCK_START=$(( (10#$CURRENT_HOUR / 6) * 6 ))
-            HOURS=""
-            for i in 0 1 2 3 4 5; do
-              HOUR=$(( BLOCK_START + i ))
-              if [ -z "$HOURS" ]; then
-                HOURS="$HOUR"
-              else
-                HOURS="$HOURS,$HOUR"
-              fi
-            done
+
+          if { [ -n "$DATE" ] && [ -z "$HOURS" ]; } || { [ -z "$DATE" ] && [ -n "$HOURS" ]; }; then
+            echo "Manual runs must provide both date and hours."
+            exit 1
           fi
 
-          echo "Using date: $DATE"
-          echo "Fetching data for hours: $HOURS"
+          if [ -n "$DATE" ]; then
+            MISSING_GROUPS=$(jq -nc \
+              --arg date "$DATE" \
+              --arg hours "$HOURS" \
+              '[{date: $date, hours: ($hours | split(",") | map(tonumber))}]')
+          else
+            MISSING_GROUPS=$(uv run --with huggingface_hub \
+              python scripts/find_missing_raw_data_hours.py --lookback-hours 20)
+          fi
 
-          # Fetch data for the 6-hour window
-          uv run python scripts/fetch_eva_plan_and_change.py --categories 1,2,3,4,5,6,7 --date "$DATE" --hours "$HOURS"
+          echo "Hours to fetch: $MISSING_GROUPS"
+          if [ "$MISSING_GROUPS" = "[]" ]; then
+            echo "No data is missing in the last 20 hours."
+            exit 0
+          fi
+
+          while IFS=$'\t' read -r GROUP_DATE GROUP_HOURS; do
+            echo "Fetching $GROUP_DATE, hours $GROUP_HOURS"
+            uv run python scripts/fetch_eva_plan_and_change.py \
+              --categories 1,2,3,4,5,6,7 \
+              --date "$GROUP_DATE" \
+              --hours "$GROUP_HOURS"
+          done < <(echo "$MISSING_GROUPS" | jq -r \
+            '.[] | [.date, (.hours | map(tostring) | join(","))] | @tsv')
+
+          echo "has_data=true" >> "$GITHUB_ENV"
 
       - name: Upload data to Hugging Face
+        if: env.has_data == 'true'
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |

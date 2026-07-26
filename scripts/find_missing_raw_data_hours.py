@@ -1,0 +1,91 @@
+import argparse
+import json
+import re
+from collections import defaultdict
+from datetime import UTC, datetime, timedelta
+
+REPO_ID = "piebro/deutsche-bahn-data"
+DATED_FILE_RE = re.compile(
+    r"(?:^|/)date_(\d{4}-\d{2}-\d{2})_hour_((?:\d{2})(?:_\d{2})*)\.parquet$"
+)
+LEGACY_FILE_RE = re.compile(
+    r"(?:^|/)year=(\d{4})/month=(\d{1,2})/day=(\d{1,2})/hour_((?:\d{2})(?:_\d{2})*)\.parquet$"
+)
+
+
+def covered_hours(repo_files: list[str]) -> set[datetime]:
+    """Return UTC hour buckets represented by raw-data parquet filenames."""
+    covered = set()
+
+    for path in repo_files:
+        match = DATED_FILE_RE.search(path)
+        if match:
+            date = datetime.strptime(match.group(1), "%Y-%m-%d").replace(tzinfo=UTC)
+            hours = match.group(2)
+        else:
+            match = LEGACY_FILE_RE.search(path)
+            if not match:
+                continue
+            date = datetime(
+                int(match.group(1)),
+                int(match.group(2)),
+                int(match.group(3)),
+                tzinfo=UTC,
+            )
+            hours = match.group(4)
+
+        for hour in hours.split("_"):
+            covered.add(date.replace(hour=int(hour)))
+
+    return covered
+
+
+def missing_hour_groups(
+    repo_files: list[str],
+    now: datetime,
+    lookback_hours: int,
+) -> list[dict[str, str | list[int]]]:
+    """Group missing UTC hour buckets by date for efficient API fetching."""
+    if now.tzinfo is None:
+        raise ValueError("now must be timezone-aware")
+    if lookback_hours < 1:
+        raise ValueError("lookback_hours must be at least 1")
+
+    current_hour = now.astimezone(UTC).replace(minute=0, second=0, microsecond=0)
+    expected = {
+        current_hour - timedelta(hours=offset)
+        for offset in range(lookback_hours)
+    }
+    missing = sorted(expected - covered_hours(repo_files))
+
+    grouped: dict[str, list[int]] = defaultdict(list)
+    for hour_bucket in missing:
+        grouped[hour_bucket.strftime("%Y-%m-%d")].append(hour_bucket.hour)
+
+    return [
+        {"date": date, "hours": hours}
+        for date, hours in sorted(grouped.items())
+    ]
+
+
+def main() -> None:
+    from huggingface_hub import HfApi
+
+    parser = argparse.ArgumentParser(
+        description="Find missing hourly raw-data files in a Hugging Face dataset"
+    )
+    parser.add_argument("--repo-id", default=REPO_ID)
+    parser.add_argument("--lookback-hours", type=int, default=20)
+    args = parser.parse_args()
+
+    repo_files = HfApi().list_repo_files(repo_id=args.repo_id, repo_type="dataset")
+    groups = missing_hour_groups(
+        repo_files=repo_files,
+        now=datetime.now(UTC),
+        lookback_hours=args.lookback_hours,
+    )
+    print(json.dumps(groups))
+
+
+if __name__ == "__main__":
+    main()
