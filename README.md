@@ -21,9 +21,20 @@ Data of the biggest ~100 stations is available from 2024-07 to 2025-11-02 and si
 
 All timestamps in the dataset (both raw and monthly processed) are in German local time (Europe/Berlin, i.e. CET/CEST) as returned by the Deutsche Bahn Timetables API. No timezone conversion is applied during processing.
 
+## Changelog
+
+- **2026-08**: Replaced the combined `is_canceled` column with `arrival_is_canceled` and `departure_is_canceled`. All historical monthly files are reprocessed with the new schema. The `is_canceled` column can easily be added again in scripts with `df["is_canceled"] = df["arrival_is_canceled"] | df["departure_is_canceled"]`.
+
+- **2026-07**: Some hours of data might be missing. The fetch job runs as a scheduled GitHub Actions cron job, and these runs can be delayed (or occasionally skipped) by GitHub, which in some cases caused an hour to be skipped or fetched twice. The fetch logic was updated to snap each run to a fixed 6-hour block so it is robust against scheduling delays going forward.
+
+- **2026-05**: The `train_name` column was split into two raw columns: `train_number` (the Zugnummer / `tl.n`, identifying a specific train run) and `line_number` (the Liniennummer / `ar.l`/`dp.l`, identifying the route; null for long-distance trains). To get the old `train_name` label (e.g. `"ICE 123"`), combine `train_type` and `train_number`. All historical monthly files were reprocessed with the new schema.
+
+- **2026-05**: the git history was rewritten to remove large data files (`data/` and `monthly_data_releases/`) that had bloated the repository to ~5.7 GB and made it hard to work with. The data is now published on [HuggingFace](https://huggingface.co/datasets/piebro/deutsche-bahn-data).
+
+
 ## Missing data
 
-There were some API errors between 2025-11 and 2026-07 resulting in some missing data for some hours of the day.
+There were some API errors between 2025-11 and 2026-07 resulting in some missing data for some hours of the day. This issue should be fixed now. The missing data per month:
 
 - 2025-11: 6 hours
 - 2026-02: 7 hours
@@ -32,8 +43,6 @@ There were some API errors between 2025-11 and 2026-07 resulting in some missing
 - 2026-05: 31 hours
 - 2026-06: 6 hours
 - 2026-07: 102 hours
-
-This issue should now be fixed, but the historic data is still missing.
 
 ## Using the data
 
@@ -93,11 +102,6 @@ The raw data contains the API responses in the following structure:
 | `month` | integer | Month of the request (partition key) |
 | `day` | integer | Day of the request (partition key) |
 
-### Changelog
-
-- 2026-08 (Breaking change): Replaced the combined `is_canceled` column with `arrival_is_canceled` and `departure_is_canceled`. All historical monthly files are reprocessing with the new schema right now.
-- 2026-06: Some hours of data might be missing. The fetch job runs as a scheduled GitHub Actions cron job, and these runs can be delayed (or occasionally skipped) by GitHub, which in some cases caused an hour to be skipped or fetched twice. The fetch logic was updated to snap each run to a fixed 6-hour block so it is robust against scheduling delays going forward.
-- 2026-05: The `train_name` column was split into two raw columns: `train_number` (the Zugnummer / `tl.n`, identifying a specific train run) and `line_number` (the Liniennummer / `ar.l`/`dp.l`, identifying the route; null for long-distance trains). To get the old `train_name` label (e.g. `"ICE 123"`), combine `train_type` and `train_number`. All historical monthly files were reprocessed with the new schema.
 
 ## Developing Setup
 
@@ -122,14 +126,6 @@ uv run python notebooks/src/nb_to_html.py --run allgemein # Run only allgemein, 
 
 Contributions are welcome. Open an Issue if you want to report a bug, have an idea or want to propose a change.
 
-## Note on repository history (2026-05)
-
-On 2026-05-31 the git history was rewritten to remove large data files
-(`data/` and `monthly_data_releases/`) that had bloated the repository to
-~5.7 GB. These files were never needed in git — the data is published on
-[HuggingFace](https://huggingface.co/datasets/piebro/deutsche-bahn-data).
-The repository is now ~38 MB.
-
 ## Related Deutsche Bahn and Open Data Websites
 
 There are a few other projects that look at similar data.
@@ -142,6 +138,7 @@ There are a few other projects that look at similar data.
 - [openrailwaymap.org](https://openrailwaymap.org/): a worldwide map with railway infrastructure using OpenStreetMap Data
 - [zugspaet.de](https://zugspaet.de): a website, where you can then enter your train and see how often it was late or on time in the past
 - [railwise.eu](https://railwise.eu/): an iOS app showing on-time rates, delays and cancellations for German long-distance trains to help you pick reliable connections before booking
+- [delaybahn](https://delaybahn.com/): a bahn.de-style train connection search that also shows the median arrival delay of the last 7 or more days 
 
 ## Citation
 
