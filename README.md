@@ -64,7 +64,8 @@ The monthly processed data contains the following columns:
 | `final_destination_station` | string | Final destination of the train |
 | `delay_in_min` | integer | Delay in minutes |
 | `time` | timestamp | Actual arrival or departure time |
-| `is_canceled` | boolean | Whether the train stop was canceled |
+| `arrival_is_canceled` | boolean | Whether the arrival at the train stop was canceled |
+| `departure_is_canceled` | boolean | Whether the departure from the train stop was canceled |
 | `train_type` | string | Type of train (e.g., "ICE", "IC", "RE") |
 | `train_line_ride_id` | string | Unique identifier for the train ride |
 | `train_line_station_num` | integer | Station number in the train's route |
@@ -94,8 +95,9 @@ The raw data contains the API responses in the following structure:
 
 ### Changelog
 
-- **2026-06**: Some hours of data might be missing. The fetch job runs as a scheduled GitHub Actions cron job, and these runs can be delayed (or occasionally skipped) by GitHub, which in some cases caused an hour to be skipped or fetched twice. The fetch logic was updated to snap each run to a fixed 6-hour block so it is robust against scheduling delays going forward.
-- **2026-05**: The `train_name` column was split into two raw columns: `train_number` (the Zugnummer / `tl.n`, identifying a specific train run) and `line_number` (the Liniennummer / `ar.l`/`dp.l`, identifying the route; null for long-distance trains). To get the old `train_name` label (e.g. `"ICE 123"`), combine `train_type` and `train_number`. All historical monthly files were reprocessed with the new schema.
+- 2026-08 (Breaking change): Replaced the combined `is_canceled` column with `arrival_is_canceled` and `departure_is_canceled`. All historical monthly files are reprocessing with the new schema right now.
+- 2026-06: Some hours of data might be missing. The fetch job runs as a scheduled GitHub Actions cron job, and these runs can be delayed (or occasionally skipped) by GitHub, which in some cases caused an hour to be skipped or fetched twice. The fetch logic was updated to snap each run to a fixed 6-hour block so it is robust against scheduling delays going forward.
+- 2026-05: The `train_name` column was split into two raw columns: `train_number` (the Zugnummer / `tl.n`, identifying a specific train run) and `line_number` (the Liniennummer / `ar.l`/`dp.l`, identifying the route; null for long-distance trains). To get the old `train_name` label (e.g. `"ICE 123"`), combine `train_type` and `train_number`. All historical monthly files were reprocessed with the new schema.
 
 ## Developing Setup
 

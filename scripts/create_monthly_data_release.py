@@ -84,12 +84,10 @@ def get_fchg_xml_rows(xml_string: str, xml_timestamp) -> list[dict]:
         ar_clt = s.find("ar").get("clt") if s.find("ar") is not None else None  # arrival cancellation time
         dp_clt = s.find("dp").get("clt") if s.find("dp") is not None else None  # departure cancellation time
 
-        if ar_clt is None and dp_clt is None:
-            is_canceled = False
-        else:
-            is_canceled = True
+        arrival_is_canceled = ar_clt is not None
+        departure_is_canceled = dp_clt is not None
 
-        if ar_ct is None and dp_ct is None and not is_canceled:
+        if ar_ct is None and dp_ct is None and not arrival_is_canceled and not departure_is_canceled:
             continue
 
         rows.append(
@@ -97,7 +95,8 @@ def get_fchg_xml_rows(xml_string: str, xml_timestamp) -> list[dict]:
                 "id": s_id,
                 "arrival_change_time": to_datetime(ar_ct),
                 "departure_change_time": to_datetime(dp_ct),
-                "is_canceled": is_canceled,
+                "arrival_is_canceled": arrival_is_canceled,
+                "departure_is_canceled": departure_is_canceled,
                 "xml_timestamp": xml_timestamp,
             }
         )
@@ -235,7 +234,8 @@ def main(year: int, month: int, parquet_files, eva_to_station: dict, output_dir:
                     id,
                     arrival_change_time,
                     departure_change_time,
-                    is_canceled
+                    arrival_is_canceled,
+                    departure_is_canceled
                 FROM '{fchg_pattern}'
                 ORDER BY id, xml_timestamp DESC
             ),
@@ -253,7 +253,8 @@ def main(year: int, month: int, parquet_files, eva_to_station: dict, output_dir:
                     p.departure_planned_time,
                     COALESCE(f.arrival_change_time, p.arrival_planned_time) AS arrival_change_time,
                     COALESCE(f.departure_change_time, p.departure_planned_time) AS departure_change_time,
-                    COALESCE(f.is_canceled, false) AS is_canceled
+                    COALESCE(f.arrival_is_canceled, false) AS arrival_is_canceled,
+                    COALESCE(f.departure_is_canceled, false) AS departure_is_canceled
                 FROM plan_deduped p
                 LEFT JOIN fchg_deduped f ON p.id = f.id
             ),
@@ -270,7 +271,8 @@ def main(year: int, month: int, parquet_files, eva_to_station: dict, output_dir:
                         date_diff('minute', arrival_planned_time, arrival_change_time)
                     ) AS INTEGER) AS delay_in_min,
                     COALESCE(departure_change_time, arrival_change_time) AS time,
-                    is_canceled,
+                    arrival_is_canceled,
+                    departure_is_canceled,
                     train_type,
                     regexp_extract(id, '^(.*)-\\d{{10}}-\\d+$', 1) AS train_line_ride_id,
                     CAST(split_part(id, '-', -1) AS INTEGER) AS train_line_station_num,
