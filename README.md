@@ -23,9 +23,7 @@ All timestamps in the dataset (both raw and monthly processed) are in German loc
 
 ## Missing data
 
-The dataset is not complete for every hour. API errors and delayed or skipped GitHub Actions runs caused some collection windows to be missed. Consequently, analyses should not assume that the absence of a train or station record means that no service existed at that time.
-
-An audit of the raw Parquet files on 2026-07-26 found 196 missing collection hours between 2024-07-01 and 2026-07-26, corresponding to approximately 98.92% file-level coverage. Known gaps occur in:
+There were some API errors between 2025-11 and 2026-07 resulting in some missing data for some hours of the day.
 
 - 2025-11: 6 hours
 - 2026-02: 7 hours
@@ -33,7 +31,7 @@ An audit of the raw Parquet files on 2026-07-26 found 196 missing collection hou
 - 2026-04: 34 hours
 - 2026-05: 31 hours
 - 2026-06: 6 hours
-- 2026-07 through 2026-07-26: 102 hours
+- 2026-07: 102 hours
 
 This issue should now be fixed, but the historic data is still missing.
 
