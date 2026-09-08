@@ -1,6 +1,10 @@
+from __future__ import annotations
+
 import argparse
 import json
 import re
+import sys
+import time
 from collections import defaultdict
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
@@ -9,6 +13,9 @@ REPO_ID = "piebro/deutsche-bahn-data"
 BERLIN_TIMEZONE = ZoneInfo("Europe/Berlin")
 DATED_FILE_RE = re.compile(r"(?:^|/)date_(\d{4}-\d{2}-\d{2})_hour_((?:\d{2})(?:_\d{2})*)\.parquet$")
 LEGACY_FILE_RE = re.compile(r"(?:^|/)year=(\d{4})/month=(\d{1,2})/day=(\d{1,2})/hour_((?:\d{2})(?:_\d{2})*)\.parquet$")
+
+# HTTP statuses worth retrying (transient rate limits / server hiccups).
+RETRIABLE_STATUS = {429, 500, 502, 503, 504}
 
 
 def covered_hours(repo_files: list[str]) -> set[datetime]:
@@ -63,6 +70,74 @@ def missing_hour_groups(
     return [{"date": date, "hours": hours} for date, hours in sorted(grouped.items())]
 
 
+def _with_retry(fn, *, retries: int = 5, base_delay: float = 2.0, max_delay: float = 60.0):
+    """Call ``fn()``, retrying transient Hugging Face / network errors with exponential backoff."""
+    import httpx
+    from huggingface_hub.errors import HfHubHTTPError
+
+    last_exc = None
+    for attempt in range(retries):
+        try:
+            return fn()
+        except HfHubHTTPError as exc:
+            if getattr(exc.response, "status_code", None) not in RETRIABLE_STATUS:
+                raise
+            last_exc = exc
+        except (httpx.HTTPError, OSError) as exc:  # connection resets, DNS, timeouts, ...
+            last_exc = exc
+        delay = min(base_delay * (2**attempt), max_delay)
+        print(
+            f"Hugging Face request failed ({last_exc}); retry {attempt + 1}/{retries} in {delay:.0f}s", file=sys.stderr
+        )
+        time.sleep(delay)
+    if last_exc is not None:
+        raise last_exc
+
+
+def _list_folder_paths(api, repo_id: str, folder: str) -> list[str]:
+    """Non-recursively list a folder, returning file paths ([] when the folder does not exist)."""
+    from huggingface_hub.errors import HfHubHTTPError
+
+    try:
+        entries = _with_retry(
+            lambda: list(api.list_repo_tree(repo_id=repo_id, repo_type="dataset", path_in_repo=folder, recursive=False))
+        )
+    except HfHubHTTPError as exc:
+        if getattr(exc.response, "status_code", None) == 404:
+            return []
+        raise
+    return [
+        entry.path
+        for entry in entries
+        if entry.path and (DATED_FILE_RE.search(entry.path) or LEGACY_FILE_RE.search(entry.path))
+    ]
+
+
+def relevant_repo_files(api, repo_id: str, expected_hours: set[datetime]) -> list[str]:
+    """Scoped-listing alternative to the recursive ``list_repo_files``.
+
+    Only the day folders overlapping the expected repair window are listed (plus the
+    ``raw_data/`` root for flat dated files), instead of recursively walking the whole
+    dataset. Files are partitioned by fetch-time day, so a Berlin date D file for the
+    first hours of the day can live under day=D-1 - list both to be safe.
+    """
+    paths: set[str] = set()
+    day_folders = set()
+    for hour_bucket in expected_hours:
+        day = hour_bucket.date()
+        day_folders.add(day)
+        day_folders.add(day - timedelta(days=1))
+
+    for day in sorted(day_folders):
+        folder = f"raw_data/year={day.year}/month={day.month}/day={day.day}"
+        paths.update(_list_folder_paths(api, repo_id, folder))
+
+    # Flat dated files that used to be stored directly under raw_data/ (older layout).
+    paths.update(_list_folder_paths(api, repo_id, "raw_data"))
+
+    return sorted(paths)
+
+
 def main() -> None:
     from huggingface_hub import HfApi
 
@@ -72,10 +147,17 @@ def main() -> None:
     parser.add_argument("--lookahead-hours", type=int, default=0)
     args = parser.parse_args()
 
-    repo_files = HfApi().list_repo_files(repo_id=args.repo_id, repo_type="dataset")
+    api = HfApi()
+    now = datetime.now(BERLIN_TIMEZONE)
+    current_hour = now.replace(minute=0, second=0, microsecond=0)
+    expected = {
+        current_hour + timedelta(hours=offset) for offset in range(-(args.lookback_hours - 1), args.lookahead_hours + 1)
+    }
+
+    repo_files = relevant_repo_files(api, args.repo_id, expected)
     groups = missing_hour_groups(
         repo_files=repo_files,
-        now=datetime.now(BERLIN_TIMEZONE),
+        now=now,
         lookback_hours=args.lookback_hours,
         lookahead_hours=args.lookahead_hours,
     )
