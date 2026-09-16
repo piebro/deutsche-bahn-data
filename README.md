@@ -23,6 +23,8 @@ All timestamps in the dataset (both raw and monthly processed) are in German loc
 
 ## Changelog
 
+- **2026-09**: Added non-scheduled stops and replacement trains to the monthly data, plus three new columns: `is_additional_stop`, `is_replacement_train` and `replaced_train_number`. Previously the processed data only contained stops from the planned timetable, so extra stops (e.g. from diversions, marked `ps="a"` by the API) and replacement trains (a different train number running instead of a scheduled one, marked `t="e"` / linked via `<ref>`) were dropped entirely. They are now kept as their own rows, with the new columns making them easy to recognize. `replaced_train_number` links a replacement train back to the train it replaced. The raw data has contained this information since collection began, so all historical monthly files were reprocessed and the new columns are present in all data from 2024-07 onwards. Note that this slightly changes delay/cancellation statistics, because replacement trains and extra stops were previously counted as (partially) cancelled.
+
 - **2026-08**: Replaced the combined `is_canceled` column with `arrival_is_canceled` and `departure_is_canceled`. All historical monthly files are reprocessed with the new schema. The `is_canceled` column can easily be added again in scripts with `df["is_canceled"] = df["arrival_is_canceled"] | df["departure_is_canceled"]`.
 
 - **2026-07**: Some hours of data might be missing. The fetch job runs as a scheduled GitHub Actions cron job, and these runs can be delayed (or occasionally skipped) by GitHub, which in some cases caused an hour to be skipped or fetched twice. The fetch logic was updated to snap each run to a fixed 6-hour block so it is robust against scheduling delays going forward.
@@ -76,6 +78,9 @@ The monthly processed data contains the following columns:
 | `arrival_is_canceled` | boolean | Whether the arrival at the train stop was canceled |
 | `departure_is_canceled` | boolean | Whether the departure from the train stop was canceled |
 | `train_type` | string | Type of train (e.g., "ICE", "IC", "RE") |
+| `is_additional_stop` | boolean | Whether the stop is not on the scheduled path (e.g. from a diversion) and therefore only present in the change data |
+| `is_replacement_train` | boolean | Whether the train replaces a scheduled train run under a different train number |
+| `replaced_train_number` | string | Train number of the scheduled train that this stop replaces (null if not a replacement train) |
 | `train_line_ride_id` | string | Unique identifier for the train ride |
 | `train_line_station_num` | integer | Station number in the train's route |
 | `arrival_planned_time` | timestamp | Planned arrival time |

@@ -1,0 +1,11 @@
+timestamp,url,api_name,query_params,response_data,status_code,error,duration_ms,year,month,day
+2025-01-15 10:00:00,https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/08000105/250115/10,timetables/v1/plan,,"<?xml version=""1.0"" ?><timetable station=""Frankfurt (Main) Hbf"" eva=""08000105"">
+<s id=""PLAN-1678-2501151000-1""><tl c=""ICE"" n=""1678"" f=""d"" o=""08000105"" t=""p""/><ar pt=""2501151015"" pp=""1"" ppth=""Koblenz Hbf|Frankfurt (Main) Hbf|Berlin Hbf""/><dp pt=""2501151020"" pp=""1"" ppth=""Frankfurt (Main) Hbf|Berlin Hbf""/></s>
+<s id=""PLAN-700-2501151300-1""><tl c=""ICE"" n=""700"" f=""d"" o=""08000105"" t=""p""/><ar pt=""2501151315"" pp=""4""/><dp pt=""2501151320"" pp=""4"" ppth=""Frankfurt (Main) Hbf|Hamburg Hbf""/></s>
+</timetable>",200,,100.0,2025,1,15
+2025-01-15 10:00:00,https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/fchg/08000105,timetables/v1/fchg,,"<?xml version=""1.0"" ?><timetable station=""Frankfurt (Main) Hbf"" eva=""08000105"">
+<s id=""PLAN-1678-2501151000-1""><ar clt=""2501151015""/><dp clt=""2501151020""/></s>
+<s id=""REPL-2838-2501151000-1""><tl c=""ICE"" n=""2838"" t=""e""/><ar pt=""2501151015"" ct=""2501151022"" pp=""1"" ppth=""Koblenz Hbf|Frankfurt (Main) Hbf|Berlin Hbf""/><dp pt=""2501151020"" ct=""2501151025"" pp=""1"" ppth=""Frankfurt (Main) Hbf|Berlin Hbf""/><ref><tl c=""ICE"" n=""1678""/></ref></s>
+<s id=""REPL-555-2501151200-100""><tl c=""ICE"" n=""555"" t=""p""/><ar pt=""2501151230"" ct=""2501151240"" pp=""2"" ps=""a"" ppth=""Kassel Hbf|Frankfurt (Main) Hbf|Mannheim Hbf""/><dp pt=""2501151235"" ct=""2501151245"" pp=""2"" ps=""a"" ppth=""Frankfurt (Main) Hbf|Mannheim Hbf|Stuttgart Hbf""/></s>
+<s id=""PLAN-700-2501151300-1""><ar ct=""2501151318""/><dp ct=""2501151323""/></s>
+</timetable>",200,,100.0,2025,1,15

@@ -9,6 +9,12 @@ from scripts.create_monthly_data_release import main
     [
         ("test_scripts/test_data/valid_input.csv", "test_scripts/test_data/valid_expected.csv", 2025, 1),
         ("test_scripts/test_data/edge_cases_input.csv", "test_scripts/test_data/edge_cases_expected.csv", 2025, 1),
+        (
+            "test_scripts/test_data/additional_stops_input.csv",
+            "test_scripts/test_data/additional_stops_expected.csv",
+            2025,
+            1,
+        ),
     ],
 )
 def test_main(tmp_path, input_csv_path, expected_csv_path, year, month):
@@ -60,6 +66,9 @@ def test_main(tmp_path, input_csv_path, expected_csv_path, year, month):
             "arrival_is_canceled": bool,
             "departure_is_canceled": bool,
             "train_type": str,
+            "is_additional_stop": bool,
+            "is_replacement_train": bool,
+            "replaced_train_number": str,
             "train_line_ride_id": str,
             "train_line_station_num": "int32",
             "id": str,
@@ -80,5 +89,17 @@ def test_main(tmp_path, input_csv_path, expected_csv_path, year, month):
     # Normalize None/NaN so nullable string columns compare consistently
     output_df = output_df.where(output_df.notna(), other=None)
     expected_df = expected_df.where(expected_df.notna(), other=None)
+
+    # pandas 3.0 parses CSV timestamps as microseconds and reads ns parquet back as
+    # nanoseconds; normalize to a common resolution so only the values are compared.
+    for col in [
+        "time",
+        "arrival_planned_time",
+        "arrival_change_time",
+        "departure_planned_time",
+        "departure_change_time",
+    ]:
+        output_df[col] = output_df[col].astype("datetime64[ns]")
+        expected_df[col] = expected_df[col].astype("datetime64[ns]")
 
     pd.testing.assert_frame_equal(output_df, expected_df)

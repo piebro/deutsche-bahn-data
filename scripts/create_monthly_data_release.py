@@ -8,13 +8,59 @@ from pathlib import Path
 
 import duckdb
 import pandas as pd
+import pyarrow as pa
 from lxml import etree
 
 
-def to_datetime(datetime_str: str):
+def to_datetime(datetime_str: str | None) -> pd.Timestamp | None:
     if datetime_str is None:
         return None
     return pd.to_datetime(datetime_str, format="%y%m%d%H%M", errors="coerce")
+
+
+# Explicit pyarrow schemas for the plan/fchg batch parquet files. Every batch file of
+# the same kind is written with the same schema, so an all-None column (which pandas
+# would otherwise write with an unrelated inferred type, e.g. INTEGER) is always
+# stored as the intended type. This keeps DuckDB's multi-file glob reads and the
+# plan/fchg COALESCE merge type-consistent across all batches of a month.
+PLAN_SCHEMA = pa.schema(
+    [
+        pa.field("id", pa.string(), nullable=True),
+        pa.field("station_name", pa.string(), nullable=True),
+        pa.field("xml_station_name", pa.string(), nullable=True),
+        pa.field("eva", pa.string(), nullable=True),
+        pa.field("train_number", pa.string(), nullable=True),
+        pa.field("line_number", pa.string(), nullable=True),
+        pa.field("final_destination_station", pa.string(), nullable=True),
+        pa.field("train_type", pa.string(), nullable=True),
+        pa.field("arrival_planned_time", pa.timestamp("ns"), nullable=True),
+        pa.field("departure_planned_time", pa.timestamp("ns"), nullable=True),
+        pa.field("xml_timestamp", pa.timestamp("ns"), nullable=True),
+    ]
+)
+
+FCHG_SCHEMA = pa.schema(
+    [
+        pa.field("id", pa.string(), nullable=True),
+        pa.field("station_name", pa.string(), nullable=True),
+        pa.field("xml_station_name", pa.string(), nullable=True),
+        pa.field("eva", pa.string(), nullable=True),
+        pa.field("train_number", pa.string(), nullable=True),
+        pa.field("line_number", pa.string(), nullable=True),
+        pa.field("final_destination_station", pa.string(), nullable=True),
+        pa.field("train_type", pa.string(), nullable=True),
+        pa.field("replaced_train_number", pa.string(), nullable=True),
+        pa.field("arrival_planned_time", pa.timestamp("ns"), nullable=True),
+        pa.field("departure_planned_time", pa.timestamp("ns"), nullable=True),
+        pa.field("arrival_change_time", pa.timestamp("ns"), nullable=True),
+        pa.field("departure_change_time", pa.timestamp("ns"), nullable=True),
+        pa.field("arrival_is_canceled", pa.bool_(), nullable=True),
+        pa.field("departure_is_canceled", pa.bool_(), nullable=True),
+        pa.field("is_additional_stop", pa.bool_(), nullable=True),
+        pa.field("is_replacement_train", pa.bool_(), nullable=True),
+        pa.field("xml_timestamp", pa.timestamp("ns"), nullable=True),
+    ]
+)
 
 
 def get_plan_xml_rows(xml_string: str, eva: str, station_name: dict[str, str], xml_timestamp) -> list[dict]:
@@ -24,23 +70,27 @@ def get_plan_xml_rows(xml_string: str, eva: str, station_name: dict[str, str], x
     rows = []
     for s in root.findall("s"):
         s_id = s.get("id")
-        train_type = s.find("tl").get("c") if s.find("tl") is not None else None
+        tl = s.find("tl")
+        ar = s.find("ar")
+        dp = s.find("dp")
+
+        train_type = tl.get("c") if tl is not None else None
         # train_number is the Zugnummer (tl.n), identifying a specific train run
-        train_number = s.find("tl").get("n") if s.find("tl") is not None else None
+        train_number = tl.get("n") if tl is not None else None
         # line_number is the Liniennummer (ar.l / dp.l), identifying the route; it
         # groups multiple runs and is absent for long-distance trains (ICE/IC/EC).
-        ar_line = s.find("ar").get("l") if s.find("ar") is not None else None
-        dp_line = s.find("dp").get("l") if s.find("dp") is not None else None
+        ar_line = ar.get("l") if ar is not None else None
+        dp_line = dp.get("l") if dp is not None else None
         line_number = ar_line if ar_line is not None else dp_line
 
-        dp_ppth = s.find("dp").get("ppth") if s.find("dp") is not None else None  # departure planned path
+        dp_ppth = dp.get("ppth") if dp is not None else None  # departure planned path
         if dp_ppth is None:
             final_destination_station = station_name
         else:
             final_destination_station = dp_ppth.split("|")[-1]
 
-        ar_pt = s.find("ar").get("pt") if s.find("ar") is not None else None
-        dp_pt = s.find("dp").get("pt") if s.find("dp") is not None else None
+        ar_pt = ar.get("pt") if ar is not None else None
+        dp_pt = dp.get("pt") if dp is not None else None
 
         rows.append(
             {
@@ -69,34 +119,91 @@ def get_plan_db(xml_df, eva_to_station):
             eva = row.url.removeprefix(prefix).split("/")[0]
             rows.extend(get_plan_xml_rows(row.response_data, eva, eva_to_station.get(eva, None), row.timestamp))
 
-    plan_df = pd.DataFrame(rows)
-    return plan_df
+    return pd.DataFrame(rows)
 
 
-def get_fchg_xml_rows(xml_string: str, xml_timestamp) -> list[dict]:
+def get_fchg_xml_rows(xml_string: str, eva: str, station_name: dict[str, str], xml_timestamp) -> list[dict]:
     root = etree.fromstring(xml_string.encode())
+    xml_station_name = root.get("station")
 
     rows = []
     for s in root.findall("s"):
         s_id = s.get("id")
-        ar_ct = s.find("ar").get("ct") if s.find("ar") is not None else None  # arrival change
-        dp_ct = s.find("dp").get("ct") if s.find("dp") is not None else None  # departure change
-        ar_clt = s.find("ar").get("clt") if s.find("ar") is not None else None  # arrival cancellation time
-        dp_clt = s.find("dp").get("clt") if s.find("dp") is not None else None  # departure cancellation time
+        tl = s.find("tl")
+        ar = s.find("ar")
+        dp = s.find("dp")
+
+        train_type = tl.get("c") if tl is not None else None
+        # train_number is the Zugnummer (tl.n). For replacement trains this is the
+        # number of the train that actually ran (t="e"), not the planned one.
+        train_number = tl.get("n") if tl is not None else None
+        tl_t = tl.get("t") if tl is not None else None
+        ar_line = ar.get("l") if ar is not None else None
+        dp_line = dp.get("l") if dp is not None else None
+        line_number = ar_line if ar_line is not None else dp_line
+
+        # ps="a" marks a stop that is not on the scheduled path (extra/diversion stop).
+        ar_ps = ar.get("ps") if ar is not None else None
+        dp_ps = dp.get("ps") if dp is not None else None
+        is_additional_stop = ar_ps == "a" or dp_ps == "a"
+
+        # Replacement trains carry a <ref> element pointing at the train they replace.
+        ref = s.find("ref")
+        is_replacement_train = tl_t == "e" or ref is not None
+        replaced_train_number = None
+        if ref is not None:
+            ref_tl = ref.find("tl")
+            if ref_tl is not None:
+                replaced_train_number = ref_tl.get("n")
+
+        dp_ppth = dp.get("ppth") if dp is not None else None  # departure planned path
+        if dp_ppth is None:
+            final_destination_station = station_name
+        else:
+            final_destination_station = dp_ppth.split("|")[-1]
+
+        ar_ct = ar.get("ct") if ar is not None else None  # arrival change
+        dp_ct = dp.get("ct") if dp is not None else None  # departure change
+        ar_clt = ar.get("clt") if ar is not None else None  # arrival cancellation time
+        dp_clt = dp.get("clt") if dp is not None else None  # departure cancellation time
+        # For extra and replacement stops the planned time (pt) is present in fchg itself.
+        ar_pt = ar.get("pt") if ar is not None else None  # arrival planned
+        dp_pt = dp.get("pt") if dp is not None else None  # departure planned
 
         arrival_is_canceled = ar_clt is not None
         departure_is_canceled = dp_clt is not None
 
-        if ar_ct is None and dp_ct is None and not arrival_is_canceled and not departure_is_canceled:
+        # Only keep rows that carry actual stop information: a changed/canceled time,
+        # an extra stop, or a replacement train. Discard pure info/message rows.
+        if (
+            ar_ct is None
+            and dp_ct is None
+            and not arrival_is_canceled
+            and not departure_is_canceled
+            and not is_additional_stop
+            and not is_replacement_train
+        ):
             continue
 
         rows.append(
             {
                 "id": s_id,
+                "station_name": station_name,
+                "xml_station_name": xml_station_name,
+                "eva": eva,
+                "train_number": train_number,
+                "line_number": line_number,
+                "final_destination_station": final_destination_station,
+                "train_type": train_type,
+                "arrival_planned_time": to_datetime(ar_pt),
+                "departure_planned_time": to_datetime(dp_pt),
                 "arrival_change_time": to_datetime(ar_ct),
                 "departure_change_time": to_datetime(dp_ct),
                 "arrival_is_canceled": arrival_is_canceled,
                 "departure_is_canceled": departure_is_canceled,
+                "is_additional_stop": is_additional_stop,
+                "is_replacement_train": is_replacement_train,
+                "replaced_train_number": replaced_train_number,
                 "xml_timestamp": xml_timestamp,
             }
         )
@@ -109,10 +216,11 @@ def get_fchg_db(xml_df, eva_to_station):
     rows = []
     for row in raw_fchg_df.itertuples():
         if row.response_data:
-            rows.extend(get_fchg_xml_rows(row.response_data, row.timestamp))
+            prefix = "https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/fchg/"
+            eva = row.url.removeprefix(prefix).split("/")[0]
+            rows.extend(get_fchg_xml_rows(row.response_data, eva, eva_to_station.get(eva, None), row.timestamp))
 
-    fchg_df = pd.DataFrame(rows)
-    return fchg_df
+    return pd.DataFrame(rows)
 
 
 def get_parquet_files(year: int, month: int):
@@ -169,14 +277,14 @@ def process_files_to_temp(parquet_files: list[Path], eva_to_station: dict[str, s
         plan_df = get_plan_db(xml_df, eva_to_station)
         if len(plan_df) > 0:
             plan_output = plan_dir / f"batch_{i:05d}.parquet"
-            plan_df.to_parquet(plan_output, index=False)
+            plan_df.to_parquet(plan_output, index=False, schema=PLAN_SCHEMA)
             total_plan_count += len(plan_df)
 
         # Process fchg data
         fchg_df = get_fchg_db(xml_df, eva_to_station)
         if len(fchg_df) > 0:
             fchg_output = fchg_dir / f"batch_{i:05d}.parquet"
-            fchg_df.to_parquet(fchg_output, index=False)
+            fchg_df.to_parquet(fchg_output, index=False, schema=FCHG_SCHEMA)
             total_fchg_count += len(fchg_df)
 
         # Clear memory
@@ -232,31 +340,46 @@ def main(year: int, month: int, parquet_files, eva_to_station: dict, output_dir:
             fchg_deduped AS (
                 SELECT DISTINCT ON (id)
                     id,
+                    station_name,
+                    xml_station_name,
+                    eva,
+                    train_number,
+                    line_number,
+                    final_destination_station,
+                    train_type,
+                    arrival_planned_time,
+                    departure_planned_time,
                     arrival_change_time,
                     departure_change_time,
                     arrival_is_canceled,
-                    departure_is_canceled
+                    departure_is_canceled,
+                    is_additional_stop,
+                    is_replacement_train,
+                    replaced_train_number
                 FROM '{fchg_pattern}'
                 ORDER BY id, xml_timestamp DESC
             ),
             merged AS (
                 SELECT
-                    p.id,
-                    p.station_name,
-                    p.xml_station_name,
-                    p.eva,
-                    p.train_number,
-                    p.line_number,
-                    p.final_destination_station,
-                    p.train_type,
-                    p.arrival_planned_time,
-                    p.departure_planned_time,
-                    COALESCE(f.arrival_change_time, p.arrival_planned_time) AS arrival_change_time,
-                    COALESCE(f.departure_change_time, p.departure_planned_time) AS departure_change_time,
+                    COALESCE(p.id, f.id) AS id,
+                    COALESCE(p.station_name, f.station_name) AS station_name,
+                    COALESCE(p.xml_station_name, f.xml_station_name) AS xml_station_name,
+                    COALESCE(p.eva, f.eva) AS eva,
+                    COALESCE(p.train_number, f.train_number) AS train_number,
+                    COALESCE(p.line_number, f.line_number) AS line_number,
+                    COALESCE(p.final_destination_station, f.final_destination_station) AS final_destination_station,
+                    COALESCE(p.train_type, f.train_type) AS train_type,
+                    COALESCE(p.arrival_planned_time, f.arrival_planned_time) AS arrival_planned_time,
+                    COALESCE(p.departure_planned_time, f.departure_planned_time) AS departure_planned_time,
+                    COALESCE(f.arrival_change_time, p.arrival_planned_time, f.arrival_planned_time) AS arrival_change_time,
+                    COALESCE(f.departure_change_time, p.departure_planned_time, f.departure_planned_time) AS departure_change_time,
                     COALESCE(f.arrival_is_canceled, false) AS arrival_is_canceled,
-                    COALESCE(f.departure_is_canceled, false) AS departure_is_canceled
+                    COALESCE(f.departure_is_canceled, false) AS departure_is_canceled,
+                    COALESCE(f.is_additional_stop, false) AS is_additional_stop,
+                    COALESCE(f.is_replacement_train, false) AS is_replacement_train,
+                    f.replaced_train_number AS replaced_train_number
                 FROM plan_deduped p
-                LEFT JOIN fchg_deduped f ON p.id = f.id
+                FULL OUTER JOIN fchg_deduped f ON p.id = f.id
             ),
             transformed AS (
                 SELECT
@@ -274,6 +397,9 @@ def main(year: int, month: int, parquet_files, eva_to_station: dict, output_dir:
                     arrival_is_canceled,
                     departure_is_canceled,
                     train_type,
+                    is_additional_stop,
+                    is_replacement_train,
+                    replaced_train_number,
                     regexp_extract(id, '^(.*)-\\d{{10}}-\\d+$', 1) AS train_line_ride_id,
                     CAST(split_part(id, '-', -1) AS INTEGER) AS train_line_station_num,
                     arrival_planned_time,

@@ -4,7 +4,8 @@ import json
 import logging
 from datetime import datetime
 
-from db_data_fetcher import fetch_and_save
+# run as `python scripts/...` so scripts/ is on sys.path
+from db_data_fetcher import fetch_and_save  # ty: ignore[unresolved-import]
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
