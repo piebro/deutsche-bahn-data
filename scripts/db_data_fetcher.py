@@ -5,7 +5,7 @@ import os
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
-from typing import Any
+from typing import Any, TypedDict, cast
 from urllib.parse import urlencode
 
 import aiohttp
@@ -55,6 +55,13 @@ class QueryResult:
     status_code: int | None
     error: str | None
     duration_ms: float
+
+
+class _FetchResponse(TypedDict):
+    """Body text and HTTP status of a single fetched response."""
+
+    data: str
+    status: int
 
 
 class _DBApiClient:
@@ -198,7 +205,7 @@ class _DBApiClient:
         self,
         session: aiohttp.ClientSession,
         url: str,
-    ) -> dict[str, str | int]:
+    ) -> _FetchResponse:
         """Fetch with exponential backoff retry logic."""
 
         @retry(
@@ -284,7 +291,8 @@ def _save_to_parquet(
         ]
     )
 
-    for (year, month, day), partition_df in df.groupby(["year", "month", "day"]):
+    for group, partition_df in df.groupby(["year", "month", "day"]):
+        year, month, day = cast(tuple[int, int, int], group)
         partition_dir = output_path / f"year={year}" / f"month={month}" / f"day={day}"
         partition_dir.mkdir(parents=True, exist_ok=True)
 

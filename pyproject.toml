@@ -18,16 +18,14 @@ dependencies = [
     "pyarrow>=22.0.0",
     "lxml>=6.0.0",
     "duckdb>=1.4.0",
-    "pre-commit>=4.3.0",
-    "ruff>=0.12.10",
     "jupyterlab>=3.6.8",
     "ipynbname>=2025.8.0.0",
-    "pytest>=9.0.0",
     "plotly>=6.3.0",
     "htpy>=0.9.0",
     "jinja2>=3.1.0",
     "matplotlib>=3.10.8",
     "tqdm>=4.67.1",
+    "huggingface-hub>=1.31.0",
 ]
 
 [project.urls]
@@ -54,4 +52,19 @@ indent-style = "space"
 
 [tool.pytest.ini_options]
 pythonpath = ["."]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.3.0",
+    "ruff>=0.12.10",
+    "pytest>=9.0.0",
+    "ty>=0.0.81",
+    "lxml-stubs>=0.5.1",
+]
+
+[tool.ty]
+# Notebooks run with the notebooks/ dir as a module search path, so
+# `from src.to_html import ...` resolves to notebooks/src/to_html.py.
+environment.extra-paths = ["notebooks"]
+
 
