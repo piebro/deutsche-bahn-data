@@ -83,11 +83,11 @@ def get_plan_xml_rows(xml_string: str, eva: str, station_name: dict[str, str], x
         dp_line = dp.get("l") if dp is not None else None
         line_number = ar_line if ar_line is not None else dp_line
 
-        dp_ppth = dp.get("ppth") if dp is not None else None  # departure planned path
-        if dp_ppth is None:
-            final_destination_station = station_name
-        else:
-            final_destination_station = dp_ppth.split("|")[-1]
+        # final_destination_station is derived from dp.ppth (departure planned path); it
+        # stays None when ppth is unavailable, rather than falling back to the current
+        # station, so that change-only rows don't falsely look like they terminate here.
+        dp_ppth = dp.get("ppth") if dp is not None else None
+        final_destination_station = dp_ppth.split("|")[-1] if dp_ppth is not None else None
 
         ar_pt = ar.get("pt") if ar is not None else None
         dp_pt = dp.get("pt") if dp is not None else None
@@ -156,11 +156,11 @@ def get_fchg_xml_rows(xml_string: str, eva: str, station_name: dict[str, str], x
             if ref_tl is not None:
                 replaced_train_number = ref_tl.get("n")
 
-        dp_ppth = dp.get("ppth") if dp is not None else None  # departure planned path
-        if dp_ppth is None:
-            final_destination_station = station_name
-        else:
-            final_destination_station = dp_ppth.split("|")[-1]
+        # final_destination_station is derived from dp.ppth (departure planned path); it
+        # stays None when ppth is unavailable (e.g. change-only rows where the plan data
+        # is missing), rather than falling back to the current station.
+        dp_ppth = dp.get("ppth") if dp is not None else None
+        final_destination_station = dp_ppth.split("|")[-1] if dp_ppth is not None else None
 
         ar_ct = ar.get("ct") if ar is not None else None  # arrival change
         dp_ct = dp.get("ct") if dp is not None else None  # departure change
