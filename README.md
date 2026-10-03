@@ -15,13 +15,15 @@ Four times a day an automatic job is started that calls the [Station Data API](h
 
 The data is licensed as [(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) by Deutsche Bahn.
 
-The data is available as raw_data (basically the raw return of all the queries) and the monthly process data, which get automatically published each month and makes the raw data more usable. The data can be downloaded from huggingface here: https://huggingface.co/datasets/piebro/deutsche-bahn-data
+The data is available as raw API responses, monthly parsed timetable snapshots, and monthly processed stop data. The data can be downloaded from huggingface here: https://huggingface.co/datasets/piebro/deutsche-bahn-data
 
 Data of the biggest ~100 stations is available from 2024-07 to 2025-11-02 and since then until now for all stations.
 
-All timestamps in the dataset (both raw and monthly processed) are in German local time (Europe/Berlin, i.e. CET/CEST) as returned by the Deutsche Bahn Timetables API. No timezone conversion is applied during processing.
+All timestamps in the raw, parsed, and processed datasets are in German local time (Europe/Berlin, i.e. CET/CEST) as returned by the Deutsche Bahn Timetables API. No timezone conversion is applied during processing.
 
 ## Changelog
+
+- **2026-10**: Split monthly processing into an XML parsing stage and a stop-table building stage. Parsed plan and change snapshots are now published in `monthly_parsed_data`. Columns `replaced_train_type` and `has_plan_record` were added to the monthly processed data. Cancellation flags now respect the latest change status, so reinstated events (`cs="p"`) are no longer marked as canceled, and an empty planned departure path now produces a null `final_destination_station` instead of an empty string.
 
 - **2026-09**: Added non-scheduled stops and replacement trains to the monthly data, plus three new columns: `is_additional_stop`, `is_replacement_train` and `replaced_train_number`. Previously the processed data only contained stops from the planned timetable, so extra stops (e.g. from diversions, marked `ps="a"` by the API) and replacement trains (a different train number running instead of a scheduled one, marked `t="e"` / linked via `<ref>`) were dropped entirely. They are now kept as their own rows, with the new columns making them easy to recognize. `replaced_train_number` links a replacement train back to the train it replaced. The raw data has contained this information since collection began, so all historical monthly files were reprocessed and the new columns are present in all data from 2024-07 onwards. Note that this slightly changes delay/cancellation statistics, because replacement trains and extra stops were previously counted as (partially) cancelled.
 
@@ -55,11 +57,33 @@ You can download the data from huggingface manually or use the following cmds to
 curl -LsSf https://astral.sh/uv/install.sh | sh
 # Download the monthly releases:
 uv run --with "huggingface-hub" hf download piebro/deutsche-bahn-data --repo-type=dataset --local-dir=. --include "monthly_processed_data/*"
+# Download the parsed monthly plan and change data:
+uv run --with "huggingface-hub" hf download piebro/deutsche-bahn-data --repo-type=dataset --local-dir=. --include "monthly_parsed_data/*"
 # Download all data:
 uv run --with "huggingface-hub" hf download piebro/deutsche-bahn-data --repo-type=dataset --local-dir=.
 ```
 
 Once the parquet files are downloaded you can use your favorite language and framework to work with the data.
+
+### Monthly Parsed Data
+
+The parsed data contains one row per train stop and API snapshot. Unlike the processed data, snapshots are not deduplicated. Files include the target month plus the adjacent boundary-day responses needed to process trains crossing midnight:
+
+```text
+monthly_parsed_data/plan/data-YYYY-MM.parquet
+monthly_parsed_data/fchg/data-YYYY-MM.parquet
+```
+
+The parsed schemas are:
+
+- Common: `id`, `eva`, `station_name`, `xml_station_name`, `snapshot_timestamp`, and `train_type`, `train_number`, `train_label_type`, `train_owner`, `train_filter_flags`.
+- Plan events: arrival and departure `planned_time`, `planned_path`, `planned_platform`, `planned_status`, `line_number`, `planned_distant_endpoint`, `transition`, and `wings`.
+- Change events: all plan-event fields plus `change_time`, `cancellation_time`, `change_path`, `change_platform`, and `change_status`.
+- Replacement reference: `replaced_train_type`, `replaced_train_number`, `replaced_train_label_type`, `replaced_train_owner`, and `replaced_train_filter_flags` in change data.
+
+Event columns have an `arrival_` or `departure_` prefix. Paths are ordered lists of station names. `id`, `eva`, and `snapshot_timestamp` are non-nullable; other fields may be null because XML records are sparse.
+
+`snapshot_timestamp` is the API request time. Combining adjacent monthly files can produce duplicate `(id, snapshot_timestamp)` rows because their boundary-day inputs overlap. Request diagnostics and informational `<m>` messages remain in the raw data only.
 
 ### Monthly Release Data Schema
 
@@ -80,7 +104,9 @@ The monthly processed data contains the following columns:
 | `train_type` | string | Type of train (e.g., "ICE", "IC", "RE") |
 | `is_additional_stop` | boolean | Whether the stop is not on the scheduled path (e.g. from a diversion) and therefore only present in the change data |
 | `is_replacement_train` | boolean | Whether the train replaces a scheduled train run under a different train number |
+| `replaced_train_type` | string | Type of the scheduled train that this stop replaces (null if not a replacement train) |
 | `replaced_train_number` | string | Train number of the scheduled train that this stop replaces (null if not a replacement train) |
+| `has_plan_record` | boolean | Whether a plan snapshot with the same stop ID was available. `false` means the row exists only in change data, so the plan data will be missing. |
 | `train_line_ride_id` | string | Unique identifier for the train ride |
 | `train_line_station_num` | integer | Station number in the train's route |
 | `arrival_planned_time` | timestamp | Planned arrival time |
