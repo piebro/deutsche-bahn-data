@@ -91,9 +91,15 @@ def main(year: int, month: int, plan_file: Path, fchg_file: Path, output_dir: Pa
                         f.arrival_line_number,
                         f.departure_line_number
                     ) AS line_number,
-                    -- Keep the destination unknown when no departure planned path exists.
-                    list_extract(COALESCE(p.departure_planned_path, f.departure_planned_path), -1)
-                        AS final_destination_station,
+                    COALESCE(
+                        list_extract(COALESCE(p.departure_planned_path, f.departure_planned_path), -1),
+                        -- A planned arrival without a planned departure identifies a terminal stop.
+                        CASE
+                            WHEN p.arrival_planned_time IS NOT NULL
+                                AND p.departure_planned_time IS NULL
+                            THEN COALESCE(p.station_name, p.xml_station_name)
+                        END
+                    ) AS final_destination_station,
                     COALESCE(p.train_type, f.train_type) AS train_type,
                     COALESCE(p.arrival_planned_time, f.arrival_planned_time) AS arrival_planned_time,
                     COALESCE(p.departure_planned_time, f.departure_planned_time) AS departure_planned_time,
