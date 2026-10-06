@@ -177,11 +177,10 @@ if __name__ == "__main__":
 
     input_year = int(sys.argv[1])
     input_month = int(sys.argv[2])
-    parsed_dir = Path("monthly_parsed_data")
     main(
         input_year,
         input_month,
-        parsed_dir / "plan" / f"data-{input_year}-{input_month:02d}.parquet",
-        parsed_dir / "fchg" / f"data-{input_year}-{input_month:02d}.parquet",
+        Path("monthly_processed_data_plan") / f"data-{input_year}-{input_month:02d}.parquet",
+        Path("monthly_processed_data_change") / f"data-{input_year}-{input_month:02d}.parquet",
         Path("monthly_processed_data"),
     )

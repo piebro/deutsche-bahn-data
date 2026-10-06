@@ -45,15 +45,15 @@ uv run python scripts/parse_monthly_xml.py "$YEAR" "$MONTH_NO_ZERO"
 echo "Building monthly stop data..."
 uv run python scripts/create_monthly_data_release.py "$YEAR" "$MONTH_NO_ZERO"
 
-PLAN_FILE="monthly_parsed_data/plan/data-$YEAR-$MONTH_PADDED.parquet"
-FCHG_FILE="monthly_parsed_data/fchg/data-$YEAR-$MONTH_PADDED.parquet"
+PLAN_FILE="monthly_processed_data_plan/data-$YEAR-$MONTH_PADDED.parquet"
+CHANGE_FILE="monthly_processed_data_change/data-$YEAR-$MONTH_PADDED.parquet"
 DATA_FILE="monthly_processed_data/data-$YEAR-$MONTH_PADDED.parquet"
 
 echo "Uploading monthly parsed and processed data..."
 uv run --with "huggingface_hub[cli]" hf upload "$REPO_ID" . . \
     --repo-type=dataset \
     --include "$PLAN_FILE" \
-    --include "$FCHG_FILE" \
+    --include "$CHANGE_FILE" \
     --include "$DATA_FILE" \
     --commit-message="Monthly data release for $YEAR-$MONTH_PADDED - $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
 

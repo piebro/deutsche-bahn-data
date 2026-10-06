@@ -48,13 +48,13 @@ def test_monthly_pipeline(tmp_path, input_csv_path, expected_csv_path, year, mon
     # Create minimal eva_to_station dict with only what's needed for the test
     eva_to_station = {"08000105": "Frankfurt (Main) Hbf"}
 
-    parsed_dir = tmp_path / "monthly_parsed_data"
     plan_file, fchg_file = parse_monthly_xml(
         year,
         month,
         [test_parquet_file],
         eva_to_station,
-        output_dir=parsed_dir,
+        plan_dir=tmp_path / "monthly_processed_data_plan",
+        change_dir=tmp_path / "monthly_processed_data_change",
     )
 
     assert pq.read_schema(plan_file) == PLAN_SCHEMA
@@ -172,7 +172,8 @@ def test_parser_keeps_every_snapshot(tmp_path):
         1,
         [test_parquet_file],
         {"08000105": "Frankfurt (Main) Hbf"},
-        output_dir=tmp_path / "monthly_parsed_data",
+        plan_dir=tmp_path / "monthly_processed_data_plan",
+        change_dir=tmp_path / "monthly_processed_data_change",
     )
 
     plan_df = pd.read_parquet(plan_file)
@@ -206,7 +207,8 @@ def test_reinstated_stop_is_not_canceled(tmp_path):
         1,
         [test_parquet_file],
         {"08000105": "Frankfurt (Main) Hbf"},
-        output_dir=tmp_path / "monthly_parsed_data",
+        plan_dir=tmp_path / "monthly_processed_data_plan",
+        change_dir=tmp_path / "monthly_processed_data_change",
     )
     output_file = create_monthly_data_release(2025, 1, plan_file, fchg_file, output_dir=tmp_path)
     output_df = pd.read_parquet(output_file).set_index("id")

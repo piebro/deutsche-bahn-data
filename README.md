@@ -23,7 +23,7 @@ All timestamps in the raw, parsed, and processed datasets are in German local ti
 
 ## Changelog
 
-- **2026-10**: Split monthly processing into an XML parsing stage and a stop-table building stage. Parsed plan and change snapshots are now published in `monthly_parsed_data`. Columns `replaced_train_type` and `has_plan_record` were added to the monthly processed data. Cancellation flags now respect the latest change status, so reinstated events (`cs="p"`) are no longer marked as canceled. A missing planned departure path produces a null `final_destination_station`, except at real terminal stops.
+- **2026-10**: Split monthly processing into an XML parsing stage and a stop-table building stage. Parsed plan and change snapshots are now published in `monthly_processed_data_plan` and `monthly_processed_data_change`. Columns `replaced_train_type` and `has_plan_record` were added to the monthly processed data. Cancellation flags now respect the latest change status, so reinstated events (`cs="p"`) are no longer marked as canceled. A missing planned departure path produces a null `final_destination_station`, except at real terminal stops.
 
 - **2026-09**: Added non-scheduled stops and replacement trains to the monthly data, plus three new columns: `is_additional_stop`, `is_replacement_train` and `replaced_train_number`. Previously the processed data only contained stops from the planned timetable, so extra stops (e.g. from diversions, marked `ps="a"` by the API) and replacement trains (a different train number running instead of a scheduled one, marked `t="e"` / linked via `<ref>`) were dropped entirely. They are now kept as their own rows, with the new columns making them easy to recognize. `replaced_train_number` links a replacement train back to the train it replaced. The raw data has contained this information since collection began, so all historical monthly files were reprocessed and the new columns are present in all data from 2024-07 onwards. Note that this slightly changes delay/cancellation statistics, because replacement trains and extra stops were previously counted as (partially) cancelled.
 
@@ -58,7 +58,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 # Download the monthly releases:
 uv run --with "huggingface-hub" hf download piebro/deutsche-bahn-data --repo-type=dataset --local-dir=. --include "monthly_processed_data/*"
 # Download the parsed monthly plan and change data:
-uv run --with "huggingface-hub" hf download piebro/deutsche-bahn-data --repo-type=dataset --local-dir=. --include "monthly_parsed_data/*"
+uv run --with "huggingface-hub" hf download piebro/deutsche-bahn-data --repo-type=dataset --local-dir=. --include "monthly_processed_data_plan/*" --include "monthly_processed_data_change/*"
 # Download all data:
 uv run --with "huggingface-hub" hf download piebro/deutsche-bahn-data --repo-type=dataset --local-dir=.
 ```
@@ -70,8 +70,8 @@ Once the parquet files are downloaded you can use your favorite language and fra
 The parsed data contains one row per train stop and API snapshot. Unlike the processed data, snapshots are not deduplicated. Files include the target month plus the adjacent boundary-day responses needed to process trains crossing midnight:
 
 ```text
-monthly_parsed_data/plan/data-YYYY-MM.parquet
-monthly_parsed_data/fchg/data-YYYY-MM.parquet
+monthly_processed_data_plan/data-YYYY-MM.parquet
+monthly_processed_data_change/data-YYYY-MM.parquet
 ```
 
 The parsed schemas are:

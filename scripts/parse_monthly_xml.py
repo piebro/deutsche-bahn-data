@@ -249,16 +249,15 @@ def main(
     month: int,
     parquet_files: list[Path],
     eva_to_station: dict[str, str],
-    output_dir: Path,
+    plan_dir: Path,
+    change_dir: Path,
 ) -> tuple[Path, Path]:
     start_time = time.time()
-    plan_dir = output_dir / "plan"
-    fchg_dir = output_dir / "fchg"
     plan_dir.mkdir(parents=True, exist_ok=True)
-    fchg_dir.mkdir(parents=True, exist_ok=True)
+    change_dir.mkdir(parents=True, exist_ok=True)
 
     plan_output = plan_dir / f"data-{year}-{month:02d}.parquet"
-    fchg_output = fchg_dir / f"data-{year}-{month:02d}.parquet"
+    fchg_output = change_dir / f"data-{year}-{month:02d}.parquet"
     plan_temp = plan_output.with_suffix(".tmp.parquet")
     fchg_temp = fchg_output.with_suffix(".tmp.parquet")
     plan_temp.unlink(missing_ok=True)
@@ -323,4 +322,11 @@ if __name__ == "__main__":
     input_month = int(sys.argv[2])
     station_names = json.loads(Path("config/eva_to_station_name.json").read_text())
     input_files = get_parquet_files(input_year, input_month)
-    main(input_year, input_month, input_files, station_names, Path("monthly_parsed_data"))
+    main(
+        input_year,
+        input_month,
+        input_files,
+        station_names,
+        Path("monthly_processed_data_plan"),
+        Path("monthly_processed_data_change"),
+    )
