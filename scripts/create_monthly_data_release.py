@@ -27,7 +27,9 @@ def main(year: int, month: int, plan_file: Path, fchg_file: Path, output_dir: Pa
                     train_number,
                     arrival_line_number,
                     departure_line_number,
-                    departure_planned_path,
+                    -- Only the destination is needed; deduplicating full path lists uses far more memory.
+                    list_extract(departure_planned_path, -1) AS departure_planned_destination,
+                    departure_planned_path IS NOT NULL AS has_departure_planned_path,
                     train_type,
                     arrival_planned_time,
                     departure_planned_time
@@ -43,7 +45,8 @@ def main(year: int, month: int, plan_file: Path, fchg_file: Path, output_dir: Pa
                     train_number,
                     arrival_line_number,
                     departure_line_number,
-                    departure_planned_path,
+                    list_extract(departure_planned_path, -1) AS departure_planned_destination,
+                    departure_planned_path IS NOT NULL AS has_departure_planned_path,
                     train_type,
                     train_label_type,
                     arrival_planned_time,
@@ -92,7 +95,10 @@ def main(year: int, month: int, plan_file: Path, fchg_file: Path, output_dir: Pa
                         f.departure_line_number
                     ) AS line_number,
                     COALESCE(
-                        list_extract(COALESCE(p.departure_planned_path, f.departure_planned_path), -1),
+                        CASE
+                            WHEN p.has_departure_planned_path THEN p.departure_planned_destination
+                            ELSE f.departure_planned_destination
+                        END,
                         -- A planned arrival without a planned departure identifies a terminal stop.
                         CASE
                             WHEN p.arrival_planned_time IS NOT NULL
