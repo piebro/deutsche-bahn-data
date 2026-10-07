@@ -10,10 +10,14 @@ on:
         description: 'Rebuild and re-upload ALL months (instead of just last month)'
         type: boolean
         default: false
+      months:
+        description: 'Rebuild and re-upload only these months, comma separated YYYY-MM (e.g. 2025-11, 2025-12)'
+        type: string
+        default: ''
 
 jobs:
   monthly-release:
-    if: ${{ inputs.rebuild_all != true }}
+    if: ${{ !inputs.rebuild_all && !inputs.months }}
     runs-on: ubuntu-latest
 
     steps:
@@ -33,35 +37,74 @@ jobs:
           PREV_MONTH=$(date -u -d "last month" +"%m")
           bash scripts/process_month.sh "$PREV_YEAR" "$PREV_MONTH"
 
-  # Emits the list of months (2024-07 through last month) as a JSON array
-  # so rebuild-all below can fan out into one job per month.
+  # Emits the months to rebuild as a JSON array so rebuild below can fan out
+  # into one job per month: either the given months input or, with
+  # rebuild_all, every month from 2024-07 through last month.
   list-months:
-    if: ${{ inputs.rebuild_all == true }}
+    if: ${{ inputs.rebuild_all || inputs.months }}
     runs-on: ubuntu-latest
     outputs:
       matrix: ${{ steps.generate.outputs.matrix }}
     steps:
       - id: generate
+        env:
+          REBUILD_ALL: ${{ inputs.rebuild_all }}
+          MONTHS_INPUT: ${{ inputs.months }}
         run: |
-          Y=2024
-          M=7
+          START_YM="2024-07"
           END_YM=$(date -u -d "last month" +"%Y-%m")
-          months=""
-          while :; do
-              YM=$(printf "%d-%02d" "$Y" "$M")
-              [[ "$YM" > "$END_YM" ]] && break
-              months+="\"$YM\","
-              M=$((M + 1))
-              (( M > 12 )) && { M=1; Y=$((Y + 1)); }
-          done
-          matrix="[${months%,}]"
+
+          if [[ "$REBUILD_ALL" == "true" && -n "$MONTHS_INPUT" ]]; then
+              echo "::error::Set either rebuild_all or months, not both"
+              exit 1
+          fi
+
+          selected=()
+          if [[ "$REBUILD_ALL" == "true" ]]; then
+              Y=2024
+              M=7
+              while :; do
+                  YM=$(printf "%d-%02d" "$Y" "$M")
+                  [[ "$YM" > "$END_YM" ]] && break
+                  selected+=("$YM")
+                  M=$((M + 1))
+                  (( M > 12 )) && { M=1; Y=$((Y + 1)); }
+              done
+          else
+              # Accept commas and/or whitespace as separators and normalize to YYYY-MM.
+              set -f
+              for item in ${MONTHS_INPUT//,/ }; do
+                  if [[ ! "$item" =~ ^([0-9]{4})-([0-9]{1,2})$ ]]; then
+                      echo "::error::Invalid month '$item', expected YYYY-MM"
+                      exit 1
+                  fi
+                  M=$((10#${BASH_REMATCH[2]}))
+                  if (( M < 1 || M > 12 )); then
+                      echo "::error::Invalid month '$item', month must be 1-12"
+                      exit 1
+                  fi
+                  YM=$(printf "%s-%02d" "${BASH_REMATCH[1]}" "$M")
+                  if [[ "$YM" < "$START_YM" || "$YM" > "$END_YM" ]]; then
+                      echo "::error::Month '$YM' is outside $START_YM to $END_YM"
+                      exit 1
+                  fi
+                  selected+=("$YM")
+              done
+              if (( ${#selected[@]} == 0 )); then
+                  echo "::error::No months given"
+                  exit 1
+              fi
+              mapfile -t selected < <(printf "%s\n" "${selected[@]}" | sort -u)
+          fi
+
+          matrix=$(printf '"%s",' "${selected[@]}")
+          matrix="[${matrix%,}]"
           echo "Matrix: $matrix"
           echo "matrix=$matrix" >> "$GITHUB_OUTPUT"
 
   # One job per month, run sequentially so concurrent hf uploads don't race
   # on the same dataset repo. Each job gets its own fresh 6h timer.
-  rebuild-all:
-    if: ${{ inputs.rebuild_all == true }}
+  rebuild:
     needs: list-months
     runs-on: ubuntu-latest
     strategy:
